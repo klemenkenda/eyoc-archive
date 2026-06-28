@@ -14,33 +14,33 @@
       "M16": {
         "place": "Lokve",
         "map_name": null,
-        "distance_km": 5.53,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 5.5,
+        "elevation_m": 310,
+        "control_points": 14,
         "field_size": 95
       },
       "M18": {
         "place": "Lokve",
         "map_name": null,
-        "distance_km": 6.69,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 6.7,
+        "elevation_m": 360,
+        "control_points": 20,
         "field_size": 101
       },
       "W16": {
         "place": "Lokve",
         "map_name": null,
-        "distance_km": 4.51,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 4.5,
+        "elevation_m": 285,
+        "control_points": 13,
         "field_size": 97
       },
       "W18": {
         "place": "Lokve",
         "map_name": null,
         "distance_km": 5.7,
-        "elevation_m": null,
-        "control_points": null,
+        "elevation_m": 345,
+        "control_points": 16,
         "field_size": 104
       }
     }
@@ -52,33 +52,33 @@
       "M16": {
         "place": "Nova Gorica",
         "map_name": null,
-        "distance_km": 3.18,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 3.2,
+        "elevation_m": 10,
+        "control_points": 17,
         "field_size": 95
       },
       "M18": {
         "place": "Nova Gorica",
         "map_name": null,
-        "distance_km": 3.53,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 3.5,
+        "elevation_m": 10,
+        "control_points": 19,
         "field_size": 101
       },
       "W16": {
         "place": "Nova Gorica",
         "map_name": null,
-        "distance_km": 2.97,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 3.0,
+        "elevation_m": 10,
+        "control_points": 16,
         "field_size": 97
       },
       "W18": {
         "place": "Nova Gorica",
         "map_name": null,
-        "distance_km": 3.08,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 3.1,
+        "elevation_m": 10,
+        "control_points": 17,
         "field_size": 103
       }
     }
@@ -90,33 +90,33 @@
       "M16": {
         "place": "Nemci",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 4.2,
+        "elevation_m": 170,
+        "control_points": 16,
         "field_size": 25
       },
       "M18": {
         "place": "Nemci",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 5.0,
+        "elevation_m": 205,
+        "control_points": 20,
         "field_size": 27
       },
       "W16": {
         "place": "Nemci",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 3.9,
+        "elevation_m": 125,
+        "control_points": 14,
         "field_size": 25
       },
       "W18": {
         "place": "Nemci",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 4.4,
+        "elevation_m": 150,
+        "control_points": 18,
         "field_size": 29
       }
     }

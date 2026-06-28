@@ -14,33 +14,33 @@
       "M16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 7.0,
+        "elevation_m": 280,
+        "control_points": 21,
         "field_size": 71
       },
       "M18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 8.0,
+        "elevation_m": 370,
+        "control_points": 22,
         "field_size": 80
       },
       "W16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 4.0,
+        "elevation_m": 155,
+        "control_points": 14,
         "field_size": 62
       },
       "W18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 5.0,
+        "elevation_m": 265,
+        "control_points": 16,
         "field_size": 68
       }
     }

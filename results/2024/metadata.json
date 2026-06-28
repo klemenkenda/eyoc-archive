@@ -22,7 +22,7 @@
       "M18": {
         "place": "Szczecin",
         "map_name": null,
-        "distance_km": 9.1,
+        "distance_km": 9.06,
         "elevation_m": 420,
         "control_points": 20,
         "field_size": 105
@@ -30,7 +30,7 @@
       "W16": {
         "place": "Szczecin",
         "map_name": null,
-        "distance_km": 5.62,
+        "distance_km": 5.7,
         "elevation_m": null,
         "control_points": null,
         "field_size": 87
@@ -38,7 +38,7 @@
       "W18": {
         "place": "Szczecin",
         "map_name": null,
-        "distance_km": 7.0,
+        "distance_km": 7.09,
         "elevation_m": null,
         "control_points": null,
         "field_size": 90
@@ -52,7 +52,7 @@
       "M16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 2.88,
         "elevation_m": null,
         "control_points": null,
         "field_size": 95
@@ -60,7 +60,7 @@
       "M18": {
         "place": "Szczecin",
         "map_name": null,
-        "distance_km": 3.1,
+        "distance_km": 3.07,
         "elevation_m": 40,
         "control_points": 20,
         "field_size": 105
@@ -68,7 +68,7 @@
       "W16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 2.57,
         "elevation_m": null,
         "control_points": null,
         "field_size": 87
@@ -76,7 +76,7 @@
       "W18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 2.68,
         "elevation_m": null,
         "control_points": null,
         "field_size": 90
@@ -90,33 +90,33 @@
       "M16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 5.0,
+        "elevation_m": 195,
+        "control_points": 17,
         "field_size": 24
       },
       "M18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 5.9,
+        "elevation_m": 250,
+        "control_points": 20,
         "field_size": 24
       },
       "W16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 4.4,
+        "elevation_m": 165,
+        "control_points": 15,
         "field_size": 19
       },
       "W18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
+        "distance_km": 4.9,
+        "elevation_m": 200,
+        "control_points": 18,
         "field_size": 22
       }
     }
