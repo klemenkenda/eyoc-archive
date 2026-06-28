@@ -1,4 +1,4 @@
-# Slovenia (SLO) EYOC results, 2002-2026
+# slovenia_best_results-md
 
 Sorted within each discipline/category by **absolute place** (`Place`) ascending. If two results have the same place, the better-ranked row is the one from the category/year with the **larger field**. For individual races, `Field` is the number of competitors in that class in that year. For relay, `Field` is shown as teams and runners, because each relay team has three runners; sorting uses the runner count (`teams × 3`).
 
@@ -8,30 +8,35 @@ Data files loaded: 71 normalized CSV files. Missing by design/availability: 2006
 
 ## Overall best ranked SLO results
 
+### Individual
+
 | Place | Year | Discipline | Category | Field | Result | Time |
 |---:|---:|---|---|---:|---|---:|
 | 1 | 2026 | Long | W18 | 104 | Brina Kolner | 54:44 |
 | 6 | 2026 | Sprint | W18 | 103 | Brina Kolner | 14:24 |
 | 6 | 2019 | Long | W16 | 89 | Katja Babic | 45:44 |
-| 6 | 2023 | Relay | W16 | 17 teams / 51 runners | Slovenia Slovenia 1: Neza Obid, Brina Kolner, Nea Erzen | 1:34:49 |
 | 7 | 2026 | Long | M16 | 95 | Anze Kolner | 47:04 |
-| 8 | 2019 | Relay | W16 | 22 teams / 66 runners | Slovenia: Katja Babic, Tina Kern, Teja Tusar | 2:03:05 |
 | 9 | 2025 | Long | W18 | 95 | Nea Erzen | 50:15 |
 | 11 | 2024 | Sprint | W16 | 87 | Brina Kolner | 12:56 |
 | 13 | 2008 | Sprint | M16 | 92 | Tibor Golob Mrak | 11:50 |
-| 13 | 2014 | Relay | M18 | 27 teams / 81 runners | Slovenia: Peter Tusar, Blaz Petrovic, Zan Luka Sumecki | 2:27:48 |
 | 14 | 2023 | Long | W16 | 85 | Nea Erzen | 57:03 |
-| 14 | 2026 | Relay | W16 | 25 teams / 75 runners | Slovenia 1: Nika Erzen, Brina Gantar, Julija Bizjak | 1:59:35 |
 | 15 | 2025 | Sprint | W18 | 91 | Brina Kolner | 14:31 |
 | 15 | 2016 | Long | M16 | 85 | Matic Blaz | 57:08 |
-| 15 | 2018 | Relay | W16 | 22 teams / 66 runners | Slovenia Slovenia: Katja Babic, Tina Kern, Teja Tusar | 1:46:02 |
 | 16 | 2023 | Sprint | W16 | 81 | Nea Erzen | 15:05 |
+| 18 | 2024 | Long | W16 | 87 | Brina Kolner | 56:08 |
+
+### Relay
+
+| 6 | 2023 | Relay | W16 | 17 teams / 51 runners | Slovenia Slovenia 1: Neza Obid, Brina Kolner, Nea Erzen | 1:34:49 |
+| 8 | 2019 | Relay | W16 | 22 teams / 66 runners | Slovenia: Katja Babic, Tina Kern, Teja Tusar | 2:03:05 |
+| 13 | 2014 | Relay | M18 | 27 teams / 81 runners | Slovenia: Peter Tusar, Blaz Petrovic, Zan Luka Sumecki | 2:27:48 |
+| 14 | 2026 | Relay | W16 | 25 teams / 75 runners | Slovenia 1: Nika Erzen, Brina Gantar, Julija Bizjak | 1:59:35 |
+| 15 | 2018 | Relay | W16 | 22 teams / 66 runners | Slovenia Slovenia: Katja Babic, Tina Kern, Teja Tusar | 1:46:02 |
 | 16 | 2022 | Relay | W16 | 20 teams / 60 runners | SLO Slovenia: Brina Kolner, Neza Obid, Nea Erzen | 1:59:34 |
 | 16 | 2005 | Relay | M16 | 16 teams / 48 runners | Slovenia: Bla� Grah, Jure Zmrzlikar, Janij Oblak | 3:27:59 |
 | 17 | 2017 | Relay | M18 | 29 teams / 87 runners | Slovenia: Äan Ravnikar, Matic Blaz, Tjaz Gantar | 2:21:16 |
 | 17 | 2022 | Relay | M16 | 20 teams / 60 runners | SLO Slovenia: Rok Bogataj, Bozo Bizjak, Luka Seljak | 2:07:51 |
 | 17 | 2011 | Relay | M16 | 18 teams / 54 runners | Slovenia: Gregor Hvala, Blat Petrovic, Peter Tušar | 3:10:03 |
-| 18 | 2024 | Long | W16 | 87 | Brina Kolner | 56:08 |
 | 18 | 2026 | Relay | M16 | 25 teams / 75 runners | Slovenia 1: Anze Kolner, Matija Bratusa, Rok Sedej | 1:59:07 |
 | 18 | 2014 | Relay | W16 | 21 teams / 63 runners | Slovenia: Monika Ravnikar, Brina Foski, Marjeta Lipuzic | 2:31:00 |
 | 18 | 2005 | Relay | W18 | 18 teams / 54 runners | Slovenia: Jerica Bernik, Tanja Pretnar, Diana Golob-Mrak | 3:05:28 |
