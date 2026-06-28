@@ -1,0 +1,97 @@
+class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
+W16,1,OK,CZE,Czech Republic,4776,Tereza Cechova,1659,Tereza Janosikova,1444,Barbora Vyhnalkova,1673,approx,2014/results-relay.pdf
+W16,3,OK,RUS,Russia,5066,Anna Chestova,1655,Anastasia Tsybulnik,1689,Anastasia Godunova,1722,approx,2014/results-relay.pdf
+W16,4,OK,HUN,Hungary,5208,Reka Pataki,1948,Vanda Vekony,1711,Hanga Szuromi,1549,approx,2014/results-relay.pdf
+W16,5,OK,SUI,Switzerland,5220,Elena Pezzati,2070,Nora Caprari,1615,Simona Aebersold,1535,approx,2014/results-relay.pdf
+W16,7,OK,FRA,France,5994,Marie Vuitton,1739,Juliete Basset,1873,Florence Hanauer,2382,approx,2014/results-relay.pdf
+W16,8,OK,LTU,Lithuania,6305,Deimante Motiejunaite,2228,Karolina Sakalauskaite,2185,Agne Juodagalvyte,1892,approx,2014/results-relay.pdf
+W16,9,OK,AUT,Austria,6416,Antonia Erhart,2336,Rosa Trummer,2430,Jasmina Gassner,1650,approx,2014/results-relay.pdf
+W16,10,OK,BUL,Bulgaria,6447,Patricia Cenkova,1950,Tsveta Llieva,2702,Andreaya Dyaksova,1795,approx,2014/results-relay.pdf
+W16,11,OK,DEN,Denmark,6524,Camilla Larsen,2312,Ida Obro,2460,Agnes Nrrglrd Kracht,1752,approx,2014/results-relay.pdf
+W16,12,OK,ROU,Romania,6534,Diana Habina,2110,Adela Galateanu,2543,Neda Agnes,1881,approx,2014/results-relay.pdf
+W16,,OK,LAT,Latvia,7044,Elvita Alksne,1969,Sintija Ozola,2680,Vilma Alberinga,2395,approx,2014/results-relay.pdf
+W16,14,OK,ESP,Spain,7095,Maria Prieto del Campo,1948,Maria Cornejo Garcia,2367,Maria Soriano Ramal,2780,approx,2014/results-relay.pdf
+W16,,OK,UKR,Ukraine,7312,Kotliar Polina,2594,Goenko Maria,2245,Tkachenko Anzhela,2473,approx,2014/results-relay.pdf
+W16,16,OK,EST,Estonia,8149,Emily Raudkepp,3268,Kristin Viikmaa,1955,Marie Anna Blehner,2926,approx,2014/results-relay.pdf
+W16,17,OK,TUR,Turkey,8687,Gokce Avci,2321,Humeyra Altinisik,,Zeynep Ocak,3031,approx,2014/results-relay.pdf
+W16,18,OK,SLO,Slovenia,9060,Monika Ravnikar,2363,Brina Foski,3276,Marjeta Lipuzic,3421,approx,2014/results-relay.pdf
+W16,19,OK,ISR,Israel,9208,Noam Yasur,3011,Aya Webman,3374,Dalit Mansoor,2823,approx,2014/results-relay.pdf
+W16,20,OK,SRB,Serbia,9872,Tija Radovanovic,2922,Olga Stanojevic,2800,Jovana Grozdanic,4150,approx,2014/results-relay.pdf
+W16,,MP,GER,Germany,,Paula Muhlstein,,Mareike Seeger,1837,Birte Friedrichs,1640,approx,2014/results-relay.pdf
+W16,,MP,MKD,Macedonia,,Eleonora Krzheska,,Stefanija Krzheska,,Lvana Trajkoska,,approx,2014/results-relay.pdf
+W16,,DNF,BEL,Belgium,,Hannah Thiels,2241,Magalie Gillet,,Nun.,,approx,2014/results-relay.pdf
+M16,1,OK,FIN,Finland,5758,Teemu Eerola,1873,Aaro Julkunen,2172,Tuomas Heikkila,1713,approx,2014/results-relay.pdf
+M16,2,OK,SUI,Switzerland,5910,Timo Suter,2130,Nicola Banfi,1826,Andrin Grindler,1954,approx,2014/results-relay.pdf
+M16,3,OK,CZE,Czech Republic,6304,Vojtéch Sykora,1865,Otakar Hirs,2176,Daniel Vandas,2263,approx,2014/results-relay.pdf
+M16,4,OK,FRA,France,6852,Benjamin Leduc,2172,Pierre Erbland,2848,Mathieu Perrin,1832,approx,2014/results-relay.pdf
+M16,5,OK,LTU,Lithuania,6987,Pranas Germanavicius,2000,Jonas Kuke,2412,Rokas Vaitikus,2575,approx,2014/results-relay.pdf
+M16,6,OK,DEN,Denmark,6995,Rune Ostergaard,2259,Rasmus Damgaard Nielsen,2436,Laurits Bidstrup Moller,2300,approx,2014/results-relay.pdf
+M16,7,OK,GER,Germany,7188,Viet Sladowski,2626,Ole Hennseler,2174,Erik Dohler,2388,approx,2014/results-relay.pdf
+M16,6,OK,AUT,Austria,7208,Georg Groll,2513,Clemens Wolfram,2365,Jannis Bonek,2330,approx,2014/results-relay.pdf
+M16,9,OK,HUN,Hungary,7323,Zacher Marton,2337,Egei Patrik,2668,Matyas Szuromi,2318,approx,2014/results-relay.pdf
+M16,10,OK,GBR,Great Britain,7329,Alex Carcas,2496,Harrison McCartney,2269,Aidan Rigby,2564,approx,2014/results-relay.pdf
+M16,11,OK,RUS,Russia,7363,Kiril Ageev,2606,Semen Petrov,2359,Aleksei Lurikov,2398,approx,2014/results-relay.pdf
+M16,12,OK,POR,Portugal,7436,Joao Bernandino,2994,Ricardo Esteves,2117,Antonio Ferreira,2325,approx,2014/results-relay.pdf
+M16,13,OK,BUL,Bulgaria,7792,Martin Penchev,2438,Lvaylo Petkov,2404,Tsvetan Ivanov,2950,approx,2014/results-relay.pdf
+M16,14,OK,LAT,Latvia,8080,Matiss Sliksjanis,3324,Edgars Ustinovs,2609,Uldis Upitis,2147,approx,2014/results-relay.pdf
+M16,15,OK,EST,Estonia,8222,Tomi-Andre Piirmets,,Oliver Kutt,2032,Lauri Pahn,3525,approx,2014/results-relay.pdf
+M16,16,OK,SVK,Slovakia,8356,Jakub Chupek,2744,Dusan Slama,2204,Stanislav Franko,3408,approx,2014/results-relay.pdf
+M16,17,OK,UKR,Ukraine,8844,Kyrylo Barannyk,2383,Stanislav Polianictsa,2310,Efimenko Igor,4151,approx,2014/results-relay.pdf
+M16,18,OK,TUR,Turkey,9056,Talha Gunday,2714,Mehmet Emin Avchil,3281,Ismail Kilinc,3061,approx,2014/results-relay.pdf
+M16,19,OK,ROU,Romania,9810,Divin Peter,2618,Peter Knobloch-Esztergar,5898,Tamas Malin,3694,approx,2014/results-relay.pdf
+M16,20,OK,ESP,Spain,9839,Jorge Paricio Francés,2837,Ignacio Sanchez Munoz,3274,Abel Herrero Gomez,3728,approx,2014/results-relay.pdf
+M16,21,OK,ISR,Israel,9848,Stav Barkai,3938,Rotem Lanes,3083,Ido Bahat,2827,approx,2014/results-relay.pdf
+M16,,MP,MKD,Macedonia,,Mario Koteski,,Jovan Todorovski,,Kristijan Mirceski,,approx,2014/results-relay.pdf
+M16,,DSQ,BEL,Belgium,,Wout Keuppens,,Ruben Jasmin,,Klaas Mellebeek,,approx,2014/results-relay.pdf
+W18,1,OK,CZE,Czech Republic,6396,Eliska Kulhava,2157,Gabriela Hirsova,2048,Anna Stickova,2191,approx,2014/results-relay.pdf
+W18,2,OK,SWE,Sweden,6471,Linnea Golsater,2174,Pim Hedberg,2043,Elin Pettersson,2254,approx,2014/results-relay.pdf
+W18,3,OK,POL,Poland,6472,Aleksandra Hormik,1909,Fuzana Wanczyk,2124,Weronika Cych,2439,approx,2014/results-relay.pdf
+W18,4,OK,FIN,Finland,6537,Karolina Ukskoski,2367,Noora Koskinen,2260,Emmi Jokela,1910,approx,2014/results-relay.pdf
+W18,5,OK,SUI,Switzerland,6666,Sofie Bachmann,2265,Joana Walti,2241,Hanna Miller,2160,approx,2014/results-relay.pdf
+W18,6,OK,RUS,Russia,6852,Natalia Kostina,2389,Laroslava Mediantceva,2102,Zlata Malysheva,2361,approx,2014/results-relay.pdf
+W18,,OK,HUN,Hungary,6857,Weiler Virag,2384,Luka Szuromi,2193,Viniczai Csenge,2280,approx,2014/results-relay.pdf
+W18,9,OK,GBR,Great Britain,7145,Megan Davies,2006,Alice Rigby,2497,Sarah Jones,2642,approx,2014/results-relay.pdf
+W18,10,OK,FRA,France,7210,Chloe Haberkorn,2145,Lucile Girard,2503,Soléne Droin,2562,approx,2014/results-relay.pdf
+W18,11,OK,AUT,Austria,7481,Anika Gassner,2271,Johanna Trummer,2727,Carina Polzer,2483,approx,2014/results-relay.pdf
+W18,12,OK,LAT,Latvia,7563,Annija Anna Zalaiskalna,2510,Kendija Aparjode,2490,Laura Leiboma,,approx,2014/results-relay.pdf
+W18,13,OK,NOR,Norway,7604,Emma Arnesen,2449,Marie Claussen,2383,Ingrid Lundanes,2772,approx,2014/results-relay.pdf
+W18,15,OK,GER,Germany,7976,Leonore Winkler,2390,Patricia Siegert,2602,Dorothea Miller,,approx,2014/results-relay.pdf
+W18,16,OK,SVK,Slovakia,8571,Andrea Papugova,2453,Tereza Smelikova,2509,Antonia Sofrankova,3609,approx,2014/results-relay.pdf
+W18,17,OK,ITA,Italy,9009,Taufer Ariana,2255,Taufer Franceska,,Anna Giovanelli,4119,approx,2014/results-relay.pdf
+W18,18,OK,LTU,Lithuania,9012,Vaiva Laurutyte,5753,Anele Kerpauskaite,2576,Jogvile Susinskaite,3083,approx,2014/results-relay.pdf
+W18,19,OK,EST,Estonia,9087,Marianne Haug,3077,Silvia Luup,2851,Doris Kudre,3159,approx,2014/results-relay.pdf
+W18,20,OK,IRL,lreland,9349,Caoimhe O’Boyle,3615,Roisin Long,2554,Aoife Mc Cavana,3180,approx,2014/results-relay.pdf
+W18,21,OK,ESP,Spain,9641,Sofia Berenguer Sanchis,2454,Elena Botica Artalejo,4223,Yara Bores Escudero,2964,approx,2014/results-relay.pdf
+W18,,MP,CRO,Croatia,,Lva Lovrec,14463,Roberta Orehoci,,Dora Tezak,,approx,2014/results-relay.pdf
+W18,,MP,BUL,Bulgaria,,Iveta Zasheva,2707,Kristiana Gecova,,Mikaela Vitanova,2893,approx,2014/results-relay.pdf
+W18,,MP,POR,Portugal,,Beatriz Moreira,2735,Beatriz Sanguino,3658,Catarina Reis,,approx,2014/results-relay.pdf
+W18,,MP,SLO,Slovenia,,Nusa Jeram,,Ursa Begus,,Lara Gantar,,approx,2014/results-relay.pdf
+W18,,DSQ,TUR,Turkey,,Ayse Bozkurt,,Rehime Sozbir,,Beyza Yildirim,,approx,2014/results-relay.pdf
+W18,,DSQ,ROU,Romania,,Neda Katalin,,Virag Timea,,Alice Georgescu,,approx,2014/results-relay.pdf
+M18,1,OK,NOR,Norway,6707,Haakon Raadal Birrlo,2227,Elias Mrinvik,2235,Olai Lillevold,2245,approx,2014/results-relay.pdf
+M18,2,OK,FIN,Finland,6825,Topi Raitanen,2305,Topias Ahola,2561,Olli Ojanaho,1959,approx,2014/results-relay.pdf
+M18,3,OK,SWE,Sweden,6834,Ville Johansson,2420,Filip Grahn,2118,Oskar Leinonen,2296,approx,2014/results-relay.pdf
+M18,4,OK,SUI,Switzerland,7066,Joey Hadem,2205,Florian Attinger,2524,Riccardo Rancan,2337,approx,2014/results-relay.pdf
+M18,5,OK,POL,Poland,7403,Radoslaw Piotrovski,2388,Marcin Biederman,2424,Krzysztof Rzenca,2591,approx,2014/results-relay.pdf
+M18,6,OK,FRA,France,7416,Adrien Delenne,2725,Quentin Rauturier,2455,Arnaud Perrin,2236,approx,2014/results-relay.pdf
+M18,,OK,RUS,Russia,7449,Vladislav Malyshev,2695,Nikita Gurevich,2395,Aleksandr Pavlenko,2359,approx,2014/results-relay.pdf
+M18,6,OK,ITA,Italy,7724,Mattia Debertolis,2400,Samuele Tait,2913,Riccardo Scalet,2411,approx,2014/results-relay.pdf
+M18,9,OK,AUT,Austria,7777,Rafael Dobnik,2586,Mathias Peter,2544,Florian Kurz,2647,approx,2014/results-relay.pdf
+M18,10,OK,CZE,Czech Republic,7796,Stepan Mudrak,2604,Matous Furst,2490,Vojtéch Kettner,2702,approx,2014/results-relay.pdf
+M18,11,OK,SVK,Slovakia,7869,Martin Klabouch,2735,Martin Jonas,2488,Martin Smelik,2646,approx,2014/results-relay.pdf
+M18,12,OK,GBR,Great Britain,8708,Dane Blomquist,2913,Willam Rigg,2935,Joe Woodtey,2860,approx,2014/results-relay.pdf
+M18,13,OK,SLO,Slovenia,8868,Peter Tusar,,Blaz Petrovic,3506,Zan Luka Sumecki,2799,approx,2014/results-relay.pdf
+M18,14,OK,LAT,Latvia,8909,Endijs Titomers,2728,Atis Heinols,3121,Jekabs Knets,3060,approx,2014/results-relay.pdf
+M18,15,OK,HUN,Hungary,8960,Matyas Meszaros,2698,Miavecz Balazs,3251,Dalos Mate,3011,approx,2014/results-relay.pdf
+M18,17,OK,EST,Estonia,9071,Heino Ollin,2424,Veiko Vinkel,,Janelk Piirisild,3692,approx,2014/results-relay.pdf
+M18,18,OK,BUL,Bulgaria,9287,Valentin Shishkov,3885,Stefan Mihailov,2494,Dimitar Jeliazkov,2908,approx,2014/results-relay.pdf
+M18,19,OK,GER,Germany,9309,Mark Otto,2589,Korbinian Lehner,2954,Tobias Spangenberg,3766,approx,2014/results-relay.pdf
+M18,20,OK,LTU,Lithuania,9565,Martynas Germanavicius,2427,Aurimas Asmantas,3418,Kostas Grauzelis,3720,approx,2014/results-relay.pdf
+M18,21,OK,MDA,Moldova Moldova,9582,Vasili Fomicov,3039,Anatoli Fomicov,3200,Donici Dimitru,3343,approx,2014/results-relay.pdf
+M18,22,OK,TUR,Turkey,10006,Oguzhan Karatepe,3234,Ibrahim Dilek,3355,Orhan Kuylu,3357,approx,2014/results-relay.pdf
+M18,24,OK,BLR,Belarus,10078,Yauhen Zhakhouski,2992,Dmitry Zhylinski,3621,Anton Navichenka,3465,approx,2014/results-relay.pdf
+M18,25,OK,ROU,Romania,10101,Tintar Mihai Andrei,2934,Zoltan Szocs,3543,Gergely Bogya,3624,approx,2014/results-relay.pdf
+M18,,MP,UKR,Ukraine,,Zhan Kozytskyi,3054,Georgiy Romanov,,Evgen Goldevski,3932,approx,2014/results-relay.pdf
+M18,,MP,MKD,Macedonia,,Milovoj Velinovic,7212,Metodi Belcovski,5417,Vase Lliev,,approx,2014/results-relay.pdf
+M18,,MP,IRL,lreland,,Paul Pruzina,4194,Frazer Howe,4708,James Millar,,approx,2014/results-relay.pdf
+M18,,DSQ,SRB,Serbia,,Stefan Bilic,,Milos Bilic,,Dusan Krnjaic,,approx,2014/results-relay.pdf
