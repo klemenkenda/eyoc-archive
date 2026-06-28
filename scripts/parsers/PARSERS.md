@@ -34,8 +34,8 @@ python scripts/parsers/run_all.py
 ```
 
 Regenerates every `results/<year>/*.csv` from `results/raw/`, in this order:
-`parse_lazarus_html` → `parse_lazarus_relay` → `parse_text_pdf` → `parse_oe_pdf` →
-`parse_relay_text_pdf` → `parse_eventor_relay_pdf` → `parse_xml` →
+`parse_lazarus_html` → `parse_lazarus_relay` → `parse_2006_relay` → `parse_text_pdf` →
+`parse_oe_pdf` → `parse_relay_text_pdf` → `parse_eventor_relay_pdf` → `parse_xml` →
 `parse_2016_sprint_ocr` → `parse_2014_relay_ocr`. Order doesn't matter functionally
 (each parser only touches its own years/files) — it's just the order they were added.
 
@@ -149,11 +149,28 @@ python scripts/parsers/parse_lazarus_relay.py
 parse function; most years share one of two generic builders
 (`make_colon_year_parser`/`make_dot_year_parser`, parameterized per year for time format,
 name order, and birth-year suffix), while 2002, 2003, and 2013 have fully bespoke
-functions because their line grammar doesn't fit either builder. 2006 has no parser —
-the only source found has just top-3 placings with no runner names, not enough data for
-the schema. To add a year: read the raw HTML's relay section by hand, pick or write a
-matching function, add it to `YEAR_PARSERS`, then verify with the leg-time-sum check
-below before trusting the output.
+functions because their line grammar doesn't fit either builder. 2006 has no parser
+here — lazarus.elte.hu's only source for that year has just top-3 placings with no
+runner names; see `parse_2006_relay.py` for where that year's relay actually comes from.
+To add a year: read the raw HTML's relay section by hand, pick or write a matching
+function, add it to `YEAR_PARSERS`, then verify with the leg-time-sum check below before
+trusting the output.
+
+### `parse_2006_relay.py` — 2006 Relay (orientacijska-zveza.si)
+
+```sh
+python scripts/parsers/parse_2006_relay.py
+```
+
+Reads `results/raw/2006/2006_relay_{w16,w18,m16,m18}.txt` — plain tab-separated text,
+*not* HTML. The source is an Excel-published result sheet whose embedded legacy
+IE-compatibility script trips antivirus heuristics (the host itself had already renamed
+3 of its 5 sheet files to `*.html-virus`); `scripts/fetch_2006_relay.py` fetches each
+sheet into memory, strips it down to plain text, and writes only that, so the flagged
+markup never touches disk. If the raw `.txt` files are ever missing, re-run
+`python scripts/fetch_2006_relay.py` first. The mixed-nationality bonus "Mix" sheet
+(`2006_relay_mix.txt`) is fetched but intentionally not parsed into `relay.csv`, same as
+other years' bonus Mixed Sprint Relay.
 
 ### `parse_2016_sprint_ocr.py` / `parse_2014_relay_ocr.py` — scanned PDFs (OCR)
 

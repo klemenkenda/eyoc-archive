@@ -37,11 +37,13 @@ results/
   <year>/relay.csv         normalized, one row per team (3 legs wide)
   FORMAT-RESULTS.md        the CSV schema, column by column
   EYOC-COUNTRIES.md        the European-federation whitelist used to filter rows
-scripts/parsers/
-  common.py               shared helpers (country/name/time normalization, CSV I/O, OCR)
-  parse_*.py              one parser per raw source *format* (not per year)
-  run_all.py              regenerates every results/<year>/*.csv
-  PARSERS.md              parser-by-parser documentation, with run examples
+scripts/
+  fetch_2006_relay.py     one-off fetcher for 2006 relay (see PARSERS.md)
+  parsers/
+    common.py             shared helpers (country/name/time normalization, CSV I/O, OCR)
+    parse_*.py            one parser per raw source *format* (not per year)
+    run_all.py            regenerates every results/<year>/*.csv
+    PARSERS.md            parser-by-parser documentation, with run examples
 codex/
   consistency_check.py    independent clean-vs-raw audit, doesn't import scripts/parsers
 ```
