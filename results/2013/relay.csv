@@ -1,0 +1,92 @@
+class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
+W16,1,OK,CZE,Czech Republic,4767,Tereza Cechová,1552,Barbora Vyhnálková,1659,Barbara Vavrysová,1556,high,2013/eyoc2013.htm
+W16,2,OK,HUN,Hungary,5095,Reka Dalia Pataki,1633,Krisztina Gera,1915,Hanga Szuromi,1547,high,2013/eyoc2013.htm
+W16,3,OK,DEN,Denmark,5212,Nikoline Tillingsoe,1799,Astrid Maag,1850,Josefine Lind,1563,high,2013/eyoc2013.htm
+W16,4,OK,FRA,France,5364,Maelle Beauvir,1561,Florence Hanauer,2045,Océane Guillemet,1758,high,2013/eyoc2013.htm
+W16,5,OK,FIN,Finland,5374,Alexandra Enlund,1639,Veera Klemettinen,1688,Noora Koskinen,2047,high,2013/eyoc2013.htm
+W16,6,OK,LTU,Lithuania,5578,Viktorija Gedgaudaite,1910,Kaste Rutkauskaite,2027,Agne Juodagalvyte,1641,high,2013/eyoc2013.htm
+W16,7,OK,SUI,Switzerland,5784,Valérie Aebischer,1586,Simona Aebersold,1736,Sonja Borner,2462,high,2013/eyoc2013.htm
+W16,8,OK,GER,Germany,5816,Patricia Siegert,2417,Ellen Klüser,1882,Dorothea Muller,1517,high,2013/eyoc2013.htm
+W16,9,OK,RUS,Russia,5866,Zlata Malysheva,2134,Anastasia Godunova,2066,Anna Dvorianskaia,1666,high,2013/eyoc2013.htm
+W16,10,OK,SVK,Slovakia,6042,Tereza Miklusová,2063,Tereza Smelíková,1915,Katarína Kosútová,2064,high,2013/eyoc2013.htm
+W16,11,OK,UKR,Ukraine,6277,Mariya Tymoshchuk,2870,Tetyana Androsova,1730,Lesya Polishchuk,1677,high,2013/eyoc2013.htm
+W16,12,OK,AUT,Austria,6612,Ida Pauser,2177,Ines Schaffer,2154,Sophie Peroutka,2281,high,2013/eyoc2013.htm
+W16,13,OK,POR,Portugal,7739,Daniela Pires,2444,Beatriz Norte,2494,Beatriz Sanguino,2801,high,2013/eyoc2013.htm
+W16,,MP,LAT,Latvia,,Elizabete Blumentale,1751,Austra Zusevica,2326,Diana Marta Ruka,,high,2013/eyoc2013.htm
+W16,,MP,ESP,Spain,,Sofía Berenguer Sanchís,2133,María Soriano Ramal,,María Prieto del Campo,1619,high,2013/eyoc2013.htm
+W16,,MP,ISR,Israel,,Noam Yasur,3049,Aya Webman,,Michal Shaked,2308,high,2013/eyoc2013.htm
+W16,,MP,SLO,Slovenia,,Monika Ravnikar,2867,Brina Foski,,Marjeta Lipuzic,,high,2013/eyoc2013.htm
+W16,,MP,EST,Estonia,,Kristiina Himma,2228,Liina Vesilind,2085,Doris Kudre,,high,2013/eyoc2013.htm
+W18,1,OK,SWE,Sweden,4814,Johanna Oberg,1715,Felicia Stuhlhofer,1665,Sara Hagstrom,1434,high,2013/eyoc2013.htm
+W18,2,OK,SUI,Switzerland,4834,Lisa Schubnell,1651,Kerstin Ullmann,1619,Sandrine Muller,1564,high,2013/eyoc2013.htm
+W18,3,OK,RUS,Russia,5155,Daria Korobeynik,1619,Anastasiya Danilova,1661,Marina Trubkina,1875,high,2013/eyoc2013.htm
+W18,4,OK,POL,Poland,5390,Aleksandra Hornik,1815,Weronika Cych,1717,Angelika Maciejewska,1858,high,2013/eyoc2013.htm
+W18,5,OK,HUN,Hungary,5417,Virag Weiler,1688,Luca Szuromi,1882,Csenge Viniczai,1847,high,2013/eyoc2013.htm
+W18,6,OK,NOR,Norway,5477,Karen Oline Kolstad,1745,Synnove Braten,1591,Heidi Martensson,2141,high,2013/eyoc2013.htm
+W18,7,OK,UKR,Ukraine,5478,Yiulya Kobets,1839,Olena Postelniak,1753,Daria Moskalenko,1886,high,2013/eyoc2013.htm
+W18,8,OK,FIN,Finland,5490,Niina Hulkkonen,2180,Emmi Jokela,1640,Anna Haataja,1670,high,2013/eyoc2013.htm
+W18,9,OK,CZE,Czech Republic,5522,Lenka Svobodová,1739,Karolína Boránková,1760,Anna Sticková,2023,high,2013/eyoc2013.htm
+W18,10,OK,FRA,France,5656,Delphine Poirot,1669,Chloé Haberkorn,2083,Margaux Hummel-Azais,1904,high,2013/eyoc2013.htm
+W18,11,OK,BUL,Bulgaria,5658,Martina Dzhulieva,2354,Andreya Dyaksova,1761,Antoaneta Dyaksova,1543,high,2013/eyoc2013.htm
+W18,12,OK,EST,Estonia,5669,Triinu Rooni,1756,Marianne Haug,2126,Margret Zimmermann,1787,high,2013/eyoc2013.htm
+W18,13,OK,GBR,UK,5744,Carter-Davies Megan,1969,Jones Sarah,1832,McMillan Rhona,1943,high,2013/eyoc2013.htm
+W18,14,OK,AUT,Austria,5811,Anika Gassner,1752,Ines Zettl,2158,Martina Walch,1901,high,2013/eyoc2013.htm
+W18,15,OK,GER,Germany,6011,Paula Starke,2304,Birte Friedrichs,1889,Hanna Muller,1818,high,2013/eyoc2013.htm
+W18,16,OK,ITA,Italy,6080,Eleonora Donandini,1842,Arianna Taufer,2135,Lia Patscheider,2103,high,2013/eyoc2013.htm
+W18,17,OK,BLR,Belarus,6083,Ilkevich Anastasiya,1780,Chernik Hlafira,2247,Mozhar Viktoryia,2056,high,2013/eyoc2013.htm
+W18,18,OK,ESP,Spain,6344,Marta Guijo Alonso,2367,María Illa Cams,2153,Yara Bores Escudero,1824,high,2013/eyoc2013.htm
+W18,19,OK,LAT,Latvia,6365,Kendija Aparjode,2348,Annija Zalaiskalna,2301,Sandra Grosberga,1716,high,2013/eyoc2013.htm
+W18,20,OK,LTU,Lithuania,6535,Jogvile Susinskaite,2307,Dovile Makselyte,2218,Giedre Domarkaite,2010,high,2013/eyoc2013.htm
+W18,21,OK,IRL,Ireland,6887,Róisín Long,2302,Aoife Mc Cavana,2396,Niamh Corbett,2189,high,2013/eyoc2013.htm
+W18,22,OK,SVK,Slovakia,7430,Martina Papugová,2138,Vanda Hoseková,2678,Andrea Papugová,2614,high,2013/eyoc2013.htm
+W18,23,OK,POR,Portugal,7934,Joana Fernandes,3050,Beatriz Moreira,2443,Carolina Delgado,2441,high,2013/eyoc2013.htm
+W18,24,OK,SLO,Slovenia,8075,Nusa Jeram,2479,Katjusa Poljansek,3000,Tajda Foski,2596,high,2013/eyoc2013.htm
+W18,25,OK,ISR,Israel,8519,Marina Maerkovitch,3084,Hilla Ayali,2581,Mayan Mintzer,2854,high,2013/eyoc2013.htm
+W18,26,OK,ROU,Romania,9356,Ágnes Néda,2399,Diana Iuliana Bonto,3985,Katalin Néda,2972,high,2013/eyoc2013.htm
+M16,1,OK,RUS,Russia,4739,Vladislav Kiselev,1564,Anton Kazenkin,1591,Aleksandr Pavlenko,1584,high,2013/eyoc2013.htm
+M16,2,OK,FIN,Finland,4854,Anton Salmenkyla,1673,Ollipekka Heikkila,1645,Olli Ojanaho,1536,high,2013/eyoc2013.htm
+M16,3,OK,SUI,Switzerland,4995,Pascal Buchs,1677,Andrin Grundler,1701,Joey Hadorn,1617,high,2013/eyoc2013.htm
+M16,4,OK,LAT,Latvia,5058,Endijs Titomers,1590,Uldis Upitis,1640,Edgars Ustinovs,1828,high,2013/eyoc2013.htm
+M16,5,OK,HUN,Hungary,5172,Marton Zacher,1830,Matyas Meszaros,1849,Mate Dalos,1493,high,2013/eyoc2013.htm
+M16,6,OK,GBR,UK,5215,Andrew Barr,1680,Callum White,1769,Daniel Stansfield,1766,high,2013/eyoc2013.htm
+M16,7,OK,DEN,Denmark,5288,Johan Lindbjerg Skovbćk,1835,Laurits Bidstrup Moller,1780,Martin Illum,1673,high,2013/eyoc2013.htm
+M16,8,OK,LTU,Lithuania,5292,Aurimas Asmantas,1833,Pranas Germanavicius,1833,Rokas Vaitkus,1626,high,2013/eyoc2013.htm
+M16,9,OK,FRA,France,5297,Pierre Martinez,1595,Mathieu Perrin,2023,Paul Ringot,1679,high,2013/eyoc2013.htm
+M16,10,OK,AUT,Austria,5370,Rafael Dobnik,1599,Nicolas Kastner,2012,Florian Kurz,1759,high,2013/eyoc2013.htm
+M16,11,OK,SVK,Slovakia,5376,Jakub Chupek,1689,Dusan Sláma,1678,Stanislav Franko,2009,high,2013/eyoc2013.htm
+M16,12,OK,POR,Portugal,5470,Ricardo Esteves,1812,Joăo Bernardino,1804,Joăo Novo,1854,high,2013/eyoc2013.htm
+M16,13,OK,GER,Germany,5534,Ole Hennseler,1732,Veit Slodowski,1814,Erik Dohler,1988,high,2013/eyoc2013.htm
+M16,14,OK,ESP,Spain,6157,Albert Acedo Casellas,1857,Alejandro Catalán García,2305,Jesús Rodríguez Corrochano,1995,high,2013/eyoc2013.htm
+M16,15,OK,CZE,Czech Republic,6215,Adam Ruzicka,2558,Vojtech Sýkora,1947,Daniel Vandas,1710,high,2013/eyoc2013.htm
+M16,16,OK,EST,Estonia,6616,Tomi-Andre Piirmets,1851,Oliver Kutt,2044,Lauri Pähn,2721,high,2013/eyoc2013.htm
+M16,17,OK,BEL,Belgium,6617,Wout Keuppens,1832,Simon Krekels,2599,Martijn Hus,2186,high,2013/eyoc2013.htm
+M16,18,OK,ROU,Romania,6738,Péter Divin,1860,Mihai Andrei Tintar,3066,Gergely Bogya,1812,high,2013/eyoc2013.htm
+M16,19,OK,ISR,Israel,6939,Carmel Satt,2366,Nadav Genossar,2290,Rotem Lanes,2283,high,2013/eyoc2013.htm
+M16,,MP,UKR,Ukraine,,Kyrylo Barannyk,1929,Stanislav Polianytsia,,Evgen Godlevsky,2366,high,2013/eyoc2013.htm
+M18,1,OK,FIN,Finland,5403,Arto Talvinen,1809,Topias Ahola,1802,Aleksi Niemi,1792,high,2013/eyoc2013.htm
+M18,2,OK,NOR,Norway,5480,Sigur Heggedal,1797,Stian Sundsvik,1822,Andreas Solberg,1861,high,2013/eyoc2013.htm
+M18,3,OK,SUI,Switzerland,5605,Thomas Curiger,1851,Tobia Pezzati,1766,Sven Hellmuller,1988,high,2013/eyoc2013.htm
+M18,4,OK,SWE,Sweden,5610,Erik Berzell,1960,Erik Andersson,1863,Jens Ronnols,1787,high,2013/eyoc2013.htm
+M18,5,OK,BEL,Belgium,5937,Evert Leeuws,1811,Thomas Gillet,1985,Tom Drygalski,2141,high,2013/eyoc2013.htm
+M18,6,OK,ITA,Italy,5972,Fabiano Bettega,1942,Mattia Debertolis,2085,Riccardo Scalet,1945,high,2013/eyoc2013.htm
+M18,7,OK,POL,Poland,5980,Krzysztof Rzenca,1840,Mateusz Dzioba,2137,Krzysztof Wolowczyk,2003,high,2013/eyoc2013.htm
+M18,8,OK,HUN,Hungary,5986,Soma Jenes,2114,Bertalan Kovacs,1919,Balazs Miavecz,1953,high,2013/eyoc2013.htm
+M18,9,OK,GER,Germany,5994,Markus Gratsch,1905,Quirin Lehner,2206,Moritz Dollgast,1883,high,2013/eyoc2013.htm
+M18,10,OK,UKR,Ukraine,6013,Oleksandr Asmolov,1799,Vladyslav Rusenchyk,2258,Vitalii Hychko,1956,high,2013/eyoc2013.htm
+M18,11,OK,AUT,Austria,6146,Mathias Peter,1806,Felix Hartlieb,2080,Stefan Falk,2260,high,2013/eyoc2013.htm
+M18,12,OK,RUS,Russia,6159,Bogdan Rodionov,2188,Sergey Popov,2099,Sergey Dobrynin,1872,high,2013/eyoc2013.htm
+M18,13,OK,LTU,Lithuania,6213,Martynas Tirlikas,1952,Paulius Vidziunas,2025,Algirdas Bartkevicius,2236,high,2013/eyoc2013.htm
+M18,14,OK,EST,Estonia,6616,Tanel Papp,2092,Rimmo Rőőm,2276,Andres Saal,2248,high,2013/eyoc2013.htm
+M18,15,OK,SRB,Serbia,6676,Nikola Bilic,2016,Stefan Bilic,2360,Dusan Krnjaic,2300,high,2013/eyoc2013.htm
+M18,16,OK,BUL,Bulgaria,6822,Stefan Mihaylov,2308,Dimitar Zhelyazkov,2120,Apostol Atanasov,2394,high,2013/eyoc2013.htm
+M18,17,OK,POR,Portugal,6828,Daniel Catarino,1891,Joăo Casal,2427,André Esteves,2510,high,2013/eyoc2013.htm
+M18,18,OK,CZE,Czech Republic,6866,Jonás Hubácek,1875,Matej Masata,3023,Patrik Horák,1968,high,2013/eyoc2013.htm
+M18,19,OK,SVK,Slovakia,7141,Martin Smelík,2416,Martin Jonás,2080,Martin Klabouch,2645,high,2013/eyoc2013.htm
+M18,20,OK,ROU,Romania,7177,Stefan Copetchi,2119,Zakariás Erősdi,2841,Gábor Prezensky,2217,high,2013/eyoc2013.htm
+M18,21,OK,ISR,Israel,7381,Nitsan Yasur,1978,Yuval Rafaeli,2664,Oz Heymann,2739,high,2013/eyoc2013.htm
+M18,22,OK,ESP,Spain,8202,José María Sáez Álvarez,2984,Elmar Montero Cárceles,2677,Álvaro Prieto del Campo,2541,high,2013/eyoc2013.htm
+M18,23,OK,IRL,Ireland,8598,Paul Pruzina,3348,Niall Mc Carthy,2647,Jonathan Quinn,2603,high,2013/eyoc2013.htm
+M18,,MP,LAT,Latvia,,Emils Dzalbs,,Emils Henrijs Taube,,Alvis Reinsons,2125,high,2013/eyoc2013.htm
+M18,,MP,SLO,Slovenia,,Peter Tusar,2137,Blaz Petrovic,2172,Zan Luka Sumecki,,high,2013/eyoc2013.htm
+M18,,MP,FRA,France,,Loic Marty,1801,Arnaud Perrin,,Nicolas Rio,1862,high,2013/eyoc2013.htm
+M18,,MP,GBR,UK,,Alexander Chepelin,1803,Joe Woodley,2204,Dane Blomquist,,high,2013/eyoc2013.htm

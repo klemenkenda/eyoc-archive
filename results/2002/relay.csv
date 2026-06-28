@@ -1,0 +1,56 @@
+class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
+W16,1,OK,SUI,Switzerland,5355,Sara Luscher,1922,Sara Wurmli,1745,Fabienne Stucki,1688,high,2002/eyoc2002.htm
+W16,2,OK,LTU,Lithuania,5513,Kristina Rybakovaite,1764,Skaiste Sidaraviciute,1920,Rasa Ptasekaite,1829,high,2002/eyoc2002.htm
+W16,3,OK,CZE,Czech Republic,5823,Lucie Krafkova,2046,Martina Kynclova,1837,Iveta Duchova,1940,high,2002/eyoc2002.htm
+W16,4,OK,LAT,Latvia,5827,Ieva Purina,1859,Mara Jaunsproge,2014,Liene Bruvele,1954,high,2002/eyoc2002.htm
+W16,5,OK,EST,Estonia,5947,Kadri Uiboupin,2310,Tais Leontenko,1926,Kati Rooni,1711,high,2002/eyoc2002.htm
+W16,6,OK,SVK,Slovakia,6056,Jana Krsakova,1783,Jana MacInska,2098,Maria Krsakova,2175,high,2002/eyoc2002.htm
+W16,7,OK,GER,Germany,6058,Rebecca Reischuk,1759,Susann Jahn,2008,Annett Juras,2291,high,2002/eyoc2002.htm
+W16,8,OK,FRA,France,6232,Anais Goffre,2358,Charlotte Bouchet,1904,Amelie Chataing,1970,high,2002/eyoc2002.htm
+W16,9,OK,POL,Poland,6733,Marta Traum,1782,Agnieszka Grzelak,2849,Katarzyna Kopka,2102,high,2002/eyoc2002.htm
+W16,10,OK,RUS,Russia,6803,Elena Bibikova,1761,Nina Oleinitchenkova,2066,Svetlana Zaytseva,2976,high,2002/eyoc2002.htm
+W16,11,OK,AUT,Austria,6808,Stephanie Killmann,2074,Solia Hirschmann,1966,Rgeina Irk,2768,high,2002/eyoc2002.htm
+W16,12,OK,UKR,Ukraine,7294,Olha Sluta,2049,Olena Struhalova,3273,Maryana Kytsman,1972,high,2002/eyoc2002.htm
+W16,13,OK,BUL,Bulgaria,7867,Mariana Ivanova,2442,Antoniya Grigorova,3481,Stanka Lazarova,1944,high,2002/eyoc2002.htm
+W16,14,OK,HUN,Hungary,7957,Yvett Hrenkó,2078,Kata Tas,2974,Uirág Nagy,2905,high,2002/eyoc2002.htm
+W18,1,OK,CZE,Czech Republic,6599,Lenka Hruskova,2229,Kristyna Kovarova,2255,Radka Brozkova,2115,high,2002/eyoc2002.htm
+W18,2,OK,RUS,Russia,7003,Olga Belova,2241,Ekaterina Kisseleva,2291,Nataliia Zakharova,2471,high,2002/eyoc2002.htm
+W18,3,OK,LAT,Latvia,7224,Madara Sinke,2581,Kristine Kokina,2432,Una Berzina,2211,high,2002/eyoc2002.htm
+W18,4,OK,EST,Estonia,7226,Siiri Mere,2564,Annika Rihma,2509,Eveli Saue,2153,high,2002/eyoc2002.htm
+W18,5,OK,HUN,Hungary,7230,Adrien Csiszár,2578,Száva Zsigmond,2328,Bernadett Kelemen,2324,high,2002/eyoc2002.htm
+W18,6,OK,POL,Poland,7567,Karolina Richert,2781,Anna Kraj,2271,Dorota Kosiñska,2515,high,2002/eyoc2002.htm
+W18,7,OK,GER,Germany,7726,Kristen Muller,2483,Beate Schmidt,2935,Elisa Kaufmann,2308,high,2002/eyoc2002.htm
+W18,8,OK,AUT,Austria,7728,Karin Leonarth,2595,Jasmin Schuh,2848,Ursula Polzer,2285,high,2002/eyoc2002.htm
+W18,9,OK,SVK,Slovakia,7730,Veronika Vavrova,2593,Hana Bajtosova,2292,Sonia Berzinska,2845,high,2002/eyoc2002.htm
+W18,10,OK,SUI,Switzerland,7805,Ines Brodmann,2958,Noemi Cerny,2407,Alexandra Khlebnikova,2440,high,2002/eyoc2002.htm
+W18,11,OK,LTU,Lithuania,8182,Rasa Sarkelyte,2474,Juste Beresneviciute,3090,Edita Martuseviciute,2618,high,2002/eyoc2002.htm
+W18,12,OK,UKR,Ukraine,8478,Yaroslava Trygubyak,2525,Izyna Pustovoit,3298,Nadiya Volynska,2655,high,2002/eyoc2002.htm
+W18,13,OK,FRA,France,9220,Carole Klein,2877,Cecilia Cavallini,3070,Charline Santamaria,3273,high,2002/eyoc2002.htm
+W18,14,OK,BUL,Bulgaria,9664,Tanya Merova,2546,Hristina Kozareva,4355,Boryana Melnikliyska,2763,high,2002/eyoc2002.htm
+M16,1,OK,CZE,Czech Republic,5874,Bronislav Pribyl,1944,Jan Benes,2011,Jan Polasek,1919,high,2002/eyoc2002.htm
+M16,2,OK,LAT,Latvia,6018,Roze Reners,2143,Anatolis Tarasovs,2004,Marcis Matisans,1871,high,2002/eyoc2002.htm
+M16,3,OK,LTU,Lithuania,6028,Romualds Stupelis,1886,Tomas Uska,2048,Eiminas Voveris,2094,high,2002/eyoc2002.htm
+M16,4,OK,RUS,Russia,6037,Alexander Leontyev,2044,Denis Glazunov,2104,Alechine Konstantin,1889,high,2002/eyoc2002.htm
+M16,5,OK,SUI,Switzerland,6078,Gion Schnyder,2090,Simon Sauter,2137,Sebastian Hagler,1851,high,2002/eyoc2002.htm
+M16,6,OK,EST,Estonia,6180,Veiko Kutt,2130,Mihkel Jarveoja,2049,Markus Puusepp,2001,high,2002/eyoc2002.htm
+M16,7,OK,SVK,Slovakia,6251,Szabo Rastislav,2155,Martin Mazur,2070,Michal Krajcik,2026,high,2002/eyoc2002.htm
+M16,8,OK,HUN,Hungary,6256,Ádám Kovács,2001,Zoltán Horváth,2081,Lenkei Zsolt,2174,high,2002/eyoc2002.htm
+M16,9,OK,UKR,Ukraine,6647,Denis Zabayev,2121,Serhey Lytovchenko,2361,Igor Palagniuk,2165,high,2002/eyoc2002.htm
+M16,10,OK,BUL,Bulgaria,6676,Ivailo Danailov,2228,Ivan Boyadzhiev,2322,Zlatko Kamenarov,2126,high,2002/eyoc2002.htm
+M16,11,OK,AUT,Austria,7132,Manuel Wiesberger,2131,Ernst Bosina,2579,Philipp Wiesberger,2422,high,2002/eyoc2002.htm
+M16,12,OK,POL,Poland,7297,Tomasz Pancerowicz,2495,Adran Kopczyñski,2824,Filip Mazurek,1978,high,2002/eyoc2002.htm
+M16,13,OK,ROU,Romania,7309,Marian Ciprian,2001,Radu Urdea,2268,Julian Negoita,3040,high,2002/eyoc2002.htm
+M16,14,OK,GER,Germany,7588,Karsten Leideck,2696,Max Gaedtke,2658,Andreas Blumenstein,2234,high,2002/eyoc2002.htm
+M16,15,OK,FRA,France,7810,Charly Boichut,2224,Thomas Dalla Costa,2989,Pierre Poirson,2597,high,2002/eyoc2002.htm
+M18,1,OK,GER,Germany,5967,Patrick Hofmeister,1956,Torben Wendler,2036,Christian Teich,1975,high,2002/eyoc2002.htm
+M18,2,OK,LTU,Lithuania,6000,Rokas Poberzinas,2179,Ruslanas Pogorelovas,1940,Simas Krepsta,1881,high,2002/eyoc2002.htm
+M18,3,OK,CZE,Czech Republic,6169,Jiri Bouchal,2003,Vaclav Komanec,2085,Jan Prochazka,2081,high,2002/eyoc2002.htm
+M18,4,OK,HUN,Hungary,6179,Dániel Pelyhe,2034,Zoltán Gyulai,2057,István Zsebeházi,2088,high,2002/eyoc2002.htm
+M18,5,OK,RUS,Russia,6214,Pavel Utkin,2091,Vassilij Lexine,2153,Serguei Jouravlev,1970,high,2002/eyoc2002.htm
+M18,6,OK,SUI,Switzerland,6215,Andreas Ruedlinger,1894,Markus Sauter,2379,Fabian Hertner,1942,high,2002/eyoc2002.htm
+M18,7,OK,LAT,Latvia,6280,Artis Jansons,2278,Matins Linde,2136,Kristaps Jaudzems,1866,high,2002/eyoc2002.htm
+M18,8,OK,EST,Estonia,6332,Tonis Vaiksaar,2097,Riho Taba,2181,Sander Vaher,2054,high,2002/eyoc2002.htm
+M18,9,OK,UKR,Ukraine,6670,Oleksandr Konovalenko,2199,Oleksandr Kratov,2547,Yevgen Kandibey,1924,high,2002/eyoc2002.htm
+M18,10,OK,AUT,Austria,6699,Martin Binder,1885,Roland Boubela,2396,Michael Auer,2418,high,2002/eyoc2002.htm
+M18,11,OK,BUL,Bulgaria,7324,Ivailo Kamnhavov,2419,Zdravko Taralov,2591,Teodor Yordanov,2314,high,2002/eyoc2002.htm
+M18,12,OK,ROU,Romania,8884,Petru Graha,3164,Tamas Bogya,2529,Anca Rasnita,3191,high,2002/eyoc2002.htm

@@ -1,0 +1,93 @@
+class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
+W16,1,OK,CZE,Czech Republic,5197,Tereza Novotna,1717,Zuzana Kubatova,1864,Adela Indrakova,1616,high,2007/eyoc2007.htm
+W16,2,OK,SUI,Switzerland,5275,Elena Roos,1752,Mirjam Pfister,1704,Sarina Jenzer,1819,high,2007/eyoc2007.htm
+W16,3,OK,RUS,Russia,5743,Alina Sabirova,2071,Natalia Kozlova,1961,Tatyiana Repina,1711,high,2007/eyoc2007.htm
+W16,4,OK,GER,Germany,5938,Josephine Greiner,1990,Maria Lange,2048,Johanna Schmidt,1900,high,2007/eyoc2007.htm
+W16,5,OK,EST,Estonia,6020,Jane Lauter,2053,Sigrid Ruul,2012,Britta Panker,1955,high,2007/eyoc2007.htm
+W16,6,OK,LAT,Latvia,6041,Ieva Rukšane,2125,Madara Freimane,1996,Sabine Tilta,1920,high,2007/eyoc2007.htm
+W16,7,OK,HUN,Hungary,6158,Filoména Kovács,1988,Brigitta Koós,2295,Réka Tóth,1875,high,2007/eyoc2007.htm
+W16,8,OK,DEN,Denmark,6203,Nanna Dybdal Abrahamsen,2197,Camilla Sogaard,2079,Emma Klingenberg,1927,high,2007/eyoc2007.htm
+W16,9,OK,AUT,Austria,6232,Julia Bauer,1856,Clarissa Kradischnig,2188,Marlene Habenicht,2188,high,2007/eyoc2007.htm
+W16,10,OK,POL,Poland,6314,Jolanta Kolosinska,2100,Paulina Faron,1934,Malgorzata Wicha,2280,high,2007/eyoc2007.htm
+W16,11,OK,UKR,Ukraine,6317,Inna Blagodarna,2115,Mariia Turok,1935,Olena Sliusareva,2267,high,2007/eyoc2007.htm
+W16,12,OK,BUL,Bulgaria,6367,Gloriya Marinova,2063,Iva Agova,2271,Valeriya Staneva,2033,high,2007/eyoc2007.htm
+W16,13,OK,SVK,Slovakia,6375,Ivana Dureová,2219,Romana Štrbová,2160,Katarína Papugová,1996,high,2007/eyoc2007.htm
+W16,14,OK,FRA,France,6381,Alizée Gaillard,2219,Raoxane Maine,2201,Claire Sandevoir,1961,high,2007/eyoc2007.htm
+W16,15,OK,LTU,Lithuania,6474,Egle Dambrauskaite,2046,Vesta Ambrazaite,2396,Joana Cesnaite,2032,high,2007/eyoc2007.htm
+W16,16,OK,ROU,Romania,6551,Andra Anghel,2151,Giorgiana Georgiu Diana,2182,Roxana Carauoan Patricia,2218,high,2007/eyoc2007.htm
+W16,17,OK,ITA,Italy,6688,Carlotta Scalet,1986,Lucia Curzio,2283,Claudia Zanetel,2419,high,2007/eyoc2007.htm
+W16,18,OK,POR,Portugal,6851,Joana Costa,2095,Mariana Moreira,2298,Isabel Sá,2458,high,2007/eyoc2007.htm
+W16,19,OK,ESP,Spain,7281,Marta Padilla Ruiz,2522,Raquel Martin Jimenez,2731,Violeta Feliciano Sanjuan,2028,high,2007/eyoc2007.htm
+W16,20,OK,SRB,Serbia,7938,Maja Karia,2510,Aleksandra Jelia,3029,Marija Cosia,2399,high,2007/eyoc2007.htm
+W16,21,OK,CRO,Croatia,8751,Iva Štambuk,2982,Marija Štambuk,3364,Marija Eajko,2405,high,2007/eyoc2007.htm
+W16,22,OK,SLO,Slovenia,8754,Barbara Pogaear,2958,Anja Jenko,3050,Katarina Bremšak,2746,high,2007/eyoc2007.htm
+W18,1,OK,SUI,Switzerland,6332,Bettina Aebi,2092,Mirjam Fässler,2289,Isabelle Feer,1951,high,2007/eyoc2007.htm
+W18,2,OK,RUS,Russia,6418,Natalia Vinogradova,2102,Margarita Molotkova,2282,Anastasia Tikhonova,2034,high,2007/eyoc2007.htm
+W18,3,OK,CZE,Czech Republic,6453,Adelka Jakobova,2226,Vera Madlova,2150,Tereza Petrzelova,2077,high,2007/eyoc2007.htm
+W18,4,OK,NOR,Norway,6520,Ingunn Moian Nydal Britt,2093,Fjogstad Nielsen Agni,2337,Katrine Skjerve Elen,2090,high,2007/eyoc2007.htm
+W18,5,OK,POL,Poland,6594,Anna Koconka,2221,Monika Gajda,2177,Hanna Wisniewska,2196,high,2007/eyoc2007.htm
+W18,6,OK,FIN,Finland,6802,Venla Niemi,2224,Lotta Karhola,2402,Marika Teini,2176,high,2007/eyoc2007.htm
+W18,7,OK,HUN,Hungary,6969,Ilona Tibay,2345,Vanda Zsigmond,2384,Dorottya Péley,2240,high,2007/eyoc2007.htm
+W18,8,OK,UKR,Ukraine,7453,Maryna Palashevska,2350,Oleksandra Parkhomenko,2587,Viktoriya Benyk,2516,high,2007/eyoc2007.htm
+W18,9,OK,FRA,France,7479,Marine Leloup,2336,Margaux Vassy,2390,Ambre Gaillard,2753,high,2007/eyoc2007.htm
+W18,10,OK,GER,Germany,7669,Sandra Juras,2395,Claudia Günther,2452,Anne Fritsche,2822,high,2007/eyoc2007.htm
+W18,11,OK,LAT,Latvia,7689,Laura Vike,2380,Madara Stapane,2692,Vieda Lusa,2617,high,2007/eyoc2007.htm
+W18,12,OK,AUT,Austria,7765,Elisa Elstner,2226,Anna Elstner,2521,Carina Kradischnig,3018,high,2007/eyoc2007.htm
+W18,13,OK,GBR,UK,7874,Hazel Wright,2690,Jo Halliday,2740,Alice Butt,2444,high,2007/eyoc2007.htm
+W18,14,OK,ITA,Italy,7880,Nicole Scalet,2213,Jutta Torggler,2681,Giulia Cunico,2986,high,2007/eyoc2007.htm
+W18,15,OK,BUL,Bulgaria,7986,Sofiya Toteva,2448,Simona Danailova,2761,Greta Borisova,2777,high,2007/eyoc2007.htm
+W18,16,OK,LTU,Lithuania,7994,Ausra Miksyte,2414,Eidvile Bagdonaite,2755,Emilija Gvildyte Tekle,2825,high,2007/eyoc2007.htm
+W18,17,OK,BLR,Belarus,8187,Alena Barbashyna,2678,Natallia Hryshanava,2833,Hanna Rudakouskaya,2676,high,2007/eyoc2007.htm
+W18,18,OK,SVK,Slovakia,8274,Lenka Jablonovská,2750,Eva Farkašová,3072,Jana Kršiaková,2452,high,2007/eyoc2007.htm
+W18,19,OK,EST,Estonia,8932,Helena Heinväli,3558,Piibe Tammemäe,2878,Maria Zhuravskaja,2496,high,2007/eyoc2007.htm
+W18,20,OK,ESP,Spain,9515,Luisa Rico Mira,2800,Anna Serrallonga Arqués,2765,Paula Gonzalez Mora,3950,high,2007/eyoc2007.htm
+M16,1,OK,CZE,Czech Republic,6392,Jan Petrzela,2016,Ondrej Kantor,2217,Stepan Zimmermann,2159,high,2007/eyoc2007.htm
+M16,2,OK,EST,Estonia,6401,Raido Mitt,2029,Tauno Tiirats,2403,Kenny Kivikas,1969,high,2007/eyoc2007.htm
+M16,3,OK,ESP,Spain,6923,Antonio Martinez Perez,2030,Pol Rafols Perramon,2635,Marc Serrallonga Arqués,2258,high,2007/eyoc2007.htm
+M16,4,OK,LTU,Lithuania,7441,Dovydas Mickus,2530,Egidijus Dauksys,2335,Karolis Lazdauskas,2576,high,2007/eyoc2007.htm
+M16,5,OK,GER,Germany,7449,Paul Kossack,2251,Christoph Prunsche,2629,Franz Cruse,2569,high,2007/eyoc2007.htm
+M16,6,OK,FRA,France,7521,Lucas Basset,2014,Nicolas Trezeguet,2692,Louis Arnould,2815,high,2007/eyoc2007.htm
+M16,7,OK,POL,Poland,7548,Rafal Matyja,2596,Jakub Zielinski,2540,Damian Parzonka,2412,high,2007/eyoc2007.htm
+M16,8,OK,SUI,Switzerland,7594,Patrik Wägeli,2528,Alain Denzler,2879,Florian Howald,2187,high,2007/eyoc2007.htm
+M16,9,OK,HUN,Hungary,7654,Máté Baumholczer,2598,Mátyás Kinde,2539,Géza Jenes,2517,high,2007/eyoc2007.htm
+M16,10,OK,RUS,Russia,7897,Alexander Bezrukov,2306,Maxim Smorodinov,2778,Dmitriy Nakonechnyy,2813,high,2007/eyoc2007.htm
+M16,11,OK,DEN,Denmark,8053,Henrik Bendt,2538,Andreas Boesen,3070,Marius Odum,2445,high,2007/eyoc2007.htm
+M16,12,OK,UKR,Ukraine,8058,Anton Varenyk,2953,Dmytro Buchenkov,2659,Sergiy Kovalov,2446,high,2007/eyoc2007.htm
+M16,13,OK,AUT,Austria,8104,Simon Arbter,2532,Markus Obermüller,3156,Robert Merl,2416,high,2007/eyoc2007.htm
+M16,14,OK,ITA,Italy,8359,Marco Guizzardi,2638,Alberto Corredig,2760,Simone Benini,2961,high,2007/eyoc2007.htm
+M16,15,OK,SVK,Slovakia,8360,Robert Barcík,2938,Peter Mižúr,2969,Tomáš Sokol,2453,high,2007/eyoc2007.htm
+M16,16,OK,SRB,Serbia,8546,Tadija Trifunovia,2799,Damjan Babia,3017,Marko Stevanovia,2730,high,2007/eyoc2007.htm
+M16,17,OK,POR,Portugal,8554,David Sayanda,2940,Joao Carvalho,2674,Paulo Pereira,2940,high,2007/eyoc2007.htm
+M16,18,OK,BUL,Bulgaria,8689,Stanislav Yovev,2568,Boris Yosifov,3034,Grigor Karaivanov,3087,high,2007/eyoc2007.htm
+M16,19,OK,ROU,Romania,8807,Eduard Ghiuzan,2763,Teodor Molnar,3216,Cosmin Georgescu,2828,high,2007/eyoc2007.htm
+M16,20,OK,LAT,Latvia,8849,Janis Tamuzs,3278,Toms Dandens,2626,Edgars Brieonoks,2945,high,2007/eyoc2007.htm
+M16,21,OK,BLR,Belarus,9098,Mikhail Kazhadub,2799,Maksim Chorny,3394,Vadzim Drabiankou,2905,high,2007/eyoc2007.htm
+M16,22,OK,SLO,Slovenia,9101,Tibor Golob Mrak,2530,Blaž Grah,3290,Vid Bogovie,3281,high,2007/eyoc2007.htm
+M16,23,OK,CRO,Croatia,11850,Mario Štambuk,4259,Vjeran Horvat,3709,Lobel Horvat,3882,high,2007/eyoc2007.htm
+M16,,MP,ISR,Israel,,Eran Segal,2527,Lior Itzhak,3100,Guy Sabo-Bar,,high,2007/eyoc2007.htm
+M18,1,OK,CZE,Czech Republic,6815,Dusilek Adam,2201,Milos Nykodym,2202,Jakub Zimmermann,2412,high,2007/eyoc2007.htm
+M18,2,OK,SUI,Switzerland,6833,Christian Hohl,2469,Nicolai Stucki,2315,Matthias Kyburz,2049,high,2007/eyoc2007.htm
+M18,3,OK,FIN,Finland,6898,Vili Niemi,2546,Tuomo Istolahti,2241,Leo Laakkonen,2111,high,2007/eyoc2007.htm
+M18,4,OK,NOR,Norway,6950,Morten Westergard,2430,Urdal Bakke Morten,2358,Forseth Indgaard Ulf,2162,high,2007/eyoc2007.htm
+M18,5,OK,RUS,Russia,6952,Rinat Gabitov,2288,Mikhail Petrov,2278,Sergey Vasilyev,2386,high,2007/eyoc2007.htm
+M18,6,OK,BLR,Belarus,6959,Yury Tambasau,2207,Mikhail Makeyenka,2479,Siarhei Fedatsenka,2273,high,2007/eyoc2007.htm
+M18,7,OK,EST,Estonia,6962,Kristo Heinmann,2293,Henrik Berg,2474,Lauri Sild,2195,high,2007/eyoc2007.htm
+M18,8,OK,POL,Poland,6964,Maciej Jasinski,2403,Bartosz Pawlak,2354,Jacek Morawski,2207,high,2007/eyoc2007.htm
+M18,9,OK,FRA,France,7130,Thibault Poupard,2474,Mathieu Ringot,2336,Théo Fleurent,2320,high,2007/eyoc2007.htm
+M18,10,OK,GER,Germany,7212,Max Röhnert,2508,Paul Lützkendorf,2283,Bjarne Friedrichs,2421,high,2007/eyoc2007.htm
+M18,11,OK,LTU,Lithuania,7288,Tomas Kokanka,2539,Tadas Vidzikauskas,2434,Mantas Martinkus,2315,high,2007/eyoc2007.htm
+M18,12,OK,LAT,Latvia,7406,Karlis Dislers,2415,Arturs Paulins,2555,Andris Jubelis,2436,high,2007/eyoc2007.htm
+M18,13,OK,POR,Portugal,7518,Diogo Miguel,2424,Jorge Furtunato,2424,Tiago Romao,2670,high,2007/eyoc2007.htm
+M18,14,OK,HUN,Hungary,7789,Gábor Turcsán,2414,Máté Györgyi,2552,Gábor Vellner,2823,high,2007/eyoc2007.htm
+M18,15,OK,UKR,Ukraine,7792,Yevgen Fesenko,2441,Oleksandr Bevzyuk,2391,Oleksiy Asmolov,2960,high,2007/eyoc2007.htm
+M18,16,OK,AUT,Austria,7945,Christian Pfeifer,2720,Erik Simkovics,2441,Helmut Gremmel,2784,high,2007/eyoc2007.htm
+M18,17,OK,ESP,Spain,8462,Manuel Merida Sanchís Juan,2903,Marcal Serralonga Amigó,2891,Daniel Martín de Los Rios,2668,high,2007/eyoc2007.htm
+M18,18,OK,ISR,Israel,8685,Aram Yaakobi,2764,Omer Powitzer,2861,Neve Barkei,3060,high,2007/eyoc2007.htm
+M18,19,OK,GBR,UK,8765,Ralph Street,2470,Mikey Hopkins,3586,Michael Noblett,2709,high,2007/eyoc2007.htm
+M18,20,OK,SVK,Slovakia,9123,Richard Chrappa,3368,Rastislav Olhava,2917,Štefan Ringer,2838,high,2007/eyoc2007.htm
+M18,21,OK,ROU,Romania,9448,Razvan Lupa,3095,?Uncu Florin,3308,Marcelin Giurgica,3045,high,2007/eyoc2007.htm
+M18,22,OK,BUL,Bulgaria,9881,Pavel Georgiev,2997,Vasil Mihaylov,3058,Dimitar Turmanov,3826,high,2007/eyoc2007.htm
+M18,23,OK,IRL,Ireland,11141,Cian O’Boyle,4136,Alan Lane,3269,Niall Ewen,3736,high,2007/eyoc2007.htm
+M18,24,OK,SLO,Slovenia,12456,Jure Zmrzlikar,2924,Matjaž Pahor,4379,Tanja Pretnar,5153,high,2007/eyoc2007.htm
+M18,,MP,SRB,Serbia,,Bojan Munjas,4473,Djordje Arizanovia,3991,Stefan Gasparovia,,high,2007/eyoc2007.htm
+M18,,MP,ITA,Italy,,Roberto Dalla Valle,2418,Marco Genuzio,,Michael Sbrizzi,2986,high,2007/eyoc2007.htm

@@ -13,13 +13,13 @@ these counts even though they appear in the raw source files.
 
 **Parser per source type** (see `scripts/parsers/` for the actual code):
 - **IOF-XML (Eventor)** (`parse_xml.py`) — 2019, 2021–2026 sprint/long; 2025–2026 relay. Reads `<PersonResult>`/`<TeamResult>` directly. High confidence.
-- **OE2010/OS2010 SportSoftware PDFs** (`parse_oe_pdf.py`) — 2014, 2015, 2018 sprint/long/relay; 2019, 2024 relay. Header gives the field size directly (`Men 16 (100)`). Read via PyMuPDF word coordinates rather than `pdftotext -layout`, which misaligns these particular PDFs' columns. High confidence.
+- **OE2010/OS2010 SportSoftware PDFs** (`parse_oe_pdf.py`) — 2014, 2015, 2018 sprint/long/relay; 2019, 2024 relay. High confidence.
 - **Plain numbered PDFs** (`parse_text_pdf.py`) — 2016 Long, 2017 Sprint/Long (one-off formats, no `(N)` header). High confidence.
-- **Relay-specific text PDFs** (`parse_relay_text_pdf.py`) — 2016 and 2017 Relay (each its own row grammar). High confidence — 2017 Relay was originally flagged ⚠️ approximate (pdftotext-layout mis-joined rows); re-reading via word coordinates resolved that, so it's now high confidence.
+- **Relay-specific text PDFs** (`parse_relay_text_pdf.py`) — 2016 and 2017 Relay (each its own row grammar). High confidence.
 - **Eventor "print view" relay PDFs** (`parse_eventor_relay_pdf.py`) — 2021–2023 Relay (`Men 18  27 starting competitors` header). High confidence.
-- **lazarus.elte.hu archive HTML, individual** (`parse_lazarus_html.py`) — 2002–2013 Sprint/Long. High confidence per-row (country suffix-matched against `EYOC-COUNTRIES.md`, multi-encoding-aware).
-- **lazarus.elte.hu archive HTML, relay** (`parse_lazarus_relay.py`) — 2002, 2004, 2005, 2007–2013 Relay (2003 and 2006 not covered, see below). Team lines start with a number, leg lines start with a letter (2013 is the one exception — its leg lines start with a long SI-card number, long enough to disambiguate from the short rank/bib numbers that start team lines there) — that's the one rule that holds across every year. Everything else (time format colon vs decimal-point, country as bare code vs full name vs both, name order, birth-year suffix on leg names) differs by year, so each year has its own small parse function reusing shared helpers rather than one generic grammar. High confidence — leg-time sums were cross-checked against each team's printed total time with **zero mismatches across all 831 teams** in every covered year.
-- **Scanned PDF, OCR** (`parse_2016_sprint_ocr.py`, `parse_2014_relay_ocr.py`) — 2016 Sprint and 2014 Relay, the two source files with no text layer at all. Renders each page and runs Tesseract OCR (via `pytesseract`), then reuses the same column-bucketing approach as the other PDF parsers (relay row grammar shared conceptually with `parse_oe_pdf.py`'s relay parser, since 2014's source is also an OE2010/OS2010 sheet, just scanned). Confidence `approx` (OCR, not extracted text). The 2016 OCR was originally attempted with Windows' built-in `Windows.Media.Ocr`, which turned out to have a reproducible blind spot for short colon-separated digit strings (`0:10:19`) — verified with synthetic test images, it just doesn't detect them as text at any zoom/language setting, while reading every other column on the same page fine. Tesseract (`conda install -c conda-forge tesseract` + `pip install pytesseract`) reads the whole page including times without issue. Shared OCR plumbing (`render_pdf_pages`/`tesseract_ocr`/`group_ocr_lines`) lives in `common.py`.
+- **lazarus.elte.hu archive HTML, individual** (`parse_lazarus_html.py`) — 2002–2013 Sprint/Long. High confidence.
+- **lazarus.elte.hu archive HTML, relay** (`parse_lazarus_relay.py`) — 2002–2005, 2007–2013 Relay (2006 not covered, see below). High confidence — leg-time sums were cross-checked against each team's printed total time with **zero mismatches across all 894 teams** in every covered year.
+- **Scanned PDF, OCR** (`parse_2016_sprint_ocr.py`, `parse_2014_relay_ocr.py`) — 2016 Sprint and 2014 Relay, the two source files with no text layer at all. Recovered via Tesseract OCR. Confidence `approx` (OCR, not extracted text).
 
 Legend: ✅ high confidence  ⚠️ usable but caveats  ❌ not available
 
@@ -85,14 +85,24 @@ Legend: ✅ high confidence  ⚠️ usable but caveats  ❌ not available
 
 | Year | M16 | M18 | W16 | W18 | Quality |
 |---|---|---|---|---|---|
-| 2002–2012 | — | — | — | — | ❌ **Not yet parsed from lazarus.elte.hu** — each year's markup drifts (hand-coded archive, not a single export format), so `parse_lazarus_relay.py` is being extended one verified year at a time rather than assumed to generalize from 2013. (2006 relay is additionally **missing entirely** — confirmed dead/absent across the OZS federation calendar, the original eyoc2006.com site, its Wayback Machine snapshots, and the lazarus archive.) |
-| 2013 | 20 | 27 | 18 | 26 | ✅ Team lines ("rank bib CODE time") and leg lines ("SI-card name time") disambiguated by leading-number length; leg-time sums verified against printed team totals (0 mismatches across 91 teams). One known limitation: Great Britain's entries print "Surname Given" within this otherwise Given-first file, with no comma/case signal to detect it — not auto-corrected (same category of limitation as the individual-race name-order heuristic, see item 10 below). |
-| 2014 | 23 | 27 | 21 | 25 | ⚠️ **OCR** (`approx`) — `results-relay.pdf` (1.7 MB) is a scanned OE2010/OS2010 sheet with no text layer; recovered via Tesseract OCR. All 96 team rows resolved (no drops). |
-| 2015 | 21 | 27 | 20 | 24 | ✅ (bonus Mixed Sprint Relay also present in the raw PDF, not counted in this table) |
+| 2002 | 15 | 12 | 14 | 14 | ✅ Same "top finishers only" caveat as 2002 Sprint/Long may apply (full field unconfirmed). |
+| 2003 | 15 | 16 | 16 | 16 | ✅ |
+| 2004 | 19 | 19 | 19 | 19 | ✅ |
+| 2005 | 16 | 20 | 16 | 18 | ✅ |
+| 2006 | — | — | — | — | ❌ **Not usable** — only top-3 placings per class with no runner names at all (worse than 2002's abbreviation, which at least has full per-leg data); not enough to populate `relay.csv`'s schema. Also still missing entirely from every *other* source checked (OZS federation calendar, eyoc2006.com + Wayback Machine snapshots). |
+| 2007 | 24 | 26 | 22 | 20 | ✅ |
+| 2008 | 24 | 27 | 19 | 20 | ✅ |
+| 2009 | 23 | 27 | 17 | 25 | ✅ |
+| 2010 | 22 | 29 | 19 | 22 | ✅ |
+| 2011 | 18 | 25 | 18 | 19 | ✅ |
+| 2012 | 21 | 29 | 20 | 23 | ✅ One known data-entry quirk, not auto-corrected: Romania's entries have the given name and surname in swapped case-slots relative to every other team on the page, so the generic name-order heuristic gets that team wrong. |
+| 2013 | 20 | 27 | 18 | 26 | ✅ One known limitation: Great Britain's entries print "Surname Given" within this otherwise Given-first file, with no signal to detect it. |
+| 2014 | 23 | 27 | 21 | 25 | ⚠️ **OCR** (`approx`) |
+| 2015 | 21 | 27 | 20 | 24 | ✅ |
 | 2016 | 23 | 28 | 19 | 22 | ✅ |
-| 2017 | 23 | 29 | 21 | 26 | ✅ (upgraded from the original ⚠️ approximate — word-coordinate extraction resolved the row-alignment ambiguity that caused the earlier uncertainty) |
+| 2017 | 23 | 29 | 21 | 26 | ✅ |
 | 2018 | 20 | 28 | 22 | 21 | ✅ |
-| 2019 | 24 | 26 | 22 | 25 | ✅ (bonus MIX relay also present in the raw PDF, not counted in this table) |
+| 2019 | 24 | 26 | 22 | 25 | ✅ |
 | 2021 | 23 | 25 | 20 | 21 | ✅ |
 | 2022 | 20 | 24 | 20 | 21 | ✅ |
 | 2023 | 19 | 25 | 17 | 24 | ✅ |
@@ -109,11 +119,7 @@ legitimately differ; this isn't a parsing gap.
 
 1. **2002** — both individual disciplines (Short/Sprint and Middle/Long) are only abbreviated excerpts (top finishers + host country) in the only source found. Full results for 2002 are likely lost or were never published online in full. No fix available; `results/2002/{sprint,long}.csv` contain only those abbreviated rows.
 2. **2006 Relay** — genuinely missing, no `results/2006/relay.csv` is generated.
-3. **2014 Relay** — recovered via Tesseract OCR (see method table above), the same approach used for 2016 Sprint; `confidence=approx`. All 96 teams across M16/M18/W16/W18 resolved. A handful of names have OCR letter-confusion typos (e.g. "I" read as "L" — "Lvana" for "Ivana", "Lvaylo" for "Ivaylo") that weren't worth hand-correcting given the `approx` confidence already flags this data as OCR-derived; a few rank numbers and some leg times for mp/dnf/disq teams weren't legible and are blank.
-4. **2016 Sprint** — recovered via Tesseract OCR (see method table above); `confidence=approx` rather than `high` since it's OCR, not extracted text. 357/367 rows have a time; 10 are DSQ.
-5. **2002–2012 Relay** — not yet parsed from lazarus.elte.hu (see table above); no `relay.csv` for these years. 2013 is now covered (`parse_lazarus_relay.py`); this is the largest remaining coverage gap in the clean CSVs.
-6. **2017 Relay** — previously flagged approximate, now high confidence after switching to coordinate-based PDF extraction (see `scripts/parsers/parse_relay_text_pdf.py`).
-7. **Name field pollution (fixed)** — an independent consistency audit (`CONSISTENCY-CHECK-CODEX.md`) found ~280 lazarus.elte.hu rows (mostly 2003) where the printed country name leaked into the `name` field, e.g. `"Hlavová Hana Czech republic"`. Root cause: `normalize_country`'s bare-3-letter-code shortcut (added for a different PDF format) matched just the trailing `"CZE 1 A"` fragment of rows that print the country *twice* (full name, then code+bib+heat-letter), leaving the full name name stuck to the athlete's name. Fixed in `parse_lazarus_html.py` by stripping a second, independent trailing country match off whatever's left after the first one. Down to ~9 rows now, mostly genuine collisions (e.g. an Austrian athlete actually surnamed "Czech") rather than parsing errors; a handful of 2003 rows have the name glued to the country with zero whitespace in the source and aren't split.
-8. **Replacement characters (source-level, not fixable)** — the same audit flagged 222 rows (2005, 2006, and 2 names in 2017) containing the Unicode replacement character (�) in a name. Checked at the byte level: in 2005/2006 the bytes `\xef\xbf\xbd` (UTF-8 for U+FFFD) are baked into the source HTML itself — the accented character was already lost before this archive was created, most likely during some earlier lossy encoding conversion. Not recoverable from this source.
-9. Everything else (Sprint/Long 2003–2026, Relay 2014–2026) is high confidence and has a `results/<year>/*.csv` file (2014/2016 Relay/Sprint are `approx` via OCR, see above; 2006 Relay is the only year with no file at all).
-10. **Name formatting** — all `name`/`legN_name` fields are normalized to "Given Surname" order and Title Case (`common.format_name` / `common.reorder_name` in `scripts/parsers/common.py`), regardless of how the raw source printed them. Sources signal "Surname Given" order either via a comma ("Surname, Given" — lazarus.elte.hu 2006/2008/2010), an ALL-CAPS surname run (e.g. "POULSEN Malthe" — 2016 Sprint/Long/Relay), or, for four lazarus.elte.hu years with no such marker (2003, 2004, 2005, 2011, confirmed by hand against the raw HTML), a hardcoded per-year swap in `parse_lazarus_html.py`. Name particles (von, van, de, der, ...) stay lowercase; O'Brien/McDonald/MacLeod-style capitalization is preserved. This is a best-effort heuristic — a handful of double given-name cases (e.g. Hungarian "Réka Dalida") may have the wrong word treated as the surname.
+3. **2014 Relay, 2016 Sprint** — OCR-derived (`confidence=approx`), see method table above. A few names/rank numbers/leg times weren't legible in the scans and are blank rather than guessed.
+4. **Replacement characters (source-level, not fixable)** — 222 lazarus.elte.hu rows (2005, 2006, and 2 names in 2017) contain the Unicode replacement character (�) in a name. Checked at the byte level: the bytes are baked into the source HTML itself — the accented character was already lost before this archive was created. Not recoverable from this source.
+5. Everything else (Sprint/Long 2003–2026, Relay 2002–2005/2007–2026) is high confidence and has a `results/<year>/*.csv` file. 2006 Relay is the only year with no file at all.
+6. **Name formatting** — all `name`/`legN_name` fields are normalized to "Given Surname" order and Title Case, regardless of how the raw source printed them (`common.format_name`/`common.reorder_name` in `scripts/parsers/common.py`). This is a best-effort heuristic with a few known unresolved cases: Hungarian double given names (e.g. "Réka Dalida") may have the wrong word treated as the surname, and a couple of national federations (Great Britain in 2013, Romania in 2012) submit relay entries in the opposite order from the rest of that page with no signal to detect it.
