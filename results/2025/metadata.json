@@ -1,392 +1,124 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2025,
   "title": "European Youth Orienteering Championships 2025",
   "city": "Brno",
   "country": "Czech Republic",
+  "date": "July 17-20",
+  "start_date": "2025-07-17",
+  "end_date": "2025-07-20",
   "long": {
-    "place": null,
+    "place": "Babice nad Svitavou",
     "map_name": null,
     "categories": {
       "M16": {
-        "place": null,
+        "place": "Moravian karst / Brno region",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 97,
-        "source": {
-          "normalized_csv": "results/2025/long.csv",
-          "raw_source_files": [
-            "results/raw/2025/Long.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 2,
-            "OK": 389
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 5.4,
+        "elevation_m": 410,
+        "control_points": 11,
+        "field_size": 97
       },
       "M18": {
-        "place": null,
+        "place": "Moravian karst / Brno region",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 103,
-        "source": {
-          "normalized_csv": "results/2025/long.csv",
-          "raw_source_files": [
-            "results/raw/2025/Long.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 2,
-            "OK": 389
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 7.2,
+        "elevation_m": 550,
+        "control_points": 18,
+        "field_size": 103
       },
       "W16": {
-        "place": null,
+        "place": "Moravian karst / Brno region",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 96,
-        "source": {
-          "normalized_csv": "results/2025/long.csv",
-          "raw_source_files": [
-            "results/raw/2025/Long.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 2,
-            "OK": 389
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 4.1,
+        "elevation_m": 300,
+        "control_points": 8,
+        "field_size": 96
       },
       "W18": {
-        "place": null,
+        "place": "Moravian karst / Brno region",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 95,
-        "source": {
-          "normalized_csv": "results/2025/long.csv",
-          "raw_source_files": [
-            "results/raw/2025/Long.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 2,
-            "OK": 389
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 5.6,
+        "elevation_m": 440,
+        "control_points": 12,
+        "field_size": 95
       }
-    },
-    "source": {
-      "normalized_csv": "results/2025/long.csv",
-      "raw_source_files": [
-        "results/raw/2025/Long.xml"
-      ],
-      "raw_source_formats": [
-        "IOF XML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "DNF": 2,
-        "OK": 389
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
-    "place": null,
+    "place": "Kociánka, Brno",
     "map_name": null,
     "categories": {
       "M16": {
-        "place": null,
+        "place": "Brno",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 91,
-        "source": {
-          "normalized_csv": "results/2025/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2025/Sprint.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 2,
-            "OK": 370
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 2.9,
+        "elevation_m": 35,
+        "control_points": 24,
+        "field_size": 91
       },
       "M18": {
-        "place": null,
+        "place": "Brno",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 99,
-        "source": {
-          "normalized_csv": "results/2025/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2025/Sprint.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 2,
-            "OK": 370
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 3.2,
+        "elevation_m": 40,
+        "control_points": 23,
+        "field_size": 99
       },
       "W16": {
-        "place": null,
+        "place": "Brno",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 92,
-        "source": {
-          "normalized_csv": "results/2025/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2025/Sprint.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 2,
-            "OK": 370
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 2.5,
+        "elevation_m": 20,
+        "control_points": 19,
+        "field_size": 92
       },
       "W18": {
-        "place": null,
+        "place": "Brno",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 91,
-        "source": {
-          "normalized_csv": "results/2025/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2025/Sprint.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 2,
-            "OK": 370
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 2.8,
+        "elevation_m": 30,
+        "control_points": 22,
+        "field_size": 91
       }
-    },
-    "source": {
-      "normalized_csv": "results/2025/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2025/Sprint.xml"
-      ],
-      "raw_source_formats": [
-        "IOF XML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "DNF": 1,
-        "DSQ": 2,
-        "OK": 370
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
-    "place": null,
+    "place": "Babice nad Svitavou",
     "map_name": null,
     "categories": {
       "M16": {
-        "place": null,
+        "place": "Brno region",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 25,
-        "source": {
-          "normalized_csv": "results/2025/relay.csv",
-          "raw_source_files": [
-            "results/raw/2025/Relay.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 13,
-            "DSQ": 2,
-            "OK": 86
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 4.6,
+        "elevation_m": 70,
+        "control_points": 21,
+        "field_size": 25
       },
       "M18": {
-        "place": null,
+        "place": "Brno region",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 29,
-        "source": {
-          "normalized_csv": "results/2025/relay.csv",
-          "raw_source_files": [
-            "results/raw/2025/Relay.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 13,
-            "DSQ": 2,
-            "OK": 86
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 5.6,
+        "elevation_m": 90,
+        "control_points": 25,
+        "field_size": 29
       },
       "W16": {
-        "place": null,
+        "place": "Brno region",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 22,
-        "source": {
-          "normalized_csv": "results/2025/relay.csv",
-          "raw_source_files": [
-            "results/raw/2025/Relay.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 13,
-            "DSQ": 2,
-            "OK": 86
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 3.8,
+        "elevation_m": 60,
+        "control_points": 19,
+        "field_size": 22
       },
       "W18": {
-        "place": null,
+        "place": "Brno region",
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 25,
-        "source": {
-          "normalized_csv": "results/2025/relay.csv",
-          "raw_source_files": [
-            "results/raw/2025/Relay.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 13,
-            "DSQ": 2,
-            "OK": 86
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 4.6,
+        "elevation_m": 70,
+        "control_points": 22,
+        "field_size": 25
       }
-    },
-    "source": {
-      "normalized_csv": "results/2025/relay.csv",
-      "raw_source_files": [
-        "results/raw/2025/Relay.xml"
-      ],
-      "raw_source_formats": [
-        "IOF XML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "DNF": 13,
-        "DSQ": 2,
-        "OK": 86
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

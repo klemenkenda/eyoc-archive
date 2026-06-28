@@ -1,367 +1,124 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2026,
   "title": "European Youth Orienteering Championships 2026",
   "city": "Nova Gorica",
   "country": "Slovenia",
+  "date": "June 25-27",
+  "start_date": "2026-06-25",
+  "end_date": "2026-06-27",
   "long": {
-    "place": null,
+    "place": "Lokve",
     "map_name": null,
     "categories": {
       "M16": {
-        "place": null,
+        "place": "Lokve",
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 5.53,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 95,
-        "source": {
-          "normalized_csv": "results/2026/long.csv",
-          "raw_source_files": [
-            "results/raw/2026/02-long-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 397
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 95
       },
       "M18": {
-        "place": null,
+        "place": "Lokve",
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 6.69,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 101,
-        "source": {
-          "normalized_csv": "results/2026/long.csv",
-          "raw_source_files": [
-            "results/raw/2026/02-long-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 397
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 101
       },
       "W16": {
-        "place": null,
+        "place": "Lokve",
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 4.51,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 97,
-        "source": {
-          "normalized_csv": "results/2026/long.csv",
-          "raw_source_files": [
-            "results/raw/2026/02-long-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 397
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 97
       },
       "W18": {
-        "place": null,
+        "place": "Lokve",
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 5.7,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 104,
-        "source": {
-          "normalized_csv": "results/2026/long.csv",
-          "raw_source_files": [
-            "results/raw/2026/02-long-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 397
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 104
       }
-    },
-    "source": {
-      "normalized_csv": "results/2026/long.csv",
-      "raw_source_files": [
-        "results/raw/2026/02-long-results-eventor.xml"
-      ],
-      "raw_source_formats": [
-        "IOF XML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 397
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
-    "place": null,
+    "place": "Nova Gorica",
     "map_name": null,
     "categories": {
       "M16": {
-        "place": null,
+        "place": "Nova Gorica",
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 3.18,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 95,
-        "source": {
-          "normalized_csv": "results/2026/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2026/01-sprint-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 396
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 95
       },
       "M18": {
-        "place": null,
+        "place": "Nova Gorica",
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 3.53,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 101,
-        "source": {
-          "normalized_csv": "results/2026/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2026/01-sprint-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 396
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 101
       },
       "W16": {
-        "place": null,
+        "place": "Nova Gorica",
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 2.97,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 97,
-        "source": {
-          "normalized_csv": "results/2026/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2026/01-sprint-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 396
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 97
       },
       "W18": {
-        "place": null,
+        "place": "Nova Gorica",
         "map_name": null,
-        "distance_km": null,
+        "distance_km": 3.08,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 103,
-        "source": {
-          "normalized_csv": "results/2026/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2026/01-sprint-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 396
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 103
       }
-    },
-    "source": {
-      "normalized_csv": "results/2026/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2026/01-sprint-results-eventor.xml"
-      ],
-      "raw_source_formats": [
-        "IOF XML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 396
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
-    "place": null,
+    "place": "Nemci",
     "map_name": null,
     "categories": {
       "M16": {
-        "place": null,
+        "place": "Nemci",
         "map_name": null,
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 25,
-        "source": {
-          "normalized_csv": "results/2026/relay.csv",
-          "raw_source_files": [
-            "results/raw/2026/03-relay-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 106
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 25
       },
       "M18": {
-        "place": null,
+        "place": "Nemci",
         "map_name": null,
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 27,
-        "source": {
-          "normalized_csv": "results/2026/relay.csv",
-          "raw_source_files": [
-            "results/raw/2026/03-relay-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 106
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 27
       },
       "W16": {
-        "place": null,
+        "place": "Nemci",
         "map_name": null,
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 25,
-        "source": {
-          "normalized_csv": "results/2026/relay.csv",
-          "raw_source_files": [
-            "results/raw/2026/03-relay-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 106
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 25
       },
       "W18": {
-        "place": null,
+        "place": "Nemci",
         "map_name": null,
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 29,
-        "source": {
-          "normalized_csv": "results/2026/relay.csv",
-          "raw_source_files": [
-            "results/raw/2026/03-relay-results-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 106
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 29
       }
-    },
-    "source": {
-      "normalized_csv": "results/2026/relay.csv",
-      "raw_source_files": [
-        "results/raw/2026/03-relay-results-eventor.xml"
-      ],
-      "raw_source_formats": [
-        "IOF XML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 106
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

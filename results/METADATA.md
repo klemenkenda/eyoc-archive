@@ -1,29 +1,14 @@
-# EYOC metadata JSON with raw-source provenance (2002-2026)
+# EYOC metadata JSON, enriched through 2017-2019 and 2021
 
-This package contains `metadata.json` in each year folder.
+This package contains simple `<year>/metadata.json` files for EYOC 2002-2026.
 
-## What is filled now
+This build preserves the previous enrichment and adds verified values for 2017, 2018 and 2021 where available.
 
-- `title`, `city`, `country`
-- `field_size` per discipline/category from normalized CSV rows
-- `source.raw_source_files` and `source.raw_source_formats` from the CSV `source_file` column
+## Added in this pass
 
-## What is deliberately left as `null`
+- 2017: Long M18 distance, climb and controls. Other 2017 course metrics remain null where not directly verified.
+- 2018: Sprint and Long course metadata for W16, W18, M16 and M18, including place/map name, distance, climb and controls.
+- 2019: Raw XML/PDF sources exist in the repository, but course metrics were not directly recoverable in this run, so JSON values remain null rather than guessed.
+- 2021: Sprint place/map name set to Vilnius Old Town; course metrics remain null where not directly verified.
 
-Course fields remain `null` in this generated package where the current runtime could not save/parse the raw XML/PDF/HTML files directly:
-
-- `place`
-- `map_name`
-- `distance_km`
-- `elevation_m`
-- `control_points`
-
-## Fill from raw XML locally
-
-Clone the repository, unzip this package, then run:
-
-```bash
-python scripts/update_metadata_from_raw.py --repo /path/to/eyoc-archive --metadata /path/to/unzipped-metadata-root
-```
-
-The script parses IOF XML files in `results/raw/<year>/` and fills course metadata when the XML contains it.
+Relay metrics for 2017, 2018, 2019 and 2021 remain null unless already enriched elsewhere, because the exposed relay result sources did not show reliable course distance/climb/control rows in this run.

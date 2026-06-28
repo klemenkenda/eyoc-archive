@@ -1,9 +1,12 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2021,
   "title": "European Youth Orienteering Championships 2021",
   "city": "Vilnius",
   "country": "Lithuania",
+  "date": "August 19-22",
+  "start_date": "2021-08-19",
+  "end_date": "2021-08-22",
   "long": {
     "place": null,
     "map_name": null,
@@ -14,24 +17,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 95,
-        "source": {
-          "normalized_csv": "results/2021/long.csv",
-          "raw_source_files": [
-            "results/raw/2021/Long-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DSQ": 12,
-            "OK": 364
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 95
       },
       "M18": {
         "place": null,
@@ -39,24 +25,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 104,
-        "source": {
-          "normalized_csv": "results/2021/long.csv",
-          "raw_source_files": [
-            "results/raw/2021/Long-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DSQ": 12,
-            "OK": 364
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 104
       },
       "W16": {
         "place": null,
@@ -64,24 +33,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 88,
-        "source": {
-          "normalized_csv": "results/2021/long.csv",
-          "raw_source_files": [
-            "results/raw/2021/Long-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DSQ": 12,
-            "OK": 364
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 88
       },
       "W18": {
         "place": null,
@@ -89,171 +41,47 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 89,
-        "source": {
-          "normalized_csv": "results/2021/long.csv",
-          "raw_source_files": [
-            "results/raw/2021/Long-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DSQ": 12,
-            "OK": 364
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 89
       }
-    },
-    "source": {
-      "normalized_csv": "results/2021/long.csv",
-      "raw_source_files": [
-        "results/raw/2021/Long-eventor.xml"
-      ],
-      "raw_source_formats": [
-        "IOF XML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "DSQ": 12,
-        "OK": 364
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
-    "place": null,
-    "map_name": null,
+    "place": "Vilnius Old Town",
+    "map_name": "Vilnius Old Town",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
+        "place": "Vilnius Old Town",
+        "map_name": "Vilnius Old Town",
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 95,
-        "source": {
-          "normalized_csv": "results/2021/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2021/Sprint-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 28,
-            "OK": 347
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 95
       },
       "M18": {
-        "place": null,
-        "map_name": null,
+        "place": "Vilnius Old Town",
+        "map_name": "Vilnius Old Town",
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 104,
-        "source": {
-          "normalized_csv": "results/2021/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2021/Sprint-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 28,
-            "OK": 347
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 104
       },
       "W16": {
-        "place": null,
-        "map_name": null,
+        "place": "Vilnius Old Town",
+        "map_name": "Vilnius Old Town",
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 88,
-        "source": {
-          "normalized_csv": "results/2021/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2021/Sprint-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 28,
-            "OK": 347
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 88
       },
       "W18": {
-        "place": null,
-        "map_name": null,
+        "place": "Vilnius Old Town",
+        "map_name": "Vilnius Old Town",
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 89,
-        "source": {
-          "normalized_csv": "results/2021/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2021/Sprint-eventor.xml"
-          ],
-          "raw_source_formats": [
-            "IOF XML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 28,
-            "OK": 347
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 89
       }
-    },
-    "source": {
-      "normalized_csv": "results/2021/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2021/Sprint-eventor.xml"
-      ],
-      "raw_source_formats": [
-        "IOF XML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "DNF": 1,
-        "DSQ": 28,
-        "OK": 347
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
     "place": null,
@@ -265,23 +93,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 23,
-        "source": {
-          "normalized_csv": "results/2021/relay.csv",
-          "raw_source_files": [
-            "results/raw/2021/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 89
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 23
       },
       "M18": {
         "place": null,
@@ -289,23 +101,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 25,
-        "source": {
-          "normalized_csv": "results/2021/relay.csv",
-          "raw_source_files": [
-            "results/raw/2021/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 89
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 25
       },
       "W16": {
         "place": null,
@@ -313,23 +109,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 20,
-        "source": {
-          "normalized_csv": "results/2021/relay.csv",
-          "raw_source_files": [
-            "results/raw/2021/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 89
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 20
       },
       "W18": {
         "place": null,
@@ -337,46 +117,8 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 21,
-        "source": {
-          "normalized_csv": "results/2021/relay.csv",
-          "raw_source_files": [
-            "results/raw/2021/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 89
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 21
       }
-    },
-    "source": {
-      "normalized_csv": "results/2021/relay.csv",
-      "raw_source_files": [
-        "results/raw/2021/results-relay.pdf"
-      ],
-      "raw_source_formats": [
-        "PDF"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 89
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

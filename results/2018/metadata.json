@@ -1,244 +1,87 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2018,
   "title": "European Youth Orienteering Championships 2018",
   "city": "Veliko Tarnovo",
   "country": "Bulgaria",
+  "date": "June 28 - July 1",
+  "start_date": "2018-06-28",
+  "end_date": "2018-07-01",
   "long": {
-    "place": null,
-    "map_name": null,
+    "place": "Miikovtsi",
+    "map_name": "Miikovtsi",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 95,
-        "source": {
-          "normalized_csv": "results/2018/long.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-long.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 377
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Miikovtsi",
+        "map_name": "Miikovtsi",
+        "distance_km": 5.3,
+        "elevation_m": 335,
+        "control_points": 13,
+        "field_size": 95
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 105,
-        "source": {
-          "normalized_csv": "results/2018/long.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-long.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 377
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Miikovtsi",
+        "map_name": "Miikovtsi",
+        "distance_km": 6.6,
+        "elevation_m": 425,
+        "control_points": 15,
+        "field_size": 105
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 92,
-        "source": {
-          "normalized_csv": "results/2018/long.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-long.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 377
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Miikovtsi",
+        "map_name": "Miikovtsi",
+        "distance_km": 4.4,
+        "elevation_m": 215,
+        "control_points": 12,
+        "field_size": 92
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 85,
-        "source": {
-          "normalized_csv": "results/2018/long.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-long.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 377
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Miikovtsi",
+        "map_name": "Miikovtsi",
+        "distance_km": 5.1,
+        "elevation_m": 365,
+        "control_points": 14,
+        "field_size": 85
       }
-    },
-    "source": {
-      "normalized_csv": "results/2018/long.csv",
-      "raw_source_files": [
-        "results/raw/2018/results-long.pdf"
-      ],
-      "raw_source_formats": [
-        "PDF"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 377
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
-    "place": null,
-    "map_name": null,
+    "place": "Tsaravets",
+    "map_name": "Tsaravets",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 94,
-        "source": {
-          "normalized_csv": "results/2018/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-sprint.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 376
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Tsaravets",
+        "map_name": "Tsaravets",
+        "distance_km": 2.2,
+        "elevation_m": 105,
+        "control_points": 15,
+        "field_size": 94
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 104,
-        "source": {
-          "normalized_csv": "results/2018/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-sprint.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 376
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Tsaravets",
+        "map_name": "Tsaravets",
+        "distance_km": 2.5,
+        "elevation_m": 115,
+        "control_points": 17,
+        "field_size": 104
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 94,
-        "source": {
-          "normalized_csv": "results/2018/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-sprint.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 376
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Tsaravets",
+        "map_name": "Tsaravets",
+        "distance_km": 2.0,
+        "elevation_m": 85,
+        "control_points": 15,
+        "field_size": 94
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 84,
-        "source": {
-          "normalized_csv": "results/2018/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-sprint.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 376
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Tsaravets",
+        "map_name": "Tsaravets",
+        "distance_km": 2.1,
+        "elevation_m": 90,
+        "control_points": 15,
+        "field_size": 84
       }
-    },
-    "source": {
-      "normalized_csv": "results/2018/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2018/results-sprint.pdf"
-      ],
-      "raw_source_formats": [
-        "PDF"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 376
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
     "place": null,
@@ -250,23 +93,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 20,
-        "source": {
-          "normalized_csv": "results/2018/relay.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 91
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 20
       },
       "M18": {
         "place": null,
@@ -274,23 +101,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 28,
-        "source": {
-          "normalized_csv": "results/2018/relay.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 91
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 28
       },
       "W16": {
         "place": null,
@@ -298,23 +109,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 22,
-        "source": {
-          "normalized_csv": "results/2018/relay.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 91
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 22
       },
       "W18": {
         "place": null,
@@ -322,46 +117,8 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 21,
-        "source": {
-          "normalized_csv": "results/2018/relay.csv",
-          "raw_source_files": [
-            "results/raw/2018/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 91
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 21
       }
-    },
-    "source": {
-      "normalized_csv": "results/2018/relay.csv",
-      "raw_source_files": [
-        "results/raw/2018/results-relay.pdf"
-      ],
-      "raw_source_formats": [
-        "PDF"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 91
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

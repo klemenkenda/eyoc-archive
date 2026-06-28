@@ -1,372 +1,124 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2013,
   "title": "European Youth Orienteering Championships 2013",
   "city": "Caldas da Rainha",
   "country": "Portugal",
+  "date": "October 24-27",
+  "start_date": "2013-10-24",
+  "end_date": "2013-10-27",
   "long": {
-    "place": null,
-    "map_name": null,
+    "place": "Ferrel",
+    "map_name": "Ferrel",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 79,
-        "source": {
-          "normalized_csv": "results/2013/long.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 342
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Ferrel",
+        "map_name": "Ferrel",
+        "distance_km": 7.3,
+        "elevation_m": 180,
+        "control_points": 14,
+        "field_size": 79
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 94,
-        "source": {
-          "normalized_csv": "results/2013/long.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 342
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Ferrel",
+        "map_name": "Ferrel",
+        "distance_km": 8.9,
+        "elevation_m": 205,
+        "control_points": 20,
+        "field_size": 94
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 74,
-        "source": {
-          "normalized_csv": "results/2013/long.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 342
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Ferrel",
+        "map_name": "Ferrel",
+        "distance_km": 5.6,
+        "elevation_m": 120,
+        "control_points": 14,
+        "field_size": 74
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 95,
-        "source": {
-          "normalized_csv": "results/2013/long.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 342
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Ferrel",
+        "map_name": "Ferrel",
+        "distance_km": 6.8,
+        "elevation_m": 165,
+        "control_points": 15,
+        "field_size": 95
       }
-    },
-    "source": {
-      "normalized_csv": "results/2013/long.csv",
-      "raw_source_files": [
-        "results/raw/2013/eyoc2013.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 342
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
-    "place": null,
-    "map_name": null,
+    "place": "Óbidos",
+    "map_name": "Óbidos",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 73,
-        "source": {
-          "normalized_csv": "results/2013/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 322
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Óbidos",
+        "map_name": "Óbidos",
+        "distance_km": 2.5,
+        "elevation_m": 100,
+        "control_points": 16,
+        "field_size": 73
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 86,
-        "source": {
-          "normalized_csv": "results/2013/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 322
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Óbidos",
+        "map_name": "Óbidos",
+        "distance_km": 2.8,
+        "elevation_m": 130,
+        "control_points": 17,
+        "field_size": 86
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 75,
-        "source": {
-          "normalized_csv": "results/2013/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 322
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Óbidos",
+        "map_name": "Óbidos",
+        "distance_km": 2.5,
+        "elevation_m": 100,
+        "control_points": 16,
+        "field_size": 75
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 88,
-        "source": {
-          "normalized_csv": "results/2013/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 322
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Óbidos",
+        "map_name": "Óbidos",
+        "distance_km": 2.5,
+        "elevation_m": 110,
+        "control_points": 17,
+        "field_size": 88
       }
-    },
-    "source": {
-      "normalized_csv": "results/2013/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2013/eyoc2013.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 322
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
-    "place": null,
-    "map_name": null,
+    "place": "Vale Benfeito",
+    "map_name": "Vale Benfeito",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
+        "place": "Vale Benfeito",
+        "map_name": "Vale Benfeito",
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 20,
-        "source": {
-          "normalized_csv": "results/2013/relay.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "MP": 10,
-            "OK": 81
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 20
       },
       "M18": {
-        "place": null,
-        "map_name": null,
+        "place": "Vale Benfeito",
+        "map_name": "Vale Benfeito",
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 27,
-        "source": {
-          "normalized_csv": "results/2013/relay.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "MP": 10,
-            "OK": 81
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 27
       },
       "W16": {
-        "place": null,
-        "map_name": null,
+        "place": "Vale Benfeito",
+        "map_name": "Vale Benfeito",
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 18,
-        "source": {
-          "normalized_csv": "results/2013/relay.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "MP": 10,
-            "OK": 81
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 18
       },
       "W18": {
-        "place": null,
-        "map_name": null,
+        "place": "Vale Benfeito",
+        "map_name": "Vale Benfeito",
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 26,
-        "source": {
-          "normalized_csv": "results/2013/relay.csv",
-          "raw_source_files": [
-            "results/raw/2013/eyoc2013.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "MP": 10,
-            "OK": 81
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 26
       }
-    },
-    "source": {
-      "normalized_csv": "results/2013/relay.csv",
-      "raw_source_files": [
-        "results/raw/2013/eyoc2013.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "MP": 10,
-        "OK": 81
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

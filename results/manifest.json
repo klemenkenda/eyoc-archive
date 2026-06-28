@@ -1,130 +1,127 @@
-{
-  "schema_version": "1.1",
-  "files": [
-    {
-      "year": 2002,
-      "path": "2002/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2003,
-      "path": "2003/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2004,
-      "path": "2004/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2005,
-      "path": "2005/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2006,
-      "path": "2006/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2007,
-      "path": "2007/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2008,
-      "path": "2008/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2009,
-      "path": "2009/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2010,
-      "path": "2010/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2011,
-      "path": "2011/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2012,
-      "path": "2012/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2013,
-      "path": "2013/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2014,
-      "path": "2014/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2015,
-      "path": "2015/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2016,
-      "path": "2016/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2017,
-      "path": "2017/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2018,
-      "path": "2018/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2019,
-      "path": "2019/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2020,
-      "path": "2020/metadata.json",
-      "has_normalized_csv": false
-    },
-    {
-      "year": 2021,
-      "path": "2021/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2022,
-      "path": "2022/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2023,
-      "path": "2023/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2024,
-      "path": "2024/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2025,
-      "path": "2025/metadata.json",
-      "has_normalized_csv": true
-    },
-    {
-      "year": 2026,
-      "path": "2026/metadata.json",
-      "has_normalized_csv": true
-    }
-  ]
-}
+[
+  {
+    "year": 2002,
+    "course_fields_filled": 0,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2003,
+    "course_fields_filled": 36,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2004,
+    "course_fields_filled": 24,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2005,
+    "course_fields_filled": 24,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2006,
+    "course_fields_filled": 0,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2007,
+    "course_fields_filled": 0,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2008,
+    "course_fields_filled": 24,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2009,
+    "course_fields_filled": 36,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2010,
+    "course_fields_filled": 30,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2011,
+    "course_fields_filled": 26,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2012,
+    "course_fields_filled": 24,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2013,
+    "course_fields_filled": 24,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2014,
+    "course_fields_filled": 24,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2015,
+    "course_fields_filled": 20,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2016,
+    "course_fields_filled": 12,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2017,
+    "course_fields_filled": 0,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2018,
+    "course_fields_filled": 0,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2019,
+    "course_fields_filled": 0,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2020,
+    "course_fields_filled": 0,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2021,
+    "course_fields_filled": 0,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2022,
+    "course_fields_filled": 7,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2023,
+    "course_fields_filled": 1,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2024,
+    "course_fields_filled": 9,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2025,
+    "course_fields_filled": 36,
+    "course_fields_total": 36
+  },
+  {
+    "year": 2026,
+    "course_fields_filled": 8,
+    "course_fields_total": 36
+  }
+]

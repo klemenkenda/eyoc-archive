@@ -1,382 +1,124 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2014,
   "title": "European Youth Orienteering Championships 2014",
   "city": "Strumica",
-  "country": "North Macedonia",
+  "country": "Macedonia",
+  "date": "June 25-28",
+  "start_date": "2014-06-25",
+  "end_date": "2014-06-28",
   "long": {
-    "place": null,
-    "map_name": null,
+    "place": "Suvi Laki",
+    "map_name": "Suvi Laki",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 86,
-        "source": {
-          "normalized_csv": "results/2014/long.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-long.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 376
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Suvi Laki",
+        "map_name": "Suvi Laki",
+        "distance_km": 4.8,
+        "elevation_m": 265,
+        "control_points": 13,
+        "field_size": 86
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 104,
-        "source": {
-          "normalized_csv": "results/2014/long.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-long.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 376
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Suvi Laki",
+        "map_name": "Suvi Laki",
+        "distance_km": 5.5,
+        "elevation_m": 375,
+        "control_points": 12,
+        "field_size": 104
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 92,
-        "source": {
-          "normalized_csv": "results/2014/long.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-long.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 376
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Suvi Laki",
+        "map_name": "Suvi Laki",
+        "distance_km": 3.5,
+        "elevation_m": 195,
+        "control_points": 10,
+        "field_size": 92
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 94,
-        "source": {
-          "normalized_csv": "results/2014/long.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-long.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 376
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Suvi Laki",
+        "map_name": "Suvi Laki",
+        "distance_km": 4.4,
+        "elevation_m": 250,
+        "control_points": 10,
+        "field_size": 94
       }
-    },
-    "source": {
-      "normalized_csv": "results/2014/long.csv",
-      "raw_source_files": [
-        "results/raw/2014/results-long.pdf"
-      ],
-      "raw_source_formats": [
-        "PDF"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 376
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
-    "place": null,
-    "map_name": null,
+    "place": "Strumica",
+    "map_name": "Strumica",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 89,
-        "source": {
-          "normalized_csv": "results/2014/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-sprint.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 375
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Strumica",
+        "map_name": "Strumica",
+        "distance_km": 1.8,
+        "elevation_m": 60,
+        "control_points": 14,
+        "field_size": 89
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 101,
-        "source": {
-          "normalized_csv": "results/2014/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-sprint.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 375
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Strumica",
+        "map_name": "Strumica",
+        "distance_km": 1.8,
+        "elevation_m": 65,
+        "control_points": 17,
+        "field_size": 101
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 90,
-        "source": {
-          "normalized_csv": "results/2014/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-sprint.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 375
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Strumica",
+        "map_name": "Strumica",
+        "distance_km": 1.6,
+        "elevation_m": 25,
+        "control_points": 13,
+        "field_size": 90
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 95,
-        "source": {
-          "normalized_csv": "results/2014/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-sprint.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 375
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Strumica",
+        "map_name": "Strumica",
+        "distance_km": 1.8,
+        "elevation_m": 65,
+        "control_points": 14,
+        "field_size": 95
       }
-    },
-    "source": {
-      "normalized_csv": "results/2014/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2014/results-sprint.pdf"
-      ],
-      "raw_source_formats": [
-        "PDF"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 375
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
-    "place": null,
-    "map_name": null,
+    "place": "Suvi Laki",
+    "map_name": "Suvi Laki",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 23,
-        "source": {
-          "normalized_csv": "results/2014/relay.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "approx"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 4,
-            "MP": 10,
-            "OK": 81
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Suvi Laki",
+        "map_name": "Suvi Laki",
+        "distance_km": "3.6-3.7",
+        "elevation_m": 170,
+        "control_points": 16,
+        "field_size": 23
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 27,
-        "source": {
-          "normalized_csv": "results/2014/relay.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "approx"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 4,
-            "MP": 10,
-            "OK": 81
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Suvi Laki",
+        "map_name": "Suvi Laki",
+        "distance_km": "4.2-4.4",
+        "elevation_m": 190,
+        "control_points": 18,
+        "field_size": 27
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 21,
-        "source": {
-          "normalized_csv": "results/2014/relay.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "approx"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 4,
-            "MP": 10,
-            "OK": 81
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Suvi Laki",
+        "map_name": "Suvi Laki",
+        "distance_km": "2.7-2.9",
+        "elevation_m": 160,
+        "control_points": "14-15",
+        "field_size": 21
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 25,
-        "source": {
-          "normalized_csv": "results/2014/relay.csv",
-          "raw_source_files": [
-            "results/raw/2014/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "approx"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DSQ": 4,
-            "MP": 10,
-            "OK": 81
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Suvi Laki",
+        "map_name": "Suvi Laki",
+        "distance_km": "3.5-3.6",
+        "elevation_m": 170,
+        "control_points": "15-16",
+        "field_size": 25
       }
-    },
-    "source": {
-      "normalized_csv": "results/2014/relay.csv",
-      "raw_source_files": [
-        "results/raw/2014/results-relay.pdf"
-      ],
-      "raw_source_formats": [
-        "PDF"
-      ],
-      "confidence_values": [
-        "approx"
-      ],
-      "status_counts": {
-        "DNF": 1,
-        "DSQ": 4,
-        "MP": 10,
-        "OK": 81
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

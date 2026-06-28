@@ -1,244 +1,87 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2015,
   "title": "European Youth Orienteering Championships 2015",
   "city": "Cluj-Napoca",
   "country": "Romania",
+  "date": "June 25-28",
+  "start_date": "2015-06-25",
+  "end_date": "2015-06-28",
   "long": {
-    "place": null,
-    "map_name": null,
+    "place": "Făget EYOC2015",
+    "map_name": "Făget EYOC2015",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 84,
-        "source": {
-          "normalized_csv": "results/2015/long.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-lf.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 363
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Făget EYOC2015",
+        "map_name": "Făget EYOC2015",
+        "distance_km": 6.8,
+        "elevation_m": 255,
+        "control_points": 14,
+        "field_size": 84
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 103,
-        "source": {
-          "normalized_csv": "results/2015/long.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-lf.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 363
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Făget EYOC2015",
+        "map_name": "Făget EYOC2015",
+        "distance_km": 8.3,
+        "elevation_m": 310,
+        "control_points": 19,
+        "field_size": 103
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 87,
-        "source": {
-          "normalized_csv": "results/2015/long.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-lf.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 363
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Făget EYOC2015",
+        "map_name": "Făget EYOC2015",
+        "distance_km": 5.2,
+        "elevation_m": 170,
+        "control_points": 13,
+        "field_size": 87
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 89,
-        "source": {
-          "normalized_csv": "results/2015/long.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-lf.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 363
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Făget EYOC2015",
+        "map_name": "Făget EYOC2015",
+        "distance_km": 6.3,
+        "elevation_m": 210,
+        "control_points": 15,
+        "field_size": 89
       }
-    },
-    "source": {
-      "normalized_csv": "results/2015/long.csv",
-      "raw_source_files": [
-        "results/raw/2015/results-lf.pdf"
-      ],
-      "raw_source_formats": [
-        "PDF"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 363
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
-    "place": null,
-    "map_name": null,
+    "place": "Gheorgheni Sud-Est",
+    "map_name": "Gheorgheni Sud-Est",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
+        "place": "Gheorgheni Sud-Est",
+        "map_name": "Gheorgheni Sud-Est",
+        "distance_km": 2.0,
         "elevation_m": null,
-        "control_points": null,
-        "field_size": 88,
-        "source": {
-          "normalized_csv": "results/2015/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-sf.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 377
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "control_points": 14,
+        "field_size": 88
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
+        "place": "Gheorgheni Sud-Est",
+        "map_name": "Gheorgheni Sud-Est",
+        "distance_km": 2.2,
         "elevation_m": null,
-        "control_points": null,
-        "field_size": 103,
-        "source": {
-          "normalized_csv": "results/2015/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-sf.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 377
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "control_points": 15,
+        "field_size": 103
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
+        "place": "Gheorgheni Sud-Est",
+        "map_name": "Gheorgheni Sud-Est",
+        "distance_km": 1.7,
         "elevation_m": null,
-        "control_points": null,
-        "field_size": 92,
-        "source": {
-          "normalized_csv": "results/2015/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-sf.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 377
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "control_points": 12,
+        "field_size": 92
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
+        "place": "Gheorgheni Sud-Est",
+        "map_name": "Gheorgheni Sud-Est",
+        "distance_km": 1.7,
         "elevation_m": null,
-        "control_points": null,
-        "field_size": 94,
-        "source": {
-          "normalized_csv": "results/2015/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-sf.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 377
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "control_points": 12,
+        "field_size": 94
       }
-    },
-    "source": {
-      "normalized_csv": "results/2015/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2015/results-sf.pdf"
-      ],
-      "raw_source_formats": [
-        "PDF"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 377
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
     "place": null,
@@ -247,121 +90,35 @@
       "M16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 21,
-        "source": {
-          "normalized_csv": "results/2015/relay.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 92
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": "4.4-4.6",
+        "elevation_m": 170,
+        "control_points": 13,
+        "field_size": 21
       },
       "M18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 27,
-        "source": {
-          "normalized_csv": "results/2015/relay.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 92
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": "5.4-5.9",
+        "elevation_m": 240,
+        "control_points": "13-14",
+        "field_size": 27
       },
       "W16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 20,
-        "source": {
-          "normalized_csv": "results/2015/relay.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 92
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": "3.4-3.8",
+        "elevation_m": 140,
+        "control_points": 11,
+        "field_size": 20
       },
       "W18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 24,
-        "source": {
-          "normalized_csv": "results/2015/relay.csv",
-          "raw_source_files": [
-            "results/raw/2015/results-relay.pdf"
-          ],
-          "raw_source_formats": [
-            "PDF"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 92
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": "4.1-4.2",
+        "elevation_m": 165,
+        "control_points": 13,
+        "field_size": 24
       }
-    },
-    "source": {
-      "normalized_csv": "results/2015/relay.csv",
-      "raw_source_files": [
-        "results/raw/2015/results-relay.pdf"
-      ],
-      "raw_source_formats": [
-        "PDF"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 92
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

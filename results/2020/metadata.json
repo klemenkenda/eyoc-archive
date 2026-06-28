@@ -1,9 +1,12 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2020,
   "title": "European Youth Orienteering Championships 2020",
   "city": "Salgótarján",
   "country": "Hungary",
+  "date": "postponed until 2022",
+  "start_date": null,
+  "end_date": null,
   "long": {
     "place": null,
     "map_name": null,
@@ -14,9 +17,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       },
       "M18": {
         "place": null,
@@ -24,9 +25,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       },
       "W16": {
         "place": null,
@@ -34,9 +33,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       },
       "W18": {
         "place": null,
@@ -44,13 +41,9 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       }
-    },
-    "source": null,
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
     "place": null,
@@ -62,9 +55,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       },
       "M18": {
         "place": null,
@@ -72,9 +63,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       },
       "W16": {
         "place": null,
@@ -82,9 +71,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       },
       "W18": {
         "place": null,
@@ -92,13 +79,9 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       }
-    },
-    "source": null,
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
     "place": null,
@@ -110,9 +93,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       },
       "M18": {
         "place": null,
@@ -120,9 +101,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       },
       "W16": {
         "place": null,
@@ -130,9 +109,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       },
       "W18": {
         "place": null,
@@ -140,18 +117,8 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": null,
-        "source": null,
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": null
       }
-    },
-    "source": null,
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

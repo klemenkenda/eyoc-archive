@@ -1,377 +1,124 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2009,
   "title": "European Youth Orienteering Championships 2009",
   "city": "Kopaonik",
   "country": "Serbia",
+  "date": "July 2-5",
+  "start_date": "2009-07-02",
+  "end_date": "2009-07-05",
   "long": {
-    "place": null,
-    "map_name": null,
+    "place": "Jankova Bara",
+    "map_name": "Jankova Bara",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 84,
-        "source": {
-          "normalized_csv": "results/2009/long.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 326
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Jankova Bara",
+        "map_name": "Jankova Bara",
+        "distance_km": 6.59,
+        "elevation_m": 360,
+        "control_points": 20,
+        "field_size": 84
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 93,
-        "source": {
-          "normalized_csv": "results/2009/long.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 326
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Jankova Bara",
+        "map_name": "Jankova Bara",
+        "distance_km": 8.19,
+        "elevation_m": 415,
+        "control_points": 22,
+        "field_size": 93
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 71,
-        "source": {
-          "normalized_csv": "results/2009/long.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 326
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Jankova Bara",
+        "map_name": "Jankova Bara",
+        "distance_km": 4.54,
+        "elevation_m": 245,
+        "control_points": 15,
+        "field_size": 71
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 78,
-        "source": {
-          "normalized_csv": "results/2009/long.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 326
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Jankova Bara",
+        "map_name": "Jankova Bara",
+        "distance_km": 5.46,
+        "elevation_m": 320,
+        "control_points": 18,
+        "field_size": 78
       }
-    },
-    "source": {
-      "normalized_csv": "results/2009/long.csv",
-      "raw_source_files": [
-        "results/raw/2009/eyoc2009.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 326
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
-    "place": null,
-    "map_name": null,
+    "place": "Kopaonik",
+    "map_name": "Kopaonik",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 76,
-        "source": {
-          "normalized_csv": "results/2009/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 315
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Kopaonik",
+        "map_name": "Kopaonik",
+        "distance_km": 1.76,
+        "elevation_m": 45,
+        "control_points": 15,
+        "field_size": 76
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 90,
-        "source": {
-          "normalized_csv": "results/2009/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 315
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Kopaonik",
+        "map_name": "Kopaonik",
+        "distance_km": 1.94,
+        "elevation_m": 60,
+        "control_points": 19,
+        "field_size": 90
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 70,
-        "source": {
-          "normalized_csv": "results/2009/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 315
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Kopaonik",
+        "map_name": "Kopaonik",
+        "distance_km": 1.52,
+        "elevation_m": 45,
+        "control_points": 13,
+        "field_size": 70
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 79,
-        "source": {
-          "normalized_csv": "results/2009/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 315
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Kopaonik",
+        "map_name": "Kopaonik",
+        "distance_km": 1.74,
+        "elevation_m": 50,
+        "control_points": 15,
+        "field_size": 79
       }
-    },
-    "source": {
-      "normalized_csv": "results/2009/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2009/eyoc2009.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 315
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
-    "place": null,
-    "map_name": null,
+    "place": "Markov Kamen",
+    "map_name": "Markov Kamen",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 23,
-        "source": {
-          "normalized_csv": "results/2009/relay.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "MP": 7,
-            "OK": 84
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Markov Kamen",
+        "map_name": "Markov Kamen",
+        "distance_km": 4.1,
+        "elevation_m": 240,
+        "control_points": 17,
+        "field_size": 23
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 27,
-        "source": {
-          "normalized_csv": "results/2009/relay.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "MP": 7,
-            "OK": 84
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Markov Kamen",
+        "map_name": "Markov Kamen",
+        "distance_km": 4.8,
+        "elevation_m": 285,
+        "control_points": 21,
+        "field_size": 27
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 17,
-        "source": {
-          "normalized_csv": "results/2009/relay.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "MP": 7,
-            "OK": 84
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Markov Kamen",
+        "map_name": "Markov Kamen",
+        "distance_km": 3.0,
+        "elevation_m": 165,
+        "control_points": 15,
+        "field_size": 17
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 25,
-        "source": {
-          "normalized_csv": "results/2009/relay.csv",
-          "raw_source_files": [
-            "results/raw/2009/eyoc2009.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "MP": 7,
-            "OK": 84
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Markov Kamen",
+        "map_name": "Markov Kamen",
+        "distance_km": 3.4,
+        "elevation_m": 190,
+        "control_points": 15,
+        "field_size": 25
       }
-    },
-    "source": {
-      "normalized_csv": "results/2009/relay.csv",
-      "raw_source_files": [
-        "results/raw/2009/eyoc2009.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "DNF": 1,
-        "MP": 7,
-        "OK": 84
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

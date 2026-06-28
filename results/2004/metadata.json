@@ -1,9 +1,12 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2004,
   "title": "European Youth Orienteering Championships 2004",
   "city": "Salzburg",
   "country": "Austria",
+  "date": "June 25-27",
+  "start_date": "2004-06-25",
+  "end_date": "2004-06-27",
   "long": {
     "place": null,
     "map_name": null,
@@ -11,116 +14,36 @@
       "M16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 70,
-        "source": {
-          "normalized_csv": "results/2004/long.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 270
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 6.4,
+        "elevation_m": 250,
+        "control_points": 17,
+        "field_size": 70
       },
       "M18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 69,
-        "source": {
-          "normalized_csv": "results/2004/long.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 270
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 7.0,
+        "elevation_m": 290,
+        "control_points": 17,
+        "field_size": 69
       },
       "W16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 68,
-        "source": {
-          "normalized_csv": "results/2004/long.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 270
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 4.8,
+        "elevation_m": 200,
+        "control_points": 15,
+        "field_size": 68
       },
       "W18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 63,
-        "source": {
-          "normalized_csv": "results/2004/long.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 270
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 5.5,
+        "elevation_m": 290,
+        "control_points": 16,
+        "field_size": 63
       }
-    },
-    "source": {
-      "normalized_csv": "results/2004/long.csv",
-      "raw_source_files": [
-        "results/raw/2004/eyoc2004.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 270
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
     "place": null,
@@ -129,116 +52,36 @@
       "M16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 60,
-        "source": {
-          "normalized_csv": "results/2004/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 258
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 2.4,
+        "elevation_m": 35,
+        "control_points": 14,
+        "field_size": 60
       },
       "M18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 69,
-        "source": {
-          "normalized_csv": "results/2004/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 258
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 2.7,
+        "elevation_m": 75,
+        "control_points": 16,
+        "field_size": 69
       },
       "W16": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 67,
-        "source": {
-          "normalized_csv": "results/2004/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 258
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 2.0,
+        "elevation_m": 40,
+        "control_points": 13,
+        "field_size": 67
       },
       "W18": {
         "place": null,
         "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 62,
-        "source": {
-          "normalized_csv": "results/2004/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 258
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "distance_km": 2.4,
+        "elevation_m": 40,
+        "control_points": 14,
+        "field_size": 62
       }
-    },
-    "source": {
-      "normalized_csv": "results/2004/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2004/eyoc2004.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 258
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
     "place": null,
@@ -250,26 +93,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 19,
-        "source": {
-          "normalized_csv": "results/2004/relay.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DNS": 1,
-            "MP": 4,
-            "OK": 70
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 19
       },
       "M18": {
         "place": null,
@@ -277,26 +101,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 19,
-        "source": {
-          "normalized_csv": "results/2004/relay.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DNS": 1,
-            "MP": 4,
-            "OK": 70
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 19
       },
       "W16": {
         "place": null,
@@ -304,26 +109,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 19,
-        "source": {
-          "normalized_csv": "results/2004/relay.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DNS": 1,
-            "MP": 4,
-            "OK": 70
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 19
       },
       "W18": {
         "place": null,
@@ -331,52 +117,8 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 19,
-        "source": {
-          "normalized_csv": "results/2004/relay.csv",
-          "raw_source_files": [
-            "results/raw/2004/eyoc2004.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "DNS": 1,
-            "MP": 4,
-            "OK": 70
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 19
       }
-    },
-    "source": {
-      "normalized_csv": "results/2004/relay.csv",
-      "raw_source_files": [
-        "results/raw/2004/eyoc2004.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "DNF": 1,
-        "DNS": 1,
-        "MP": 4,
-        "OK": 70
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

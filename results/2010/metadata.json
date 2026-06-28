@@ -1,248 +1,91 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2010,
   "title": "European Youth Orienteering Championships 2010",
   "city": "Soria",
   "country": "Spain",
+  "date": "July 1-4",
+  "start_date": "2010-07-01",
+  "end_date": "2010-07-04",
   "long": {
-    "place": null,
-    "map_name": null,
+    "place": "La Cruz de Piedra",
+    "map_name": "La Cruz de Piedra",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 82,
-        "source": {
-          "normalized_csv": "results/2010/long.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 323
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "La Cruz de Piedra",
+        "map_name": "La Cruz de Piedra",
+        "distance_km": 6.7,
+        "elevation_m": 280,
+        "control_points": 16,
+        "field_size": 82
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 95,
-        "source": {
-          "normalized_csv": "results/2010/long.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 323
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "La Cruz de Piedra",
+        "map_name": "La Cruz de Piedra",
+        "distance_km": 7.7,
+        "elevation_m": 320,
+        "control_points": 19,
+        "field_size": 95
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 75,
-        "source": {
-          "normalized_csv": "results/2010/long.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 323
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "La Cruz de Piedra",
+        "map_name": "La Cruz de Piedra",
+        "distance_km": 4.7,
+        "elevation_m": 200,
+        "control_points": 12,
+        "field_size": 75
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 71,
-        "source": {
-          "normalized_csv": "results/2010/long.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 323
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "La Cruz de Piedra",
+        "map_name": "La Cruz de Piedra",
+        "distance_km": 5.5,
+        "elevation_m": 230,
+        "control_points": 16,
+        "field_size": 71
       }
-    },
-    "source": {
-      "normalized_csv": "results/2010/long.csv",
-      "raw_source_files": [
-        "results/raw/2010/eyoc2010.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 323
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
-    "place": null,
-    "map_name": null,
+    "place": "Soria",
+    "map_name": "Soria",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 83,
-        "source": {
-          "normalized_csv": "results/2010/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 327
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Soria",
+        "map_name": "Soria",
+        "distance_km": 2.7,
+        "elevation_m": 20,
+        "control_points": 16,
+        "field_size": 83
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 95,
-        "source": {
-          "normalized_csv": "results/2010/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 327
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Soria",
+        "map_name": "Soria",
+        "distance_km": 2.9,
+        "elevation_m": 25,
+        "control_points": 16,
+        "field_size": 95
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 76,
-        "source": {
-          "normalized_csv": "results/2010/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 327
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Soria",
+        "map_name": "Soria",
+        "distance_km": 2.2,
+        "elevation_m": 20,
+        "control_points": 15,
+        "field_size": 76
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 73,
-        "source": {
-          "normalized_csv": "results/2010/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 327
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Soria",
+        "map_name": "Soria",
+        "distance_km": 2.6,
+        "elevation_m": 15,
+        "control_points": 13,
+        "field_size": 73
       }
-    },
-    "source": {
-      "normalized_csv": "results/2010/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2010/eyoc2010.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 327
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
-    "place": null,
-    "map_name": null,
+    "place": "Valonsandero-Oeste",
+    "map_name": "Valonsandero-Oeste",
     "categories": {
       "M16": {
         "place": null,
@@ -250,24 +93,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 22,
-        "source": {
-          "normalized_csv": "results/2010/relay.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 6,
-            "OK": 86
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 22
       },
       "M18": {
         "place": null,
@@ -275,98 +101,24 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 29,
-        "source": {
-          "normalized_csv": "results/2010/relay.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 6,
-            "OK": 86
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 29
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 19,
-        "source": {
-          "normalized_csv": "results/2010/relay.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 6,
-            "OK": 86
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Valonsandero-Oeste",
+        "map_name": "Valonsandero-Oeste",
+        "distance_km": 4.0,
+        "elevation_m": 125,
+        "control_points": 17,
+        "field_size": 19
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 22,
-        "source": {
-          "normalized_csv": "results/2010/relay.csv",
-          "raw_source_files": [
-            "results/raw/2010/eyoc2010.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 6,
-            "OK": 86
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Valonsandero-Oeste",
+        "map_name": "Valonsandero-Oeste",
+        "distance_km": 4.6,
+        "elevation_m": 140,
+        "control_points": 17,
+        "field_size": 22
       }
-    },
-    "source": {
-      "normalized_csv": "results/2010/relay.csv",
-      "raw_source_files": [
-        "results/raw/2010/eyoc2010.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "DNF": 6,
-        "OK": 86
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }

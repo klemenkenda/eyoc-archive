@@ -1,248 +1,91 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "2.0-simple",
   "year": 2012,
   "title": "European Youth Orienteering Championships 2012",
   "city": "Bugeat",
   "country": "France",
+  "date": "June 28-July 1",
+  "start_date": "2012-06-28",
+  "end_date": "2012-07-01",
   "long": {
-    "place": null,
-    "map_name": null,
+    "place": "Viam-Lestards",
+    "map_name": "Viam-Lestards",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 76,
-        "source": {
-          "normalized_csv": "results/2012/long.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 312
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Viam-Lestards",
+        "map_name": "Viam-Lestards",
+        "distance_km": 6.4,
+        "elevation_m": 250,
+        "control_points": 20,
+        "field_size": 76
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 84,
-        "source": {
-          "normalized_csv": "results/2012/long.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 312
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Viam-Lestards",
+        "map_name": "Viam-Lestards",
+        "distance_km": 7.6,
+        "elevation_m": 400,
+        "control_points": 22,
+        "field_size": 84
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 79,
-        "source": {
-          "normalized_csv": "results/2012/long.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 312
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Viam-Lestards",
+        "map_name": "Viam-Lestards",
+        "distance_km": 4.7,
+        "elevation_m": 140,
+        "control_points": 14,
+        "field_size": 79
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 73,
-        "source": {
-          "normalized_csv": "results/2012/long.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 312
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Viam-Lestards",
+        "map_name": "Viam-Lestards",
+        "distance_km": 5.3,
+        "elevation_m": 210,
+        "control_points": 17,
+        "field_size": 73
       }
-    },
-    "source": {
-      "normalized_csv": "results/2012/long.csv",
-      "raw_source_files": [
-        "results/raw/2012/eyoc2012.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 312
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "sprint": {
-    "place": null,
-    "map_name": null,
+    "place": "Parc des Buttes Chaumont",
+    "map_name": "Parc des Buttes Chaumont",
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 81,
-        "source": {
-          "normalized_csv": "results/2012/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 331
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Parc des Buttes Chaumont",
+        "map_name": "Parc des Buttes Chaumont",
+        "distance_km": 2.0,
+        "elevation_m": 50,
+        "control_points": 17,
+        "field_size": 81
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 91,
-        "source": {
-          "normalized_csv": "results/2012/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 331
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Parc des Buttes Chaumont",
+        "map_name": "Parc des Buttes Chaumont",
+        "distance_km": 2.8,
+        "elevation_m": 55,
+        "control_points": 17,
+        "field_size": 91
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 80,
-        "source": {
-          "normalized_csv": "results/2012/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 331
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Parc des Buttes Chaumont",
+        "map_name": "Parc des Buttes Chaumont",
+        "distance_km": 1.7,
+        "elevation_m": 45,
+        "control_points": 16,
+        "field_size": 80
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": null,
-        "elevation_m": null,
-        "control_points": null,
-        "field_size": 79,
-        "source": {
-          "normalized_csv": "results/2012/sprint.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "OK": 331
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "place": "Parc des Buttes Chaumont",
+        "map_name": "Parc des Buttes Chaumont",
+        "distance_km": 1.8,
+        "elevation_m": 45,
+        "control_points": 16,
+        "field_size": 79
       }
-    },
-    "source": {
-      "normalized_csv": "results/2012/sprint.csv",
-      "raw_source_files": [
-        "results/raw/2012/eyoc2012.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "OK": 331
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
+    }
   },
   "relay": {
-    "place": null,
-    "map_name": null,
+    "place": "Vassiviere - Bois de Crozat",
+    "map_name": "Vassiviere - Bois de Crozat",
     "categories": {
       "M16": {
         "place": null,
@@ -250,25 +93,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 21,
-        "source": {
-          "normalized_csv": "results/2012/relay.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "MP": 13,
-            "OK": 79
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 21
       },
       "M18": {
         "place": null,
@@ -276,25 +101,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 29,
-        "source": {
-          "normalized_csv": "results/2012/relay.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "MP": 13,
-            "OK": 79
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 29
       },
       "W16": {
         "place": null,
@@ -302,25 +109,7 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 20,
-        "source": {
-          "normalized_csv": "results/2012/relay.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "MP": 13,
-            "OK": 79
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 20
       },
       "W18": {
         "place": null,
@@ -328,50 +117,8 @@
         "distance_km": null,
         "elevation_m": null,
         "control_points": null,
-        "field_size": 23,
-        "source": {
-          "normalized_csv": "results/2012/relay.csv",
-          "raw_source_files": [
-            "results/raw/2012/eyoc2012.htm"
-          ],
-          "raw_source_formats": [
-            "HTML"
-          ],
-          "confidence_values": [
-            "high"
-          ],
-          "status_counts": {
-            "DNF": 1,
-            "MP": 13,
-            "OK": 79
-          }
-        },
-        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
+        "field_size": 23
       }
-    },
-    "source": {
-      "normalized_csv": "results/2012/relay.csv",
-      "raw_source_files": [
-        "results/raw/2012/eyoc2012.htm"
-      ],
-      "raw_source_formats": [
-        "HTML"
-      ],
-      "confidence_values": [
-        "high"
-      ],
-      "status_counts": {
-        "DNF": 1,
-        "MP": 13,
-        "OK": 79
-      }
-    },
-    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
-  },
-  "metadata_notes": [
-    "This version adds raw-source provenance from each normalized CSV row source_file column.",
-    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
-    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
-    "Relay field_size is team count, not runner count."
-  ]
+    }
+  }
 }
