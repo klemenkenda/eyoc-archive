@@ -1,4 +1,4 @@
-# slovenia_best_results-md
+# Best Slovenian Results in EYOC, 2002-2026
 
 Sorted within each discipline/category by **absolute place** (`Place`) ascending. If two results have the same place, the better-ranked row is the one from the category/year with the **larger field**. For individual races, `Field` is the number of competitors in that class in that year. For relay, `Field` is shown as teams and runners, because each relay team has three runners; sorting uses the runner count (`teams × 3`).
 
@@ -27,6 +27,8 @@ Data files loaded: 71 normalized CSV files. Missing by design/availability: 2006
 
 ### Relay
 
+| Place | Year | Discipline | Category | Field | Result | Time |
+|---:|---:|---|---|---:|---|---:|
 | 6 | 2023 | Relay | W16 | 17 teams / 51 runners | Slovenia Slovenia 1: Neza Obid, Brina Kolner, Nea Erzen | 1:34:49 |
 | 8 | 2019 | Relay | W16 | 22 teams / 66 runners | Slovenia: Katja Babic, Tina Kern, Teja Tusar | 2:03:05 |
 | 13 | 2014 | Relay | M18 | 27 teams / 81 runners | Slovenia: Peter Tusar, Blaz Petrovic, Zan Luka Sumecki | 2:27:48 |
