@@ -1,0 +1,392 @@
+class,rank,status,bib,country,name,time_seconds,confidence,source_file
+M18,1,OK,,HUN,Mihaly Csoboth,2986,high,2025/Long.xml
+M18,2,OK,,SUI,Lavio Mueller,3017,high,2025/Long.xml
+M18,3,OK,,CZE,Martin Bulicka,3036,high,2025/Long.xml
+M18,4,OK,,CZE,Vladimir Srb,3043,high,2025/Long.xml
+M18,5,OK,,POL,Tomasz Rzenca,3056,high,2025/Long.xml
+M18,6,OK,,NOR,Mathias Reinertsen Leroyer,3101,high,2025/Long.xml
+M18,7,OK,,FIN,Aapo Virkajarvi,3111,high,2025/Long.xml
+M18,8,OK,,SWE,Axel Thybeck,3123,high,2025/Long.xml
+M18,9,OK,,FIN,Rasmus Toyryla,3128,high,2025/Long.xml
+M18,10,OK,,FRA,Simon Calandry,3131,high,2025/Long.xml
+M18,11,OK,,CZE,Ctibor Podrabsky,3207,high,2025/Long.xml
+M18,12,OK,,SUI,Andri Gujan,3210,high,2025/Long.xml
+M18,13,OK,,SWE,Edvin Atting,3225,high,2025/Long.xml
+M18,14,OK,,ESP,Aratz Beobide,3250,high,2025/Long.xml
+M18,15,OK,,GBR,Finn Selmer Duguid,3265,high,2025/Long.xml
+M18,16,OK,,EST,Partel Kulvik,3300,high,2025/Long.xml
+M18,17,OK,,FIN,Vilho Hietala,3308,high,2025/Long.xml
+M18,18,OK,,CZE,Jan Vanicek,3310,high,2025/Long.xml
+M18,20,OK,,BUL,Dani Nikolov,3318,high,2025/Long.xml
+M18,21,OK,,FRA,Lucas Verjux,3320,high,2025/Long.xml
+M18,22,OK,,GBR,Tommy Rollins,3328,high,2025/Long.xml
+M18,23,OK,,HUN,Mark Levente Bujdoso,3351,high,2025/Long.xml
+M18,24,OK,,LAT,Renars Grasis,3357,high,2025/Long.xml
+M18,25,OK,,SUI,Lukas Matthaeus,3366,high,2025/Long.xml
+M18,26,OK,,AUT,Niklas Ochenbauer,3382,high,2025/Long.xml
+M18,27,OK,,SWE,Ted Lagerstrom,3384,high,2025/Long.xml
+M18,28,OK,,NOR,Jacob Finstad Land,3392,high,2025/Long.xml
+M18,29,OK,,SVK,Matej Balogh,3422,high,2025/Long.xml
+M18,30,OK,,HUN,Gergo Pinter,3429,high,2025/Long.xml
+M18,31,OK,,POL,Stanislaw Drapella,3465,high,2025/Long.xml
+M18,32,OK,,HUN,Marton Hegedus,3469,high,2025/Long.xml
+M18,33,OK,,NOR,Magnus Sigurdsson,3480,high,2025/Long.xml
+M18,34,OK,,FRA,Emmanuel Pradeau,3483,high,2025/Long.xml
+M18,35,OK,,GER,Niklas Wetzel,3497,high,2025/Long.xml
+M18,36,OK,,DEN,Axel Oernhagen Joergensen,3500,high,2025/Long.xml
+M18,37,OK,,NOR,Syver Strand Gulbrandsen,3523,high,2025/Long.xml
+M18,39,OK,,DEN,Mattias Rokkjaer,3547,high,2025/Long.xml
+M18,40,OK,,LAT,Lukass Silins,3556,high,2025/Long.xml
+M18,41,OK,,ESP,Pablo Rubio Cribellati,3557,high,2025/Long.xml
+M18,42,OK,,SVK,David Cisar,3558,high,2025/Long.xml
+M18,43,OK,,LAT,Rudolfs Graudins,3561,high,2025/Long.xml
+M18,44,OK,,ESP,Mateo Puertas,3587,high,2025/Long.xml
+M18,45,OK,,FRA,Celestin Dufour,3594,high,2025/Long.xml
+M18,46,OK,,ESP,Jorge Perez Gonzalez,3602,high,2025/Long.xml
+M18,47,OK,,UKR,Artem Zhukovskyi,3614,high,2025/Long.xml
+M18,48,OK,,POL,Antoni Trzeciak,3618,high,2025/Long.xml
+M18,49,OK,,BUL,Svetlozar Kolev,3649,high,2025/Long.xml
+M18,50,OK,,BUL,Bogdan Evgeniev,3674,high,2025/Long.xml
+M18,51,OK,,GER,Jakob Drechsler,3678,high,2025/Long.xml
+M18,52,OK,,ITA,Marco Gianelle,3681,high,2025/Long.xml
+M18,53,OK,,FIN,Lauri Lakanen,3683,high,2025/Long.xml
+M18,54,OK,,EST,Karel Jung,3708,high,2025/Long.xml
+M18,55,OK,,SVK,Daniel Smelik,3710,high,2025/Long.xml
+M18,56,OK,,DEN,Carl Oscar Baek Christiansen,3713,high,2025/Long.xml
+M18,57,OK,,ROU,Mihai Tiriac,3714,high,2025/Long.xml
+M18,58,OK,,GBR,Finlay McLuckie,3744,high,2025/Long.xml
+M18,59,OK,,ITA,Francesco Scalzotto,3751,high,2025/Long.xml
+M18,59,OK,,ITA,Niklas Weitlaner,3751,high,2025/Long.xml
+M18,61,OK,,GER,Lennart Muehlstaedt,3808,high,2025/Long.xml
+M18,62,OK,,UKR,Volodymyr Horashko,3836,high,2025/Long.xml
+M18,63,OK,,IRL,Gerry Browne,3846,high,2025/Long.xml
+M18,64,OK,,LAT,Martins Cirulis,3848,high,2025/Long.xml
+M18,65,OK,,LTU,Domas Juknevicius,3862,high,2025/Long.xml
+M18,65,OK,,DEN,Rasmus Edvardsen,3862,high,2025/Long.xml
+M18,67,OK,,SWE,Gustav Netz,3866,high,2025/Long.xml
+M18,68,OK,,UKR,Oleksandr Badrak,3875,high,2025/Long.xml
+M18,69,OK,,POL,Filip Wodzicki,3880,high,2025/Long.xml
+M18,70,OK,,UKR,Maksym Barchuk,3890,high,2025/Long.xml
+M18,71,OK,,ISR,Yuval Kalkstein,3904,high,2025/Long.xml
+M18,72,OK,,EST,Villem Piirimae,3949,high,2025/Long.xml
+M18,73,OK,,ROU,Vlad Percec,3964,high,2025/Long.xml
+M18,74,OK,,LTU,Aleksandras Uckuronis,3971,high,2025/Long.xml
+M18,75,OK,,IRL,Liam Casey,3979,high,2025/Long.xml
+M18,76,OK,,GBR,Oscar Peel,4037,high,2025/Long.xml
+M18,77,OK,,POR,Joao Maia,4057,high,2025/Long.xml
+M18,78,OK,,SLO,Bozo Bizjak,4068,high,2025/Long.xml
+M18,81,OK,,BEL,Pjotr Mertens,4095,high,2025/Long.xml
+M18,82,OK,,AUT,Oliver Schnepf,4104,high,2025/Long.xml
+M18,83,OK,,SRB,David Husag,4112,high,2025/Long.xml
+M18,84,OK,,TUR,Mirsad Ulas Akbas,4152,high,2025/Long.xml
+M18,85,OK,,CRO,Karlo Lesjak,4159,high,2025/Long.xml
+M18,86,OK,,SVK,Maksym Volkov,4170,high,2025/Long.xml
+M18,87,OK,,BEL,Regis Vanschuytbroeck,4176,high,2025/Long.xml
+M18,88,OK,,LTU,Milgaudas Perminas,4182,high,2025/Long.xml
+M18,90,OK,,BEL,Bob de Cleene,4219,high,2025/Long.xml
+M18,92,OK,,POR,Tiago Oliveira,4268,high,2025/Long.xml
+M18,93,OK,,LTU,Domas Lazauskas,4324,high,2025/Long.xml
+M18,95,OK,,CRO,Luka Gojmerac,4420,high,2025/Long.xml
+M18,96,OK,,TUR,Mert Yilmaz,4438,high,2025/Long.xml
+M18,97,OK,,MDA,Artiom Babici,4457,high,2025/Long.xml
+M18,98,OK,,CRO,Gabrijel Solenicki,4532,high,2025/Long.xml
+M18,99,OK,,EST,Kardo Kutti,4581,high,2025/Long.xml
+M18,101,OK,,POR,Pedro Patrocinio,4701,high,2025/Long.xml
+M18,102,OK,,SLO,Ozbej Malus,4785,high,2025/Long.xml
+M18,103,OK,,TUR,Kayra Mete Sakaoglu,4822,high,2025/Long.xml
+M18,104,OK,,IRL,Eoin O Donnell,4982,high,2025/Long.xml
+M18,105,OK,,ISR,Ronen Shuv,5022,high,2025/Long.xml
+M18,107,OK,,ISR,Almog Sharon,5178,high,2025/Long.xml
+M18,109,OK,,TUR,Kubilay Karatasli,5369,high,2025/Long.xml
+M18,110,OK,,ISR,Roman Ilin,5669,high,2025/Long.xml
+M18,,OK,,IRL,Aidan McKenna,3361,high,2025/Long.xml
+M18,,OK,,BEL,Thomas Jansen,3457,high,2025/Long.xml
+M18,,DNF,,SUI,Liam Malnati,,high,2025/Long.xml
+M16,1,OK,,ESP,Ekain Fernandez Garcia,2453,high,2025/Long.xml
+M16,2,OK,,FIN,Joakim Savinainen,2552,high,2025/Long.xml
+M16,3,OK,,EST,Erik Marten Zernant,2567,high,2025/Long.xml
+M16,4,OK,,POL,Antoni Pachnik,2580,high,2025/Long.xml
+M16,5,OK,,LTU,Troj Gunnarsson,2606,high,2025/Long.xml
+M16,6,OK,,CZE,Matous Dittrich,2618,high,2025/Long.xml
+M16,7,OK,,TUR,Poyraz Vural,2636,high,2025/Long.xml
+M16,8,OK,,SUI,Maxim Bertschi,2646,high,2025/Long.xml
+M16,9,OK,,FIN,Veeti Viippola,2654,high,2025/Long.xml
+M16,10,OK,,ROU,Radu Ilin,2671,high,2025/Long.xml
+M16,11,OK,,CZE,Mateusz Mokrosz,2680,high,2025/Long.xml
+M16,12,OK,,FRA,Tom Lemercier,2689,high,2025/Long.xml
+M16,13,OK,,FIN,Kasper Ekonoja,2691,high,2025/Long.xml
+M16,14,OK,,FIN,Daniel Stenholm,2710,high,2025/Long.xml
+M16,15,OK,,CZE,Matej Cecka,2728,high,2025/Long.xml
+M16,15,OK,,DEN,Anton Kupriyanov Hviid,2728,high,2025/Long.xml
+M16,17,OK,,ESP,Carlit Tolkko Valledor,2730,high,2025/Long.xml
+M16,19,OK,,ESP,Daniel Sanz,2771,high,2025/Long.xml
+M16,20,OK,,CZE,Eduard Zemlik,2774,high,2025/Long.xml
+M16,21,OK,,SLO,Anze Kolner,2778,high,2025/Long.xml
+M16,22,OK,,GBR,Marcus Perry,2811,high,2025/Long.xml
+M16,23,OK,,GER,Daniel Schmidt,2812,high,2025/Long.xml
+M16,24,OK,,LAT,Lars Anders Luiks,2819,high,2025/Long.xml
+M16,25,OK,,ITA,Gabriele Giudici,2843,high,2025/Long.xml
+M16,25,OK,,SUI,Linus Pusterla,2843,high,2025/Long.xml
+M16,27,OK,,FRA,Noe Chezeau,2859,high,2025/Long.xml
+M16,28,OK,,FRA,Titouan Andrieux,2873,high,2025/Long.xml
+M16,29,OK,,GER,Jacob Imbsweiler,2882,high,2025/Long.xml
+M16,31,OK,,LAT,Jekabs Graudums,2897,high,2025/Long.xml
+M16,32,OK,,BEL,Thor Wolles,2898,high,2025/Long.xml
+M16,33,OK,,GBR,Oliver Duncan,2909,high,2025/Long.xml
+M16,34,OK,,BUL,Hristo Dimov,2931,high,2025/Long.xml
+M16,35,OK,,SVK,Boris Kocur,2955,high,2025/Long.xml
+M16,37,OK,,BUL,Aleks Sarhachev,2990,high,2025/Long.xml
+M16,38,OK,,AUT,Matthias Schmalhardt,3023,high,2025/Long.xml
+M16,39,OK,,LTU,Tijus Jokubauskis,3032,high,2025/Long.xml
+M16,40,OK,,UKR,Vladyslav Zhukovskyi,3046,high,2025/Long.xml
+M16,41,OK,,HUN,Adam Varsanyi,3052,high,2025/Long.xml
+M16,42,OK,,POL,Witold Lemanczyk,3079,high,2025/Long.xml
+M16,43,OK,,DEN,Emil Fredberg,3127,high,2025/Long.xml
+M16,44,OK,,SUI,Andri Burkhart,3145,high,2025/Long.xml
+M16,45,OK,,POL,Szymon Ladomirski,3165,high,2025/Long.xml
+M16,46,OK,,SUI,Taavi Caboussat,3170,high,2025/Long.xml
+M16,47,OK,,ESP,Martin Villar Gorriz,3200,high,2025/Long.xml
+M16,48,OK,,DEN,Rune Cederberg,3207,high,2025/Long.xml
+M16,48,OK,,FRA,Jules Zenevre,3207,high,2025/Long.xml
+M16,50,OK,,BEL,Nathan Jansen,3211,high,2025/Long.xml
+M16,51,OK,,ROU,Benjamin Simon,3222,high,2025/Long.xml
+M16,52,OK,,IRL,Fionn Buckley,3241,high,2025/Long.xml
+M16,53,OK,,ITA,Tobia Viel,3259,high,2025/Long.xml
+M16,54,OK,,SVK,Michal Marko,3300,high,2025/Long.xml
+M16,55,OK,,EST,Henri Kersna,3302,high,2025/Long.xml
+M16,56,OK,,UKR,Roman Chudinov,3328,high,2025/Long.xml
+M16,57,OK,,AUT,Jannik Meizer,3355,high,2025/Long.xml
+M16,58,OK,,HUN,Viktor Janosi,3359,high,2025/Long.xml
+M16,59,OK,,GBR,Lawrence Hodgson,3364,high,2025/Long.xml
+M16,60,OK,,BUL,Atanas Raykov,3375,high,2025/Long.xml
+M16,61,OK,,LTU,Povilas Papreckis,3400,high,2025/Long.xml
+M16,63,OK,,LTU,Aleksas Murenas,3410,high,2025/Long.xml
+M16,65,OK,,GER,Michael Schlei,3452,high,2025/Long.xml
+M16,67,OK,,DEN,Vilhelm Rokkjaer,3465,high,2025/Long.xml
+M16,68,OK,,IRL,James Ewart,3467,high,2025/Long.xml
+M16,69,OK,,HUN,Bela Barnabas Sugta,3478,high,2025/Long.xml
+M16,70,OK,,ROU,Vince Samuel Simon,3488,high,2025/Long.xml
+M16,71,OK,,HUN,Norbert Nagy,3491,high,2025/Long.xml
+M16,72,OK,,ITA,Gabriele Fontana,3492,high,2025/Long.xml
+M16,73,OK,,POL,Adam Krefft,3496,high,2025/Long.xml
+M16,76,OK,,EST,Andres Keernik,3589,high,2025/Long.xml
+M16,77,OK,,UKR,Tymofii Polskyi,3596,high,2025/Long.xml
+M16,78,OK,,SVK,Daniel Jozef Nemcek,3605,high,2025/Long.xml
+M16,79,OK,,IRL,Eoin Simpson,3609,high,2025/Long.xml
+M16,80,OK,,ISR,Ariel Dacosta,3639,high,2025/Long.xml
+M16,81,OK,,LAT,Miks Graudums,3656,high,2025/Long.xml
+M16,82,OK,,SRB,David Petrovic,3660,high,2025/Long.xml
+M16,83,OK,,GER,Julian Doetsch,3661,high,2025/Long.xml
+M16,84,OK,,GBR,William Preston,3667,high,2025/Long.xml
+M16,86,OK,,ITA,Alessandro Moser,3781,high,2025/Long.xml
+M16,87,OK,,ISR,Ofek Freund,3856,high,2025/Long.xml
+M16,88,OK,,SVK,Michal Paulus,3900,high,2025/Long.xml
+M16,89,OK,,BEL,Daan Cools,3902,high,2025/Long.xml
+M16,90,OK,,SLO,Matija Bratusa,3919,high,2025/Long.xml
+M16,91,OK,,AUT,Jonas Ochenbauer,3925,high,2025/Long.xml
+M16,92,OK,,TUR,Mustafa Talha Bilge,3933,high,2025/Long.xml
+M16,93,OK,,LAT,Romans Curko,3967,high,2025/Long.xml
+M16,94,OK,,POR,Gabriel Lopes,3974,high,2025/Long.xml
+M16,95,OK,,ROU,Danny Viorel Alexandru Fieru,3987,high,2025/Long.xml
+M16,96,OK,,MDA,Daniil Iancovschi,4027,high,2025/Long.xml
+M16,97,OK,,UKR,Volodymyr Nepliakh,4056,high,2025/Long.xml
+M16,98,OK,,POR,Miguel Canana,4103,high,2025/Long.xml
+M16,100,OK,,POR,Antonio Oliveira,4282,high,2025/Long.xml
+M16,102,OK,,EST,Thomas Kruusmaa,4402,high,2025/Long.xml
+M16,104,OK,,ISR,Idan Verbin,4567,high,2025/Long.xml
+M16,105,OK,,SLO,Vid Bratusa,4722,high,2025/Long.xml
+M16,106,OK,,IRL,Hamish Church,4889,high,2025/Long.xml
+M16,107,OK,,TUR,Kayra Yetis,4944,high,2025/Long.xml
+M16,108,OK,,TUR,Metehan Oguz,5348,high,2025/Long.xml
+M16,,DNF,,AUT,Lauri Urbanek,,high,2025/Long.xml
+W16,1,OK,,SUI,Carla Castelli,2495,high,2025/Long.xml
+W16,2,OK,,CZE,Ela Lostakova,2516,high,2025/Long.xml
+W16,3,OK,,CZE,Matilda Tomaskova,2536,high,2025/Long.xml
+W16,4,OK,,SUI,Bigna Hotz,2633,high,2025/Long.xml
+W16,5,OK,,LUX,Marie Anna Kotecka,2646,high,2025/Long.xml
+W16,6,OK,,CRO,Dora Delic,2655,high,2025/Long.xml
+W16,7,OK,,FIN,Anni Jantunen,2723,high,2025/Long.xml
+W16,8,OK,,CRO,Sara Delic,2730,high,2025/Long.xml
+W16,9,OK,,SUI,Seraina Baer,2731,high,2025/Long.xml
+W16,10,OK,,LAT,Eliza Eisaka,2736,high,2025/Long.xml
+W16,11,OK,,FRA,Louise Cathala,2806,high,2025/Long.xml
+W16,12,OK,,DEN,Krista Lervad Lundoe,2855,high,2025/Long.xml
+W16,13,OK,,ESP,Laia Casal Gil,2857,high,2025/Long.xml
+W16,14,OK,,POL,Michalina Wysocka,2866,high,2025/Long.xml
+W16,15,OK,,HUN,Sara Szakal Biro,2876,high,2025/Long.xml
+W16,16,OK,,SVK,Maiia Volkova,2888,high,2025/Long.xml
+W16,17,OK,,POL,Oliwia Hetnar,2891,high,2025/Long.xml
+W16,18,OK,,BEL,Anais Mazy,2898,high,2025/Long.xml
+W16,19,OK,,FIN,Alma Peltotalo,2929,high,2025/Long.xml
+W16,20,OK,,ROU,Ana Brandus,2936,high,2025/Long.xml
+W16,21,OK,,CZE,Carolina Mullis,2941,high,2025/Long.xml
+W16,22,OK,,CZE,Zofie Ruzickova,2988,high,2025/Long.xml
+W16,23,OK,,GER,Katja Horst,2989,high,2025/Long.xml
+W16,24,OK,,UKR,Daria Sereda,3028,high,2025/Long.xml
+W16,25,OK,,IRL,Niamh Browne,3031,high,2025/Long.xml
+W16,26,OK,,ESP,Candela Arranz Bravo,3047,high,2025/Long.xml
+W16,27,OK,,FRA,Caroline Harnist,3062,high,2025/Long.xml
+W16,28,OK,,DEN,Astrid Faber Fengergroen,3070,high,2025/Long.xml
+W16,29,OK,,FIN,Aurora Lehtonen,3094,high,2025/Long.xml
+W16,30,OK,,FRA,Juliette Pellissier,3098,high,2025/Long.xml
+W16,31,OK,,UKR,Inna Ignatieva,3109,high,2025/Long.xml
+W16,32,OK,,LAT,Henriete Priedite,3111,high,2025/Long.xml
+W16,33,OK,,GER,Jannika Wetzlel,3113,high,2025/Long.xml
+W16,34,OK,,HUN,Boroka Danko,3125,high,2025/Long.xml
+W16,35,OK,,HUN,Aliz Heizer,3150,high,2025/Long.xml
+W16,36,OK,,UKR,Karina Fedoryshyn,3157,high,2025/Long.xml
+W16,37,OK,,FRA,Violette Rannou Serine,3174,high,2025/Long.xml
+W16,38,OK,,FIN,Venla Mennala,3176,high,2025/Long.xml
+W16,40,OK,,EST,Anna Mia Atonen,3231,high,2025/Long.xml
+W16,41,OK,,ROU,Sonia Stupu,3254,high,2025/Long.xml
+W16,42,OK,,SUI,Analia Reubi,3274,high,2025/Long.xml
+W16,43,OK,,GBR,Ella Baxter,3302,high,2025/Long.xml
+W16,44,OK,,GBR,Lucy Ward,3369,high,2025/Long.xml
+W16,45,OK,,GER,Selma Drechsler,3386,high,2025/Long.xml
+W16,46,OK,,DEN,Amalie Engelund Broman,3388,high,2025/Long.xml
+W16,47,OK,,ESP,Bruna Sanz Kowalski,3405,high,2025/Long.xml
+W16,48,OK,,SLO,Lili Ivana Raj,3420,high,2025/Long.xml
+W16,49,OK,,HUN,Janka Gaschler,3464,high,2025/Long.xml
+W16,50,OK,,EST,Grete Johanna Korb,3468,high,2025/Long.xml
+W16,51,OK,,IRL,Fionnuala Rowe,3492,high,2025/Long.xml
+W16,52,OK,,GER,Greta Pompe,3496,high,2025/Long.xml
+W16,53,OK,,ITA,Gioia Corona,3509,high,2025/Long.xml
+W16,54,OK,,SVK,Ema Jonasova,3512,high,2025/Long.xml
+W16,55,OK,,ESP,Matilde Tribino,3524,high,2025/Long.xml
+W16,56,OK,,AUT,Emma Frey,3529,high,2025/Long.xml
+W16,57,OK,,ROU,Eszter Anna Palfy,3538,high,2025/Long.xml
+W16,58,OK,,LAT,Marta Valge,3551,high,2025/Long.xml
+W16,59,OK,,EST,Miriam Paesuld,3608,high,2025/Long.xml
+W16,60,OK,,LTU,Eva Sriubaite,3609,high,2025/Long.xml
+W16,61,OK,,GBR,Bethan Buckley,3635,high,2025/Long.xml
+W16,62,OK,,GBR,Ellie Todhunter,3677,high,2025/Long.xml
+W16,63,OK,,SRB,Dunja Cancarevic,3693,high,2025/Long.xml
+W16,64,OK,,AUT,Hannah Sandrisser,3702,high,2025/Long.xml
+W16,65,OK,,TUR,Efsa Sezin Akin,3703,high,2025/Long.xml
+W16,66,OK,,LTU,Gabija Mincinauskyte,3743,high,2025/Long.xml
+W16,67,OK,,POL,Katarzyna Szafarewicz,3756,high,2025/Long.xml
+W16,68,OK,,AUT,Matilda Buschek,3759,high,2025/Long.xml
+W16,69,OK,,SLO,Nika Erzen,3799,high,2025/Long.xml
+W16,70,OK,,LAT,Amanta Mikijanska,3841,high,2025/Long.xml
+W16,71,OK,,POL,Antonia Roman,3844,high,2025/Long.xml
+W16,72,OK,,TUR,Zeynep Icyer,3892,high,2025/Long.xml
+W16,73,OK,,BUL,Lyudmila Dimova,3916,high,2025/Long.xml
+W16,74,OK,,SLO,Brina Gantar,3953,high,2025/Long.xml
+W16,75,OK,,TUR,Sedanur Balikci,4010,high,2025/Long.xml
+W16,76,OK,,UKR,Yulia Lihtanska,4016,high,2025/Long.xml
+W16,77,OK,,SLO,Ajda Jarc,4041,high,2025/Long.xml
+W16,78,OK,,EST,Mia Esta,4062,high,2025/Long.xml
+W16,79,OK,,DEN,Hanna Baek Christiansen,4118,high,2025/Long.xml
+W16,81,OK,,BUL,Vihra Ruseva,4125,high,2025/Long.xml
+W16,82,OK,,LTU,Anele Naruseviciute,4181,high,2025/Long.xml
+W16,83,OK,,MDA,Daria Gutul,4290,high,2025/Long.xml
+W16,84,OK,,AUT,Angelina Ochenbauer,4327,high,2025/Long.xml
+W16,85,OK,,ITA,Elisa Candotti,4330,high,2025/Long.xml
+W16,86,OK,,IRL,Aoife Masterson,4340,high,2025/Long.xml
+W16,87,OK,,ROU,Gyongyver Gorog,4341,high,2025/Long.xml
+W16,88,OK,,BUL,Bogomila Tuykova,4349,high,2025/Long.xml
+W16,89,OK,,ISR,Ayala Offer,4439,high,2025/Long.xml
+W16,91,OK,,POR,Juliana Pedro,4447,high,2025/Long.xml
+W16,92,OK,,TUR,Beste Adiguzel,4495,high,2025/Long.xml
+W16,94,OK,,CRO,Ema Jurican,4578,high,2025/Long.xml
+W16,98,OK,,NED,Elin Zwikker,5125,high,2025/Long.xml
+W16,99,OK,,POR,Maria Oliveira,5170,high,2025/Long.xml
+W16,100,OK,,ISR,Ofer Svorai,5357,high,2025/Long.xml
+W16,101,OK,,IRL,Deirbhile Hassett,6097,high,2025/Long.xml
+W16,,OK,,LTU,Martyna Jankauskaite,3554,high,2025/Long.xml
+W16,,OK,,POR,Mafalda Goncalves,5123,high,2025/Long.xml
+W18,1,OK,,SUI,Lotta Marit Luethi,2675,high,2025/Long.xml
+W18,2,OK,,CZE,Marketa Hanusova,2717,high,2025/Long.xml
+W18,3,OK,,FRA,Fanny Delahaye,2747,high,2025/Long.xml
+W18,4,OK,,LAT,Ilze Jumike,2800,high,2025/Long.xml
+W18,5,OK,,SUI,Mira Werder,2822,high,2025/Long.xml
+W18,6,OK,,FRA,Ambre Dufour,2998,high,2025/Long.xml
+W18,7,OK,,SWE,Elsa Ehrenborg,3000,high,2025/Long.xml
+W18,8,OK,,SUI,Lenia Grimm,3010,high,2025/Long.xml
+W18,9,OK,,SLO,Nea Erzen,3015,high,2025/Long.xml
+W18,10,OK,,GBR,Emily Atkinson,3067,high,2025/Long.xml
+W18,11,OK,,SWE,Izabella Ljungberg,3069,high,2025/Long.xml
+W18,12,OK,,SUI,Laurianne Plattner,3071,high,2025/Long.xml
+W18,13,OK,,CZE,Anna Kynclova,3083,high,2025/Long.xml
+W18,14,OK,,POL,Julia Biskupska,3100,high,2025/Long.xml
+W18,15,OK,,SWE,Elvira Karmstig,3122,high,2025/Long.xml
+W18,16,OK,,FIN,Anni Makihokkonen,3123,high,2025/Long.xml
+W18,17,OK,,ESP,Jana Rifa Bernardino,3159,high,2025/Long.xml
+W18,18,OK,,NOR,Helene Scheele,3201,high,2025/Long.xml
+W18,18,OK,,LTU,Gabija Stankeviciute,3201,high,2025/Long.xml
+W18,20,OK,,SWE,Hannah Josefsson,3205,high,2025/Long.xml
+W18,21,OK,,UKR,Yevheniia Oksiuchenko,3209,high,2025/Long.xml
+W18,23,OK,,LAT,Grieta Grantskalna,3234,high,2025/Long.xml
+W18,24,OK,,FIN,Iida Koskinen,3243,high,2025/Long.xml
+W18,25,OK,,MDA,Victoria Nosenco,3246,high,2025/Long.xml
+W18,26,OK,,ISR,Ofri Yacobi,3257,high,2025/Long.xml
+W18,27,OK,,POL,Maja Kula,3269,high,2025/Long.xml
+W18,28,OK,,CZE,Kristyna Finstrlova,3273,high,2025/Long.xml
+W18,29,OK,,NOR,Ronja Gotsch Iversen,3281,high,2025/Long.xml
+W18,30,OK,,ITA,Chiara Magenes,3282,high,2025/Long.xml
+W18,31,OK,,LTU,Margarita Dienyte,3284,high,2025/Long.xml
+W18,32,OK,,NOR,Elise Renard,3313,high,2025/Long.xml
+W18,33,OK,,EST,Liise Lillelaid,3321,high,2025/Long.xml
+W18,34,OK,,IRL,Eve Buckley,3331,high,2025/Long.xml
+W18,35,OK,,UKR,Iryna Polubentseva,3351,high,2025/Long.xml
+W18,36,OK,,SLO,Brina Kolner,3361,high,2025/Long.xml
+W18,37,OK,,NOR,Amalie Myrvold Skovlyst,3364,high,2025/Long.xml
+W18,38,OK,,CZE,Alice Gregorova,3366,high,2025/Long.xml
+W18,39,OK,,FIN,Kiia Kuusikko,3384,high,2025/Long.xml
+W18,41,OK,,FRA,Sonia Jolly Jansson,3398,high,2025/Long.xml
+W18,42,OK,,GBR,Ruth Gooch,3417,high,2025/Long.xml
+W18,43,OK,,ITA,Silvia di Stefano,3426,high,2025/Long.xml
+W18,44,OK,,ESP,Arlet Sales,3435,high,2025/Long.xml
+W18,45,OK,,LTU,Saule Traubaite,3452,high,2025/Long.xml
+W18,46,OK,,ISR,Gaya Mitzafon,3474,high,2025/Long.xml
+W18,47,OK,,ITA,Chiara Ognibeni,3492,high,2025/Long.xml
+W18,48,OK,,LTU,Barbora Balciunaite,3509,high,2025/Long.xml
+W18,49,OK,,FIN,Matilda Nynas,3510,high,2025/Long.xml
+W18,50,OK,,ESP,Joana Monge,3513,high,2025/Long.xml
+W18,51,OK,,GBR,Lyra Medlock,3521,high,2025/Long.xml
+W18,52,OK,,HUN,Csepke Dora,3526,high,2025/Long.xml
+W18,52,OK,,EST,Johanna Oras,3526,high,2025/Long.xml
+W18,54,OK,,GBR,Scarlett Kelly,3540,high,2025/Long.xml
+W18,55,OK,,EST,Mariann Zernant,3558,high,2025/Long.xml
+W18,56,OK,,FRA,Tess Basset,3561,high,2025/Long.xml
+W18,57,OK,,GER,Juliane Burgmair,3566,high,2025/Long.xml
+W18,58,OK,,AUT,Mika Asenbauer,3601,high,2025/Long.xml
+W18,59,OK,,LAT,Eliza Odrina,3638,high,2025/Long.xml
+W18,60,OK,,POL,Iga Mikula,3653,high,2025/Long.xml
+W18,61,OK,,GER,Karla Breckle,3674,high,2025/Long.xml
+W18,62,OK,,BUL,Marta Ruseva,3679,high,2025/Long.xml
+W18,63,OK,,LAT,Sandija Rumba,3689,high,2025/Long.xml
+W18,64,OK,,ROU,Sara Bojte,3696,high,2025/Long.xml
+W18,65,OK,,UKR,Iryna Klymeniuk,3698,high,2025/Long.xml
+W18,66,OK,,POL,Antonina Mianowska,3699,high,2025/Long.xml
+W18,67,OK,,BUL,Plamena Cholakova,3709,high,2025/Long.xml
+W18,68,OK,,AUT,Kiara Sophie Piskorz,3715,high,2025/Long.xml
+W18,69,OK,,BEL,Louise Mattart,3800,high,2025/Long.xml
+W18,70,OK,,GER,Marika Prolingheuer,3802,high,2025/Long.xml
+W18,71,OK,,ITA,Nicole Pagliari,3815,high,2025/Long.xml
+W18,73,OK,,SVK,Nina Jurcikova,3846,high,2025/Long.xml
+W18,74,OK,,HUN,Luca Mauer,3888,high,2025/Long.xml
+W18,75,OK,,TUR,Tuana Gunvaran,3994,high,2025/Long.xml
+W18,76,OK,,HUN,Boglarka Danko,3995,high,2025/Long.xml
+W18,77,OK,,SLO,Neza Obid,4068,high,2025/Long.xml
+W18,78,OK,,HUN,Timea Janosi,4073,high,2025/Long.xml
+W18,79,OK,,ESP,Marta Villa Rodriguez,4106,high,2025/Long.xml
+W18,80,OK,,DEN,Siv Kusk Berglund,4124,high,2025/Long.xml
+W18,82,OK,,EST,Viola Nikitina,4137,high,2025/Long.xml
+W18,83,OK,,AUT,Charlotte Brischnik,4139,high,2025/Long.xml
+W18,84,OK,,GER,Emilia Wetzel,4237,high,2025/Long.xml
+W18,87,OK,,TUR,Basak Yilmaz,4267,high,2025/Long.xml
+W18,88,OK,,BUL,Emanuela Stoyanova,4284,high,2025/Long.xml
+W18,89,OK,,POR,Mariana Guerreiro,4346,high,2025/Long.xml
+W18,90,OK,,IRL,Ellie Simpson,4356,high,2025/Long.xml
+W18,93,OK,,POR,Leonor Soares,4633,high,2025/Long.xml
+W18,94,OK,,POR,Alexandra Tadeu,4657,high,2025/Long.xml
+W18,96,OK,,TUR,Irem Gul Nazlimoglu,4683,high,2025/Long.xml
+W18,97,OK,,UKR,Olha Yenkalo,4705,high,2025/Long.xml
+W18,98,OK,,IRL,Sadhbh Hassett,4773,high,2025/Long.xml
+W18,99,OK,,ROU,Sara Lilla Miklos,4845,high,2025/Long.xml
+W18,100,OK,,BUL,Silvia Trifonova,4999,high,2025/Long.xml
+W18,101,OK,,TUR,Rabia Islandi,5091,high,2025/Long.xml
+W18,102,OK,,MDA,Anna Donici,5138,high,2025/Long.xml
+W18,104,OK,,SRB,Jasna Starovic,5612,high,2025/Long.xml
+W18,106,OK,,MDA,Emilia Grosu,6328,high,2025/Long.xml

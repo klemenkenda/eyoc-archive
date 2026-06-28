@@ -1,0 +1,3324 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ResultList>
+  <Event>
+    <Name>EYOC 2025 - Relay</Name>
+  </Event>
+  <ClassResult>
+    <EventClass>
+      <Name>Men 16</Name>
+    </EventClass>
+    <TeamResult>
+      <TeamName>HUN</TeamName>
+      <Organisation>
+        <Name>HUN</Name>
+      </Organisation>
+      <Time>2:03:28</Time>
+      <TimeMs>7408000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Norbert Nagy</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Adam Varsanyi</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Bela Barnabas Sugta</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>CZE</TeamName>
+      <Organisation>
+        <Name>CZE</Name>
+      </Organisation>
+      <Time>1:29:00</Time>
+      <TimeMs>5340000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Matej Cecka</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mateusz Mokrosz</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Matous Dittrich</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>POL</TeamName>
+      <Organisation>
+        <Name>POL</Name>
+      </Organisation>
+      <Time>1:41:32</Time>
+      <TimeMs>6092000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Antoni Pachnik</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Witold Lemanczyk</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Szymon Ladomirski</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SUI</TeamName>
+      <Organisation>
+        <Name>SUI</Name>
+      </Organisation>
+      <Time>1:28:52</Time>
+      <TimeMs>5332000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Taavi Caboussat</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Linus Pusterla</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Maxim Bertschi</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>DEN</TeamName>
+      <Organisation>
+        <Name>DEN</Name>
+      </Organisation>
+      <Time>1:33:35</Time>
+      <TimeMs>5615000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Emil Fredberg</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Rune Cederberg</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Anton Kupriyanov Hviid</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>FIN</TeamName>
+      <Organisation>
+        <Name>FIN</Name>
+      </Organisation>
+      <Time>1:28:34</Time>
+      <TimeMs>5314000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Kasper Ekonoja</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Joakim Savinainen</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Veeti Viippola</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>FRA</TeamName>
+      <Organisation>
+        <Name>FRA</Name>
+      </Organisation>
+      <Time>1:34:40</Time>
+      <TimeMs>5680000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Titouan Andrieux</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Noe Chezeau</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Tom Lemercier</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ROU</TeamName>
+      <Organisation>
+        <Name>ROU</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Benjamin Simon</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Vince Samuel Simon</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Radu Ilin</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>LAT</TeamName>
+      <Organisation>
+        <Name>LAT</Name>
+      </Organisation>
+      <Time>1:31:12</Time>
+      <TimeMs>5472000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Jekabs Graudums</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Miks Graudums</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lars Anders Luiks</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>GER</TeamName>
+      <Organisation>
+        <Name>GER</Name>
+      </Organisation>
+      <Time>1:38:04</Time>
+      <TimeMs>5884000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Jacob Imbsweiler</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Daniel Schmidt</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Julian Doetsch</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>LTU</TeamName>
+      <Organisation>
+        <Name>LTU</Name>
+      </Organisation>
+      <Time>1:31:34</Time>
+      <TimeMs>5494000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Aleksas Murenas</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Troj Gunnarsson</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Tijus Jokubauskis</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>EST</TeamName>
+      <Organisation>
+        <Name>EST</Name>
+      </Organisation>
+      <Time>1:52:25</Time>
+      <TimeMs>6745000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Henri Kersna</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Erik Marten Zernant</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Andres Keernik</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>GBR</TeamName>
+      <Organisation>
+        <Name>GBR</Name>
+      </Organisation>
+      <Time>1:57:42</Time>
+      <TimeMs>7062000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Oliver Duncan</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lawrence Hodgson</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Marcus Perry</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>UKR</TeamName>
+      <Organisation>
+        <Name>UKR</Name>
+      </Organisation>
+      <Time>2:00:33</Time>
+      <TimeMs>7233000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Vladyslav Zhukovskyi</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Roman Chudinov</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Tymofii Polskyi</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>BEL</TeamName>
+      <Organisation>
+        <Name>BEL</Name>
+      </Organisation>
+      <Time>1:40:06</Time>
+      <TimeMs>6006000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Nathan Jansen</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Daan Cools</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Thor Wolles</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ITA</TeamName>
+      <Organisation>
+        <Name>ITA</Name>
+      </Organisation>
+      <Time>2:02:57</Time>
+      <TimeMs>7377000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Tobia Viel</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Alessandro Moser</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Gabriele Giudici</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ISR</TeamName>
+      <Organisation>
+        <Name>ISR</Name>
+      </Organisation>
+      <Time>2:20:09</Time>
+      <TimeMs>8409000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Ariel DaCosta</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ofek Freund</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Idan Verbin</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>IRL</TeamName>
+      <Organisation>
+        <Name>IRL</Name>
+      </Organisation>
+      <Time>2:20:00</Time>
+      <TimeMs>8400000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Fionn Buckley</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Eoin Simpson</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>James Ewart</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SVK</TeamName>
+      <Organisation>
+        <Name>SVK</Name>
+      </Organisation>
+      <Time>2:13:53</Time>
+      <TimeMs>8033000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Michal Marko</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Daniel Jozef Nemcek</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Boris Kocur</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ESP</TeamName>
+      <Organisation>
+        <Name>ESP</Name>
+      </Organisation>
+      <Time>1:31:53</Time>
+      <TimeMs>5513000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Daniel Sanz</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Carlit Tolkko Valledor</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ekain Fernandez Garcia</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>AUT</TeamName>
+      <Organisation>
+        <Name>AUT</Name>
+      </Organisation>
+      <Time>2:20:42</Time>
+      <TimeMs>8442000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Matthias Schmalhardt</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Jonas Ochenbauer</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Jannik Meizer</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>USA</TeamName>
+      <Organisation>
+        <Name>USA</Name>
+      </Organisation>
+      <Time>2:12:00</Time>
+      <TimeMs>7920000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Alexander Eriksson</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mikhail Biryukov</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mark Fey</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>TUR</TeamName>
+      <Organisation>
+        <Name>TUR</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Mustafa Talha Bilge</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Kayra Yetis</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Poyraz Vural</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>BUL</TeamName>
+      <Organisation>
+        <Name>BUL</Name>
+      </Organisation>
+      <Time>1:53:50</Time>
+      <TimeMs>6830000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Atanas Raykov</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Aleks Sarhachev</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Hristo Dimov</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SLO</TeamName>
+      <Organisation>
+        <Name>SLO</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Vid Bratusa</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Matija Bratusa</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ajda Jarc</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>NZL</TeamName>
+      <Organisation>
+        <Name>NZL</Name>
+      </Organisation>
+      <Time>2:11:31</Time>
+      <TimeMs>7891000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Tahi Harris</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Jakob Abernethy</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Xavier White</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>AUS</TeamName>
+      <Organisation>
+        <Name>AUS</Name>
+      </Organisation>
+      <Time>1:43:04</Time>
+      <TimeMs>6184000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Hayden Dent</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Rory Shedden</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Alton Freeman</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>POR</TeamName>
+      <Organisation>
+        <Name>POR</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Gabriel Lopes</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Miguel Canana</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Antonio Oliveira</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+  </ClassResult>
+  <ClassResult>
+    <EventClass>
+      <Name>Men 18</Name>
+    </EventClass>
+    <TeamResult>
+      <TeamName>CZE</TeamName>
+      <Organisation>
+        <Name>CZE</Name>
+      </Organisation>
+      <Time>1:48:54</Time>
+      <TimeMs>6534000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Martin Bulicka</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ctibor Podrabsky</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Vladimir Srb</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>FIN</TeamName>
+      <Organisation>
+        <Name>FIN</Name>
+      </Organisation>
+      <Time>1:50:22</Time>
+      <TimeMs>6622000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Vilho Hietala</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Aapo Virkajarvi</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Rasmus Toyryla</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SUI</TeamName>
+      <Organisation>
+        <Name>SUI</Name>
+      </Organisation>
+      <Time>2:09:51</Time>
+      <TimeMs>7791000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Lavio Mueller</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lukas Matthaeus</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Andri Gujan</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>NOR</TeamName>
+      <Organisation>
+        <Name>NOR</Name>
+      </Organisation>
+      <Time>2:16:51</Time>
+      <TimeMs>8211000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Mathias Reinertsen Leroyer</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Jacob Finstad Land</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Magnus Sigurdsson</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>GER</TeamName>
+      <Organisation>
+        <Name>GER</Name>
+      </Organisation>
+      <Time>2:21:59</Time>
+      <TimeMs>8519000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Jakob Drechsler</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Niklas Wetzel</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lennart Muehlstaedt</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>LAT</TeamName>
+      <Organisation>
+        <Name>LAT</Name>
+      </Organisation>
+      <Time>2:14:15</Time>
+      <TimeMs>8055000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Renars Grasis</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Rudolfs Graudins</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lukass Silins</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SWE</TeamName>
+      <Organisation>
+        <Name>SWE</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Edvin Atting</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ted Lagerstrom</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Axel Thybeck</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>POL</TeamName>
+      <Organisation>
+        <Name>POL</Name>
+      </Organisation>
+      <Time>2:07:32</Time>
+      <TimeMs>7652000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Stanislaw Drapella</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Antoni Trzeciak</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Tomasz Rzenca</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>DEN</TeamName>
+      <Organisation>
+        <Name>DEN</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Carl Oscar Baek Christiansen</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mattias Rokkjaer</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Axel Oernhagen Joergensen</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ESP</TeamName>
+      <Organisation>
+        <Name>ESP</Name>
+      </Organisation>
+      <Time>2:14:00</Time>
+      <TimeMs>8040000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Jorge Perez Gonzalez</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Pablo Rubio Cribellati</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Aratz Beobide</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>EST</TeamName>
+      <Organisation>
+        <Name>EST</Name>
+      </Organisation>
+      <Time>2:16:18</Time>
+      <TimeMs>8178000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Villem Piirimae</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Karel Jung</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Partel Kulvik</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>FRA</TeamName>
+      <Organisation>
+        <Name>FRA</Name>
+      </Organisation>
+      <Time>2:01:34</Time>
+      <TimeMs>7294000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Lucas Verjux</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Emmanuel Pradeau</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Simon Calandry</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>LTU</TeamName>
+      <Organisation>
+        <Name>LTU</Name>
+      </Organisation>
+      <Time>2:16:35</Time>
+      <TimeMs>8195000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Domas Juknevicius</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Domas Lazauskas</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Aleksandras Uckuronis</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>HUN</TeamName>
+      <Organisation>
+        <Name>HUN</Name>
+      </Organisation>
+      <Time>1:59:26</Time>
+      <TimeMs>7166000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Marton Hegedus</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mark Levente Bujdoso</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mihaly Csoboth</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>GBR</TeamName>
+      <Organisation>
+        <Name>GBR</Name>
+      </Organisation>
+      <Time>2:05:56</Time>
+      <TimeMs>7556000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Tommy Rollins</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Finlay McLuckie</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Finn Selmer Duguid</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>UKR</TeamName>
+      <Organisation>
+        <Name>UKR</Name>
+      </Organisation>
+      <Time>2:22:08</Time>
+      <TimeMs>8528000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Volodymyr Horashko</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Artem Zhukovskyi</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Oleksandr Badrak</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ITA</TeamName>
+      <Organisation>
+        <Name>ITA</Name>
+      </Organisation>
+      <Time>2:25:17</Time>
+      <TimeMs>8717000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Francesco Scalzotto</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Marco Gianelle</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Niklas Weitlaner</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>NZL</TeamName>
+      <Organisation>
+        <Name>NZL</Name>
+      </Organisation>
+      <Time>2:45:26</Time>
+      <TimeMs>9926000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Thomas Potts</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>James Wright</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Matthew Greenwood</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SLO</TeamName>
+      <Organisation>
+        <Name>SLO</Name>
+      </Organisation>
+      <Time>2:35:47</Time>
+      <TimeMs>9347000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Ozbej Malus</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Anze Kolner</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Bozo Bizjak</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>AUS</TeamName>
+      <Organisation>
+        <Name>AUS</Name>
+      </Organisation>
+      <Time>2:43:17</Time>
+      <TimeMs>9797000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Euan Best</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Elye Dent</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>William Barnes</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>BUL</TeamName>
+      <Organisation>
+        <Name>BUL</Name>
+      </Organisation>
+      <Time>2:14:17</Time>
+      <TimeMs>8057000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Svetlozar Kolev</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Bogdan Evgeniev</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Dani Nikolov</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SRB</TeamName>
+      <Organisation>
+        <Name>SRB</Name>
+      </Organisation>
+      <Time>3:14:53</Time>
+      <TimeMs>11693000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>David Husag</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>David Petrovic</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Jasna Starovic</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ROU</TeamName>
+      <Organisation>
+        <Name>ROU</Name>
+      </Organisation>
+      <Time>3:17:23</Time>
+      <TimeMs>11843000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Vlad Percec</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mihai Tiriac</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Danny Viorel Alexandru Fieru</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>TUR</TeamName>
+      <Organisation>
+        <Name>TUR</Name>
+      </Organisation>
+      <Time>3:16:07</Time>
+      <TimeMs>11767000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Mirsad Ulas Akbas</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Kayra Mete Sakaoglu</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mert Yilmaz</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>POR</TeamName>
+      <Organisation>
+        <Name>POR</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Tiago Oliveira</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Pedro Patrocinio</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Joao Maia</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SVK</TeamName>
+      <Organisation>
+        <Name>SVK</Name>
+      </Organisation>
+      <TeamStatus value="Unknown" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Daniel Smelik</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>David Cisar</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>Unknown</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Matej Balogh</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>IRL</TeamName>
+      <Organisation>
+        <Name>IRL</Name>
+      </Organisation>
+      <Time>2:32:45</Time>
+      <TimeMs>9165000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Aidan McKenna</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Gerry Browne</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Liam Casey</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>CRO</TeamName>
+      <Organisation>
+        <Name>CRO</Name>
+      </Organisation>
+      <TeamStatus value="Disqualified" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Luka Gojmerac</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Gabrijel Solenicki</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>Disqualified</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Karlo Lesjak</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ISR</TeamName>
+      <Organisation>
+        <Name>ISR</Name>
+      </Organisation>
+      <Time>2:36:15</Time>
+      <TimeMs>9375000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Yuval Kalkstein</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ronen Shuv</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Almog Sharon</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>CAN</TeamName>
+      <Organisation>
+        <Name>CAN</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Etienne Jacques</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Dylan Revells</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Jacques Adam</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>Unknown</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>MDA</TeamName>
+      <Organisation>
+        <Name>MDA</Name>
+      </Organisation>
+      <TeamStatus value="Unknown" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Artiom Babici</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Daniil Iancovschi</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>Unknown</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Emilia Grosu</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>BEL</TeamName>
+      <Organisation>
+        <Name>BEL</Name>
+      </Organisation>
+      <Time>2:22:05</Time>
+      <TimeMs>8525000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Thomas Jansen</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Pjotr Mertens</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Regis Vanschuytbroeck</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+  </ClassResult>
+  <ClassResult>
+    <EventClass>
+      <Name>Women 16</Name>
+    </EventClass>
+    <TeamResult>
+      <TeamName>FIN</TeamName>
+      <Organisation>
+        <Name>FIN</Name>
+      </Organisation>
+      <Time>1:54:33</Time>
+      <TimeMs>6873000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Aurora Lehtonen</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Alma Peltotalo</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Anni Jantunen</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SUI</TeamName>
+      <Organisation>
+        <Name>SUI</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Bigna Hotz</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Carla Castelli</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Seraina Baer</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>LTU</TeamName>
+      <Organisation>
+        <Name>LTU</Name>
+      </Organisation>
+      <Time>2:16:24</Time>
+      <TimeMs>8184000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Eva Sriubaite</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Martyna Jankauskaite</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Gabija Mincinauskyte</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>HUN</TeamName>
+      <Organisation>
+        <Name>HUN</Name>
+      </Organisation>
+      <Time>1:40:32</Time>
+      <TimeMs>6032000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Boroka Danko</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Aliz Heizer</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Sara Szakal Biro</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>CZE</TeamName>
+      <Organisation>
+        <Name>CZE</Name>
+      </Organisation>
+      <Time>1:26:44</Time>
+      <TimeMs>5204000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Ela Lostakova</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Matilda Tomaskova</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Carolina Mullis</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>POL</TeamName>
+      <Organisation>
+        <Name>POL</Name>
+      </Organisation>
+      <Time>1:58:27</Time>
+      <TimeMs>7107000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Michalina Wysocka</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Katarzyna Szafarewicz</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Oliwia Hetnar</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>FRA</TeamName>
+      <Organisation>
+        <Name>FRA</Name>
+      </Organisation>
+      <Time>1:42:37</Time>
+      <TimeMs>6157000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Louise Cathala</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Caroline Harnist</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Juliette Pellissier</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>GBR</TeamName>
+      <Organisation>
+        <Name>GBR</Name>
+      </Organisation>
+      <Time>1:50:04</Time>
+      <TimeMs>6604000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Ella Baxter</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lucy Ward</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ellie Todhunter</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>LAT</TeamName>
+      <Organisation>
+        <Name>LAT</Name>
+      </Organisation>
+      <Time>1:54:35</Time>
+      <TimeMs>6875000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Eliza Eisaka</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Amanta Mikijanska</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Henriete Priedite</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>GER</TeamName>
+      <Organisation>
+        <Name>GER</Name>
+      </Organisation>
+      <Time>1:49:50</Time>
+      <TimeMs>6590000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Katja Horst</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Greta Pompe</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Jannika Wetzlel</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>DEN</TeamName>
+      <Organisation>
+        <Name>DEN</Name>
+      </Organisation>
+      <Time>1:42:40</Time>
+      <TimeMs>6160000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Krista Lervad Lundoe</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Astrid Faber FengerGroen</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Hanna Baek Christiansen</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>UKR</TeamName>
+      <Organisation>
+        <Name>UKR</Name>
+      </Organisation>
+      <Time>1:51:21</Time>
+      <TimeMs>6681000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Inna Ignatieva</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Karina Fedoryshyn</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Daria Sereda</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>EST</TeamName>
+      <Organisation>
+        <Name>EST</Name>
+      </Organisation>
+      <Time>1:52:46</Time>
+      <TimeMs>6766000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Grete Johanna Korb</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mia Esta</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Anna Mia Atonen</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ESP</TeamName>
+      <Organisation>
+        <Name>ESP</Name>
+      </Organisation>
+      <Time>2:13:14</Time>
+      <TimeMs>7994000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Candela Arranz Bravo</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Laia Casal Gil</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Bruna Sanz Kowalski</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>AUT</TeamName>
+      <Organisation>
+        <Name>AUT</Name>
+      </Organisation>
+      <Time>2:21:23</Time>
+      <TimeMs>8483000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Matilda Buschek</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Hannah Sandrisser</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Angelina Ochenbauer</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>NZL</TeamName>
+      <Organisation>
+        <Name>NZL</Name>
+      </Organisation>
+      <Time>2:57:25</Time>
+      <TimeMs>10645000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Torun Joergensen</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Dora Slavich</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Cerys Findlow</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>IRL</TeamName>
+      <Organisation>
+        <Name>IRL</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Niamh Browne</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Fionnuala Rowe</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Aoife Masterson</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>BUL</TeamName>
+      <Organisation>
+        <Name>BUL</Name>
+      </Organisation>
+      <Time>2:20:21</Time>
+      <TimeMs>8421000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Vihra Ruseva</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Bogomila Tuykova</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lyudmila Dimova</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>CRO</TeamName>
+      <Organisation>
+        <Name>CRO</Name>
+      </Organisation>
+      <Time>1:52:50</Time>
+      <TimeMs>6770000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Dora Delic</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Sara Delic</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ema Jurican</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>TUR</TeamName>
+      <Organisation>
+        <Name>TUR</Name>
+      </Organisation>
+      <Time>3:00:48</Time>
+      <TimeMs>10848000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Efsa Sezin Akin</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Sedanur Balikci</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Zeynep Icyer</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SLO</TeamName>
+      <Organisation>
+        <Name>SLO</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Nika Erzen</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Brina Gantar</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lili Ivana Raj</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ROU</TeamName>
+      <Organisation>
+        <Name>ROU</Name>
+      </Organisation>
+      <Time>2:09:19</Time>
+      <TimeMs>7759000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Sonia Stupu</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Eszter Anna Palfy</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ana Brandus</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>POR</TeamName>
+      <Organisation>
+        <Name>POR</Name>
+      </Organisation>
+      <Time>2:57:34</Time>
+      <TimeMs>10654000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Maria Oliveira</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Juliana Pedro</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mafalda Goncalves</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+  </ClassResult>
+  <ClassResult>
+    <EventClass>
+      <Name>Women 18</Name>
+    </EventClass>
+    <TeamResult>
+      <TeamName>SWE</TeamName>
+      <Organisation>
+        <Name>SWE</Name>
+      </Organisation>
+      <Time>1:43:50</Time>
+      <TimeMs>6230000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Elvira Karmstig</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Elsa Ehrenborg</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Izabella Ljungberg</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>CZE</TeamName>
+      <Organisation>
+        <Name>CZE</Name>
+      </Organisation>
+      <Time>1:38:47</Time>
+      <TimeMs>5927000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Anna Kynclova</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Kristyna Finstrlova</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Marketa Hanusova</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>FRA</TeamName>
+      <Organisation>
+        <Name>FRA</Name>
+      </Organisation>
+      <Time>1:41:35</Time>
+      <TimeMs>6095000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Sonia Jolly Jansson</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ambre Dufour</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Fanny Delahaye</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>FIN</TeamName>
+      <Organisation>
+        <Name>FIN</Name>
+      </Organisation>
+      <Time>1:48:17</Time>
+      <TimeMs>6497000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Anni MakiHokkonen</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Kiia Kuusikko</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Iida Koskinen</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SUI</TeamName>
+      <Organisation>
+        <Name>SUI</Name>
+      </Organisation>
+      <Time>1:49:18</Time>
+      <TimeMs>6558000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Lotta Marit Luethi</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lenia Grimm</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Mira Werder</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>HUN</TeamName>
+      <Organisation>
+        <Name>HUN</Name>
+      </Organisation>
+      <Time>2:02:53</Time>
+      <TimeMs>7373000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Boglarka Danko</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Timea Janosi</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Csepke Dora</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>UKR</TeamName>
+      <Organisation>
+        <Name>UKR</Name>
+      </Organisation>
+      <Time>2:02:45</Time>
+      <TimeMs>7365000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Iryna Klymeniuk</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Iryna Polubentseva</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Yevheniia Oksiuchenko</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>POL</TeamName>
+      <Organisation>
+        <Name>POL</Name>
+      </Organisation>
+      <Time>1:49:15</Time>
+      <TimeMs>6555000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Julia Biskupska</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Iga Mikula</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Maja Kula</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>GER</TeamName>
+      <Organisation>
+        <Name>GER</Name>
+      </Organisation>
+      <Time>2:12:09</Time>
+      <TimeMs>7929000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Marika Prolingheuer</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Karla Breckle</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Juliane Burgmair</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>NZL</TeamName>
+      <Organisation>
+        <Name>NZL</Name>
+      </Organisation>
+      <Time>2:02:46</Time>
+      <TimeMs>7366000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Juliet Freeman</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lani Murray</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Zara Toes</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>AUT</TeamName>
+      <Organisation>
+        <Name>AUT</Name>
+      </Organisation>
+      <Time>2:08:07</Time>
+      <TimeMs>7687000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Mika Asenbauer</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Kiara Sophie Piskorz</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Charlotte Brischnik</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>LAT</TeamName>
+      <Organisation>
+        <Name>LAT</Name>
+      </Organisation>
+      <Time>1:45:18</Time>
+      <TimeMs>6318000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Eliza Odrina</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Grieta Grantskalna</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ilze Jumike</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>NOR</TeamName>
+      <Organisation>
+        <Name>NOR</Name>
+      </Organisation>
+      <TeamStatus value="Disqualified" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Ronja Gotsch Iversen</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Elise Renard</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Helene Scheele</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>Disqualified</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ESP</TeamName>
+      <Organisation>
+        <Name>ESP</Name>
+      </Organisation>
+      <Time>1:46:50</Time>
+      <TimeMs>6410000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Joana Monge</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Jana Rifa Bernardino</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Arlet Sales</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>EST</TeamName>
+      <Organisation>
+        <Name>EST</Name>
+      </Organisation>
+      <Time>2:08:40</Time>
+      <TimeMs>7720000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Mariann Zernant</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Johanna Oras</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Viola Nikitina</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>LTU</TeamName>
+      <Organisation>
+        <Name>LTU</Name>
+      </Organisation>
+      <Time>1:56:39</Time>
+      <TimeMs>6999000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Saule Traubaite</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Gabija Stankeviciute</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Margarita Dienyte</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>POR</TeamName>
+      <Organisation>
+        <Name>POR</Name>
+      </Organisation>
+      <Time>3:14:43</Time>
+      <TimeMs>11683000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Mariana Guerreiro</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Alexandra Tadeu</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Leonor Soares</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>GBR</TeamName>
+      <Organisation>
+        <Name>GBR</Name>
+      </Organisation>
+      <Time>1:48:15</Time>
+      <TimeMs>6495000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Emily Atkinson</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ruth Gooch</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Lyra Medlock</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ROU</TeamName>
+      <Organisation>
+        <Name>ROU</Name>
+      </Organisation>
+      <Time>2:45:07</Time>
+      <TimeMs>9907000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Sara Bojte</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Gyongyver Gorog</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Sara Lilla Miklos</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>ITA</TeamName>
+      <Organisation>
+        <Name>ITA</Name>
+      </Organisation>
+      <Time>2:05:37</Time>
+      <TimeMs>7537000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Chiara Magenes</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Silvia Di Stefano</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Chiara Ognibeni</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>BUL</TeamName>
+      <Organisation>
+        <Name>BUL</Name>
+      </Organisation>
+      <Time>2:31:19</Time>
+      <TimeMs>9079000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Plamena Cholakova</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Marta Ruseva</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Emanuela Stoyanova</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>TUR</TeamName>
+      <Organisation>
+        <Name>TUR</Name>
+      </Organisation>
+      <Time>3:00:02</Time>
+      <TimeMs>10802000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Basak Yilmaz</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Irem Gul Nazlimoglu</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Tuana Gunvaran</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SLO</TeamName>
+      <Organisation>
+        <Name>SLO</Name>
+      </Organisation>
+      <Time>2:02:50</Time>
+      <TimeMs>7370000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Nea Erzen</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Neza Obid</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Brina Kolner</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>SVK</TeamName>
+      <Organisation>
+        <Name>SVK</Name>
+      </Organisation>
+      <Time>2:16:44</Time>
+      <TimeMs>8204000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Maiia Volkova</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Nina Jurcikova</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ema Jonasova</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>MDA</TeamName>
+      <Organisation>
+        <Name>MDA</Name>
+      </Organisation>
+      <Time>2:19:44</Time>
+      <TimeMs>8384000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Victoria Nosenco</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Daria Gutul</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Anna Donici</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>USA</TeamName>
+      <Organisation>
+        <Name>USA</Name>
+      </Organisation>
+      <Time>3:11:24</Time>
+      <TimeMs>11484000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Paige Suhocki</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Kendal OCallaghan</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Adalia SchafrathCraig</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>IRL</TeamName>
+      <Organisation>
+        <Name>IRL</Name>
+      </Organisation>
+      <TeamStatus value="MissingPunch" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Eve Buckley</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>MissingPunch</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Ellie Simpson</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Sadhbh Hassett</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+    <TeamResult>
+      <TeamName>AUS</TeamName>
+      <Organisation>
+        <Name>AUS</Name>
+      </Organisation>
+      <Time>2:16:49</Time>
+      <TimeMs>8209000</TimeMs>
+      <TeamStatus value="OK" />
+      <TeamMemberResult>
+        <Person>
+          <Name>Liana Stubbs</Name>
+        </Person>
+        <Leg>1</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Alexandra Edwards</Name>
+        </Person>
+        <Leg>2</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+      <TeamMemberResult>
+        <Person>
+          <Name>Maggie Mackay</Name>
+        </Person>
+        <Leg>3</Leg>
+        <Status>OK</Status>
+      </TeamMemberResult>
+    </TeamResult>
+  </ClassResult>
+</ResultList>

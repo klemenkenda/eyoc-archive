@@ -1,0 +1,98 @@
+class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
+W16,1,OK,FIN,Finland,6314,Fanny Kukonlehto,2026,Eeva Liina Ojanaho,2145,Salla Isoherranen,2143,high,2019/result-relay.pdf
+W16,2,OK,RUS,Russian Federation,6363,Anastasia Rukomel,1974,Elena Porkhun,2269,Anna Trempoltseva,2120,high,2019/result-relay.pdf
+W16,3,OK,SUI,Switzerland,6390,Nina Hubmann,2196,Alina Niggli,1844,Ines Berger,2350,high,2019/result-relay.pdf
+W16,4,OK,CZE,Czech Republic,6612,Anna Karlova,1941,Vanda Vavrova,2430,Marketa Mulickova,2241,high,2019/result-relay.pdf
+W16,5,OK,HUN,Hungary,7173,Rita Sarkozy,2582,Viktoria Mag,2745,Boglarka Czako,1846,high,2019/result-relay.pdf
+W16,6,OK,EST,Estonia,7344,Kris Jette Piht,2504,Leana Jete Korb,2402,Brigitte Panker,2438,high,2019/result-relay.pdf
+W16,7,OK,DEN,Denmark,7372,Sigrid Hoeyer Staugaard,2193,Marie Moeller Nielsen,2488,Siri Simonsen,2691,high,2019/result-relay.pdf
+W16,8,OK,SLO,Slovenia,7385,Katja Babic,2236,Tina Kern,2464,Teja Tusar,2685,high,2019/result-relay.pdf
+W16,9,OK,POL,Poland,7417,Hanna Sudol,2235,Julia Krempinska,2274,Iga Muller,2908,high,2019/result-relay.pdf
+W16,10,OK,UKR,Ukraine,7460,Veronika Arbuzova,2315,Olha Sereda,2260,Anastasiia Biliakova,2885,high,2019/result-relay.pdf
+W16,11,OK,BLR,Belarus,7520,Sofya Karelina,3009,Alesia Dzichkouskaya,2329,Olga Tomashava,2182,high,2019/result-relay.pdf
+W16,12,OK,LTU,Lithuania,7698,Beatrice Karlonaite,2391,Aiste Dementaviciute,3190,Ugne Skucaite,2117,high,2019/result-relay.pdf
+W16,13,OK,FRA,France,7739,Alix Villar,2222,Diane Body,2352,Annabelle Delenne,3165,high,2019/result-relay.pdf
+W16,14,OK,LAT,Latvia,7822,Leonarda Baltina,2574,Aiga Irbe Bluma,2759,Laura Berke,2489,high,2019/result-relay.pdf
+W16,15,OK,GER,Germany,8221,Elsa Barthel,2375,Julika Funk,2573,Emma Caspari,3273,high,2019/result-relay.pdf
+W16,16,OK,SVK,Slovakia,8268,Ema Havlikova,2251,Petronela Filipova,2652,Simona Mihalicova,3365,high,2019/result-relay.pdf
+W16,17,OK,AUT,Austria,9165,Hannah Winkler,2656,Flora Aigmueller,2851,Anna Angermann,3658,high,2019/result-relay.pdf
+W16,18,OK,ITA,Italy,9734,Rachele Gaio,3330,Nicole Riz,3381,Iris Aurora Pecorari,3023,high,2019/result-relay.pdf
+W16,19,OK,ESP,Spain,9761,Patricia Toledo,3344,Maria Belloso Poveda,3468,Marta Martinez Barcelo,2949,high,2019/result-relay.pdf
+W16,20,OK,BUL,Bulgaria,10070,Yana Ilieva,2876,Yana Peneva,3255,Velina Koeva,3939,high,2019/result-relay.pdf
+W16,21,OK,ROU,Romania,10083,Andreea Manu,3666,Daria Galateanu,3554,Alexandra Roman,2863,high,2019/result-relay.pdf
+W16,22,OK,TUR,Turkey,10444,Gulce Celik,2571,Duygu Yigen,4354,Esma Melle,3519,high,2019/result-relay.pdf
+W18,1,OK,FIN,Finland,6207,Mikaela Karjalainen,2032,Maria Maattanen,2077,Melina Lahdenpera,2098,high,2019/result-relay.pdf
+W18,2,OK,HUN,Hungary,6333,Nelli Hajdu,2241,Dominika Mero,2136,Csilla Gardonyi,1956,high,2019/result-relay.pdf
+W18,3,OK,SUI,Switzerland,6343,Lilly Graber,2005,Hanna Wey,2194,Vera Moser,2144,high,2019/result-relay.pdf
+W18,4,OK,SWE,Sweden,6809,Ebba Berglin,1987,Petrina Costermans,2360,Tilde Backlund,2462,high,2019/result-relay.pdf
+W18,5,OK,CZE,Czech Republic,6813,Michaela Dittrichova,2008,Tereza Chrastova,2330,Lucie Semikova,2475,high,2019/result-relay.pdf
+W18,6,OK,RUS,Russian Federation,6829,Elizaveta Botova,2001,Anna Safronova,2290,Taisiia Khokhlova,2538,high,2019/result-relay.pdf
+W18,7,OK,SVK,Slovakia,6839,Tamara Miklusova,2051,Luboslava Weissova,2339,Dorota Smelikova,2449,high,2019/result-relay.pdf
+W18,8,OK,NOR,Norway,6873,Andrea Ranvik,2249,Jenny Baklid,2095,Oda Scheele,2529,high,2019/result-relay.pdf
+W18,9,OK,LAT,Latvia,7120,Anna Emilija Suta,2075,Aija Denija Trezina,2547,Elza Kuze,2498,high,2019/result-relay.pdf
+W18,10,OK,UKR,Ukraine,7123,Polina Surkova,2218,Olha Hupalo,2668,Feia Tsyvilska,2237,high,2019/result-relay.pdf
+W18,11,OK,DEN,Denmark,7145,Malin Agervig Kristiansson,2566,Eva Ornhagen Jorgensen,2079,Elanor Henriksen,2500,high,2019/result-relay.pdf
+W18,12,OK,LTU,Lithuania,7290,Gabriele Tirlikaite,2497,Juste Skaisgiryte,2451,Ugne Liegute,2342,high,2019/result-relay.pdf
+W18,13,OK,FRA,France,7293,Lucie Lataste,2477,Perrine Toussaint,2226,Helene Champigny,2590,high,2019/result-relay.pdf
+W18,14,OK,BUL,Bulgaria,7540,Evangelina Dyaksova,2363,Niya Georgieva,2610,Yasna Petrova,2567,high,2019/result-relay.pdf
+W18,15,OK,POL,Poland,8154,Amelia Block,2811,Zuzanna Gielec,2804,Agnieszka Mazurek,2539,high,2019/result-relay.pdf
+W18,16,OK,EST,Estonia,8200,Johanna Laanoja,2809,Anastasija Pahhomenkova,2779,Anita Laanejoe,2612,high,2019/result-relay.pdf
+W18,17,OK,ESP,Spain,8405,Lucia Misas Bernardino,2241,Kika Basaran van Ham,3073,Nerea Gonzalez,3091,high,2019/result-relay.pdf
+W18,18,OK,ITA,Italy,9215,Anna Pradel,2624,Nicol Canova,2998,Guenda Zaffanella,3593,high,2019/result-relay.pdf
+W18,19,OK,BLR,Belarus,9448,Maria Tambasova,2803,Karyna Krauchanka,3174,Maryana Rabtsava,3471,high,2019/result-relay.pdf
+W18,20,OK,GER,Germany,9606,Lisa Kaestner,3444,Charlotte Leonhardt,2621,Luise Steinert,3541,high,2019/result-relay.pdf
+W18,21,OK,BEL,Belgium,9845,Laurence Defraigne,2224,Julia Krekels,4575,Kato Keuppens,3046,high,2019/result-relay.pdf
+W18,22,OK,GBR,Great Britain,10040,Anika Schwarze Chintapatla,2617,Alice Wilson,2906,Lizzie Stansfield,4517,high,2019/result-relay.pdf
+W18,23,OK,SLO,Slovenia,10139,Zala Zavrl,3476,Deja Razpet,3398,Ana Pia Pogacar,3265,high,2019/result-relay.pdf
+W18,24,OK,POR,Portugal,14639,Matilde Ribeiro,3962,Ines Augusto,5588,Joana Catarino,5089,high,2019/result-relay.pdf
+W18,25,OK,IRL,Ireland,14934,Cliodhna Donaghy,5402,Meadow McCauley,5733,Aoife O Sullivan,3799,high,2019/result-relay.pdf
+M16,1,OK,CZE,Czech Republic,5605,Jakub Chaloupsky,1724,Martin Simsa,1813,Lukas Vitebsky,2068,high,2019/result-relay.pdf
+M16,2,OK,RUS,Russian Federation,5623,Maxim Gavrilyuk,2195,Ilya Malygin,1806,Mark Tutynin,1622,high,2019/result-relay.pdf
+M16,3,OK,LTU,Lithuania,5780,Tadas Dementavicius,1847,Adomas Casas,1924,Andojas Lapinskas,2009,high,2019/result-relay.pdf
+M16,4,OK,FIN,Finland,6150,Topias Kemppi,2233,Riku Grohn,1982,Aarni Ronkainen,1935,high,2019/result-relay.pdf
+M16,5,OK,DEN,Denmark,6311,Mathias Buchgreitz,1750,Jonas Damm Als,2625,Oscar David Brom Jensen,1936,high,2019/result-relay.pdf
+M16,6,OK,GER,Germany,6336,Konrad Stamer,2290,Anton Knoll,2095,Konstantin Kunckel,1951,high,2019/result-relay.pdf
+M16,7,OK,GBR,Great Britain,6413,Jim Bailey,2098,Joe Hudd,1942,Rachel Brown,2373,high,2019/result-relay.pdf
+M16,8,OK,POL,Poland,6468,Grzegorz Nowak,2327,Mikolaj Paterek,2080,Jan Sztranek,2061,high,2019/result-relay.pdf
+M16,9,OK,EST,Estonia,6649,Samuel Kolsar,2340,Jurgen Joonas,2184,Olle Ilmar Jaama,2125,high,2019/result-relay.pdf
+M16,10,OK,SUI,Switzerland,6665,Dominic Mueller,1965,Benjamin Wey,2837,Pascal Schaerer,1863,high,2019/result-relay.pdf
+M16,11,OK,SVK,Slovakia,6666,Martin Rohac,2160,Richard Slama,2332,Lukas Novota,2174,high,2019/result-relay.pdf
+M16,12,OK,BLR,Belarus,6681,Aliaksandr Furyk,2147,Oleg Tomashau,2632,Siarhei Zhylinski,1902,high,2019/result-relay.pdf
+M16,13,OK,LAT,Latvia,6993,Emils Lazdans,2159,Gustavs Stana,2584,Matiss Saulite,2250,high,2019/result-relay.pdf
+M16,14,OK,ISR,Israel,7004,Peleg Mitzafon,2165,Roy Alpert,2344,Tal Zorea,2495,high,2019/result-relay.pdf
+M16,15,OK,FRA,France,7188,Guilhem Verove,2164,Leandre Magat,2694,Mael Heritier,2330,high,2019/result-relay.pdf
+M16,16,OK,UKR,Ukraine,7336,Illia Mashkov,2302,Danylo Dvornikov,2670,Illia Otreshko,2364,high,2019/result-relay.pdf
+M16,17,OK,HUN,Hungary,7443,Almos Huba Fulop,3233,Kelen Klement,2292,Peter Gonczi,1918,high,2019/result-relay.pdf
+M16,18,OK,BUL,Bulgaria,7756,Kaloyan Atanasov,2951,Stefan Dimitrov,2708,Preslav Shterev,2097,high,2019/result-relay.pdf
+M16,19,OK,BEL,Belgium,7769,Antoine Mattart,2490,Lasse Taillieu,2302,Willem Bakelants,2977,high,2019/result-relay.pdf
+M16,20,OK,ITA,Italy,8223,Marco Anselmo di Stefano,2990,Davide de Bona,2617,Goran Polojaz,2616,high,2019/result-relay.pdf
+M16,21,OK,AUT,Austria,8456,Anton Buschek,3537,Lukas Wieser,2672,Joel Prutsch,2247,high,2019/result-relay.pdf
+M16,22,OK,ROU,Romania,8706,Adam Voros,2579,Andrei Galateanu,3016,Catalin Vadean,3111,high,2019/result-relay.pdf
+M16,23,OK,TUR,Turkey,10244,Orkunt Tek,3735,Berke Basoz,3635,Ahmet Ozbey,2874,high,2019/result-relay.pdf
+M16,24,OK,IRL,Ireland,12476,Liam Cotter,3166,Cuan Riordan,5154,Eoghan Whelan,4156,high,2019/result-relay.pdf
+M18,1,OK,FIN,Finland,5675,Aaro Ojala,1991,Topias Arola,1890,Touko Seppa,1794,high,2019/result-relay.pdf
+M18,2,OK,HUN,Hungary,5758,Marcell Szabo,1897,Zoltan Bujdoso,2046,Ferenc Jonas,1815,high,2019/result-relay.pdf
+M18,3,OK,SWE,Sweden,5809,Philip Carlsson,1896,Leo Johansson,2045,Axel Elmblad,1868,high,2019/result-relay.pdf
+M18,4,OK,RUS,Russian Federation,5858,Mikhail Beliakov,1985,Daniil Fomin,1895,Dmitrii Stepanov,1978,high,2019/result-relay.pdf
+M18,5,OK,SUI,Switzerland,5976,Pascal Schmid,1861,Simon Hamel,1939,Manuele Ren,2176,high,2019/result-relay.pdf
+M18,6,OK,LTU,Lithuania,6278,Rokas Barauskas,1966,Augusts Velde,2129,Dovydas Kausakys,2183,high,2019/result-relay.pdf
+M18,7,OK,DEN,Denmark,6404,Jonas Gabs,1877,Linus Agervig Kristiansson,2048,Jacob Steinthal,2479,high,2019/result-relay.pdf
+M18,8,OK,AUT,Austria,6449,Jakob Wolfram,2075,Lukas Novak,2114,Erik Bonek,2260,high,2019/result-relay.pdf
+M18,9,OK,POL,Poland,6592,Stanislaw Kurzyp,1987,Bruno Deredos,2385,Piotr Pesta,2220,high,2019/result-relay.pdf
+M18,10,OK,CZE,Czech Republic,6853,Ondrej Metelka,2033,Milan Malacka,2663,Tomas Janovsky,2157,high,2019/result-relay.pdf
+M18,11,OK,ITA,Italy,6952,Marco Orler,2099,Francesco Mariani,2413,Alberto Bazan,2440,high,2019/result-relay.pdf
+M18,12,OK,NOR,Norway,7049,Tobias Alstad,2557,Vegard Kittilsen,2057,Kornelius Kriszat Lovfald,2435,high,2019/result-relay.pdf
+M18,13,OK,POR,Portugal,7089,Rodrigo Oliveira,2373,Vasco Mendes,2226,Tomas Lima,2490,high,2019/result-relay.pdf
+M18,14,OK,BEL,Belgium,7091,Simon Arno,2249,Aurelien van Aerschot,2481,Cedric Amerijckx,2361,high,2019/result-relay.pdf
+M18,14,OK,EST,Estonia,7091,Sander Pritsik,2237,Kustu Kunnapas,2220,Hando Allmann,2634,high,2019/result-relay.pdf
+M18,16,OK,UKR,Ukraine,7163,Tymofii Teremetskyi,2181,Vladyslav Arbuzov,2290,Bohdan Griaziev,2692,high,2019/result-relay.pdf
+M18,17,OK,FRA,France,7324,Axel Pannier,2155,Kylian Wymer,2029,Basile Basset,3140,high,2019/result-relay.pdf
+M18,18,OK,BUL,Bulgaria,7361,Veselin Shterev,2108,Aleksandar Ivanov,2754,Valentin Neykov,2499,high,2019/result-relay.pdf
+M18,19,OK,GER,Germany,7606,Anselm Reichenbach,2372,Till Geiler,2889,Lucas Imbsweiler,2345,high,2019/result-relay.pdf
+M18,20,OK,ROU,Romania,7616,Alexandru Catana,2761,Csongor Szikszai,2510,Lorand Vigh,2345,high,2019/result-relay.pdf
+M18,21,OK,LAT,Latvia,7637,Emils Zernis,1995,Pauls Alberings,2032,Davis Solmanis,3610,high,2019/result-relay.pdf
+M18,22,OK,SVK,Slovakia,7958,Adam Jonas,2282,Medard Feder,2800,Daniel Pompura,2876,high,2019/result-relay.pdf
+M18,23,OK,ISR,Israel,9281,Rotem Yasur,2396,Sela Zamir,2862,Matan Ivri,4023,high,2019/result-relay.pdf
+M18,24,OK,BLR,Belarus,9379,Andrei Skinder,2686,Arseni Mironov,2450,Alexander Reshetov,4243,high,2019/result-relay.pdf
+M18,25,OK,MDA,"Moldova, Republic of",10124,Iaroslav Davidov,2908,Nichita Iurichin,3294,Vladimir Iordatii,3922,high,2019/result-relay.pdf
+M18,26,OK,IRL,Ireland,11369,Aidan McCullough,3327,Andrew Elwood,3129,Darragh Hoare,4913,high,2019/result-relay.pdf

@@ -1,0 +1,90 @@
+class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
+M18,1,OK,NOR,Norway,6155,Alfred Bjoerneroed,2006,Brage Takle,2119,Martin Vehus Skjerve,2030,high,2021/results-relay.pdf
+M18,2,OK,CZE,Czech Republic,6189,Vit Cech,2004,Lukas Vitebsky,2162,Martin Simsa,2023,high,2021/results-relay.pdf
+M18,3,OK,LTU,Lithuania,6434,Tadas Dementavicius,1945,Adomas Casas,2434,Andojas Lapinskas,2055,high,2021/results-relay.pdf
+M18,4,OK,EST,Estonia,6462,Mihkel Mahla,2339,Jurgen Joonas,2132,Olle Ilmar Jaama,1991,high,2021/results-relay.pdf
+M18,5,OK,RUS,Russia,6463,Stepan Aleksandrov,2455,Ilya Malygin,2120,Mark Tutynin,1888,high,2021/results-relay.pdf
+M18,6,OK,FIN,Finland,6546,Riku Grohn,2346,Santeri Kirjavainen,2126,Aarni Ronkainen,2074,high,2021/results-relay.pdf
+M18,7,OK,LAT,Latvia,7311,Gustavs Stana,2771,Austris Kalnins,2060,Matiss Saulite,2480,high,2021/results-relay.pdf
+M18,8,OK,SVK,Slovakia,7451,Martin Rohac,2152,Maximilian Kubik,2696,Tomas Sipos,2603,high,2021/results-relay.pdf
+M18,9,OK,POL,Poland,7565,Mateusz Kula,2566,Jakub Jonczy,2615,Stanislaw Pachnik,2384,high,2021/results-relay.pdf
+M18,10,OK,SWE,Sweden,7568,Albin Weiden,2403,Edvin Forsberg,2078,Edvin Nilsson,3087,high,2021/results-relay.pdf
+M18,11,OK,ESP,Spain,7575,Diego Aimar Urquizu,2849,Galan Gonzalo Ferrando,2346,Olias Gonzalo Zorrilla,2380,high,2021/results-relay.pdf
+M18,12,OK,DEN,Denmark,7646,Mathias Buchgreitz,2206,Anders Secher Thomsen,3228,Jonas Damm Als,2212,high,2021/results-relay.pdf
+M18,13,OK,ISR,Israel,7655,Peleg Mitzafon,2174,Roy Alpert,2783,Tal Zorea,2698,high,2021/results-relay.pdf
+M18,14,OK,BEL,Belgium,7662,Antoine Mattart,2422,Gael Amerijckx,2524,Willem Bakelants,2716,high,2021/results-relay.pdf
+M18,15,OK,GER,Germany,7697,Marek Pompe,2799,Konrad Stamer,2367,Anselm Reichenbach,2531,high,2021/results-relay.pdf
+M18,16,OK,HUN,Hungary,7702,Levente Szabo,2430,Adam Balint,3179,Peter Gonczi,2093,high,2021/results-relay.pdf
+M18,17,OK,SUI,Switzerland,7860,Martin Koehle,2451,Joschi Schmid,3260,Benjamin Wey,2149,high,2021/results-relay.pdf
+M18,18,OK,ROU,Romania,8011,Nandor Csis,2423,Adam Voros,3087,Catalin Vadean,2501,high,2021/results-relay.pdf
+M18,19,OK,BLR,Belarus,8173,Aliaksandr Furyk,2851,Oleg Tomashau,2325,Fedar Golubev,2997,high,2021/results-relay.pdf
+M18,20,OK,FRA,France,8401,Bastien Thenoz,3389,Romain Pichard,2365,Vallet Mathias Barros,2647,high,2021/results-relay.pdf
+M18,21,OK,UKR,Ukraine,8650,Ihor Krazhev,2484,Volodymyr Yatsenko,2641,Yurii Skvortsov,3525,high,2021/results-relay.pdf
+M18,22,OK,ITA,Italy,8651,Goran Polojaz,2455,Francesco Ognibene,3526,Stefano Marco Anselmo di,2670,high,2021/results-relay.pdf
+M18,23,OK,BUL,Bulgaria,9355,Tervel Dragoev,3358,Stefan Yordanov,3004,Preslav Shterev,2993,high,2021/results-relay.pdf
+M18,24,OK,IRL,Ireland,11340,Eoghan Whelan,2737,Liam Cotter,3458,Daniel Earnshaw,5145,high,2021/results-relay.pdf
+M18,25,OK,TUR,Turkey,13628,Altar Ilgaz Tuzcuogullari,4848,Halil Ozdemir,4001,Ayberk Keskin,4779,high,2021/results-relay.pdf
+W18,1,OK,SWE,Sweden,5706,Elsa Sonesson,1868,Ida Bengtsson,1857,Hanna Jonsell,1981,high,2021/results-relay.pdf
+W18,2,OK,FIN,Finland,5724,Emilia Tala,2051,Inari Karppinen,1928,Salla Isoherranen,1745,high,2021/results-relay.pdf
+W18,3,OK,RUS,Russia,5825,Anastasiya Kurova,2051,Kseniya Beskhmelnova,2020,Olesia Gladilkina,1754,high,2021/results-relay.pdf
+W18,4,OK,HUN,Hungary,6072,Boglarka Czako,1866,Lilla Zempleni,2027,Viktoria Mag,2179,high,2021/results-relay.pdf
+W18,5,OK,LAT,Latvia,6073,Leonarda Baltina,1985,Laura Berke,2083,Agnese Jaunmuktane,2005,high,2021/results-relay.pdf
+W18,6,OK,CZE,Czech Republic,6115,Ema Bulirova,1991,Anna Marie Smutna,2097,Marketa Mulickova,2027,high,2021/results-relay.pdf
+W18,7,OK,SUI,Switzerland,6205,Nina Hubmann,2310,Rosa Bieri,2106,Alina Niggli,1789,high,2021/results-relay.pdf
+W18,8,OK,NOR,Norway,6293,Mathea Gloeersen,2364,Elisa Gotsch Iversen,1948,Alva Marika Niklasson,1981,high,2021/results-relay.pdf
+W18,9,OK,FRA,France,6395,Alix Villar,1987,Lilou Parigot,2501,Lucine Gintzburger,1907,high,2021/results-relay.pdf
+W18,10,OK,DEN,Denmark,6498,Sigrid Hoeyer Staugaard,2183,Marie Moeller Nielsen,2089,Xenia Bregensoee,2226,high,2021/results-relay.pdf
+W18,11,OK,LTU,Lithuania,6502,Emilija Tamoseviciute,2093,Aiste Dementaviciute,2320,Ugne Skucaite,2089,high,2021/results-relay.pdf
+W18,12,OK,POL,Poland,6700,Adrianna Filipiak,2267,Julia Krempinska,2077,Hanna Sudol,2356,high,2021/results-relay.pdf
+W18,13,OK,GER,Germany,6965,Pina Liselotte Mauch,2264,Emma Caspari,2122,Lone Constanze Pompe,2579,high,2021/results-relay.pdf
+W18,14,OK,UKR,Ukraine,7023,Anastasiia Biliakova,2326,Veronika Arbuzova,2398,Kristina Pashchenko,2299,high,2021/results-relay.pdf
+W18,15,OK,BLR,Belarus,7351,Alesia Dzichkouskaya,2050,Yana Sauchanka,2489,Viktoria Karchashka,2812,high,2021/results-relay.pdf
+W18,16,OK,AUT,Austria,7796,Hannah Winkler,2859,Livia Radon,2831,Flora Aigmueller,2106,high,2021/results-relay.pdf
+W18,17,OK,EST,Estonia,7961,Eliise Keskula,2344,Brigitte Panker,2296,Emma Joonas,3321,high,2021/results-relay.pdf
+W18,18,OK,SVK,Slovakia,8016,Petronela Filipova,2385,Natalia Jezikova,2668,Gabriela Trepacova,2963,high,2021/results-relay.pdf
+W18,19,OK,ESP,Spain,8251,Patricia Toledo,2946,Irene Guerrero,2396,Clara Virgili,2909,high,2021/results-relay.pdf
+W18,20,OK,BUL,Bulgaria,8346,Velina Koeva,2007,Reneta Nenkova,2905,Desislava Bahchevanova,3434,high,2021/results-relay.pdf
+W18,21,OK,TUR,Turkey,10474,Aysa Asya Tuzcuogullari,3797,Betul Onal,3392,Duygu Yigen,3285,high,2021/results-relay.pdf
+M16,1,OK,DEN,Denmark,5436,Casper Blakskjaer,1864,Niels Dalgaard,1914,Hannes Mogensen,1658,high,2021/results-relay.pdf
+M16,2,OK,CZE,Czech Republic,5613,Jan Strycek,1920,Jakub Racansky,1977,Dan Bolehovsky,1716,high,2021/results-relay.pdf
+M16,3,OK,EST,Estonia,5684,Chris Marcus Krahv,1942,Ossi Rasmus Priks,1843,Renno Merenakk,1899,high,2021/results-relay.pdf
+M16,4,OK,POL,Poland,5949,Bartlomiej MacIejewski,1974,Tymoteusz Bultrowicz,2010,Jedrzej Pachnik,1965,high,2021/results-relay.pdf
+M16,5,OK,RUS,Russia,6024,Pavel Bryzgalov,1943,Ivan Martemyanov,1845,Mikhail Maximenko,2236,high,2021/results-relay.pdf
+M16,6,OK,BEL,Belgium,6264,Louis Bourgeois,2133,Jorn Kennis,2165,Clercq Rune de,1966,high,2021/results-relay.pdf
+M16,7,OK,HUN,Hungary,6353,Gergo Balint,2056,Tamas Felfoldi,2153,Marton Csoboth,2144,high,2021/results-relay.pdf
+M16,8,OK,UKR,Ukraine,6468,Oleksii Shyp,1942,Faddei Matin,2430,Serafim Kovalchuk,2096,high,2021/results-relay.pdf
+M16,9,OK,SUI,Switzerland,6534,Loic Berger,2287,Elia Gartmann,1841,Leander Wylenmann,2406,high,2021/results-relay.pdf
+M16,10,OK,FIN,Finland,6538,Pyry Riissanen,2092,Aapo Virkajarvi,1931,Anton Packalen,2515,high,2021/results-relay.pdf
+M16,11,OK,FRA,France,6542,Antoine Derlot,1975,Yann Chabance,2412,Baptiste Delorme,2155,high,2021/results-relay.pdf
+M16,12,OK,ITA,Italy,6619,Paride Gaio,2060,Mattia Corona,2291,Pietro Sergas,2268,high,2021/results-relay.pdf
+M16,13,OK,ESP,Spain,7009,Font Jan Amat,2507,Diaz Alejandro Garrido,2512,Torras Bernat Selva,1990,high,2021/results-relay.pdf
+M16,14,OK,GER,Germany,7151,Jakob Oechler,2215,Loic Dequiedt,2847,Till Buchberger,2089,high,2021/results-relay.pdf
+M16,15,OK,LTU,Lithuania,7238,Salvijus Strole,2839,Algirdas Dienys,2371,Kasparas Murenas,2028,high,2021/results-relay.pdf
+M16,16,OK,LAT,Latvia,7660,Audris Odo Vitolins,3144,Martins Dzenitis,2176,Edvards Zvirgzdins,2340,high,2021/results-relay.pdf
+M16,17,OK,BUL,Bulgaria,7702,Lazar Milanov,2340,Djan Ahmedov,2716,Velislav Dolchinkov,2646,high,2021/results-relay.pdf
+M16,18,OK,AUT,Austria,7847,Jacopo Stoecher,2451,Maximilian Rass,3286,Elias Monsberger,2110,high,2021/results-relay.pdf
+M16,19,OK,ROU,Romania,8022,Ioan Iacob,2340,Ervin Vigh,3107,Andrei Galateanu,2575,high,2021/results-relay.pdf
+M16,20,OK,BLR,Belarus,8664,Gleb Balabanov,2999,Aliaksandr Nekrashevich,2744,Aliaksei Damanski,2921,high,2021/results-relay.pdf
+M16,21,OK,SVK,Slovakia,8789,Filip Bukovac,1940,Filip Jancik,3268,Tomas Kasza,3581,high,2021/results-relay.pdf
+M16,22,OK,IRL,Ireland,12775,Oliver Okane,5123,Brien Daire O,3772,Oscar Rowe,3880,high,2021/results-relay.pdf
+M16,23,OK,POR,Portugal,14509,Dinis Lopes,3912,Miguel Manso,5870,Leonor Ferreira,4727,high,2021/results-relay.pdf
+W16,1,OK,FIN,Finland,4609,Virna Pellikka,1522,Elli Punto,1441,Silva Kemppi,1646,high,2021/results-relay.pdf
+W16,2,OK,CZE,Czech Republic,4644,Michaela Novotna,1480,Michaela Metelkova,1597,Lea Martanova,1567,high,2021/results-relay.pdf
+W16,3,OK,HUN,Hungary,5004,Lili Lantai,1820,Janka Mikes,1754,Rita Maramarosi,1430,high,2021/results-relay.pdf
+W16,4,OK,RUS,Russia,5322,Olga Shmaylova,1984,Iuliia Ivanova,1684,Anastasiia Tonkovskaia,1654,high,2021/results-relay.pdf
+W16,5,OK,LAT,Latvia,5324,Ruta Dabolina,1983,Aiga Strazdina,1714,Sanda Lapina,1627,high,2021/results-relay.pdf
+W16,6,OK,FRA,France,5403,Violette Dupuy,1644,Alyssia Wymer,1948,Alice Merat,1811,high,2021/results-relay.pdf
+W16,7,OK,LTU,Lithuania,5409,Goda Ziaziulyte,1994,Neda Davidaviciute,1700,Migle Cincikaite,1715,high,2021/results-relay.pdf
+W16,8,OK,BEL,Belgium,5591,Sarah Rooman,1871,Maija Taillieu,1772,Maya Renard,1948,high,2021/results-relay.pdf
+W16,9,OK,SUI,Switzerland,5721,Leonie Mathis,1984,Ladina Gasser,2218,Minna Senn,1519,high,2021/results-relay.pdf
+W16,10,OK,BLR,Belarus,5732,Sofya Karelina,1785,Katsiaryna Dzichkouskaya,1855,Hanna Hurskaya,2092,high,2021/results-relay.pdf
+W16,11,OK,UKR,Ukraine,5871,Anastasiia Khvorostian,2152,Myroslava Mizerniuk,1744,Olha Bovkun,1975,high,2021/results-relay.pdf
+W16,12,OK,SVK,Slovakia,5886,Rebecca Herna,1939,Ema Michacova,1729,Tereza Kendrova,2218,high,2021/results-relay.pdf
+W16,13,OK,AUT,Austria,5903,Theresa Monsberger,2184,Camilla Aigmueller,2053,Emily Adenstedt,1666,high,2021/results-relay.pdf
+W16,14,OK,GER,Germany,6041,Marlene Fritz,1982,Annika Stamer,1630,Stanja Lindig,2429,high,2021/results-relay.pdf
+W16,15,OK,POL,Poland,6073,Daria Mikula,2162,Antonina Slonska,1864,Iga Muller,2047,high,2021/results-relay.pdf
+W16,16,OK,DEN,Denmark,6078,Hornbaek Laura Kaldahl,2082,Emilie Skov Dalgaard,2078,Sigrid Oehlenschlaeger Nielsen,1918,high,2021/results-relay.pdf
+W16,17,OK,ITA,Italy,7232,Elis Angeli,2005,Giulia Gobber,3012,Nastja Ferluga,2215,high,2021/results-relay.pdf
+W16,18,OK,BUL,Bulgaria,8199,Karina Georgieva,2159,Emili Aleksandrova,2932,Ivana Pedeva,3108,high,2021/results-relay.pdf
+W16,19,OK,ROU,Romania,9063,Iulia Stupu,2532,Andreea Manu,2565,Tania Sabou,3966,high,2021/results-relay.pdf
+W16,20,OK,ESP,Spain,9148,del Campo Alba Munoz,2997,Julia Faure,3225,Sanjaume Guinedell Faja,2926,high,2021/results-relay.pdf

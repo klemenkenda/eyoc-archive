@@ -1,0 +1,86 @@
+class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
+M16,1,OK,CZE,Czechia Czechia 1,4866,Vladimir Srb,1590,Prokop Tomasek,1711,Erik Heczko,1565,high,2023/results-relay.pdf
+M16,2,OK,SUI,Switzerland Switzerland 1,5089,Lavio Mueller,1590,Andrin Meier,1882,Andri Gujan,1617,high,2023/results-relay.pdf
+M16,3,OK,POL,Poland Poland 1,5303,Stanislaw Drapella,1749,Filip Wodzicki,1795,Tomasz Rzenca,1759,high,2023/results-relay.pdf
+M16,4,OK,HUN,Hungary Hungary 1,5358,Mark Levente Bujdoso,1782,Gergely Bonifert,1894,Mihaly Csoboth,1682,high,2023/results-relay.pdf
+M16,5,OK,ESP,Spain Spain 1,5442,Joan Montes,1856,Cesc Amat Font,1822,Aratz Beobide,1764,high,2023/results-relay.pdf
+M16,6,OK,SVK,Slovakia Slovakia 1,5477,Matej Balogh,1764,Michal Dolny,1860,Daniel Smelik,1853,high,2023/results-relay.pdf
+M16,7,OK,GBR,Great Britain Great Britain 1,5478,Tommy Rollins,1856,Laurence Ward,1934,Robert Finn Selmer Duguid,1688,high,2023/results-relay.pdf
+M16,8,OK,LAT,Latvia Latvia 1,5595,Lukass Silins,1909,Rudolfs Graudins,1884,Renars Grasis,1802,high,2023/results-relay.pdf
+M16,9,OK,DEN,Denmark Denmark 1,5645,Axel Oernhagen Joergensen,1929,Asbjoern Faber Fenger Groen,1755,Niels Jokumsen,1961,high,2023/results-relay.pdf
+M16,10,OK,EST,Estonia Estonia 1,5685,Villem Piirimae,1876,Karel Jung,1926,Partel Kulvik,1883,high,2023/results-relay.pdf
+M16,11,OK,LTU,Lithuania Lithuania 1,5949,Vitas Subatkis,2141,Tijus Jokubauskis,1936,Domas Juknevicius,1872,high,2023/results-relay.pdf
+M16,12,OK,BEL,Belgium Belgium 1,5951,Oscar Bourgeois,1857,Bob de Cleene,1967,Regis Vanschuytbroeck,2127,high,2023/results-relay.pdf
+M16,13,OK,BUL,Bulgaria Bulgaria 1,5991,Dani Nikolov,1928,Bogdan Evgeniev,2163,Svetlozar Kolev,1900,high,2023/results-relay.pdf
+M16,14,OK,UKR,Ukraine Ukraine 1,5992,Oleksii Shyp,1829,Volodymyr Horashko,2308,Artem Zhukovskyi,1855,high,2023/results-relay.pdf
+M16,15,OK,CRO,Croatia Croatia 1,6367,Teo Mahovic,1964,Gabrijel Solenicki,2175,Luka Gojmerac,2228,high,2023/results-relay.pdf
+M16,16,OK,ISR,Israel Israel 1,6751,Shahar Yogev,1960,Yuval Kalkstein,2121,Ronen Shuv,2670,high,2023/results-relay.pdf
+M16,17,OK,ROU,Romania Romania 1,7273,Radu Ilin,2628,Benjamin Simon,2406,Vlad Percec,2239,high,2023/results-relay.pdf
+M16,18,OK,AUT,Austria Austria 1,7504,Oliver Schnepf,2947,Maximilian Nindl,2500,Niklas Ochenbauer,2057,high,2023/results-relay.pdf
+M16,19,OK,MDA,"Moldova, Republic of Moldova, Republic of 1",8245,Artiom Babici,2317,Stefan Gherciu,2850,Ion Cebanu,3078,high,2023/results-relay.pdf
+W16,1,OK,FIN,Finland Finland 1,5020,Lotta Laakso,1613,Roosa Muukkonen,1711,Iida Koskinen,1696,high,2023/results-relay.pdf
+W16,2,OK,SUI,Switzerland Switzerland 1,5066,Rahel Good,1612,Lotta Marit Luethi,1730,Luisa Gartmann,1724,high,2023/results-relay.pdf
+W16,3,OK,POL,Poland Poland 1,5453,Julia Biskupska,1782,Jasmina Olejnik,1952,Antonina Slonska,1719,high,2023/results-relay.pdf
+W16,4,OK,CZE,Czechia Czechia 1,5569,Tereza Paulickova,1905,Marketa Hanusova,2025,Hana Vitkova,1639,high,2023/results-relay.pdf
+W16,5,OK,UKR,Ukraine Ukraine 1,5685,Iryna Klymeniuk,1859,Mariia Terekhova,1873,Iryna Polubentseva,1953,high,2023/results-relay.pdf
+W16,6,OK,SLO,Slovenia Slovenia 1,5689,Neza Obid,1895,Brina Kolner,1940,Nea Erzen,1854,high,2023/results-relay.pdf
+W16,7,OK,AUT,Austria Austria 1,5708,Eva Friedl,1869,Sona Asenbauer,2061,Kiara Sophie Piskorz,1778,high,2023/results-relay.pdf
+W16,8,OK,ITA,Italy Italy 1,5786,Chiara Magenes,1958,Silvia di Stefano,1695,Lucia Rigoni,2133,high,2023/results-relay.pdf
+W16,9,OK,LTU,Lithuania Lithuania 1,5833,Barbora Balciunaite,1975,Gabija Stankeviciute,1887,Margarita Dienyte,1971,high,2023/results-relay.pdf
+W16,10,OK,FRA,France France 1,5836,Amaia Roche,1954,Sasha Flandrin,1927,Fanny Delahaye,1955,high,2023/results-relay.pdf
+W16,11,OK,DEN,Denmark Denmark 1,5941,Ingrid Due Nygaard,1865,Andrea Svenningsen,2205,Frida Karner Grooss,1871,high,2023/results-relay.pdf
+W16,12,OK,GBR,Great Britain Great Britain 1,5944,Ruth Gooch,1909,Anna Todd,2174,Lyra Medlock,1861,high,2023/results-relay.pdf
+W16,13,OK,EST,Estonia Estonia 1,6170,Mariann Zernant,2058,Viola Nikitina,2196,Liise Lillelaid,1916,high,2023/results-relay.pdf
+W16,14,OK,ESP,Spain Spain 1,6478,Arlet Sales,2118,Marta Villa Rodriguez,2222,Maria Guma Martinez,2138,high,2023/results-relay.pdf
+W16,15,OK,BUL,Bulgaria Bulgaria 1,6994,Marta Ruseva,2446,Emanuela Stoyanova,2200,Stanimira Dimitrova,2348,high,2023/results-relay.pdf
+W16,16,OK,BEL,Belgium Belgium 1,7447,Louise Mattart,2237,Elvire Pierlot,2483,Odile Monfort,2727,high,2023/results-relay.pdf
+W16,17,OK,ROU,Romania Romania 1,8599,Diana Maria Pop,1898,Sara Bojte,2684,Antonia Man,4017,high,2023/results-relay.pdf
+M18,1,OK,NOR,Norway Norway 1,5242,Sondre Olaussen,1782,Kristoffer Strom Wik,1695,Nils Anders Niklasson,1765,high,2023/results-relay.pdf
+M18,2,OK,SUI,Switzerland Switzerland 1,5264,Loic Berger,1682,Leander Wylenmann,1792,Lukas Gasser,1790,high,2023/results-relay.pdf
+M18,3,OK,SWE,Sweden Sweden 1,5358,Odin Ek,1780,Svante Selin,1695,Ludwig Rosen,1883,high,2023/results-relay.pdf
+M18,4,OK,FRA,France France 1,5401,Antoine Derlot,1758,Arthur Perrin,1832,Anton Wenzel,1811,high,2023/results-relay.pdf
+M18,5,OK,FIN,Finland Finland 1,5479,Florian Fritzen,1772,Jussi Ankelo,1901,Joona Hirvilahti,1806,high,2023/results-relay.pdf
+M18,6,OK,CZE,Czechia Czechia 1,5494,Adam Zridkavesely,1800,Tomas Kucera,1803,Vilem Bednarik,1891,high,2023/results-relay.pdf
+M18,7,OK,SVK,Slovakia Slovakia 1,5495,Filip Bukovac,1902,Filip Jancik,1836,Adam Trepac,1757,high,2023/results-relay.pdf
+M18,8,OK,ESP,Spain Spain 1,5537,Jan Amat Font,1788,Alejandro Garrido Diaz,1884,Bernat Selva Torras,1865,high,2023/results-relay.pdf
+M18,9,OK,EST,Estonia Estonia 1,5545,Chris Marcus Krahv,1759,Ossi Rasmus Priks,1867,Renno Merenakk,1919,high,2023/results-relay.pdf
+M18,10,OK,ITA,Italy Italy 1,5632,Jonas Leo Soelva,1892,Mattia Corona,1850,Paride Gaio,1890,high,2023/results-relay.pdf
+M18,11,OK,GER,Germany Germany 1,5639,Ole Baath,1902,David Saupe,2000,Loic Dequiedt,1737,high,2023/results-relay.pdf
+M18,12,OK,LAT,Latvia Latvia 1,5641,Ritvars Lepeskins,1924,Martins Dzenitis,2001,Edvards Zvirgzdins,1716,high,2023/results-relay.pdf
+M18,13,OK,GBR,Great Britain Great Britain 1,5645,Adam Methven,1843,Adam Barrie,1947,James Hammond,1855,high,2023/results-relay.pdf
+M18,14,OK,POL,Poland Poland 1,5666,Bartlomiej MacIejewski,1894,Tymoteusz Bultrowicz,2008,Jedrzej Pachnik,1764,high,2023/results-relay.pdf
+M18,15,OK,LTU,Lithuania Lithuania 1,5682,Algirdas Dienys,1856,Tadas MacKevicius,2047,Kasparas Murenas,1779,high,2023/results-relay.pdf
+M18,16,OK,UKR,Ukraine Ukraine 1,5880,Faddei Matin,2158,Ivan Drach,1939,Serafim Kovalchuk,1783,high,2023/results-relay.pdf
+M18,17,OK,BEL,Belgium Belgium 1,6040,Louis Bourgeois,1988,Arnaud Mazy,2202,Rune de Clercq,1850,high,2023/results-relay.pdf
+M18,18,OK,TUR,Turkiye Turkiye 1,6194,Altar Ilgaz Tuzcuogullari,1994,Utku Cicek,2176,Huseyin Sahan,2024,high,2023/results-relay.pdf
+M18,19,OK,AUT,Austria Austria 1,6208,Jacopo Stoecher,1990,Elias Monsberger,2018,Maximilian Rass,2200,high,2023/results-relay.pdf
+M18,20,OK,DEN,Denmark Denmark 1,6268,August Gabs,2098,Magnus Lindahl,2125,Johannes Marager,2045,high,2023/results-relay.pdf
+M18,22,OK,ROU,Romania Romania 1,6557,Ioan Iacob,2224,Ervin Vigh,2027,Lucas Tamas,2306,high,2023/results-relay.pdf
+M18,23,OK,BUL,Bulgaria Bulgaria 1,6741,Nikola Karachorov,2209,Velislav Dolchinkov,2366,Lazar Milanov,2166,high,2023/results-relay.pdf
+M18,24,OK,SLO,Slovenia Slovenia 1,7265,Jost Hadalin,2687,Primoz Gantar,2374,Luka Seljak,2204,high,2023/results-relay.pdf
+M18,25,OK,SRB,Serbia Serbia 1,7748,Srdjan Popovic,2560,Janko Zivkov,3055,David Husag,2133,high,2023/results-relay.pdf
+M18,26,OK,IRL,Ireland Ireland 1,8172,Daire O Brien,2518,Joshua Hoare,2793,Oscar Rowe,2861,high,2023/results-relay.pdf
+W18,1,OK,FIN,Finland Finland 1,5442,Virna Pellikka,1794,Elli Punto,1778,Eeva Liina Ojanaho,1870,high,2023/results-relay.pdf
+W18,2,OK,CZE,Czechia Czechia 1,5517,Michaela Novotna,1791,Katerina Stepova,1876,Lea Martanova,1850,high,2023/results-relay.pdf
+W18,3,OK,HUN,Hungary Hungary 1,5814,Bodza Virag Gerzsenyi,2275,Janka Mikes,1855,Rita Maramarosi,1684,high,2023/results-relay.pdf
+W18,4,OK,NOR,Norway Norway 1,6003,Synne Sandven,2051,Anna Taksdal,2057,Ingeborg Roll Mosland,1895,high,2023/results-relay.pdf
+W18,5,OK,SUI,Switzerland Switzerland 1,6022,Sarina Grimm,1868,Elin Neuenschwander,2100,Seline Sannwald,2054,high,2023/results-relay.pdf
+W18,6,OK,SWE,Sweden Sweden 1,6033,Tuva Ostangard,1824,Filippa Hjerne,1991,Tilia Olsson,2218,high,2023/results-relay.pdf
+W18,7,OK,GER,Germany Germany 1,6310,Marlene Fritz,2070,Annika Stamer,2104,Julia Fritz,2136,high,2023/results-relay.pdf
+W18,8,OK,LAT,Latvia Latvia 1,6316,Elize Bremze,2152,Sanda Lapina,1893,Aiga Strazdina,2271,high,2023/results-relay.pdf
+W18,9,OK,FRA,France France 1,6509,Mahaut Zanatta,2297,Alyssia Wymer,2146,Yaelle Malard,2066,high,2023/results-relay.pdf
+W18,10,OK,GBR,Great Britain Great Britain 1,6538,Iris MacMillan,2153,Daisy Rennie,2178,Alice Kemsley,2207,high,2023/results-relay.pdf
+W18,11,OK,ESP,Spain Spain 1,6579,Julia Faure,2233,Guinedell Faja Sanjaume,2089,Lola Gabarro,2257,high,2023/results-relay.pdf
+W18,12,OK,AUT,Austria Austria 1,6591,Camilla Aigmueller,2229,Emily Adenstedt,2167,Theresa Monsberger,2195,high,2023/results-relay.pdf
+W18,14,OK,LTU,Lithuania Lithuania 1,6608,Neda Davidaviciute,1915,Emilija Staisiunaite,2282,Goda Ziaziulyte,2411,high,2023/results-relay.pdf
+W18,16,OK,CRO,Croatia Croatia 1,6763,Dorja Salopek,1918,Dora Delic,2251,Paola Rako,2594,high,2023/results-relay.pdf
+W18,17,OK,SVK,Slovakia Slovakia 1,7002,Rebecca Herna,2208,Tereza Kendrova,2546,Ema Michacova,2248,high,2023/results-relay.pdf
+W18,18,OK,UKR,Ukraine Ukraine 1,7143,Kateryna Kropyvnytska,2412,Svitlana Askerova,2517,Alisa Zemliakova,2214,high,2023/results-relay.pdf
+W18,19,OK,ROU,Romania Romania 1,7205,Alexia Tudorache,2274,Iulia Stupu,2083,Andreea Manu,2848,high,2023/results-relay.pdf
+W18,20,OK,BUL,Bulgaria Bulgaria 1,7255,Niya Onufrieva,2466,Raya Asenova,2302,Ivana Pedeva,2487,high,2023/results-relay.pdf
+W18,21,OK,EST,Estonia Estonia 1,7359,Maria Eller,2279,Harriet Koppel,2054,Marta Joonas,3026,high,2023/results-relay.pdf
+W18,22,OK,MDA,"Moldova, Republic of Moldova, Republic of 1",7714,Zlata Savinova,2281,Victoria Nosenco,2152,Sofia Cemirtan,3281,high,2023/results-relay.pdf
+W18,23,OK,POL,Poland Poland 1,7716,Antonina Mianowska,2446,Malgorzata Porzycz,2493,Jowita Pudelek,2777,high,2023/results-relay.pdf
+W18,24,OK,TUR,Turkiye Turkiye 1,7722,Aysa Asya Tuzcuogullari,2342,Buse Acil,2590,Azra Coskun,2790,high,2023/results-relay.pdf
+W18,25,OK,POR,Portugal Portugal 1,8023,Joana Canana,2312,Alexandra Serra Campos,2705,Leonor Ferreira,3006,high,2023/results-relay.pdf
+W18,26,OK,SRB,Serbia Serbia 1,9228,Robin Nikolic,3257,Sofija Janjic,2775,Sofija Nikolic,3196,high,2023/results-relay.pdf

@@ -1,0 +1,93 @@
+class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
+M16,1,OK,FRA,France,5022,Guilhem Haberkorn,1836,Pierre Erbland,1556,Guilhem Elias,1630,high,2015/results-relay.pdf
+M16,2,OK,AUT,Austria,5123,Clemens Wolfram,1592,Georg Groll,1675,Jannis Bonek,1856,high,2015/results-relay.pdf
+M16,3,OK,EST,Estonia,5190,Karel-Sander Kljuzin,1713,Andres Room,1691,Kaarel Vesilind,1786,high,2015/results-relay.pdf
+M16,4,OK,HUN,Hungary,5291,Csongor Horvath,1930,Barnabas Kovacs,1771,Mihaly Ormay,1590,high,2015/results-relay.pdf
+M16,5,OK,DEN,Denmark,5300,Rasmus Krogh Madsen,1599,Lasse Falck Weber,1958,Malte Kjær Hemmingsen,1743,high,2015/results-relay.pdf
+M16,6,OK,RUS,Russia,5390,Igor Linkevich,1661,Anton Lukashevic,1859,Sergei Mizonov,1870,high,2015/results-relay.pdf
+M16,7,OK,CZE,Czech Republic,5491,Jonas Fencl,1890,Ondrej Hlavac,1788,Tomas Krivda,1813,high,2015/results-relay.pdf
+M16,8,OK,SUI,Switzerland,5533,Chamuel Zbinden,1722,Siro Corsi,2331,Nicola Muller,1480,high,2015/results-relay.pdf
+M16,9,OK,GER,Germany,5585,Riccardo Casanova,1832,Henning Kapischke,1870,Franz Gawlitza,1883,high,2015/results-relay.pdf
+M16,10,OK,POL,Poland,5678,Michal Krzysztynski,1835,Michal Pierzchala,2020,Kacper Kuca,1823,high,2015/results-relay.pdf
+M16,11,OK,FIN,Finland,5750,Topias Niemi,2058,Daniel Koivisto,1997,Aaro Aho,1695,high,2015/results-relay.pdf
+M16,12,OK,LTU,Lithuania,5758,Romas Bazelis,1933,Algirdas Dauksys,1869,Pranas Germanavicius,1956,high,2015/results-relay.pdf
+M16,13,OK,UKR,Ukraine,5776,Nikita Anopko,1847,Yurii Serdiuk,1759,Dmytro Kutsan,2170,high,2015/results-relay.pdf
+M16,14,OK,ESP,Spain,6001,Raul Sanjuan Juan,2065,Juan Cornejo Garcia,2002,Jorge Caranca Valente Barrer,1934,high,2015/results-relay.pdf
+M16,15,OK,ROU,Romania,6125,Attila Szocs,1789,Peter Knobloch Esztergar,1719,Lorand Vigh,2617,high,2015/results-relay.pdf
+M16,16,OK,LAT,Latvia,6141,Ilgvars Caune,2178,Fricis Spektors,1918,Kristaps Bruners,2045,high,2015/results-relay.pdf
+M16,17,OK,BUL,Bulgaria,6156,Boyan Ivandjikov,1620,Martin Manov,2355,Valentin Neykov,2181,high,2015/results-relay.pdf
+M16,18,OK,TUR,Turkey,6921,Samet Kossek,3034,Ismail Kilinc,2054,Talha Gunday,1833,high,2015/results-relay.pdf
+M16,19,OK,ISR,Israel,7000,Eilam Berzak,2103,Alon Kahana,2150,Omer Kachal,2747,high,2015/results-relay.pdf
+M16,20,OK,MDA,Moldova,7024,Vladimir Cabis,2297,Ilia Burdeinîi,2347,Maxim Strîmbanu,2380,high,2015/results-relay.pdf
+M16,21,OK,SVK,Slovakia,7406,Jakub Dekrét,1721,Feder Medard,2799,Andrej Dubovsky,2886,high,2015/results-relay.pdf
+M18,1,OK,SWE,Sweden,5537,Jesper Svensk,1766,Anton Forsberg,1866,Isac von Krusenstierna,1905,high,2015/results-relay.pdf
+M18,2,OK,SUI,Switzerland,5653,Florian Attinger,1847,Andrin Grundler,1905,Pascal Buchs,1901,high,2015/results-relay.pdf
+M18,3,OK,FIN,Finland,5738,Eero Heinonen,1970,Topi Syrjalainen,1927,Olli Ojanaho,1841,high,2015/results-relay.pdf
+M18,4,OK,HUN,Hungary,5745,Mate Dalos,1793,Marton Zacher,1829,Matyas Meszaros,2123,high,2015/results-relay.pdf
+M18,5,OK,RUS,Russia,5833,Kirill Komarov,2019,Nikita Gurevich,1912,Mikhai Kuleshov,1902,high,2015/results-relay.pdf
+M18,6,OK,NOR,Norway,5880,Vegard Guldbrandsen,1936,Eirik Langedal Breivik,1925,Hakon Raadal Bjorlo,2019,high,2015/results-relay.pdf
+M18,7,OK,AUT,Austria,6018,Rafael Dobnik,1755,Dominik Jandl,1975,Florian Kurz,2288,high,2015/results-relay.pdf
+M18,8,OK,CZE,Czech Republic,6341,Otakar Hirs,1985,Daniel Vandas,2203,Vojtech Sykora,2153,high,2015/results-relay.pdf
+M18,9,OK,FRA,France,6449,Benjamin Leduc,1949,Martin Mathis,2478,Mathieu Perrin,2022,high,2015/results-relay.pdf
+M18,10,OK,GBR,United Kingdom,6683,Andrew Barr,2111,Thomas Wilson,2064,Harrison McCartney,2508,high,2015/results-relay.pdf
+M18,11,OK,POL,Poland,6745,Szymon Sosenko,2199,Fryderyk Pryjma,1973,Marcin Biederman,2573,high,2015/results-relay.pdf
+M18,12,OK,LAT,Latvia,6922,Endijs Titomers,1966,Edgars Ustinovs,2489,Uldis Upitis,2467,high,2015/results-relay.pdf
+M18,13,OK,ESP,Spain,6959,Jorge Gracia Ochotorena,2240,Jesus Rodriguez Corrocha,2148,Luis Milvaques Casado,2571,high,2015/results-relay.pdf
+M18,14,OK,LTU,Lithuania,7023,Rokas Lipnickas,2225,Simonas Tamosaitis,2185,Jonas Kuke,2613,high,2015/results-relay.pdf
+M18,15,OK,GER,Germany,7037,Colin Kolbe,2590,Lukas Janischwosky,2454,Veit Slodowski,1993,high,2015/results-relay.pdf
+M18,16,OK,MDA,Moldova,7186,Dumitru Donici,2059,Anatolii Fomicio,1921,Veaceslav Burdiuja,3206,high,2015/results-relay.pdf
+M18,17,OK,ROU,Romania,7194,Peter Divin,1938,Mihai Tintar,2863,Emilian Minoiu George,2393,high,2015/results-relay.pdf
+M18,18,OK,POR,Portugal,7316,Ricardo Ferreira,2652,Joao Bernardino,2397,Joao Novo,2267,high,2015/results-relay.pdf
+M18,19,OK,ITA,Italy,7317,Andrea Melioli,2514,Fabio Brunet,2336,Tait Samuele,2467,high,2015/results-relay.pdf
+M18,20,OK,UKR,Ukraine,7407,Vyacheslav Matyash,3056,Taras Rachuk,2210,Stanislav Polianyatsia,2141,high,2015/results-relay.pdf
+M18,21,OK,BUL,Bulgaria,7411,Stefan Yordanov,2064,Valentin Shishkov,2830,Martin Penchev,2517,high,2015/results-relay.pdf
+M18,22,OK,EST,Estonia,8583,Lauri Pahn,2588,Tomi-Andre Piirmets,2592,Oliver Kutt,3403,high,2015/results-relay.pdf
+M18,23,OK,ISR,Israel,8584,Carmel Satt,2297,Nadav Geossar,2596,Ido Bahat,3691,high,2015/results-relay.pdf
+M18,24,OK,TUR,Turkey,8823,Faruk Akinci,2866,Emirhan Kulahsiz,3104,Ibrahim Dilek,2853,high,2015/results-relay.pdf
+M18,25,OK,IRL,Ireland,9526,Conall Whelan,3127,Zach Harrington,3064,Robert Pim,3335,high,2015/results-relay.pdf
+M18,26,OK,BEL,Belgium,9607,Wout Keupens,2217,Klaas Mellebeek,3775,Simon Krekels,3615,high,2015/results-relay.pdf
+M18,27,OK,SLO,Slovenia,11324,Simon Stanonik,2823,Mark Bogataj,3048,Zan Ravnikar,5453,high,2015/results-relay.pdf
+W16,1,OK,CZE,Czech Republic,4264,Barbora Chaloupska,1428,Sarka Ruckerova,1534,Tereza Janosikova,1302,high,2015/results-relay.pdf
+W16,2,OK,DEN,Denmark,4386,Agnes Norgard Kracht,1442,Annika Gautschi Simonsen,1605,Ida Obro,1339,high,2015/results-relay.pdf
+W16,3,OK,HUN,Hungary,4511,Reka Dalida Pataki,1590,Dora Csilla Gardonyi,1434,Hanga Szuromi,1487,high,2015/results-relay.pdf
+W16,4,OK,AUT,Austria,4676,Ylvi Kastner,1603,Tina Tiefenbock,1584,Jasmina Gassner,1489,high,2015/results-relay.pdf
+W16,5,OK,BUL,Bulgaria,4798,Yasna Petrova,1602,Borislava Mitkova,1596,Andreya Dyaksova,1600,high,2015/results-relay.pdf
+W16,6,OK,RUS,Russia,4927,Olga Vasileva,1588,Anastasiya Grigoreva,1576,Irina Lazareva,1763,high,2015/results-relay.pdf
+W16,7,OK,SUI,Switzerland,5029,Elena Pezzati,2074,Siri Suter,1610,Eliane Deininger,1345,high,2015/results-relay.pdf
+W16,8,OK,FIN,Finland,5038,Leenukka Hanhijarvi,1558,Henna Pylvanainen,1711,Inka Nurminen,1769,high,2015/results-relay.pdf
+W16,9,OK,FRA,France,5089,Marine Dudoignon,1683,Zoe Villar,1653,Alina Palcau,1753,high,2015/results-relay.pdf
+W16,10,OK,POL,Poland,5447,Kinga Krolik,1403,Adrianna Biederman,1611,Zuzanna Morawska,2433,high,2015/results-relay.pdf
+W16,11,OK,LAT,Latvia,5514,Vilma Alberinga,1770,Magda Cigle,1916,Laura Eliza Lapina,1828,high,2015/results-relay.pdf
+W16,12,OK,SVK,Slovakia,5664,Tereza Smelikova,1592,Magdalena Hrabosova,1839,Tereza Miklusova,2233,high,2015/results-relay.pdf
+W16,13,OK,LTU,Lithuania,5732,Aurelija Valciukaite,2255,Judita Traubaite,1862,Rugile Duliute,1615,high,2015/results-relay.pdf
+W16,14,OK,UKR,Ukraine,6062,Polina Kotliar,1780,Mariia Hoienko,1819,Kateryna Papusha,2463,high,2015/results-relay.pdf
+W16,15,OK,ROU,Romania,6121,Denisa Tamas,1822,Adela Galateanu,2220,Timea Virag,2079,high,2015/results-relay.pdf
+W16,16,OK,GER,Germany,6337,Ann-Charlotte Spangenberg,1583,Hannah Hansel,2883,Ellen Kluser,1871,high,2015/results-relay.pdf
+W16,17,OK,EST,Estonia,6348,Kristel Koivo,1831,Teele Telgma,2276,Marie Anna Blehner,2241,high,2015/results-relay.pdf
+W16,18,OK,BEL,Belgium,6583,Ems Desmul,2241,Hannah Thiels,1907,Lucie Arno,2435,high,2015/results-relay.pdf
+W16,19,OK,TUR,Turkey,7432,Zeynep Ocak,1682,Ozge Bozca,2038,Betul Esner,3712,high,2015/results-relay.pdf
+W16,20,OK,MDA,Moldova,9360,Iana Buga,2437,Dana Bujor,3588,Anastasia Corostîliova,3335,high,2015/results-relay.pdf
+W18,1,OK,CZE,Czech Republic,5912,Klara Novotna,2134,Barbora Vyhnalkova,1955,Tereza Cechova,1823,high,2015/results-relay.pdf
+W18,2,OK,NOR,Norway,5956,Dorte Narum,2099,Malin Sandstad,2059,Ingrid Lundanes,1798,high,2015/results-relay.pdf
+W18,3,OK,FIN,Finland,5969,Emilia Stahlberg,2142,Veera Klemettinen,1883,Amy Nymalm,1944,high,2015/results-relay.pdf
+W18,4,OK,SUI,Switzerland,6165,Marcia Murner,1867,Deborah Stadler,2437,Valerie Aebische,1861,high,2015/results-relay.pdf
+W18,5,OK,SWE,Sweden,6175,Hanna Hugosson,1763,Tove Ronnback,1737,Amanda Berggren,2675,high,2015/results-relay.pdf
+W18,6,OK,RUS,Russia,6247,Anna Chestova,1990,Zlata Malysheva,2029,Anastasia Godunova,2228,high,2015/results-relay.pdf
+W18,7,OK,POL,Poland,6258,Maria Gorczyca,2023,Barbara Wzietek,2283,Zuzanna Wanczyk,1952,high,2015/results-relay.pdf
+W18,8,OK,DEN,Denmark,6427,Caroline Finderup Jensen,2380,Nikoline Holm Splittorff,1943,Astrid Pedersen Maag,2104,high,2015/results-relay.pdf
+W18,9,OK,EST,Estonia,6574,Emily Raudkepp,2011,Marie Tammemae,2179,Kristin Viikmaa,2384,high,2015/results-relay.pdf
+W18,10,OK,GER,Germany,6643,Mareike Seeger,2162,Patricia Siegert,2556,Dorothea Muller,1925,high,2015/results-relay.pdf
+W18,11,OK,LTU,Lithuania,6695,Deimante Motiejunaite,2761,Viktorija Gedgaudaite,1964,Agne Juodagalvyte,1970,high,2015/results-relay.pdf
+W18,12,OK,HUN,Hungary,6788,Anna Fesus Evelin,2120,Borbala Kezdy,2621,Csenge Viniczai,2047,high,2015/results-relay.pdf
+W18,13,OK,AUT,Austria,6803,Johanna Trummer,2108,Hannah Kalcher,2136,Antonia Erhart,2559,high,2015/results-relay.pdf
+W18,14,OK,FRA,France,6950,Chloe Dudoignon,2126,Marie Vuitton,2195,Florence Hanauer,2629,high,2015/results-relay.pdf
+W18,15,OK,ROU,Romania,7023,Agnes Neda,1984,Roxana Culcean,2185,Daiana Habina,2854,high,2015/results-relay.pdf
+W18,16,OK,LAT,Latvia,7174,Elizabete Blumentale,1994,Signe Sirma,2320,Anna Freimane,2860,high,2015/results-relay.pdf
+W18,17,OK,IRL,Ireland,7637,Caoimhe O'Boyle,1964,Meabh Perkins,2688,Emer Perkins,2985,high,2015/results-relay.pdf
+W18,18,OK,ITA,Italy,7640,Anna Giovanelli,2018,Alessandra Minati,2618,Alice Selem,3004,high,2015/results-relay.pdf
+W18,19,OK,SVK,Slovakia,7656,Andrea Papugova,2128,Antonia Sofrankova,2850,Lucia Matejickova,2678,high,2015/results-relay.pdf
+W18,20,OK,TUR,Turkey,7713,Elif Gokce Avci,2094,Humeyara Altinisik,2836,Beyza Yildirim,2783,high,2015/results-relay.pdf
+W18,21,OK,GBR,United Kingdom,7806,Pippa Dakin,2896,Fay Walsh,2677,Alice Rigby,2233,high,2015/results-relay.pdf
+W18,22,OK,POR,Portugal,8150,Beatriz Moreira,2738,Beatriz Sanguino,2496,Helena Lima,2916,high,2015/results-relay.pdf
+W18,23,OK,SLO,Slovenia,8583,Lara Gantar,2202,Monika Ravnikar,3025,Ursa Begus,3356,high,2015/results-relay.pdf
+W18,24,OK,UKR,Ukraine,9889,Tetiana Androsova,2190,Olena Vorchylo,3751,Anzhela Tkachenk,3948,high,2015/results-relay.pdf

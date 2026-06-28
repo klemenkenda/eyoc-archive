@@ -1,0 +1,100 @@
+class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
+M16,1,OK,FRA,France,5483,Vuitton Julien,1832,Andrieux Quentin,1848,Becaert Antoine,1803,high,2017/results-relay.pdf
+M16,2,OK,HUN,Hungary,5521,Szabo Marcell,1784,Bujdoso Zoltan,1881,Jonas Ferenc,1856,high,2017/results-relay.pdf
+M16,3,OK,CZE,Czech Republic,5622,Ondrej Metelka,1832,Tomas Janovsky,2086,Jan Gajda,1704,high,2017/results-relay.pdf
+M16,4,OK,GER,Germany,5757,Anton Silier,1785,Martin Scheuermann,1940,Matti Bruns,2032,high,2017/results-relay.pdf
+M16,5,OK,DEN,Denmark,5786,Soren Thrane Odum,1779,Anton Werner Lohndo,2035,Morten Örnhagen Jor,1972,high,2017/results-relay.pdf
+M16,6,OK,SUI,Switzerland,5940,Sven Wey,2032,Janis Hutzli,1933,Manuele Ren,1975,high,2017/results-relay.pdf
+M16,7,OK,ESP,Spain,6068,Florencio Garcia Go,1994,Gustav Wiren Gonzal,2039,Alvaro Garcia Berna,2035,high,2017/results-relay.pdf
+M16,8,OK,BUL,Bulgaria,6088,Mihail Mihaylov,2034,Martin Yordanov,2141,Valentin Neykov,1913,high,2017/results-relay.pdf
+M16,9,OK,RUS,Russian Federation,6156,Stepanov Dmitrii,2061,Sorokin Daniil,2347,Fomin Daniil,1748,high,2017/results-relay.pdf
+M16,10,OK,LAT,Latvia,6297,Davis Solmanis,2074,Ralfs Janis Eizvert,2105,Pauls Alberings,2118,high,2017/results-relay.pdf
+M16,11,OK,AUT,Austria,6427,Wolfram Jakob,1805,Jandl Florian,2371,Novak Lukas,2251,high,2017/results-relay.pdf
+M16,12,OK,SVK,Slovakia,6432,Michal Kurak,2223,Daniel Pompura,2076,Medard Feder,2133,high,2017/results-relay.pdf
+M16,13,OK,BEL,Belgium,6518,Arno Simon,2063,Amerijckx Cedric,2265,Thiels Liam,2190,high,2017/results-relay.pdf
+M16,14,OK,POL,Poland,6788,Michal Pierzchala,1982,Bruno Deredos,2417,Krystian Petersburs,2389,high,2017/results-relay.pdf
+M16,15,OK,POR,Portugal,6857,Tomas Alves Lima,1833,Vasco Amorim Ramos,2328,Tiago Filipe Marant,2696,high,2017/results-relay.pdf
+M16,16,OK,ISR,Israel,6878,Rotem Yasur,2222,Sela Zamir,2319,Alon Zorea,2337,high,2017/results-relay.pdf
+M16,17,OK,EST,Estonia,7106,Ragnar Rooba,2099,Sander Pritsik,2459,Hando Allmann,2548,high,2017/results-relay.pdf
+M16,18,OK,ROU,ROM,7699,Catana Alexandru,3151,Szikszai Csongor,2142,Vigh Lorand,2406,high,2017/results-relay.pdf
+M16,19,OK,ITA,Italy,7957,Bettega Damiano,2407,Loss Nicolas,3082,Mariani Francesco,2468,high,2017/results-relay.pdf
+M16,20,OK,UKR,Ukraine,8012,Griaziev Bohdan,3686,Teremetskyi Tymofii,2268,Piddubnyi Mykhailo,2058,high,2017/results-relay.pdf
+M16,21,OK,TUR,Turkey,8464,Ahmet Yasin Temel,2426,Hami Emircan Aydin,2947,Mustafa Ali Turkmen,3091,high,2017/results-relay.pdf
+M16,,DNF,FIN,Finland,,Touko Seppa,1782,Topias Arola,1886,Leo Matinheikki,,high,2017/results-relay.pdf
+M16,,DNF,LTU,Lithuania,,Barauskas Rokas,,Kausakys Dovydas,2582,Augusts Velde,2309,high,2017/results-relay.pdf
+M18,1,OK,FRA,France,6345,Vergnaud Alexandre,2130,Erbland Pierre,2075,Elias Guilhem,2140,high,2017/results-relay.pdf
+M18,2,OK,LAT,Latvia,6383,Ilgvars Caune,2199,Rihards Krumins,2047,Fricis Spektors,2137,high,2017/results-relay.pdf
+M18,3,OK,SVK,Slovakia,6606,Tobias Goldschmidt,2473,Jakub Chupek,2151,Jakub Dekret,1982,high,2017/results-relay.pdf
+M18,4,OK,FIN,Finland,6634,Teemu Oksanen,2183,Aaro Aho,2373,Mikko Eerola,2078,high,2017/results-relay.pdf
+M18,5,OK,RUS,Russian Federation,6635,Kudriavtcev Nikolai,2071,Petrov Semen,2163,Lukashevich Anton,2401,high,2017/results-relay.pdf
+M18,6,OK,AUT,Austria,6964,Holper Leo,2562,Groell Georg,2212,Bonek Jannis,2190,high,2017/results-relay.pdf
+M18,7,OK,NOR,Norway,6975,Erling Hjermstad,2210,Sander Arntzen,2492,Lukas Liland,2273,high,2017/results-relay.pdf
+M18,8,OK,GBR,Great Britain,6977,Finlay Todd,2390,Alastair Thomas,2318,Freddy Carcas,2269,high,2017/results-relay.pdf
+M18,9,OK,DEN,Denmark,6997,Mikkel Holm Nielsen,2297,Mads Skaug,2408,Malte Kjaer Hemming,2292,high,2017/results-relay.pdf
+M18,10,OK,HUN,Hungary,7215,Horvath Csongor,2283,Kalman Erik,2737,Ormay Mihaly,2195,high,2017/results-relay.pdf
+M18,11,OK,UKR,Ukraine,7570,Serdiuk Yurii,2557,Samoilenko Kostiant,2603,Zviahin Mykyta,2410,high,2017/results-relay.pdf
+M18,12,OK,GER,Germany,7734,Hendrik Holzhauer,2588,Kilian Hock,2604,Franz Gawlitza,2542,high,2017/results-relay.pdf
+M18,13,OK,LTU,Lithuania,7742,Germanavicius Prana,2489,Dauksys Algirdas,2851,Bazelis Romas,2402,high,2017/results-relay.pdf
+M18,14,OK,BUL,Bulgaria,8138,Plamen Georgiev,2924,Boyan Ivandzhikov,2560,Petar Borisov,2654,high,2017/results-relay.pdf
+M18,15,OK,POL,Poland,8176,Mikolaj Krawczynski,2239,Piotr Rzenca,3219,Kacper Kuca,2718,high,2017/results-relay.pdf
+M18,16,OK,ESP,Spain,8422,Alvaro Casado Gomez,2298,Jorge Caraca-Valent,3287,Pedro Stangegaard P,2837,high,2017/results-relay.pdf
+M18,17,OK,SLO,Slovenia,8476,Äan Ravnikar,2449,Matic Blaz,2631,Tjaz Gantar,3396,high,2017/results-relay.pdf
+M18,18,OK,ISR,Israel,8650,Eilam Berzak,2851,Omer Kachal,2757,Amir Zur,3042,high,2017/results-relay.pdf
+M18,19,OK,BLR,Belarus,9364,Daniil Chuikin,3065,Hleb Seuruk,3230,Uladzislau Viarynsk,3069,high,2017/results-relay.pdf
+M18,20,OK,ROU,ROM,10640,Biro Alexandru,3626,Kentelki Marton,3831,Szocs Attila,3183,high,2017/results-relay.pdf
+M18,,OK,POR,Portugal,10914,Andre da Silva Nune,2725,Tiago Pintor Figuei,3938,Pedro Lin Goncalves,4251,high,2017/results-relay.pdf
+M18,,OK,SRB,Serbia,11914,Olga Stanojevic,3569,Lenka Ciric,4427,Dusan Markovic,3918,high,2017/results-relay.pdf
+M18,,DNF,CZE,Czech Republic,,Jachym Kavalir,,Jan Rusin,2321,Jonas Fencl,2209,high,2017/results-relay.pdf
+M18,,DNF,SWE,Sweden,,Erik Herne,2162,Gustav Runefors,,Oscar Johansson,2421,high,2017/results-relay.pdf
+M18,,DNF,EST,Estonia,,Andres Room,,Alex Treier,3183,Kaarel Vesilind,2360,high,2017/results-relay.pdf
+M18,,DNF,ITA,Italy,,Patscheider Lukas,,Schluchter Julian,3098,Mannocci Enrico,2937,high,2017/results-relay.pdf
+M18,,DNF,TUR,Turkey,,Sahin Demir,3063,Samet Kossek,2674,Kadir Can Cakan,,high,2017/results-relay.pdf
+M18,,DNF,BEL,Belgium,,van Lommel Jens,3239,Crefcoeur Lievin,3271,Eyen Guillaume,,high,2017/results-relay.pdf
+M18,,DNF,SUI,Switzerland,,Fabian Aebersold,2072,Reto Egger,2263,Chamuel Zbinden,,high,2017/results-relay.pdf
+W16,1,OK,FIN,Finland,5576,Maria Maattanen,1766,Melina Lahdenpera,1895,Elisa Mattila,1915,high,2017/results-relay.pdf
+W16,2,OK,HUN,Hungary,5715,Czako Boglarka,2002,Kishanti Petra,1945,Gardonyi Csilla,1768,high,2017/results-relay.pdf
+W16,3,OK,CZE,Czech Republic,5814,Katerina Dolejsi,1923,Tereza Chrastova,2064,Anna Kochova,1827,high,2017/results-relay.pdf
+W16,4,OK,DEN,Denmark,5823,Hedvig Valbjorn Gyd,1886,Nanna Lysemose Poul,2157,Alberte Kaae-Nielse,1780,high,2017/results-relay.pdf
+W16,5,OK,SUI,Switzerland,5842,Annick Meister,1948,Sarina Zullig,2024,Nora Aegler,1870,high,2017/results-relay.pdf
+W16,6,OK,RUS,Russian Federation,5850,Klementyeva Anna,2012,Lazareva Aleksandra,1931,Riazanova Olesia,1907,high,2017/results-relay.pdf
+W16,7,OK,BUL,Bulgaria,5872,Yasna Petrova,1827,Evangelina Dyaksova,2040,Niya Georgieva,2005,high,2017/results-relay.pdf
+W16,8,OK,FRA,France,6101,Lesquer Romane,2317,Toussaint Perrine,1950,Lataste Lucie,1834,high,2017/results-relay.pdf
+W16,9,OK,POL,Poland,6699,Block Amelia,2346,Julia Krempinska,2198,Agnieszka Mazurek,2155,high,2017/results-relay.pdf
+W16,10,OK,SVK,Slovakia,6926,Dorota Smelikova,2259,Lubka Weissova,2490,Tamara Miklusova,2177,high,2017/results-relay.pdf
+W16,11,OK,AUT,Austria,6986,Maier Marie,2718,Zeiner Dora,2420,Kastner Maya,1848,high,2017/results-relay.pdf
+W16,12,OK,UKR,Ukraine,7000,Trokhymchuk Yuliia,2554,Myroniuk Alina,2294,Tsyvilska Feia,2152,high,2017/results-relay.pdf
+W16,13,OK,GER,Germany,7029,Katrin Hertel,1912,Ines Schikora,2436,Lina Buchberger,2681,high,2017/results-relay.pdf
+W16,14,OK,ITA,Italy,8051,Pradel Anna,2141,Chiusole Vera,2142,Scalzotto Annarita,3768,high,2017/results-relay.pdf
+W16,15,OK,EST,Estonia,8248,Johanna Laanoja,2764,Siiri Talts,2643,Lorely Korvel,2841,high,2017/results-relay.pdf
+W16,16,OK,LTU,Lithuania,9163,Skaisgiryte Auste,3140,Skaisgiryte Juste,3374,Liegute Ugne,2649,high,2017/results-relay.pdf
+W16,17,OK,IRL,Ireland,9934,Cliodhna Donaghy,3283,Rachel Collins,3398,Aoife O'Sullivan,3253,high,2017/results-relay.pdf
+W16,18,OK,ROU,ROM,10103,Ghit Denisa,3960,Divin Judit,3028,Teca Alina,3115,high,2017/results-relay.pdf
+W16,,OK,TUR,Turkey,11765,Melisa Altinci,3696,Tuana Bozkurt,3479,Emine Icyer,4590,high,2017/results-relay.pdf
+W16,,DNF,LAT,Latvia,,Aija Denija Trezina,2474,Kristine Brunere,1987,Agnija Caune,,high,2017/results-relay.pdf
+W16,,DNF,ESP,Spain,,Nerea Gonzalez Pena,,Lucia Misas Bernard,2616,Ana Defez Cernichar,2376,high,2017/results-relay.pdf
+W18,1,OK,SUI,Switzerland,6255,Siri Suter,2140,Elena Pezzati,2079,Eliane Deininger,2036,high,2017/results-relay.pdf
+W18,2,OK,AUT,Austria,6616,Kastner Ylvi,2047,Tiefenboeck Tina,2180,Gassner Jasmina,2389,high,2017/results-relay.pdf
+W18,3,OK,SWE,Sweden,6621,Johanna Kallvik Leu,2195,Jenny Wegebro,2324,Isa Envall,2102,high,2017/results-relay.pdf
+W18,4,OK,FIN,Finland,6629,Inka Nurminen,2056,Lotta Eerola,2395,Anu Tuomisto,2178,high,2017/results-relay.pdf
+W18,5,OK,HUN,Hungary,6739,Vekony Vanda,2292,Szuromi Hanga,2274,Sarkozy Zsofia,2173,high,2017/results-relay.pdf
+W18,6,OK,CZE,Czech Republic,6747,Eliska Sieglova,2233,Marketa Firesova,2246,Jana Peterova,2268,high,2017/results-relay.pdf
+W18,7,OK,BUL,Bulgaria,6838,Mariya Dermendzhiev,2054,Borislava Mitkova,2505,Andreya Dyaksova,2279,high,2017/results-relay.pdf
+W18,8,OK,RUS,Russian Federation,6988,Romanova Anastasi,2132,Smirnova Kristina,2421,Lazareva Irina,2435,high,2017/results-relay.pdf
+W18,9,OK,GBR,Great Britain,7101,Grace Molloy,2505,Laura King,2218,Lucy Haines,2378,high,2017/results-relay.pdf
+W18,10,OK,POL,Poland,7103,Agnieszka Cych,2359,Adrianna Biederman,2707,Zuzanna Morawska,2037,high,2017/results-relay.pdf
+W18,11,OK,LTU,Lithuania,7315,Traubaite Judita,2169,Susinskaite Migle,2302,Stanciute Kotryna,2844,high,2017/results-relay.pdf
+W18,12,OK,NOR,Norway,7636,Hanne Vassend,2189,Ragnhild Eide,2049,Synne Strand,3398,high,2017/results-relay.pdf
+W18,13,OK,ESP,Spain,7670,Inmaculada Crespo G,2318,Anna Illa Camps,2272,Ines Pozo Prada,3080,high,2017/results-relay.pdf
+W18,15,OK,BEL,Belgium,7714,Thiels Hannah,2398,de Smul Ems,2456,Sillien Marine,2860,high,2017/results-relay.pdf
+W18,16,OK,ROU,ROM,7757,Galateanu Daria,2384,Galateanu Adela,2448,Virag Timea,2925,high,2017/results-relay.pdf
+W18,17,OK,LAT,Latvia,7775,Signe Sirma,2513,Eliza Ozola,2812,Vilma Alberinga,2450,high,2017/results-relay.pdf
+W18,18,OK,FRA,France,7840,Chatelain Eloise,3283,Palcau Alina,2034,Villar Zoe,2523,high,2017/results-relay.pdf
+W18,19,OK,EST,Estonia,8217,Kristel Koivo,2682,Teele Telgma,2286,Marie Anna Blehner,3249,high,2017/results-relay.pdf
+W18,20,OK,SVK,Slovakia,8235,Tereza Miklusova,2301,Magdalena Hrabosova,3252,Tereza Smelikova,2682,high,2017/results-relay.pdf
+W18,21,OK,UKR,Ukraine,8659,Zapisochna Dariia,2789,Hoienko Mariia,3060,Kobets Svitlana,2810,high,2017/results-relay.pdf
+W18,22,OK,SLO,Slovenia,8730,Polona Jezersek,2618,Nika Poljansek,2925,Zala Zavrl,3187,high,2017/results-relay.pdf
+W18,23,OK,GER,Germany,8990,Hannah Hansel,2529,Charlotte Leonhardt,3182,Jasmin Hertel,3279,high,2017/results-relay.pdf
+W18,24,OK,POR,Portugal,10518,Joana Filipa Rocha,3051,Helena Alves Lima,3814,Ana Goncalves Pache,3653,high,2017/results-relay.pdf
+W18,25,OK,BLR,Belarus,10584,Karyna Shpakouskaya,3323,Yana Volkava,3743,Karyna Krauchanka,3518,high,2017/results-relay.pdf
+W18,,OK,IRL,Ireland,11013,Emer Perkins,3236,Clodagh Moran,4505,Eadaoin McCavana,3272,high,2017/results-relay.pdf
+W18,,DNF,TUR,Turkey,,Ozge Bozca,3650,Sumeyra Gokcul,,Hilal Arslan,,high,2017/results-relay.pdf

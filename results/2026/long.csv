@@ -1,0 +1,398 @@
+class,rank,status,bib,country,name,time_seconds,confidence,source_file
+M18,1,OK,800,CZE,Martin Bulicka,3211,high,2026/02-long-results-eventor.xml
+M18,2,OK,760,CZE,Matous Skripnik,3370,high,2026/02-long-results-eventor.xml
+M18,3,OK,764,GER,Julian Doetsch,3551,high,2026/02-long-results-eventor.xml
+M18,4,OK,758,FRA,Emmanuel Pradeau,3612,high,2026/02-long-results-eventor.xml
+M18,5,OK,795,TUR,Poyraz Vural,3659,high,2026/02-long-results-eventor.xml
+M18,6,OK,724,SUI,Taavi Caboussat,3713,high,2026/02-long-results-eventor.xml
+M18,7,OK,797,FRA,Titouan Andrieux,3717,high,2026/02-long-results-eventor.xml
+M18,8,OK,772,SWE,Olof Tholen,3726,high,2026/02-long-results-eventor.xml
+M18,9,OK,729,SUI,Manuel Gasser,3729,high,2026/02-long-results-eventor.xml
+M18,10,OK,745,GER,Rasmus Viertel,3755,high,2026/02-long-results-eventor.xml
+M18,11,OK,808,NOR,Sondre Prytz Hafskjold,3765,high,2026/02-long-results-eventor.xml
+M18,12,OK,786,GER,Daniel Schmidt,3774,high,2026/02-long-results-eventor.xml
+M18,13,OK,798,LAT,Gustavs Locmelis,3779,high,2026/02-long-results-eventor.xml
+M18,14,OK,753,SWE,Alvin Lundgren,3818,high,2026/02-long-results-eventor.xml
+M18,15,OK,770,FIN,Joakim Savinainen,3822,high,2026/02-long-results-eventor.xml
+M18,16,OK,741,CZE,Matej Cecka,3905,high,2026/02-long-results-eventor.xml
+M18,17,OK,704,CZE,Matej Sebelka,3923,high,2026/02-long-results-eventor.xml
+M18,18,OK,802,FIN,Veeti Viippola,3933,high,2026/02-long-results-eventor.xml
+M18,19,OK,766,IRL,Aidan McKenna,3937,high,2026/02-long-results-eventor.xml
+M18,20,OK,728,FIN,Vilho Hietala,3940,high,2026/02-long-results-eventor.xml
+M18,21,OK,734,UKR,Vladyslav Zhukovskyi,4003,high,2026/02-long-results-eventor.xml
+M18,22,OK,783,POL,Piotr Motala,4037,high,2026/02-long-results-eventor.xml
+M18,23,OK,711,NOR,Ludvig Langoeygard,4042,high,2026/02-long-results-eventor.xml
+M18,24,OK,757,NOR,Jonas Alstad,4055,high,2026/02-long-results-eventor.xml
+M18,25,OK,727,DEN,Eskild Stig Nielsen,4084,high,2026/02-long-results-eventor.xml
+M18,26,OK,761,SUI,Janis Gwerder,4088,high,2026/02-long-results-eventor.xml
+M18,27,OK,733,HUN,Bela Barnabas Sugta,4097,high,2026/02-long-results-eventor.xml
+M18,28,OK,768,EST,Villem Piirimae,4109,high,2026/02-long-results-eventor.xml
+M18,29,OK,723,ESP,Cesc Amat Font,4114,high,2026/02-long-results-eventor.xml
+M18,30,OK,756,LAT,Lars Anders Luiks,4131,high,2026/02-long-results-eventor.xml
+M18,31,OK,796,POL,Antoni Trzeciak,4140,high,2026/02-long-results-eventor.xml
+M18,32,OK,702,LAT,Gustavs Millers,4142,high,2026/02-long-results-eventor.xml
+M18,33,OK,714,FIN,Eetu Narhi,4155,high,2026/02-long-results-eventor.xml
+M18,34,OK,767,HUN,Vilmos Braun,4183,high,2026/02-long-results-eventor.xml
+M18,35,OK,799,ESP,Pablo Rubio Cribellati,4218,high,2026/02-long-results-eventor.xml
+M18,36,OK,707,SWE,Jonatan Haglund,4235,high,2026/02-long-results-eventor.xml
+M18,37,OK,743,GBR,Ruari Cottier,4236,high,2026/02-long-results-eventor.xml
+M18,38,OK,785,SUI,Andrin Meier,4261,high,2026/02-long-results-eventor.xml
+M18,39,OK,763,ITA,Niklas Weitlaner,4265,high,2026/02-long-results-eventor.xml
+M18,40,OK,747,NOR,Kasper Hott,4298,high,2026/02-long-results-eventor.xml
+M18,41,OK,809,DEN,Lukas Verhelst,4330,high,2026/02-long-results-eventor.xml
+M18,42,OK,719,DEN,Rune Cederberg,4349,high,2026/02-long-results-eventor.xml
+M18,43,OK,705,LTU,Povilas Rimkus,4367,high,2026/02-long-results-eventor.xml
+M18,44,OK,801,HUN,Agoston Kiss,4465,high,2026/02-long-results-eventor.xml
+M18,45,OK,754,DEN,Tore Emil Maarup,4516,high,2026/02-long-results-eventor.xml
+M18,46,OK,739,FRA,Tom Lemercier,4524,high,2026/02-long-results-eventor.xml
+M18,47,OK,803,EST,Erik Marten Zernant,4567,high,2026/02-long-results-eventor.xml
+M18,48,OK,779,BUL,Aleksandar Pedev,4601,high,2026/02-long-results-eventor.xml
+M18,49,OK,788,IRL,Liam Casey,4608,high,2026/02-long-results-eventor.xml
+M18,50,OK,706,HUN,Marton Hegedus,4645,high,2026/02-long-results-eventor.xml
+M18,51,OK,781,ISR,Ronen Shuv,4652,high,2026/02-long-results-eventor.xml
+M18,52,OK,716,ITA,Alessandro Moser,4701,high,2026/02-long-results-eventor.xml
+M18,53,OK,746,POL,Mateusz Grzymkiewicz,4719,high,2026/02-long-results-eventor.xml
+M18,54,OK,793,SVK,Jan Dokupil,4730,high,2026/02-long-results-eventor.xml
+M18,56,OK,755,SVK,Michal Marko,4760,high,2026/02-long-results-eventor.xml
+M18,57,OK,774,UKR,Oleksandr Balashovets,4779,high,2026/02-long-results-eventor.xml
+M18,58,OK,736,LTU,Troj Gunnarsson,4836,high,2026/02-long-results-eventor.xml
+M18,59,OK,752,ITA,Marco Gianelle,4871,high,2026/02-long-results-eventor.xml
+M18,60,OK,738,ISR,Yuval Kalkstein,4911,high,2026/02-long-results-eventor.xml
+M18,62,OK,720,POL,Krzysztof Ukleja,4924,high,2026/02-long-results-eventor.xml
+M18,63,OK,701,GBR,Oscar Peel,4925,high,2026/02-long-results-eventor.xml
+M18,64,OK,805,BUL,Svetlozar Kolev,4945,high,2026/02-long-results-eventor.xml
+M18,65,OK,790,LTU,Tijus Jokubauskis,4958,high,2026/02-long-results-eventor.xml
+M18,66,OK,730,SLO,Ozbej Malus,4959,high,2026/02-long-results-eventor.xml
+M18,68,OK,776,ESP,Ekain Fernandez Garcia,4986,high,2026/02-long-results-eventor.xml
+M18,69,OK,771,LTU,Milgaudas Perminas,5041,high,2026/02-long-results-eventor.xml
+M18,70,OK,784,AUT,Lauri Urbanek,5098,high,2026/02-long-results-eventor.xml
+M18,71,OK,780,ROU,Vlad Percec,5117,high,2026/02-long-results-eventor.xml
+M18,72,OK,762,AUT,Axel Renner,5118,high,2026/02-long-results-eventor.xml
+M18,73,OK,787,UKR,Rostyslav Trachuk,5156,high,2026/02-long-results-eventor.xml
+M18,74,OK,737,ESP,Mateo Puertas,5157,high,2026/02-long-results-eventor.xml
+M18,75,OK,777,TUR,Metehan Oguz,5166,high,2026/02-long-results-eventor.xml
+M18,76,OK,715,ROU,Benjamin Simon,5185,high,2026/02-long-results-eventor.xml
+M18,77,OK,750,AUT,Tobias Angermann,5211,high,2026/02-long-results-eventor.xml
+M18,78,OK,722,GER,Karl Jobke,5212,high,2026/02-long-results-eventor.xml
+M18,79,OK,731,LAT,Kristofers Kancs,5242,high,2026/02-long-results-eventor.xml
+M18,80,OK,792,BEL,Pjotr Mertens,5262,high,2026/02-long-results-eventor.xml
+M18,81,OK,712,FRA,Mae Regnard,5377,high,2026/02-long-results-eventor.xml
+M18,83,OK,732,EST,Henri Kersna,5475,high,2026/02-long-results-eventor.xml
+M18,84,OK,710,ISR,Hillel Seligmann,5619,high,2026/02-long-results-eventor.xml
+M18,85,OK,749,BEL,Linus Claesson,5646,high,2026/02-long-results-eventor.xml
+M18,86,OK,740,TUR,Egemen Yigit Bulbul,5697,high,2026/02-long-results-eventor.xml
+M18,87,OK,791,ISR,Ariel Dacosta,5701,high,2026/02-long-results-eventor.xml
+M18,88,OK,703,EST,Andres Keernik,5817,high,2026/02-long-results-eventor.xml
+M18,89,OK,789,SWE,Noel Kjellberger,5931,high,2026/02-long-results-eventor.xml
+M18,90,OK,773,POR,Miguel Ferreira,6014,high,2026/02-long-results-eventor.xml
+M18,93,OK,759,BEL,Tim Lemy Storme,6299,high,2026/02-long-results-eventor.xml
+M18,94,OK,709,IRL,Liam O Donnell,6391,high,2026/02-long-results-eventor.xml
+M18,95,OK,735,IRL,Eanna Grennan,6599,high,2026/02-long-results-eventor.xml
+M18,96,OK,717,TUR,Mustafa Talha Bilge,6630,high,2026/02-long-results-eventor.xml
+M18,97,OK,782,GBR,Toby Heppell,6644,high,2026/02-long-results-eventor.xml
+M18,98,OK,769,SLO,Vid Bratusa,7051,high,2026/02-long-results-eventor.xml
+M18,99,OK,713,AUT,Elias Ballik,7063,high,2026/02-long-results-eventor.xml
+M18,102,OK,726,POR,Miguel Canana,8475,high,2026/02-long-results-eventor.xml
+M18,,OK,742,SVK,Daniel Jozef Nemcek,6449,high,2026/02-long-results-eventor.xml
+M18,,OK,806,POR,Joao Maia,7034,high,2026/02-long-results-eventor.xml
+M18,,OK,725,SLO,David Sedej,8099,high,2026/02-long-results-eventor.xml
+M18,,OK,748,SRB,David Petrovic,0,high,2026/02-long-results-eventor.xml
+M18,,OK,810,GBR,Marcus Perry,0,high,2026/02-long-results-eventor.xml
+M18,,OK,804,ROU,Radu Ilin,4153,high,2026/02-long-results-eventor.xml
+M18,,OK,708,UKR,Vladyslav Lanenko,0,high,2026/02-long-results-eventor.xml
+W18,1,OK,601,SLO,Brina Kolner,3284,high,2026/02-long-results-eventor.xml
+W18,2,OK,582,HUN,Sara Szakal Biro,3337,high,2026/02-long-results-eventor.xml
+W18,3,OK,607,CZE,Tereza Ester Kamenicka,3344,high,2026/02-long-results-eventor.xml
+W18,4,OK,586,SUI,Lotta Marit Luethi,3393,high,2026/02-long-results-eventor.xml
+W18,5,OK,599,SWE,Elvira Lindsten,3455,high,2026/02-long-results-eventor.xml
+W18,6,OK,554,CZE,Karolina Novotna,3467,high,2026/02-long-results-eventor.xml
+W18,7,OK,581,CZE,Matilda Tomaskova,3471,high,2026/02-long-results-eventor.xml
+W18,8,OK,538,SWE,Elsa Ehrenborg,3556,high,2026/02-long-results-eventor.xml
+W18,9,OK,505,CZE,Anna Kynclova,3564,high,2026/02-long-results-eventor.xml
+W18,10,OK,564,NOR,Tyra Lilleholt Kraugerud,3649,high,2026/02-long-results-eventor.xml
+W18,11,OK,591,POL,Jasmina Olejnik,3679,high,2026/02-long-results-eventor.xml
+W18,12,OK,552,FIN,Lotta Laakso,3718,high,2026/02-long-results-eventor.xml
+W18,13,OK,536,LTU,Margarita Dienyte,3812,high,2026/02-long-results-eventor.xml
+W18,14,OK,535,SUI,Lenia Grimm,3821,high,2026/02-long-results-eventor.xml
+W18,15,OK,561,LAT,Eliza Eisaka,3823,high,2026/02-long-results-eventor.xml
+W18,16,OK,573,SUI,Analia Reubi,3865,high,2026/02-long-results-eventor.xml
+W18,17,OK,580,SWE,Maja Maxen,3939,high,2026/02-long-results-eventor.xml
+W18,18,OK,577,ROU,Ana Brandus,3954,high,2026/02-long-results-eventor.xml
+W18,19,OK,540,FRA,Juliette Pellissier,3966,high,2026/02-long-results-eventor.xml
+W18,20,OK,596,HUN,Zsofia Gabor,3975,high,2026/02-long-results-eventor.xml
+W18,21,OK,556,FIN,Iida Koskinen,4000,high,2026/02-long-results-eventor.xml
+W18,22,OK,595,GER,Jannika Wetzel,4021,high,2026/02-long-results-eventor.xml
+W18,23,OK,518,SUI,Lorenza Rossetti,4035,high,2026/02-long-results-eventor.xml
+W18,24,OK,574,BEL,Anais Mazy,4056,high,2026/02-long-results-eventor.xml
+W18,25,OK,569,UKR,Yevheniia Oksiuchenko,4059,high,2026/02-long-results-eventor.xml
+W18,26,OK,566,POL,Malgorzata Porzycz,4064,high,2026/02-long-results-eventor.xml
+W18,27,OK,553,UKR,Inna Ignatieva,4122,high,2026/02-long-results-eventor.xml
+W18,28,OK,508,LTU,Gabija Stankeviciute,4124,high,2026/02-long-results-eventor.xml
+W18,29,OK,557,EST,Anna Mia Atonen,4153,high,2026/02-long-results-eventor.xml
+W18,30,OK,587,LAT,Lillija Brice,4200,high,2026/02-long-results-eventor.xml
+W18,31,OK,565,LTU,Barbora Balciunaite,4204,high,2026/02-long-results-eventor.xml
+W18,32,OK,545,HUN,Aliz Heizer,4205,high,2026/02-long-results-eventor.xml
+W18,33,OK,534,GER,Emilia Wetzel,4229,high,2026/02-long-results-eventor.xml
+W18,34,OK,593,AUT,Mika Asenbauer,4249,high,2026/02-long-results-eventor.xml
+W18,35,OK,516,FIN,Venla Mennala,4265,high,2026/02-long-results-eventor.xml
+W18,36,OK,503,UKR,Iryna Polubentseva,4289,high,2026/02-long-results-eventor.xml
+W18,37,OK,567,SLO,Ema Pika Raj,4294,high,2026/02-long-results-eventor.xml
+W18,38,OK,603,DEN,Astrid Faber Fengergroen,4305,high,2026/02-long-results-eventor.xml
+W18,39,OK,562,FRA,Laura Martin,4437,high,2026/02-long-results-eventor.xml
+W18,40,OK,537,GBR,Ella Baxter,4438,high,2026/02-long-results-eventor.xml
+W18,41,OK,551,LAT,Elma Bremze,4512,high,2026/02-long-results-eventor.xml
+W18,42,OK,558,GER,Marika Prolingheuer,4526,high,2026/02-long-results-eventor.xml
+W18,43,OK,612,BUL,Plamena Cholakova,4530,high,2026/02-long-results-eventor.xml
+W18,44,OK,529,NOR,Sofie Holm Nedrebo,4548,high,2026/02-long-results-eventor.xml
+W18,44,OK,504,FRA,Emma Barriere,4548,high,2026/02-long-results-eventor.xml
+W18,46,OK,584,AUT,Paula Paier,4560,high,2026/02-long-results-eventor.xml
+W18,47,OK,501,AUT,Stella Marie Kranzler,4571,high,2026/02-long-results-eventor.xml
+W18,48,OK,594,ITA,Chiara Magenes,4588,high,2026/02-long-results-eventor.xml
+W18,49,OK,524,LAT,Emilija Terentjeva,4608,high,2026/02-long-results-eventor.xml
+W18,50,OK,585,GBR,Anna Todd,4656,high,2026/02-long-results-eventor.xml
+W18,51,OK,590,TUR,Efsa Sezin Akin,4699,high,2026/02-long-results-eventor.xml
+W18,53,OK,523,POL,Julia Moszkowicz,4735,high,2026/02-long-results-eventor.xml
+W18,54,OK,549,POL,Antonina Rokita,4756,high,2026/02-long-results-eventor.xml
+W18,55,OK,563,SVK,Maiia Volkova,4811,high,2026/02-long-results-eventor.xml
+W18,56,OK,555,ESP,Bruna Sanz Kowalski,4822,high,2026/02-long-results-eventor.xml
+W18,57,OK,604,FIN,Matilda Nynas,4840,high,2026/02-long-results-eventor.xml
+W18,58,OK,512,HUN,Zsofia Felfoldi,4911,high,2026/02-long-results-eventor.xml
+W18,59,OK,606,FRA,Ines Pinna,4916,high,2026/02-long-results-eventor.xml
+W18,60,OK,568,ESP,Candela Arranz Bravo,5048,high,2026/02-long-results-eventor.xml
+W18,61,OK,579,ITA,Nicole Pagliari,5050,high,2026/02-long-results-eventor.xml
+W18,62,OK,550,DEN,Anna Hornbaek,5060,high,2026/02-long-results-eventor.xml
+W18,63,OK,602,ROU,Maria Tudorascu,5072,high,2026/02-long-results-eventor.xml
+W18,64,OK,547,SLO,Ajda Jarc,5121,high,2026/02-long-results-eventor.xml
+W18,65,OK,527,BEL,Janne Hillen,5196,high,2026/02-long-results-eventor.xml
+W18,67,OK,506,NOR,Mie Fosshaug Weinholdt,5245,high,2026/02-long-results-eventor.xml
+W18,68,OK,530,SVK,Ema Jonasova,5278,high,2026/02-long-results-eventor.xml
+W18,69,OK,575,IRL,Niamh Browne,5353,high,2026/02-long-results-eventor.xml
+W18,70,OK,541,AUT,Angelina Ochenbauer,5408,high,2026/02-long-results-eventor.xml
+W18,71,OK,510,GBR,Charlotte Chapman,5487,high,2026/02-long-results-eventor.xml
+W18,72,OK,600,GBR,Iona Scott,5497,high,2026/02-long-results-eventor.xml
+W18,73,OK,559,DEN,Siv Kusk Berglund,5508,high,2026/02-long-results-eventor.xml
+W18,75,OK,526,POR,Dina Marques,5527,high,2026/02-long-results-eventor.xml
+W18,76,OK,513,ESP,Cristina Garcia Gomez,5570,high,2026/02-long-results-eventor.xml
+W18,77,OK,507,SLO,Misa Andrejc,5657,high,2026/02-long-results-eventor.xml
+W18,77,OK,517,GER,Jule Weigert,5657,high,2026/02-long-results-eventor.xml
+W18,79,OK,532,EST,Grete Johanna Korb,5688,high,2026/02-long-results-eventor.xml
+W18,80,OK,598,IRL,Fionnuala Rowe,5693,high,2026/02-long-results-eventor.xml
+W18,81,OK,514,CRO,Ema Jurican,5740,high,2026/02-long-results-eventor.xml
+W18,82,OK,578,MDA,Anna Donici,5766,high,2026/02-long-results-eventor.xml
+W18,83,OK,609,ESP,Laura Puigcercos Bella,5767,high,2026/02-long-results-eventor.xml
+W18,84,OK,542,ITA,Alessia D Incau,5844,high,2026/02-long-results-eventor.xml
+W18,85,OK,608,UKR,Karina Fedoryshyn,5859,high,2026/02-long-results-eventor.xml
+W18,87,OK,502,TUR,Melek Tekin,5967,high,2026/02-long-results-eventor.xml
+W18,88,OK,543,ROU,Maria Alexa Pop,6091,high,2026/02-long-results-eventor.xml
+W18,89,OK,519,IRL,Sadhbh Hassett,6273,high,2026/02-long-results-eventor.xml
+W18,90,OK,520,ROU,Hanna Dorottya Tonk,6327,high,2026/02-long-results-eventor.xml
+W18,91,OK,592,BEL,Chloe van Vyve Courtois,6570,high,2026/02-long-results-eventor.xml
+W18,92,OK,548,IRL,Ellie Simpson,6626,high,2026/02-long-results-eventor.xml
+W18,93,OK,610,EST,Maarja Oras,6721,high,2026/02-long-results-eventor.xml
+W18,94,OK,533,MDA,Daria Gutul,6909,high,2026/02-long-results-eventor.xml
+W18,95,OK,571,POR,Mariana Guerreiro,6993,high,2026/02-long-results-eventor.xml
+W18,96,OK,611,POR,Alexandra Tadeu,7241,high,2026/02-long-results-eventor.xml
+W18,97,OK,515,SRB,Emilija Veljovic,7266,high,2026/02-long-results-eventor.xml
+W18,99,OK,511,MDA,Anna Crotova,8114,high,2026/02-long-results-eventor.xml
+W18,100,OK,544,ISR,Yael Kaspi,8215,high,2026/02-long-results-eventor.xml
+W18,101,OK,572,TUR,Beste Adiguzel,8257,high,2026/02-long-results-eventor.xml
+W18,103,OK,546,TUR,Nehir Karakocak,11387,high,2026/02-long-results-eventor.xml
+W18,,OK,597,LTU,Saule Traubaite,3742,high,2026/02-long-results-eventor.xml
+W18,,OK,509,SWE,Wilma Rosen,4043,high,2026/02-long-results-eventor.xml
+W18,,OK,588,ISR,Ofri Yacobi,5627,high,2026/02-long-results-eventor.xml
+W18,,OK,528,SRB,Jasna Starovic,6071,high,2026/02-long-results-eventor.xml
+W18,,OK,605,NOR,Helene Scheele,0,high,2026/02-long-results-eventor.xml
+W18,,OK,560,ISR,Ofer Svorai,7331,high,2026/02-long-results-eventor.xml
+W18,,OK,525,SVK,Zina MacAjova,0,high,2026/02-long-results-eventor.xml
+M16,1,OK,404,ESP,Daniel Sanz,2505,high,2026/02-long-results-eventor.xml
+M16,2,OK,402,POL,Antoni Pachnik,2559,high,2026/02-long-results-eventor.xml
+M16,3,OK,378,SUI,Lars Niggli,2642,high,2026/02-long-results-eventor.xml
+M16,4,OK,401,CZE,Frantisek Minarik,2688,high,2026/02-long-results-eventor.xml
+M16,5,OK,307,CZE,Matous Dittrich,2721,high,2026/02-long-results-eventor.xml
+M16,6,OK,371,ESP,Carlit Tolkko Valledor,2809,high,2026/02-long-results-eventor.xml
+M16,7,OK,384,SLO,Anze Kolner,2824,high,2026/02-long-results-eventor.xml
+M16,8,OK,382,BUL,Hristo Dimov,2842,high,2026/02-long-results-eventor.xml
+M16,9,OK,331,ESP,Bruno Fuente Feijoo,2898,high,2026/02-long-results-eventor.xml
+M16,10,OK,348,FIN,Aapo Talka,2903,high,2026/02-long-results-eventor.xml
+M16,11,OK,329,SUI,Linus Pusterla,2913,high,2026/02-long-results-eventor.xml
+M16,12,OK,394,SVK,Boris Kocur,2961,high,2026/02-long-results-eventor.xml
+M16,13,OK,340,CZE,Jakub Ritter,3001,high,2026/02-long-results-eventor.xml
+M16,14,OK,392,TUR,Kuzey Basol,3009,high,2026/02-long-results-eventor.xml
+M16,15,OK,322,FRA,Etienne Pradeau,3014,high,2026/02-long-results-eventor.xml
+M16,16,OK,328,UKR,Roman Chudinov,3025,high,2026/02-long-results-eventor.xml
+M16,18,OK,388,SUI,Kasimir Graber,3073,high,2026/02-long-results-eventor.xml
+M16,19,OK,379,LAT,Miks Graudums,3075,high,2026/02-long-results-eventor.xml
+M16,20,OK,389,FIN,Hermanni Latonummi,3080,high,2026/02-long-results-eventor.xml
+M16,22,OK,386,LTU,Aleksas Murenas,3125,high,2026/02-long-results-eventor.xml
+M16,23,OK,376,FRA,Celestin Cochey,3147,high,2026/02-long-results-eventor.xml
+M16,24,OK,399,ITA,Gabriele Giudici,3179,high,2026/02-long-results-eventor.xml
+M16,25,OK,364,CZE,Ondrej Lucan,3218,high,2026/02-long-results-eventor.xml
+M16,26,OK,393,LAT,Jekabs Graudums,3237,high,2026/02-long-results-eventor.xml
+M16,27,OK,355,FIN,Daniel Stenholm,3248,high,2026/02-long-results-eventor.xml
+M16,28,OK,375,ITA,Tobia Viel,3264,high,2026/02-long-results-eventor.xml
+M16,29,OK,372,SVK,Matyas Cizik,3270,high,2026/02-long-results-eventor.xml
+M16,30,OK,327,GBR,Henrik Borrowman,3278,high,2026/02-long-results-eventor.xml
+M16,31,OK,357,DEN,Albert Hildebrandt,3279,high,2026/02-long-results-eventor.xml
+M16,32,OK,396,FRA,Noe Chezeau,3284,high,2026/02-long-results-eventor.xml
+M16,33,OK,313,HUN,Abel Bohner,3288,high,2026/02-long-results-eventor.xml
+M16,34,OK,383,HUN,Lorinc Czovek,3301,high,2026/02-long-results-eventor.xml
+M16,35,OK,337,LTU,Vincas Balciunas,3327,high,2026/02-long-results-eventor.xml
+M16,36,OK,360,HUN,Adam Varsanyi,3346,high,2026/02-long-results-eventor.xml
+M16,38,OK,308,SUI,Lino Meier,3391,high,2026/02-long-results-eventor.xml
+M16,39,OK,310,LAT,Kristaps Krumins,3432,high,2026/02-long-results-eventor.xml
+M16,40,OK,381,BEL,Nathan Jansen,3481,high,2026/02-long-results-eventor.xml
+M16,41,OK,343,DEN,Mathias Reiche Soerensen,3520,high,2026/02-long-results-eventor.xml
+M16,43,OK,358,BEL,Thor Wolles,3592,high,2026/02-long-results-eventor.xml
+M16,44,OK,312,POL,Michal Moszkowicz,3620,high,2026/02-long-results-eventor.xml
+M16,45,OK,353,UKR,Yehor Zozulia,3656,high,2026/02-long-results-eventor.xml
+M16,46,OK,351,LAT,Teodors Rebinovs,3677,high,2026/02-long-results-eventor.xml
+M16,47,OK,377,GBR,Finley Goddard,3687,high,2026/02-long-results-eventor.xml
+M16,47,OK,306,SVK,Juraj Knutelsky,3687,high,2026/02-long-results-eventor.xml
+M16,49,OK,385,GBR,Jamie Osborne,3716,high,2026/02-long-results-eventor.xml
+M16,50,OK,314,ITA,Emiliano Bettega,3745,high,2026/02-long-results-eventor.xml
+M16,51,OK,341,TUR,Onur Kizilkula,3762,high,2026/02-long-results-eventor.xml
+M16,52,OK,347,FRA,Jules Zenevre,3800,high,2026/02-long-results-eventor.xml
+M16,53,OK,405,UKR,Tymofii Polskyi,3823,high,2026/02-long-results-eventor.xml
+M16,54,OK,302,ESP,Javier Munoz del Campo,3909,high,2026/02-long-results-eventor.xml
+M16,55,OK,304,GBR,Jake Hilton,3923,high,2026/02-long-results-eventor.xml
+M16,56,OK,361,BUL,Aleks Sarhachev,3971,high,2026/02-long-results-eventor.xml
+M16,57,OK,398,GER,Jacob Imbsweiler,3988,high,2026/02-long-results-eventor.xml
+M16,58,OK,366,GER,Constantin Freudenfeld,3998,high,2026/02-long-results-eventor.xml
+M16,59,OK,359,AUT,Oskar Hinterplattner,4009,high,2026/02-long-results-eventor.xml
+M16,60,OK,320,UKR,Artur Volovenko,4029,high,2026/02-long-results-eventor.xml
+M16,61,OK,365,LTU,Vytautas Pakarnis,4067,high,2026/02-long-results-eventor.xml
+M16,63,OK,319,DEN,Storm Tofterup,4110,high,2026/02-long-results-eventor.xml
+M16,64,OK,336,POL,Adam Wisniewski,4133,high,2026/02-long-results-eventor.xml
+M16,65,OK,311,BEL,Emile Pasquasy,4173,high,2026/02-long-results-eventor.xml
+M16,66,OK,338,AUT,Norbert Riesz,4203,high,2026/02-long-results-eventor.xml
+M16,67,OK,303,CRO,Karlo Trinajstic,4278,high,2026/02-long-results-eventor.xml
+M16,69,OK,316,LTU,Mykolas Ziogas,4308,high,2026/02-long-results-eventor.xml
+M16,70,OK,373,IRL,James Ewart,4312,high,2026/02-long-results-eventor.xml
+M16,71,OK,354,POL,Ignacy Ewert Krzemieniewski,4314,high,2026/02-long-results-eventor.xml
+M16,72,OK,363,ROU,Norbert Sandor Szocs,4324,high,2026/02-long-results-eventor.xml
+M16,73,OK,346,ITA,Cristiano Pagliari,4410,high,2026/02-long-results-eventor.xml
+M16,75,OK,369,TUR,Eymen Vatansever,4497,high,2026/02-long-results-eventor.xml
+M16,77,OK,349,SVK,Lukas Bukovac,4510,high,2026/02-long-results-eventor.xml
+M16,78,OK,356,EST,Atso Keskula,4552,high,2026/02-long-results-eventor.xml
+M16,79,OK,406,EST,Thomas Kruusmaa,4578,high,2026/02-long-results-eventor.xml
+M16,80,OK,305,FIN,Kasper Ekonoja,4600,high,2026/02-long-results-eventor.xml
+M16,81,OK,397,AUT,Max Jonas Obczovsky,4636,high,2026/02-long-results-eventor.xml
+M16,82,OK,318,IRL,Marcus Richardson,4655,high,2026/02-long-results-eventor.xml
+M16,83,OK,334,SLO,Rok Sedej,4684,high,2026/02-long-results-eventor.xml
+M16,84,OK,335,BEL,Elias Cokelaere,4695,high,2026/02-long-results-eventor.xml
+M16,85,OK,344,GER,Michael Schlei,4742,high,2026/02-long-results-eventor.xml
+M16,86,OK,362,POR,Dinis Martins,4777,high,2026/02-long-results-eventor.xml
+M16,88,OK,324,AUT,Valentin Angermann,4814,high,2026/02-long-results-eventor.xml
+M16,89,OK,339,ISR,Amit Sagi,5167,high,2026/02-long-results-eventor.xml
+M16,90,OK,323,TUR,Ruzgar Efe Ates,5203,high,2026/02-long-results-eventor.xml
+M16,91,OK,391,ISR,Carmel Eshed,5234,high,2026/02-long-results-eventor.xml
+M16,92,OK,350,EST,Joosep Esta,5271,high,2026/02-long-results-eventor.xml
+M16,93,OK,301,SLO,Matic Kersevan,5297,high,2026/02-long-results-eventor.xml
+M16,94,OK,325,POR,Pedro Ferro,5409,high,2026/02-long-results-eventor.xml
+M16,95,OK,315,ISR,Dan Gardi,5507,high,2026/02-long-results-eventor.xml
+M16,96,OK,403,IRL,Alec O Brien,7910,high,2026/02-long-results-eventor.xml
+M16,97,OK,352,BUL,Danail Zurtelov,8283,high,2026/02-long-results-eventor.xml
+M16,,OK,332,HUN,Csego Horvath,4101,high,2026/02-long-results-eventor.xml
+M16,,OK,333,POR,Joao Fernandes,4934,high,2026/02-long-results-eventor.xml
+M16,,OK,326,BUL,Nikola Nikolov,4053,high,2026/02-long-results-eventor.xml
+M16,,OK,370,SLO,Matija Bratusa,4477,high,2026/02-long-results-eventor.xml
+M16,,OK,368,ISR,Idan Verbin,0,high,2026/02-long-results-eventor.xml
+M16,,OK,387,DEN,Esben Obel,4012,high,2026/02-long-results-eventor.xml
+M16,,OK,330,IRL,Eoin Simpson,5775,high,2026/02-long-results-eventor.xml
+W16,1,OK,160,CRO,Sara Delic,2987,high,2026/02-long-results-eventor.xml
+W16,2,OK,161,CZE,Monika Munzarova,3040,high,2026/02-long-results-eventor.xml
+W16,3,OK,185,CZE,Hana Fenclova,3056,high,2026/02-long-results-eventor.xml
+W16,4,OK,148,FIN,Aurora Lehtonen,3151,high,2026/02-long-results-eventor.xml
+W16,5,OK,121,SUI,Svenja Feurer,3152,high,2026/02-long-results-eventor.xml
+W16,6,OK,153,ITA,Gioia Corona,3190,high,2026/02-long-results-eventor.xml
+W16,7,OK,129,FRA,Caroline Harnist,3286,high,2026/02-long-results-eventor.xml
+W16,8,OK,190,FRA,Violette Rannou Serine,3306,high,2026/02-long-results-eventor.xml
+W16,9,OK,152,CZE,Adela Dobyasova,3320,high,2026/02-long-results-eventor.xml
+W16,10,OK,151,SUI,Madlaina Reubi,3324,high,2026/02-long-results-eventor.xml
+W16,11,OK,174,FRA,Elise Dufour,3338,high,2026/02-long-results-eventor.xml
+W16,12,OK,154,POL,Jasmina Kurkowiak,3355,high,2026/02-long-results-eventor.xml
+W16,13,OK,125,FIN,Hilda Damskagg,3377,high,2026/02-long-results-eventor.xml
+W16,14,OK,171,FIN,Saana Turpeinen,3397,high,2026/02-long-results-eventor.xml
+W16,15,OK,198,POL,Michalina Wysocka,3402,high,2026/02-long-results-eventor.xml
+W16,16,OK,196,TUR,Sedanur Balikci,3452,high,2026/02-long-results-eventor.xml
+W16,17,OK,138,ESP,Daniela Molina,3467,high,2026/02-long-results-eventor.xml
+W16,18,OK,205,CRO,Dora Delic,3494,high,2026/02-long-results-eventor.xml
+W16,19,OK,103,DEN,Ida Nygaard Monrad,3529,high,2026/02-long-results-eventor.xml
+W16,20,OK,157,HUN,Anna Kesseru Lukacs,3534,high,2026/02-long-results-eventor.xml
+W16,21,OK,128,ROU,Eszter Anna Palfy,3564,high,2026/02-long-results-eventor.xml
+W16,21,OK,181,UKR,Ivanna Panchenko,3564,high,2026/02-long-results-eventor.xml
+W16,23,OK,149,GER,Marie Geissler,3566,high,2026/02-long-results-eventor.xml
+W16,24,OK,158,SUI,Celine Aeschlimann,3591,high,2026/02-long-results-eventor.xml
+W16,25,OK,145,DEN,Kille Beuchert,3625,high,2026/02-long-results-eventor.xml
+W16,26,OK,141,SLO,Nika Erzen,3652,high,2026/02-long-results-eventor.xml
+W16,27,OK,162,DEN,Astrid Lykke Nielsen,3710,high,2026/02-long-results-eventor.xml
+W16,28,OK,117,POL,Malgorzata Biskupska,3720,high,2026/02-long-results-eventor.xml
+W16,29,OK,182,HUN,Kata Farkas,3724,high,2026/02-long-results-eventor.xml
+W16,31,OK,144,POL,Antonia Roman,3749,high,2026/02-long-results-eventor.xml
+W16,32,OK,187,LAT,Melanija Rozukalne,3761,high,2026/02-long-results-eventor.xml
+W16,33,OK,112,ESP,Sara Terkelsen Garcia,3781,high,2026/02-long-results-eventor.xml
+W16,34,OK,202,AUT,Hannah Dormann,3787,high,2026/02-long-results-eventor.xml
+W16,35,OK,165,LTU,Martyna Jankauskaite,3802,high,2026/02-long-results-eventor.xml
+W16,36,OK,134,ITA,Marianna Gretter,3803,high,2026/02-long-results-eventor.xml
+W16,37,OK,140,LAT,Madlena Freimane,3808,high,2026/02-long-results-eventor.xml
+W16,38,OK,155,SRB,Dunja Cancarevic,3818,high,2026/02-long-results-eventor.xml
+W16,39,OK,203,DEN,Marie Fjordside Pagh,3839,high,2026/02-long-results-eventor.xml
+W16,40,OK,123,FRA,Elana Roche,3852,high,2026/02-long-results-eventor.xml
+W16,41,OK,159,ESP,Laia Casal Gil,3858,high,2026/02-long-results-eventor.xml
+W16,42,OK,113,SLO,Brina Gantar,3863,high,2026/02-long-results-eventor.xml
+W16,43,OK,172,EST,Miriam Paesuld,3881,high,2026/02-long-results-eventor.xml
+W16,44,OK,186,BUL,Bogomila Tuykova,3891,high,2026/02-long-results-eventor.xml
+W16,45,OK,201,SUI,Anja Niggli,3909,high,2026/02-long-results-eventor.xml
+W16,46,OK,169,AUT,Hannah Sandrisser,3931,high,2026/02-long-results-eventor.xml
+W16,47,OK,177,GBR,Lucy Ward,3947,high,2026/02-long-results-eventor.xml
+W16,48,OK,142,LTU,Eva Sriubaite,3958,high,2026/02-long-results-eventor.xml
+W16,49,OK,180,BUL,Natalia Trifonova,3968,high,2026/02-long-results-eventor.xml
+W16,50,OK,105,UKR,Diana Kyslian,4003,high,2026/02-long-results-eventor.xml
+W16,51,OK,106,CZE,Veronika Kolarova,4010,high,2026/02-long-results-eventor.xml
+W16,52,OK,156,TUR,Zeynep Icyer,4033,high,2026/02-long-results-eventor.xml
+W16,54,OK,168,ROU,Sonia Stupu,4075,high,2026/02-long-results-eventor.xml
+W16,55,OK,183,FIN,Aada Tapiola,4081,high,2026/02-long-results-eventor.xml
+W16,56,OK,179,POR,Matilde Nazario,4084,high,2026/02-long-results-eventor.xml
+W16,57,OK,104,LAT,Amanta Mikijanska,4094,high,2026/02-long-results-eventor.xml
+W16,58,OK,116,BUL,Nevena Stankova,4104,high,2026/02-long-results-eventor.xml
+W16,59,OK,204,ESP,Airina Sales Turro,4114,high,2026/02-long-results-eventor.xml
+W16,60,OK,132,UKR,Myloslava Trukhnii,4121,high,2026/02-long-results-eventor.xml
+W16,61,OK,170,BEL,Anna Pasquasy,4132,high,2026/02-long-results-eventor.xml
+W16,62,OK,136,HUN,Katalin Braun,4205,high,2026/02-long-results-eventor.xml
+W16,63,OK,110,EST,Raheli Vahkal,4230,high,2026/02-long-results-eventor.xml
+W16,64,OK,115,GER,Selma Drechsler,4231,high,2026/02-long-results-eventor.xml
+W16,65,OK,122,ROU,Ana Tudorascu,4286,high,2026/02-long-results-eventor.xml
+W16,66,OK,200,ITA,Agnese Pellegrini,4316,high,2026/02-long-results-eventor.xml
+W16,67,OK,131,BUL,Vihra Ruseva,4404,high,2026/02-long-results-eventor.xml
+W16,68,OK,184,ROU,Gyongyver Gorog,4416,high,2026/02-long-results-eventor.xml
+W16,69,OK,194,SLO,Julija Bizjak,4434,high,2026/02-long-results-eventor.xml
+W16,70,OK,143,GBR,Hannah Chapman,4444,high,2026/02-long-results-eventor.xml
+W16,71,OK,191,LTU,Gabriele Skirmantaite,4461,high,2026/02-long-results-eventor.xml
+W16,72,OK,175,LAT,Undine Ceplite,4563,high,2026/02-long-results-eventor.xml
+W16,72,OK,195,GER,Jara Lauer,4563,high,2026/02-long-results-eventor.xml
+W16,74,OK,114,HUN,Janka Gaschler,4565,high,2026/02-long-results-eventor.xml
+W16,75,OK,166,ISR,Ayala Offer,4613,high,2026/02-long-results-eventor.xml
+W16,76,OK,163,GER,Lianne Krueger,4620,high,2026/02-long-results-eventor.xml
+W16,77,OK,146,AUT,Matilda Buschek,4698,high,2026/02-long-results-eventor.xml
+W16,78,OK,119,GBR,Cora Comisso,4886,high,2026/02-long-results-eventor.xml
+W16,79,OK,108,LTU,Neda Petrauskaite,4934,high,2026/02-long-results-eventor.xml
+W16,80,OK,109,ITA,Alice Dainese,4939,high,2026/02-long-results-eventor.xml
+W16,81,OK,192,EST,Susanna Oras,5006,high,2026/02-long-results-eventor.xml
+W16,82,OK,150,CRO,Helena Posedi,5039,high,2026/02-long-results-eventor.xml
+W16,83,OK,206,ISR,Ella Hatzav,5105,high,2026/02-long-results-eventor.xml
+W16,84,OK,127,POR,Juliana Pedro,5165,high,2026/02-long-results-eventor.xml
+W16,85,OK,101,CRO,Nera Ban,5312,high,2026/02-long-results-eventor.xml
+W16,86,OK,111,AUT,Lena Fuchs,5357,high,2026/02-long-results-eventor.xml
+W16,88,OK,188,POR,Maria Oliveira,5431,high,2026/02-long-results-eventor.xml
+W16,90,OK,173,SLO,Lili Ivana Raj,5573,high,2026/02-long-results-eventor.xml
+W16,93,OK,124,TUR,Ceren Ceylan,5754,high,2026/02-long-results-eventor.xml
+W16,95,OK,135,ISR,Amalia Niv,5976,high,2026/02-long-results-eventor.xml
+W16,96,OK,176,IRL,Eimear Casey,5997,high,2026/02-long-results-eventor.xml
+W16,98,OK,193,UKR,Anna Shyrykalova,6318,high,2026/02-long-results-eventor.xml
+W16,99,OK,139,TUR,Ece Yakut,6480,high,2026/02-long-results-eventor.xml
+W16,100,OK,118,ISR,Noor Shkedi,6587,high,2026/02-long-results-eventor.xml
+W16,101,OK,130,EST,Mia Esta,6613,high,2026/02-long-results-eventor.xml
+W16,102,OK,102,IRL,Beth Joyce,6697,high,2026/02-long-results-eventor.xml
+W16,103,OK,189,IRL,Aoife Masterson,8287,high,2026/02-long-results-eventor.xml
+W16,,OK,133,IRL,Deirbhile Hassett,6205,high,2026/02-long-results-eventor.xml
+W16,,OK,197,GBR,Bethan Buckley,5622,high,2026/02-long-results-eventor.xml

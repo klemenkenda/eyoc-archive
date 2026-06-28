@@ -1,0 +1,377 @@
+class,rank,status,bib,country,name,time_seconds,confidence,source_file
+M18,1,OK,,GER,Konrad Stamer,773,high,2021/Sprint-eventor.xml
+M18,2,OK,,NOR,Brage Takle,781,high,2021/Sprint-eventor.xml
+M18,3,OK,,FRA,Vallet Mathias Barros,800,high,2021/Sprint-eventor.xml
+M18,4,OK,,NOR,Martin Vehus Skjerve,805,high,2021/Sprint-eventor.xml
+M18,5,OK,,NOR,Hans Urset,808,high,2021/Sprint-eventor.xml
+M18,5,OK,,EST,Jurgen Joonas,808,high,2021/Sprint-eventor.xml
+M18,7,OK,,LTU,Andojas Lapinskas,814,high,2021/Sprint-eventor.xml
+M18,8,OK,,POL,Stanislaw Pachnik,815,high,2021/Sprint-eventor.xml
+M18,9,OK,,CZE,Vit Cech,816,high,2021/Sprint-eventor.xml
+M18,10,OK,,ISR,Peleg Mitzafon,820,high,2021/Sprint-eventor.xml
+M18,11,OK,,CZE,Martin Simsa,821,high,2021/Sprint-eventor.xml
+M18,11,OK,,LTU,Tadas Dementavicius,821,high,2021/Sprint-eventor.xml
+M18,13,OK,,FRA,Leandre Magat,822,high,2021/Sprint-eventor.xml
+M18,14,OK,,POL,Mateusz Kula,823,high,2021/Sprint-eventor.xml
+M18,15,OK,,HUN,Almos Huba Fulop,825,high,2021/Sprint-eventor.xml
+M18,16,OK,,UKR,Illia Otreshko,826,high,2021/Sprint-eventor.xml
+M18,17,OK,,SVK,Martin Rohac,827,high,2021/Sprint-eventor.xml
+M18,18,OK,,AUT,David Rapotz,828,high,2021/Sprint-eventor.xml
+M18,18,OK,,SUI,Elia Ren,828,high,2021/Sprint-eventor.xml
+M18,20,OK,,RUS,Stepan Aleksandrov,831,high,2021/Sprint-eventor.xml
+M18,21,OK,,RUS,Ilya Malygin,833,high,2021/Sprint-eventor.xml
+M18,21,OK,,SUI,Benjamin Wey,833,high,2021/Sprint-eventor.xml
+M18,23,OK,,BUL,Preslav Shterev,834,high,2021/Sprint-eventor.xml
+M18,24,OK,,FIN,Aarni Ronkainen,836,high,2021/Sprint-eventor.xml
+M18,25,OK,,POL,Ignacy Slomczynski,839,high,2021/Sprint-eventor.xml
+M18,25,OK,,ESP,Olias Gonzalo Zorrilla,839,high,2021/Sprint-eventor.xml
+M18,27,OK,,NOR,Alfred Bjoerneroed,841,high,2021/Sprint-eventor.xml
+M18,28,OK,,SUI,Joschi Schmid,842,high,2021/Sprint-eventor.xml
+M18,28,OK,,BEL,Antoine Mattart,842,high,2021/Sprint-eventor.xml
+M18,30,OK,,SWE,Noel Braun,846,high,2021/Sprint-eventor.xml
+M18,31,OK,,RUS,Pavel Egorov,851,high,2021/Sprint-eventor.xml
+M18,32,OK,,DEN,Anders Secher Thomsen,852,high,2021/Sprint-eventor.xml
+M18,32,OK,,ESP,Diego Aimar Urquizu,852,high,2021/Sprint-eventor.xml
+M18,34,OK,,ESP,Galan Gonzalo Ferrando,854,high,2021/Sprint-eventor.xml
+M18,34,OK,,FIN,Santeri Kirjavainen,854,high,2021/Sprint-eventor.xml
+M18,36,OK,,SUI,Martin Koehle,855,high,2021/Sprint-eventor.xml
+M18,36,OK,,CZE,Lukas Vitebsky,855,high,2021/Sprint-eventor.xml
+M18,36,OK,,LAT,Gustavs Stana,855,high,2021/Sprint-eventor.xml
+M18,36,OK,,ESP,Diaz Mateo Rodriguez,855,high,2021/Sprint-eventor.xml
+M18,40,OK,,BLR,Oleg Tomashau,856,high,2021/Sprint-eventor.xml
+M18,41,OK,,LTU,Adomas Casas,859,high,2021/Sprint-eventor.xml
+M18,41,OK,,SWE,Edvin Forsberg,859,high,2021/Sprint-eventor.xml
+M18,43,OK,,ITA,Stefano Marco Anselmo di,860,high,2021/Sprint-eventor.xml
+M18,44,OK,,AUT,Simon Tobler,861,high,2021/Sprint-eventor.xml
+M18,45,OK,,BUL,Stefan Yordanov,863,high,2021/Sprint-eventor.xml
+M18,46,OK,,DEN,Jonas Damm Als,864,high,2021/Sprint-eventor.xml
+M18,47,OK,,ROU,Catalin Vadean,867,high,2021/Sprint-eventor.xml
+M18,48,OK,,FIN,Riku Grohn,869,high,2021/Sprint-eventor.xml
+M18,48,OK,,LAT,Matiss Saulite,869,high,2021/Sprint-eventor.xml
+M18,48,OK,,DEN,Villads Skovbjerg,869,high,2021/Sprint-eventor.xml
+M18,51,OK,,SVK,Maximilian Kubik,872,high,2021/Sprint-eventor.xml
+M18,52,OK,,HUN,Peter Gonczi,873,high,2021/Sprint-eventor.xml
+M18,53,OK,,FIN,Jussi Raasakka,874,high,2021/Sprint-eventor.xml
+M18,54,OK,,EST,Mihkel Mahla,876,high,2021/Sprint-eventor.xml
+M18,55,OK,,ITA,Goran Polojaz,877,high,2021/Sprint-eventor.xml
+M18,56,OK,,SWE,Edvin Nilsson,878,high,2021/Sprint-eventor.xml
+M18,57,OK,,UKR,Yurii Skvortsov,880,high,2021/Sprint-eventor.xml
+M18,58,OK,,LAT,Emils Lazdans,882,high,2021/Sprint-eventor.xml
+M18,59,OK,,BLR,Aliaksandr Furyk,883,high,2021/Sprint-eventor.xml
+M18,60,OK,,AUT,Anton Buschek,886,high,2021/Sprint-eventor.xml
+M18,61,OK,,BUL,Tervel Dragoev,887,high,2021/Sprint-eventor.xml
+M18,61,OK,,POL,Jakub Jonczy,887,high,2021/Sprint-eventor.xml
+M18,61,OK,,UKR,Ihor Krazhev,887,high,2021/Sprint-eventor.xml
+M18,64,OK,,BEL,Willem Bakelants,888,high,2021/Sprint-eventor.xml
+M18,65,OK,,AUT,Moritz Czech,895,high,2021/Sprint-eventor.xml
+M18,66,OK,,ISR,Roy Alpert,896,high,2021/Sprint-eventor.xml
+M18,67,OK,,BUL,Kaloyan Petrov,899,high,2021/Sprint-eventor.xml
+M18,68,OK,,LAT,Austris Kalnins,901,high,2021/Sprint-eventor.xml
+M18,69,OK,,POR,Rodrigo Lima,902,high,2021/Sprint-eventor.xml
+M18,70,OK,,LTU,Justas Klevinskas,905,high,2021/Sprint-eventor.xml
+M18,70,OK,,CZE,Adam Urbanek,905,high,2021/Sprint-eventor.xml
+M18,70,OK,,EST,Emil Eensaar,905,high,2021/Sprint-eventor.xml
+M18,73,OK,,EST,Olle Ilmar Jaama,907,high,2021/Sprint-eventor.xml
+M18,73,OK,,SVK,Tomas Sipos,907,high,2021/Sprint-eventor.xml
+M18,75,OK,,UKR,Volodymyr Yatsenko,908,high,2021/Sprint-eventor.xml
+M18,76,OK,,BEL,Gael Amerijckx,915,high,2021/Sprint-eventor.xml
+M18,77,OK,,POR,Pedro Lagarto,917,high,2021/Sprint-eventor.xml
+M18,78,OK,,HUN,Levente Szabo,924,high,2021/Sprint-eventor.xml
+M18,79,OK,,FRA,Bastien Thenoz,929,high,2021/Sprint-eventor.xml
+M18,80,OK,,TUR,Ayberk Keskin,931,high,2021/Sprint-eventor.xml
+M18,81,OK,,ITA,Francesco Ognibene,932,high,2021/Sprint-eventor.xml
+M18,82,OK,,ROU,Adam Voros,953,high,2021/Sprint-eventor.xml
+M18,83,OK,,ROU,Endre Jancsik,956,high,2021/Sprint-eventor.xml
+M18,84,OK,,GER,Marek Siegert,959,high,2021/Sprint-eventor.xml
+M18,85,OK,,IRL,Liam Cotter,961,high,2021/Sprint-eventor.xml
+M18,86,OK,,ISR,Tal Zorea,966,high,2021/Sprint-eventor.xml
+M18,87,OK,,ISR,Roi Zigmond,980,high,2021/Sprint-eventor.xml
+M18,88,OK,,IRL,Eoghan Whelan,981,high,2021/Sprint-eventor.xml
+M18,89,OK,,POR,Afonso Ferreira,997,high,2021/Sprint-eventor.xml
+M18,90,OK,,BLR,Arseni Bedarau,1002,high,2021/Sprint-eventor.xml
+M18,91,OK,,BEL,Mathias Installe,1026,high,2021/Sprint-eventor.xml
+M18,92,OK,,ROU,Nandor Csis,1029,high,2021/Sprint-eventor.xml
+M18,93,OK,,BLR,Fedar Golubev,1058,high,2021/Sprint-eventor.xml
+M18,94,OK,,IRL,Daniel Earnshaw,1285,high,2021/Sprint-eventor.xml
+M18,,DSQ,,SWE,Albin Weiden,,high,2021/Sprint-eventor.xml
+M18,,DSQ,,HUN,Adam Balint,,high,2021/Sprint-eventor.xml
+M18,,DNF,,SVK,Andrej Miklos,,high,2021/Sprint-eventor.xml
+M18,,DSQ,,FRA,Romain Pichard,,high,2021/Sprint-eventor.xml
+M18,,DSQ,,TUR,Mehmet Deniz Alten,,high,2021/Sprint-eventor.xml
+M18,,DSQ,,NED,Carl Gustav Jongenburger,,high,2021/Sprint-eventor.xml
+M18,,DSQ,,GER,Marek Pompe,,high,2021/Sprint-eventor.xml
+M18,,DSQ,,RUS,Mark Tutynin,,high,2021/Sprint-eventor.xml
+M18,,DSQ,,GER,Anselm Reichenbach,,high,2021/Sprint-eventor.xml
+M18,,DSQ,,DEN,Mathias Buchgreitz,,high,2021/Sprint-eventor.xml
+W18,1,OK,,HUN,Viktoria Mag,826,high,2021/Sprint-eventor.xml
+W18,2,OK,,CZE,Marketa Mulickova,834,high,2021/Sprint-eventor.xml
+W18,3,OK,,FIN,Salla Isoherranen,844,high,2021/Sprint-eventor.xml
+W18,4,OK,,HUN,Boglarka Czako,850,high,2021/Sprint-eventor.xml
+W18,5,OK,,SWE,Elsa Sonesson,853,high,2021/Sprint-eventor.xml
+W18,6,OK,,SUI,Nina Hubmann,858,high,2021/Sprint-eventor.xml
+W18,7,OK,,FIN,Emilia Tala,865,high,2021/Sprint-eventor.xml
+W18,8,OK,,CZE,Ema Cerna,869,high,2021/Sprint-eventor.xml
+W18,9,OK,,POL,Hanna Sudol,874,high,2021/Sprint-eventor.xml
+W18,10,OK,,SUI,Rosa Bieri,886,high,2021/Sprint-eventor.xml
+W18,11,OK,,SUI,Lisa Hubmann,887,high,2021/Sprint-eventor.xml
+W18,12,OK,,CZE,Anna Marie Smutna,892,high,2021/Sprint-eventor.xml
+W18,13,OK,,FRA,Alix Villar,895,high,2021/Sprint-eventor.xml
+W18,14,OK,,FRA,Lucine Gintzburger,899,high,2021/Sprint-eventor.xml
+W18,15,OK,,SWE,Ida Bengtsson,900,high,2021/Sprint-eventor.xml
+W18,16,OK,,SUI,Alina Niggli,908,high,2021/Sprint-eventor.xml
+W18,17,OK,,UKR,Kristina Pashchenko,909,high,2021/Sprint-eventor.xml
+W18,18,OK,,FRA,Annabelle Delenne,919,high,2021/Sprint-eventor.xml
+W18,19,OK,,NOR,Elisa Gotsch Iversen,923,high,2021/Sprint-eventor.xml
+W18,20,OK,,SWE,Alma Svennerud,925,high,2021/Sprint-eventor.xml
+W18,21,OK,,NOR,Mathea Gloeersen,927,high,2021/Sprint-eventor.xml
+W18,22,OK,,DEN,Sigrid Hoeyer Staugaard,929,high,2021/Sprint-eventor.xml
+W18,23,OK,,NOR,Alva Marika Niklasson,931,high,2021/Sprint-eventor.xml
+W18,23,OK,,HUN,Lilla Zempleni,931,high,2021/Sprint-eventor.xml
+W18,23,OK,,RUS,Olesia Gladilkina,931,high,2021/Sprint-eventor.xml
+W18,26,OK,,UKR,Anastasiia Biliakova,937,high,2021/Sprint-eventor.xml
+W18,27,OK,,SLO,Katja Babic,940,high,2021/Sprint-eventor.xml
+W18,28,OK,,LAT,Leonarda Baltina,948,high,2021/Sprint-eventor.xml
+W18,29,OK,,FRA,Lilou Parigot,952,high,2021/Sprint-eventor.xml
+W18,30,OK,,DEN,Madsen Ida Riis,954,high,2021/Sprint-eventor.xml
+W18,31,OK,,ESP,Judit Ravell,956,high,2021/Sprint-eventor.xml
+W18,32,OK,,CZE,Ema Bulirova,961,high,2021/Sprint-eventor.xml
+W18,33,OK,,FIN,Katarina Sallila,963,high,2021/Sprint-eventor.xml
+W18,34,OK,,GER,Emma Caspari,964,high,2021/Sprint-eventor.xml
+W18,34,OK,,RUS,Kseniya Beskhmelnova,964,high,2021/Sprint-eventor.xml
+W18,36,OK,,BUL,Desislava Bahchevanova,966,high,2021/Sprint-eventor.xml
+W18,37,OK,,NOR,Mari Eidsmo,967,high,2021/Sprint-eventor.xml
+W18,38,OK,,POL,Adrianna Filipiak,969,high,2021/Sprint-eventor.xml
+W18,39,OK,,LTU,Ugne Skucaite,974,high,2021/Sprint-eventor.xml
+W18,40,OK,,RUS,Anastasiia Beliakova,977,high,2021/Sprint-eventor.xml
+W18,41,OK,,BEL,Lotte Tiesters,983,high,2021/Sprint-eventor.xml
+W18,42,OK,,SWE,Hanna Jonsell,985,high,2021/Sprint-eventor.xml
+W18,43,OK,,RUS,Anastasiya Kurova,989,high,2021/Sprint-eventor.xml
+W18,44,OK,,POL,Julia Krempinska,991,high,2021/Sprint-eventor.xml
+W18,45,OK,,BUL,Velina Koeva,999,high,2021/Sprint-eventor.xml
+W18,46,OK,,GER,Anne Kaestner,1001,high,2021/Sprint-eventor.xml
+W18,47,OK,,LAT,Zozefine Zavjalova,1007,high,2021/Sprint-eventor.xml
+W18,48,OK,,POL,Wiktoria Doren,1008,high,2021/Sprint-eventor.xml
+W18,49,OK,,HUN,Kamilla Kiss,1011,high,2021/Sprint-eventor.xml
+W18,50,OK,,AUT,Hannah Winkler,1016,high,2021/Sprint-eventor.xml
+W18,51,OK,,ISR,Omer Satt,1018,high,2021/Sprint-eventor.xml
+W18,52,OK,,GER,Pina Liselotte Mauch,1020,high,2021/Sprint-eventor.xml
+W18,53,OK,,ITA,Iris Aurora Pecorari,1022,high,2021/Sprint-eventor.xml
+W18,54,OK,,EST,Brigitte Panker,1024,high,2021/Sprint-eventor.xml
+W18,55,OK,,UKR,Yelyzaveta Ostapenko,1025,high,2021/Sprint-eventor.xml
+W18,56,OK,,AUT,Flora Aigmueller,1035,high,2021/Sprint-eventor.xml
+W18,57,OK,,AUT,Laura Koenig,1038,high,2021/Sprint-eventor.xml
+W18,58,OK,,ROU,Orsolya Palhegyi,1039,high,2021/Sprint-eventor.xml
+W18,58,OK,,GER,Lone Constanze Pompe,1039,high,2021/Sprint-eventor.xml
+W18,58,OK,,SVK,Petronela Filipova,1039,high,2021/Sprint-eventor.xml
+W18,61,OK,,BUL,Reneta Nenkova,1041,high,2021/Sprint-eventor.xml
+W18,62,OK,,ESP,Clara Virgili,1042,high,2021/Sprint-eventor.xml
+W18,63,OK,,LTU,Brigita Drazdauskaite,1046,high,2021/Sprint-eventor.xml
+W18,63,OK,,DEN,Xenia Bregensoee,1046,high,2021/Sprint-eventor.xml
+W18,65,OK,,ESP,Patricia Toledo,1053,high,2021/Sprint-eventor.xml
+W18,66,OK,,EST,Emma Joonas,1069,high,2021/Sprint-eventor.xml
+W18,67,OK,,ROU,Alexandra Roman,1077,high,2021/Sprint-eventor.xml
+W18,68,OK,,LTU,Emilija Tamoseviciute,1081,high,2021/Sprint-eventor.xml
+W18,69,OK,,SVK,Gabriela Trepacova,1088,high,2021/Sprint-eventor.xml
+W18,70,OK,,BLR,Yana Sauchanka,1092,high,2021/Sprint-eventor.xml
+W18,71,OK,,TUR,Duygu Yigen,1103,high,2021/Sprint-eventor.xml
+W18,72,OK,,EST,Eliise Keskula,1104,high,2021/Sprint-eventor.xml
+W18,72,OK,,BEL,Florine Durieux,1104,high,2021/Sprint-eventor.xml
+W18,74,OK,,SVK,Natalia Jezikova,1111,high,2021/Sprint-eventor.xml
+W18,75,OK,,TUR,Betul Onal,1124,high,2021/Sprint-eventor.xml
+W18,76,OK,,LAT,Agnese Jaunmuktane,1168,high,2021/Sprint-eventor.xml
+W18,77,OK,,GBR,Meadow McCauley,1172,high,2021/Sprint-eventor.xml
+W18,78,OK,,BLR,Alesia Dzichkouskaya,1190,high,2021/Sprint-eventor.xml
+W18,79,OK,,ROU,Alexandra Creciun,1192,high,2021/Sprint-eventor.xml
+W18,80,OK,,LAT,Laura Berke,1198,high,2021/Sprint-eventor.xml
+W18,81,OK,,BLR,Viktoria Karchashka,1209,high,2021/Sprint-eventor.xml
+W18,82,OK,,ROU,Bernadett Deak,1289,high,2021/Sprint-eventor.xml
+W18,,DSQ,,UKR,Veronika Arbuzova,,high,2021/Sprint-eventor.xml
+W18,,DSQ,,BLR,Palina Liaonava,,high,2021/Sprint-eventor.xml
+W18,,DSQ,,BUL,Miryana Boykova,,high,2021/Sprint-eventor.xml
+W18,,DSQ,,FIN,Inari Karppinen,,high,2021/Sprint-eventor.xml
+W18,,DSQ,,LTU,Aiste Dementaviciute,,high,2021/Sprint-eventor.xml
+W18,,DSQ,,DEN,Marie Moeller Nielsen,,high,2021/Sprint-eventor.xml
+W18,,DSQ,,ESP,Irene Guerrero,,high,2021/Sprint-eventor.xml
+M16,1,OK,,CZE,Jan Strycek,775,high,2021/Sprint-eventor.xml
+M16,2,OK,,DEN,Niels Dalgaard,791,high,2021/Sprint-eventor.xml
+M16,3,OK,,CZE,Dan Bolehovsky,797,high,2021/Sprint-eventor.xml
+M16,4,OK,,CZE,Jakub Racansky,798,high,2021/Sprint-eventor.xml
+M16,5,OK,,SUI,Loic Berger,801,high,2021/Sprint-eventor.xml
+M16,6,OK,,LTU,Kasparas Murenas,810,high,2021/Sprint-eventor.xml
+M16,7,OK,,HUN,Tamas Felfoldi,811,high,2021/Sprint-eventor.xml
+M16,8,OK,,DEN,Hannes Mogensen,815,high,2021/Sprint-eventor.xml
+M16,9,OK,,POL,Jedrzej Pachnik,816,high,2021/Sprint-eventor.xml
+M16,10,OK,,ESP,Gonzalez Nicolas Lopez,818,high,2021/Sprint-eventor.xml
+M16,11,OK,,SUI,Leander Wylenmann,822,high,2021/Sprint-eventor.xml
+M16,12,OK,,SUI,Elia Gartmann,825,high,2021/Sprint-eventor.xml
+M16,13,OK,,BEL,Jorn Kennis,826,high,2021/Sprint-eventor.xml
+M16,13,OK,,HUN,Marton Csoboth,826,high,2021/Sprint-eventor.xml
+M16,15,OK,,BEL,Clercq Rune de,827,high,2021/Sprint-eventor.xml
+M16,16,OK,,EST,Renno Merenakk,830,high,2021/Sprint-eventor.xml
+M16,16,OK,,FIN,Aapo Virkajarvi,830,high,2021/Sprint-eventor.xml
+M16,18,OK,,FRA,Arthur Perrin,832,high,2021/Sprint-eventor.xml
+M16,19,OK,,RUS,Ivan Martemyanov,836,high,2021/Sprint-eventor.xml
+M16,20,OK,,FIN,Pyry Riissanen,837,high,2021/Sprint-eventor.xml
+M16,21,OK,,BEL,Louis Bourgeois,838,high,2021/Sprint-eventor.xml
+M16,22,OK,,FIN,Anton Packalen,840,high,2021/Sprint-eventor.xml
+M16,23,OK,,SUI,Lukas Gasser,842,high,2021/Sprint-eventor.xml
+M16,24,OK,,EST,Chris Marcus Krahv,848,high,2021/Sprint-eventor.xml
+M16,24,OK,,FRA,Antoine Derlot,848,high,2021/Sprint-eventor.xml
+M16,24,OK,,POL,Bartlomiej MacIejewski,848,high,2021/Sprint-eventor.xml
+M16,27,OK,,ISR,Yoni Levinson,849,high,2021/Sprint-eventor.xml
+M16,28,OK,,ESP,Torras Bernat Selva,851,high,2021/Sprint-eventor.xml
+M16,29,OK,,ITA,Paride Gaio,855,high,2021/Sprint-eventor.xml
+M16,30,OK,,AUT,Jacopo Stoecher,857,high,2021/Sprint-eventor.xml
+M16,31,OK,,CZE,Simon Stehlik,858,high,2021/Sprint-eventor.xml
+M16,32,OK,,GER,Loic Dequiedt,864,high,2021/Sprint-eventor.xml
+M16,33,OK,,LAT,Audris Odo Vitolins,865,high,2021/Sprint-eventor.xml
+M16,34,OK,,HUN,Gergo Balint,867,high,2021/Sprint-eventor.xml
+M16,35,OK,,ROU,Ioan Iacob,870,high,2021/Sprint-eventor.xml
+M16,36,OK,,ESP,Diaz Alejandro Garrido,872,high,2021/Sprint-eventor.xml
+M16,37,OK,,TUR,Halil Ozdemir,874,high,2021/Sprint-eventor.xml
+M16,38,OK,,HUN,Miklos Barat,881,high,2021/Sprint-eventor.xml
+M16,38,OK,,SVK,Filip Jancik,881,high,2021/Sprint-eventor.xml
+M16,40,OK,,GER,Till Buchberger,883,high,2021/Sprint-eventor.xml
+M16,40,OK,,ESP,Font Jan Amat,883,high,2021/Sprint-eventor.xml
+M16,42,OK,,DEN,Mads Christian Maarup,885,high,2021/Sprint-eventor.xml
+M16,43,OK,,LAT,Edvards Krumins,887,high,2021/Sprint-eventor.xml
+M16,44,OK,,LTU,Salvijus Strole,890,high,2021/Sprint-eventor.xml
+M16,45,OK,,BUL,Lazar Milanov,891,high,2021/Sprint-eventor.xml
+M16,46,OK,,FRA,Baptiste Delorme,893,high,2021/Sprint-eventor.xml
+M16,47,OK,,UKR,Oleksandr Buhaiov,899,high,2021/Sprint-eventor.xml
+M16,47,OK,,EST,Ossi Rasmus Priks,899,high,2021/Sprint-eventor.xml
+M16,49,OK,,RUS,Pavel Bryzgalov,900,high,2021/Sprint-eventor.xml
+M16,50,OK,,LAT,Edvards Zvirgzdins,903,high,2021/Sprint-eventor.xml
+M16,50,OK,,LTU,Algirdas Dienys,903,high,2021/Sprint-eventor.xml
+M16,52,OK,,FRA,Yann Chabance,905,high,2021/Sprint-eventor.xml
+M16,52,OK,,SVK,Tomas Kasza,905,high,2021/Sprint-eventor.xml
+M16,54,OK,,ROU,Andrei Galateanu,906,high,2021/Sprint-eventor.xml
+M16,55,OK,,ITA,Pietro Sergas,908,high,2021/Sprint-eventor.xml
+M16,56,OK,,ITA,Mattia Corona,914,high,2021/Sprint-eventor.xml
+M16,57,OK,,POL,Tymoteusz Bultrowicz,915,high,2021/Sprint-eventor.xml
+M16,58,OK,,BUL,Djan Ahmedov,916,high,2021/Sprint-eventor.xml
+M16,59,OK,,BUL,Boyan Georgiev,917,high,2021/Sprint-eventor.xml
+M16,60,OK,,ISR,Omri Nussbaum,935,high,2021/Sprint-eventor.xml
+M16,61,OK,,BEL,Arnaud Mazy,936,high,2021/Sprint-eventor.xml
+M16,62,OK,,SVK,Tomas Syrovy,944,high,2021/Sprint-eventor.xml
+M16,62,OK,,BLR,Gleb Balabanov,944,high,2021/Sprint-eventor.xml
+M16,64,OK,,UKR,Oleksii Shyp,948,high,2021/Sprint-eventor.xml
+M16,65,OK,,GER,Jakob Oechler,951,high,2021/Sprint-eventor.xml
+M16,66,OK,,SVK,Filip Bukovac,956,high,2021/Sprint-eventor.xml
+M16,67,OK,,TUR,Altar Ilgaz Tuzcuogullari,958,high,2021/Sprint-eventor.xml
+M16,68,OK,,GER,David Saupe,959,high,2021/Sprint-eventor.xml
+M16,68,OK,,POR,Dinis Lopes,959,high,2021/Sprint-eventor.xml
+M16,70,OK,,RUS,Kirill Ponomarev,961,high,2021/Sprint-eventor.xml
+M16,70,OK,,RUS,Mikhail Maximenko,961,high,2021/Sprint-eventor.xml
+M16,72,OK,,UKR,Faddei Matin,963,high,2021/Sprint-eventor.xml
+M16,73,OK,,BLR,Aliaksandr Nekrashevich,966,high,2021/Sprint-eventor.xml
+M16,73,OK,,SLO,Nejc Turk,966,high,2021/Sprint-eventor.xml
+M16,75,OK,,LAT,Martins Dzenitis,974,high,2021/Sprint-eventor.xml
+M16,76,OK,,ROU,David Hreniuc,994,high,2021/Sprint-eventor.xml
+M16,77,OK,,BLR,Aliaksei Damanski,999,high,2021/Sprint-eventor.xml
+M16,78,OK,,AUT,Elias Monsberger,1008,high,2021/Sprint-eventor.xml
+M16,79,OK,,IRL,Brien Daire O,1021,high,2021/Sprint-eventor.xml
+M16,80,OK,,POR,Miguel Manso,1030,high,2021/Sprint-eventor.xml
+M16,81,OK,,SLO,Luka Seljak,1039,high,2021/Sprint-eventor.xml
+M16,82,OK,,ROU,Ervin Vigh,1046,high,2021/Sprint-eventor.xml
+M16,83,OK,,LTU,Tadas MacKevicius,1054,high,2021/Sprint-eventor.xml
+M16,84,OK,,EST,August Jakobson,1059,high,2021/Sprint-eventor.xml
+M16,85,OK,,AUT,Maximilian Rass,1146,high,2021/Sprint-eventor.xml
+M16,86,OK,,BUL,Velislav Dolchinkov,1191,high,2021/Sprint-eventor.xml
+M16,87,OK,,IRL,Dan Murphy,1202,high,2021/Sprint-eventor.xml
+M16,88,OK,,BLR,Ivan Labkovich,1235,high,2021/Sprint-eventor.xml
+M16,89,OK,,IRL,Oliver Okane,1314,high,2021/Sprint-eventor.xml
+M16,,DSQ,,POL,Jan Majowski,,high,2021/Sprint-eventor.xml
+M16,,DSQ,,FIN,Rasmus Toyryla,,high,2021/Sprint-eventor.xml
+M16,,DSQ,,DEN,Casper Blakskjaer,,high,2021/Sprint-eventor.xml
+M16,,DSQ,,IRL,Oscar Rowe,,high,2021/Sprint-eventor.xml
+M16,,DSQ,,ISR,Sahar Eshel,,high,2021/Sprint-eventor.xml
+M16,,DSQ,,UKR,Serafim Kovalchuk,,high,2021/Sprint-eventor.xml
+W16,1,OK,,HUN,Rita Maramarosi,731,high,2021/Sprint-eventor.xml
+W16,2,OK,,FIN,Silva Kemppi,763,high,2021/Sprint-eventor.xml
+W16,3,OK,,CZE,Lea Martanova,770,high,2021/Sprint-eventor.xml
+W16,4,OK,,FIN,Eeva Liina Ojanaho,783,high,2021/Sprint-eventor.xml
+W16,5,OK,,CZE,Michaela Novotna,785,high,2021/Sprint-eventor.xml
+W16,6,OK,,GER,Stanja Lindig,786,high,2021/Sprint-eventor.xml
+W16,7,OK,,RUS,Anastasiia Tonkovskaia,804,high,2021/Sprint-eventor.xml
+W16,8,OK,,AUT,Emily Adenstedt,805,high,2021/Sprint-eventor.xml
+W16,9,OK,,FRA,Alice Merat,814,high,2021/Sprint-eventor.xml
+W16,10,OK,,GER,Jule Rossner,815,high,2021/Sprint-eventor.xml
+W16,11,OK,,FIN,Elli Punto,817,high,2021/Sprint-eventor.xml
+W16,12,OK,,CZE,Lucie Dittrichova,832,high,2021/Sprint-eventor.xml
+W16,13,OK,,POL,Antonina Slonska,853,high,2021/Sprint-eventor.xml
+W16,14,OK,,FRA,Violette Dupuy,857,high,2021/Sprint-eventor.xml
+W16,15,OK,,EST,Harriet Koppel,859,high,2021/Sprint-eventor.xml
+W16,16,OK,,RUS,Olga Shmaylova,860,high,2021/Sprint-eventor.xml
+W16,17,OK,,SUI,Leonie Mathis,861,high,2021/Sprint-eventor.xml
+W16,18,OK,,SUI,Anna Stuedeli,863,high,2021/Sprint-eventor.xml
+W16,19,OK,,CZE,Michaela Metelkova,873,high,2021/Sprint-eventor.xml
+W16,20,OK,,HUN,Lili Lantai,877,high,2021/Sprint-eventor.xml
+W16,20,OK,,LTU,Migle Cincikaite,877,high,2021/Sprint-eventor.xml
+W16,22,OK,,UKR,Olha Bovkun,878,high,2021/Sprint-eventor.xml
+W16,23,OK,,SUI,Ladina Gasser,879,high,2021/Sprint-eventor.xml
+W16,24,OK,,POL,Iga Muller,882,high,2021/Sprint-eventor.xml
+W16,25,OK,,LTU,Neda Davidaviciute,888,high,2021/Sprint-eventor.xml
+W16,26,OK,,UKR,Myroslava Mizerniuk,892,high,2021/Sprint-eventor.xml
+W16,27,OK,,LAT,Sanda Lapina,895,high,2021/Sprint-eventor.xml
+W16,28,OK,,FIN,Virna Pellikka,896,high,2021/Sprint-eventor.xml
+W16,29,OK,,ESP,Miguel Armisen Monica de,897,high,2021/Sprint-eventor.xml
+W16,29,OK,,SUI,Minna Senn,897,high,2021/Sprint-eventor.xml
+W16,31,OK,,EST,Maria Eller,903,high,2021/Sprint-eventor.xml
+W16,32,OK,,GER,Marlene Fritz,907,high,2021/Sprint-eventor.xml
+W16,33,OK,,BEL,Sarah Rooman,911,high,2021/Sprint-eventor.xml
+W16,34,OK,,BUL,Karina Georgieva,922,high,2021/Sprint-eventor.xml
+W16,35,OK,,UKR,Anastasiia Khvorostian,923,high,2021/Sprint-eventor.xml
+W16,36,OK,,RUS,Iuliia Ivanova,929,high,2021/Sprint-eventor.xml
+W16,37,OK,,POL,Maja Lamparska,932,high,2021/Sprint-eventor.xml
+W16,38,OK,,DEN,Hornbaek Laura Kaldahl,933,high,2021/Sprint-eventor.xml
+W16,39,OK,,ESP,Sanjaume Guinedell Faja,937,high,2021/Sprint-eventor.xml
+W16,40,OK,,TUR,Aysa Asya Tuzcuogullari,938,high,2021/Sprint-eventor.xml
+W16,41,OK,,RUS,Anastasiia Lamova,940,high,2021/Sprint-eventor.xml
+W16,42,OK,,POL,Daria Mikula,941,high,2021/Sprint-eventor.xml
+W16,43,OK,,ITA,Giulia Gobber,943,high,2021/Sprint-eventor.xml
+W16,44,OK,,BLR,Uladzislava Bildziukevich,944,high,2021/Sprint-eventor.xml
+W16,45,OK,,FRA,Melissa Trochut,950,high,2021/Sprint-eventor.xml
+W16,46,OK,,HUN,Janka Mikes,951,high,2021/Sprint-eventor.xml
+W16,47,OK,,GER,Annika Stamer,955,high,2021/Sprint-eventor.xml
+W16,48,OK,,HUN,Laura Odor,964,high,2021/Sprint-eventor.xml
+W16,49,OK,,ROU,Tania Sabou,965,high,2021/Sprint-eventor.xml
+W16,50,OK,,IRL,Emily Rowe,966,high,2021/Sprint-eventor.xml
+W16,50,OK,,LAT,Anete Strauta,966,high,2021/Sprint-eventor.xml
+W16,50,OK,,AUT,Theresa Monsberger,966,high,2021/Sprint-eventor.xml
+W16,53,OK,,SVK,Ema Michacova,970,high,2021/Sprint-eventor.xml
+W16,54,OK,,BEL,Maija Taillieu,980,high,2021/Sprint-eventor.xml
+W16,55,OK,,BEL,Maya Renard,982,high,2021/Sprint-eventor.xml
+W16,56,OK,,FRA,Alyssia Wymer,983,high,2021/Sprint-eventor.xml
+W16,57,OK,,LAT,Aiga Strazdina,984,high,2021/Sprint-eventor.xml
+W16,58,OK,,BUL,Raya Asenova,985,high,2021/Sprint-eventor.xml
+W16,59,OK,,TUR,Sude Naz Kulah,989,high,2021/Sprint-eventor.xml
+W16,60,OK,,SVK,Kamila Pompurova,991,high,2021/Sprint-eventor.xml
+W16,60,OK,,BLR,Sofya Karelina,991,high,2021/Sprint-eventor.xml
+W16,62,OK,,SVK,Tereza Kendrova,996,high,2021/Sprint-eventor.xml
+W16,63,OK,,LTU,Margarita Dienyte,997,high,2021/Sprint-eventor.xml
+W16,64,OK,,AUT,Livia Radon,1001,high,2021/Sprint-eventor.xml
+W16,65,OK,,ROU,Andreea Manu,1008,high,2021/Sprint-eventor.xml
+W16,66,OK,,ITA,Alessia Rigoni,1009,high,2021/Sprint-eventor.xml
+W16,67,OK,,POR,Joana Canana,1011,high,2021/Sprint-eventor.xml
+W16,67,OK,,BUL,Emili Aleksandrova,1011,high,2021/Sprint-eventor.xml
+W16,67,OK,,ESP,del Campo Alba Munoz,1011,high,2021/Sprint-eventor.xml
+W16,70,OK,,POR,Leonor Ferreira,1029,high,2021/Sprint-eventor.xml
+W16,71,OK,,BEL,Lea Installe,1031,high,2021/Sprint-eventor.xml
+W16,71,OK,,LTU,Goda Ziaziulyte,1031,high,2021/Sprint-eventor.xml
+W16,73,OK,,BLR,Hanna Hurskaya,1037,high,2021/Sprint-eventor.xml
+W16,74,OK,,LAT,Ruta Dabolina,1078,high,2021/Sprint-eventor.xml
+W16,75,OK,,UKR,Tetiana Petruniak,1101,high,2021/Sprint-eventor.xml
+W16,76,OK,,EST,Mareli Vaher,1111,high,2021/Sprint-eventor.xml
+W16,77,OK,,AUT,Camilla Aigmueller,1115,high,2021/Sprint-eventor.xml
+W16,78,OK,,ROU,Iulia Stupu,1129,high,2021/Sprint-eventor.xml
+W16,79,OK,,BUL,Ivana Pedeva,1149,high,2021/Sprint-eventor.xml
+W16,80,OK,,BLR,Katsiaryna Dzichkouskaya,1158,high,2021/Sprint-eventor.xml
+W16,81,OK,,DEN,Sigrid Oehlenschlaeger Nielsen,1195,high,2021/Sprint-eventor.xml
+W16,82,OK,,SVK,Rebecca Herna,1241,high,2021/Sprint-eventor.xml
+W16,,DSQ,,ROU,Alexia Tudorache,,high,2021/Sprint-eventor.xml
+W16,,DSQ,,ESP,Julia Faure,,high,2021/Sprint-eventor.xml
+W16,,DSQ,,DEN,Augusta May Thorsen,,high,2021/Sprint-eventor.xml
+W16,,DSQ,,ITA,Nastja Ferluga,,high,2021/Sprint-eventor.xml
+W16,,DSQ,,DEN,Emilie Skov Dalgaard,,high,2021/Sprint-eventor.xml
+W16,,DSQ,,ITA,Elis Angeli,,high,2021/Sprint-eventor.xml

@@ -1,0 +1,377 @@
+class,rank,status,bib,country,name,time_seconds,confidence,source_file
+M16,1,OK,,FIN,Touko Seppa,618,high,2018/results-sprint.pdf
+M16,2,OK,,CZE,Simon Marecek,647,high,2018/results-sprint.pdf
+M16,3,OK,,POR,Vasco Mendes,664,high,2018/results-sprint.pdf
+M16,4,OK,,SUI,Janis Hutzli,668,high,2018/results-sprint.pdf
+M16,5,OK,,ESP,Pablo Ferrando Galan,673,high,2018/results-sprint.pdf
+M16,6,OK,,RUS,Dmitrii Stepanov,674,high,2018/results-sprint.pdf
+M16,6,OK,,RUS,Daniil Fomin,674,high,2018/results-sprint.pdf
+M16,8,OK,,ESP,Gustav Wiren Gonzalez,676,high,2018/results-sprint.pdf
+M16,9,OK,,AUT,Kilian Trummer,679,high,2018/results-sprint.pdf
+M16,10,OK,,CZE,Jakub Chaloupsky,680,high,2018/results-sprint.pdf
+M16,11,OK,,POL,Stanislaw Kurzyp,687,high,2018/results-sprint.pdf
+M16,12,OK,,ISR,Matan Ivri,688,high,2018/results-sprint.pdf
+M16,13,OK,,ISR,Rotem Yasur,689,high,2018/results-sprint.pdf
+M16,13,OK,,HUN,Zoltan Bujdoso,689,high,2018/results-sprint.pdf
+M16,13,OK,,FIN,Aarni Ronkainen,689,high,2018/results-sprint.pdf
+M16,13,OK,,RUS,Mikhail Beliakov,689,high,2018/results-sprint.pdf
+M16,17,OK,,CZE,Lukas Vitebsky,690,high,2018/results-sprint.pdf
+M16,18,OK,,SUI,Simon Hamel,695,high,2018/results-sprint.pdf
+M16,19,OK,,GBR,Matthew Gooch,699,high,2018/results-sprint.pdf
+M16,20,OK,,UKR,Illia Nahornyi,702,high,2018/results-sprint.pdf
+M16,21,OK,,RUS,Daniil Sorokin,707,high,2018/results-sprint.pdf
+M16,22,OK,,ESP,Florencio Garcia,710,high,2018/results-sprint.pdf
+M16,23,OK,,DEN,Oscar David Brom Jensen,711,high,2018/results-sprint.pdf
+M16,23,OK,,POR,Rodrigo Oliveira,711,high,2018/results-sprint.pdf
+M16,25,OK,,GBR,Peter Molloy,712,high,2018/results-sprint.pdf
+M16,26,OK,,FRA,Thomas Radondy,717,high,2018/results-sprint.pdf
+M16,27,OK,,FRA,Basile Basset,721,high,2018/results-sprint.pdf
+M16,28,OK,,CZE,Jan Rucker,732,high,2018/results-sprint.pdf
+M16,28,OK,,GER,Lucas Imbsweiler,732,high,2018/results-sprint.pdf
+M16,30,OK,,GBR,Flurry Grierson,733,high,2018/results-sprint.pdf
+M16,31,OK,,ITA,Lorenzo Brunet,737,high,2018/results-sprint.pdf
+M16,31,OK,,LAT,Ralfs Janis Eizvertins,737,high,2018/results-sprint.pdf
+M16,33,OK,,DEN,Jonas Gabs,738,high,2018/results-sprint.pdf
+M16,33,OK,,GER,Martin Scheuermann,738,high,2018/results-sprint.pdf
+M16,35,OK,,ITA,Marco Orler,739,high,2018/results-sprint.pdf
+M16,36,OK,,LTU,Augusts Velde,748,high,2018/results-sprint.pdf
+M16,36,OK,,HUN,Aron Szuromi,748,high,2018/results-sprint.pdf
+M16,38,OK,,SUI,Andrin Sutter,750,high,2018/results-sprint.pdf
+M16,39,OK,,SUI,Dominic Schacher,751,high,2018/results-sprint.pdf
+M16,39,OK,,POL,Mateusz Kula,751,high,2018/results-sprint.pdf
+M16,41,OK,,POL,Grzegorz Porzycz,755,high,2018/results-sprint.pdf
+M16,42,OK,,ROU,Alexandru Catana,757,high,2018/results-sprint.pdf
+M16,43,OK,,BUL,Aleksandar Ivanov,760,high,2018/results-sprint.pdf
+M16,44,OK,,ESP,Marcos Bernabeu Carbonell,765,high,2018/results-sprint.pdf
+M16,45,OK,,SVK,Tomas Sipos,771,high,2018/results-sprint.pdf
+M16,46,OK,,FRA,Romain Discher,772,high,2018/results-sprint.pdf
+M16,47,OK,,GER,Konrad Stamer,774,high,2018/results-sprint.pdf
+M16,48,OK,,LAT,Jekabs Locmelis,775,high,2018/results-sprint.pdf
+M16,49,OK,,BEL,Liam Thiels,777,high,2018/results-sprint.pdf
+M16,50,OK,,HUN,Peter Gonczi,778,high,2018/results-sprint.pdf
+M16,51,OK,,ISR,Gilad Yarden,781,high,2018/results-sprint.pdf
+M16,52,OK,,BUL,Preslav Shterev,785,high,2018/results-sprint.pdf
+M16,52,OK,,LAT,Karlis Stradins,785,high,2018/results-sprint.pdf
+M16,54,OK,,EST,Ragnar Rooba,786,high,2018/results-sprint.pdf
+M16,55,OK,,SVK,Martin Rohac,788,high,2018/results-sprint.pdf
+M16,55,OK,,POL,Jan Sztranek,788,high,2018/results-sprint.pdf
+M16,57,OK,,FIN,Aaro Ojala,790,high,2018/results-sprint.pdf
+M16,57,OK,,GER,Konstantin Kunckel,790,high,2018/results-sprint.pdf
+M16,59,OK,,LTU,Tadas Dementavicius,798,high,2018/results-sprint.pdf
+M16,59,OK,,UKR,Vladyslav Arbuzov,798,high,2018/results-sprint.pdf
+M16,61,OK,,DEN,Lukas Kjaer Hemmingsen,799,high,2018/results-sprint.pdf
+M16,62,OK,,UKR,Maksym Nesterenko,800,high,2018/results-sprint.pdf
+M16,63,OK,,SVK,Tibor Fedor,816,high,2018/results-sprint.pdf
+M16,63,OK,,LTU,Adomas Casas,816,high,2018/results-sprint.pdf
+M16,65,OK,,AUT,Leon Ebster,821,high,2018/results-sprint.pdf
+M16,66,OK,,LTU,Andojas Lapinskas,829,high,2018/results-sprint.pdf
+M16,67,OK,,SVK,Lukas Novota,832,high,2018/results-sprint.pdf
+M16,68,OK,,ITA,Ilian Angeli,834,high,2018/results-sprint.pdf
+M16,69,OK,,TUR,Ugur Ustundag,837,high,2018/results-sprint.pdf
+M16,70,OK,,HUN,Benedek Balint,840,high,2018/results-sprint.pdf
+M16,71,OK,,UKR,Tymofii Teremetskyi,843,high,2018/results-sprint.pdf
+M16,72,OK,,BUL,Nikolay Nedkov,845,high,2018/results-sprint.pdf
+M16,73,OK,,FRA,Nathan Marchand,849,high,2018/results-sprint.pdf
+M16,74,OK,,FIN,Riku Grohn,850,high,2018/results-sprint.pdf
+M16,75,OK,,LAT,Matiss Saulite,859,high,2018/results-sprint.pdf
+M16,76,OK,,EST,Jurgen Joonas,863,high,2018/results-sprint.pdf
+M16,77,OK,,BEL,Antoine Mattart,866,high,2018/results-sprint.pdf
+M16,78,OK,,ISR,Nadav Nussbaum,868,high,2018/results-sprint.pdf
+M16,78,OK,,AUT,Peter Brabek,868,high,2018/results-sprint.pdf
+M16,80,OK,,ROU,Catalin Vadean,871,high,2018/results-sprint.pdf
+M16,81,OK,,POR,Pedro Peralta,882,high,2018/results-sprint.pdf
+M16,81,OK,,EST,Mihkel Mahla,882,high,2018/results-sprint.pdf
+M16,83,OK,,TUR,Ahmet Tarik Deniz,894,high,2018/results-sprint.pdf
+M16,84,OK,,DEN,Theis Munktved,897,high,2018/results-sprint.pdf
+M16,85,OK,,BEL,Jonas Jansen,918,high,2018/results-sprint.pdf
+M16,86,OK,,TUR,Ahmet Ozbey,925,high,2018/results-sprint.pdf
+M16,87,OK,,SLO,Natan Maj Pozenel,933,high,2018/results-sprint.pdf
+M16,88,OK,,IRL,Peter Reed,935,high,2018/results-sprint.pdf
+M16,89,OK,,CRO,Jan Gobec,977,high,2018/results-sprint.pdf
+M16,90,OK,,IRL,Liam Cotter,979,high,2018/results-sprint.pdf
+M16,91,OK,,ROU,Andrei Galateanu,991,high,2018/results-sprint.pdf
+M16,92,OK,,TUR,Umit Ustundag,999,high,2018/results-sprint.pdf
+M16,93,OK,,EST,Samuel Kolsar,1008,high,2018/results-sprint.pdf
+M16,94,OK,,ROU,Nandor Csis,1035,high,2018/results-sprint.pdf
+M18,1,OK,,SWE,Samuel Pihlstrom,724,high,2018/results-sprint.pdf
+M18,2,OK,,FIN,Mikko Eerola,729,high,2018/results-sprint.pdf
+M18,3,OK,,FIN,Teemu Oksanen,737,high,2018/results-sprint.pdf
+M18,4,OK,,SUI,Jonas Soldini,740,high,2018/results-sprint.pdf
+M18,5,OK,,GER,Riccardo Casanova,749,high,2018/results-sprint.pdf
+M18,6,OK,,FRA,Quentin Andrieux,752,high,2018/results-sprint.pdf
+M18,7,OK,,ITA,Mattia Scopel,762,high,2018/results-sprint.pdf
+M18,8,OK,,SUI,Manuele Ren,766,high,2018/results-sprint.pdf
+M18,9,OK,,NOR,Isak Jonsson,767,high,2018/results-sprint.pdf
+M18,10,OK,,CZE,Martin Roudny,768,high,2018/results-sprint.pdf
+M18,11,OK,,NOR,Niels Christian Hellerud,770,high,2018/results-sprint.pdf
+M18,11,OK,,SWE,Emil Auselius,770,high,2018/results-sprint.pdf
+M18,13,OK,,ESP,Alvaro Casado,771,high,2018/results-sprint.pdf
+M18,14,OK,,ITA,Damiano Bettega,774,high,2018/results-sprint.pdf
+M18,15,OK,,FIN,Leo Matinheikki,777,high,2018/results-sprint.pdf
+M18,16,OK,,POR,Tomas Lima,786,high,2018/results-sprint.pdf
+M18,16,OK,,GBR,Alastair Thomas,786,high,2018/results-sprint.pdf
+M18,18,OK,,FRA,Mathis Gennaro,788,high,2018/results-sprint.pdf
+M18,19,OK,,NOR,Henrik Fredrikse Aas,790,high,2018/results-sprint.pdf
+M18,20,OK,,RUS,Anton Lukashevich,791,high,2018/results-sprint.pdf
+M18,21,OK,,SUI,David Zuercher,792,high,2018/results-sprint.pdf
+M18,21,OK,,AUT,Jakob Wolfram,792,high,2018/results-sprint.pdf
+M18,23,OK,,SUI,Elio Bolliger,795,high,2018/results-sprint.pdf
+M18,24,OK,,FRA,Julien Vuitton,797,high,2018/results-sprint.pdf
+M18,25,OK,,HUN,Csongor Horvath,798,high,2018/results-sprint.pdf
+M18,26,OK,,SWE,Elias Tidevall,799,high,2018/results-sprint.pdf
+M18,27,OK,,BUL,Petar Borisov,803,high,2018/results-sprint.pdf
+M18,28,OK,,FRA,Kylian Wymer,805,high,2018/results-sprint.pdf
+M18,29,OK,,EST,Kaarel Vesilind,806,high,2018/results-sprint.pdf
+M18,30,OK,,DEN,Morten Ornhagen Jorgensen,810,high,2018/results-sprint.pdf
+M18,31,OK,,SVK,Tobias Goldschmidt,811,high,2018/results-sprint.pdf
+M18,32,OK,,EST,Hando Allmann,823,high,2018/results-sprint.pdf
+M18,32,OK,,AUT,Leo Holper,823,high,2018/results-sprint.pdf
+M18,34,OK,,HUN,Marcell Szabo,825,high,2018/results-sprint.pdf
+M18,35,OK,,RUS,Nikolai Kudriavtcev,828,high,2018/results-sprint.pdf
+M18,35,OK,,LAT,Fricis Spektors,828,high,2018/results-sprint.pdf
+M18,37,OK,,ISR,Rotem Yogev,829,high,2018/results-sprint.pdf
+M18,37,OK,,GER,Anton Silier,829,high,2018/results-sprint.pdf
+M18,39,OK,,BUL,Valentin Neykov,830,high,2018/results-sprint.pdf
+M18,40,OK,,UKR,Mykyta Zviahin,831,high,2018/results-sprint.pdf
+M18,41,OK,,NOR,Sander Arntzen,837,high,2018/results-sprint.pdf
+M18,42,OK,,BEL,Guillaume Eyen,840,high,2018/results-sprint.pdf
+M18,43,OK,,HUN,Ferenc Jonas,842,high,2018/results-sprint.pdf
+M18,44,OK,,UKR,Bohdan Griaziev,843,high,2018/results-sprint.pdf
+M18,45,OK,,LAT,Rihards Krumins,848,high,2018/results-sprint.pdf
+M18,46,OK,,ITA,Nikolas Loss,852,high,2018/results-sprint.pdf
+M18,47,OK,,HUN,Ambrus Demeter,854,high,2018/results-sprint.pdf
+M18,48,OK,,BUL,Toma Kotkov,856,high,2018/results-sprint.pdf
+M18,49,OK,,GBR,Daniel Spencer,862,high,2018/results-sprint.pdf
+M18,49,OK,,FIN,Niklas Heikkila,862,high,2018/results-sprint.pdf
+M18,51,OK,,CZE,Jan Rusin,864,high,2018/results-sprint.pdf
+M18,52,OK,,POL,Piotr Rzenca,867,high,2018/results-sprint.pdf
+M18,53,OK,,RUS,Konstantin Seleznev,874,high,2018/results-sprint.pdf
+M18,54,OK,,POL,Michal Krzysztynski,883,high,2018/results-sprint.pdf
+M18,54,OK,,ISR,Sela Zamir,883,high,2018/results-sprint.pdf
+M18,56,OK,,DEN,Lasse Falck Weber,889,high,2018/results-sprint.pdf
+M18,57,OK,,EST,Kustu Kunnapas,890,high,2018/results-sprint.pdf
+M18,58,OK,,EST,Sander Pritsik,894,high,2018/results-sprint.pdf
+M18,59,OK,,LTU,Adomas Repsys,895,high,2018/results-sprint.pdf
+M18,60,OK,,LAT,Rihards Gailis,898,high,2018/results-sprint.pdf
+M18,61,OK,,POL,Dawid Kalisiak,904,high,2018/results-sprint.pdf
+M18,62,OK,,GBR,David Bunn,909,high,2018/results-sprint.pdf
+M18,62,OK,,RUS,Artemiy Dorma,909,high,2018/results-sprint.pdf
+M18,64,OK,,POL,Mikolaj Krawczynski,914,high,2018/results-sprint.pdf
+M18,65,OK,,ESP,Juan Sanz,915,high,2018/results-sprint.pdf
+M18,66,OK,,GER,Erik Scheuermann,920,high,2018/results-sprint.pdf
+M18,67,OK,,LTU,Dovydas Kausakys,924,high,2018/results-sprint.pdf
+M18,68,OK,,CZE,Sebastian Filipek,929,high,2018/results-sprint.pdf
+M18,69,OK,,ESP,David Rojas,936,high,2018/results-sprint.pdf
+M18,70,OK,,AUT,Lukas Novak,939,high,2018/results-sprint.pdf
+M18,70,OK,,POR,Tiago Lampreia,939,high,2018/results-sprint.pdf
+M18,72,OK,,ESP,Miguel Garrido Corral,940,high,2018/results-sprint.pdf
+M18,73,OK,,BEL,Cedric Amerijckx,947,high,2018/results-sprint.pdf
+M18,74,OK,,ROU,Lorand Vigh,950,high,2018/results-sprint.pdf
+M18,75,OK,,GER,Carlo Wengler,952,high,2018/results-sprint.pdf
+M18,76,OK,,TUR,Ismail Alp Arslan,960,high,2018/results-sprint.pdf
+M18,77,OK,,ISR,Amir Zur,971,high,2018/results-sprint.pdf
+M18,78,OK,,SRB,Dusan Markovic,976,high,2018/results-sprint.pdf
+M18,79,OK,,SVK,Adam Jonas,983,high,2018/results-sprint.pdf
+M18,80,OK,,POR,Andre Henriques,984,high,2018/results-sprint.pdf
+M18,81,OK,,LTU,Darius Mitrikas,990,high,2018/results-sprint.pdf
+M18,82,OK,,TUR,Mustafa Ali Turkmenoglu,991,high,2018/results-sprint.pdf
+M18,83,OK,,SVK,Daniel Pompura,994,high,2018/results-sprint.pdf
+M18,84,OK,,MDA,Lucian Mirza,1003,high,2018/results-sprint.pdf
+M18,85,OK,,ISR,Dror Uzan,1010,high,2018/results-sprint.pdf
+M18,86,OK,,UKR,Andrii Lypa,1015,high,2018/results-sprint.pdf
+M18,87,OK,,ROU,Csongor Szikszai,1022,high,2018/results-sprint.pdf
+M18,88,OK,,BEL,Simon Arno,1023,high,2018/results-sprint.pdf
+M18,89,OK,,IRL,Dan McDonnell,1025,high,2018/results-sprint.pdf
+M18,90,OK,,SRB,Marko Radovanovic,1027,high,2018/results-sprint.pdf
+M18,91,OK,,CRO,Jura Kukec,1036,high,2018/results-sprint.pdf
+M18,92,OK,,LAT,Davis Solmanis,1040,high,2018/results-sprint.pdf
+M18,93,OK,,TUR,Ahmet Yasin Temel,1045,high,2018/results-sprint.pdf
+M18,94,OK,,SLO,Tjaz Gantar,1046,high,2018/results-sprint.pdf
+M18,95,OK,,ROU,Ionut Crisan,1056,high,2018/results-sprint.pdf
+M18,96,OK,,TUR,Hami Emircan Aydin,1059,high,2018/results-sprint.pdf
+M18,97,OK,,POR,Pedro Moniz,1061,high,2018/results-sprint.pdf
+M18,98,OK,,LTU,Rokas Barauskas,1074,high,2018/results-sprint.pdf
+M18,99,OK,,SVK,Medard Feder,1108,high,2018/results-sprint.pdf
+M18,100,OK,,IRL,Aidan McCullough,1150,high,2018/results-sprint.pdf
+M18,101,OK,,IRL,Andrew Elwood,1171,high,2018/results-sprint.pdf
+M18,102,OK,,UKR,Mykhailo Piddubnyi,1217,high,2018/results-sprint.pdf
+M18,103,OK,,IRL,Cathal Lane,1232,high,2018/results-sprint.pdf
+M18,104,OK,,MKD,David Trajkoski,1653,high,2018/results-sprint.pdf
+W16,1,OK,,GBR,Megan Keith,614,high,2018/results-sprint.pdf
+W16,2,OK,,SUI,Lilly Graber,648,high,2018/results-sprint.pdf
+W16,2,OK,,SVK,Tamara Miklusova,648,high,2018/results-sprint.pdf
+W16,4,OK,,BUL,Niya Georgieva,650,high,2018/results-sprint.pdf
+W16,5,OK,,UKR,Feia Tsyvilska,659,high,2018/results-sprint.pdf
+W16,5,OK,,SUI,Alina Niggli,659,high,2018/results-sprint.pdf
+W16,7,OK,,BUL,Yasna Petrova,671,high,2018/results-sprint.pdf
+W16,8,OK,,CZE,Tereza Chrastova,672,high,2018/results-sprint.pdf
+W16,8,OK,,FIN,Salla Isoherranen,672,high,2018/results-sprint.pdf
+W16,10,OK,,FIN,Elisa Mattila,673,high,2018/results-sprint.pdf
+W16,11,OK,,FIN,Hanne Hilo,674,high,2018/results-sprint.pdf
+W16,12,OK,,SUI,Mirjam Wuersten,678,high,2018/results-sprint.pdf
+W16,13,OK,,RUS,Maria Toman,680,high,2018/results-sprint.pdf
+W16,14,OK,,HUN,Boglarka Czako,689,high,2018/results-sprint.pdf
+W16,15,OK,,CZE,Marketa Mulickova,692,high,2018/results-sprint.pdf
+W16,16,OK,,CZE,Michaela Dittrichova,693,high,2018/results-sprint.pdf
+W16,17,OK,,AUT,Anna Groell,694,high,2018/results-sprint.pdf
+W16,18,OK,,SUI,Sanna Hotz,697,high,2018/results-sprint.pdf
+W16,19,OK,,BUL,Evangelina Dyaksova,699,high,2018/results-sprint.pdf
+W16,20,OK,,ESP,Nerea Gonzalez,700,high,2018/results-sprint.pdf
+W16,21,OK,,AUT,Maya Kastner,709,high,2018/results-sprint.pdf
+W16,22,OK,,LAT,Kristine Brunere,712,high,2018/results-sprint.pdf
+W16,23,OK,,SLO,Katja Babic,713,high,2018/results-sprint.pdf
+W16,24,OK,,POL,Zuzanna Gielec,716,high,2018/results-sprint.pdf
+W16,25,OK,,LAT,Aija Denija Trezina,717,high,2018/results-sprint.pdf
+W16,26,OK,,CZE,Anna Karlova,725,high,2018/results-sprint.pdf
+W16,27,OK,,UKR,Anastasiia Biliakova,729,high,2018/results-sprint.pdf
+W16,28,OK,,SVK,Luboslava Weissova,730,high,2018/results-sprint.pdf
+W16,29,OK,,DEN,Siri Simonsen,733,high,2018/results-sprint.pdf
+W16,30,OK,,FRA,Romane Lesquer,736,high,2018/results-sprint.pdf
+W16,31,OK,,HUN,Lilla Zempleni,744,high,2018/results-sprint.pdf
+W16,32,OK,,BEL,Laurence Defraigne,748,high,2018/results-sprint.pdf
+W16,33,OK,,POL,Julia Krempinska,750,high,2018/results-sprint.pdf
+W16,34,OK,,GBR,Lizzie Stansfield,751,high,2018/results-sprint.pdf
+W16,34,OK,,HUN,Viktoria Mag,751,high,2018/results-sprint.pdf
+W16,34,OK,,FRA,Lucie Lataste,751,high,2018/results-sprint.pdf
+W16,37,OK,,LAT,Elza Kuze,754,high,2018/results-sprint.pdf
+W16,38,OK,,FIN,Liisa Peltonen,757,high,2018/results-sprint.pdf
+W16,39,OK,,FRA,Tifenn Moulet,761,high,2018/results-sprint.pdf
+W16,40,OK,,FRA,Diane Body,762,high,2018/results-sprint.pdf
+W16,41,OK,,GER,Josephine Mueller,763,high,2018/results-sprint.pdf
+W16,42,OK,,EST,Anita Laanejoe,771,high,2018/results-sprint.pdf
+W16,43,OK,,RUS,Anna Klementyeva,772,high,2018/results-sprint.pdf
+W16,43,OK,,GER,Lina Buchberger,772,high,2018/results-sprint.pdf
+W16,45,OK,,HUN,Petra Kishanti,774,high,2018/results-sprint.pdf
+W16,46,OK,,ESP,Laura Fidalgo Casares,775,high,2018/results-sprint.pdf
+W16,47,OK,,AUT,Sofia Calvet,790,high,2018/results-sprint.pdf
+W16,47,OK,,CRO,Olga Jerkovic Peric,790,high,2018/results-sprint.pdf
+W16,49,OK,,SVK,Dorota Smelikova,793,high,2018/results-sprint.pdf
+W16,49,OK,,RUS,Oksana Zhuravleva,793,high,2018/results-sprint.pdf
+W16,51,OK,,GER,Luise Steinert,801,high,2018/results-sprint.pdf
+W16,52,OK,,ITA,Giulia Rigoni,808,high,2018/results-sprint.pdf
+W16,53,OK,,LAT,Anna Emilija Suta,816,high,2018/results-sprint.pdf
+W16,54,OK,,UKR,Olha Hupalo,819,high,2018/results-sprint.pdf
+W16,55,OK,,ROU,Judit Divin,826,high,2018/results-sprint.pdf
+W16,56,OK,,ITA,Debora Dalfollo,828,high,2018/results-sprint.pdf
+W16,57,OK,,LTU,Gabriele Tirlikaite,830,high,2018/results-sprint.pdf
+W16,57,OK,,GER,Kayla Ritzenthaler,830,high,2018/results-sprint.pdf
+W16,59,OK,,ROU,Alexandra Roman,833,high,2018/results-sprint.pdf
+W16,60,OK,,BEL,Julia Krekels,834,high,2018/results-sprint.pdf
+W16,60,OK,,LTU,Ugne Skucaite,834,high,2018/results-sprint.pdf
+W16,62,OK,,DEN,Elanor Henriksen,837,high,2018/results-sprint.pdf
+W16,63,OK,,SLO,Teja Tusar,840,high,2018/results-sprint.pdf
+W16,64,OK,,TUR,Gulce Celik,846,high,2018/results-sprint.pdf
+W16,65,OK,,UKR,Anastasiia Paniukova,847,high,2018/results-sprint.pdf
+W16,66,OK,,BEL,Kato Keuppens,850,high,2018/results-sprint.pdf
+W16,67,OK,,SLO,Ana Pia Pogacar,855,high,2018/results-sprint.pdf
+W16,68,OK,,ITA,Karin Sanna,858,high,2018/results-sprint.pdf
+W16,69,OK,,ESP,Ana Caro Paton,864,high,2018/results-sprint.pdf
+W16,70,OK,,LTU,Beatrice Karlonaite,875,high,2018/results-sprint.pdf
+W16,70,OK,,LTU,Kristina Siaulyte,875,high,2018/results-sprint.pdf
+W16,72,OK,,DEN,Camille Marie Na Juhl,877,high,2018/results-sprint.pdf
+W16,73,OK,,DEN,Eva Ornhagen Jorgensen,890,high,2018/results-sprint.pdf
+W16,74,OK,,ITA,Annarita Scalzotto,893,high,2018/results-sprint.pdf
+W16,75,OK,,SLO,Tina Kern,906,high,2018/results-sprint.pdf
+W16,76,OK,,EST,Johanna Laanoja,908,high,2018/results-sprint.pdf
+W16,77,OK,,BEL,Gaelle Fronhoffs,909,high,2018/results-sprint.pdf
+W16,78,OK,,POR,Ana Pacheco,911,high,2018/results-sprint.pdf
+W16,79,OK,,EST,Helena Maripuu,934,high,2018/results-sprint.pdf
+W16,80,OK,,SVK,Sandra Ivankova,937,high,2018/results-sprint.pdf
+W16,81,OK,,CRO,Paula Pavlin,944,high,2018/results-sprint.pdf
+W16,82,OK,,ESP,Lucia Misas Bernardino,949,high,2018/results-sprint.pdf
+W16,83,OK,,BUL,Velina Koeva,950,high,2018/results-sprint.pdf
+W16,84,OK,,POL,Agnieszka Lesnicka,996,high,2018/results-sprint.pdf
+W16,85,OK,,EST,Siiri Talts,1002,high,2018/results-sprint.pdf
+W16,86,OK,,TUR,Beyzanur Kaplan,1007,high,2018/results-sprint.pdf
+W16,87,OK,,RUS,Taisiia Khokhlova,1025,high,2018/results-sprint.pdf
+W16,88,OK,,IRL,Cliodhna Donaghy,1077,high,2018/results-sprint.pdf
+W16,89,OK,,TUR,Melike Aydin,1109,high,2018/results-sprint.pdf
+W16,90,OK,,POR,Maria Do Mar,1123,high,2018/results-sprint.pdf
+W16,91,OK,,ROU,Daria Galateanu,1242,high,2018/results-sprint.pdf
+W16,92,OK,,ROU,Reka Raduly,1300,high,2018/results-sprint.pdf
+W16,93,OK,,MKD,Anastasija Ristova,1814,high,2018/results-sprint.pdf
+W16,94,OK,,MKD,Melanija Ristova,2653,high,2018/results-sprint.pdf
+W18,1,OK,,HUN,Csilla Gardonyi,712,high,2018/results-sprint.pdf
+W18,2,OK,,SUI,Katja Bruetsch,753,high,2018/results-sprint.pdf
+W18,3,OK,,AUT,Marie Maier,757,high,2018/results-sprint.pdf
+W18,4,OK,,FIN,Ida Haapala,761,high,2018/results-sprint.pdf
+W18,5,OK,,BUL,Andreya Dyaksova,765,high,2018/results-sprint.pdf
+W18,6,OK,,FIN,Venla Taulavuori,791,high,2018/results-sprint.pdf
+W18,7,OK,,AUT,Ylvi Kastner,794,high,2018/results-sprint.pdf
+W18,7,OK,,CZE,Katerina Grycova,794,high,2018/results-sprint.pdf
+W18,9,OK,,FIN,Melina Lahdenpera,799,high,2018/results-sprint.pdf
+W18,10,OK,,HUN,Hanga Szuromi,800,high,2018/results-sprint.pdf
+W18,11,OK,,SUI,Eline Gemperle,802,high,2018/results-sprint.pdf
+W18,12,OK,,UKR,Iulia Trokhymchuk,807,high,2018/results-sprint.pdf
+W18,13,OK,,ESP,Kika Basaran van Ham,809,high,2018/results-sprint.pdf
+W18,13,OK,,NOR,Marlin Haavengen,809,high,2018/results-sprint.pdf
+W18,15,OK,,RUS,Olesia Riazanova,810,high,2018/results-sprint.pdf
+W18,16,OK,,SWE,Erika Kaellvik Leufven,811,high,2018/results-sprint.pdf
+W18,17,OK,,ESP,Ines Pozo Prada,816,high,2018/results-sprint.pdf
+W18,17,OK,,SWE,Johanna Kaellvik,816,high,2018/results-sprint.pdf
+W18,19,OK,,SUI,Siana Senn,820,high,2018/results-sprint.pdf
+W18,20,OK,,ITA,Anna Pradel,821,high,2018/results-sprint.pdf
+W18,20,OK,,EST,Teele Telgma,821,high,2018/results-sprint.pdf
+W18,22,OK,,CZE,Klara Nechanicka,824,high,2018/results-sprint.pdf
+W18,23,OK,,FIN,Siiri Silvennoinen,828,high,2018/results-sprint.pdf
+W18,24,OK,,FRA,Cecile Calandry,829,high,2018/results-sprint.pdf
+W18,25,OK,,RUS,Irina Lazareva,831,high,2018/results-sprint.pdf
+W18,25,OK,,POL,Adrianna Biederman,831,high,2018/results-sprint.pdf
+W18,27,OK,,RUS,Elizaveta Botova,832,high,2018/results-sprint.pdf
+W18,28,OK,,GBR,Eilidh Campbell,834,high,2018/results-sprint.pdf
+W18,29,OK,,CZE,Jana Peterova,839,high,2018/results-sprint.pdf
+W18,30,OK,,NOR,Aurora Gjolsjo,842,high,2018/results-sprint.pdf
+W18,31,OK,,RUS,Aleksandra Lazareva,845,high,2018/results-sprint.pdf
+W18,32,OK,,ESP,Ana Isabel Toledo Navarro,847,high,2018/results-sprint.pdf
+W18,33,OK,,NOR,Ingrid Gylterud Kvalsgard,849,high,2018/results-sprint.pdf
+W18,34,OK,,LAT,Signe Sirma,851,high,2018/results-sprint.pdf
+W18,34,OK,,GBR,Niamh Hunter,851,high,2018/results-sprint.pdf
+W18,36,OK,,LAT,Eliza Ozola,853,high,2018/results-sprint.pdf
+W18,36,OK,,POL,Agnieszka Mazurek,853,high,2018/results-sprint.pdf
+W18,38,OK,,FRA,Perrine Toussaint,856,high,2018/results-sprint.pdf
+W18,39,OK,,BEL,Ems de Smul,857,high,2018/results-sprint.pdf
+W18,39,OK,,SWE,Ella Sjoberg,857,high,2018/results-sprint.pdf
+W18,41,OK,,SWE,Tove Pettersson,858,high,2018/results-sprint.pdf
+W18,42,OK,,ISR,Bar Kalkstein,860,high,2018/results-sprint.pdf
+W18,43,OK,,LTU,Viktorija Drazdauskaite,873,high,2018/results-sprint.pdf
+W18,44,OK,,UKR,Alina Myroniuk,876,high,2018/results-sprint.pdf
+W18,45,OK,,LAT,Agnija Caune,880,high,2018/results-sprint.pdf
+W18,46,OK,,ROU,Dorottya Bartha,881,high,2018/results-sprint.pdf
+W18,47,OK,,FRA,Marine Dudoignon,890,high,2018/results-sprint.pdf
+W18,47,OK,,HUN,Dominika Mero,890,high,2018/results-sprint.pdf
+W18,49,OK,,ITA,Serena Raus,896,high,2018/results-sprint.pdf
+W18,50,OK,,CZE,Adela Vandasova,899,high,2018/results-sprint.pdf
+W18,51,OK,,FRA,Helene Champigny,905,high,2018/results-sprint.pdf
+W18,51,OK,,HUN,Dorottya Hajnal,905,high,2018/results-sprint.pdf
+W18,53,OK,,BEL,Marine Sillien,907,high,2018/results-sprint.pdf
+W18,54,OK,,SUI,Corina Hueni,910,high,2018/results-sprint.pdf
+W18,55,OK,,NOR,Andrea Ranvik,911,high,2018/results-sprint.pdf
+W18,56,OK,,GER,Charlotte Leonhardt,912,high,2018/results-sprint.pdf
+W18,57,OK,,LAT,Magda Cigle,922,high,2018/results-sprint.pdf
+W18,58,OK,,POL,Maja Garbacik,932,high,2018/results-sprint.pdf
+W18,59,OK,,LTU,Ugne Liegute,938,high,2018/results-sprint.pdf
+W18,60,OK,,UKR,Polina Surkova,943,high,2018/results-sprint.pdf
+W18,61,OK,,UKR,Yelyzaveta Hutsenko,951,high,2018/results-sprint.pdf
+W18,62,OK,,LTU,Judita Traubaite,956,high,2018/results-sprint.pdf
+W18,63,OK,,ROU,Adela Maria Galateanu,960,high,2018/results-sprint.pdf
+W18,64,OK,,SLO,Zala Zavrl,961,high,2018/results-sprint.pdf
+W18,65,OK,,ESP,Ana Rodriguez,963,high,2018/results-sprint.pdf
+W18,66,OK,,SLO,Nika Poljansek,966,high,2018/results-sprint.pdf
+W18,67,OK,,EST,Lorely Korvel,974,high,2018/results-sprint.pdf
+W18,68,OK,,POL,Katarzyna Ciesiolka,985,high,2018/results-sprint.pdf
+W18,69,OK,,BUL,Mariya Dermendzhieva,988,high,2018/results-sprint.pdf
+W18,70,OK,,ROU,Valentina Marcu,999,high,2018/results-sprint.pdf
+W18,71,OK,,ROU,Timea Virag,1016,high,2018/results-sprint.pdf
+W18,72,OK,,AUT,Elena Zeiner,1050,high,2018/results-sprint.pdf
+W18,73,OK,,BUL,Simona Ivanova,1079,high,2018/results-sprint.pdf
+W18,74,OK,,IRL,Ciara Silby,1089,high,2018/results-sprint.pdf
+W18,75,OK,,SRB,Lenka Ciric,1130,high,2018/results-sprint.pdf
+W18,76,OK,,TUR,Beyza Dilber,1194,high,2018/results-sprint.pdf
+W18,77,OK,,TUR,Emine Icyer,1219,high,2018/results-sprint.pdf
+W18,78,OK,,BEL,Laurine Herman,1231,high,2018/results-sprint.pdf
+W18,79,OK,,LTU,Juste Skaisgiryte,1248,high,2018/results-sprint.pdf
+W18,80,OK,,DEN,Mathilde Smedega Madsen,1282,high,2018/results-sprint.pdf
+W18,81,OK,,SRB,Jovana Grozdanic,1310,high,2018/results-sprint.pdf
+W18,82,OK,,TUR,Nur Gulnihal Cakir,1340,high,2018/results-sprint.pdf
+W18,82,OK,,CRO,Ana Tisljar,1340,high,2018/results-sprint.pdf
+W18,84,OK,,TUR,Elif Sena Uygun,1370,high,2018/results-sprint.pdf

@@ -1,0 +1,388 @@
+class,rank,status,bib,country,name,time_seconds,confidence,source_file
+M16,1,OK,0121,FRA,Becaert Antoine,2787,high,2017/results-long.pdf
+M16,2,OK,0106,FIN,Leo Matinheikki,2908,high,2017/results-long.pdf
+M16,3,OK,0108,HUN,Jonas Ferenc,2917,high,2017/results-long.pdf
+M16,4,OK,0123,FRA,Vuitton Julien,2932,high,2017/results-long.pdf
+M16,5,OK,0105,FIN,Topias Arola,2984,high,2017/results-long.pdf
+M16,6,OK,0101,POL,Piotr Rzenca,2986,high,2017/results-long.pdf
+M16,7,OK,0207,FIN,Touko Seppa,2991,high,2017/results-long.pdf
+M16,8,OK,0126,DEN,Soren Thrane Odum,2992,high,2017/results-long.pdf
+M16,9,OK,0122,FRA,Andrieux Quentin,3008,high,2017/results-long.pdf
+M16,10,OK,0245,RUS,Fomin Daniil,3013,high,2017/results-long.pdf
+M16,11,OK,0139,GER,Anton Silier,3014,high,2017/results-long.pdf
+M16,12,OK,0211,HUN,Bujdoso Zoltan,3045,high,2017/results-long.pdf
+M16,13,OK,0243,RUS,Stepanov Dmitrii,3055,high,2017/results-long.pdf
+M16,14,OK,0114,SVK,Medard Feder,3081,high,2017/results-long.pdf
+M16,15,OK,0109,CZE,Jan Gajda,3104,high,2017/results-long.pdf
+M16,16,OK,0111,CZE,Ondrej Metelka,3133,high,2017/results-long.pdf
+M16,17,OK,0109,HUN,Szabo Marcell,3159,high,2017/results-long.pdf
+M16,18,OK,0142,ITA,Bettega Damiano,3166,high,2017/results-long.pdf
+M16,19,OK,0211,SUI,Janis Hutzli,3174,high,2017/results-long.pdf
+M16,20,OK,0127,DEN,Morten �Rnhagen Jorgensen,3188,high,2017/results-long.pdf
+M16,21,OK,0105,LAT,Davis Solmanis,3223,high,2017/results-long.pdf
+M16,22,OK,0244,RUS,Sorokin Daniil,3236,high,2017/results-long.pdf
+M16,23,OK,0104,FIN,Lauri Syrjalainen,3257,high,2017/results-long.pdf
+M16,23,OK,0110,CZE,Tomas Janovsky,3257,high,2017/results-long.pdf
+M16,25,OK,0128,DEN,Daniel B. Schmidt,3262,high,2017/results-long.pdf
+M16,26,OK,0112,SUI,Manuele Ren,3274,high,2017/results-long.pdf
+M16,26,OK,0229,ROU,Catana Alexandru,3274,high,2017/results-long.pdf
+M16,28,OK,0125,DEN,Anton Werner Lohndorf,3294,high,2017/results-long.pdf
+M16,29,OK,0112,CZE,Michal Svadlena,3303,high,2017/results-long.pdf
+M16,30,OK,0236,ESP,Gustav Wiren Gonzalez,3313,high,2017/results-long.pdf
+M16,31,OK,0103,AUT,Jandl Florian,3315,high,2017/results-long.pdf
+M16,32,OK,0118,BLR,Daniil Chuikin,3336,high,2017/results-long.pdf
+M16,33,OK,0237,ESP,Florencio Garcia Gomez,3370,high,2017/results-long.pdf
+M16,34,OK,0627,ROU,Vigh Lorand,3384,high,2017/results-long.pdf
+M16,35,OK,0236,GER,Martin Scheuermann,3391,high,2017/results-long.pdf
+M16,36,OK,0138,NED,Johan Langerak,3414,high,2017/results-long.pdf
+M16,37,OK,0117,POR,Tomas Alves Lima,3437,high,2017/results-long.pdf
+M16,37,OK,0210,HUN,Szuromi �Ron,3437,high,2017/results-long.pdf
+M16,39,OK,0207,LAT,Ralfs Janis Eizvertins,3447,high,2017/results-long.pdf
+M16,40,OK,0137,GER,Matti Bruns,3458,high,2017/results-long.pdf
+M16,41,OK,0102,POL,Michal Pierzchala,3462,high,2017/results-long.pdf
+M16,42,OK,0142,BUL,Valentin Neykov,3468,high,2017/results-long.pdf
+M16,43,OK,0138,GER,Till Geiler,3469,high,2017/results-long.pdf
+M16,44,OK,0104,LAT,Pauls Alberings,3470,high,2017/results-long.pdf
+M16,45,OK,0121,LTU,Barauskas Rokas,3486,high,2017/results-long.pdf
+M16,46,OK,0140,ITA,Loss Nicolas,3498,high,2017/results-long.pdf
+M16,47,OK,0234,ISR,Rotem Yasur,3501,high,2017/results-long.pdf
+M16,48,OK,0206,LAT,Maris Heinols,3551,high,2017/results-long.pdf
+M16,49,OK,0139,ESP,Alvaro Garcia Bernabeu,3564,high,2017/results-long.pdf
+M16,50,OK,0144,ITA,Mariani Francesco,3574,high,2017/results-long.pdf
+M16,50,OK,0104,AUT,Novak Lukas,3574,high,2017/results-long.pdf
+M16,52,OK,0106,AUT,Wolfram Jakob,3608,high,2017/results-long.pdf
+M16,53,OK,0130,BEL,Arno Simon,3612,high,2017/results-long.pdf
+M16,54,OK,0141,EST,Hando Allmann,3654,high,2017/results-long.pdf
+M16,55,OK,0239,EST,Ragnar Rooba,3681,high,2017/results-long.pdf
+M16,56,OK,0122,LTU,Kausakys Dovydas,3682,high,2017/results-long.pdf
+M16,57,OK,0131,BEL,Amerijckx Cedric,3686,high,2017/results-long.pdf
+M16,58,OK,0120,FRA,Gonet Victor,3691,high,2017/results-long.pdf
+M16,59,OK,0143,ITA,Palumbo Pietro,3717,high,2017/results-long.pdf
+M16,60,OK,0205,AUT,Trummer Kilian,3722,high,2017/results-long.pdf
+M16,61,OK,0220,LTU,Augusts Velde,3754,high,2017/results-long.pdf
+M16,62,OK,0144,UKR,Piddubnyi Mykhailo,3812,high,2017/results-long.pdf
+M16,63,OK,0229,BEL,Thiels Liam,3846,high,2017/results-long.pdf
+M16,64,OK,0146,RUS,Khokhlov Danila,4010,high,2017/results-long.pdf
+M16,65,OK,0117,SVK,Daniel Pompura,4074,high,2017/results-long.pdf
+M16,66,OK,0141,BUL,Martin Yordanov,4118,high,2017/results-long.pdf
+M16,67,OK,0128,ROU,Szikszai Csongor,4137,high,2017/results-long.pdf
+M16,68,OK,0143,BUL,Mihail Mihaylov,4186,high,2017/results-long.pdf
+M16,69,OK,0135,ISR,Sela Zamir,4249,high,2017/results-long.pdf
+M16,70,OK,0246,UKR,Teremetskyi Tymofii,4377,high,2017/results-long.pdf
+M16,71,OK,0130,TUR,Hami Emircan Aydin,4395,high,2017/results-long.pdf
+M16,72,OK,0114,SUI,Sven Wey,4507,high,2017/results-long.pdf
+M16,72,OK,0130,ROU,Peles Vlad,4788,high,2017/results-long.pdf
+M16,74,OK,0140,EST,Sander Pritsik,4900,high,2017/results-long.pdf
+M16,75,OK,0128,TUR,Ahmet Yasin Temel,4978,high,2017/results-long.pdf
+M16,76,OK,0138,ESP,Lucas Stangegaard Perez,5221,high,2017/results-long.pdf
+M16,77,OK,0103,POL,Bruno Deredos,5282,high,2017/results-long.pdf
+M16,78,OK,0133,ISR,Alon Zorea,5484,high,2017/results-long.pdf
+M16,79,OK,0145,UKR,Pohrebets Danilo,5596,high,2017/results-long.pdf
+M16,80,OK,0132,ISR,Rotem Yogev,5986,high,2017/results-long.pdf
+M16,81,DNF,0219,POR,Vasco Amorim Ramos Mendes,,high,2017/results-long.pdf
+M16,82,DNF,0115,SVK,Michal Kurak,,high,2017/results-long.pdf
+M16,83,DNF,0118,POR,Manuel Guilherme de Olive,,high,2017/results-long.pdf
+M16,84,DNF,0144,BUL,Martin Rachev,,high,2017/results-long.pdf
+M16,85,DNF,0120,POR,Tiago Filipe Marantes Lam,,high,2017/results-long.pdf
+M16,86,DNF,0104,POL,Krystian Petersburski,,high,2017/results-long.pdf
+M16,87,DNF,0116,SVK,Matus Simo,,high,2017/results-long.pdf
+M16,88,DNF,0323,LTU,Casas Adomas,,high,2017/results-long.pdf
+M16,88,DNF,0125,IRL,Andrew Elwood,,high,2017/results-long.pdf
+M16,90,DNF,0138,EST,Aleksander Kepler,,high,2017/results-long.pdf
+M16,91,DNF,0129,TUR,Mustafa Ali Turkmenoglu,,high,2017/results-long.pdf
+M16,93,DNF,0136,MDA,Lucian Mirza,,high,2017/results-long.pdf
+M16,94,DNF,0110,SRB,Marko Radovanovic,,high,2017/results-long.pdf
+M16,95,DNF,0143,UKR,Griaziev Bohdan,,high,2017/results-long.pdf
+M16,96,DNF,0127,TUR,Ismail Alp Arslan,,high,2017/results-long.pdf
+M16,97,DNF,0124,IRL,Aidan McCullough,,high,2017/results-long.pdf
+M16,98,DNF,0119,BLR,Ilya Novak,,high,2017/results-long.pdf
+M16,99,DNF,0206,CRO,Jan Gobec,,high,2017/results-long.pdf
+M18,1,OK,0030,FRA,Elias Guilhem,3050,high,2017/results-long.pdf
+M18,2,OK,9911,AUT,Bonek Jannis,3079,high,2017/results-long.pdf
+M18,3,OK,9924,SVK,Jakub Dekret,3119,high,2017/results-long.pdf
+M18,4,OK,9916,HUN,Ormay Mihaly,3199,high,2017/results-long.pdf
+M18,5,OK,0012,FIN,Mikko Eerola,3212,high,2017/results-long.pdf
+M18,6,OK,9906,SWE,Oscar Johansson,3239,high,2017/results-long.pdf
+M18,7,OK,9925,SVK,Jakub Chupek,3246,high,2017/results-long.pdf
+M18,8,OK,0028,FRA,Haberkorn Guilhem,3259,high,2017/results-long.pdf
+M18,9,OK,9922,SUI,Chamuel Zbinden,3264,high,2017/results-long.pdf
+M18,10,OK,9912,AUT,Groell Georg,3287,high,2017/results-long.pdf
+M18,11,OK,0019,SUI,Fabian Aebersold,3297,high,2017/results-long.pdf
+M18,12,OK,9943,NOR,Erling Hjermstad,3305,high,2017/results-long.pdf
+M18,13,OK,9904,SWE,Erik Herne,3308,high,2017/results-long.pdf
+M18,14,OK,0003,GBR,Alastair Thomas,3333,high,2017/results-long.pdf
+M18,15,OK,9917,CZE,Jonas Fencl,3345,high,2017/results-long.pdf
+M18,16,OK,9913,FIN,Aaro Aho,3352,high,2017/results-long.pdf
+M18,17,OK,9902,RUS,Petrov Semen,3365,high,2017/results-long.pdf
+M18,18,OK,9921,SUI,Nils Eyer,3397,high,2017/results-long.pdf
+M18,19,OK,9929,FRA,Vergnaud Alexandre,3398,high,2017/results-long.pdf
+M18,20,OK,0042,NOR,Sander Arntzen,3406,high,2017/results-long.pdf
+M18,21,OK,9910,POL,Kacper Kuca,3449,high,2017/results-long.pdf
+M18,22,OK,9917,HUN,Kalman Erik,3450,high,2017/results-long.pdf
+M18,23,OK,9937,ROU,Biro Alexandru,3454,high,2017/results-long.pdf
+M18,24,OK,0020,CZE,Jan Rusin,3459,high,2017/results-long.pdf
+M18,25,OK,9901,BUL,Plamen Georgiev,3480,high,2017/results-long.pdf
+M18,26,OK,9919,CZE,Jachym Kavalir,3491,high,2017/results-long.pdf
+M18,27,OK,0003,SWE,Gustav Runefors,3504,high,2017/results-long.pdf
+M18,29,OK,9904,GBR,Finlay Todd,3519,high,2017/results-long.pdf
+M18,30,OK,9928,LTU,Bazelis Romas,3521,high,2017/results-long.pdf
+M18,31,OK,9945,NOR,Oskar Spets Storhov,3565,high,2017/results-long.pdf
+M18,32,OK,0015,LAT,Rihards Krumins,3573,high,2017/results-long.pdf
+M18,33,OK,0049,EST,Kaarel Vesilind,3583,high,2017/results-long.pdf
+M18,34,OK,0003,RUS,Lukashevich Anton,3593,high,2017/results-long.pdf
+M18,35,OK,0019,HUN,Horvath Csongor,3595,high,2017/results-long.pdf
+M18,36,OK,9931,LTU,Germanavicius Pranas,3610,high,2017/results-long.pdf
+M18,37,OK,0015,FIN,Teemu Oksanen,3612,high,2017/results-long.pdf
+M18,38,OK,0033,DEN,Mikkel Holm Nielsen,3615,high,2017/results-long.pdf
+M18,39,OK,0048,ITA,Patscheider Lukas,3631,high,2017/results-long.pdf
+M18,40,OK,9931,FRA,Erbland Pierre,3639,high,2017/results-long.pdf
+M18,41,OK,9905,SWE,August Mollen,3670,high,2017/results-long.pdf
+M18,42,OK,0004,UKR,Zviahin Mykyta,3680,high,2017/results-long.pdf
+M18,43,OK,0009,POL,Mikolaj Krawczynski,3701,high,2017/results-long.pdf
+M18,44,OK,9918,CZE,Vit Horcicka,3705,high,2017/results-long.pdf
+M18,45,OK,0013,LAT,Fricis Spektors,3736,high,2017/results-long.pdf
+M18,46,OK,9945,GER,Franz Gawlitza,3759,high,2017/results-long.pdf
+M18,47,OK,0004,RUS,Kudriavtcev Nikolai,3764,high,2017/results-long.pdf
+M18,48,OK,0034,DEN,Malte Kjaer Hemmingsen,3767,high,2017/results-long.pdf
+M18,49,OK,0013,AUT,Holper Leo,3832,high,2017/results-long.pdf
+M18,50,OK,0032,SLO,Zan Ravnikar,3844,high,2017/results-long.pdf
+M18,51,OK,9918,HUN,Szalay Levente,3865,high,2017/results-long.pdf
+M18,52,OK,0046,GER,Kilian Hock,3917,high,2017/results-long.pdf
+M18,53,OK,0049,BUL,Boyan Ivandzhikov,3926,high,2017/results-long.pdf
+M18,54,OK,9905,RUS,Zverkov Boris,3937,high,2017/results-long.pdf
+M18,55,OK,0014,FIN,Niklas Heikkila,3940,high,2017/results-long.pdf
+M18,56,OK,0047,EST,Alex Treier,3986,high,2017/results-long.pdf
+M18,57,OK,9914,LAT,Ilgvars Caune,3999,high,2017/results-long.pdf
+M18,58,OK,0002,UKR,Samoilenko Kostiantyn,4057,high,2017/results-long.pdf
+M18,59,OK,9912,LAT,Kristaps Bruners,4073,high,2017/results-long.pdf
+M18,60,OK,0002,BUL,Petar Borisov,4087,high,2017/results-long.pdf
+M18,61,OK,0044,NOR,Lukas Liland,4151,high,2017/results-long.pdf
+M18,62,OK,0035,BEL,Eyen Guillaume,4174,high,2017/results-long.pdf
+M18,63,OK,0037,TUR,Kadir Can Cakan,4176,high,2017/results-long.pdf
+M18,63,OK,0025,BLR,Hleb Seuruk,4176,high,2017/results-long.pdf
+M18,65,OK,9945,ESP,Jorge Caraca-Valente Barr,4213,high,2017/results-long.pdf
+M18,66,OK,9948,EST,Andres Room,4231,high,2017/results-long.pdf
+M18,67,OK,0044,GER,Timon Lorenz,4288,high,2017/results-long.pdf
+M18,68,OK,0031,SLO,Matic Blaz,4336,high,2017/results-long.pdf
+M18,69,OK,0012,POL,Michal Krzysztynski,4354,high,2017/results-long.pdf
+M18,70,OK,9935,DEN,Mads Skaug,4407,high,2017/results-long.pdf
+M18,71,OK,9937,MDA,Cabis Vladimir,4470,high,2017/results-long.pdf
+M18,72,OK,9902,GBR,Freddy Carcas,4475,high,2017/results-long.pdf
+M18,73,OK,0001,ITA,Magenes Francesco,4572,high,2017/results-long.pdf
+M18,74,OK,9903,UKR,Serdiuk Yurii,4652,high,2017/results-long.pdf
+M18,75,OK,0049,ITA,Schluchter Julian,4685,high,2017/results-long.pdf
+M18,76,OK,9920,SUI,Reto Egger,4774,high,2017/results-long.pdf
+M18,77,OK,0044,ESP,Alvaro Casado Gomez,4866,high,2017/results-long.pdf
+M18,78,OK,9924,BLR,Uladzislau Viarynski,4885,high,2017/results-long.pdf
+M18,79,OK,0023,SVK,Tobias Goldschmidt,4928,high,2017/results-long.pdf
+M18,80,OK,0024,POR,Andre da Silva Nunes Henr,4956,high,2017/results-long.pdf
+M18,81,OK,0047,GER,Hendrik Holzhauer,5122,high,2017/results-long.pdf
+M18,82,OK,9936,ISR,Omer Kachal,5263,high,2017/results-long.pdf
+M18,83,OK,9936,DEN,Emil Olander Lorenz,5427,high,2017/results-long.pdf
+M18,84,OK,9930,LTU,Dauksys Algirdas,5927,high,2017/results-long.pdf
+M18,85,OK,9923,POR,Tiago Pintor Figueiredo,6166,high,2017/results-long.pdf
+M18,86,OK,0047,ESP,Juan Sanz Alejandre,6197,high,2017/results-long.pdf
+M18,87,DNF,9946,EST,Kiur Erik Eensaar,,high,2017/results-long.pdf
+M18,88,DNF,0011,POL,Konrad Plociennik,,high,2017/results-long.pdf
+M18,89,DNF,9936,ROU,Szocs Attila,,high,2017/results-long.pdf
+M18,90,DNF,0022,SVK,Dominic Ditri,,high,2017/results-long.pdf
+M18,91,DNF,0038,ISR,Amir Zur,,high,2017/results-long.pdf
+M18,92,DNF,0002,ITA,Mannocci Enrico,,high,2017/results-long.pdf
+M18,93,DNF,0023,BLR,Nikita Alekseyonok,,high,2017/results-long.pdf
+M18,94,DNF,9936,TUR,Sahin Demir,,high,2017/results-long.pdf
+M18,95,DNF,0046,ESP,Pedro Stangegaard Perez,,high,2017/results-long.pdf
+M18,96,DNF,0038,ROU,Kentelki Marton,,high,2017/results-long.pdf
+M18,97,DNF,9937,ISR,Eilam Berzak,,high,2017/results-long.pdf
+M18,98,DNF,9936,BEL,van Lommel Jens,,high,2017/results-long.pdf
+M18,99,DNF,9926,BLR,Dzmitry Papou,,high,2017/results-long.pdf
+M18,100,DNF,9938,TUR,Muhammed Vehbi Yavuz Kara,,high,2017/results-long.pdf
+M18,101,DNF,9929,LTU,Balciunas Domantas,,high,2017/results-long.pdf
+M18,102,DNF,0033,SLO,Tjaz Gantar,,high,2017/results-long.pdf
+M18,103,DNF,9934,BEL,Crefcoeur Lievin,,high,2017/results-long.pdf
+M18,104,DNF,0035,ROU,Knobloch-Esztergar Peter,,high,2017/results-long.pdf
+M18,105,DNF,0012,SRB,Dusan Markovic,,high,2017/results-long.pdf
+M18,106,DNF,0025,POR,Pedro Lin Goncalves Moniz,,high,2017/results-long.pdf
+M18,107,DNF,9935,TUR,Samet Kossek,,high,2017/results-long.pdf
+W16,1,OK,0162,HUN,Gardonyi Csilla,2305,high,2017/results-long.pdf
+W16,2,OK,0197,RUS,Riazanova Olesia,2341,high,2017/results-long.pdf
+W16,3,OK,0261,FIN,Elisa Mattila,2378,high,2017/results-long.pdf
+W16,4,OK,0158,FIN,Melina Lahdenpera,2408,high,2017/results-long.pdf
+W16,5,OK,0165,SUI,Nora Aegler,2514,high,2017/results-long.pdf
+W16,6,OK,0295,BUL,Yasna Petrova,2561,high,2017/results-long.pdf
+W16,7,OK,0179,DEN,Hedvig Valbjorn Gydesen,2565,high,2017/results-long.pdf
+W16,8,OK,0160,FIN,Maria Maattanen,2579,high,2017/results-long.pdf
+W16,9,OK,0198,RUS,Lazareva Aleksandra,2642,high,2017/results-long.pdf
+W16,10,OK,0268,SVK,�Ubka Weissova,2757,high,2017/results-long.pdf
+W16,11,OK,0257,AUT,Kastner Maya,2762,high,2017/results-long.pdf
+W16,12,OK,0260,LAT,Anna Emilija Suta,2765,high,2017/results-long.pdf
+W16,13,OK,0274,FRA,Lataste Lucie,2767,high,2017/results-long.pdf
+W16,14,OK,0297,BUL,Evangelina Dyaksova,2776,high,2017/results-long.pdf
+W16,15,OK,0160,AUT,Zeiner Dora,2798,high,2017/results-long.pdf
+W16,16,OK,0168,SUI,Sarina Zullig,2811,high,2017/results-long.pdf
+W16,17,OK,0165,HUN,Mero Dominika,2827,high,2017/results-long.pdf
+W16,18,OK,0174,LTU,Liegute Ugne,2830,high,2017/results-long.pdf
+W16,19,OK,0159,FIN,Ida Haapala,2861,high,2017/results-long.pdf
+W16,20,OK,0158,POL,Agnieszka Mazurek,2863,high,2017/results-long.pdf
+W16,21,OK,0290,ESP,Nerea Gonzalez Pena,2866,high,2017/results-long.pdf
+W16,22,OK,0265,CZE,Tereza Chrastova,2911,high,2017/results-long.pdf
+W16,23,OK,0158,AUT,Maier Marie,2920,high,2017/results-long.pdf
+W16,24,OK,0381,ROU,Galateanu Daria,2929,high,2017/results-long.pdf
+W16,25,OK,0267,SUI,Annick Meister,2937,high,2017/results-long.pdf
+W16,26,OK,0292,ESP,Lucia Misas Bernardino,2949,high,2017/results-long.pdf
+W16,27,OK,0251,RUS,Klementyeva Anna,2989,high,2017/results-long.pdf
+W16,28,OK,0261,LAT,Aija Denija Trezina,3006,high,2017/results-long.pdf
+W16,29,OK,0266,SUI,Sanna Hotz,3032,high,2017/results-long.pdf
+W16,30,OK,0164,CZE,Katerina Dolejsi,3040,high,2017/results-long.pdf
+W16,31,OK,0195,EST,Lorely Korvel,3065,high,2017/results-long.pdf
+W16,32,OK,0199,UKR,Trokhymchuk Yuliia,3068,high,2017/results-long.pdf
+W16,33,OK,0180,DEN,Alberte Kaae-Nielsen,3086,high,2017/results-long.pdf
+W16,34,OK,0158,LAT,Agnija Caune,3091,high,2017/results-long.pdf
+W16,35,OK,0175,LTU,Skaisgiryte Auste,3111,high,2017/results-long.pdf
+W16,36,OK,0264,HUN,Kishanti Petra,3116,high,2017/results-long.pdf
+W16,37,OK,0363,HUN,Czako Boglarka,3124,high,2017/results-long.pdf
+W16,38,OK,0293,EST,Siiri Talts,3144,high,2017/results-long.pdf
+W16,39,OK,0282,BEL,Defraigne Laurence,3151,high,2017/results-long.pdf
+W16,40,OK,0296,BUL,Niya Georgieva,3154,high,2017/results-long.pdf
+W16,41,OK,0151,GBR,Eilidh Campbell,3157,high,2017/results-long.pdf
+W16,42,OK,0177,FRA,Toussaint Perrine,3177,high,2017/results-long.pdf
+W16,43,OK,0281,DEN,Nanna Lysemose Poulsen,3215,high,2017/results-long.pdf
+W16,44,OK,0294,EST,Johanna Laanoja,3216,high,2017/results-long.pdf
+W16,45,OK,0263,CZE,Katerina Blazkova,3265,high,2017/results-long.pdf
+W16,46,OK,0283,BEL,Keuppens Kato,3276,high,2017/results-long.pdf
+W16,47,OK,0355,POL,Julia Krempinska,3288,high,2017/results-long.pdf
+W16,48,OK,0271,SVK,Dorota Smelikova,3309,high,2017/results-long.pdf
+W16,49,OK,0299,RUS,Sopova Nina,3333,high,2017/results-long.pdf
+W16,50,OK,0197,UKR,Myroniuk Alina,3361,high,2017/results-long.pdf
+W16,51,OK,0176,FRA,Pauly Lilou,3373,high,2017/results-long.pdf
+W16,52,OK,0159,AUT,Tiefenboeck Rita,3375,high,2017/results-long.pdf
+W16,53,OK,0276,IRL,Aoife O'Sullivan,3377,high,2017/results-long.pdf
+W16,54,OK,0180,SLO,Zala Zavrl,3388,high,2017/results-long.pdf
+W16,55,OK,0176,LTU,Skaisgiryte Juste,3390,high,2017/results-long.pdf
+W16,56,OK,0257,POL,Zuzanna Gielec,3406,high,2017/results-long.pdf
+W16,57,OK,0166,CZE,Anna Kochova,3443,high,2017/results-long.pdf
+W16,58,OK,0256,POL,Block Amelia,3457,high,2017/results-long.pdf
+W16,59,OK,0259,LAT,Kristine Brunere,3490,high,2017/results-long.pdf
+W16,60,OK,0293,GER,Katrin Hertel,3493,high,2017/results-long.pdf
+W16,61,OK,0275,FRA,Lesquer Romane,3529,high,2017/results-long.pdf
+W16,62,OK,0190,GER,Ines Schikora,3703,high,2017/results-long.pdf
+W16,63,OK,0193,ESP,Ana Defez Cernicharo,3707,high,2017/results-long.pdf
+W16,64,OK,0191,ESP,Raquel Marquez Martin-Tes,3739,high,2017/results-long.pdf
+W16,65,OK,0270,SVK,Tamara Miklusova,3767,high,2017/results-long.pdf
+W16,66,OK,0251,UKR,Tsyvilska Feia,3781,high,2017/results-long.pdf
+W16,67,OK,0161,SRB,Lenka Ciric,3824,high,2017/results-long.pdf
+W16,68,OK,0282,ROU,Divin Judit,3948,high,2017/results-long.pdf
+W16,69,OK,0197,ITA,Pradel Anna,4123,high,2017/results-long.pdf
+W16,70,OK,0291,GER,Lina Buchberger,4277,high,2017/results-long.pdf
+W16,71,OK,0292,GER,Jasmin Hertel,4413,high,2017/results-long.pdf
+W16,72,OK,0198,UKR,Surkova Polina,4429,high,2017/results-long.pdf
+W16,73,OK,0184,TUR,Tuana Bozkurt,4552,high,2017/results-long.pdf
+W16,74,OK,0292,EST,Anita Laanejoe,4721,high,2017/results-long.pdf
+W16,75,OK,0371,POR,Ana Goncalves Pacheco,5082,high,2017/results-long.pdf
+W16,76,OK,0172,POR,Joana Filipa Rocha Branco,5490,high,2017/results-long.pdf
+W16,77,OK,0170,BLR,Karyna Krauchanka,5645,high,2017/results-long.pdf
+W16,78,OK,0183,ROU,Ghit Denisa,9255,high,2017/results-long.pdf
+W16,79,DNF,0469,SVK,Ema Havlikova,,high,2017/results-long.pdf
+W16,80,DNF,0477,LTU,Skucaite Ugne,,high,2017/results-long.pdf
+W16,81,DNF,0171,BLR,Darya Vankevich,,high,2017/results-long.pdf
+W16,82,DNF,0181,TUR,Melisa Altinci,,high,2017/results-long.pdf
+W16,83,DNF,0277,IRL,Cliodhna Donaghy,,high,2017/results-long.pdf
+W16,84,DNF,0182,DEN,Celina Bregensoe,,high,2017/results-long.pdf
+W16,85,DNF,0195,ITA,Scalzotto Annarita,,high,2017/results-long.pdf
+W16,86,DNF,0372,BLR,Alesia Dzichkouskaya,,high,2017/results-long.pdf
+W16,87,DNF,0183,TUR,Yaren Yilmaz,,high,2017/results-long.pdf
+W16,88,DNF,0178,IRL,Rachel Collins,,high,2017/results-long.pdf
+W16,89,DNF,0184,ROU,Teca Alina,,high,2017/results-long.pdf
+W18,1,OK,0073,SUI,Eliane Deininger,2919,high,2017/results-long.pdf
+W18,2,OK,9968,FIN,Anu Tuomisto,2926,high,2017/results-long.pdf
+W18,3,OK,9964,POL,Agnieszka Cych,3027,high,2017/results-long.pdf
+W18,4,OK,9964,AUT,Gassner Jasmina,3145,high,2017/results-long.pdf
+W18,5,OK,9998,NOR,Synne Strand,3162,high,2017/results-long.pdf
+W18,6,OK,9970,HUN,Sarkozy Zsofia,3194,high,2017/results-long.pdf
+W18,7,OK,0057,SWE,Isa Envall,3251,high,2017/results-long.pdf
+W18,8,OK,9996,NOR,Ragnhild Eide,3271,high,2017/results-long.pdf
+W18,9,OK,9963,POL,Zuzanna Morawska,3324,high,2017/results-long.pdf
+W18,10,OK,0066,FIN,Lotta Eerola,3332,high,2017/results-long.pdf
+W18,11,OK,0067,FIN,Inka Nurminen,3335,high,2017/results-long.pdf
+W18,12,OK,0072,CZE,Jana Peterova,3344,high,2017/results-long.pdf
+W18,13,OK,0083,FRA,Palcau Alina,3379,high,2017/results-long.pdf
+W18,14,OK,9957,GBR,Lucy Haines,3386,high,2017/results-long.pdf
+W18,15,OK,0099,NOR,Hanne Vassend,3455,high,2017/results-long.pdf
+W18,16,OK,0055,BUL,Andreya Dyaksova,3492,high,2017/results-long.pdf
+W18,17,OK,9978,SVK,Tereza Miklusova,3506,high,2017/results-long.pdf
+W18,18,OK,9969,FIN,Jasmiina Rantala,3547,high,2017/results-long.pdf
+W18,19,OK,9971,HUN,Vekony Vanda,3553,high,2017/results-long.pdf
+W18,20,OK,9965,POL,Adrianna Biederman,3554,high,2017/results-long.pdf
+W18,21,OK,9966,AUT,Tiefenboeck Tina,3561,high,2017/results-long.pdf
+W18,23,OK,9973,CZE,Jana Semradova,3592,high,2017/results-long.pdf
+W18,24,OK,0065,AUT,Kastner Ylvi,3618,high,2017/results-long.pdf
+W18,25,OK,0056,RUS,Lazareva Irina,3629,high,2017/results-long.pdf
+W18,26,OK,0082,FRA,Villar Zoe,3636,high,2017/results-long.pdf
+W18,27,OK,0053,EST,Teele Telgma,3639,high,2017/results-long.pdf
+W18,28,OK,0055,GBR,Grace Molloy,3645,high,2017/results-long.pdf
+W18,29,OK,9971,CZE,Marketa Firesova,3662,high,2017/results-long.pdf
+W18,30,OK,9967,AUT,Trummer Rosa,3689,high,2017/results-long.pdf
+W18,31,OK,0072,HUN,Szuromi Hanga,3696,high,2017/results-long.pdf
+W18,32,OK,9956,GBR,Laura King,3701,high,2017/results-long.pdf
+W18,33,OK,0084,FRA,Chatelain Eloise,3704,high,2017/results-long.pdf
+W18,34,OK,0059,SWE,Johanna Kallvik Leufven,3710,high,2017/results-long.pdf
+W18,35,OK,0089,ROU,Galateanu Adela,3747,high,2017/results-long.pdf
+W18,36,OK,9974,CZE,Eliska Sieglova,3748,high,2017/results-long.pdf
+W18,37,OK,9958,SWE,Jenny Wegebro,3766,high,2017/results-long.pdf
+W18,38,OK,9953,BUL,Borislava Mitkova,3767,high,2017/results-long.pdf
+W18,39,OK,0075,SUI,Siri Suter,3798,high,2017/results-long.pdf
+W18,40,OK,0076,SUI,Elisa Bertozzi,3813,high,2017/results-long.pdf
+W18,41,OK,0083,LTU,Traubaite Judita,3819,high,2017/results-long.pdf
+W18,42,OK,0057,RUS,Smirnova Kristina,3828,high,2017/results-long.pdf
+W18,43,OK,9974,SUI,Elena Pezzati,3831,high,2017/results-long.pdf
+W18,44,OK,0059,RUS,Romanova Anastasia,3861,high,2017/results-long.pdf
+W18,45,OK,9979,SVK,Tereza Smelikova,3873,high,2017/results-long.pdf
+W18,46,OK,0090,ROU,Virag Timea,3881,high,2017/results-long.pdf
+W18,47,OK,0054,BUL,Mariya Dermendzhieva,3890,high,2017/results-long.pdf
+W18,48,OK,9973,HUN,Pataki Reka Dalida,3891,high,2017/results-long.pdf
+W18,49,OK,0060,SWE,Erika Kallvik Leufven,3903,high,2017/results-long.pdf
+W18,50,OK,9990,BEL,Thiels Hannah,3932,high,2017/results-long.pdf
+W18,52,OK,9958,CRO,Pia Ocvirk,3968,high,2017/results-long.pdf
+W18,53,OK,0098,GER,Hannah Hansel,3981,high,2017/results-long.pdf
+W18,54,OK,0087,BEL,Sillien Marine,4009,high,2017/results-long.pdf
+W18,55,OK,9982,LTU,Susinskaite Migle,4016,high,2017/results-long.pdf
+W18,56,OK,9997,NOR,Ane Dyrkorn,4017,high,2017/results-long.pdf
+W18,57,OK,9981,IRL,Emer Perkins,4026,high,2017/results-long.pdf
+W18,58,OK,0066,POL,Maja Garbacik,4046,high,2017/results-long.pdf
+W18,59,OK,0087,DEN,Lotte Jauhojarvi Markusse,4048,high,2017/results-long.pdf
+W18,60,OK,9956,UKR,Kobets Svitlana,4075,high,2017/results-long.pdf
+W18,61,OK,0066,LAT,Signe Sirma,4113,high,2017/results-long.pdf
+W18,62,OK,9952,EST,Kristel Koivo,4213,high,2017/results-long.pdf
+W18,64,OK,0085,FRA,Dudoignon Marine,4242,high,2017/results-long.pdf
+W18,65,OK,0052,ESP,Elena Marti Barclay,4288,high,2017/results-long.pdf
+W18,66,OK,0079,IRL,Clodagh Moran,4324,high,2017/results-long.pdf
+W18,67,OK,9955,UKR,Hoienko Mariia,4357,high,2017/results-long.pdf
+W18,68,OK,0068,LAT,Eliza Ozola,4393,high,2017/results-long.pdf
+W18,69,OK,0051,ESP,Anna Illa Camps,4468,high,2017/results-long.pdf
+W18,70,OK,0089,BEL,de Smul Ems,4581,high,2017/results-long.pdf
+W18,71,OK,9963,SRB,Olga Stanojevic,4642,high,2017/results-long.pdf
+W18,72,OK,0067,LAT,Magda Cigle,4690,high,2017/results-long.pdf
+W18,73,OK,0084,LTU,Stanciute Kotryna,4783,high,2017/results-long.pdf
+W18,74,OK,9969,LAT,Vilma Alberinga,4819,high,2017/results-long.pdf
+W18,75,OK,0092,TUR,Sumeyra Gokcul,4994,high,2017/results-long.pdf
+W18,76,OK,9980,IRL,Eadaoin McCavana,5074,high,2017/results-long.pdf
+W18,77,OK,9998,ESP,Inmaculada Crespo Gonzale,5131,high,2017/results-long.pdf
+W18,78,OK,0090,TUR,Hilal Arslan,5214,high,2017/results-long.pdf
+W18,79,OK,9951,EST,Marie Anna Blehner,5323,high,2017/results-long.pdf
+W18,80,OK,0076,SVK,Magdalena Hrabosova,5435,high,2017/results-long.pdf
+W18,81,OK,0091,ROU,Bartha Dorottya,6213,high,2017/results-long.pdf
+W18,82,DNF,9985,SLO,Polona Jezersek,,high,2017/results-long.pdf
+W18,83,DNF,9985,LTU,Kalvaityte Austeja,,high,2017/results-long.pdf
+W18,84,DNF,0089,TUR,Ozge Bozca,,high,2017/results-long.pdf
+W18,85,DNF,0053,ITA,Selem Alice,,high,2017/results-long.pdf
+W18,86,DNF,0084,SLO,Nika Poljansek,,high,2017/results-long.pdf
+W18,87,DNF,9976,POR,Helena Alves Lima,,high,2017/results-long.pdf
+W18,88,DNF,0099,ESP,Ines Pozo Prada,,high,2017/results-long.pdf
+W18,89,DNF,0077,BLR,Yana Volkava,,high,2017/results-long.pdf
+W18,90,DNF,0078,BLR,Karyna Shpakouskaya,,high,2017/results-long.pdf
+W18,91,DNF,9958,UKR,Zapisochna Dariia,,high,2017/results-long.pdf
+W18,92,DNF,9988,BEL,Defraigne Sandrine,,high,2017/results-long.pdf
+W18,93,DNF,9991,TUR,Ozlem Zirek,,high,2017/results-long.pdf
+W18,94,DNF,9992,ROU,Tamas Denisa,,high,2017/results-long.pdf
+W18,95,DNF,0199,GER,Charlotte Leonhardt,,high,2017/results-long.pdf
+W18,96,DNF,9957,UKR,Kotliar Polina,,high,2017/results-long.pdf
+W18,97,DNF,0077,SVK,Viktoria Rohacova,,high,2017/results-long.pdf
