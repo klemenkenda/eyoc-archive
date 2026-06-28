@@ -1,25 +1,29 @@
-# EYOC metadata JSON files (2002-2026)
+# EYOC metadata JSON with raw-source provenance (2002-2026)
 
-This ZIP contains one folder per year, with `metadata.json` inside.
+This package contains `metadata.json` in each year folder.
 
-## Schema
+## What is filled now
 
-Each metadata file has:
+- `title`, `city`, `country`
+- `field_size` per discipline/category from normalized CSV rows
+- `source.raw_source_files` and `source.raw_source_formats` from the CSV `source_file` column
 
-- `title`
-- `city`
-- `country`
-- `long`, `sprint`, `relay`
-  - `place`
-  - `map_name`
-  - `categories` (`M16`, `M18`, `W16`, `W18`)
-    - `distance_km`
-    - `elevation_m`
-    - `controls`
-    - `field_size`
+## What is deliberately left as `null`
 
-## Important limitation
+Course fields remain `null` in this generated package where the current runtime could not save/parse the raw XML/PDF/HTML files directly:
 
-The normalized result CSV files in the repository contain rankings, competitors/teams, times, confidence and source-file references. They do not contain course metadata such as map name, distance, climb/elevation or number of controls. Therefore those requested course fields are set to `null`; `field_size` is populated from the CSV category row counts where available.
+- `place`
+- `map_name`
+- `distance_km`
+- `elevation_m`
+- `control_points`
 
-2020 is included as a folder because the requested range is 2002-2026, but EYOC 2020 was postponed and the repository has no 2020 result CSVs.
+## Fill from raw XML locally
+
+Clone the repository, unzip this package, then run:
+
+```bash
+python scripts/update_metadata_from_raw.py --repo /path/to/eyoc-archive --metadata /path/to/unzipped-metadata-root
+```
+
+The script parses IOF XML files in `results/raw/<year>/` and fills course metadata when the XML contains it.

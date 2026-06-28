@@ -1,137 +1,387 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "year": 2019,
   "title": "European Youth Orienteering Championships 2019",
   "city": "Grodno",
   "country": "Belarus",
-  "status": "results present in repository",
   "long": {
     "place": null,
     "map_name": null,
     "categories": {
       "M16": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 102
+        "control_points": null,
+        "field_size": 102,
+        "source": {
+          "normalized_csv": "results/2019/long.csv",
+          "raw_source_files": [
+            "results/raw/2019/Long-eventor.xml"
+          ],
+          "raw_source_formats": [
+            "IOF XML"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "DNF": 3,
+            "MP": 2,
+            "OK": 391
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       },
       "M18": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 106
+        "control_points": null,
+        "field_size": 106,
+        "source": {
+          "normalized_csv": "results/2019/long.csv",
+          "raw_source_files": [
+            "results/raw/2019/Long-eventor.xml"
+          ],
+          "raw_source_formats": [
+            "IOF XML"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "DNF": 3,
+            "MP": 2,
+            "OK": 391
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       },
       "W16": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 89
+        "control_points": null,
+        "field_size": 89,
+        "source": {
+          "normalized_csv": "results/2019/long.csv",
+          "raw_source_files": [
+            "results/raw/2019/Long-eventor.xml"
+          ],
+          "raw_source_formats": [
+            "IOF XML"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "DNF": 3,
+            "MP": 2,
+            "OK": 391
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       },
       "W18": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 99
+        "control_points": null,
+        "field_size": 99,
+        "source": {
+          "normalized_csv": "results/2019/long.csv",
+          "raw_source_files": [
+            "results/raw/2019/Long-eventor.xml"
+          ],
+          "raw_source_formats": [
+            "IOF XML"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "DNF": 3,
+            "MP": 2,
+            "OK": 391
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       }
     },
     "source": {
-      "csv_file": "results/2019/long.csv",
+      "normalized_csv": "results/2019/long.csv",
       "raw_source_files": [
-        "2019/Long-eventor.xml"
+        "results/raw/2019/Long-eventor.xml"
       ],
-      "confidence": [
+      "raw_source_formats": [
+        "IOF XML"
+      ],
+      "confidence_values": [
         "high"
       ],
-      "row_count": 396
+      "status_counts": {
+        "DNF": 3,
+        "MP": 2,
+        "OK": 391
+      }
     },
-    "notes": "Course metadata (place/map, distance, elevation, controls) is not present in the normalized repository CSV. Field sizes are derived from the CSV rows."
+    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
   },
   "sprint": {
     "place": null,
     "map_name": null,
     "categories": {
       "M16": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 101
+        "control_points": null,
+        "field_size": 101,
+        "source": {
+          "normalized_csv": "results/2019/sprint.csv",
+          "raw_source_files": [
+            "results/raw/2019/Sprint-eventor.xml"
+          ],
+          "raw_source_formats": [
+            "IOF XML"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "DSQ": 1,
+            "MP": 4,
+            "OK": 389
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       },
       "M18": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 106
+        "control_points": null,
+        "field_size": 106,
+        "source": {
+          "normalized_csv": "results/2019/sprint.csv",
+          "raw_source_files": [
+            "results/raw/2019/Sprint-eventor.xml"
+          ],
+          "raw_source_formats": [
+            "IOF XML"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "DSQ": 1,
+            "MP": 4,
+            "OK": 389
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       },
       "W16": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 89
+        "control_points": null,
+        "field_size": 89,
+        "source": {
+          "normalized_csv": "results/2019/sprint.csv",
+          "raw_source_files": [
+            "results/raw/2019/Sprint-eventor.xml"
+          ],
+          "raw_source_formats": [
+            "IOF XML"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "DSQ": 1,
+            "MP": 4,
+            "OK": 389
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       },
       "W18": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 98
+        "control_points": null,
+        "field_size": 98,
+        "source": {
+          "normalized_csv": "results/2019/sprint.csv",
+          "raw_source_files": [
+            "results/raw/2019/Sprint-eventor.xml"
+          ],
+          "raw_source_formats": [
+            "IOF XML"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "DSQ": 1,
+            "MP": 4,
+            "OK": 389
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       }
     },
     "source": {
-      "csv_file": "results/2019/sprint.csv",
+      "normalized_csv": "results/2019/sprint.csv",
       "raw_source_files": [
-        "2019/Sprint-eventor.xml"
+        "results/raw/2019/Sprint-eventor.xml"
       ],
-      "confidence": [
+      "raw_source_formats": [
+        "IOF XML"
+      ],
+      "confidence_values": [
         "high"
       ],
-      "row_count": 394
+      "status_counts": {
+        "DSQ": 1,
+        "MP": 4,
+        "OK": 389
+      }
     },
-    "notes": "Course metadata (place/map, distance, elevation, controls) is not present in the normalized repository CSV. Field sizes are derived from the CSV rows."
+    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
   },
   "relay": {
     "place": null,
     "map_name": null,
     "categories": {
       "M16": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 24
+        "control_points": null,
+        "field_size": 24,
+        "source": {
+          "normalized_csv": "results/2019/relay.csv",
+          "raw_source_files": [
+            "results/raw/2019/result-relay.pdf"
+          ],
+          "raw_source_formats": [
+            "PDF"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "OK": 97
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       },
       "M18": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 26
+        "control_points": null,
+        "field_size": 26,
+        "source": {
+          "normalized_csv": "results/2019/relay.csv",
+          "raw_source_files": [
+            "results/raw/2019/result-relay.pdf"
+          ],
+          "raw_source_formats": [
+            "PDF"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "OK": 97
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       },
       "W16": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 22
+        "control_points": null,
+        "field_size": 22,
+        "source": {
+          "normalized_csv": "results/2019/relay.csv",
+          "raw_source_files": [
+            "results/raw/2019/result-relay.pdf"
+          ],
+          "raw_source_formats": [
+            "PDF"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "OK": 97
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       },
       "W18": {
+        "place": null,
+        "map_name": null,
         "distance_km": null,
         "elevation_m": null,
-        "controls": null,
-        "field_size": 25
+        "control_points": null,
+        "field_size": 25,
+        "source": {
+          "normalized_csv": "results/2019/relay.csv",
+          "raw_source_files": [
+            "results/raw/2019/result-relay.pdf"
+          ],
+          "raw_source_formats": [
+            "PDF"
+          ],
+          "confidence_values": [
+            "high"
+          ],
+          "status_counts": {
+            "OK": 97
+          }
+        },
+        "extraction_status": "field_size from normalized CSV; course metadata awaits raw-source parsing"
       }
     },
     "source": {
-      "csv_file": "results/2019/relay.csv",
+      "normalized_csv": "results/2019/relay.csv",
       "raw_source_files": [
-        "2019/result-relay.pdf"
+        "results/raw/2019/result-relay.pdf"
       ],
-      "confidence": [
+      "raw_source_formats": [
+        "PDF"
+      ],
+      "confidence_values": [
         "high"
       ],
-      "row_count": 97
+      "status_counts": {
+        "OK": 97
+      }
     },
-    "notes": "Course metadata (place/map, distance, elevation, controls) is not present in the normalized repository CSV. Field sizes are derived from the CSV rows."
+    "course_metadata_status": "not extracted here: XML/PDF raw downloads were blocked in this runtime; run scripts/update_metadata_from_raw.py in a cloned repository to fill distance/elevation/controls/map when present"
   },
   "metadata_notes": [
-    "Generated from the local normalized CSV snapshot of klemenkenda/eyoc-archive plus public EYOC host list for city/country.",
-    "The repository README states normalized results are stored as results/<year>/{sprint,long,relay}.csv and raw files under results/raw/<year>.",
-    "Course place/map name, distance, elevation and control count were not available in the normalized CSV files, so those fields are null unless added later from bulletins or maps.",
-    "Relay field_size is the number of team rows in the relay CSV category, not runner count."
+    "This version adds raw-source provenance from each normalized CSV row source_file column.",
+    "Course metadata fields are kept in a stable schema: place/map_name/distance_km/elevation_m/control_points.",
+    "Null means not extracted, not zero. For XML raw files, run scripts/update_metadata_from_raw.py from a clone of the repository to fill course details when they exist in the XML.",
+    "Relay field_size is team count, not runner count."
   ]
 }
