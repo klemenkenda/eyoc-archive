@@ -85,6 +85,7 @@ for _code in CODES:
     ALIASES[_code.lower()] = _code
 ALIASES["rom"] = "ROU"  # old IOC-style code for Romania, still used by some older software
 ALIASES["lreland"] = "IRL"  # common OCR misread of "Ireland" (capital I -> lowercase l)
+ALIASES["ukraina"] = "UKR"  # Hungarian/Slavic spelling seen in some lazarus.elte.hu years
 for _name, _code in NAMES_BY_LOWER.items():
     ALIASES[_name] = _code
 

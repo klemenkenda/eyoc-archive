@@ -12,12 +12,14 @@ import parse_text_pdf
 import parse_relay_text_pdf
 import parse_eventor_relay_pdf
 import parse_lazarus_html
+import parse_lazarus_relay
 import parse_2016_sprint_ocr
 import parse_2014_relay_ocr
 
 MODULES = [
-    parse_lazarus_html, parse_text_pdf, parse_oe_pdf, parse_relay_text_pdf,
-    parse_eventor_relay_pdf, parse_xml, parse_2016_sprint_ocr, parse_2014_relay_ocr,
+    parse_lazarus_html, parse_lazarus_relay, parse_text_pdf, parse_oe_pdf,
+    parse_relay_text_pdf, parse_eventor_relay_pdf, parse_xml, parse_2016_sprint_ocr,
+    parse_2014_relay_ocr,
 ]
 
 if __name__ == "__main__":
