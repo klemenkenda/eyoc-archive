@@ -4,8 +4,11 @@ Every parser script is responsible for one raw source *format* (not one year) an
 into results/<year>/{sprint,long,relay}.csv per results/FORMAT-RESULTS.md.
 """
 import csv
+import os
 import re
 import subprocess
+import sys
+from dataclasses import dataclass
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -81,6 +84,7 @@ ALIASES = {
 for _code in CODES:
     ALIASES[_code.lower()] = _code
 ALIASES["rom"] = "ROU"  # old IOC-style code for Romania, still used by some older software
+ALIASES["lreland"] = "IRL"  # common OCR misread of "Ireland" (capital I -> lowercase l)
 for _name, _code in NAMES_BY_LOWER.items():
     ALIASES[_name] = _code
 
@@ -237,6 +241,110 @@ def bucket_row(row, columns, slack=8.0):
                 idx = i
         out[names[idx]].append(text)
     return {k: " ".join(v) for k, v in out.items()}
+
+
+def configure_tesseract():
+    """Locate the Tesseract binary/tessdata installed via conda-forge, which doesn't
+    always end up on PATH and whose tessdata can land in the package cache rather than
+    the live env's share dir."""
+    import pytesseract
+
+    if not os.environ.get("TESSDATA_PREFIX"):
+        candidates = list(Path(sys.prefix).glob("**/tessdata")) + list(Path(sys.prefix).glob("**/pkgs/tesseract-*/share/tessdata"))
+        for c in candidates:
+            if (c / "eng.traineddata").exists():
+                os.environ["TESSDATA_PREFIX"] = str(c)
+                break
+    try:
+        pytesseract.get_tesseract_version()
+    except Exception:
+        for exe in (Path(sys.prefix) / "Library" / "bin" / "tesseract.exe",):
+            if exe.exists():
+                pytesseract.pytesseract.tesseract_cmd = str(exe)
+                break
+    return pytesseract
+
+
+@dataclass
+class OcrWord:
+    page: int
+    text: str
+    x: float
+    y: float
+    w: float
+    h: float
+
+    @property
+    def cx(self):
+        return self.x + self.w / 2
+
+    @property
+    def cy(self):
+        return self.y + self.h / 2
+
+
+def render_pdf_pages(pdf_path, out_dir, zoom=4.0):
+    """Render every page of pdf_path to PNG files in out_dir, for scanned PDFs with no
+    text layer. Returns the list of image paths, one per page in order."""
+    import fitz
+
+    doc = fitz.open(str(pdf_path))
+    paths = []
+    matrix = fitz.Matrix(zoom, zoom)
+    for index, page in enumerate(doc, start=1):
+        out = Path(out_dir) / f"page_{index:02d}.png"
+        pix = page.get_pixmap(matrix=matrix, alpha=False)
+        pix.save(str(out))
+        paths.append(out)
+    return paths
+
+
+def tesseract_ocr(paths, zoom=4.0, psm=6):
+    """OCR each rendered page image and return OcrWord list with coordinates normalized
+    back to PDF points (i.e. divided by the zoom factor used to render them)."""
+    pytesseract = configure_tesseract()
+    from pytesseract import Output
+
+    words = []
+    for page_num, path in enumerate(paths, start=1):
+        data = pytesseract.image_to_data(str(path), config=f"--psm {psm}", output_type=Output.DICT)
+        for i, text in enumerate(data["text"]):
+            text = text.strip()
+            if not text:
+                continue
+            words.append(OcrWord(
+                page=page_num,
+                text=text,
+                x=data["left"][i] / zoom,
+                y=data["top"][i] / zoom,
+                w=data["width"][i] / zoom,
+                h=data["height"][i] / zoom,
+            ))
+    return words
+
+
+def group_ocr_lines(words, y_tol=4.5):
+    """Group OcrWord results into table rows by y-coordinate, per page."""
+    lines = []
+    for page in sorted({word.page for word in words}):
+        page_words = sorted((word for word in words if word.page == page), key=lambda w: (w.cy, w.x))
+        current = []
+        current_y = None
+        for word in page_words:
+            if current_y is None or abs(word.cy - current_y) <= y_tol:
+                current.append(word)
+                current_y = word.cy if current_y is None else (current_y * (len(current) - 1) + word.cy) / len(current)
+            else:
+                lines.append(sorted(current, key=lambda w: w.x))
+                current = [word]
+                current_y = word.cy
+        if current:
+            lines.append(sorted(current, key=lambda w: w.x))
+    return lines
+
+
+def ocr_line_text(words):
+    return " ".join(word.text for word in sorted(words, key=lambda w: w.x))
 
 
 def pdf_to_text(pdf_path):

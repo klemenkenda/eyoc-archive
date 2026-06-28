@@ -25,10 +25,8 @@ Run directly from the repository root:
 """
 from __future__ import annotations
 
-import os
 import re
 import sys
-from dataclasses import dataclass
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -52,108 +50,6 @@ COLUMNS = {
 LINE_Y_TOL = 4.5
 
 
-def _configure_tesseract():
-    import pytesseract
-
-    # Tesseract installed via conda-forge doesn't always end up on PATH, and its
-    # tessdata can land in the package cache rather than the live env's share dir -
-    # locate both rather than relying on the caller's shell environment.
-    if not os.environ.get("TESSDATA_PREFIX"):
-        candidates = list(Path(sys.prefix).glob("**/tessdata")) + list(Path(sys.prefix).glob("**/pkgs/tesseract-*/share/tessdata"))
-        for c in candidates:
-            if (c / "eng.traineddata").exists():
-                os.environ["TESSDATA_PREFIX"] = str(c)
-                break
-    try:
-        pytesseract.get_tesseract_version()
-    except Exception:
-        for exe in (Path(sys.prefix) / "Library" / "bin" / "tesseract.exe",):
-            if exe.exists():
-                pytesseract.pytesseract.tesseract_cmd = str(exe)
-                break
-    return pytesseract
-
-
-@dataclass
-class Word:
-    page: int
-    text: str
-    x: float
-    y: float
-    w: float
-    h: float
-
-    @property
-    def cx(self) -> float:
-        return self.x + self.w / 2
-
-    @property
-    def cy(self) -> float:
-        return self.y + self.h / 2
-
-
-def render_pdf_pages(pdf: Path, out_dir: Path) -> list[Path]:
-    import fitz
-
-    doc = fitz.open(str(pdf))
-    paths: list[Path] = []
-    matrix = fitz.Matrix(ZOOM, ZOOM)
-    for index, page in enumerate(doc, start=1):
-        out = out_dir / f"page_{index:02d}.png"
-        pix = page.get_pixmap(matrix=matrix, alpha=False)
-        pix.save(str(out))
-        paths.append(out)
-    return paths
-
-
-def tesseract_ocr(paths: list[Path]) -> list[Word]:
-    pytesseract = _configure_tesseract()
-    from pytesseract import Output
-
-    words: list[Word] = []
-    for page_num, path in enumerate(paths, start=1):
-        data = pytesseract.image_to_data(str(path), config="--psm 6", output_type=Output.DICT)
-        for i, text in enumerate(data["text"]):
-            text = text.strip()
-            if not text:
-                continue
-            words.append(Word(
-                page=page_num,
-                text=text,
-                x=data["left"][i] / ZOOM,
-                y=data["top"][i] / ZOOM,
-                w=data["width"][i] / ZOOM,
-                h=data["height"][i] / ZOOM,
-            ))
-    return words
-
-
-def group_lines(words: list[Word]) -> list[list[Word]]:
-    lines: list[list[Word]] = []
-    for page in sorted({word.page for word in words}):
-        page_words = sorted((word for word in words if word.page == page), key=lambda w: (w.cy, w.x))
-        current: list[Word] = []
-        current_y: float | None = None
-        for word in page_words:
-            if current_y is None or abs(word.cy - current_y) <= LINE_Y_TOL:
-                current.append(word)
-                if current_y is None:
-                    current_y = word.cy
-                else:
-                    current_y = (current_y * (len(current) - 1) + word.cy) / len(current)
-            else:
-                lines.append(sorted(current, key=lambda w: w.x))
-                current = [word]
-                current_y = word.cy
-        if current:
-            lines.append(sorted(current, key=lambda w: w.x))
-    return lines
-
-
-def line_text(words: list[Word]) -> str:
-    return " ".join(word.text for word in sorted(words, key=lambda w: w.x))
-
-
 def detect_class(text: str) -> str | None:
     compact = re.sub(r"[^A-Za-z0-9]", "", text).upper()
     match = re.search(r"([MW]1[68])", compact)
@@ -162,7 +58,7 @@ def detect_class(text: str) -> str | None:
     return None
 
 
-def words_by_column(words: list[Word]) -> dict[str, list[str]]:
+def words_by_column(words: list[common.OcrWord]) -> dict[str, list[str]]:
     cells = {name: [] for name in COLUMNS}
     for word in sorted(words, key=lambda w: w.x):
         for name, (start, end) in COLUMNS.items():
@@ -219,13 +115,13 @@ def clean_name(text: str) -> str:
     return text
 
 
-def parse_rows(words: list[Word]) -> list[dict[str, object]]:
+def parse_rows(words: list[common.OcrWord]) -> list[dict[str, object]]:
     rows: list[dict[str, object]] = []
     current_class: str | None = None
     seen_keys: set[tuple[object, ...]] = set()
 
-    for line in group_lines(words):
-        text = line_text(line)
+    for line in common.group_ocr_lines(words, y_tol=LINE_Y_TOL):
+        text = common.ocr_line_text(line)
         klass = detect_class(text)
         if klass:
             current_class = klass
@@ -290,8 +186,8 @@ def main() -> None:
         raise FileNotFoundError(PDF)
     import tempfile
     with tempfile.TemporaryDirectory(prefix="eyoc2016_sprint_ocr_") as tmp:
-        image_paths = render_pdf_pages(PDF, Path(tmp))
-        words = tesseract_ocr(image_paths)
+        image_paths = common.render_pdf_pages(PDF, Path(tmp), zoom=ZOOM)
+        words = common.tesseract_ocr(image_paths, zoom=ZOOM)
     rows = parse_rows(words)
     out = write_csv(rows)
     counts: dict[str, int] = {}
