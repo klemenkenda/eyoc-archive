@@ -207,7 +207,16 @@ def normalize_ocr_time(text: str) -> tuple[str, int | None]:
 
 def clean_name(text: str) -> str:
     text = re.sub(r"[^A-Za-zÀ-ž'´` -]", "", text)
-    return re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+", " ", text).strip()
+    # The scanned page prints the whole name in caps with no case distinction between
+    # surname and given name, so common.reorder_name's ALL-CAPS-run heuristic can't tell
+    # the order apart here. Cross-checking against the 2016 Long PDF (same event, same
+    # competitors, real text layer) confirms this source prints "Surname Given" - move
+    # the trailing word to the front.
+    words = text.split(" ")
+    if len(words) >= 2:
+        text = " ".join([words[-1]] + words[:-1])
+    return text
 
 
 def parse_rows(words: list[Word]) -> list[dict[str, object]]:

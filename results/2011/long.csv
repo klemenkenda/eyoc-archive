@@ -1,325 +1,325 @@
 class,rank,status,bib,country,name,time_seconds,confidence,source_file
-W16,1,OK,,CZE,Boránková Karolína,2599,high,2011/eyoc2011.htm
-W16,2,OK,,DEN,Falck Weber Amanda,2669,high,2011/eyoc2011.htm
-W16,3,OK,,CZE,Šticková Anna,2722,high,2011/eyoc2011.htm
-W16,4,OK,,BUL,Dzhulieva Martina,2729,high,2011/eyoc2011.htm
-W16,5,OK,,SUI,Müller Sandrine,2768,high,2011/eyoc2011.htm
-W16,6,OK,,DEN,Thrane Odum Miri,2802,high,2011/eyoc2011.htm
-W16,7,OK,,CZE,Svobodová Lenka,2829,high,2011/eyoc2011.htm
-W16,8,OK,,UKR,Postelniak Olena,2851,high,2011/eyoc2011.htm
-W16,9,OK,,LAT,Grosberga Sandra,2908,high,2011/eyoc2011.htm
-W16,10,OK,,SUI,Gross Paula,2935,high,2011/eyoc2011.htm
-W16,11,OK,,FRA,Poirot Delphine,2959,high,2011/eyoc2011.htm
-W16,12,OK,,RUS,Dvorianskaia Anna,2989,high,2011/eyoc2011.htm
-W16,13,OK,,ROU,Tetisan Anca,2994,high,2011/eyoc2011.htm
-W16,14,OK,,HUN,Faggyas Réka,3052,high,2011/eyoc2011.htm
-W16,15,OK,,UKR,Kuznetsova Nina,3061,high,2011/eyoc2011.htm
-W16,16,OK,,HUN,Weiler Virág,3068,high,2011/eyoc2011.htm
-W16,17,OK,,AUT,Ramstein Nora,3121,high,2011/eyoc2011.htm
-W16,18,OK,,RUS,Yakimenko Anna,3138,high,2011/eyoc2011.htm
-W16,19,OK,,HUN,Szuromi Luca,3150,high,2011/eyoc2011.htm
-W16,20,OK,,RUS,Trubkina Marina,3157,high,2011/eyoc2011.htm
-W16,21,OK,,GER,Müller Hanna,3166,high,2011/eyoc2011.htm
-W16,22,OK,,SUI,Schubnell Lisa,3201,high,2011/eyoc2011.htm
-W16,23,OK,,RUS,Korobeynik Daria,3269,high,2011/eyoc2011.htm
-W16,24,OK,,DEN,Edsen Signe,3272,high,2011/eyoc2011.htm
-W16,25,OK,,GBR,McMillan Rhona,3279,high,2011/eyoc2011.htm
-W16,26,OK,,ITA,Patscheider Lia,3306,high,2011/eyoc2011.htm
-W16,27,OK,,UKR,Pelehovitch Valentyna,3334,high,2011/eyoc2011.htm
-W16,28,OK,,EST,Zimmermann Margret,3343,high,2011/eyoc2011.htm
-W16,29,OK,,FRA,Clouard Lucile,3347,high,2011/eyoc2011.htm
-W16,30,OK,,EST,Haug Marianne,3350,high,2011/eyoc2011.htm
-W16,31,OK,,BUL,Dyaksova Antoaneta,3360,high,2011/eyoc2011.htm
-W16,32,OK,,LTU,Domarkaité Giedré,3369,high,2011/eyoc2011.htm
-W16,33,OK,,SUI,Ullmann Kerstin,3382,high,2011/eyoc2011.htm
-W16,34,OK,,POL,Haniszewska Angelika,3384,high,2011/eyoc2011.htm
-W16,35,OK,,EST,Rooni Triinu,3386,high,2011/eyoc2011.htm
-W16,36,OK,,ESP,de Los Rios Silvia Martin,3397,high,2011/eyoc2011.htm
-W16,36,OK,,AUT,Gassner Anika,3397,high,2011/eyoc2011.htm
-W16,38,OK,,POL,Waäczyk Zuzanna,3409,high,2011/eyoc2011.htm
-W16,39,OK,,LAT,Zalaiskalna Annija,3466,high,2011/eyoc2011.htm
-W16,40,OK,,HUN,Liszka Eszter,3506,high,2011/eyoc2011.htm
-W16,41,OK,,LAT,Brice Madara,3542,high,2011/eyoc2011.htm
-W16,42,OK,,LTU,Lipeikyté Justina,3554,high,2011/eyoc2011.htm
-W16,43,OK,,POR,Delgado Carolina,3567,high,2011/eyoc2011.htm
-W16,44,OK,,BUL,Nikolova Aleksandra,3611,high,2011/eyoc2011.htm
-W16,45,OK,,EST,Timmusk Kerda,3666,high,2011/eyoc2011.htm
-W16,46,OK,,GER,Winkler Leonore,3677,high,2011/eyoc2011.htm
-W16,47,OK,,GBR,Beadle Natalie,3724,high,2011/eyoc2011.htm
-W16,48,OK,,ITA,Lucian Elisa,3728,high,2011/eyoc2011.htm
-W16,49,OK,,IRL,Mc Cullough Cliona,3739,high,2011/eyoc2011.htm
-W16,50,OK,,SVK,Papugová Andrea,3747,high,2011/eyoc2011.htm
-W16,51,OK,,AUT,Payer Elisa,3762,high,2011/eyoc2011.htm
-W16,52,OK,,GBR,Carter-Davies Megan,3803,high,2011/eyoc2011.htm
-W16,53,OK,,DEN,Tripax Amalie,3811,high,2011/eyoc2011.htm
-W16,54,OK,,GBR,Hall Katherine,3815,high,2011/eyoc2011.htm
-W16,55,OK,,AUT,Walch Martina,3832,high,2011/eyoc2011.htm
-W16,56,OK,,ESP,Alonso Marta Guijo,3838,high,2011/eyoc2011.htm
-W16,57,OK,,FRA,Haberkorn Chloé,3849,high,2011/eyoc2011.htm
-W16,58,OK,,LAT,Pukite Laura,3867,high,2011/eyoc2011.htm
-W16,59,OK,,BEL,Theys Charlotte,3872,high,2011/eyoc2011.htm
-W16,60,OK,,ITA,Sebastiani Gaia,3877,high,2011/eyoc2011.htm
-W16,61,OK,,LTU,Aleksaité Eglé,3984,high,2011/eyoc2011.htm
-W16,62,OK,,LTU,Gurviciüté Ieva,4006,high,2011/eyoc2011.htm
-W16,63,OK,,GER,Nieke Patricia,4137,high,2011/eyoc2011.htm
-W16,64,OK,,IRL,Corbett Niamh,4146,high,2011/eyoc2011.htm
-W16,65,OK,,CZE,Hancová Petra,4239,high,2011/eyoc2011.htm
-W16,66,OK,,SLO,Cufer Ana,4267,high,2011/eyoc2011.htm
-W16,67,OK,,UKR,Androsova Tetyana,4525,high,2011/eyoc2011.htm
-W16,68,OK,,SVK,Papugová Martina,4537,high,2011/eyoc2011.htm
-W16,69,OK,,SVK,Hošeková Vanda,4567,high,2011/eyoc2011.htm
-W16,70,OK,,ISR,Maerkovitch Marina,4587,high,2011/eyoc2011.htm
-W16,71,OK,,ROU,Bonto Iuliana Diana,4596,high,2011/eyoc2011.htm
-W16,72,OK,,SVK,Lamanecová Radka,4630,high,2011/eyoc2011.htm
-W16,73,OK,,SLO,Foški Tajda,4638,high,2011/eyoc2011.htm
-W16,74,OK,,ISR,Gutman Adi,4651,high,2011/eyoc2011.htm
-W16,75,OK,,ESP,Camps Maria Illa,4763,high,2011/eyoc2011.htm
-W16,76,OK,,ISR,Hilla Ayali,4767,high,2011/eyoc2011.htm
-W16,77,OK,,ESP,Sansa Nuria Loro,4967,high,2011/eyoc2011.htm
-W16,78,OK,,POR,Moreira Beatriz,5110,high,2011/eyoc2011.htm
-W16,79,OK,,ITA,Liu Linda,5119,high,2011/eyoc2011.htm
-W16,80,OK,,SLO,Jeram Nuša,5195,high,2011/eyoc2011.htm
-W16,81,OK,,ROU,Sandulescu Sandra,5436,high,2011/eyoc2011.htm
-W18,1,OK,,SWE,Sandberg Frida,2921,high,2011/eyoc2011.htm
-W18,2,OK,,UKR,Polishchuk Mariya,2961,high,2011/eyoc2011.htm
-W18,3,OK,,AUT,Arbter Anja,3110,high,2011/eyoc2011.htm
-W18,4,OK,,GBR,Haines Florence,3141,high,2011/eyoc2011.htm
-W18,5,OK,,EST,Raudkepp Kaisa,3150,high,2011/eyoc2011.htm
-W18,6,OK,,NOR,Ulvensoen Anna,3178,high,2011/eyoc2011.htm
-W18,7,OK,,CZE,Horcicková Vendula,3216,high,2011/eyoc2011.htm
-W18,8,OK,,LTU,Ambrazaité Vesta,3229,high,2011/eyoc2011.htm
-W18,9,OK,,CZE,Kochová Nikola,3241,high,2011/eyoc2011.htm
-W18,10,OK,,AUT,Nilsson-Simkovics Anna,3245,high,2011/eyoc2011.htm
-W18,11,OK,,GER,Lösch Susen,3263,high,2011/eyoc2011.htm
-W18,12,OK,,NOR,Fremstad Runa,3264,high,2011/eyoc2011.htm
-W18,13,OK,,RUS,Neverova Anastasiia,3272,high,2011/eyoc2011.htm
-W18,14,OK,,SUI,Ruppenthal Véronique,3278,high,2011/eyoc2011.htm
-W18,15,OK,,SWE,Erlandsson Johanna,3298,high,2011/eyoc2011.htm
-W18,16,OK,,CZE,Šimková Johanka,3300,high,2011/eyoc2011.htm
-W18,17,OK,,UKR,Vakulenko Anna,3308,high,2011/eyoc2011.htm
-W18,18,OK,,RUS,Savkina Ekaterina,3352,high,2011/eyoc2011.htm
-W18,19,OK,,EST,Kaasiku Evely,3354,high,2011/eyoc2011.htm
-W18,20,OK,,SWE,Kollberg Olivia,3364,high,2011/eyoc2011.htm
-W18,21,OK,,ITA,Caglio Anna,3378,high,2011/eyoc2011.htm
-W18,22,OK,,SUI,Bertschinger Thalia,3379,high,2011/eyoc2011.htm
-W18,23,OK,,BLR,Denisova Anastasia,3476,high,2011/eyoc2011.htm
-W18,24,OK,,HUN,Zempléni Réka,3477,high,2011/eyoc2011.htm
-W18,25,OK,,NOR,Nordbye Nybo Marie,3506,high,2011/eyoc2011.htm
-W18,26,OK,,RUS,Anufrieva Ekaterina,3510,high,2011/eyoc2011.htm
-W18,27,OK,,LAT,Valdmane Liga,3524,high,2011/eyoc2011.htm
-W18,28,OK,,LAT,Zalaiskalna Beata,3542,high,2011/eyoc2011.htm
-W18,29,OK,,RUS,Shutkovskaya Yulia,3548,high,2011/eyoc2011.htm
-W18,30,OK,,FRA,Beauvisage Lauriane,3590,high,2011/eyoc2011.htm
-W18,31,OK,,AUT,Pacher Lisa,3601,high,2011/eyoc2011.htm
-W18,32,OK,,ROU,Brezian Cristina,3623,high,2011/eyoc2011.htm
-W18,33,OK,,NOR,Hoydal Gunvor Hov,3629,high,2011/eyoc2011.htm
-W18,34,OK,,HUN,Kinde Vanda,3634,high,2011/eyoc2011.htm
-W18,35,OK,,POL,Morawska Anna,3644,high,2011/eyoc2011.htm
-W18,36,OK,,EST,Zimmermann Marili,3663,high,2011/eyoc2011.htm
-W18,37,OK,,SVK,Pijáková Barbora,3713,high,2011/eyoc2011.htm
-W18,38,OK,,ROU,Andra Anghel Cecilia,3725,high,2011/eyoc2011.htm
-W18,38,OK,,HUN,Varsányi Kinga,3725,high,2011/eyoc2011.htm
-W18,40,OK,,SWE,Forsgren Hilda,3728,high,2011/eyoc2011.htm
-W18,41,OK,,FIN,Skog Henna,3760,high,2011/eyoc2011.htm
-W18,41,OK,,AUT,Telismann Lucija,3760,high,2011/eyoc2011.htm
-W18,43,OK,,GBR,Lindsay Rona,3767,high,2011/eyoc2011.htm
-W18,44,OK,,BUL,Valova Velina,3776,high,2011/eyoc2011.htm
-W18,45,OK,,LTU,Radzivonaité Milda,3784,high,2011/eyoc2011.htm
-W18,46,OK,,UKR,Kravchuk Yuliya,3788,high,2011/eyoc2011.htm
-W18,47,OK,,SVK,Sokolová Ludmila,3805,high,2011/eyoc2011.htm
-W18,48,OK,,ESP,Castro Marina Garcia,3832,high,2011/eyoc2011.htm
-W18,49,OK,,POL,Szeliga Malgorzata,3842,high,2011/eyoc2011.htm
-W18,50,OK,,CZE,Dlouhá Hana,3867,high,2011/eyoc2011.htm
-W18,51,OK,,LTU,Revaité Vilija,3906,high,2011/eyoc2011.htm
-W18,51,OK,,ESP,Deniz Carmen Patino,3906,high,2011/eyoc2011.htm
-W18,53,OK,,ROU,Horvath Madalina Emilia,3957,high,2011/eyoc2011.htm
-W18,54,OK,,FRA,Loterie Laurine,4014,high,2011/eyoc2011.htm
-W18,55,OK,,FIN,Kottonen Annika,4033,high,2011/eyoc2011.htm
-W18,56,OK,,LTU,Preikšaité Akvilé,4053,high,2011/eyoc2011.htm
-W18,57,OK,,ITA,Zagonel Viola,4059,high,2011/eyoc2011.htm
-W18,58,OK,,SUI,Haas Fabienne,4083,high,2011/eyoc2011.htm
-W18,59,OK,,FIN,Karvonen Sara,4093,high,2011/eyoc2011.htm
-W18,60,OK,,GER,Flechsig Theresa,4106,high,2011/eyoc2011.htm
-W18,61,OK,,LAT,Sadrina Madara,4117,high,2011/eyoc2011.htm
-W18,61,OK,,HUN,Bartus Petra,4117,high,2011/eyoc2011.htm
-W18,63,OK,,FIN,Mäkinen Elisa,4155,high,2011/eyoc2011.htm
-W18,64,OK,,BUL,Ivanova Kristina,4217,high,2011/eyoc2011.htm
-W18,65,OK,,SUI,Gürtler Julia,4275,high,2011/eyoc2011.htm
-W18,66,OK,,EST,Joonas Laura,4278,high,2011/eyoc2011.htm
-W18,67,OK,,FRA,Roulleaux Noémie,4287,high,2011/eyoc2011.htm
-W18,68,OK,,SVK,Steigrová Lucia,4294,high,2011/eyoc2011.htm
-W18,69,OK,,POR,Alvarez Vera,4398,high,2011/eyoc2011.htm
-W18,70,OK,,LAT,Jansona Marta,4634,high,2011/eyoc2011.htm
-W18,71,OK,,BEL,Tilkin Fanny,4863,high,2011/eyoc2011.htm
-W18,72,OK,,ITA,Bulferi Maria Vittoria,5096,high,2011/eyoc2011.htm
-W18,73,OK,,UKR,Zakharova Polina,5303,high,2011/eyoc2011.htm
-W18,74,OK,,SRB,Vulicevic Katarina,6053,high,2011/eyoc2011.htm
-W18,75,OK,,ESP,Garcia Elena Luna,6105,high,2011/eyoc2011.htm
-W18,76,OK,,ESP,Escribá Andrea Guillén,6323,high,2011/eyoc2011.htm
-W18,77,OK,,SRB,Stevanovic Marina,6898,high,2011/eyoc2011.htm
-M16,1,OK,,DEN,Aaen Mikkel,2802,high,2011/eyoc2011.htm
-M16,2,OK,,LTU,Bartkevicius Algirdas,2815,high,2011/eyoc2011.htm
-M16,3,OK,,SUI,Mertenat Quentin,2869,high,2011/eyoc2011.htm
-M16,4,OK,,CZE,Pavlovec Jan,2946,high,2011/eyoc2011.htm
-M16,5,OK,,SVK,Šmelík Martin,2951,high,2011/eyoc2011.htm
-M16,6,OK,,SUI,Hellmüller Sven,2963,high,2011/eyoc2011.htm
-M16,7,OK,,RUS,Pavlenko Aleksandr,3007,high,2011/eyoc2011.htm
-M16,8,OK,,DEN,Maag Magnus,3010,high,2011/eyoc2011.htm
-M16,9,OK,,CZE,Horák Patrik,3027,high,2011/eyoc2011.htm
-M16,10,OK,,DEN,Dewet Magnus,3034,high,2011/eyoc2011.htm
-M16,11,OK,,DEN,Knudsen Thomas,3040,high,2011/eyoc2011.htm
-M16,12,OK,,BEL,Leeuws Evert,3057,high,2011/eyoc2011.htm
-M16,13,OK,,UKR,Tkachuk Oleksandr,3065,high,2011/eyoc2011.htm
-M16,13,OK,,HUN,Hajdu Szása,3065,high,2011/eyoc2011.htm
-M16,15,OK,,LAT,Dzalbs Emils,3072,high,2011/eyoc2011.htm
-M16,16,OK,,RUS,Popov Sergey,3088,high,2011/eyoc2011.htm
-M16,17,OK,,SUI,Böni Johan,3091,high,2011/eyoc2011.htm
-M16,18,OK,,UKR,Gychko Vitaliy,3094,high,2011/eyoc2011.htm
-M16,19,OK,,FRA,Rauturier Quentin,3104,high,2011/eyoc2011.htm
-M16,20,OK,,FRA,Marty Loic,3116,high,2011/eyoc2011.htm
-M16,21,OK,,AUT,Groell Matthias,3123,high,2011/eyoc2011.htm
-M16,22,OK,,SUI,Gygax Sebastian,3136,high,2011/eyoc2011.htm
-M16,23,OK,,GER,Döllgast Moritz,3142,high,2011/eyoc2011.htm
-M16,24,OK,,HUN,Rácz Sándor,3156,high,2011/eyoc2011.htm
-M16,25,OK,,HUN,Kovács Bertalan,3174,high,2011/eyoc2011.htm
-M16,26,OK,,CZE,Šnupárek Václav,3190,high,2011/eyoc2011.htm
-M16,27,OK,,CZE,Hubácek Jonáš,3249,high,2011/eyoc2011.htm
-M16,28,OK,,GER,Fuchs Arne,3257,high,2011/eyoc2011.htm
-M16,29,OK,,AUT,Peter Mathias,3268,high,2011/eyoc2011.htm
-M16,30,OK,,LTU,Nakvosas Gytis,3282,high,2011/eyoc2011.htm
-M16,31,OK,,POL,Wolowczyk Krzysztof,3304,high,2011/eyoc2011.htm
-M16,32,OK,,POR,Cascalho Joäo,3340,high,2011/eyoc2011.htm
-M16,33,OK,,AUT,Siemmeister Daniel,3351,high,2011/eyoc2011.htm
-M16,34,OK,,POL,Dzioba Mateusz,3352,high,2011/eyoc2011.htm
-M16,35,OK,,GBR,Smith Aidan,3355,high,2011/eyoc2011.htm
-M16,36,OK,,UKR,Asmolov Oleksandr,3388,high,2011/eyoc2011.htm
-M16,37,OK,,FRA,Sandevoir Luc,3399,high,2011/eyoc2011.htm
-M16,38,OK,,LAT,Reinsons Alvis,3422,high,2011/eyoc2011.htm
-M16,39,OK,,ROU,Cazian Bogdan Dan,3428,high,2011/eyoc2011.htm
-M16,40,OK,,GBR,Elkington Matthew,3440,high,2011/eyoc2011.htm
-M16,41,OK,,POL,Garbacik Michal,3467,high,2011/eyoc2011.htm
-M16,42,OK,,POR,Baltazar Tiago,3472,high,2011/eyoc2011.htm
-M16,43,OK,,ISR,Yasur Nitsan,3532,high,2011/eyoc2011.htm
-M16,44,OK,,GER,Otto Mark,3551,high,2011/eyoc2011.htm
-M16,45,OK,,RUS,Shaykin Nikolay,3562,high,2011/eyoc2011.htm
-M16,46,OK,,LAT,Taube Emils-Henrijs,3588,high,2011/eyoc2011.htm
-M16,47,OK,,ROU,Bele Felician,3627,high,2011/eyoc2011.htm
-M16,48,OK,,ESP,Alvarez Jose Maria Saez,3652,high,2011/eyoc2011.htm
-M16,49,OK,,ITA,Scalet Riccardo,3687,high,2011/eyoc2011.htm
-M16,50,OK,,SVK,Jonáš Martin,3694,high,2011/eyoc2011.htm
-M16,51,OK,,LAT,Baunis Janis,3697,high,2011/eyoc2011.htm
-M16,52,OK,,AUT,Tanzer Michael,3721,high,2011/eyoc2011.htm
-M16,53,OK,,LTU,Žilinskas Paulius,3747,high,2011/eyoc2011.htm
-M16,54,OK,,POR,Ferreira Miguel,3768,high,2011/eyoc2011.htm
-M16,55,OK,,UKR,Androsov Sergiy,3820,high,2011/eyoc2011.htm
-M16,56,OK,,GBR,Galloway Chris,3879,high,2011/eyoc2011.htm
-M16,57,OK,,SLO,Tušar Peter,3908,high,2011/eyoc2011.htm
-M16,58,OK,,IRL,Quinn Jonathan,3934,high,2011/eyoc2011.htm
-M16,59,OK,,BUL,Ponev Martin,3953,high,2011/eyoc2011.htm
-M16,60,OK,,EST,Piirisild Janek,3956,high,2011/eyoc2011.htm
-M16,61,OK,,SLO,Petrovic Blaž,4052,high,2011/eyoc2011.htm
-M16,62,OK,,SLO,Hvala Gregor,4082,high,2011/eyoc2011.htm
-M16,63,OK,,BUL,Atanasov Apostol,4102,high,2011/eyoc2011.htm
-M16,64,OK,,ROU,Bogya Gergely,4124,high,2011/eyoc2011.htm
-M16,65,OK,,ITA,Raus Stefano,4125,high,2011/eyoc2011.htm
-M16,66,OK,,ITA,Debertolis Mattia,4138,high,2011/eyoc2011.htm
-M16,67,OK,,POL,Ciekanski Mateusz,4194,high,2011/eyoc2011.htm
-M16,68,OK,,SRB,Bilic Nikola,4196,high,2011/eyoc2011.htm
-M16,69,OK,,SVK,Hraboš Matej,4282,high,2011/eyoc2011.htm
-M16,70,OK,,RUS,Prosyan Maxim,4319,high,2011/eyoc2011.htm
-M16,71,OK,,ITA,de Noni Alessandro,4325,high,2011/eyoc2011.htm
-M16,72,OK,,ISR,Rafaeli Yuval,4326,high,2011/eyoc2011.htm
-M16,73,OK,,ESP,Ruiz Manuel Lopez,4329,high,2011/eyoc2011.htm
-M16,74,OK,,POR,Augusto Filipe,4351,high,2011/eyoc2011.htm
-M16,75,OK,,ESP,Carceles Elmar Montero,4423,high,2011/eyoc2011.htm
-M16,76,OK,,EST,Söukand Anti,4488,high,2011/eyoc2011.htm
-M16,77,OK,,LTU,Tirlikas Martynas,4550,high,2011/eyoc2011.htm
-M16,78,OK,,BEL,Gillet Thomas,4660,high,2011/eyoc2011.htm
-M16,79,OK,,EST,Rööm Rimmo,4781,high,2011/eyoc2011.htm
-M16,80,OK,,ESP,Barea Ismael Ramal,4899,high,2011/eyoc2011.htm
-M16,81,OK,,IRL,Millar Harry,4900,high,2011/eyoc2011.htm
-M16,82,OK,,HUN,Miavecz Balázs,5091,high,2011/eyoc2011.htm
-M18,1,OK,,LAT,Zernis Rudolfs,3299,high,2011/eyoc2011.htm
-M18,2,OK,,SWE,Malmberg Erik,3361,high,2011/eyoc2011.htm
-M18,3,OK,,POL,Niewiedziala Robert,3483,high,2011/eyoc2011.htm
-M18,4,OK,,SVK,Franko Dávid,3512,high,2011/eyoc2011.htm
-M18,5,OK,,FIN,Oksanen Tommi,3516,high,2011/eyoc2011.htm
-M18,6,OK,,CZE,Minár Marek,3537,high,2011/eyoc2011.htm
-M18,7,OK,,HUN,Horváth Marcell,3544,high,2011/eyoc2011.htm
-M18,8,OK,,FIN,Jurvakainen Tuukka,3569,high,2011/eyoc2011.htm
-M18,9,OK,,ROU,Pricop Constantin Paul,3614,high,2011/eyoc2011.htm
-M18,10,OK,,SUI,Wenger Simon,3641,high,2011/eyoc2011.htm
-M18,11,OK,,NOR,Lofthus Dag,3643,high,2011/eyoc2011.htm
-M18,12,OK,,HUN,Kazal Márton,3649,high,2011/eyoc2011.htm
-M18,13,OK,,RUS,Kozyrev Andrey,3662,high,2011/eyoc2011.htm
-M18,14,OK,,CZE,Chloupek Adam,3665,high,2011/eyoc2011.htm
-M18,15,OK,,AUT,Habenicht Tobias,3679,high,2011/eyoc2011.htm
-M18,16,OK,,RUS,Makeichik Aleksandr,3686,high,2011/eyoc2011.htm
-M18,17,OK,,LTU,Staišiünas Viktoras,3692,high,2011/eyoc2011.htm
-M18,18,OK,,SWE,Johansson Anton,3707,high,2011/eyoc2011.htm
-M18,19,OK,,FIN,Valtonen Luukas,3721,high,2011/eyoc2011.htm
-M18,20,OK,,SWE,Aldén Niklas,3727,high,2011/eyoc2011.htm
-M18,21,OK,,POR,Silva Pedro,3781,high,2011/eyoc2011.htm
-M18,22,OK,,NOR,Ronning Sindre,3806,high,2011/eyoc2011.htm
-M18,23,OK,,ITA,Curzio Samuele,3826,high,2011/eyoc2011.htm
-M18,24,OK,,UKR,Bezdytnyi Volodymyr,3830,high,2011/eyoc2011.htm
-M18,25,OK,,ITA,Zagonel Giacomo,3840,high,2011/eyoc2011.htm
-M18,26,OK,,SUI,Risse Térence,3845,high,2011/eyoc2011.htm
-M18,27,OK,,GBR,Bray Peter,3856,high,2011/eyoc2011.htm
-M18,28,OK,,SUI,Vock Sandro,3857,high,2011/eyoc2011.htm
-M18,29,OK,,CZE,Kubelka Tomáš,3896,high,2011/eyoc2011.htm
-M18,30,OK,,LAT,Lubinskis Valters,3901,high,2011/eyoc2011.htm
-M18,31,OK,,POL,Parfianowicz Piotr,3912,high,2011/eyoc2011.htm
-M18,32,OK,,FRA,Body Florentin,3934,high,2011/eyoc2011.htm
-M18,33,OK,,FRA,Sutter Olivier,3948,high,2011/eyoc2011.htm
-M18,34,OK,,ITA,Bettega Ivano,3958,high,2011/eyoc2011.htm
-M18,35,OK,,NOR,Arnesen Simen Jevne,3975,high,2011/eyoc2011.htm
-M18,36,OK,,FIN,Kannus Kristian,3990,high,2011/eyoc2011.htm
-M18,37,OK,,UKR,Polovinko Andriy,4045,high,2011/eyoc2011.htm
-M18,38,OK,,ESP,Marcos Eduardo Gil,4056,high,2011/eyoc2011.htm
-M18,39,OK,,UKR,Seleznov Volodymyr,4069,high,2011/eyoc2011.htm
-M18,40,OK,,CZE,Klusácek Jan,4081,high,2011/eyoc2011.htm
-M18,41,OK,,POL,Jasinski Witold,4083,high,2011/eyoc2011.htm
-M18,42,OK,,SVK,Mušinský Tomáš,4122,high,2011/eyoc2011.htm
-M18,43,OK,,CRO,Razum Matija,4144,high,2011/eyoc2011.htm
-M18,44,OK,,LTU,Morénas Gediminas,4149,high,2011/eyoc2011.htm
-M18,45,OK,,POR,Silva Luís,4169,high,2011/eyoc2011.htm
-M18,46,OK,,UKR,Byshevets Oleksii,4173,high,2011/eyoc2011.htm
-M18,47,OK,,LTU,Misiünas Justas,4185,high,2011/eyoc2011.htm
-M18,48,OK,,ESP,Serrano Luis Sanchez,4241,high,2011/eyoc2011.htm
-M18,49,OK,,ROU,Mercar Dorin Alex,4272,high,2011/eyoc2011.htm
-M18,50,OK,,LTU,Žymancius Valentinas,4283,high,2011/eyoc2011.htm
-M18,51,OK,,FRA,Rauturier Maxime,4287,high,2011/eyoc2011.htm
-M18,52,OK,,GBR,Gardner William,4289,high,2011/eyoc2011.htm
-M18,53,OK,,POR,Miguel Rafael,4294,high,2011/eyoc2011.htm
-M18,54,OK,,HUN,Tugyi Levente,4313,high,2011/eyoc2011.htm
-M18,55,OK,,LAT,Sars Janis,4314,high,2011/eyoc2011.htm
-M18,56,OK,,IRL,Stephens Mark,4382,high,2011/eyoc2011.htm
-M18,57,OK,,EST,Laugesaar Tönis,4401,high,2011/eyoc2011.htm
-M18,58,OK,,EST,Teervalt Reigo,4407,high,2011/eyoc2011.htm
-M18,59,OK,,RUS,Kuchmenko Ivan,4465,high,2011/eyoc2011.htm
-M18,60,OK,,BEL,van Bouwel Kristof,4509,high,2011/eyoc2011.htm
-M18,61,OK,,SVK,Kebis Samuel,4559,high,2011/eyoc2011.htm
-M18,62,OK,,HUN,Sulyok Ábel,4586,high,2011/eyoc2011.htm
-M18,63,OK,,GER,Topp Jan Felix,4604,high,2011/eyoc2011.htm
-M18,64,OK,,BEL,Thibaut Jeremie,4644,high,2011/eyoc2011.htm
-M18,65,OK,,AUT,Reiner Matthias,4663,high,2011/eyoc2011.htm
-M18,66,OK,,EST,Linnus Kristjan,4677,high,2011/eyoc2011.htm
-M18,67,OK,,POL,Grabiec Mikolaj,4686,high,2011/eyoc2011.htm
-M18,68,OK,,SRB,Lazic Sava,4716,high,2011/eyoc2011.htm
-M18,69,OK,,RUS,Vasilyev Viktor,4758,high,2011/eyoc2011.htm
-M18,70,OK,,SRB,Stevanovic Filip,4790,high,2011/eyoc2011.htm
-M18,71,OK,,BUL,Kirilov Valentin,4814,high,2011/eyoc2011.htm
-M18,72,OK,,BEL,Hus Wouter,4820,high,2011/eyoc2011.htm
-M18,73,OK,,NOR,Vister Anders,4860,high,2011/eyoc2011.htm
-M18,74,OK,,IRL,Mc Cullough Eoin,4861,high,2011/eyoc2011.htm
-M18,75,OK,,ISR,Manor Itay,4894,high,2011/eyoc2011.htm
-M18,76,OK,,SVK,Mižúr Šimon,4970,high,2011/eyoc2011.htm
-M18,77,OK,,ROU,Prezenszki Tamas,5130,high,2011/eyoc2011.htm
-M18,78,OK,,AUT,Elstner Laurenz,5152,high,2011/eyoc2011.htm
-M18,79,OK,,GBR,Edmonds Carl,5322,high,2011/eyoc2011.htm
-M18,80,OK,,IRL,Quinn Laurence,5373,high,2011/eyoc2011.htm
-M18,81,OK,,LAT,Dislers Davis,5508,high,2011/eyoc2011.htm
-M18,82,OK,,ESP,Casellas Pau Acedo,5577,high,2011/eyoc2011.htm
-M18,83,OK,,SLO,Lapajne Jošt,6418,high,2011/eyoc2011.htm
-M18,84,OK,,SLO,Borštnik Aljaž,7645,high,2011/eyoc2011.htm
+W16,1,OK,,CZE,Karolína Boránková,2599,high,2011/eyoc2011.htm
+W16,2,OK,,DEN,Amanda Falck Weber,2669,high,2011/eyoc2011.htm
+W16,3,OK,,CZE,Anna Šticková,2722,high,2011/eyoc2011.htm
+W16,4,OK,,BUL,Martina Dzhulieva,2729,high,2011/eyoc2011.htm
+W16,5,OK,,SUI,Sandrine Müller,2768,high,2011/eyoc2011.htm
+W16,6,OK,,DEN,Miri Thrane Odum,2802,high,2011/eyoc2011.htm
+W16,7,OK,,CZE,Lenka Svobodová,2829,high,2011/eyoc2011.htm
+W16,8,OK,,UKR,Olena Postelniak,2851,high,2011/eyoc2011.htm
+W16,9,OK,,LAT,Sandra Grosberga,2908,high,2011/eyoc2011.htm
+W16,10,OK,,SUI,Paula Gross,2935,high,2011/eyoc2011.htm
+W16,11,OK,,FRA,Delphine Poirot,2959,high,2011/eyoc2011.htm
+W16,12,OK,,RUS,Anna Dvorianskaia,2989,high,2011/eyoc2011.htm
+W16,13,OK,,ROU,Anca Tetisan,2994,high,2011/eyoc2011.htm
+W16,14,OK,,HUN,Réka Faggyas,3052,high,2011/eyoc2011.htm
+W16,15,OK,,UKR,Nina Kuznetsova,3061,high,2011/eyoc2011.htm
+W16,16,OK,,HUN,Virág Weiler,3068,high,2011/eyoc2011.htm
+W16,17,OK,,AUT,Nora Ramstein,3121,high,2011/eyoc2011.htm
+W16,18,OK,,RUS,Anna Yakimenko,3138,high,2011/eyoc2011.htm
+W16,19,OK,,HUN,Luca Szuromi,3150,high,2011/eyoc2011.htm
+W16,20,OK,,RUS,Marina Trubkina,3157,high,2011/eyoc2011.htm
+W16,21,OK,,GER,Hanna Müller,3166,high,2011/eyoc2011.htm
+W16,22,OK,,SUI,Lisa Schubnell,3201,high,2011/eyoc2011.htm
+W16,23,OK,,RUS,Daria Korobeynik,3269,high,2011/eyoc2011.htm
+W16,24,OK,,DEN,Signe Edsen,3272,high,2011/eyoc2011.htm
+W16,25,OK,,GBR,Rhona Mcmillan,3279,high,2011/eyoc2011.htm
+W16,26,OK,,ITA,Lia Patscheider,3306,high,2011/eyoc2011.htm
+W16,27,OK,,UKR,Valentyna Pelehovitch,3334,high,2011/eyoc2011.htm
+W16,28,OK,,EST,Margret Zimmermann,3343,high,2011/eyoc2011.htm
+W16,29,OK,,FRA,Lucile Clouard,3347,high,2011/eyoc2011.htm
+W16,30,OK,,EST,Marianne Haug,3350,high,2011/eyoc2011.htm
+W16,31,OK,,BUL,Antoaneta Dyaksova,3360,high,2011/eyoc2011.htm
+W16,32,OK,,LTU,Giedré Domarkaité,3369,high,2011/eyoc2011.htm
+W16,33,OK,,SUI,Kerstin Ullmann,3382,high,2011/eyoc2011.htm
+W16,34,OK,,POL,Angelika Haniszewska,3384,high,2011/eyoc2011.htm
+W16,35,OK,,EST,Triinu Rooni,3386,high,2011/eyoc2011.htm
+W16,36,OK,,ESP,Martin de Los Rios Silvia,3397,high,2011/eyoc2011.htm
+W16,36,OK,,AUT,Anika Gassner,3397,high,2011/eyoc2011.htm
+W16,38,OK,,POL,Zuzanna Waäczyk,3409,high,2011/eyoc2011.htm
+W16,39,OK,,LAT,Annija Zalaiskalna,3466,high,2011/eyoc2011.htm
+W16,40,OK,,HUN,Eszter Liszka,3506,high,2011/eyoc2011.htm
+W16,41,OK,,LAT,Madara Brice,3542,high,2011/eyoc2011.htm
+W16,42,OK,,LTU,Justina Lipeikyté,3554,high,2011/eyoc2011.htm
+W16,43,OK,,POR,Carolina Delgado,3567,high,2011/eyoc2011.htm
+W16,44,OK,,BUL,Aleksandra Nikolova,3611,high,2011/eyoc2011.htm
+W16,45,OK,,EST,Kerda Timmusk,3666,high,2011/eyoc2011.htm
+W16,46,OK,,GER,Leonore Winkler,3677,high,2011/eyoc2011.htm
+W16,47,OK,,GBR,Natalie Beadle,3724,high,2011/eyoc2011.htm
+W16,48,OK,,ITA,Elisa Lucian,3728,high,2011/eyoc2011.htm
+W16,49,OK,,IRL,Cliona Mc Cullough,3739,high,2011/eyoc2011.htm
+W16,50,OK,,SVK,Andrea Papugová,3747,high,2011/eyoc2011.htm
+W16,51,OK,,AUT,Elisa Payer,3762,high,2011/eyoc2011.htm
+W16,52,OK,,GBR,Megan Carter-Davies,3803,high,2011/eyoc2011.htm
+W16,53,OK,,DEN,Amalie Tripax,3811,high,2011/eyoc2011.htm
+W16,54,OK,,GBR,Katherine Hall,3815,high,2011/eyoc2011.htm
+W16,55,OK,,AUT,Martina Walch,3832,high,2011/eyoc2011.htm
+W16,56,OK,,ESP,Guijo Alonso Marta,3838,high,2011/eyoc2011.htm
+W16,57,OK,,FRA,Chloé Haberkorn,3849,high,2011/eyoc2011.htm
+W16,58,OK,,LAT,Laura Pukite,3867,high,2011/eyoc2011.htm
+W16,59,OK,,BEL,Charlotte Theys,3872,high,2011/eyoc2011.htm
+W16,60,OK,,ITA,Gaia Sebastiani,3877,high,2011/eyoc2011.htm
+W16,61,OK,,LTU,Eglé Aleksaité,3984,high,2011/eyoc2011.htm
+W16,62,OK,,LTU,Ieva Gurviciüté,4006,high,2011/eyoc2011.htm
+W16,63,OK,,GER,Patricia Nieke,4137,high,2011/eyoc2011.htm
+W16,64,OK,,IRL,Niamh Corbett,4146,high,2011/eyoc2011.htm
+W16,65,OK,,CZE,Petra Hancová,4239,high,2011/eyoc2011.htm
+W16,66,OK,,SLO,Ana Cufer,4267,high,2011/eyoc2011.htm
+W16,67,OK,,UKR,Tetyana Androsova,4525,high,2011/eyoc2011.htm
+W16,68,OK,,SVK,Martina Papugová,4537,high,2011/eyoc2011.htm
+W16,69,OK,,SVK,Vanda Hošeková,4567,high,2011/eyoc2011.htm
+W16,70,OK,,ISR,Marina Maerkovitch,4587,high,2011/eyoc2011.htm
+W16,71,OK,,ROU,Diana Bonto Iuliana,4596,high,2011/eyoc2011.htm
+W16,72,OK,,SVK,Radka Lamanecová,4630,high,2011/eyoc2011.htm
+W16,73,OK,,SLO,Tajda Foški,4638,high,2011/eyoc2011.htm
+W16,74,OK,,ISR,Adi Gutman,4651,high,2011/eyoc2011.htm
+W16,75,OK,,ESP,Illa Camps Maria,4763,high,2011/eyoc2011.htm
+W16,76,OK,,ISR,Ayali Hilla,4767,high,2011/eyoc2011.htm
+W16,77,OK,,ESP,Loro Sansa Nuria,4967,high,2011/eyoc2011.htm
+W16,78,OK,,POR,Beatriz Moreira,5110,high,2011/eyoc2011.htm
+W16,79,OK,,ITA,Linda Liu,5119,high,2011/eyoc2011.htm
+W16,80,OK,,SLO,Nuša Jeram,5195,high,2011/eyoc2011.htm
+W16,81,OK,,ROU,Sandra Sandulescu,5436,high,2011/eyoc2011.htm
+W18,1,OK,,SWE,Frida Sandberg,2921,high,2011/eyoc2011.htm
+W18,2,OK,,UKR,Mariya Polishchuk,2961,high,2011/eyoc2011.htm
+W18,3,OK,,AUT,Anja Arbter,3110,high,2011/eyoc2011.htm
+W18,4,OK,,GBR,Florence Haines,3141,high,2011/eyoc2011.htm
+W18,5,OK,,EST,Kaisa Raudkepp,3150,high,2011/eyoc2011.htm
+W18,6,OK,,NOR,Anna Ulvensoen,3178,high,2011/eyoc2011.htm
+W18,7,OK,,CZE,Vendula Horcicková,3216,high,2011/eyoc2011.htm
+W18,8,OK,,LTU,Vesta Ambrazaité,3229,high,2011/eyoc2011.htm
+W18,9,OK,,CZE,Nikola Kochová,3241,high,2011/eyoc2011.htm
+W18,10,OK,,AUT,Anna Nilsson-Simkovics,3245,high,2011/eyoc2011.htm
+W18,11,OK,,GER,Susen Lösch,3263,high,2011/eyoc2011.htm
+W18,12,OK,,NOR,Runa Fremstad,3264,high,2011/eyoc2011.htm
+W18,13,OK,,RUS,Anastasiia Neverova,3272,high,2011/eyoc2011.htm
+W18,14,OK,,SUI,Véronique Ruppenthal,3278,high,2011/eyoc2011.htm
+W18,15,OK,,SWE,Johanna Erlandsson,3298,high,2011/eyoc2011.htm
+W18,16,OK,,CZE,Johanka Šimková,3300,high,2011/eyoc2011.htm
+W18,17,OK,,UKR,Anna Vakulenko,3308,high,2011/eyoc2011.htm
+W18,18,OK,,RUS,Ekaterina Savkina,3352,high,2011/eyoc2011.htm
+W18,19,OK,,EST,Evely Kaasiku,3354,high,2011/eyoc2011.htm
+W18,20,OK,,SWE,Olivia Kollberg,3364,high,2011/eyoc2011.htm
+W18,21,OK,,ITA,Anna Caglio,3378,high,2011/eyoc2011.htm
+W18,22,OK,,SUI,Thalia Bertschinger,3379,high,2011/eyoc2011.htm
+W18,23,OK,,BLR,Anastasia Denisova,3476,high,2011/eyoc2011.htm
+W18,24,OK,,HUN,Réka Zempléni,3477,high,2011/eyoc2011.htm
+W18,25,OK,,NOR,Marie Nordbye Nybo,3506,high,2011/eyoc2011.htm
+W18,26,OK,,RUS,Ekaterina Anufrieva,3510,high,2011/eyoc2011.htm
+W18,27,OK,,LAT,Liga Valdmane,3524,high,2011/eyoc2011.htm
+W18,28,OK,,LAT,Beata Zalaiskalna,3542,high,2011/eyoc2011.htm
+W18,29,OK,,RUS,Yulia Shutkovskaya,3548,high,2011/eyoc2011.htm
+W18,30,OK,,FRA,Lauriane Beauvisage,3590,high,2011/eyoc2011.htm
+W18,31,OK,,AUT,Lisa Pacher,3601,high,2011/eyoc2011.htm
+W18,32,OK,,ROU,Cristina Brezian,3623,high,2011/eyoc2011.htm
+W18,33,OK,,NOR,Hov Hoydal Gunvor,3629,high,2011/eyoc2011.htm
+W18,34,OK,,HUN,Vanda Kinde,3634,high,2011/eyoc2011.htm
+W18,35,OK,,POL,Anna Morawska,3644,high,2011/eyoc2011.htm
+W18,36,OK,,EST,Marili Zimmermann,3663,high,2011/eyoc2011.htm
+W18,37,OK,,SVK,Barbora Pijáková,3713,high,2011/eyoc2011.htm
+W18,38,OK,,ROU,Cecilia Andra Anghel,3725,high,2011/eyoc2011.htm
+W18,38,OK,,HUN,Kinga Varsányi,3725,high,2011/eyoc2011.htm
+W18,40,OK,,SWE,Hilda Forsgren,3728,high,2011/eyoc2011.htm
+W18,41,OK,,FIN,Henna Skog,3760,high,2011/eyoc2011.htm
+W18,41,OK,,AUT,Lucija Telismann,3760,high,2011/eyoc2011.htm
+W18,43,OK,,GBR,Rona Lindsay,3767,high,2011/eyoc2011.htm
+W18,44,OK,,BUL,Velina Valova,3776,high,2011/eyoc2011.htm
+W18,45,OK,,LTU,Milda Radzivonaité,3784,high,2011/eyoc2011.htm
+W18,46,OK,,UKR,Yuliya Kravchuk,3788,high,2011/eyoc2011.htm
+W18,47,OK,,SVK,Ludmila Sokolová,3805,high,2011/eyoc2011.htm
+W18,48,OK,,ESP,Garcia Castro Marina,3832,high,2011/eyoc2011.htm
+W18,49,OK,,POL,Malgorzata Szeliga,3842,high,2011/eyoc2011.htm
+W18,50,OK,,CZE,Hana Dlouhá,3867,high,2011/eyoc2011.htm
+W18,51,OK,,LTU,Vilija Revaité,3906,high,2011/eyoc2011.htm
+W18,51,OK,,ESP,Patino Deniz Carmen,3906,high,2011/eyoc2011.htm
+W18,53,OK,,ROU,Emilia Horvath Madalina,3957,high,2011/eyoc2011.htm
+W18,54,OK,,FRA,Laurine Loterie,4014,high,2011/eyoc2011.htm
+W18,55,OK,,FIN,Annika Kottonen,4033,high,2011/eyoc2011.htm
+W18,56,OK,,LTU,Akvilé Preikšaité,4053,high,2011/eyoc2011.htm
+W18,57,OK,,ITA,Viola Zagonel,4059,high,2011/eyoc2011.htm
+W18,58,OK,,SUI,Fabienne Haas,4083,high,2011/eyoc2011.htm
+W18,59,OK,,FIN,Sara Karvonen,4093,high,2011/eyoc2011.htm
+W18,60,OK,,GER,Theresa Flechsig,4106,high,2011/eyoc2011.htm
+W18,61,OK,,LAT,Madara Sadrina,4117,high,2011/eyoc2011.htm
+W18,61,OK,,HUN,Petra Bartus,4117,high,2011/eyoc2011.htm
+W18,63,OK,,FIN,Elisa Mäkinen,4155,high,2011/eyoc2011.htm
+W18,64,OK,,BUL,Kristina Ivanova,4217,high,2011/eyoc2011.htm
+W18,65,OK,,SUI,Julia Gürtler,4275,high,2011/eyoc2011.htm
+W18,66,OK,,EST,Laura Joonas,4278,high,2011/eyoc2011.htm
+W18,67,OK,,FRA,Noémie Roulleaux,4287,high,2011/eyoc2011.htm
+W18,68,OK,,SVK,Lucia Steigrová,4294,high,2011/eyoc2011.htm
+W18,69,OK,,POR,Vera Alvarez,4398,high,2011/eyoc2011.htm
+W18,70,OK,,LAT,Marta Jansona,4634,high,2011/eyoc2011.htm
+W18,71,OK,,BEL,Fanny Tilkin,4863,high,2011/eyoc2011.htm
+W18,72,OK,,ITA,Vittoria Bulferi Maria,5096,high,2011/eyoc2011.htm
+W18,73,OK,,UKR,Polina Zakharova,5303,high,2011/eyoc2011.htm
+W18,74,OK,,SRB,Katarina Vulicevic,6053,high,2011/eyoc2011.htm
+W18,75,OK,,ESP,Luna Garcia Elena,6105,high,2011/eyoc2011.htm
+W18,76,OK,,ESP,Guillén Escribá Andrea,6323,high,2011/eyoc2011.htm
+W18,77,OK,,SRB,Marina Stevanovic,6898,high,2011/eyoc2011.htm
+M16,1,OK,,DEN,Mikkel Aaen,2802,high,2011/eyoc2011.htm
+M16,2,OK,,LTU,Algirdas Bartkevicius,2815,high,2011/eyoc2011.htm
+M16,3,OK,,SUI,Quentin Mertenat,2869,high,2011/eyoc2011.htm
+M16,4,OK,,CZE,Jan Pavlovec,2946,high,2011/eyoc2011.htm
+M16,5,OK,,SVK,Martin Šmelík,2951,high,2011/eyoc2011.htm
+M16,6,OK,,SUI,Sven Hellmüller,2963,high,2011/eyoc2011.htm
+M16,7,OK,,RUS,Aleksandr Pavlenko,3007,high,2011/eyoc2011.htm
+M16,8,OK,,DEN,Magnus Maag,3010,high,2011/eyoc2011.htm
+M16,9,OK,,CZE,Patrik Horák,3027,high,2011/eyoc2011.htm
+M16,10,OK,,DEN,Magnus Dewet,3034,high,2011/eyoc2011.htm
+M16,11,OK,,DEN,Thomas Knudsen,3040,high,2011/eyoc2011.htm
+M16,12,OK,,BEL,Evert Leeuws,3057,high,2011/eyoc2011.htm
+M16,13,OK,,UKR,Oleksandr Tkachuk,3065,high,2011/eyoc2011.htm
+M16,13,OK,,HUN,Szása Hajdu,3065,high,2011/eyoc2011.htm
+M16,15,OK,,LAT,Emils Dzalbs,3072,high,2011/eyoc2011.htm
+M16,16,OK,,RUS,Sergey Popov,3088,high,2011/eyoc2011.htm
+M16,17,OK,,SUI,Johan Böni,3091,high,2011/eyoc2011.htm
+M16,18,OK,,UKR,Vitaliy Gychko,3094,high,2011/eyoc2011.htm
+M16,19,OK,,FRA,Quentin Rauturier,3104,high,2011/eyoc2011.htm
+M16,20,OK,,FRA,Loic Marty,3116,high,2011/eyoc2011.htm
+M16,21,OK,,AUT,Matthias Groell,3123,high,2011/eyoc2011.htm
+M16,22,OK,,SUI,Sebastian Gygax,3136,high,2011/eyoc2011.htm
+M16,23,OK,,GER,Moritz Döllgast,3142,high,2011/eyoc2011.htm
+M16,24,OK,,HUN,Sándor Rácz,3156,high,2011/eyoc2011.htm
+M16,25,OK,,HUN,Bertalan Kovács,3174,high,2011/eyoc2011.htm
+M16,26,OK,,CZE,Václav Šnupárek,3190,high,2011/eyoc2011.htm
+M16,27,OK,,CZE,Jonáš Hubácek,3249,high,2011/eyoc2011.htm
+M16,28,OK,,GER,Arne Fuchs,3257,high,2011/eyoc2011.htm
+M16,29,OK,,AUT,Mathias Peter,3268,high,2011/eyoc2011.htm
+M16,30,OK,,LTU,Gytis Nakvosas,3282,high,2011/eyoc2011.htm
+M16,31,OK,,POL,Krzysztof Wolowczyk,3304,high,2011/eyoc2011.htm
+M16,32,OK,,POR,Joäo Cascalho,3340,high,2011/eyoc2011.htm
+M16,33,OK,,AUT,Daniel Siemmeister,3351,high,2011/eyoc2011.htm
+M16,34,OK,,POL,Mateusz Dzioba,3352,high,2011/eyoc2011.htm
+M16,35,OK,,GBR,Aidan Smith,3355,high,2011/eyoc2011.htm
+M16,36,OK,,UKR,Oleksandr Asmolov,3388,high,2011/eyoc2011.htm
+M16,37,OK,,FRA,Luc Sandevoir,3399,high,2011/eyoc2011.htm
+M16,38,OK,,LAT,Alvis Reinsons,3422,high,2011/eyoc2011.htm
+M16,39,OK,,ROU,Dan Cazian Bogdan,3428,high,2011/eyoc2011.htm
+M16,40,OK,,GBR,Matthew Elkington,3440,high,2011/eyoc2011.htm
+M16,41,OK,,POL,Michal Garbacik,3467,high,2011/eyoc2011.htm
+M16,42,OK,,POR,Tiago Baltazar,3472,high,2011/eyoc2011.htm
+M16,43,OK,,ISR,Nitsan Yasur,3532,high,2011/eyoc2011.htm
+M16,44,OK,,GER,Mark Otto,3551,high,2011/eyoc2011.htm
+M16,45,OK,,RUS,Nikolay Shaykin,3562,high,2011/eyoc2011.htm
+M16,46,OK,,LAT,Emils-Henrijs Taube,3588,high,2011/eyoc2011.htm
+M16,47,OK,,ROU,Felician Bele,3627,high,2011/eyoc2011.htm
+M16,48,OK,,ESP,Saez Alvarez Jose Maria,3652,high,2011/eyoc2011.htm
+M16,49,OK,,ITA,Riccardo Scalet,3687,high,2011/eyoc2011.htm
+M16,50,OK,,SVK,Martin Jonáš,3694,high,2011/eyoc2011.htm
+M16,51,OK,,LAT,Janis Baunis,3697,high,2011/eyoc2011.htm
+M16,52,OK,,AUT,Michael Tanzer,3721,high,2011/eyoc2011.htm
+M16,53,OK,,LTU,Paulius Žilinskas,3747,high,2011/eyoc2011.htm
+M16,54,OK,,POR,Miguel Ferreira,3768,high,2011/eyoc2011.htm
+M16,55,OK,,UKR,Sergiy Androsov,3820,high,2011/eyoc2011.htm
+M16,56,OK,,GBR,Chris Galloway,3879,high,2011/eyoc2011.htm
+M16,57,OK,,SLO,Peter Tušar,3908,high,2011/eyoc2011.htm
+M16,58,OK,,IRL,Jonathan Quinn,3934,high,2011/eyoc2011.htm
+M16,59,OK,,BUL,Martin Ponev,3953,high,2011/eyoc2011.htm
+M16,60,OK,,EST,Janek Piirisild,3956,high,2011/eyoc2011.htm
+M16,61,OK,,SLO,Blaž Petrovic,4052,high,2011/eyoc2011.htm
+M16,62,OK,,SLO,Gregor Hvala,4082,high,2011/eyoc2011.htm
+M16,63,OK,,BUL,Apostol Atanasov,4102,high,2011/eyoc2011.htm
+M16,64,OK,,ROU,Gergely Bogya,4124,high,2011/eyoc2011.htm
+M16,65,OK,,ITA,Stefano Raus,4125,high,2011/eyoc2011.htm
+M16,66,OK,,ITA,Mattia Debertolis,4138,high,2011/eyoc2011.htm
+M16,67,OK,,POL,Mateusz Ciekanski,4194,high,2011/eyoc2011.htm
+M16,68,OK,,SRB,Nikola Bilic,4196,high,2011/eyoc2011.htm
+M16,69,OK,,SVK,Matej Hraboš,4282,high,2011/eyoc2011.htm
+M16,70,OK,,RUS,Maxim Prosyan,4319,high,2011/eyoc2011.htm
+M16,71,OK,,ITA,Alessandro de Noni,4325,high,2011/eyoc2011.htm
+M16,72,OK,,ISR,Yuval Rafaeli,4326,high,2011/eyoc2011.htm
+M16,73,OK,,ESP,Lopez Ruiz Manuel,4329,high,2011/eyoc2011.htm
+M16,74,OK,,POR,Filipe Augusto,4351,high,2011/eyoc2011.htm
+M16,75,OK,,ESP,Montero Carceles Elmar,4423,high,2011/eyoc2011.htm
+M16,76,OK,,EST,Anti Söukand,4488,high,2011/eyoc2011.htm
+M16,77,OK,,LTU,Martynas Tirlikas,4550,high,2011/eyoc2011.htm
+M16,78,OK,,BEL,Thomas Gillet,4660,high,2011/eyoc2011.htm
+M16,79,OK,,EST,Rimmo Rööm,4781,high,2011/eyoc2011.htm
+M16,80,OK,,ESP,Ramal Barea Ismael,4899,high,2011/eyoc2011.htm
+M16,81,OK,,IRL,Harry Millar,4900,high,2011/eyoc2011.htm
+M16,82,OK,,HUN,Balázs Miavecz,5091,high,2011/eyoc2011.htm
+M18,1,OK,,LAT,Rudolfs Zernis,3299,high,2011/eyoc2011.htm
+M18,2,OK,,SWE,Erik Malmberg,3361,high,2011/eyoc2011.htm
+M18,3,OK,,POL,Robert Niewiedziala,3483,high,2011/eyoc2011.htm
+M18,4,OK,,SVK,Dávid Franko,3512,high,2011/eyoc2011.htm
+M18,5,OK,,FIN,Tommi Oksanen,3516,high,2011/eyoc2011.htm
+M18,6,OK,,CZE,Marek Minár,3537,high,2011/eyoc2011.htm
+M18,7,OK,,HUN,Marcell Horváth,3544,high,2011/eyoc2011.htm
+M18,8,OK,,FIN,Tuukka Jurvakainen,3569,high,2011/eyoc2011.htm
+M18,9,OK,,ROU,Paul Pricop Constantin,3614,high,2011/eyoc2011.htm
+M18,10,OK,,SUI,Simon Wenger,3641,high,2011/eyoc2011.htm
+M18,11,OK,,NOR,Dag Lofthus,3643,high,2011/eyoc2011.htm
+M18,12,OK,,HUN,Márton Kazal,3649,high,2011/eyoc2011.htm
+M18,13,OK,,RUS,Andrey Kozyrev,3662,high,2011/eyoc2011.htm
+M18,14,OK,,CZE,Adam Chloupek,3665,high,2011/eyoc2011.htm
+M18,15,OK,,AUT,Tobias Habenicht,3679,high,2011/eyoc2011.htm
+M18,16,OK,,RUS,Aleksandr Makeichik,3686,high,2011/eyoc2011.htm
+M18,17,OK,,LTU,Viktoras Staišiünas,3692,high,2011/eyoc2011.htm
+M18,18,OK,,SWE,Anton Johansson,3707,high,2011/eyoc2011.htm
+M18,19,OK,,FIN,Luukas Valtonen,3721,high,2011/eyoc2011.htm
+M18,20,OK,,SWE,Niklas Aldén,3727,high,2011/eyoc2011.htm
+M18,21,OK,,POR,Pedro Silva,3781,high,2011/eyoc2011.htm
+M18,22,OK,,NOR,Sindre Ronning,3806,high,2011/eyoc2011.htm
+M18,23,OK,,ITA,Samuele Curzio,3826,high,2011/eyoc2011.htm
+M18,24,OK,,UKR,Volodymyr Bezdytnyi,3830,high,2011/eyoc2011.htm
+M18,25,OK,,ITA,Giacomo Zagonel,3840,high,2011/eyoc2011.htm
+M18,26,OK,,SUI,Térence Risse,3845,high,2011/eyoc2011.htm
+M18,27,OK,,GBR,Peter Bray,3856,high,2011/eyoc2011.htm
+M18,28,OK,,SUI,Sandro Vock,3857,high,2011/eyoc2011.htm
+M18,29,OK,,CZE,Tomáš Kubelka,3896,high,2011/eyoc2011.htm
+M18,30,OK,,LAT,Valters Lubinskis,3901,high,2011/eyoc2011.htm
+M18,31,OK,,POL,Piotr Parfianowicz,3912,high,2011/eyoc2011.htm
+M18,32,OK,,FRA,Florentin Body,3934,high,2011/eyoc2011.htm
+M18,33,OK,,FRA,Olivier Sutter,3948,high,2011/eyoc2011.htm
+M18,34,OK,,ITA,Ivano Bettega,3958,high,2011/eyoc2011.htm
+M18,35,OK,,NOR,Jevne Arnesen Simen,3975,high,2011/eyoc2011.htm
+M18,36,OK,,FIN,Kristian Kannus,3990,high,2011/eyoc2011.htm
+M18,37,OK,,UKR,Andriy Polovinko,4045,high,2011/eyoc2011.htm
+M18,38,OK,,ESP,Gil Marcos Eduardo,4056,high,2011/eyoc2011.htm
+M18,39,OK,,UKR,Volodymyr Seleznov,4069,high,2011/eyoc2011.htm
+M18,40,OK,,CZE,Jan Klusácek,4081,high,2011/eyoc2011.htm
+M18,41,OK,,POL,Witold Jasinski,4083,high,2011/eyoc2011.htm
+M18,42,OK,,SVK,Tomáš Mušinský,4122,high,2011/eyoc2011.htm
+M18,43,OK,,CRO,Matija Razum,4144,high,2011/eyoc2011.htm
+M18,44,OK,,LTU,Gediminas Morénas,4149,high,2011/eyoc2011.htm
+M18,45,OK,,POR,Luís Silva,4169,high,2011/eyoc2011.htm
+M18,46,OK,,UKR,Oleksii Byshevets,4173,high,2011/eyoc2011.htm
+M18,47,OK,,LTU,Justas Misiünas,4185,high,2011/eyoc2011.htm
+M18,48,OK,,ESP,Sanchez Serrano Luis,4241,high,2011/eyoc2011.htm
+M18,49,OK,,ROU,Alex Mercar Dorin,4272,high,2011/eyoc2011.htm
+M18,50,OK,,LTU,Valentinas Žymancius,4283,high,2011/eyoc2011.htm
+M18,51,OK,,FRA,Maxime Rauturier,4287,high,2011/eyoc2011.htm
+M18,52,OK,,GBR,William Gardner,4289,high,2011/eyoc2011.htm
+M18,53,OK,,POR,Rafael Miguel,4294,high,2011/eyoc2011.htm
+M18,54,OK,,HUN,Levente Tugyi,4313,high,2011/eyoc2011.htm
+M18,55,OK,,LAT,Janis Sars,4314,high,2011/eyoc2011.htm
+M18,56,OK,,IRL,Mark Stephens,4382,high,2011/eyoc2011.htm
+M18,57,OK,,EST,Tönis Laugesaar,4401,high,2011/eyoc2011.htm
+M18,58,OK,,EST,Reigo Teervalt,4407,high,2011/eyoc2011.htm
+M18,59,OK,,RUS,Ivan Kuchmenko,4465,high,2011/eyoc2011.htm
+M18,60,OK,,BEL,Kristof van Bouwel,4509,high,2011/eyoc2011.htm
+M18,61,OK,,SVK,Samuel Kebis,4559,high,2011/eyoc2011.htm
+M18,62,OK,,HUN,Ábel Sulyok,4586,high,2011/eyoc2011.htm
+M18,63,OK,,GER,Felix Topp Jan,4604,high,2011/eyoc2011.htm
+M18,64,OK,,BEL,Jeremie Thibaut,4644,high,2011/eyoc2011.htm
+M18,65,OK,,AUT,Matthias Reiner,4663,high,2011/eyoc2011.htm
+M18,66,OK,,EST,Kristjan Linnus,4677,high,2011/eyoc2011.htm
+M18,67,OK,,POL,Mikolaj Grabiec,4686,high,2011/eyoc2011.htm
+M18,68,OK,,SRB,Sava Lazic,4716,high,2011/eyoc2011.htm
+M18,69,OK,,RUS,Viktor Vasilyev,4758,high,2011/eyoc2011.htm
+M18,70,OK,,SRB,Filip Stevanovic,4790,high,2011/eyoc2011.htm
+M18,71,OK,,BUL,Valentin Kirilov,4814,high,2011/eyoc2011.htm
+M18,72,OK,,BEL,Wouter Hus,4820,high,2011/eyoc2011.htm
+M18,73,OK,,NOR,Anders Vister,4860,high,2011/eyoc2011.htm
+M18,74,OK,,IRL,Eoin Mc Cullough,4861,high,2011/eyoc2011.htm
+M18,75,OK,,ISR,Itay Manor,4894,high,2011/eyoc2011.htm
+M18,76,OK,,SVK,Šimon Mižúr,4970,high,2011/eyoc2011.htm
+M18,77,OK,,ROU,Tamas Prezenszki,5130,high,2011/eyoc2011.htm
+M18,78,OK,,AUT,Laurenz Elstner,5152,high,2011/eyoc2011.htm
+M18,79,OK,,GBR,Carl Edmonds,5322,high,2011/eyoc2011.htm
+M18,80,OK,,IRL,Laurence Quinn,5373,high,2011/eyoc2011.htm
+M18,81,OK,,LAT,Davis Dislers,5508,high,2011/eyoc2011.htm
+M18,82,OK,,ESP,Acedo Casellas Pau,5577,high,2011/eyoc2011.htm
+M18,83,OK,,SLO,Jošt Lapajne,6418,high,2011/eyoc2011.htm
+M18,84,OK,,SLO,Aljaž Borštnik,7645,high,2011/eyoc2011.htm

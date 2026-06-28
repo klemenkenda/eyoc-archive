@@ -22,6 +22,14 @@ import common  # noqa: E402
 
 YEARS = [2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]
 
+# Most years here print "Given Surname" (left as-is) or signal "Surname Given" via a
+# comma or an ALL-CAPS surname run, both already handled generically by
+# common.reorder_name(). These specific years instead print plain "Surname Given" with
+# no such marker (verified by hand against the raw HTML, e.g. 2011: "1. Mueller Sandrine
+# Switzerland" for a competitor who appears in other years as "Sandrine Mueller") - move
+# the trailing word to the front for these years only.
+FORCE_SURNAME_FIRST_YEARS = {2003, 2004, 2005, 2011}
+
 SECTION_RE = re.compile(r'<TD[^>]*BGCOLOR="ffffaa"[^>]*>([\s\S]{0,150}?)</TD>', re.IGNORECASE)
 HEADER_RE = re.compile(
     r'<font size="?\+1"?[^>]*>\s*(?:<b>)?\s*(?:<a[^>]*>)?\s*([A-Za-z0-9]+)\s*(?:</a>)?\s*(?:</b>)?\s*</font>',
@@ -150,6 +158,10 @@ def parse_year(path, year):
                 continue
             total_seen_by_discipline[discipline] += 1
             rank, name, country_text, time_text = parsed
+            if year in FORCE_SURNAME_FIRST_YEARS:
+                words = name.split(" ")
+                if len(words) >= 2:
+                    name = " ".join([words[-1]] + words[:-1])
             country = common.normalize_country(country_text)
             if not country:
                 continue

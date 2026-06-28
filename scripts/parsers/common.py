@@ -294,9 +294,13 @@ def _format_core(core):
     if "'" in core:
         return "'".join(_cap_simple(seg) for seg in core.split("'"))
     lc = core.lower()
-    if lc.startswith("mc") and len(core) > 2:
+    # Only split "Mc"/"Mac" off as a name prefix when the source text itself already
+    # capitalized the following letter (true camel-case, e.g. "McDonald"/"MacLeod") -
+    # otherwise this misfires on ordinary surnames that happen to start with those
+    # letters, e.g. the Czech surname "Machutova".
+    if lc.startswith("mc") and len(core) > 2 and core[2].isupper():
         return "Mc" + _cap_simple(core[2:])
-    if lc.startswith("mac") and len(core) > 3:
+    if lc.startswith("mac") and len(core) > 3 and core[3].isupper():
         return "Mac" + _cap_simple(core[3:])
     return _cap_simple(core)
 
