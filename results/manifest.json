@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "files": [
+    {
+      "year": 2002,
+      "path": "2002/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2003,
+      "path": "2003/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2004,
+      "path": "2004/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2005,
+      "path": "2005/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2006,
+      "path": "2006/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2007,
+      "path": "2007/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2008,
+      "path": "2008/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2009,
+      "path": "2009/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2010,
+      "path": "2010/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2011,
+      "path": "2011/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2012,
+      "path": "2012/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2013,
+      "path": "2013/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2014,
+      "path": "2014/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2015,
+      "path": "2015/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2016,
+      "path": "2016/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2017,
+      "path": "2017/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2018,
+      "path": "2018/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2019,
+      "path": "2019/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2020,
+      "path": "2020/metadata.json",
+      "status": "postponed/no results in repository"
+    },
+    {
+      "year": 2021,
+      "path": "2021/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2022,
+      "path": "2022/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2023,
+      "path": "2023/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2024,
+      "path": "2024/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2025,
+      "path": "2025/metadata.json",
+      "status": "results present in repository"
+    },
+    {
+      "year": 2026,
+      "path": "2026/metadata.json",
+      "status": "results present in repository"
+    }
+  ]
+}

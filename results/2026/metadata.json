@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "year": 2026,
+  "title": "European Youth Orienteering Championships 2026",
+  "city": "Nova Gorica",
+  "country": "Slovenia",
+  "status": "results present in repository",
+  "long": {
+    "place": null,
+    "map_name": null,
+    "categories": {
+      "M16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 95
+      },
+      "M18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 101
+      },
+      "W16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 97
+      },
+      "W18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 104
+      }
+    },
+    "source": {
+      "csv_file": "results/2026/long.csv",
+      "raw_source_files": [
+        "2026/02-long-results-eventor.xml"
+      ],
+      "confidence": [
+        "high"
+      ],
+      "row_count": 397
+    },
+    "notes": "Course metadata (place/map, distance, elevation, controls) is not present in the normalized repository CSV. Field sizes are derived from the CSV rows."
+  },
+  "sprint": {
+    "place": null,
+    "map_name": null,
+    "categories": {
+      "M16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 95
+      },
+      "M18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 101
+      },
+      "W16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 97
+      },
+      "W18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 103
+      }
+    },
+    "source": {
+      "csv_file": "results/2026/sprint.csv",
+      "raw_source_files": [
+        "2026/01-sprint-results-eventor.xml"
+      ],
+      "confidence": [
+        "high"
+      ],
+      "row_count": 396
+    },
+    "notes": "Course metadata (place/map, distance, elevation, controls) is not present in the normalized repository CSV. Field sizes are derived from the CSV rows."
+  },
+  "relay": {
+    "place": null,
+    "map_name": null,
+    "categories": {
+      "M16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 25
+      },
+      "M18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 27
+      },
+      "W16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 25
+      },
+      "W18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 29
+      }
+    },
+    "source": {
+      "csv_file": "results/2026/relay.csv",
+      "raw_source_files": [
+        "2026/03-relay-results-eventor.xml"
+      ],
+      "confidence": [
+        "high"
+      ],
+      "row_count": 106
+    },
+    "notes": "Course metadata (place/map, distance, elevation, controls) is not present in the normalized repository CSV. Field sizes are derived from the CSV rows."
+  },
+  "metadata_notes": [
+    "Generated from the local normalized CSV snapshot of klemenkenda/eyoc-archive plus public EYOC host list for city/country.",
+    "The repository README states normalized results are stored as results/<year>/{sprint,long,relay}.csv and raw files under results/raw/<year>.",
+    "Course place/map name, distance, elevation and control count were not available in the normalized CSV files, so those fields are null unless added later from bulletins or maps.",
+    "Relay field_size is the number of team rows in the relay CSV category, not runner count."
+  ]
+}

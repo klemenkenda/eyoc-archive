@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "year": 2021,
+  "title": "European Youth Orienteering Championships 2021",
+  "city": "Vilnius",
+  "country": "Lithuania",
+  "status": "results present in repository",
+  "long": {
+    "place": null,
+    "map_name": null,
+    "categories": {
+      "M16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 95
+      },
+      "M18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 104
+      },
+      "W16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 88
+      },
+      "W18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 89
+      }
+    },
+    "source": {
+      "csv_file": "results/2021/long.csv",
+      "raw_source_files": [
+        "2021/Long-eventor.xml"
+      ],
+      "confidence": [
+        "high"
+      ],
+      "row_count": 376
+    },
+    "notes": "Course metadata (place/map, distance, elevation, controls) is not present in the normalized repository CSV. Field sizes are derived from the CSV rows."
+  },
+  "sprint": {
+    "place": null,
+    "map_name": null,
+    "categories": {
+      "M16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 95
+      },
+      "M18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 104
+      },
+      "W16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 88
+      },
+      "W18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 89
+      }
+    },
+    "source": {
+      "csv_file": "results/2021/sprint.csv",
+      "raw_source_files": [
+        "2021/Sprint-eventor.xml"
+      ],
+      "confidence": [
+        "high"
+      ],
+      "row_count": 376
+    },
+    "notes": "Course metadata (place/map, distance, elevation, controls) is not present in the normalized repository CSV. Field sizes are derived from the CSV rows."
+  },
+  "relay": {
+    "place": null,
+    "map_name": null,
+    "categories": {
+      "M16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 23
+      },
+      "M18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 25
+      },
+      "W16": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 20
+      },
+      "W18": {
+        "distance_km": null,
+        "elevation_m": null,
+        "controls": null,
+        "field_size": 21
+      }
+    },
+    "source": {
+      "csv_file": "results/2021/relay.csv",
+      "raw_source_files": [
+        "2021/results-relay.pdf"
+      ],
+      "confidence": [
+        "high"
+      ],
+      "row_count": 89
+    },
+    "notes": "Course metadata (place/map, distance, elevation, controls) is not present in the normalized repository CSV. Field sizes are derived from the CSV rows."
+  },
+  "metadata_notes": [
+    "Generated from the local normalized CSV snapshot of klemenkenda/eyoc-archive plus public EYOC host list for city/country.",
+    "The repository README states normalized results are stored as results/<year>/{sprint,long,relay}.csv and raw files under results/raw/<year>.",
+    "Course place/map name, distance, elevation and control count were not available in the normalized CSV files, so those fields are null unless added later from bulletins or maps.",
+    "Relay field_size is the number of team rows in the relay CSV category, not runner count."
+  ]
+}
