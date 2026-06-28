@@ -1,8 +1,26 @@
 # Included PNG manifest
 
+- `eyoc-2002.png`
+- `eyoc-2003.png`
+- `eyoc-2004.png` — 48 x 48px (converted from JPG original)
+- `eyoc-2005.png` — 545 x 119px (converted from GIF original)
+- `eyoc-2006.png`
+- `eyoc-2007.png` — 83 x 123px (converted from GIF original)
+- `eyoc-2008.png` — 208 x 86px (converted from JPG original)
+- `eyoc-2009.png` — 340 x 282px (converted from JPG original)
+- `eyoc-2010.png` — 128 x 128px (converted from JPG original)
+- `eyoc-2011.png` — 431 x 232px (converted from JPG original)
+- `eyoc-2012.png`
+- `eyoc-2013.png`
 - `eyoc-2014.png` — 206 x 188px
 - `eyoc-2015.png` — 800 x 1145px
 - `eyoc-2016.png` — 250 x 352px
 - `eyoc-2017.png` — 420 x 420px
+- `eyoc-2018.png` — 779 x 256px (converted from JPG original)
+- `eyoc-2019.png` — 287 x 359px (converted from JPG original)
+- `eyoc-2021.png`
 - `eyoc-2022.png` — 300 x 103px
+- `eyoc-2023.png` — 225 x 225px (converted from JPG original)
+- `eyoc-2024.png`
 - `eyoc-2025.png` — 2560 x 2114px
+- `eyoc-2026.png`
