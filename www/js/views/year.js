@@ -1,12 +1,20 @@
 window.Eyoc = window.Eyoc || {};
 Eyoc.views = Eyoc.views || {};
 
-Eyoc.views.year = function (yearParam) {
+// disciplines/classes are validated against the known lists rather than trusted
+// outright - params comes straight from the URL query string (e.g. a "Class" link from
+// the athlete search page linking to #/year/2024?discipline=long&class=W16 to land
+// directly on that result table), so a stale or hand-edited URL shouldn't be able to
+// leave the view in a state selectClass()/the discipline tabs could never produce.
+Eyoc.views.year = function (yearParam, params = {}) {
+  const disciplines = ["sprint", "long", "relay"];
+  const classes = ["M16", "M18", "W16", "W18"];
   return {
     year: Number(yearParam),
-    discipline: "long",
-    classes: ["M16", "M18", "W16", "W18"],
+    discipline: disciplines.includes(params.discipline) ? params.discipline : "long",
+    classes,
     ...Eyoc.lib.tableState("rank"),
+    classFilter: classes.includes(params.class) ? params.class : "",
 
     init() {
       // The wrapping x-if only swaps this component out when route.name changes, not

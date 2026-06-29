@@ -16,8 +16,88 @@ Eyoc.lib.fieldSizes = function (individualRows) {
   return sizes;
 };
 
+// Eyoc.store.individual/relay never change after the initial fetch, so the field-size
+// map (and the leader lookup below) only need to be built once per page load rather
+// than on every call site that needs them.
+let _fieldSizesCache = null;
+Eyoc.lib.allFieldSizes = function () {
+  if (!_fieldSizesCache) {
+    _fieldSizesCache = Eyoc.lib.fieldSizes([...Eyoc.store.individual, ...Eyoc.store.relay]);
+  }
+  return _fieldSizesCache;
+};
+
 Eyoc.lib.fieldSizeFor = function (fieldSizes, row) {
   return fieldSizes.get(`${row.year}|${row.discipline}|${row.class}`) || null;
+};
+
+// Years with at least one actual result - distinguishes a year nobody from a given
+// country attended from a year with no edition at all (2020 was postponed to 2022 and
+// has a placeholder entry in events.json but zero result rows), so the country-page
+// timeline can tell "didn't attend" apart from "nothing to attend".
+let _editionYearsCache = null;
+Eyoc.lib.editionYears = function () {
+  if (!_editionYearsCache) {
+    const years = new Set();
+    for (const r of Eyoc.store.individual) years.add(r.year);
+    for (const r of Eyoc.store.relay) years.add(r.year);
+    _editionYearsCache = years;
+  }
+  return _editionYearsCache;
+};
+
+// One entry per distinct athlete/leg-runner name (individual rows + the three relay leg
+// names) - {name, lower, country, minYear, maxYear}. Pre-lowercased once and built
+// lazily, cached like allFieldSizes above - this is what makes the athlete-search
+// autocomplete fast: without it, every keystroke would re-run .toLowerCase() (a fresh
+// string allocation) on every one of the ~18k rows in the dataset, which is the actual
+// cost that made typing feel slow, not the substring check itself. country/minYear/
+// maxYear feed the suggestion dropdown's flag + "years active" label; a name is assumed
+// to belong to one country (the one from its first-seen row) - this can be wrong for the
+// rare case of a genuine name collision across countries, same caveat as the substring
+// matching itself (see results/raw/QUALITY-CHECK.md).
+let _athleteNameIndex = null;
+function athleteNameIndex() {
+  if (_athleteNameIndex) return _athleteNameIndex;
+  const byLower = new Map();
+  const add = (name, row) => {
+    if (!name) return;
+    const lower = name.toLowerCase();
+    const entry = byLower.get(lower);
+    if (!entry) {
+      byLower.set(lower, { name, lower, country: row.country, minYear: row.year, maxYear: row.year });
+    } else {
+      if (row.year < entry.minYear) entry.minYear = row.year;
+      if (row.year > entry.maxYear) entry.maxYear = row.year;
+    }
+  };
+  for (const r of Eyoc.store.individual) add(r.name, r);
+  for (const r of Eyoc.store.relay) {
+    add(r.leg1_name, r);
+    add(r.leg2_name, r);
+    add(r.leg3_name, r);
+  }
+  _athleteNameIndex = [...byLower.values()];
+  return _athleteNameIndex;
+}
+
+// Up to `limit` entries whose name contains `query` (already lowercased) - stops
+// scanning as soon as it has enough, so a query matching early entries doesn't pay for
+// the rest of the index.
+Eyoc.lib.athleteNameSuggestions = function (query, limit) {
+  const out = [];
+  for (const entry of athleteNameIndex()) {
+    if (entry.lower.includes(query)) {
+      out.push(entry);
+      if (out.length >= limit) break;
+    }
+  }
+  return out;
+};
+
+// "2012" for a one-year career so far, "2012-2015" otherwise.
+Eyoc.lib.athleteYearsLabel = function (entry) {
+  return entry.minYear === entry.maxYear ? `${entry.minYear}` : `${entry.minYear}-${entry.maxYear}`;
 };
 
 // A country can run both Sprint and Long in the same year, so the source rows aren't
@@ -105,21 +185,30 @@ Eyoc.lib.formatDiff = function (rowSeconds, leaderSeconds) {
   return `+${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
 };
 
+// One-time index of each race's rank-1 row (year|class|discipline, "relay" standing in
+// for discipline on relay rows), so diffToLeader is a Map lookup instead of a linear
+// scan of the whole dataset per row - it's called once per visible table row.
+let _leaderIndex = null;
+function leaderIndex() {
+  if (_leaderIndex) return _leaderIndex;
+  _leaderIndex = new Map();
+  for (const r of Eyoc.store.individual) {
+    if (Eyoc.lib.effectiveRank(r) === 1) _leaderIndex.set(`${r.year}|${r.class}|${r.discipline}`, r);
+  }
+  for (const r of Eyoc.store.relay) {
+    if (Eyoc.lib.effectiveRank(r) === 1) _leaderIndex.set(`${r.year}|${r.class}|relay`, r);
+  }
+  return _leaderIndex;
+}
+
 // Looks up the winning time of *that row's own race* (same year/discipline/class, or
 // year/class for relay) anywhere in the full dataset - lets any table that lists results
 // from mixed races (athlete search, rankings, country pages) show a Diff column too,
 // not just same-race tables like the year browser.
 Eyoc.lib.diffToLeader = function (row, isRelay) {
   if (row.status !== "OK") return "—"; // not a real result - same rule as formatResultTime
-  const dataset = isRelay ? Eyoc.store.relay : Eyoc.store.individual;
   const timeField = isRelay ? "total_time_seconds" : "time_seconds";
-  const leader = dataset.find(
-    (r) =>
-      r.year === row.year &&
-      r.class === row.class &&
-      (isRelay || r.discipline === row.discipline) &&
-      Eyoc.lib.effectiveRank(r) === 1
-  );
+  const leader = leaderIndex().get(`${row.year}|${row.class}|${isRelay ? "relay" : row.discipline}`);
   return Eyoc.lib.formatDiff(row[timeField], leader ? leader[timeField] : null);
 };
 

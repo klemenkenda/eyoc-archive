@@ -16,6 +16,32 @@ Eyoc.lib.displayRank = function (row) {
   return row.rank === null || row.rank === undefined ? "—" : row.rank;
 };
 
+// "1/104" (rank/field size) for a ranked OK row, the bare status (DNF/DSQ/DNS/MP)
+// otherwise - field is optional so callers without a field-size lookup handy still get
+// a plain rank number rather than nothing.
+Eyoc.lib.displayRankWithField = function (row, field) {
+  if (row.status !== "OK") return row.status;
+  if (row.rank === null || row.rank === undefined) return "—";
+  return field ? `${row.rank}/${field}` : `${row.rank}`;
+};
+
+// CSS class for the small rank icon: gold/silver/bronze medal for the top 3, a podium
+// icon for 4th-6th, nothing beyond that or for a non-OK/unranked row.
+Eyoc.lib.rankIconClass = function (row) {
+  if (row.status !== "OK" || row.rank === null || row.rank === undefined) return "";
+  if (row.rank === 1) return "rank-icon-gold";
+  if (row.rank === 2) return "rank-icon-silver";
+  if (row.rank === 3) return "rank-icon-bronze";
+  if (row.rank <= 6) return "rank-icon-podium";
+  return "";
+};
+
+// True for an OK, ranked result finishing in the top half of its field - used to bold
+// such results so a strong placing stands out even in a long results list.
+Eyoc.lib.isFirstHalf = function (row, field) {
+  return row.status === "OK" && row.rank !== null && row.rank !== undefined && !!field && row.rank <= field / 2;
+};
+
 Eyoc.lib.sortRows = function (rows, key, dir) {
   const sign = dir === "desc" ? -1 : 1;
   const valueOf = key === "rank" ? Eyoc.lib.effectiveRank : (row) => row[key];

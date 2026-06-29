@@ -44,8 +44,9 @@ Eyoc.views.rankings = function () {
 
     // Sprint/long rows and relay rows have different shapes but share year/discipline/
     // class, so one combined field-size map (keyed by year|discipline|class) covers both.
+    // Cached by Eyoc.lib since the underlying rows never change after the initial fetch.
     get fieldSizes() {
-      return Eyoc.lib.fieldSizes([...Eyoc.store.individual, ...Eyoc.store.relay]);
+      return Eyoc.lib.allFieldSizes();
     },
 
     get candidateRows() {
@@ -60,9 +61,10 @@ Eyoc.views.rankings = function () {
     // row that ties that best (usually just one). Relay rows get displayName/timeSeconds
     // aliases so the template doesn't need to branch between individual and relay shapes.
     get countryBestRows() {
+      const fieldSizes = this.fieldSizes;
       const withPercentile = this.candidateRows
         .map((r) => {
-          const field = Eyoc.lib.fieldSizeFor(this.fieldSizes, r);
+          const field = Eyoc.lib.fieldSizeFor(fieldSizes, r);
           if (!field) return null;
           const isRelay = r.discipline === "relay";
           return {
