@@ -90,16 +90,16 @@ M18,94,OK,733,SRB,David Petrovic,1173,high,2026/01-sprint-results-eventor.xml
 M18,95,OK,768,SLO,Vid Bratusa,1203,high,2026/01-sprint-results-eventor.xml
 M18,97,OK,718,IRL,Liam O Donnell,1248,high,2026/01-sprint-results-eventor.xml
 M18,99,OK,786,SUI,Andrin Meier,1502,high,2026/01-sprint-results-eventor.xml
-M18,,OK,803,LAT,Lars Anders Luiks,847,high,2026/01-sprint-results-eventor.xml
-M18,,OK,799,ESP,Pablo Rubio Cribellati,861,high,2026/01-sprint-results-eventor.xml
-M18,,OK,775,EST,Henri Kersna,959,high,2026/01-sprint-results-eventor.xml
-M18,,OK,789,FRA,Tom Lemercier,976,high,2026/01-sprint-results-eventor.xml
-M18,,OK,785,ISR,Hillel Seligmann,1061,high,2026/01-sprint-results-eventor.xml
-M18,,OK,791,DEN,Tore Emil Maarup,1070,high,2026/01-sprint-results-eventor.xml
-M18,,OK,745,IRL,Eanna Grennan,1098,high,2026/01-sprint-results-eventor.xml
-M18,,OK,740,AUT,Elias Ballik,1229,high,2026/01-sprint-results-eventor.xml
-M18,,OK,739,SUI,Manuel Gasser,851,high,2026/01-sprint-results-eventor.xml
-M18,,OK,720,ITA,Alessandro Moser,1205,high,2026/01-sprint-results-eventor.xml
+M18,,MP,803,LAT,Lars Anders Luiks,847,high,2026/01-sprint-results-eventor.xml
+M18,,MP,799,ESP,Pablo Rubio Cribellati,861,high,2026/01-sprint-results-eventor.xml
+M18,,MP,775,EST,Henri Kersna,959,high,2026/01-sprint-results-eventor.xml
+M18,,MP,789,FRA,Tom Lemercier,976,high,2026/01-sprint-results-eventor.xml
+M18,,MP,785,ISR,Hillel Seligmann,1061,high,2026/01-sprint-results-eventor.xml
+M18,,MP,791,DEN,Tore Emil Maarup,1070,high,2026/01-sprint-results-eventor.xml
+M18,,MP,745,IRL,Eanna Grennan,1098,high,2026/01-sprint-results-eventor.xml
+M18,,MP,740,AUT,Elias Ballik,1229,high,2026/01-sprint-results-eventor.xml
+M18,,MP,739,SUI,Manuel Gasser,851,high,2026/01-sprint-results-eventor.xml
+M18,,MP,720,ITA,Alessandro Moser,1205,high,2026/01-sprint-results-eventor.xml
 M16,1,OK,402,ESP,Daniel Sanz,718,high,2026/01-sprint-results-eventor.xml
 M16,2,OK,345,POL,Antoni Pachnik,727,high,2026/01-sprint-results-eventor.xml
 M16,3,OK,404,FIN,Kasper Ekonoja,730,high,2026/01-sprint-results-eventor.xml
@@ -190,11 +190,11 @@ M16,97,OK,351,IRL,James Ewart,1111,high,2026/01-sprint-results-eventor.xml
 M16,98,OK,355,POR,Joao Fernandes,1119,high,2026/01-sprint-results-eventor.xml
 M16,99,OK,303,AUT,Valentin Angermann,1161,high,2026/01-sprint-results-eventor.xml
 M16,100,OK,357,SLO,Matic Kersevan,1272,high,2026/01-sprint-results-eventor.xml
-M16,,OK,372,ITA,Tobia Viel,837,high,2026/01-sprint-results-eventor.xml
-M16,,OK,310,CZE,Jakub Ritter,872,high,2026/01-sprint-results-eventor.xml
-M16,,OK,354,GBR,Jake Hilton,961,high,2026/01-sprint-results-eventor.xml
-M16,,OK,397,LAT,Miks Graudums,987,high,2026/01-sprint-results-eventor.xml
-M16,,OK,395,IRL,Alec O Brien,859,high,2026/01-sprint-results-eventor.xml
+M16,,MP,372,ITA,Tobia Viel,837,high,2026/01-sprint-results-eventor.xml
+M16,,MP,310,CZE,Jakub Ritter,872,high,2026/01-sprint-results-eventor.xml
+M16,,MP,354,GBR,Jake Hilton,961,high,2026/01-sprint-results-eventor.xml
+M16,,MP,397,LAT,Miks Graudums,987,high,2026/01-sprint-results-eventor.xml
+M16,,DNF,395,IRL,Alec O Brien,859,high,2026/01-sprint-results-eventor.xml
 W18,1,OK,570,SUI,Lotta Marit Luethi,781,high,2026/01-sprint-results-eventor.xml
 W18,2,OK,602,SWE,Elsa Ehrenborg,817,high,2026/01-sprint-results-eventor.xml
 W18,3,OK,546,FIN,Venla Mennala,822,high,2026/01-sprint-results-eventor.xml
@@ -291,13 +291,13 @@ W18,101,OK,555,SLO,Misa Andrejc,1359,high,2026/01-sprint-results-eventor.xml
 W18,102,OK,596,ROU,Maria Tudorascu,1391,high,2026/01-sprint-results-eventor.xml
 W18,103,OK,502,ROU,Hanna Dorottya Tonk,1472,high,2026/01-sprint-results-eventor.xml
 W18,104,OK,553,POR,Mariana Guerreiro,1479,high,2026/01-sprint-results-eventor.xml
-W18,,OK,579,ESP,Laura Puigcercos Bella,970,high,2026/01-sprint-results-eventor.xml
-W18,,OK,516,IRL,Fionnuala Rowe,1044,high,2026/01-sprint-results-eventor.xml
-W18,,OK,607,POL,Julia Moszkowicz,1084,high,2026/01-sprint-results-eventor.xml
-W18,,OK,503,MDA,Anna Crotova,1156,high,2026/01-sprint-results-eventor.xml
-W18,,OK,519,SRB,Emilija Veljovic,1189,high,2026/01-sprint-results-eventor.xml
-W18,,OK,515,AUT,Stella Marie Kranzler,1060,high,2026/01-sprint-results-eventor.xml
-W18,,OK,544,ISR,Ofri Yacobi,842,high,2026/01-sprint-results-eventor.xml
+W18,,MP,579,ESP,Laura Puigcercos Bella,970,high,2026/01-sprint-results-eventor.xml
+W18,,MP,516,IRL,Fionnuala Rowe,1044,high,2026/01-sprint-results-eventor.xml
+W18,,MP,607,POL,Julia Moszkowicz,1084,high,2026/01-sprint-results-eventor.xml
+W18,,MP,503,MDA,Anna Crotova,1156,high,2026/01-sprint-results-eventor.xml
+W18,,MP,519,SRB,Emilija Veljovic,1189,high,2026/01-sprint-results-eventor.xml
+W18,,MP,515,AUT,Stella Marie Kranzler,1060,high,2026/01-sprint-results-eventor.xml
+W18,,DNF,544,ISR,Ofri Yacobi,842,high,2026/01-sprint-results-eventor.xml
 W16,1,OK,157,CRO,Dora Delic,772,high,2026/01-sprint-results-eventor.xml
 W16,2,OK,174,FIN,Hilda Damskagg,790,high,2026/01-sprint-results-eventor.xml
 W16,3,OK,198,FIN,Saana Turpeinen,805,high,2026/01-sprint-results-eventor.xml
@@ -384,14 +384,14 @@ W16,86,OK,178,IRL,Eimear Casey,1209,high,2026/01-sprint-results-eventor.xml
 W16,87,OK,119,POR,Matilde Nazario,1222,high,2026/01-sprint-results-eventor.xml
 W16,88,OK,195,BUL,Bogomila Tuykova,1225,high,2026/01-sprint-results-eventor.xml
 W16,90,OK,200,ISR,Noor Shkedi,1287,high,2026/01-sprint-results-eventor.xml
-W16,,OK,193,CRO,Sara Delic,749,high,2026/01-sprint-results-eventor.xml
-W16,,OK,125,FIN,Aada Tapiola,821,high,2026/01-sprint-results-eventor.xml
-W16,,OK,135,SLO,Lili Ivana Raj,891,high,2026/01-sprint-results-eventor.xml
-W16,,OK,160,HUN,Janka Gaschler,952,high,2026/01-sprint-results-eventor.xml
-W16,,OK,179,GER,Marie Geissler,1022,high,2026/01-sprint-results-eventor.xml
-W16,,OK,121,SLO,Nika Erzen,1051,high,2026/01-sprint-results-eventor.xml
-W16,,OK,151,ROU,Ana Tudorascu,1056,high,2026/01-sprint-results-eventor.xml
-W16,,OK,191,EST,Susanna Oras,1156,high,2026/01-sprint-results-eventor.xml
-W16,,OK,109,IRL,Beth Joyce,1258,high,2026/01-sprint-results-eventor.xml
-W16,,OK,142,ISR,Ayala Offer,924,high,2026/01-sprint-results-eventor.xml
-W16,,OK,112,ISR,Amalia Niv,1354,high,2026/01-sprint-results-eventor.xml
+W16,,MP,193,CRO,Sara Delic,749,high,2026/01-sprint-results-eventor.xml
+W16,,MP,125,FIN,Aada Tapiola,821,high,2026/01-sprint-results-eventor.xml
+W16,,MP,135,SLO,Lili Ivana Raj,891,high,2026/01-sprint-results-eventor.xml
+W16,,MP,160,HUN,Janka Gaschler,952,high,2026/01-sprint-results-eventor.xml
+W16,,MP,179,GER,Marie Geissler,1022,high,2026/01-sprint-results-eventor.xml
+W16,,MP,121,SLO,Nika Erzen,1051,high,2026/01-sprint-results-eventor.xml
+W16,,MP,151,ROU,Ana Tudorascu,1056,high,2026/01-sprint-results-eventor.xml
+W16,,MP,191,EST,Susanna Oras,1156,high,2026/01-sprint-results-eventor.xml
+W16,,MP,109,IRL,Beth Joyce,1258,high,2026/01-sprint-results-eventor.xml
+W16,,MP,142,ISR,Ayala Offer,924,high,2026/01-sprint-results-eventor.xml
+W16,,MP,112,ISR,Amalia Niv,1354,high,2026/01-sprint-results-eventor.xml

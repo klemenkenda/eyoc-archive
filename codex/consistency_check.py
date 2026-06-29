@@ -162,10 +162,34 @@ def parse_time(text: str | None) -> int | None:
     return None
 
 
+# Canonical IOF-XML status enum values - matched as exact tokens because several don't
+# contain the abbreviated substrings the heuristics below look for ("disqualified" has
+# no "dsq", "didnotfinish" has no "dnf", "missingpunch" isn't "mp"/"mispunch"). Kept as
+# its own copy here (not imported from scripts/parsers/common.py) on purpose, per this
+# script's independent-audit design - but needs the same fix or it'll flag every
+# correctly-classified DNS/DNF/MP/NotCompeting/Unknown row as a false-positive mismatch.
+_IOF_STATUS_MAP = {
+    "ok": "OK",
+    "missingpunch": "MP",
+    "mispunch": "MP",
+    "disqualified": "DSQ",
+    "didnotstart": "DNS",
+    "didnotfinish": "DNF",
+    "notcompeting": "DNS",
+    "overtime": "DNF",
+    "cancelled": "DNF",
+    "sportingwithdrawal": "DNF",
+    "unknown": "DNF",
+}
+
+
 def normalize_status(text: str | None, has_time: bool) -> str:
     if not text:
         return "OK" if has_time else "DNF"
     value = text.strip().lower()
+    compact = re.sub(r"[^a-z]", "", value)
+    if compact in _IOF_STATUS_MAP:
+        return _IOF_STATUS_MAP[compact]
     if "dsq" in value or "disq" in value:
         return "DSQ"
     if "dns" in value:
@@ -336,6 +360,13 @@ def xml_relay_rows(path: Path) -> list[tuple[str, ...]]:
             if not status_text and overall is not None:
                 status_text = text_of(overall, "Status")
             status = normalize_status(status_text, total_time is not None)
+            # A team with fewer than 3 TeamMemberResult entries didn't field full legs -
+            # there's no explicit TeamStatus in this case, so status_text/overall above
+            # came from a single leg-runner's own individual OverallResult. Mirrors the
+            # same fix in scripts/parsers/parse_xml.py (kept as a separate copy here on
+            # purpose, per this script's independent-audit design).
+            if status == "OK" and len(team_result.findall("TeamMemberResult")) < 3:
+                status = "DNF"
             flat_legs: list[str] = []
             for index in range(3):
                 if index < len(legs):

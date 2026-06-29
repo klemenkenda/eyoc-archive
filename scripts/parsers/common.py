@@ -179,10 +179,34 @@ def time_to_seconds(text):
     return None
 
 
+# Canonical IOF-XML status enum values (CompetitorStatus/TeamStatus/Status elements,
+# e.g. <Status>MissingPunch</Status> or <CompetitorStatus value="DidNotStart" />) -
+# matched as exact tokens because several of them don't contain the abbreviated
+# substrings the heuristics below look for ("disqualified" has no "dsq", "didnotfinish"
+# has no "dnf", "missingpunch" isn't "mp"/"mispunch"). Checked before the heuristics so a
+# DNS/DNF/MP competitor who still has a partial recorded time doesn't fall through to OK.
+_IOF_STATUS_MAP = {
+    "ok": "OK",
+    "missingpunch": "MP",
+    "mispunch": "MP",
+    "disqualified": "DSQ",
+    "didnotstart": "DNS",
+    "didnotfinish": "DNF",
+    "notcompeting": "DNS",
+    "overtime": "DNF",
+    "cancelled": "DNF",
+    "sportingwithdrawal": "DNF",
+    "unknown": "DNF",
+}
+
+
 def normalize_status(text, has_time):
     if not text:
         return "OK" if has_time else "DNF"
     t = text.strip().lower()
+    compact = re.sub(r"[^a-z]", "", t)
+    if compact in _IOF_STATUS_MAP:
+        return _IOF_STATUS_MAP[compact]
     if "dsq" in t or "disq" in t:
         return "DSQ"
     if "dns" in t:

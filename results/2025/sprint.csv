@@ -94,9 +94,9 @@ M18,100,OK,,ROU,Mihai Tiriac,1043,high,2025/Sprint.xml
 M18,101,OK,,IRL,Eoin O Donnell,1045,high,2025/Sprint.xml
 M18,102,OK,,SLO,Ozbej Malus,1065,high,2025/Sprint.xml
 M18,104,OK,,CRO,Karlo Lesjak,1146,high,2025/Sprint.xml
-M18,,OK,,SWE,Edvin Atting,784,high,2025/Sprint.xml
+M18,,MP,,SWE,Edvin Atting,784,high,2025/Sprint.xml
 M18,,DSQ,,TUR,Kubilay Karatasli,839,high,2025/Sprint.xml
-M18,,OK,,GER,Lennart Muehlstaedt,854,high,2025/Sprint.xml
+M18,,MP,,GER,Lennart Muehlstaedt,854,high,2025/Sprint.xml
 M18,,DNF,,ISR,Roman Ilin,,high,2025/Sprint.xml
 M16,1,OK,,EST,Erik Marten Zernant,724,high,2025/Sprint.xml
 M16,2,OK,,ESP,Ekain Fernandez Garcia,734,high,2025/Sprint.xml
@@ -182,13 +182,13 @@ M16,93,OK,,SLO,Matija Bratusa,1053,high,2025/Sprint.xml
 M16,94,OK,,UKR,Volodymyr Nepliakh,1069,high,2025/Sprint.xml
 M16,95,OK,,SRB,David Petrovic,1161,high,2025/Sprint.xml
 M16,96,OK,,MDA,Daniil Iancovschi,1387,high,2025/Sprint.xml
-M16,,OK,,FRA,Titouan Andrieux,743,high,2025/Sprint.xml
-M16,,OK,,UKR,Vladyslav Zhukovskyi,774,high,2025/Sprint.xml
-M16,,OK,,POL,Witold Lemanczyk,841,high,2025/Sprint.xml
-M16,,OK,,BEL,Thor Wolles,848,high,2025/Sprint.xml
-M16,,OK,,EST,Andres Keernik,892,high,2025/Sprint.xml
-M16,,OK,,TUR,Metehan Oguz,1009,high,2025/Sprint.xml
-M16,,OK,,ROU,Danny Viorel Alexandru Fieru,1014,high,2025/Sprint.xml
+M16,,MP,,FRA,Titouan Andrieux,743,high,2025/Sprint.xml
+M16,,MP,,UKR,Vladyslav Zhukovskyi,774,high,2025/Sprint.xml
+M16,,MP,,POL,Witold Lemanczyk,841,high,2025/Sprint.xml
+M16,,MP,,BEL,Thor Wolles,848,high,2025/Sprint.xml
+M16,,MP,,EST,Andres Keernik,892,high,2025/Sprint.xml
+M16,,MP,,TUR,Metehan Oguz,1009,high,2025/Sprint.xml
+M16,,MP,,ROU,Danny Viorel Alexandru Fieru,1014,high,2025/Sprint.xml
 W16,1,OK,,FIN,Anni Jantunen,650,high,2025/Sprint.xml
 W16,2,OK,,SUI,Seraina Baer,680,high,2025/Sprint.xml
 W16,3,OK,,FIN,Venla Mennala,686,high,2025/Sprint.xml
@@ -280,7 +280,7 @@ W16,94,OK,,NED,Elin Zwikker,967,high,2025/Sprint.xml
 W16,95,OK,,ISR,Ofer Svorai,979,high,2025/Sprint.xml
 W16,96,OK,,POR,Mafalda Goncalves,1008,high,2025/Sprint.xml
 W16,97,OK,,SLO,Ajda Jarc,1068,high,2025/Sprint.xml
-W16,,OK,,TUR,Efsa Sezin Akin,932,high,2025/Sprint.xml
+W16,,MP,,TUR,Efsa Sezin Akin,932,high,2025/Sprint.xml
 W18,1,OK,,ISR,Ofri Yacobi,794,high,2025/Sprint.xml
 W18,2,OK,,SUI,Lenia Grimm,799,high,2025/Sprint.xml
 W18,2,OK,,LAT,Ilze Jumike,799,high,2025/Sprint.xml
@@ -366,9 +366,9 @@ W18,91,OK,,HUN,Boglarka Danko,1198,high,2025/Sprint.xml
 W18,93,OK,,ROU,Sara Lilla Miklos,1247,high,2025/Sprint.xml
 W18,94,OK,,MDA,Emilia Grosu,1296,high,2025/Sprint.xml
 W18,96,OK,,MDA,Anna Donici,1826,high,2025/Sprint.xml
-W18,,OK,,SWE,Hannah Josefsson,875,high,2025/Sprint.xml
+W18,,MP,,SWE,Hannah Josefsson,875,high,2025/Sprint.xml
 W18,,DSQ,,POL,Maja Kula,898,high,2025/Sprint.xml
-W18,,OK,,FIN,Kiia Kuusikko,917,high,2025/Sprint.xml
-W18,,OK,,LAT,Eliza Odrina,1000,high,2025/Sprint.xml
-W18,,OK,,ESP,Joana Monge,1050,high,2025/Sprint.xml
-W18,,OK,,POR,Mariana Guerreiro,1150,high,2025/Sprint.xml
+W18,,MP,,FIN,Kiia Kuusikko,917,high,2025/Sprint.xml
+W18,,MP,,LAT,Eliza Odrina,1000,high,2025/Sprint.xml
+W18,,MP,,ESP,Joana Monge,1050,high,2025/Sprint.xml
+W18,,MP,,POR,Mariana Guerreiro,1150,high,2025/Sprint.xml

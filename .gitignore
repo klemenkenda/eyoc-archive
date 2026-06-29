@@ -1,3 +1,5 @@
 __pycache__/
 *.py[cod]
 .env
+www/data/stats.log
+www/CLAUDE.md

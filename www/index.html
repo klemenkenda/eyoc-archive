@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EYOC Archive</title>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body x-data="appRoot()" x-init="init()">
+
+<header class="site-header">
+  <a class="brand" href="#/"><img src="logo.png" alt="EYOC Archive"></a>
+  <nav>
+    <a href="#/" :class="{active: route.name === 'home'}">Home</a>
+    <a href="#/rankings" :class="{active: route.name === 'rankings'}">Rankings</a>
+    <a href="#/athlete" :class="{active: route.name === 'athlete'}">Athletes</a>
+  </nav>
+</header>
+
+<main>
+  <template x-if="!$store.eyoc.loaded && !$store.eyoc.error">
+    <p class="status">Loading results…</p>
+  </template>
+  <template x-if="$store.eyoc.error">
+    <p class="status error" x-text="'Failed to load data: ' + $store.eyoc.error"></p>
+  </template>
+
+  <!-- HOME -->
+  <template x-if="$store.eyoc.loaded && route.name === 'home'">
+    <div x-data="Eyoc.views.home()">
+      <section class="hero">
+        <h1>EYOC Archive</h1>
+        <p>European Youth Orienteering Championships results, 2002–2026 — Sprint, Long and Relay.</p>
+        <p class="hero-stats">
+          <strong x-text="totalYears"></strong> years ·
+          <strong x-text="totalResults"></strong> results ·
+          <strong x-text="totalCountries"></strong> countries
+        </p>
+        <form class="search-box" @submit.prevent="submitSearch">
+          <input type="text" x-model="searchQuery" placeholder="Search athlete name…" aria-label="Search athlete name">
+          <button type="submit">Search</button>
+        </form>
+        <div class="country-select" @click.outside="closeCountryDropdown()">
+          <div class="country-select-trigger" @click="openCountryDropdown()">
+            <img class="flag" x-show="countryCode" :src="Eyoc.lib.flagUrl(countryCode)" :alt="countryCode">
+            <input
+              type="text"
+              class="country-select-input"
+              x-model="countryQuery"
+              @focus="openCountryDropdown()"
+              @keydown.escape="closeCountryDropdown()"
+              placeholder="Jump to a country…"
+              autocomplete="off"
+              aria-label="Jump to a country"
+            >
+            <span class="country-select-caret">▾</span>
+          </div>
+          <ul class="country-select-list" x-show="countryOpen" x-transition>
+            <template x-for="c in filteredCountries" :key="c">
+              <li @click="selectCountry(c)">
+                <img class="flag" :src="Eyoc.lib.flagUrl(c)" :alt="c">
+                <span x-text="countryLabel(c)"></span>
+              </li>
+            </template>
+            <li class="country-select-empty" x-show="filteredCountries.length === 0">No matches</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="year-grid">
+        <template x-for="y in years" :key="y.year">
+          <a class="year-card" :href="'#/year/' + y.year">
+            <img x-show="logoUrl(y.meta)" :src="logoUrl(y.meta)" :alt="'EYOC ' + y.year" loading="lazy">
+            <div class="year-card-label">
+              <span class="year-card-year" x-text="y.year"></span>
+              <span class="year-card-city" x-text="y.meta && y.meta.city"></span>
+            </div>
+          </a>
+        </template>
+      </section>
+    </div>
+  </template>
+
+  <!-- YEAR -->
+  <template x-if="$store.eyoc.loaded && route.name === 'year'">
+    <div x-data="Eyoc.views.year(route.params.year)">
+      <header class="event-header">
+        <img x-show="logoUrl" :src="logoUrl" :alt="'EYOC ' + year" class="event-logo">
+        <div>
+          <h1 x-text="meta.title || ('EYOC ' + year)"></h1>
+          <p x-text="[meta.city, meta.country].filter(Boolean).join(', ')"></p>
+          <p x-text="meta.date"></p>
+        </div>
+      </header>
+
+      <template x-if="!hasAnyResults">
+        <p class="status">No results recorded for this year<span x-show="meta.date" x-text="' (' + meta.date + ')'"></span>.</p>
+      </template>
+
+      <template x-if="hasAnyResults">
+        <div>
+          <nav class="tabs">
+            <button :class="{active: discipline === 'sprint'}" @click="discipline = 'sprint'">Sprint</button>
+            <button :class="{active: discipline === 'long'}" @click="discipline = 'long'">Long</button>
+            <button :class="{active: discipline === 'relay'}" @click="discipline = 'relay'">Relay</button>
+          </nav>
+
+          <p class="hint">Pick a category to show its results:</p>
+          <div class="course-info">
+            <template x-for="cls in classes" :key="cls">
+              <button type="button" class="course-chip" :class="{active: classFilter === cls}" @click="selectClass(cls)">
+                <strong x-text="cls"></strong>
+                <span x-show="courseSummary(cls)" x-text="' — ' + courseSummary(cls)"></span>
+              </button>
+            </template>
+          </div>
+
+          <template x-if="!classFilter">
+            <p class="status">Select a category above to see its results.</p>
+          </template>
+
+          <template x-if="classFilter && discipline !== 'relay'">
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th @click="sortBy('rank')">Rank <span x-text="sortIndicator('rank')"></span></th>
+                  <th @click="sortBy('name')">Name <span x-text="sortIndicator('name')"></span></th>
+                  <th @click="sortBy('country')">Country <span x-text="sortIndicator('country')"></span></th>
+                  <th @click="sortBy('time_seconds')">Time <span x-text="sortIndicator('time_seconds')"></span></th>
+                  <th>Diff</th>
+                </tr>
+              </thead>
+              <tbody>
+                <template x-for="row in rows" :key="row.class + '-' + row.rank + '-' + row.name + '-' + row.source_file">
+                  <tr>
+                    <td x-text="Eyoc.lib.displayRank(row)"></td>
+                    <td>
+                      <span x-text="row.name"></span>
+                      <span x-show="row.confidence === 'approx'" class="badge" title="OCR-derived, lower confidence">approx</span>
+                    </td>
+                    <td><a :href="'#/country/' + row.country"><img class="flag" x-show="Eyoc.lib.flagUrl(row.country)" :src="Eyoc.lib.flagUrl(row.country)" :alt="row.country"> <span x-text="row.country"></span></a></td>
+                    <td x-text="Eyoc.lib.formatResultTime(row, 'time_seconds')"></td>
+                    <td x-text="Eyoc.lib.diffToLeader(row, false)"></td>
+                  </tr>
+                </template>
+              </tbody>
+            </table>
+          </template>
+
+          <template x-if="classFilter && discipline === 'relay'">
+            <table class="results-table">
+              <thead>
+                <tr>
+                  <th @click="sortBy('rank')">Rank <span x-text="sortIndicator('rank')"></span></th>
+                  <th @click="sortBy('country')">Country / Team <span x-text="sortIndicator('country')"></span></th>
+                  <th>Leg 1</th>
+                  <th>Leg 2</th>
+                  <th>Leg 3</th>
+                  <th @click="sortBy('total_time_seconds')">Time <span x-text="sortIndicator('total_time_seconds')"></span></th>
+                  <th>Diff</th>
+                </tr>
+              </thead>
+              <tbody>
+                <template x-for="row in rows" :key="row.class + '-' + row.rank + '-' + row.team + '-' + row.source_file">
+                  <tr>
+                    <td x-text="Eyoc.lib.displayRank(row)"></td>
+                    <td>
+                      <img class="flag" x-show="Eyoc.lib.flagUrl(row.country)" :src="Eyoc.lib.flagUrl(row.country)" :alt="row.country">
+                      <a :href="'#/country/' + row.country" x-text="row.team"></a>
+                      <span x-show="row.confidence === 'approx'" class="badge" title="OCR-derived, lower confidence">approx</span>
+                    </td>
+                    <td>
+                      <div x-text="row.leg1_name"></div>
+                      <div class="leg-split">
+                        <span x-text="Eyoc.lib.formatLegTime(row, 1)"></span>
+                        <span x-text="Eyoc.lib.legDiff(row, 1)"></span>
+                        <span x-show="Eyoc.lib.legPosition(row, 1)" x-text="'(' + Eyoc.lib.legPosition(row, 1) + ')'"></span>
+                      </div>
+                    </td>
+                    <td>
+                      <div x-text="row.leg2_name"></div>
+                      <div class="leg-split">
+                        <span x-text="Eyoc.lib.formatLegTime(row, 2)"></span>
+                        <span x-text="Eyoc.lib.legDiff(row, 2)"></span>
+                        <span x-show="Eyoc.lib.legPosition(row, 2)" x-text="'(' + Eyoc.lib.legPosition(row, 2) + ')'"></span>
+                        <span :class="Eyoc.lib.legPositionChangeClass(row, 2)" x-text="Eyoc.lib.legPositionChangeText(row, 2)"></span>
+                      </div>
+                    </td>
+                    <td>
+                      <div x-text="row.leg3_name"></div>
+                      <div class="leg-split">
+                        <span x-text="Eyoc.lib.formatLegTime(row, 3)"></span>
+                        <span x-text="Eyoc.lib.legDiff(row, 3)"></span>
+                        <span x-show="Eyoc.lib.legPosition(row, 3)" x-text="'(' + Eyoc.lib.legPosition(row, 3) + ')'"></span>
+                        <span :class="Eyoc.lib.legPositionChangeClass(row, 3)" x-text="Eyoc.lib.legPositionChangeText(row, 3)"></span>
+                      </div>
+                    </td>
+                    <td x-text="Eyoc.lib.formatResultTime(row, 'total_time_seconds')"></td>
+                    <td x-text="Eyoc.lib.diffToLeader(row, true)"></td>
+                  </tr>
+                </template>
+              </tbody>
+            </table>
+          </template>
+        </div>
+      </template>
+    </div>
+  </template>
+
+  <!-- ATHLETE SEARCH -->
+  <template x-if="$store.eyoc.loaded && route.name === 'athlete'">
+    <div x-data="Eyoc.views.athlete(route.params.q)">
+      <h1>Athlete search</h1>
+      <form class="search-box" @submit.prevent="submitSearch">
+        <input type="text" x-model="query" placeholder="Search athlete name…" aria-label="Search athlete name">
+        <button type="submit">Search</button>
+      </form>
+      <p class="hint">Name-string matching only — there's no athlete ID in the source data, so
+        this can miss or over-match where spelling drifted across years.</p>
+
+      <template x-if="normalizedQuery && individualMatches.length === 0 && relayMatches.length === 0">
+        <p class="status">No results found for "<span x-text="query"></span>".</p>
+      </template>
+
+      <template x-if="individualMatches.length">
+        <div>
+          <h2>Individual results (<span x-text="individualMatches.length"></span>)</h2>
+          <table class="results-table">
+            <thead><tr><th>Year</th><th>Discipline</th><th>Class</th><th>Rank</th><th>Name</th><th>Country</th><th>Time</th><th>Diff</th></tr></thead>
+            <tbody>
+              <template x-for="row in individualMatches" :key="row.year + '-' + row.discipline + '-' + row.class + '-' + row.name + '-' + row.source_file">
+                <tr>
+                  <td><a :href="'#/year/' + row.year" x-text="row.year"></a></td>
+                  <td x-text="row.discipline"></td>
+                  <td x-text="row.class"></td>
+                  <td x-text="Eyoc.lib.displayRank(row)"></td>
+                  <td x-text="row.name"></td>
+                  <td><a :href="'#/country/' + row.country"><img class="flag" x-show="Eyoc.lib.flagUrl(row.country)" :src="Eyoc.lib.flagUrl(row.country)" :alt="row.country"> <span x-text="row.country"></span></a></td>
+                  <td x-text="Eyoc.lib.formatResultTime(row, 'time_seconds')"></td>
+                  <td x-text="Eyoc.lib.diffToLeader(row, false)"></td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+        </div>
+      </template>
+
+      <template x-if="relayMatches.length">
+        <div>
+          <h2>Relay results (<span x-text="relayMatches.length"></span>)</h2>
+          <table class="results-table">
+            <thead><tr><th>Year</th><th>Class</th><th>Rank</th><th>Team</th><th>Matched leg runner</th><th>Time</th><th>Diff</th></tr></thead>
+            <tbody>
+              <template x-for="row in relayMatches" :key="row.year + '-' + row.class + '-' + row.team + '-' + row.source_file">
+                <tr>
+                  <td><a :href="'#/year/' + row.year" x-text="row.year"></a></td>
+                  <td x-text="row.class"></td>
+                  <td x-text="Eyoc.lib.displayRank(row)"></td>
+                  <td><img class="flag" x-show="Eyoc.lib.flagUrl(row.country)" :src="Eyoc.lib.flagUrl(row.country)" :alt="row.country"> <a :href="'#/country/' + row.country" x-text="row.team"></a></td>
+                  <td x-text="matchedLegName(row)"></td>
+                  <td x-text="Eyoc.lib.formatResultTime(row, 'total_time_seconds')"></td>
+                  <td x-text="Eyoc.lib.diffToLeader(row, true)"></td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+        </div>
+      </template>
+    </div>
+  </template>
+
+  <!-- COUNTRY -->
+  <template x-if="$store.eyoc.loaded && route.name === 'country'">
+    <div x-data="Eyoc.views.country(route.params.code)">
+      <h1><img class="flag flag-lg" x-show="Eyoc.lib.flagUrl(code)" :src="Eyoc.lib.flagUrl(code)" :alt="code"> <span x-text="code"></span></h1>
+      <p class="hint" x-text="name"></p>
+      <p class="hint">
+        Participated <span x-text="yearsParticipated.length"></span> years:
+        <span x-text="yearsParticipated.join(', ')"></span>.
+        <span x-text="individualRows.length"></span> individual starts,
+        <span x-text="relayRows.length"></span> relay-team entries.
+      </p>
+
+      <div class="sex-filter">
+        <button :class="{active: sexFilter === 'all'}" @click="setSexFilter('all')">All</button>
+        <button :class="{active: sexFilter === 'M'}" @click="setSexFilter('M')">Men</button>
+        <button :class="{active: sexFilter === 'W'}" @click="setSexFilter('W')">Women</button>
+      </div>
+
+      <h2>Percentile progression</h2>
+      <p class="hint">Best-ever result so far, by percentile (rank ÷ field size) — lower is better. A
+        new row only appears when the country's best improves.</p>
+      <canvas x-ref="chart" height="120"></canvas>
+
+      <template x-if="percentileChain.length === 0">
+        <p class="status">No ranked individual results for this filter.</p>
+      </template>
+      <table class="results-table" x-show="percentileChain.length">
+        <thead><tr><th>Year</th><th>Discipline</th><th>Class</th><th>Name</th><th>Rank / Field</th><th>Percentile</th><th>Time</th><th>Diff</th></tr></thead>
+        <tbody>
+          <template x-for="step in percentileChain" :key="'pct-' + step.row.year + '-' + step.row.discipline + '-' + step.row.class + '-' + step.row.name">
+            <tr>
+              <td x-text="step.row.year"></td>
+              <td x-text="step.row.discipline"></td>
+              <td x-text="step.row.class"></td>
+              <td x-text="step.row.name"></td>
+              <td x-text="step.row.rank + ' / ' + step.field"></td>
+              <td x-text="step.percentile.toFixed(1) + '%'"></td>
+              <td x-text="formatTime(step.row.time_seconds)"></td>
+              <td x-text="Eyoc.lib.diffToLeader(step.row, false)"></td>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+
+      <h2>Best-place progression</h2>
+      <p class="hint">Best-ever result so far by absolute rank (field size only breaks ties).</p>
+      <table class="results-table" x-show="bestChain.length">
+        <thead><tr><th>Year</th><th>Discipline</th><th>Class</th><th>Name</th><th>Rank / Field</th><th>Time</th><th>Diff</th></tr></thead>
+        <tbody>
+          <template x-for="step in bestChain" :key="'best-' + step.row.year + '-' + step.row.discipline + '-' + step.row.class + '-' + step.row.name">
+            <tr>
+              <td x-text="step.row.year"></td>
+              <td x-text="step.row.discipline"></td>
+              <td x-text="step.row.class"></td>
+              <td x-text="step.row.name"></td>
+              <td x-text="step.row.rank + ' / ' + step.field"></td>
+              <td x-text="formatTime(step.row.time_seconds)"></td>
+              <td x-text="Eyoc.lib.diffToLeader(step.row, false)"></td>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+    </div>
+  </template>
+
+  <!-- RANKINGS -->
+  <template x-if="$store.eyoc.loaded && route.name === 'rankings'">
+    <div x-data="Eyoc.views.rankings()">
+      <h1>Best all-time result by country</h1>
+      <p class="hint">Each country's single best-ever placing, by percentile (rank ÷
+        field size) so fields of different sizes across 2002–2026 are comparable. A country
+        appears more than once only if it has an exact tie for its own best result.</p>
+
+      <nav class="tabs">
+        <template x-for="d in disciplines" :key="d">
+          <button type="button" :class="{active: disciplineFilter === d}" @click="disciplineFilter = d" x-text="disciplineLabel(d)"></button>
+        </template>
+      </nav>
+
+      <div class="course-info">
+        <template x-for="cat in categories" :key="cat">
+          <button type="button" class="course-chip" :class="{active: categoryFilter === cat}" @click="categoryFilter = cat" x-text="categoryLabel(cat)"></button>
+        </template>
+      </div>
+
+      <table class="results-table">
+        <thead><tr><th>#</th><th>Year</th><th>Name</th><th>Country</th><th>Rank / Field</th><th>Percentile</th><th>Time</th><th>Diff</th></tr></thead>
+        <tbody>
+          <template x-for="(row, i) in rows" :key="row.year + '-' + row.class + '-' + row.displayName + '-' + row.source_file">
+            <tr>
+              <td x-text="rowNumber(i)"></td>
+              <td><a :href="'#/year/' + row.year" x-text="row.year"></a></td>
+              <td x-text="row.displayName"></td>
+              <td><a :href="'#/country/' + row.country"><img class="flag" x-show="Eyoc.lib.flagUrl(row.country)" :src="Eyoc.lib.flagUrl(row.country)" :alt="row.country"> <span x-text="row.country"></span></a></td>
+              <td x-text="row.rank + ' / ' + row.field"></td>
+              <td x-text="row.percentile.toFixed(1) + '%'"></td>
+              <td x-text="formatTime(row.timeSeconds)"></td>
+              <td x-text="Eyoc.lib.diffToLeader(row, row.isRelay)"></td>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+
+      <nav class="pagination" x-show="totalPages > 1">
+        <button type="button" @click="goToPage(page - 1)" :disabled="page === 1">‹ Prev</button>
+        <span x-text="'Page ' + page + ' of ' + totalPages"></span>
+        <button type="button" @click="goToPage(page + 1)" :disabled="page === totalPages">Next ›</button>
+      </nav>
+    </div>
+  </template>
+</main>
+
+<footer>
+  <p>
+    EYOC Archive — data coverage 2002–2026.
+    <span x-text="$store.eyoc.manifest.individual_rows ?? '…'"></span> individual results,
+    <span x-text="$store.eyoc.manifest.relay_rows ?? '…'"></span> relay results.
+  </p>
+</footer>
+
+<!-- Plain global scripts, no bundler. Order matters: data/lib/views/app must run (and
+     register Alpine.data/Alpine.store via the alpine:init listener) before the Alpine
+     core script below executes and auto-starts. -->
+<script defer src="js/data.js"></script>
+<script defer src="js/lib/sortable-table.js"></script>
+<script defer src="js/lib/flags.js"></script>
+<script defer src="js/lib/chart-helpers.js"></script>
+<script defer src="js/lib/analysis.js"></script>
+<script defer src="js/views/home.js"></script>
+<script defer src="js/views/year.js"></script>
+<script defer src="js/views/athlete.js"></script>
+<script defer src="js/views/country.js"></script>
+<script defer src="js/views/rankings.js"></script>
+<script defer src="js/app.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</body>
+</html>

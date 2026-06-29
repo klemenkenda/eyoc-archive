@@ -224,6 +224,12 @@ def parse_relay_file(path, source_rel):
             if not status_text and overall is not None:
                 status_text = text_of(overall, "Status")
             status = common.normalize_status(status_text, total_time is not None)
+            # A team with fewer than 3 TeamMemberResult entries didn't field full legs -
+            # there's no explicit TeamStatus in this case, so status_text/overall above
+            # came from a single leg-runner's own individual OverallResult (her finishing
+            # fine doesn't mean the team completed the relay). Don't let that read as OK.
+            if status == "OK" and len(members) < 3:
+                status = "DNF"
             rows.append(common.relay_row(klass, rank, status, code, code, team_label or code, total_time, legs, "high", source_rel))
     return rows, total_seen
 

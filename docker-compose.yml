@@ -1,0 +1,15 @@
+# Dev-only tooling - reproduces what plain FTP/shared hosting gives for free (PHP serving
+# the directory, static files served as-is). Never deployed; not part of www/.
+# Usage: docker compose up, then browse http://localhost:8080
+services:
+  web:
+    image: php:8.3-cli
+    working_dir: /var/www/html
+    command: php -S 0.0.0.0:8080 -t /var/www/html
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./www:/var/www/html
+    environment:
+      # Set a real value here (or in a local .env override) to use admin/stats.php locally.
+      - EYOC_ADMIN_TOKEN=dev-local-token

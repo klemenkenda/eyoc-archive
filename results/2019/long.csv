@@ -87,7 +87,7 @@ W16,85,OK,55,BUL,Emili Aleksandrova,5794,high,2019/Long-eventor.xml
 W16,86,OK,16,ROU,Bernadett Deak,6075,high,2019/Long-eventor.xml
 W16,87,OK,3,MDA,Nicoletta Parascheva,7602,high,2019/Long-eventor.xml
 W16,88,OK,47,MDA,Anastasia Socolova,8071,high,2019/Long-eventor.xml
-W16,,OK,18,SRB,Mia Krtinic,5648,high,2019/Long-eventor.xml
+W16,,DNF,18,SRB,Mia Krtinic,5648,high,2019/Long-eventor.xml
 W18,1,OK,184,HUN,Csilla Gardonyi,2864,high,2019/Long-eventor.xml
 W18,2,OK,189,LAT,Elza Kuze,2992,high,2019/Long-eventor.xml
 W18,3,OK,176,NOR,Oda Scheele,3071,high,2019/Long-eventor.xml
@@ -182,10 +182,10 @@ W18,91,OK,168,POR,Ines Augusto,7502,high,2019/Long-eventor.xml
 W18,92,OK,170,TUR,Cemre Nur Yesil,7506,high,2019/Long-eventor.xml
 W18,93,OK,122,POR,Joana Catarino,8751,high,2019/Long-eventor.xml
 W18,,MP,132,GBR,Anika Schwarze Chintapatla,5213,high,2019/Long-eventor.xml
-W18,,OK,188,DEN,Malin Agervig Kristiansson,3568,high,2019/Long-eventor.xml
-W18,,OK,141,EST,Lorely Korvel,4288,high,2019/Long-eventor.xml
-W18,,OK,194,GER,Lina Buchberger,4730,high,2019/Long-eventor.xml
-W18,,OK,134,TUR,Melisa Altinci,6506,high,2019/Long-eventor.xml
+W18,,DNF,188,DEN,Malin Agervig Kristiansson,3568,high,2019/Long-eventor.xml
+W18,,DNF,141,EST,Lorely Korvel,4288,high,2019/Long-eventor.xml
+W18,,DNF,194,GER,Lina Buchberger,4730,high,2019/Long-eventor.xml
+W18,,DNF,134,TUR,Melisa Altinci,6506,high,2019/Long-eventor.xml
 W18,,DNF,191,SWE,Hilda Johansson,,high,2019/Long-eventor.xml
 M16,1,OK,545,CZE,Martin Simsa,2801,high,2019/Long-eventor.xml
 M16,2,OK,588,CZE,Jakub Chaloupsky,2833,high,2019/Long-eventor.xml
@@ -287,8 +287,8 @@ M16,97,OK,510,SRB,Ivan Vujanovic,7739,high,2019/Long-eventor.xml
 M16,98,OK,540,TUR,Bora Ugur Ozkaranfil,7808,high,2019/Long-eventor.xml
 M16,99,OK,580,TUR,Orkunt Tek,7822,high,2019/Long-eventor.xml
 M16,100,OK,506,ISR,Adar Yevsaev,8224,high,2019/Long-eventor.xml
-M16,,OK,601,GBR,Joe Hudd,4673,high,2019/Long-eventor.xml
-M16,,OK,505,BEL,Jonas Jansen,4781,high,2019/Long-eventor.xml
+M16,,DNF,601,GBR,Joe Hudd,4673,high,2019/Long-eventor.xml
+M16,,DNF,505,BEL,Jonas Jansen,4781,high,2019/Long-eventor.xml
 M18,1,OK,396,HUN,Ferenc Jonas,3412,high,2019/Long-eventor.xml
 M18,2,OK,384,FRA,Basile Basset,3446,high,2019/Long-eventor.xml
 M18,3,OK,406,FIN,Touko Seppa,3483,high,2019/Long-eventor.xml
