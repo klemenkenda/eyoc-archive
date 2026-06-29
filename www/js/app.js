@@ -31,9 +31,9 @@ Eyoc.logPageview = function () {
   const payload = JSON.stringify({ path: location.hash || "#/", referrer: document.referrer });
   try {
     if (navigator.sendBeacon) {
-      navigator.sendBeacon("api/stats.php", new Blob([payload], { type: "application/json" }));
+      navigator.sendBeacon("api/statistics.php", new Blob([payload], { type: "application/json" }));
     } else {
-      fetch("api/stats.php", { method: "POST", body: payload, keepalive: true, headers: { "Content-Type": "application/json" } }).catch(() => {});
+      fetch("api/statistics.php", { method: "POST", body: payload, keepalive: true, headers: { "Content-Type": "application/json" } }).catch(() => {});
     }
   } catch (_) {
     // visitor stats are best-effort only
