@@ -17,6 +17,7 @@
     <a href="#/rankings" :class="{active: route.name === 'rankings'}">Rankings</a>
     <a href="#/countries" :class="{active: route.name === 'countries'}">Countries</a>
     <a href="#/athlete" :class="{active: route.name === 'athlete'}">Athletes</a>
+    <a href="#/about" :class="{active: route.name === 'about'}">About</a>
   </nav>
 </header>
 
@@ -560,6 +561,85 @@
           </a>
         </template>
       </section>
+    </div>
+  </template>
+
+  <!-- ABOUT -->
+  <template x-if="route.name === 'about'">
+    <div class="about-page">
+      <h1>About</h1>
+
+      <p>EYOC Archive collects European Youth Orienteering Championships results
+        (2002–2026: Sprint, Long, Relay) into one searchable, browsable site, instead of
+        them being scattered across two decades of organizers' websites in whatever
+        format each one happened to publish.</p>
+
+      <h2>Data provenance</h2>
+      <p>Results come from whatever each year's organizers originally published, since
+        there's no single official EYOC results database covering the whole period:</p>
+      <ul>
+        <li><strong>2002–2013</strong> — a combined-year archive page hosted at
+          <a href="http://lazarus.elte.hu/tajfutas/history/eyoc/0-eyoc.htm" target="_blank" rel="noopener">lazarus.elte.hu</a>.</li>
+        <li><strong>2006 Relay</strong> — recovered separately from an Excel result sheet
+          published on the Slovenian Orienteering Federation's site (the lazarus.elte.hu
+          page only has an abbreviated top-3 for that year's relay).</li>
+        <li><strong>2014–2026</strong> — a mix of IOF-XML exports from Eventor, OE2010/
+          OS2010 SportSoftware PDF result sheets, and a few one-off PDF formats, depending
+          on what that year's organizers used.</li>
+        <li><strong>2014 Relay and 2016 Sprint</strong> — the two source files with no
+          text layer at all (genuine scans), recovered via OCR rather than text
+          extraction.</li>
+      </ul>
+      <p>Every result carries a <code>confidence</code> flag (<code>high</code> or
+        <code>approx</code>, the latter for the OCR-derived years above) - shown next to
+        the result itself where it applies. Full source-by-source documentation, the raw
+        files themselves, and the parser that turned them into this site's data live in
+        the GitHub repository linked below.</p>
+
+      <p class="hint">Special thanks to László Zentai, who has kept the
+        <a href="http://lazarus.elte.hu/tajfutas/history/eyoc/0-eyoc.htm" target="_blank" rel="noopener">EYOC archive at lazarus.elte.hu</a>
+        since 1990 - back when it was still the "Youth Match" - long before this site
+        existed and long before EYOC's current organizers were publishing results
+        digitally at all. None of the 2002–2013 results here would exist without that
+        archive.</p>
+
+      <h2>Known data issues</h2>
+      <ul>
+        <li><strong>2002 is incomplete.</strong> The only surviving source for that year
+          is an abbreviated page showing top finishers plus host-country competitors
+          only - the true field size for 2002 Sprint/Long is unknown and almost certainly
+          larger than what's shown here.</li>
+        <li><strong>OCR errors.</strong> 2014 Relay and 2016 Sprint were recovered from
+          scanned PDFs with no text layer via OCR, which can misread names, times, or
+          ranks - flagged <code>approx</code> confidence, but not proofread line by line.</li>
+        <li><strong>No athlete ID.</strong> Athlete search is plain name-string matching
+          across years, since none of the source formats carry a stable competitor ID.
+          The same person can appear under slightly different spellings in different
+          years (transliteration, typos in the original results, name-order swaps), which
+          can cause both missed matches and accidental over-matching on common names.</li>
+        <li><strong>Decades of inconsistent source formats.</strong> Parsing twenty-plus
+          years of hand-coded HTML, scanned PDFs, and several generations of results
+          software inevitably risks misinterpreting an occasional row - a column
+          misaligned in the source, a status code read as a time, and similar. Treat an
+          unusual-looking result as worth double-checking against the original source
+          file rather than as certainly correct.</li>
+        <li><strong>Country coverage.</strong> This archive only includes the European
+          federations eligible for EYOC. Non-European guest nations that occasionally
+          compete (e.g. Australia, New Zealand, USA, Canada) appear in some years' raw
+          source files but are filtered out and won't appear anywhere in this app.</li>
+      </ul>
+
+      <h2>Built with Gen AI</h2>
+      <p>This site - the data pipeline, the parsers, and the web app itself - was built
+        with the help of generative AI (<a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a>).
+        Treat that as part of the provenance: it's another reason to double-check an
+        unusual-looking result against the original source rather than assume it's
+        correct.</p>
+
+      <h2>Author &amp; source</h2>
+      <p>Made by Klemen Kenda, Slovenia.<br>
+        Source code, raw results, and full data-quality documentation:
+        <a href="https://github.com/klemenkenda/eyoc-archive" target="_blank" rel="noopener">github.com/klemenkenda/eyoc-archive</a>.</p>
     </div>
   </template>
 </main>

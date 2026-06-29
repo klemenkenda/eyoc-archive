@@ -38,8 +38,10 @@ a:hover { text-decoration: underline; }
 }
 .site-header .brand img { height: 36px; display: block; }
 .site-header nav { display: flex; gap: 1.25rem; }
-.site-header nav a { font-weight: 600; color: var(--text); }
-.site-header nav a.active { color: var(--navy); border-bottom: 2px solid var(--orange); }
+.site-header nav a { font-weight: 600; color: var(--text); border-bottom: 2px solid transparent; }
+.site-header nav a:hover { text-decoration: none; border-bottom-color: var(--navy); }
+.site-header nav a.active { color: var(--navy); border-bottom-color: var(--orange); }
+.site-header nav a.active:hover { border-bottom-color: var(--orange); }
 
 main {
   max-width: 1100px;
@@ -52,6 +54,18 @@ footer {
   font-size: 0.85rem;
   color: #6b7686;
   padding: 1.5rem 1rem 2.5rem;
+}
+
+/* Narrower than the default 1100px main column - this is prose, not a wide results
+   table, and reads better at a normal line length. */
+.about-page { max-width: 700px; }
+.about-page h2 { margin-top: 2rem; color: var(--navy); }
+.about-page li { margin-bottom: 0.5rem; }
+.about-page code {
+  background: #eef1f5;
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.9em;
 }
 
 .status { padding: 2rem 0; text-align: center; color: #6b7686; }
