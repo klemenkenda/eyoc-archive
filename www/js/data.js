@@ -5,13 +5,13 @@ window.Eyoc = window.Eyoc || {};
 // Mirrors results/EYOC-COUNTRIES.md - the EYOC-eligible federation whitelist.
 Eyoc.COUNTRY_NAMES = {
   AUT: "Austria", AZE: "Azerbaijan", BEL: "Belgium", BLR: "Belarus", BUL: "Bulgaria",
-  CRO: "Croatia", CYP: "Cyprus", CZE: "Czech Republic", DEN: "Denmark", ESP: "Spain",
+  CRO: "Croatia", CYP: "Cyprus", CZE: "Czechia", DEN: "Denmark", ESP: "Spain",
   EST: "Estonia", FIN: "Finland", FRA: "France", GBR: "UK", GER: "Germany",
   HUN: "Hungary", IRL: "Ireland", ISR: "Israel", ITA: "Italy", LAT: "Latvia",
   LIE: "Liechtenstein", LTU: "Lithuania", LUX: "Luxembourg", MDA: "Moldavia",
   MKD: "Macedonia", MNE: "Montenegro", NED: "Netherlands", NOR: "Norway", POL: "Poland",
   POR: "Portugal", ROU: "Romania", RUS: "Russia", SLO: "Slovenia", SRB: "Serbia",
-  SUI: "Switzerland", SVK: "Slovakia", SWE: "Sweden", TUR: "Turkey", UKR: "Ukraine",
+  SUI: "Switzerland", SVK: "Slovakia", SWE: "Sweden", TUR: "Türkiye", UKR: "Ukraine",
 };
 
 Eyoc.store = {

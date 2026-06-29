@@ -108,7 +108,8 @@ footer {
 }
 .search-box button,
 .tabs button,
-.sex-filter button {
+.sex-filter button,
+.last-edition-btn {
   padding: 0.5rem 1rem;
   border: 1px solid var(--navy);
   background: var(--navy);
@@ -369,6 +370,7 @@ footer {
 .results-table th { cursor: pointer; background: #eef1f5; user-select: none; white-space: nowrap; }
 .results-table tbody tr:hover { background: #f5f8fc; }
 .results-table .col-rank, .results-table .col-time, .results-table .col-diff { text-align: right; }
+.results-table .col-medal { text-align: center; }
 
 .rank-first-half { font-weight: 700; }
 .runner-matched { font-weight: 700; }
@@ -389,6 +391,7 @@ footer {
    reasoning as the podium icon below and the flag images in flags.js - consistent
    cross-platform rendering instead of depending on emoji font support. */
 .rank-icon { display: inline-block; vertical-align: middle; }
+.rank-label { margin-left: 0.3em; }
 .rank-icon-gold, .rank-icon-silver, .rank-icon-bronze {
   width: 14px;
   height: 18px;
@@ -474,6 +477,10 @@ canvas { background: white; border: 1px solid var(--border); border-radius: 8px;
      squeezed column - .table-scroll (always present, see above) then scrolls
      horizontally instead of the page itself overflowing. */
   .results-table td { white-space: nowrap; }
+
+  /* Medal table header: icons alone identify the column on narrow screens,
+     so drop the text label and keep just the icon. */
+  .rank-label { display: none; }
 
   .search-box { flex-wrap: wrap; justify-content: stretch; }
   .search-box input,

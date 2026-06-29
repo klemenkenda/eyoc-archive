@@ -9,7 +9,7 @@
 | BUL  | Bulgaria |
 | CRO  | Croatia |
 | CYP  | Cyprus |
-| CZE  | Czech Republic |
+| CZE  | Czechia |
 | DEN  | Denmark |
 | ESP  | Spain |
 | EST  | Estonia |
@@ -39,5 +39,5 @@
 | SUI  | Switzerland |
 | SVK  | Slovakia |
 | SWE  | Sweden |
-| TUR  | Turkey |
+| TUR  | Türkiye |
 | UKR  | Ukraine |

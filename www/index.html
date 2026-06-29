@@ -466,7 +466,7 @@
 
   <!-- MEDALS -->
   <template x-if="$store.eyoc.loaded && route.name === 'medals'">
-    <div x-data="Eyoc.views.medals()">
+    <div x-data="Eyoc.views.medals(route.params)">
       <h1>Medal table</h1>
       <p class="hint">Gold/silver/bronze and podium (4th-6th) counts across individual and
         relay events combined, for the selected year range. Ranked by gold count first,
@@ -498,6 +498,8 @@
             </template>
           </ul>
         </div>
+
+        <button type="button" class="last-edition-btn" @click="selectLastEdition()">Last edition</button>
       </div>
 
       <div class="table-scroll">
@@ -506,11 +508,11 @@
           <tr>
             <th>#</th>
             <th>Country</th>
-            <th class="col-rank"><span class="rank-icon rank-icon-gold"></span> Gold</th>
-            <th class="col-rank"><span class="rank-icon rank-icon-silver"></span> Silver</th>
-            <th class="col-rank"><span class="rank-icon rank-icon-bronze"></span> Bronze</th>
-            <th class="col-rank"><span class="rank-icon rank-icon-podium"></span> Podium</th>
-            <th class="col-rank">Total</th>
+            <th class="col-medal"><span class="rank-icon rank-icon-gold"></span><span class="rank-label">Gold</span></th>
+            <th class="col-medal"><span class="rank-icon rank-icon-silver"></span><span class="rank-label">Silver</span></th>
+            <th class="col-medal"><span class="rank-icon rank-icon-bronze"></span><span class="rank-label">Bronze</span></th>
+            <th class="col-medal"><span class="rank-icon rank-icon-podium"></span><span class="rank-label">Podium</span></th>
+            <th class="col-medal">Total</th>
           </tr>
         </thead>
         <tbody>
@@ -518,11 +520,11 @@
             <tr>
               <td x-text="i + 1"></td>
               <td><a :href="'#/country/' + c.code"><img class="flag" x-show="Eyoc.lib.flagUrl(c.code)" :src="Eyoc.lib.flagUrl(c.code)" :alt="c.code"> <span x-text="c.name"></span></a></td>
-              <td class="col-rank" x-text="c.gold"></td>
-              <td class="col-rank" x-text="c.silver"></td>
-              <td class="col-rank" x-text="c.bronze"></td>
-              <td class="col-rank" x-text="c.podium"></td>
-              <td class="col-rank" x-text="c.total"></td>
+              <td class="col-medal" x-text="c.gold"></td>
+              <td class="col-medal" x-text="c.silver"></td>
+              <td class="col-medal" x-text="c.bronze"></td>
+              <td class="col-medal" x-text="c.podium"></td>
+              <td class="col-medal" x-text="c.total"></td>
             </tr>
           </template>
         </tbody>
