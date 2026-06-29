@@ -8,6 +8,7 @@ import os
 import re
 import subprocess
 import sys
+import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -487,6 +488,129 @@ def reorder_name(raw_name):
     return raw_name
 
 
+# Letters with no Unicode decomposition (NFKD won't separate them into base + combining
+# mark), so unicodedata can't strip their diacritic - map them to a plain-Latin spelling
+# by hand. Curly quotes are included so apostrophe-name forms (e.g. "O’Brien") come
+# out as a plain ASCII apostrophe.
+_EXTRA_LATIN_MAP = str.maketrans({
+    "æ": "ae", "Æ": "AE", "ø": "o", "Ø": "O", "ß": "ss", "đ": "d", "Đ": "D",
+    "ł": "l", "Ł": "L", "þ": "th", "Þ": "Th", "ı": "i", "İ": "I",
+    "‘": "'", "’": "'",
+})
+
+
+def to_latin(text):
+    """Strip accents/diacritics so names render in plain Latin (ASCII) characters,
+    e.g. 'Beneš' -> 'Benes', 'Müller' -> 'Muller'."""
+    if not text:
+        return text
+    text = text.translate(_EXTRA_LATIN_MAP)
+    text = unicodedata.normalize("NFKD", text)
+    return "".join(c for c in text if not unicodedata.combining(c))
+
+
+# The 2005/2006/2017 raw sources already had this exact damage baked in before this
+# project ever touched them: many accented letters got replaced with the Unicode
+# replacement character (U+FFFD) at some earlier point, and the original letter is gone
+# from the byte stream - it can't be recovered by re-reading the source. These are manual
+# restorations researched against same-event sources that still have the real diacritics
+# (results/raw/2006/2006_relay_*.txt - a different source pipeline for the same event that
+# wasn't affected) and cross-year spellings of the same competitor elsewhere in this
+# archive. A couple of names had no corroborating evidence anywhere and are left with the
+# placeholder simply dropped rather than guessed.
+NAME_FIXES = {
+    "Ivana Bochenkov�": "Ivana Bochenkova",
+    "Michaela Proch�zkov�": "Michaela Prochazkova",
+    "Jindra Hlavov�": "Jindra Hlavova",
+    "Martina Jir��kov�": "Martina Jiraskova",
+    "Marie-Christine B�hm": "Marie-Christine Bohm",
+    "Triin Aedm�e": "Triin Aedmae",
+    "Jana Kr�iakov�": "Jana Krsiakova",
+    "Ivana Korimov�": "Ivana Korimova",
+    "Maris Palop��l": "Maris Palopol",
+    "Zuzana Bele�ov�": "Zuzana Belesova",
+    "d�a Mihalov�": "Dasa Mihalova",
+    "Isabel S�": "Isabel Sa",
+    "Monika Dole�alov�": "Monika Dolezalova",
+    "Lucie Mach�tov�": "Lucie Machutova",
+    "��Rka Svobodn�": "Sarka Svobodna",
+    "Zuzana Hermanov�": "Zuzana Hermanova",
+    "Tetiana Zhy�tsova": "Tetiana Zhytsova",
+    "Ren�ta Barc�kov�": "Renata Barcikova",
+    "Erika Hlav��ikov�": "Erika Hlavacikova",
+    "Patr�cia Casalinho": "Patricia Casalinho",
+    "Daniel H�jek": "Daniel Hajek",
+    "Mat�j Klus��ek": "Matej Klusacek",
+    "Anton�n Bedna��k": "Antonin Bednarik",
+    "Rastislav O�hava": "Rastislav Olhava",
+    "Martin Majl�th": "Martin Majlath",
+    "Tiago Rom�o": "Tiago Romao",
+    "Tom� Sokol": "Tomas Sokol",
+    "Ruair� Short": "Ruairi Short",
+    "Bla� Grah": "Blaz Grah",
+    "�t�p�n Kodeda": "Stepan Kodeda",
+    "Michal Kraj��k": "Michal Krajcik",
+    "�t�p�n Holas": "Stepan Holas",
+    "J�rome K�ser": "Jerome Kaser",
+    "Rastislav Szab�": "Rastislav Szabo",
+    "Philipp M�ller": "Philipp Muller",
+    "Martin Maz�r": "Martin Mazur",
+    "S�ren L�sch": "Soren Losch",
+    "Ale� Mal�": "Ales Maly",
+    "Lauri Tammem�e": "Lauri Tammemae",
+    "Vojt�ch Kr�l": "Vojtech Kral",
+    "Primo� �Ega": "Primoz Sega",
+    "G�bor Turcsan": "Gabor Turcsan",
+    "M�rton Mets": "Marton Mets",
+    "Ad�la Jakobov�": "Adela Jakobova",
+    "Vera M�llerov�": "Vera Mullerova",
+    "Michaela Chmelarov�": "Michaela Chmelarova",
+    "Lucie Mezn�kov�": "Lucie Meznikova",
+    "Eva Farkasov�": "Eva Farkasova",
+    "Aliz�e Gaillard": "Alizee Gaillard",
+    "Piibe Tamem�e": "Piibe Tammemae",
+    "Vera M�dlov�": "Vera Madlova",
+    "Gabija Ra�aityt?": "Gabija Razaityte",
+    "Jana Krsiakov�": "Jana Krsiakova",
+    "Laetitia H�chler": "Laetitia Hachler",
+    "Di�na Koos": "Diana Koos",
+    "C�cile Papillon": "Cecile Papillon",
+    "Helena Heinv�li": "Helena Heinvali",
+    "Tereza Petrzelov�": "Tereza Petrzelova",
+    "l�a Molinier": "Lea Molinier",
+    "l�a Vercellotti": "Lea Vercellotti",
+    "Th�o Fleurent": "Theo Fleurent",
+    "�tip�n Zimmermann": "Stepan Zimmermann",
+    "Anton�n Bednar�k": "Antonin Bednarik",
+    "Milos Nykod�m": "Milos Nykodym",
+    "Jan Kol�rik": "Jan Kolarik",
+    "Tom�s Sokol": "Tomas Sokol",
+    "Tom�s Boril": "Tomas Boril",
+    "Matij Klus�cek": "Matej Klusacek",
+    "Max R�hnert": "Max Rohnert",
+    "D�sa Mih�lov�": "Dasa Mihalova",
+    "Stip�n Zimmermann": "Stepan Zimmermann",
+    "Kaspar H�gler": "Kaspar Hagler",
+    "Andr�s Szabo": "Andras Szabo",
+    "Kilian J�rg": "Kilian Jorg",
+    "Morten �Rnhagen Jorgensen": "Morten Ornhagen Jorgensen",
+    "Szuromi �Ron": "Szuromi Ron",
+    "�Ubka Weissova": "Lubka Weissova",
+}
+
+
+def _fix_key(s):
+    """Order/case-insensitive key for NAME_FIXES lookup: the corrupted "�" in a source
+    word can confuse both reorder_name's all-caps detection and format_name's casing
+    (e.g. relay legs printed "TURCSAN G�BOR" don't get recognised as a caps-run with a
+    "�" sitting in them), so a plain string match against the source-order text isn't
+    reliable - compare the lowercased, order-independent word set instead."""
+    return tuple(sorted(w.lower() for w in s.split(" ") if w))
+
+
+_NAME_FIXES_BY_KEY = {_fix_key(k): v for k, v in NAME_FIXES.items()}
+
+
 def format_name(name):
     """Title-case an extracted name: 'JOHN VON SMITH' / 'mueller, sandrine' ->
     'John von Smith' / 'Mueller, Sandrine'. Lowercase name particles (von, van, de, ...)
@@ -494,6 +618,9 @@ def format_name(name):
     """
     if not name:
         return name
+    fix = _NAME_FIXES_BY_KEY.get(_fix_key(name))
+    if fix is not None:
+        return to_latin(fix)
     words = name.split(" ")
     out = []
     for w in words:
@@ -502,13 +629,13 @@ def format_name(name):
             out.append(w.lower())
         else:
             out.append(_format_token(w))
-    return " ".join(out)
+    return to_latin(" ".join(out))
 
 
 def relay_row(klass, rank, status, code, name_country, team_label, total_time, legs, confidence, source_file):
     row = {
         "class": klass, "rank": rank if rank is not None else "",
-        "status": status, "country": code, "team": team_label,
+        "status": status, "country": code, "team": to_latin(team_label),
         "total_time_seconds": total_time if total_time is not None else "",
         "confidence": confidence, "source_file": source_file,
     }

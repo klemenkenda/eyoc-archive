@@ -37,7 +37,7 @@ RELAY_FILES = {
 }
 
 HEADER_LABEL_MAP = {
-    "Pl": "rank", "tno": "bib", "Name": "name", "Club": "country",
+    "Pl": "rank", "tno": "bib", "Name": "name", "B": "birth", "Club": "country",
     "Na": "country", "Nat": "country", "Time": "time",
 }
 

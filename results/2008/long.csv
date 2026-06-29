@@ -1,7 +1,7 @@
 class,rank,status,bib,country,name,time_seconds,confidence,source_file
 W16,1,OK,,DEN,Emma Klingenberg,2342,high,2008/eyoc2008.htm
 W16,2,OK,,CZE,Vendula Horcickova,2609,high,2008/eyoc2008.htm
-W16,3,OK,,SUI,Mirjam Hellmüller,2658,high,2008/eyoc2008.htm
+W16,3,OK,,SUI,Mirjam Hellmuller,2658,high,2008/eyoc2008.htm
 W16,4,OK,,CZE,Petra Pavlovcova,2746,high,2008/eyoc2008.htm
 W16,5,OK,,LAT,Mara Peilane,2778,high,2008/eyoc2008.htm
 W16,6,OK,,DEN,Stine Bagger Hagner,2784,high,2008/eyoc2008.htm
@@ -9,7 +9,7 @@ W16,7,OK,,HUN,Reka Zempleni,2793,high,2008/eyoc2008.htm
 W16,8,OK,,BLR,Hanna Rudakouskaya,2808,high,2008/eyoc2008.htm
 W16,9,OK,,AUT,Anja Arbter,2829,high,2008/eyoc2008.htm
 W16,10,OK,,SUI,Nora Tommer,2875,high,2008/eyoc2008.htm
-W16,11,OK,,GER,Susen Lösch,2880,high,2008/eyoc2008.htm
+W16,11,OK,,GER,Susen Losch,2880,high,2008/eyoc2008.htm
 W16,12,OK,,AUT,Julia Bauer,2903,high,2008/eyoc2008.htm
 W16,13,OK,,GER,Resi Rathmann,2907,high,2008/eyoc2008.htm
 W16,14,OK,,POR,Mariana Moreira,2912,high,2008/eyoc2008.htm
@@ -17,7 +17,7 @@ W16,15,OK,,LAT,Sabine Tilta,2917,high,2008/eyoc2008.htm
 W16,16,OK,,AUT,Marlies Berger,2928,high,2008/eyoc2008.htm
 W16,17,OK,,FRA,Fanny Roche,2936,high,2008/eyoc2008.htm
 W16,18,OK,,HUN,Filomena Kovacs,2939,high,2008/eyoc2008.htm
-W16,19,OK,,GER,Karoline Röhnert,2944,high,2008/eyoc2008.htm
+W16,19,OK,,GER,Karoline Rohnert,2944,high,2008/eyoc2008.htm
 W16,20,OK,,CZE,Karolina Tepla,2947,high,2008/eyoc2008.htm
 W16,21,OK,,LAT,Ilze Buza,2976,high,2008/eyoc2008.htm
 W16,22,OK,,FRA,Isia Basset,2980,high,2008/eyoc2008.htm
@@ -42,7 +42,7 @@ W16,40,OK,,BUL,Martina Dzhulieva,3206,high,2008/eyoc2008.htm
 W16,41,OK,,GBR,Kirsty Coombs,3237,high,2008/eyoc2008.htm
 W16,42,OK,,ITA,Viola Zagonel,3238,high,2008/eyoc2008.htm
 W16,43,OK,,POR,Joana Costa,3240,high,2008/eyoc2008.htm
-W16,44,OK,,DEN,Astrid Ank Jörgensen,3243,high,2008/eyoc2008.htm
+W16,44,OK,,DEN,Astrid Ank Jorgensen,3243,high,2008/eyoc2008.htm
 W16,45,OK,,LAT,Beata Zalaiskalna,3246,high,2008/eyoc2008.htm
 W16,46,OK,,RUS,Marina Temyakova,3262,high,2008/eyoc2008.htm
 W16,47,OK,,ROU,Madalina Emilia Horvat,3273,high,2008/eyoc2008.htm
@@ -65,11 +65,11 @@ W16,63,OK,,BUL,Snezhana Yordanova,3558,high,2008/eyoc2008.htm
 W16,64,OK,,BEL,Suzanne Brodel,3572,high,2008/eyoc2008.htm
 W16,64,OK,,BUL,Nadezhda Stoyanova,3572,high,2008/eyoc2008.htm
 W16,66,OK,,HUN,Monika Szokol,3579,high,2008/eyoc2008.htm
-W16,67,OK,,AUT,Tessa Müller,3619,high,2008/eyoc2008.htm
+W16,67,OK,,AUT,Tessa Muller,3619,high,2008/eyoc2008.htm
 W16,68,OK,,ITA,Giada Franz,3667,high,2008/eyoc2008.htm
 W16,69,OK,,BEL,Fanny Tilkin,3720,high,2008/eyoc2008.htm
 W16,70,OK,,ITA,Liliana Papandrea,3725,high,2008/eyoc2008.htm
-W16,71,OK,,ESP,Raquél Martin,3769,high,2008/eyoc2008.htm
+W16,71,OK,,ESP,Raquel Martin,3769,high,2008/eyoc2008.htm
 W16,72,OK,,EST,Marili Zimmermann,3795,high,2008/eyoc2008.htm
 W16,73,OK,,ESP,Marta Padilla,3891,high,2008/eyoc2008.htm
 W16,74,OK,,ITA,Valeria Grisoni,3981,high,2008/eyoc2008.htm
@@ -80,7 +80,7 @@ W16,78,OK,,ESP,Maria Corcoles,5067,high,2008/eyoc2008.htm
 W18,1,OK,,DEN,Ida Bobach,3216,high,2008/eyoc2008.htm
 W18,2,OK,,FIN,Venla Niemi,3221,high,2008/eyoc2008.htm
 W18,3,OK,,DEN,Signe Klinting,3229,high,2008/eyoc2008.htm
-W18,4,OK,,CZE,Adélka Jakobova,3239,high,2008/eyoc2008.htm
+W18,4,OK,,CZE,Adelka Jakobova,3239,high,2008/eyoc2008.htm
 W18,5,OK,,SUI,Isabelle Feer,3299,high,2008/eyoc2008.htm
 W18,6,OK,,RUS,Anastasia Trubkina,3309,high,2008/eyoc2008.htm
 W18,7,OK,,SUI,Sarina Jenzer,3368,high,2008/eyoc2008.htm
@@ -88,7 +88,7 @@ W18,8,OK,,POL,Hanna Wisniewska,3394,high,2008/eyoc2008.htm
 W18,9,OK,,RUS,Anastasia Tikhonova,3419,high,2008/eyoc2008.htm
 W18,10,OK,,FIN,Lotta Karhola,3452,high,2008/eyoc2008.htm
 W18,11,OK,,CZE,Denisa Kosova,3463,high,2008/eyoc2008.htm
-W18,12,OK,,CZE,Verka Müllerova,3468,high,2008/eyoc2008.htm
+W18,12,OK,,CZE,Verka Mullerova,3468,high,2008/eyoc2008.htm
 W18,13,OK,,FIN,Sari Anttonen,3470,high,2008/eyoc2008.htm
 W18,14,OK,,POL,Monika Gajda,3482,high,2008/eyoc2008.htm
 W18,15,OK,,RUS,Veronica Khismatullina,3486,high,2008/eyoc2008.htm
@@ -107,8 +107,8 @@ W18,27,OK,,FRA,Magalie Cordeiro Mende,3785,high,2008/eyoc2008.htm
 W18,28,OK,,ITA,Carlotta Scalet,3793,high,2008/eyoc2008.htm
 W18,29,OK,,LTU,Ausrine Kutkaite,3806,high,2008/eyoc2008.htm
 W18,30,OK,,FRA,Margaux Vassy,3828,high,2008/eyoc2008.htm
-W18,31,OK,,FRA,Alizée Gaillard,3864,high,2008/eyoc2008.htm
-W18,32,OK,,EST,Piibe Tammemäe,3878,high,2008/eyoc2008.htm
+W18,31,OK,,FRA,Alizee Gaillard,3864,high,2008/eyoc2008.htm
+W18,32,OK,,EST,Piibe Tammemae,3878,high,2008/eyoc2008.htm
 W18,33,OK,,HUN,Reka Toth,3904,high,2008/eyoc2008.htm
 W18,34,OK,,GBR,Mairead Rocke,3919,high,2008/eyoc2008.htm
 W18,35,OK,,AUT,Marlene Habenicht,3921,high,2008/eyoc2008.htm
@@ -131,9 +131,9 @@ W18,51,OK,,LAT,Ieva Ruksane,4115,high,2008/eyoc2008.htm
 W18,52,OK,,SVK,Eva Farkasova,4151,high,2008/eyoc2008.htm
 W18,53,OK,,HUN,Regina Bertoti,4160,high,2008/eyoc2008.htm
 W18,54,OK,,LTU,Joana Cesnaite,4209,high,2008/eyoc2008.htm
-W18,55,OK,,EST,Triin Aedmäe,4233,high,2008/eyoc2008.htm
+W18,55,OK,,EST,Triin Aedmae,4233,high,2008/eyoc2008.htm
 W18,56,OK,,ROU,Patricia Roxana Caraus,4242,high,2008/eyoc2008.htm
-W18,57,OK,,DEN,Camilla Sögaard,4280,high,2008/eyoc2008.htm
+W18,57,OK,,DEN,Camilla Sogaard,4280,high,2008/eyoc2008.htm
 W18,58,OK,,BUL,Katya Stoyanova,4287,high,2008/eyoc2008.htm
 W18,59,OK,,UKR,Maryna Palashevska,4316,high,2008/eyoc2008.htm
 W18,60,OK,,ITA,Elena Jagher,4319,high,2008/eyoc2008.htm
@@ -152,7 +152,7 @@ W18,72,OK,,SRB,Maja Karic,5878,high,2008/eyoc2008.htm
 W18,73,OK,,ROU,Camelia Ancuta Motica,6189,high,2008/eyoc2008.htm
 W18,74,OK,,SLO,Barbara Prezelj,6633,high,2008/eyoc2008.htm
 M16,1,OK,,CZE,Jan Petrzela,2487,high,2008/eyoc2008.htm
-M16,2,OK,,DEN,Marius Thrane Ödum,2628,high,2008/eyoc2008.htm
+M16,2,OK,,DEN,Marius Thrane Odum,2628,high,2008/eyoc2008.htm
 M16,3,OK,,POL,Michal Olejnik,2732,high,2008/eyoc2008.htm
 M16,4,OK,,HUN,Mate Baumholczer,2760,high,2008/eyoc2008.htm
 M16,5,OK,,GBR,Jonathon Crickmore,2761,high,2008/eyoc2008.htm
@@ -172,7 +172,7 @@ M16,18,OK,,SVK,Robert Barcik,2920,high,2008/eyoc2008.htm
 M16,19,OK,,GER,Christoph Prunsche,2931,high,2008/eyoc2008.htm
 M16,20,OK,,SUI,Sven Aschwanden,2936,high,2008/eyoc2008.htm
 M16,21,OK,,SUI,Pietro Ferretti,2953,high,2008/eyoc2008.htm
-M16,22,OK,,EST,Sergei Rjaböshkin,2956,high,2008/eyoc2008.htm
+M16,22,OK,,EST,Sergei Rjaboshkin,2956,high,2008/eyoc2008.htm
 M16,23,OK,,RUS,Ivan Khokhlovskiy,2959,high,2008/eyoc2008.htm
 M16,24,OK,,LAT,Mikus Zvirbulis,3001,high,2008/eyoc2008.htm
 M16,25,OK,,GER,Bojan Blumenstein,3006,high,2008/eyoc2008.htm
@@ -210,7 +210,7 @@ M16,56,OK,,ESP,Manuel Jurado,3408,high,2008/eyoc2008.htm
 M16,57,OK,,FRA,Vincent Avedikian,3413,high,2008/eyoc2008.htm
 M16,58,OK,,SVK,Tomas Musinsky,3422,high,2008/eyoc2008.htm
 M16,59,OK,,LAT,Jurgis Suts,3427,high,2008/eyoc2008.htm
-M16,60,OK,,DEN,Mikkel Sörensen,3436,high,2008/eyoc2008.htm
+M16,60,OK,,DEN,Mikkel Sorensen,3436,high,2008/eyoc2008.htm
 M16,61,OK,,LTU,Viktoras Staisiunas,3441,high,2008/eyoc2008.htm
 M16,62,OK,,HUN,Marton Kazal,3472,high,2008/eyoc2008.htm
 M16,63,OK,,ITA,Simon Framba,3480,high,2008/eyoc2008.htm
@@ -239,7 +239,7 @@ M16,85,OK,,ROU,Teodor Molnar,3985,high,2008/eyoc2008.htm
 M16,86,OK,,SRB,Luka Markovic,3995,high,2008/eyoc2008.htm
 M16,87,OK,,UKR,Andriy Dudych,4014,high,2008/eyoc2008.htm
 M16,88,OK,,SLO,Jernej Podobnik,4052,high,2008/eyoc2008.htm
-M16,89,OK,,POR,Gonçalo Cruz,4155,high,2008/eyoc2008.htm
+M16,89,OK,,POR,Goncalo Cruz,4155,high,2008/eyoc2008.htm
 M16,90,OK,,CRO,Matija Razum,4187,high,2008/eyoc2008.htm
 M16,91,OK,,BUL,Apostol Atanasov,4223,high,2008/eyoc2008.htm
 M16,92,OK,,ROU,Alex Dorin Mercar,4307,high,2008/eyoc2008.htm
@@ -265,7 +265,7 @@ M18,15,OK,,GER,Bjarne Friedrichs,3542,high,2008/eyoc2008.htm
 M18,16,OK,,NOR,Vetle Ruud Braten,3550,high,2008/eyoc2008.htm
 M18,17,OK,,CZE,Radek Nozka,3553,high,2008/eyoc2008.htm
 M18,17,OK,,RUS,Sergey Vasilyev,3553,high,2008/eyoc2008.htm
-M18,19,OK,,FRA,Théo Fleurent,3571,high,2008/eyoc2008.htm
+M18,19,OK,,FRA,Theo Fleurent,3571,high,2008/eyoc2008.htm
 M18,20,OK,,DEN,Andreas Boesen,3596,high,2008/eyoc2008.htm
 M18,21,OK,,POL,Rafal Podzinski,3599,high,2008/eyoc2008.htm
 M18,22,OK,,CZE,Ondrej Kantor,3619,high,2008/eyoc2008.htm
@@ -277,7 +277,7 @@ M18,27,OK,,CZE,Pavel Kubat,3689,high,2008/eyoc2008.htm
 M18,28,OK,,GBR,Ralph Street,3709,high,2008/eyoc2008.htm
 M18,29,OK,,GBR,Peter Hodkinson,3718,high,2008/eyoc2008.htm
 M18,30,OK,,GER,Matthias Kretzschmar,3726,high,2008/eyoc2008.htm
-M18,31,OK,,FIN,Severi Kymäläinen,3736,high,2008/eyoc2008.htm
+M18,31,OK,,FIN,Severi Kymalainen,3736,high,2008/eyoc2008.htm
 M18,32,OK,,EST,Kenny Kivikas,3751,high,2008/eyoc2008.htm
 M18,33,OK,,POR,David Sayanda,3753,high,2008/eyoc2008.htm
 M18,34,OK,,RUS,Dmitry Nakonechnyy,3792,high,2008/eyoc2008.htm
@@ -287,7 +287,7 @@ M18,37,OK,,BEL,Wouter Leeuws,3817,high,2008/eyoc2008.htm
 M18,38,OK,,LTU,Karolis Lazdauskas,3825,high,2008/eyoc2008.htm
 M18,39,OK,,ESP,Nabil Abderraman,3843,high,2008/eyoc2008.htm
 M18,40,OK,,FIN,Victor Mansner,3856,high,2008/eyoc2008.htm
-M18,41,OK,,DEN,Sören Schwatz Sörensen,3857,high,2008/eyoc2008.htm
+M18,41,OK,,DEN,Soren Schwatz Sorensen,3857,high,2008/eyoc2008.htm
 M18,42,OK,,FIN,Topi Penttinen,3912,high,2008/eyoc2008.htm
 M18,43,OK,,BEL,Jeremy Genar,3917,high,2008/eyoc2008.htm
 M18,44,OK,,ITA,Tommaso Scalet,3922,high,2008/eyoc2008.htm
@@ -340,7 +340,7 @@ M18,90,OK,,UKR,Pavlo Slobozhaninov,4928,high,2008/eyoc2008.htm
 M18,91,OK,,POR,Manuel Horta,5005,high,2008/eyoc2008.htm
 M18,92,OK,,ISR,Guy Sabo,5063,high,2008/eyoc2008.htm
 M18,93,OK,,SRB,Tadija Trifunovic,5206,high,2008/eyoc2008.htm
-M18,94,OK,,POR,André Pedralva,5217,high,2008/eyoc2008.htm
+M18,94,OK,,POR,Andre Pedralva,5217,high,2008/eyoc2008.htm
 M18,95,OK,,IRL,Niall Ewen,5235,high,2008/eyoc2008.htm
 M18,96,OK,,ROU,Adrian Cosmin Lazan,5355,high,2008/eyoc2008.htm
 M18,97,OK,,ROU,Catalin Miclea,5497,high,2008/eyoc2008.htm

@@ -20,7 +20,7 @@ M16,18,OK,130,UKR,Yurii Serdiuk,706,high,2015/results-sf.pdf
 M16,18,OK,136,AUT,Georg Groll,706,high,2015/results-sf.pdf
 M16,20,OK,190,AUT,Clemens Wolfram,711,high,2015/results-sf.pdf
 M16,20,OK,185,LTU,Pranas Germanavicius,711,high,2015/results-sf.pdf
-M16,22,OK,150,SVK,Jakub Dekrét,716,high,2015/results-sf.pdf
+M16,22,OK,150,SVK,Jakub Dekret,716,high,2015/results-sf.pdf
 M16,23,OK,108,FIN,Daniel Koivisto,718,high,2015/results-sf.pdf
 M16,24,OK,142,FRA,Maxime Roche,721,high,2015/results-sf.pdf
 M16,24,OK,163,FRA,Guilhem Haberkorn,721,high,2015/results-sf.pdf
@@ -30,7 +30,7 @@ M16,24,OK,165,AUT,Jannis Bonek,721,high,2015/results-sf.pdf
 M16,29,OK,174,POL,Kacper Kuca,723,high,2015/results-sf.pdf
 M16,29,OK,133,POR,Joao Casal,723,high,2015/results-sf.pdf
 M16,31,OK,151,BUL,Valentin Neykov,726,high,2015/results-sf.pdf
-M16,32,OK,120,DEN,Malte Kjær Hemmingsen,729,high,2015/results-sf.pdf
+M16,32,OK,120,DEN,Malte Kjaer Hemmingsen,729,high,2015/results-sf.pdf
 M16,33,OK,157,LAT,Fricis Spektors,732,high,2015/results-sf.pdf
 M16,33,OK,137,GER,Riccardo Casanova,732,high,2015/results-sf.pdf
 M16,35,OK,146,FIN,Topias Niemi,733,high,2015/results-sf.pdf
@@ -66,27 +66,27 @@ M16,64,OK,129,SVK,Andrej Dubovsky,793,high,2015/results-sf.pdf
 M16,64,OK,103,LAT,Renars Kokorevics,793,high,2015/results-sf.pdf
 M16,66,OK,131,LAT,Kristaps Bruners,796,high,2015/results-sf.pdf
 M16,67,OK,143,DEN,Lasse Falck Weber,801,high,2015/results-sf.pdf
-M16,68,OK,153,ESP,Joel Carrión Gandia,803,high,2015/results-sf.pdf
+M16,68,OK,153,ESP,Joel Carrion Gandia,803,high,2015/results-sf.pdf
 M16,68,OK,121,SLO,Matic Blaz,803,high,2015/results-sf.pdf
 M16,70,OK,183,HUN,Barnabas Kovacs,804,high,2015/results-sf.pdf
 M16,70,OK,102,DEN,Lasse August Helweg,804,high,2015/results-sf.pdf
 M16,72,OK,170,ITA,Francesco Magenes,807,high,2015/results-sf.pdf
 M16,73,OK,158,TUR,Samet Kossek,811,high,2015/results-sf.pdf
-M16,74,OK,118,SVK,Matej Cidorík,814,high,2015/results-sf.pdf
+M16,74,OK,118,SVK,Matej Cidorik,814,high,2015/results-sf.pdf
 M16,75,OK,114,GER,Dennis Brauer,821,high,2015/results-sf.pdf
 M16,76,OK,119,LTU,Emilis Kaklauskas,827,high,2015/results-sf.pdf
 M16,77,OK,154,ROU,Alexandru Biro,840,high,2015/results-sf.pdf
 M16,78,OK,144,BEL,Svere Buytaert,849,high,2015/results-sf.pdf
-M16,79,OK,105,IRL,Ruairí Long,853,high,2015/results-sf.pdf
-M16,79,OK,159,MDA,Ilia Burdeinîi,853,high,2015/results-sf.pdf
+M16,79,OK,105,IRL,Ruairi Long,853,high,2015/results-sf.pdf
+M16,79,OK,159,MDA,Ilia Burdeinii,853,high,2015/results-sf.pdf
 M16,81,OK,189,MKD,Mario Koteski,859,high,2015/results-sf.pdf
-M16,81,OK,126,ESP,Jorge Carança Valente B,859,high,2015/results-sf.pdf
+M16,81,OK,126,ESP,Jorge Caranca Valente B,859,high,2015/results-sf.pdf
 M16,83,OK,155,EST,Karel-Sander Kljuzin,860,high,2015/results-sf.pdf
 M16,84,OK,109,EST,Alex Treier,885,high,2015/results-sf.pdf
 M16,85,OK,127,ISR,Eitam Nussbaum,894,high,2015/results-sf.pdf
 M16,86,OK,116,RUS,Grigory Sokolov,932,high,2015/results-sf.pdf
 M16,87,OK,181,MDA,Vladimir Cabis,959,high,2015/results-sf.pdf
-M16,88,OK,124,MDA,Maxim Strîmbanu,982,high,2015/results-sf.pdf
+M16,88,OK,124,MDA,Maxim Strimbanu,982,high,2015/results-sf.pdf
 M18,1,OK,274,FIN,Olli Ojanaho,709,high,2015/results-sf.pdf
 M18,2,OK,226,SUI,Florian Attinger,717,high,2015/results-sf.pdf
 M18,3,OK,235,SWE,Isac von Krusenstierna,723,high,2015/results-sf.pdf
@@ -269,10 +269,10 @@ W16,76,OK,344,EST,Marie Anna Blehner,905,high,2015/results-sf.pdf
 W16,77,OK,345,SVK,Magdalena Hrabosova,906,high,2015/results-sf.pdf
 W16,78,OK,383,SVK,Tereza Miklusova,932,high,2015/results-sf.pdf
 W16,79,OK,339,GER,Hannah Hansel,959,high,2015/results-sf.pdf
-W16,80,OK,348,ESP,Elena Martí Barclay,967,high,2015/results-sf.pdf
+W16,80,OK,348,ESP,Elena Marti Barclay,967,high,2015/results-sf.pdf
 W16,81,OK,351,TUR,Serdem Merve Ates,982,high,2015/results-sf.pdf
 W16,82,OK,377,MKD,Ivana Trajkoska,989,high,2015/results-sf.pdf
-W16,83,OK,379,MDA,Anastasia Corostîliova,990,high,2015/results-sf.pdf
+W16,83,OK,379,MDA,Anastasia Corostiliova,990,high,2015/results-sf.pdf
 W16,84,OK,364,IRL,Emer Perkins,1017,high,2015/results-sf.pdf
 W16,85,OK,403,ESP,Angeles Lopez Ruiz,1060,high,2015/results-sf.pdf
 W16,86,OK,328,BEL,Lucie Arno,1076,high,2015/results-sf.pdf

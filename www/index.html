@@ -89,7 +89,7 @@
             <img x-show="logoUrl(y.meta)" :src="logoUrl(y.meta)" :alt="'EYOC ' + y.year" loading="lazy">
             <div class="year-card-label">
               <span class="year-card-year" x-text="y.year"></span>
-              <span class="year-card-city" x-text="y.meta && y.meta.city"></span>
+              <span class="year-card-city" x-text="[y.meta && y.meta.city, y.meta && y.meta.country].filter(Boolean).join(', ')"></span>
             </div>
           </a>
         </template>

@@ -1,27 +1,27 @@
 class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
 W16,1,OK,SUI,Switzerland,4965,Sonja Feer,1733,Rachel Engeler,1464,Judith Wyder,1768,high,2003/eyoc2003.htm
-W16,2,OK,CZE,Czech Republic,4981,Simona Karochová,1668,Zuzana Hermanová,1559,Hana Hlavová,1754,high,2003/eyoc2003.htm
+W16,2,OK,CZE,Czechia,4981,Simona Karochova,1668,Zuzana Hermanova,1559,Hana Hlavova,1754,high,2003/eyoc2003.htm
 W16,3,OK,RUS,Russia,4986,Valentina Salova,1679,Tatiana Podkolzina,1513,Nin Oleynichenkova,1794,high,2003/eyoc2003.htm
-W16,4,OK,FRA,France,4999,Marine Leloup,1573,Karin D´Harreville,1691,Cecile Papillon,1735,high,2003/eyoc2003.htm
+W16,4,OK,FRA,France,4999,Marine Leloup,1573,Karin D Harreville,1691,Cecile Papillon,1735,high,2003/eyoc2003.htm
 W16,5,OK,UKR,Ukraine,5208,Tetyana Zhiltsova,1848,Olena Struhalova,1594,Hanna Kalinichenko,1766,high,2003/eyoc2003.htm
 W16,6,OK,POL,Poland,5287,Karolina Majewska,1761,Karoli Stankiewicz,1852,Iwona Wicha,1674,high,2003/eyoc2003.htm
-W16,7,OK,HUN,Hungary,5358,Dóra Szerencsi,1744,Ivett Hrenkó,1834,Katalin Tas,1780,high,2003/eyoc2003.htm
+W16,7,OK,HUN,Hungary,5358,Dora Szerencsi,1744,Ivett Hrenko,1834,Katalin Tas,1780,high,2003/eyoc2003.htm
 W16,8,OK,LAT,Latvia,5974,Mara Jaunsproge,1874,Sanita Sokolova,2383,Krista Mihailova,1717,high,2003/eyoc2003.htm
 W16,9,OK,GER,Germany,6249,Jitka Kraemer,1880,Susann Jahn,2484,Sandra Juras,1885,high,2003/eyoc2003.htm
 W16,10,OK,EST,Estonia,6319,Ly Trei,1869,Anniki Inno,2099,Kati Rooni,2351,high,2003/eyoc2003.htm
-W16,11,OK,SVK,Slovakia,6329,Mária Kriaková,1861,Renáta Barcíková,2085,Erika Hlaváčiková,2383,high,2003/eyoc2003.htm
+W16,11,OK,SVK,Slovakia,6329,Maria Krsiakova,1861,Renata Barcikova,2085,Erika Hlavacikova,2383,high,2003/eyoc2003.htm
 W16,12,OK,AUT,Austria,6426,Stephanie Killmann,1853,Michaela Zechner,2420,Agnes Harreither,2153,high,2003/eyoc2003.htm
 W16,13,OK,LTU,Lithuania,6564,Ugne Vasyliote,1857,Gabija Razaityte,2505,Viktori Zacharenko,2202,high,2003/eyoc2003.htm
 W16,14,OK,BLR,Belarus,7051,Anna Batsian,2096,Katsia Prakharenka,2459,Nastsi Klapouskaya,2496,high,2003/eyoc2003.htm
 W16,15,OK,ESP,Spain,7149,Frances Rico Irene,1872,Rafol Perramon Ona,2930,Gil Sanchez Alicia,2347,high,2003/eyoc2003.htm
 W16,16,OK,BUL,Bulgaria,7707,Evelina Bombalova,2948,Aneliya Petrova,2105,Zlatomira Zhecheva,2654,high,2003/eyoc2003.htm
-W18,1,OK,CZE,Czech Republic,5520,Lenka Hruková,1775,Martina Kynčlová,1991,Iveta Duchová,1754,high,2003/eyoc2003.htm
+W18,1,OK,CZE,Czechia,5520,Lenka Hruskova,1775,Martina Kynclova,1991,Iveta Duchova,1754,high,2003/eyoc2003.htm
 W18,2,OK,FRA,France,5552,Anais Goffre,1784,Charlotte Bouchet,1915,Capuci Vercellotti,1853,high,2003/eyoc2003.htm
-W18,3,OK,SVK,Slovakia,5596,Veronika Vávrová,1825,Jana Macinská,1851,Soňa Berinská,1920,high,2003/eyoc2003.htm
-W18,4,OK,HUN,Hungary,5761,Dorottya Péley,1796,Száva Zsigmond,1961,Ildikó Szerenczi,2004,high,2003/eyoc2003.htm
+W18,3,OK,SVK,Slovakia,5596,Veronika Vavrova,1825,Jana Macinska,1851,Sona Berzinska,1920,high,2003/eyoc2003.htm
+W18,4,OK,HUN,Hungary,5761,Dorottya Peley,1796,Szava Zsigmond,1961,Ildiko Szerenczi,2004,high,2003/eyoc2003.htm
 W18,5,OK,BUL,Bulgaria,6011,Stanka Lazarova,2013,Denitza Dimitrova,2153,Antonia Grigorova,1845,high,2003/eyoc2003.htm
-W18,6,OK,LTU,Lithuania,6037,Kristi Rybakovaite,1811,Neringa Emaityte,2083,Edi Martusevičiúte,2143,high,2003/eyoc2003.htm
-W18,7,OK,SUI,Switzerland,6059,Sara Lüscher,1994,Maiann Suhner,1815,Myriam Flühmann,2250,high,2003/eyoc2003.htm
+W18,6,OK,LTU,Lithuania,6037,Kristi Rybakovaite,1811,Neringa Zemaityte,2083,Edi Martuseviciute,2143,high,2003/eyoc2003.htm
+W18,7,OK,SUI,Switzerland,6059,Sara Luscher,1994,Maiann Suhner,1815,Myriam Fluhmann,2250,high,2003/eyoc2003.htm
 W18,8,OK,RUS,Russia,6172,Anastas Tyazhkorov,2010,Olga Tolkushkina,1932,Evgeniya Ostrikova,2230,high,2003/eyoc2003.htm
 W18,9,OK,LAT,Latvia,6229,Marta Heinrihsone,2087,Ieva Purina,2316,Una Berzina,1826,high,2003/eyoc2003.htm
 W18,10,OK,GER,Germany,6281,Britta Hommen,1996,Henriette Mahler,2084,Angela Hoke,2201,high,2003/eyoc2003.htm
@@ -31,13 +31,14 @@ W18,13,OK,POL,Poland,6772,Anna Banakiewicz,2380,Maria Kosinska,2322,Agata Karwat
 W18,14,OK,EST,Estonia,7825,Kadri Uiboupin,2495,Tais Leotenko,2563,Merliis Sulg,2767,high,2003/eyoc2003.htm
 W18,15,OK,ESP,Spain,8085,Samper Sanz Rosa A,2166,Lau Tortosa Galvan,3551,de la Vega Paula G,2368,high,2003/eyoc2003.htm
 W18,16,OK,ROU,Romania,8328,Diana Serban,2000,Andrada Rat,3812,Melinda Nagy,2516,high,2003/eyoc2003.htm
-M16,1,OK,CZE,Czech Republic,4825,Adam Chromý,1545,Michal Drobník,1563,Jan Bene,1717,high,2003/eyoc2003.htm
+W18,17,OK,SRB,Serbia,9601,Sonja Simic,3759,Dragana Padjen,2468,Vedr Radosavljevic,3374,high,2003/eyoc2003.htm
+M16,1,OK,CZE,Czechia,4825,Adam Chromy,1545,Michal Drobnik,1563,Jan Benes,1717,high,2003/eyoc2003.htm
 M16,2,OK,LAT,Latvia,4842,Margers Kietis,1686,Edgars Sparans,1677,Anatolijs Tarasovs,1479,high,2003/eyoc2003.htm
-M16,3,OK,SVK,Slovakia,4984,Rastislav Szabó,1704,Martin Mazúr,1709,Michal Krajčík,1571,high,2003/eyoc2003.htm
+M16,3,OK,SVK,Slovakia,4984,Rastislav Szabo,1704,Martin Mazur,1709,Michal Krajcik,1571,high,2003/eyoc2003.htm
 M16,4,OK,RUS,Russia,5007,Leonid Mytistkiy,1655,Andrey Mitryaev,1669,Alexander Seleznev,1683,high,2003/eyoc2003.htm
 M16,5,OK,SUI,Switzerland,5095,Christian Mathys,1854,Simon Sauter,1662,Jonas Merz,1579,high,2003/eyoc2003.htm
 M16,6,OK,UKR,Ukraine,5102,Oleksiy Vasin,1892,Ruslan Glibov,1612,Oleksandr Choban,1598,high,2003/eyoc2003.htm
-M16,7,OK,HUN,Hungary,5115,Máté Kerényi,1912,Balázs Halász,1613,Zsolt Lenkei,1590,high,2003/eyoc2003.htm
+M16,7,OK,HUN,Hungary,5115,Mate Kerenyi,1912,Balazs Halasz,1613,Zsolt Lenkei,1590,high,2003/eyoc2003.htm
 M16,8,OK,GER,Germany,5486,Soeren Loesch,1859,Philipp Mueller,1737,Christop Mikuschek,1890,high,2003/eyoc2003.htm
 M16,9,OK,LTU,Lithuania,5665,Andrej Gerasimovas,1884,Rapolas Striuka,2082,Jonas Gvildys,1699,high,2003/eyoc2003.htm
 M16,10,OK,EST,Estonia,5699,Tonis Uiboupin,1890,Martin Simpson,2134,Timo Sild,1675,high,2003/eyoc2003.htm
@@ -47,11 +48,11 @@ M16,13,OK,BUL,Bulgaria,6078,Petar Doganov,2136,Ilian Tonchev,2267,Stanimi Beloma
 M16,14,OK,ESP,Spain,6762,Navarro Francisco,2353,Alfredo Remzullo M,2036,Perram Biel Rafols,2373,high,2003/eyoc2003.htm
 M16,15,OK,ROU,Romania,7847,Ionut Patras,2000,Zoltan Szep,3522,Andrei Dobre,2325,high,2003/eyoc2003.htm
 M18,1,OK,RUS,Russia,5896,Denis Glazunov,1973,Konstantin Aleshin,2067,Sergey Ryzhankov,1856,high,2003/eyoc2003.htm
-M18,2,OK,HUN,Hungary,5914,Ádám Kovács,1885,Csaba Gösswein,1945,István Zsebeházy,2084,high,2003/eyoc2003.htm
-M18,3,OK,CZE,Czech Republic,5940,Jakub Háj,1920,Zdeněk Rajnoek,2034,Ondřej Holas,1986,high,2003/eyoc2003.htm
+M18,2,OK,HUN,Hungary,5914,Adam Kovacs,1885,Csaba Gosswein,1945,Istvan Zsebehazy,2084,high,2003/eyoc2003.htm
+M18,3,OK,CZE,Czechia,5940,Jakub Haj,1920,Zdenek Rajnosek,2034,Ondrej Holas,1986,high,2003/eyoc2003.htm
 M18,4,OK,POL,Poland,5950,Grze Marcinkiewicz,1905,Filip Mazurek,1955,Michal Weber,2090,high,2003/eyoc2003.htm
 M18,5,OK,UKR,Ukraine,6290,Yuriy Tumak,1882,Oleksandr Kratov,2266,Dmytro Terpay,2142,high,2003/eyoc2003.htm
-M18,6,OK,SVK,Slovakia,6509,Ondrej Kvaka,1923,Tomá Drenčák,2211,Hubert Ingr,2375,high,2003/eyoc2003.htm
+M18,6,OK,SVK,Slovakia,6509,Ondrej Kvaka,1923,Tomas Drencak,2211,Hubert Ingr,2375,high,2003/eyoc2003.htm
 M18,7,OK,ROU,Romania,6516,Ciprian Marian,1916,Iulian Negoita,2292,Tamas Bogya,2308,high,2003/eyoc2003.htm
 M18,8,OK,SUI,Switzerland,6527,Christian Renevey,2328,Sebastian Haegler,1863,Gion Schnyder,2336,high,2003/eyoc2003.htm
 M18,9,OK,FRA,France,6558,Charly Boichut,2048,Philippe Adamski,2130,Alban Dalberto,2380,high,2003/eyoc2003.htm
@@ -62,3 +63,4 @@ M18,13,OK,GER,Germany,6889,Karsten Leideck,2594,Max Gaedtke,2229,Wieland Kundish
 M18,14,OK,BLR,Belarus,7117,Rusl Voitsekhovich,2317,Andrei Lemachka,2513,Siarhei Ryzhkou,2287,high,2003/eyoc2003.htm
 M18,15,OK,BUL,Bulgaria,7233,Zdravko Taralov,2579,Ivan Boyadzhiev,2359,Ivaylo Kamenarov,2295,high,2003/eyoc2003.htm
 M18,16,OK,AUT,Austria,8416,Manuel Wiesberger,2313,Johannes Friessnig,3025,Ernst Bosina,3078,high,2003/eyoc2003.htm
+M18,17,OK,SRB,Serbia,9544,Nebojsa Stanojevic,3224,Pavle Tasic,3168,Stevan Roksandic,3152,high,2003/eyoc2003.htm

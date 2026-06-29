@@ -1,15 +1,15 @@
 class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
 W16,1,OK,RUS,Russia,5381,Tatiana Rozova,1828,Nina Oleynichenkova,1733,Tatiana Mendel,1820,high,2004/eyoc2004.htm
-W16,2,OK,CZE,Czech Republic,5539,Simona Karochová,1826,Lucie Machútová,1689,Jana Vaculiková,2024,high,2004/eyoc2004.htm
-W16,3,OK,HUN,Hungary,5550,Dora Szerencsi,1964,Eszter Öry,1759,Dorottya Péley,1827,high,2004/eyoc2004.htm
+W16,2,OK,CZE,Czechia,5539,Simona Karochova,1826,Lucie Machutova,1689,Jana Vaculikova,2024,high,2004/eyoc2004.htm
+W16,3,OK,HUN,Hungary,5550,Dora Szerencsi,1964,Eszter Ory,1759,Dorottya Peley,1827,high,2004/eyoc2004.htm
 W16,4,OK,SUI,Switzerland,5881,Dorothea Suter,2220,Judith Wyder,1908,Rachel Engeler,1753,high,2004/eyoc2004.htm
-W16,5,OK,AUT,Austria,6068,Ursula Kadan,1954,Anna Zügner,2148,Stephanie Killmann,1966,high,2004/eyoc2004.htm
+W16,5,OK,AUT,Austria,6068,Ursula Kadan,1954,Anna Zugner,2148,Stephanie Killmann,1966,high,2004/eyoc2004.htm
 W16,6,OK,ROU,Romania,6103,Monica Auer,1951,Ioana Zah-Ghit,1948,Adina Popescu,2204,high,2004/eyoc2004.htm
 W16,7,OK,UKR,Ukraine,6122,Olha Hrynko,2115,Nataliya Novikova,1974,Oleksandra Parkhomenko,2033,high,2004/eyoc2004.htm
 W16,8,OK,LAT,Latvia,6264,Rasa Bruna,2105,Anna Bralite,2000,Krista Mihailova,2159,high,2004/eyoc2004.htm
 W16,9,OK,POL,Poland,6386,Magdalena Lesniak,2053,Lucyna Drewniowska,2459,Natalia Najman,1874,high,2004/eyoc2004.htm
-W16,10,OK,ESP,Spain,6389,Ona Rafols Perramón,2141,Luisa Rico Mira,2043,Alicia Gil Sanchez,2205,high,2004/eyoc2004.htm
-W16,11,OK,FRA,France,6478,Marine Leloup,1969,Gaëlle Barlet,2233,Cécile Papillon,2276,high,2004/eyoc2004.htm
+W16,10,OK,ESP,Spain,6389,Ona Rafols Perramon,2141,Luisa Rico Mira,2043,Alicia Gil Sanchez,2205,high,2004/eyoc2004.htm
+W16,11,OK,FRA,France,6478,Marine Leloup,1969,Gaelle Barlet,2233,Cecile Papillon,2276,high,2004/eyoc2004.htm
 W16,12,OK,GER,Germany,6636,Esther Doetsch,1960,Susann Jahn,2446,Sandra Juras,2230,high,2004/eyoc2004.htm
 W16,13,OK,SVK,Slovakia,6776,Dominika Bednarova,2260,Ivana Korimova,2661,Jana Krsiakova,1855,high,2004/eyoc2004.htm
 W16,14,OK,EST,Estonia,6916,Ly Trei,1980,Eleri Hirv,2780,Grete Gutmann,2156,high,2004/eyoc2004.htm
@@ -19,59 +19,59 @@ W16,17,OK,SRB,Serbia,10136,Vedrana Radosavljevic,3099,Marta Zdravkovic,3035,Nada
 W16,,MP,LTU,Lithuania,,Ausra Miksyte,1968,Ugne Vasyliute,1935,Gabija Razaityte,,high,2004/eyoc2004.htm
 W16,,DNF,ITA,Italy,,Marija Pruss,2353,Nicole Scalet,1968,Jutta Torggler,,high,2004/eyoc2004.htm
 W18,1,OK,POL,Poland,6767,Agnieszka Grzelak,2301,Weronika Machowska,2253,Iwona Wicha,2213,high,2004/eyoc2004.htm
-W18,2,OK,CZE,Czech Republic,6921,Lucie Krafková,2247,Zuzana Hermanová,2447,Iveta Duchová,2227,high,2004/eyoc2004.htm
+W18,2,OK,CZE,Czechia,6921,Lucie Krafkova,2247,Zuzana Hermanova,2447,Iveta Duchova,2227,high,2004/eyoc2004.htm
 W18,3,OK,LTU,Lithuania,6972,Kristina Rybakovaite,2321,Skaiste Sidaraviciute,2398,Jurate Rukaite,2253,high,2004/eyoc2004.htm
 W18,4,OK,UKR,Ukraine,7110,Olha Sluta,2449,Olena Struhalova,2497,Maryana Kytsman,2164,high,2004/eyoc2004.htm
 W18,5,OK,RUS,Russia,7120,Valentina Salova,2295,Zlata Borina,2592,Ekaterina Terekhova,2233,high,2004/eyoc2004.htm
-W18,6,OK,FRA,France,7296,Anaïs Goffre,2437,Mélanie D'Harreville,2414,Charlotte Bouchet,2445,high,2004/eyoc2004.htm
+W18,6,OK,FRA,France,7296,Anais Goffre,2437,Melanie D'Harreville,2414,Charlotte Bouchet,2445,high,2004/eyoc2004.htm
 W18,7,OK,LAT,Latvia,7483,Janeta Turka,2401,Inga Priedite,2441,Sanita Sokolova,2641,high,2004/eyoc2004.htm
 W18,8,OK,GER,Germany,7658,Rebecca Reischuk,2306,Jenny Seib,2623,Angela Hoke,2729,high,2004/eyoc2004.htm
-W18,9,OK,HUN,Hungary,7663,Katalin Tas,2445,Ivett Hrenko,2499,Fanni Máthé,2719,high,2004/eyoc2004.htm
+W18,9,OK,HUN,Hungary,7663,Katalin Tas,2445,Ivett Hrenko,2499,Fanni Mathe,2719,high,2004/eyoc2004.htm
 W18,10,OK,BUL,Bulgaria,7938,Stanka Lazarova,2308,Evelina Bombalova,3123,Antoniya Grigorova,2507,high,2004/eyoc2004.htm
-W18,11,OK,SUI,Switzerland,7939,Lilian Knechtli,2654,Rahel Ammann,2871,Sara Würmli,2414,high,2004/eyoc2004.htm
+W18,11,OK,SUI,Switzerland,7939,Lilian Knechtli,2654,Rahel Ammann,2871,Sara Wurmli,2414,high,2004/eyoc2004.htm
 W18,12,OK,EST,Estonia,7950,Kati Rooni,2339,Kadri Uiboupin,2610,Tais Leontenko,3001,high,2004/eyoc2004.htm
 W18,13,OK,ITA,Italy,8378,Sara Sambi,2675,Federica Maggioni,3161,Sara di Furia,2542,high,2004/eyoc2004.htm
 W18,14,OK,SVK,Slovakia,8395,Erika Hlavacikova,3300,Jana Macinska,2274,Maria Krsiakova,2821,high,2004/eyoc2004.htm
 W18,15,OK,AUT,Austria,8597,Melanie Wagner,3234,Agnes Harreither,2743,Jutta Krischan,2620,high,2004/eyoc2004.htm
 W18,16,OK,BLR,Belarus,9415,Nastsia Klapouskaya,3418,Hanna Batsian,3210,Ina Tsitova,2787,high,2004/eyoc2004.htm
-W18,17,OK,ESP,Spain,12051,Irene Fancés Rico,3105,Laura Galvañ Tortosa,3507,Natalia Triviño Amigo,5439,high,2004/eyoc2004.htm
+W18,17,OK,ESP,Spain,12051,Irene Fances Rico,3105,Laura Galvan Tortosa,3507,Natalia Trivino Amigo,5439,high,2004/eyoc2004.htm
 W18,,MP,SRB,Serbia,,Marta Bojovic,4080,Sonja Simic,,Ljiljana Sibinoski 86 Cb,,high,2004/eyoc2004.htm
-W18,,DNS,ROU,Romania,,/ Man Férfiak,,,,,,high,2004/eyoc2004.htm
-M16,1,OK,CZE,Czech Republic,5690,Stepán Kodeda,1945,Vojta Král,1813,Adam Chromý,1932,high,2004/eyoc2004.htm
-M16,2,OK,HUN,Hungary,5923,András Szabo,2120,Máté Kerényi,1943,Zsolt Lenkei,1860,high,2004/eyoc2004.htm
+W18,,DNS,ROU,Romania,,/ Man Ferfiak,,,,,,high,2004/eyoc2004.htm
+M16,1,OK,CZE,Czechia,5690,Stepan Kodeda,1945,Vojta Kral,1813,Adam Chromy,1932,high,2004/eyoc2004.htm
+M16,2,OK,HUN,Hungary,5923,Andras Szabo,2120,Mate Kerenyi,1943,Zsolt Lenkei,1860,high,2004/eyoc2004.htm
 M16,3,OK,LAT,Latvia,6060,Arturs Paulins,2210,Edgars Sparans,2002,Kalvis Mihailovs,1848,high,2004/eyoc2004.htm
 M16,4,OK,RUS,Russia,6141,Yury Kiryanov,2102,Dmitri Letunovskiy,2013,Damir Kurmakaev,2026,high,2004/eyoc2004.htm
 M16,5,OK,AUT,Austria,6159,Christian Wartbichler,2047,Erik Simkovics,2115,Wolfgang Siegert,1997,high,2004/eyoc2004.htm
 M16,6,OK,SUI,Switzerland,6234,Andreas Kyburz,1958,Jonas Meuli,2163,Raffael Huber,2113,high,2004/eyoc2004.htm
 M16,7,OK,ROU,Romania,6596,Florin Bunea,2057,Simion Suciu,2240,Ionut Patras,2299,high,2004/eyoc2004.htm
 M16,8,OK,LTU,Lithuania,6605,Giedrius Vidzikauskas,2576,Julius Miksys,2111,Jonas Gvildys,1918,high,2004/eyoc2004.htm
-M16,9,OK,FRA,France,6739,Frédéric Tranchand,2055,Johann Kervarec,2113,Clément Valla,2571,high,2004/eyoc2004.htm
-M16,10,OK,EST,Estonia,6742,Lauri Tammemäe,2026,Timo Sild,2141,Kaspar Kork,2575,high,2004/eyoc2004.htm
+M16,9,OK,FRA,France,6739,Frederic Tranchand,2055,Johann Kervarec,2113,Clement Valla,2571,high,2004/eyoc2004.htm
+M16,10,OK,EST,Estonia,6742,Lauri Tammemae,2026,Timo Sild,2141,Kaspar Kork,2575,high,2004/eyoc2004.htm
 M16,11,OK,ITA,Italy,6808,Andrea Seppi,2555,Lorenzo Pittau,2317,Jonas Rass,1936,high,2004/eyoc2004.htm
 M16,12,OK,BUL,Bulgaria,6855,Ivan Sirakov,2568,Petar Doganov,2453,Stanimir Belomazhev,1834,high,2004/eyoc2004.htm
-M16,13,OK,GER,Germany,7243,Christoph Brandt,2208,Philipp Müller,2217,William Kluge,2818,high,2004/eyoc2004.htm
+M16,13,OK,GER,Germany,7243,Christoph Brandt,2208,Philipp Muller,2217,William Kluge,2818,high,2004/eyoc2004.htm
 M16,14,OK,SVK,Slovakia,7344,Tomas Gajdos,2580,Martin Majlath,2368,Rastislav Olhava,2396,high,2004/eyoc2004.htm
-M16,15,OK,ESP,Spain,7695,Daniel Portal Gordillo,2193,Daniel Martín de la Rubia,2586,Fco. M. Navarro Cutillas,2916,high,2004/eyoc2004.htm
+M16,15,OK,ESP,Spain,7695,Daniel Portal Gordillo,2193,Daniel Martin de la Rubia,2586,Fco. M. Navarro Cutillas,2916,high,2004/eyoc2004.htm
 M16,16,OK,UKR,Ukraine,7942,Oleksiy Asmolov,2949,Roman Dolgikh,2563,Sergiy Ruzhevych,2430,high,2004/eyoc2004.htm
 M16,17,OK,BLR,Belarus,8023,Uladzislau Kasenka,3125,Yauheni Dzedavets,2371,Siarhei Fedatsenka,2527,high,2004/eyoc2004.htm
 M16,18,OK,SRB,Serbia,10975,Novelja Korac,3895,Bosko Bojovic,3021,Nenad Mojsilovic,4059,high,2004/eyoc2004.htm
 M16,,MP,POL,Poland,,Maciej Jasinski,2565,Michal Nowak,,Piotr Kulpa,2181,high,2004/eyoc2004.htm
 M18,1,OK,SVK,Slovakia,6199,Rastislav Szabo,2105,Martin Mazur,2065,Michal Krajcik,2029,high,2004/eyoc2004.htm
-M18,2,OK,CZE,Czech Republic,6202,Jan Benes,2100,Martin Henych,2016,Brona Pribyl,2086,high,2004/eyoc2004.htm
+M18,2,OK,CZE,Czechia,6202,Jan Benes,2100,Martin Henych,2016,Brona Pribyl,2086,high,2004/eyoc2004.htm
 M18,3,OK,ROU,Romania,6333,Ciprian Marian,2046,Iulian Negoita,2216,Tamas Bogya,2071,high,2004/eyoc2004.htm
-M18,4,OK,SUI,Switzerland,6471,Simon Sauter,2188,Jerome Käser,2114,Christian Mathys,2169,high,2004/eyoc2004.htm
+M18,4,OK,SUI,Switzerland,6471,Simon Sauter,2188,Jerome Kaser,2114,Christian Mathys,2169,high,2004/eyoc2004.htm
 M18,5,OK,RUS,Russia,6474,Andrey Lamov,2107,Denis Glazunov,2151,Konstantin Aleshin,2216,high,2004/eyoc2004.htm
 M18,6,OK,POL,Poland,6543,Kamil Wlodarczyk,2181,Tomasz Pancerowicz,2104,Filip Mazurek,2258,high,2004/eyoc2004.htm
 M18,7,OK,UKR,Ukraine,6632,Sergiy Nadtochyy,2110,Oleksandr Starov,2287,Ruslan Glibov,2235,high,2004/eyoc2004.htm
 M18,8,OK,BUL,Bulgaria,6648,Zlatko Kamenarov,2116,Ivailo Danailov,2176,Ivan Boyadzhiev,2356,high,2004/eyoc2004.htm
 M18,9,OK,BLR,Belarus,6837,Vitali Chorny,2341,Siarhei Ryzhkou,2147,Kanstantsin Shakmetau,2349,high,2004/eyoc2004.htm
-M18,10,OK,GER,Germany,6949,Sören Lösch,2096,Joel Schleeh,2548,Sebastian Bergmann,2305,high,2004/eyoc2004.htm
+M18,10,OK,GER,Germany,6949,Soren Losch,2096,Joel Schleeh,2548,Sebastian Bergmann,2305,high,2004/eyoc2004.htm
 M18,11,OK,AUT,Austria,7014,Thomas Lang,2349,Philipp Wiesberger,2368,Manuel Wiesberger,2297,high,2004/eyoc2004.htm
 M18,12,OK,LAT,Latvia,7078,Gatis Caics,2214,Anatolijs Tarasovs,2371,Marcis Matisans,2493,high,2004/eyoc2004.htm
 M18,13,OK,LTU,Lithuania,7132,Romualdas Stupelis,2752,Vilius Aleliunas,2134,Tomas Uska,2246,high,2004/eyoc2004.htm
 M18,14,OK,ITA,Italy,7161,Gianluca Salvioni,2189,Luca Dallavalle,2501,Giancarlo Simion,2471,high,2004/eyoc2004.htm
 M18,15,OK,FRA,France,7358,Thomas Dalla-Costa,2601,Thibault Mouhat,2577,Charly Boichut,2180,high,2004/eyoc2004.htm
-M18,16,OK,HUN,Hungary,7390,Andor Zöldesi,2246,Ádám Toth,2943,Ádám Kovács,2201,high,2004/eyoc2004.htm
-M18,17,OK,EST,Estonia,7603,Mihkel Järveoja,2176,Lauri Malsroos,2990,Veiko Kütt,2437,high,2004/eyoc2004.htm
-M18,18,OK,ESP,Spain,7712,Nestor Rico Mira,2449,Juan D. Iglesias Ayllón,2523,Biel Rafols Perramón,2740,high,2004/eyoc2004.htm
+M18,16,OK,HUN,Hungary,7390,Andor Zoldesi,2246,Adam Toth,2943,Adam Kovacs,2201,high,2004/eyoc2004.htm
+M18,17,OK,EST,Estonia,7603,Mihkel Jarveoja,2176,Lauri Malsroos,2990,Veiko Kutt,2437,high,2004/eyoc2004.htm
+M18,18,OK,ESP,Spain,7712,Nestor Rico Mira,2449,Juan D. Iglesias Ayllon,2523,Biel Rafols Perramon,2740,high,2004/eyoc2004.htm
 M18,,MP,SRB,Serbia,,Rener Milan,,Uros Radoman,6856,Milos Stankovic,4744,high,2004/eyoc2004.htm

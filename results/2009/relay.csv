@@ -1,6 +1,6 @@
 class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
-W16,1,OK,SUI,Switzerland,5776,Sandrine Müller,1855,Marion Aebi,2208,Lisa Holer,1713,high,2009/eyoc2009.htm
-W16,2,OK,CZE,Czech Republic,5936,Markéta Novotná,1965,Petra Pavlovcová,2009,Vendula Horcicková,1962,high,2009/eyoc2009.htm
+W16,1,OK,SUI,Switzerland,5776,Sandrine Muller,1855,Marion Aebi,2208,Lisa Holer,1713,high,2009/eyoc2009.htm
+W16,2,OK,CZE,Czechia,5936,Marketa Novotna,1965,Petra Pavlovcova,2009,Vendula Horcickova,1962,high,2009/eyoc2009.htm
 W16,3,OK,AUT,Austria,6362,Anna Simkovics,2144,Lisa Pacher,2423,Anja Arbter,1795,high,2009/eyoc2009.htm
 W16,4,OK,FRA,France,6439,Tiphane Marchegay,2268,Emilie Backscheider,2134,Isia Basset,2037,high,2009/eyoc2009.htm
 W16,5,OK,ITA,Italy,7161,Liliana Papandrea,2031,Giada Franz,3011,Viola Zagonel,2119,high,2009/eyoc2009.htm
@@ -8,19 +8,19 @@ W16,6,OK,LAT,Latvia,7246,Elina Svilpe,2695,Beata Zalaiskalna,2038,Liga Valdmane,
 W16,7,OK,GBR,UK,7347,Aine McCann,2384,Florence Haines,1999,Katrin Harding,2964,high,2009/eyoc2009.htm
 W16,8,OK,UKR,Ukraine,7549,Mariya Polishchuk,2522,Viktoriya Sukharevska,2577,Anna Vakulenko,2450,high,2009/eyoc2009.htm
 W16,9,OK,HUN,Hungary,7587,Vanda Kinde,3217,Reka Zempleni,2056,Krisztina Toth,2314,high,2009/eyoc2009.htm
-W16,10,OK,LTU,Lithuania,7907,Akvile Preikšaite,2579,Laura Žickute,2745,Vesta Ambrazaite,2583,high,2009/eyoc2009.htm
+W16,10,OK,LTU,Lithuania,7907,Akvile Preiksaite,2579,Laura Zickute,2745,Vesta Ambrazaite,2583,high,2009/eyoc2009.htm
 W16,11,OK,EST,Estonia,7956,Kaisa Raudkepp,2622,Daisy Kudre,2828,Laura Joonas,2506,high,2009/eyoc2009.htm
 W16,12,OK,POR,Portugal,8132,Vera Alvarez,2652,Ana Salgado,3141,Rita Rodrigues,2339,high,2009/eyoc2009.htm
-W16,13,OK,DEN,Denmark,8306,Sidsel Dan Hull,4086,Ita Klingenberg,2154,Astrid Ank Jørgensen,2066,high,2009/eyoc2009.htm
+W16,13,OK,DEN,Denmark,8306,Sidsel Dan Hull,4086,Ita Klingenberg,2154,Astrid Ank Jorgensen,2066,high,2009/eyoc2009.htm
 W16,14,OK,BUL,Bulgaria,8596,Velina Valova,2456,Boyana Pavlova,2371,Martina Dzhulieva,3769,high,2009/eyoc2009.htm
-W16,15,OK,ESP,Spain,9018,Carmen Patiño Déniz,2135,Silvia Martín de Rios,2884,Joana Nuñez Canovas,3999,high,2009/eyoc2009.htm
+W16,15,OK,ESP,Spain,9018,Carmen Patino Deniz,2135,Silvia Martin de Rios,2884,Joana Nunez Canovas,3999,high,2009/eyoc2009.htm
 W16,,MP,RUS,Russia,,Ekaterina Savkina,,Viktoriya Lukashova,,Yulia Shutkovskaya,,high,2009/eyoc2009.htm
 W16,,MP,SRB,Serbia,,Sofija Jokanovic,3983,Marina Stevanovic,5185,Katarina Vulicevic,,high,2009/eyoc2009.htm
-W18,1,OK,CZE,Czech Republic,5584,Denisa Kosová,1895,Karolina Teplá,1852,Madla Svobodná,1837,high,2009/eyoc2009.htm
+W18,1,OK,CZE,Czechia,5584,Denisa Kosova,1895,Karolina Tepla,1852,Madla Svobodna,1837,high,2009/eyoc2009.htm
 W18,2,OK,LAT,Latvia,5978,Ance Rusova,1896,Mara Peilane,2132,Sabine Tilta,1950,high,2009/eyoc2009.htm
 W18,3,OK,RUS,Russia,5997,Zhemal Garaeva,1909,Daria Maslennikova,2045,Elizaveta Davydova,2043,high,2009/eyoc2009.htm
-W18,4,OK,FIN,Finland,6010,Tytti Kirvesmies,1891,Lotta Karhola,2287,Frida Lönnberg,1832,high,2009/eyoc2009.htm
-W18,5,OK,SUI,Switzerland,6023,Franziska Dörig,1799,Andrea Koch,2358,Eveline Schärli,1866,high,2009/eyoc2009.htm
+W18,4,OK,FIN,Finland,6010,Tytti Kirvesmies,1891,Lotta Karhola,2287,Frida Lonnberg,1832,high,2009/eyoc2009.htm
+W18,5,OK,SUI,Switzerland,6023,Franziska Dorig,1799,Andrea Koch,2358,Eveline Scharli,1866,high,2009/eyoc2009.htm
 W18,6,OK,HUN,Hungary,6051,Filomena Kovacs,1908,Monika Szokol,2252,Reka Toth,1891,high,2009/eyoc2009.htm
 W18,7,OK,GBR,UK,6230,Charlotte Watson,1809,Jessica Orr,2349,Rebecca Harding,2072,high,2009/eyoc2009.htm
 W18,8,OK,AUT,Austria,6432,Julia Bauer,2236,Laura Ramstein,2076,Marlene Habenicht,2120,high,2009/eyoc2009.htm
@@ -28,24 +28,24 @@ W18,9,OK,FRA,France,6446,Claire Sandevoir,2257,Amandine Monterrat,2152,Magalie C
 W18,10,OK,GER,Germany,6520,Maria Lange,2120,Anna Biller,2263,Resi Rathmann,2137,high,2009/eyoc2009.htm
 W18,11,OK,POL,Poland,6628,Jolanta Kolosinska,2375,Urszula Morawska,2397,Paulina Faron,1856,high,2009/eyoc2009.htm
 W18,12,OK,EST,Estonia,6892,Kerstin Uiboupin,2261,Sigrid Ruul,2125,Katrin Vinkel,2506,high,2009/eyoc2009.htm
-W18,13,OK,LTU,Lithuania,7042,Ona Jaugelaite,2381,Joana Cesnaite,2347,Aušrine Kutkaite,2314,high,2009/eyoc2009.htm
-W18,14,OK,SVK,Slovakia,7190,Ivana Durcová,2129,Katarína Papugová,2366,Barbora Franková,2695,high,2009/eyoc2009.htm
+W18,13,OK,LTU,Lithuania,7042,Ona Jaugelaite,2381,Joana Cesnaite,2347,Ausrine Kutkaite,2314,high,2009/eyoc2009.htm
+W18,14,OK,SVK,Slovakia,7190,Ivana Durcova,2129,Katarina Papugova,2366,Barbora Frankova,2695,high,2009/eyoc2009.htm
 W18,15,OK,UKR,Ukraine,7460,Khristyna Bogomyagkova,2047,Inna Blagodarna,2295,Alona Sukharevska,3118,high,2009/eyoc2009.htm
-W18,16,OK,POR,Portugal,7613,Joana Costa,2266,Isabel Sá,2846,Mariana Moreira,2501,high,2009/eyoc2009.htm
+W18,16,OK,POR,Portugal,7613,Joana Costa,2266,Isabel Sa,2846,Mariana Moreira,2501,high,2009/eyoc2009.htm
 W18,17,OK,ROU,Romania,7836,Andra Cecilia Anghel,2661,Madalina Emilia Horvath,2944,Patricia Roxana Carausan,2231,high,2009/eyoc2009.htm
 W18,18,OK,ITA,Italy,8215,Lucia Curzio,2429,Marta Fornasier,2669,Valeria Grisoni,3117,high,2009/eyoc2009.htm
 W18,19,OK,BUL,Bulgaria,8284,Liliana Gotseva,2241,Gloriya Marinova,3139,Iva Agova,2904,high,2009/eyoc2009.htm
 W18,20,OK,BLR,Belarus,8747,Hanna Rudakouskaya,2019,Nastassia Dzianisava,2914,Maryna Paknis,3814,high,2009/eyoc2009.htm
 W18,21,OK,SRB,Serbia,8863,Aleksandra Jelic,3409,Maja Karic,2859,Marija Cosic,2595,high,2009/eyoc2009.htm
-W18,22,OK,ESP,Spain,9582,Violeta Feliciano Sanjuán,2594,Marta Llorca Rodriguez,3333,Gema Arellano del Verbo,3655,high,2009/eyoc2009.htm
-W18,23,OK,SLO,Slovenia,11364,Sara Gregl,4655,Katarina Bremšak,2985,Barbara Pogacar,3724,high,2009/eyoc2009.htm
+W18,22,OK,ESP,Spain,9582,Violeta Feliciano Sanjuan,2594,Marta Llorca Rodriguez,3333,Gema Arellano del Verbo,3655,high,2009/eyoc2009.htm
+W18,23,OK,SLO,Slovenia,11364,Sara Gregl,4655,Katarina Bremsak,2985,Barbara Pogacar,3724,high,2009/eyoc2009.htm
 W18,,MP,BEL,Belgium,,Suzanne Brodel,5198,Fanny Tilkin,,Sien Verdeyen,2634,high,2009/eyoc2009.htm
 W18,,MP,NOR,Norway,,Mari Skoglund Godal,,Maren Haverstad,1873,Anne Tine Markseth,1862,high,2009/eyoc2009.htm
-M16,1,OK,CZE,Czech Republic,6169,Michal Hubácek,2087,Marek Schuster,2028,Filip Hadac,2054,high,2009/eyoc2009.htm
+M16,1,OK,CZE,Czechia,6169,Michal Hubacek,2087,Marek Schuster,2028,Filip Hadac,2054,high,2009/eyoc2009.htm
 M16,2,OK,SUI,Switzerland,6637,Alexandre Lebet,2194,Simon Wenger,2431,Florian Schneider,2012,high,2009/eyoc2009.htm
 M16,3,OK,UKR,Ukraine,6709,Mykyta Sokolskyy,2267,Oleksiy Byshevets`,2462,Volodymyr Selezn`ov,1980,high,2009/eyoc2009.htm
 M16,4,OK,FRA,France,6857,Philippe Joly,2176,Bruno Godefroy,2394,Vincent Avendikian,2287,high,2009/eyoc2009.htm
-M16,5,OK,DEN,Denmark,7188,Mikkel Sørensen,2377,Jakob Edsen,2571,Thor Nørskov,2240,high,2009/eyoc2009.htm
+M16,5,OK,DEN,Denmark,7188,Mikkel Sorensen,2377,Jakob Edsen,2571,Thor Norskov,2240,high,2009/eyoc2009.htm
 M16,6,OK,GER,Germany,7214,Bojan Blumenstein,2215,Yannic Lippross,2730,Valtteri Kolehmainen,2269,high,2009/eyoc2009.htm
 M16,7,OK,AUT,Austria,7220,Tobias Habenicht,2342,Xander Berger,2291,Laurenz Elstner,2587,high,2009/eyoc2009.htm
 M16,8,OK,RUS,Russia,7227,Maxim Tantserev,2294,Valentin Gorodetskiy,2631,Alexander Makeychik,2302,high,2009/eyoc2009.htm
@@ -57,37 +57,37 @@ M16,13,OK,HUN,Hungary,8809,Attila Nagy,2689,Marton Kazal,2494,Marcell Horvath,36
 M16,14,OK,IRL,Ireland,8967,Jack Millar,2684,Cillin Corbett,3105,Eoin Mc Cullough,3178,high,2009/eyoc2009.htm
 M16,15,OK,GBR,UK,9083,Jack Benham,2755,Finlay Langan,3358,Peter Bray,2970,high,2009/eyoc2009.htm
 M16,16,OK,BLR,Belarus,9328,Aliaksandr Khatsian,2287,Andrei Kryvasheyeu,3491,Mikalai Yakusevich,3550,high,2009/eyoc2009.htm
-M16,17,OK,LTU,Lithuania,9471,Algirdas Bartkevicius,2516,Gediminas Morenas,2628,Viktoras Staišiunas,4327,high,2009/eyoc2009.htm
+M16,17,OK,LTU,Lithuania,9471,Algirdas Bartkevicius,2516,Gediminas Morenas,2628,Viktoras Staisiunas,4327,high,2009/eyoc2009.htm
 M16,18,OK,BUL,Bulgaria,9628,Valentin Paskalev,2552,Apostol Atanasov,3424,Slav Vamporov,3652,high,2009/eyoc2009.htm
-M16,19,OK,EST,Estonia,10361,Tõnis Laugesaar,2221,Björn Panker,5317,Kristjan-Martin Kirjanen,2823,high,2009/eyoc2009.htm
+M16,19,OK,EST,Estonia,10361,Tonis Laugesaar,2221,Bjorn Panker,5317,Kristjan-Martin Kirjanen,2823,high,2009/eyoc2009.htm
 M16,20,OK,SRB,Serbia,10684,Filip Stevanovic,3398,Luka Terzic,3453,Sava Lazic,3833,high,2009/eyoc2009.htm
 M16,21,OK,ROU,Romania,11044,Iulian Fron,4674,Paul Pricop,3114,Alex Dorin Mercar,3256,high,2009/eyoc2009.htm
 M16,,MP,POR,Portugal,,Rafael Miguel,2478,Luis Silva,,Pedro Silva,3132,high,2009/eyoc2009.htm
 M16,,DNF,BEL,Belgium,,Julien Gillet,2299,Kristof van Bouwel,3045,N.N.,,high,2009/eyoc2009.htm
-M18,1,OK,CZE,Czech Republic,7168,Jirí Necas,2407,Jirí Valenta,2502,Daniel Wolf,2259,high,2009/eyoc2009.htm
+M18,1,OK,CZE,Czechia,7168,Jiri Necas,2407,Jiri Valenta,2502,Daniel Wolf,2259,high,2009/eyoc2009.htm
 M18,2,OK,RUS,Russia,7209,Dmitry Danil`chenkov,2343,Gleb Tikhonov,2575,Aurel Pleshkan,2291,high,2009/eyoc2009.htm
 M18,3,OK,EST,Estonia,7345,Raido Mitt,2338,Tauno Tiirats,2554,Kenny Kivikas,2453,high,2009/eyoc2009.htm
 M18,4,OK,AUT,Austria,7452,Simon Arbter,2461,Philipp Schiel,2693,Robert Merl,2298,high,2009/eyoc2009.htm
-M18,5,OK,SUI,Switzerland,7555,Patrik Wägeli,2295,Felix Haller,2561,Niklaus Rey,2699,high,2009/eyoc2009.htm
+M18,5,OK,SUI,Switzerland,7555,Patrik Wageli,2295,Felix Haller,2561,Niklaus Rey,2699,high,2009/eyoc2009.htm
 M18,6,OK,POL,Poland,7558,Rafal Podzinski,2430,Jakub Zielinski,2586,Michal Olejnik,2542,high,2009/eyoc2009.htm
 M18,7,OK,LAT,Latvia,7623,Raivo Kivlenieks,2272,Karlis Baltacis,2753,Janis Tamuzs,2598,high,2009/eyoc2009.htm
 M18,8,OK,GBR,UK,7787,Jamie Stevenson,2288,Alan Cherry,2651,Jonathan Crickmore,2848,high,2009/eyoc2009.htm
-M18,9,OK,GER,Germany,7825,Franz Cruse,2405,Andrei Kraemer,2498,Felix Späth,2922,high,2009/eyoc2009.htm
+M18,9,OK,GER,Germany,7825,Franz Cruse,2405,Andrei Kraemer,2498,Felix Spath,2922,high,2009/eyoc2009.htm
 M18,10,OK,FRA,France,8005,Remi Dubois,2401,Benjamin Leclerc,2759,Francois Joly,2845,high,2009/eyoc2009.htm
-M18,11,OK,LTU,Lithuania,8073,Egidijus Daukšys,2893,Dovydas Mickus,2623,Karolis Lazdauskas,2557,high,2009/eyoc2009.htm
+M18,11,OK,LTU,Lithuania,8073,Egidijus Dauksys,2893,Dovydas Mickus,2623,Karolis Lazdauskas,2557,high,2009/eyoc2009.htm
 M18,12,OK,NOR,Norway,8243,Yngve Skogstad,2473,Ivar Lundanes,2366,Martin Vister,3404,high,2009/eyoc2009.htm
-M18,13,OK,FIN,Finland,8333,Einari Heinaro,2340,Severi Kymäläinen,2858,Oskari Mikkola,3135,high,2009/eyoc2009.htm
+M18,13,OK,FIN,Finland,8333,Einari Heinaro,2340,Severi Kymalainen,2858,Oskari Mikkola,3135,high,2009/eyoc2009.htm
 M18,14,OK,HUN,Hungary,8419,Geza Jenes,2954,Abel Gyorgyi,2941,Mate Baumholczer,2524,high,2009/eyoc2009.htm
-M18,15,OK,DEN,Denmark,8532,Andreas Boesen,2310,Lars Hjerrild,2829,Camilla Søgaard,3393,high,2009/eyoc2009.htm
+M18,15,OK,DEN,Denmark,8532,Andreas Boesen,2310,Lars Hjerrild,2829,Camilla Sogaard,3393,high,2009/eyoc2009.htm
 M18,16,OK,ITA,Italy,8559,Fabio Marsoner,2613,Giacomo Zagonel,3075,Nicola Manzoni,2871,high,2009/eyoc2009.htm
 M18,17,OK,UKR,Ukraine,9401,Anton Varenyk,3025,Sergiy Biloshytskyy,3651,Sergiy Kovalov,2725,high,2009/eyoc2009.htm
-M18,18,OK,POR,Portugal,9614,João Mega Figueiredo,2720,Filipe Salgado,3829,Paulo Pereira,3065,high,2009/eyoc2009.htm
+M18,18,OK,POR,Portugal,9614,Joao Mega Figueiredo,2720,Filipe Salgado,3829,Paulo Pereira,3065,high,2009/eyoc2009.htm
 M18,19,OK,IRL,Ireland,9752,Sean Knight,3244,Padraig Mulry,3573,Conor Short,2935,high,2009/eyoc2009.htm
 M18,20,OK,ROU,Romania,9947,Daniel Barkasz,2765,Ghiuzan Eduard,3239,Szabolcz Gyorgy,3943,high,2009/eyoc2009.htm
 M18,21,OK,BEL,Belgium,10178,Bruno Parmentier,2968,Toon Melis,3755,Yannick Michiels,3455,high,2009/eyoc2009.htm
 M18,22,OK,BLR,Belarus,10950,Viktar Karahoda,4660,Vadzim Drabiankou,2913,Mikhail Kazhadub,3377,high,2009/eyoc2009.htm
-M18,23,OK,SLO,Slovenia,11902,Marko Orešnik,5214,Andrej Borštnik,3498,Vid Bogovic,3190,high,2009/eyoc2009.htm
+M18,23,OK,SLO,Slovenia,11902,Marko Oresnik,5214,Andrej Borstnik,3498,Vid Bogovic,3190,high,2009/eyoc2009.htm
 M18,24,OK,SRB,Serbia,12002,Damjan Babic,5162,Tadija Trifunovic,3093,Marko Stevanovic,3747,high,2009/eyoc2009.htm
 M18,25,OK,BUL,Bulgaria,13216,Stanislav Yovev,4669,Boris Yosifov,3163,Grigor Karaivanov,5384,high,2009/eyoc2009.htm
-M18,,MP,ESP,Spain,,Andreu Blanes Reig,,Marc Serrallonga Arqués,2751,Antonio Martinez Pérez,2652,high,2009/eyoc2009.htm
-M18,,MP,SVK,Slovakia,,David Franko,2776,Peter Mižúr,2893,Šimon Mižúr,,high,2009/eyoc2009.htm
+M18,,MP,ESP,Spain,,Andreu Blanes Reig,,Marc Serrallonga Arques,2751,Antonio Martinez Perez,2652,high,2009/eyoc2009.htm
+M18,,MP,SVK,Slovakia,,David Franko,2776,Peter Mizur,2893,Simon Mizur,,high,2009/eyoc2009.htm

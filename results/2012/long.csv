@@ -1,18 +1,18 @@
 class,rank,status,bib,country,name,time_seconds,confidence,source_file
 W16,1,OK,,POL,Angelika MacIejewska,2243,high,2012/eyoc2012.htm
-W16,2,OK,,CZE,Anna Sticková,2388,high,2012/eyoc2012.htm
-W16,3,OK,,GER,Hanna Müller,2409,high,2012/eyoc2012.htm
-W16,4,OK,,CZE,Petra Hancová,2442,high,2012/eyoc2012.htm
+W16,2,OK,,CZE,Anna Stickova,2388,high,2012/eyoc2012.htm
+W16,3,OK,,GER,Hanna Muller,2409,high,2012/eyoc2012.htm
+W16,4,OK,,CZE,Petra Hancova,2442,high,2012/eyoc2012.htm
 W16,5,OK,,HUN,Luca Szuromi,2508,high,2012/eyoc2012.htm
 W16,6,OK,,RUS,Marina Trubkina,2517,high,2012/eyoc2012.htm
 W16,7,OK,,GBR,Julie Emmerson,2550,high,2012/eyoc2012.htm
 W16,8,OK,,UKR,Olena Postelniak,2631,high,2012/eyoc2012.htm
-W16,9,OK,,DEN,Nikoline Tillingsře,2661,high,2012/eyoc2012.htm
-W16,10,OK,,FRA,Chloé Haberkorn,2679,high,2012/eyoc2012.htm
+W16,9,OK,,DEN,Nikoline Tillingsre,2661,high,2012/eyoc2012.htm
+W16,10,OK,,FRA,Chloe Haberkorn,2679,high,2012/eyoc2012.htm
 W16,11,OK,,CZE,Zuzana Kozinova,2732,high,2012/eyoc2012.htm
 W16,14,OK,,AUT,Anika Gassner,2804,high,2012/eyoc2012.htm
 W16,15,OK,,EST,Marianne Haug,2823,high,2012/eyoc2012.htm
-W16,16,OK,,GER,Dorothea Müller,2824,high,2012/eyoc2012.htm
+W16,16,OK,,GER,Dorothea Muller,2824,high,2012/eyoc2012.htm
 W16,17,OK,,DEN,Amanda Falck Weber,2835,high,2012/eyoc2012.htm
 W16,18,OK,,RUS,Anna Dvorianskaia,2836,high,2012/eyoc2012.htm
 W16,19,OK,,POL,Weronika Cych,2849,high,2012/eyoc2012.htm
@@ -20,14 +20,14 @@ W16,20,OK,,HUN,Csenge Viniczzai,2859,high,2012/eyoc2012.htm
 W16,21,OK,,GBR,Sarah Jones,2865,high,2012/eyoc2012.htm
 W16,22,OK,,RUS,Natalia Kostina,2890,high,2012/eyoc2012.htm
 W16,23,OK,,UKR,Daria Moskalenko,2891,high,2012/eyoc2012.htm
-W16,24,OK,,CZE,Tereza Nováková,2896,high,2012/eyoc2012.htm
+W16,24,OK,,CZE,Tereza Novakova,2896,high,2012/eyoc2012.htm
 W16,26,OK,,RUS,Anna Yakimenko,2935,high,2012/eyoc2012.htm
 W16,27,OK,,AUT,Isabel Schaffer,2941,high,2012/eyoc2012.htm
 W16,28,OK,,FRA,Mathlide Body,2958,high,2012/eyoc2012.htm
 W16,29,OK,,BUL,Yveta Zasheva,2985,high,2012/eyoc2012.htm
 W16,30,OK,,LTU,Anele Kerpauskaite,3008,high,2012/eyoc2012.htm
 W16,31,OK,,AUT,Carina Polzer,3016,high,2012/eyoc2012.htm
-W16,33,OK,,GER,Léonore Winkler,3033,high,2012/eyoc2012.htm
+W16,33,OK,,GER,Leonore Winkler,3033,high,2012/eyoc2012.htm
 W16,34,OK,,UKR,Lesya Polishchuk,3049,high,2012/eyoc2012.htm
 W16,35,OK,,LAT,Annija Zalaiskalna,3055,high,2012/eyoc2012.htm
 W16,36,OK,,HUN,Virag Weiler,3079,high,2012/eyoc2012.htm
@@ -37,7 +37,7 @@ W16,39,OK,,LAT,Diana-Marta Ruka,3188,high,2012/eyoc2012.htm
 W16,40,OK,,SLO,Manca Cvek,3228,high,2012/eyoc2012.htm
 W16,41,OK,,UKR,Tetyana Androsova,3242,high,2012/eyoc2012.htm
 W16,42,OK,,GBR,Natalie Beadle,3248,high,2012/eyoc2012.htm
-W16,43,OK,,FRA,Maëlle Beauvir,3276,high,2012/eyoc2012.htm
+W16,43,OK,,FRA,Maelle Beauvir,3276,high,2012/eyoc2012.htm
 W16,44,OK,,DEN,Astrid Maag,3278,high,2012/eyoc2012.htm
 W16,45,OK,,LAT,Madara Brice,3287,high,2012/eyoc2012.htm
 W16,46,OK,,LAT,Laura Leiboma,3308,high,2012/eyoc2012.htm
@@ -79,15 +79,15 @@ W16,82,OK,,BLR,Maryia Hivoina,4933,high,2012/eyoc2012.htm
 W16,83,OK,,TUR,Tugce Kaya,5105,high,2012/eyoc2012.htm
 W16,84,OK,,SRB,Kristina Radicevic,5947,high,2012/eyoc2012.htm
 W18,1,OK,,UKR,Viktoriia Sukharevska,2759,high,2012/eyoc2012.htm
-W18,2,OK,,NOR,Gunvor Hov Hřydal,2793,high,2012/eyoc2012.htm
+W18,2,OK,,NOR,Gunvor Hov Hrydal,2793,high,2012/eyoc2012.htm
 W18,4,OK,,SWE,Moa Leijon-Lind,2929,high,2012/eyoc2012.htm
-W18,5,OK,,CZE,Katerina Chromá,2933,high,2012/eyoc2012.htm
+W18,5,OK,,CZE,Katerina Chroma,2933,high,2012/eyoc2012.htm
 W18,6,OK,,FIN,Henna Skog,2937,high,2012/eyoc2012.htm
 W18,7,OK,,UKR,Mariya Polishchuk,2947,high,2012/eyoc2012.htm
 W18,8,OK,,SWE,Josefine Klintberg,2984,high,2012/eyoc2012.htm
 W18,9,OK,,SWE,Tove Lagerberg,3082,high,2012/eyoc2012.htm
-W18,10,OK,,CZE,Karolína Boránková,3134,high,2012/eyoc2012.htm
-W18,11,OK,,CZE,Lenka Svobodová,3135,high,2012/eyoc2012.htm
+W18,10,OK,,CZE,Karolina Borankova,3134,high,2012/eyoc2012.htm
+W18,11,OK,,CZE,Lenka Svobodova,3135,high,2012/eyoc2012.htm
 W18,12,OK,,RUS,Daria Krasilnikova,3138,high,2012/eyoc2012.htm
 W18,13,OK,,FRA,Lucile Clouard,3145,high,2012/eyoc2012.htm
 W18,14,OK,,NOR,Andrine Benjaminsen,3175,high,2012/eyoc2012.htm
@@ -108,14 +108,14 @@ W18,32,OK,,LAT,Liga Valdmane,3558,high,2012/eyoc2012.htm
 W18,33,OK,,LTU,Milda Radzivonaite,3559,high,2012/eyoc2012.htm
 W18,34,OK,,LAT,Sandra Grosberga,3576,high,2012/eyoc2012.htm
 W18,35,OK,,FIN,Sara Karvonen,3578,high,2012/eyoc2012.htm
-W18,36,OK,,NOR,Synnřve Brĺten,3586,high,2012/eyoc2012.htm
+W18,36,OK,,NOR,Synnrve Brlten,3586,high,2012/eyoc2012.htm
 W18,37,OK,,FIN,Lotta Kirvesmies,3648,high,2012/eyoc2012.htm
 W18,38,OK,,GBR,Katie Reynolds,3657,high,2012/eyoc2012.htm
 W18,39,OK,,EST,Madli-Johanna Maidla,3679,high,2012/eyoc2012.htm
 W18,40,OK,,LTU,Akvile Preiksaite,3680,high,2012/eyoc2012.htm
 W18,41,OK,,ROU,Tetisan Anca,3710,high,2012/eyoc2012.htm
 W18,42,OK,,FRA,Margaux Hummel-Azais,3747,high,2012/eyoc2012.htm
-W18,43,OK,,CZE,Katerina Dolezelová,3822,high,2012/eyoc2012.htm
+W18,43,OK,,CZE,Katerina Dolezelova,3822,high,2012/eyoc2012.htm
 W18,44,OK,,ITA,Anna Caglio,3825,high,2012/eyoc2012.htm
 W18,45,OK,,GER,Sabine Rothaug,3841,high,2012/eyoc2012.htm
 W18,46,OK,,AUT,Nora Ramstein,3842,high,2012/eyoc2012.htm
@@ -138,7 +138,7 @@ W18,64,OK,,POL,Maria Dragowska,4276,high,2012/eyoc2012.htm
 W18,65,OK,,BUL,Antoaneta Dyaksova,4287,high,2012/eyoc2012.htm
 W18,66,OK,,POR,Carolina Delgado,4314,high,2012/eyoc2012.htm
 W18,67,OK,,HUN,Orsolya Denes,4323,high,2012/eyoc2012.htm
-W18,68,OK,,FRA,Naďs Devrieux,4345,high,2012/eyoc2012.htm
+W18,68,OK,,FRA,Nads Devrieux,4345,high,2012/eyoc2012.htm
 W18,69,OK,,ESP,Silvia Martin de Los Ri,4410,high,2012/eyoc2012.htm
 W18,70,OK,,LTU,Laura Zickute,4469,high,2012/eyoc2012.htm
 W18,71,OK,,UKR,Iulia Karpenko,4511,high,2012/eyoc2012.htm
@@ -167,8 +167,8 @@ M16,14,OK,,ROU,Prezensky Gabor,3242,high,2012/eyoc2012.htm
 M16,15,OK,,POL,Radoslaw Piotrowski,3270,high,2012/eyoc2012.htm
 M16,16,OK,,GBR,Joe Woodley,3313,high,2012/eyoc2012.htm
 M16,17,OK,,EST,Janek Piirisild,3319,high,2012/eyoc2012.htm
-M16,18,OK,,CZE,Matous Fürst,3323,high,2012/eyoc2012.htm
-M16,19,OK,,CZE,Stepán Mudrák,3339,high,2012/eyoc2012.htm
+M16,18,OK,,CZE,Matous Furst,3323,high,2012/eyoc2012.htm
+M16,19,OK,,CZE,Stepan Mudrak,3339,high,2012/eyoc2012.htm
 M16,20,OK,,AUT,Mathias Peter,3348,high,2012/eyoc2012.htm
 M16,21,OK,,ITA,Fabiano Bettega,3349,high,2012/eyoc2012.htm
 M16,23,OK,,UKR,Oleksandr Tkachuk,3407,high,2012/eyoc2012.htm
@@ -189,9 +189,9 @@ M16,42,OK,,AUT,Stefan Falk,3861,high,2012/eyoc2012.htm
 M16,43,OK,,LTU,Martynas Germanavic,3863,high,2012/eyoc2012.htm
 M16,44,OK,,LTU,Deividas Segzda,3907,high,2012/eyoc2012.htm
 M16,45,OK,,DEN,Martin Illum,3919,high,2012/eyoc2012.htm
-M16,46,OK,,DEN,Emil Řbro,3938,high,2012/eyoc2012.htm
+M16,46,OK,,DEN,Emil Rbro,3938,high,2012/eyoc2012.htm
 M16,47,OK,,POL,Lukasz Wisniewski,3940,high,2012/eyoc2012.htm
-M16,48,OK,,GER,Markus Grätsch,3941,high,2012/eyoc2012.htm
+M16,48,OK,,GER,Markus Gratsch,3941,high,2012/eyoc2012.htm
 M16,49,OK,,RUS,Vladislav Malyshev,3961,high,2012/eyoc2012.htm
 M16,50,OK,,ROU,Gergely Bogya,3977,high,2012/eyoc2012.htm
 M16,51,OK,,LAT,Atis Heinols,3980,high,2012/eyoc2012.htm
@@ -212,7 +212,7 @@ M16,65,OK,,POR,Daniel Catarino,4387,high,2012/eyoc2012.htm
 M16,66,OK,,LTU,Kevinas Olisauskis,4425,high,2012/eyoc2012.htm
 M16,67,OK,,SLO,Patrik Celik,4460,high,2012/eyoc2012.htm
 M16,68,OK,,TUR,Safak Karaman,4473,high,2012/eyoc2012.htm
-M16,69,OK,,EST,Rimmo Rőőm,4506,high,2012/eyoc2012.htm
+M16,69,OK,,EST,Rimmo Room,4506,high,2012/eyoc2012.htm
 M16,70,OK,,ITA,Mattia Debertolis,4552,high,2012/eyoc2012.htm
 M16,71,OK,,AUT,Stefan Kubelka,4585,high,2012/eyoc2012.htm
 M16,72,OK,,POR,Diogo Barradas,4770,high,2012/eyoc2012.htm
@@ -220,14 +220,14 @@ M16,73,OK,,ROU,Erosdi Zakarias,4819,high,2012/eyoc2012.htm
 M16,74,OK,,SLO,Andraz de Luisa,4833,high,2012/eyoc2012.htm
 M16,75,OK,,ESP,Jesuis Rodriguez Corro,5105,high,2012/eyoc2012.htm
 M16,76,OK,,ESP,Jorge Gracia Ochotoren,5174,high,2012/eyoc2012.htm
-M16,77,OK,,POR,António Ferreira,5293,high,2012/eyoc2012.htm
+M16,77,OK,,POR,Antonio Ferreira,5293,high,2012/eyoc2012.htm
 M16,78,OK,,BLR,Pavel Khadzko,5459,high,2012/eyoc2012.htm
 M16,79,OK,,TUR,Tahsin Elmas,5462,high,2012/eyoc2012.htm
 M16,80,OK,,BLR,Aliaksandr Razhkou,5480,high,2012/eyoc2012.htm
 M16,81,OK,,SRB,Stefan Bilic,5574,high,2012/eyoc2012.htm
-M16,82,OK,,POR,André Esteves,5766,high,2012/eyoc2012.htm
+M16,82,OK,,POR,Andre Esteves,5766,high,2012/eyoc2012.htm
 M16,83,OK,,TUR,Musa Gokce,6468,high,2012/eyoc2012.htm
-M18,1,OK,,CZE,Marek Minár,3233,high,2012/eyoc2012.htm
+M18,1,OK,,CZE,Marek Minar,3233,high,2012/eyoc2012.htm
 M18,2,OK,,FIN,Eeli Viholainen,3312,high,2012/eyoc2012.htm
 M18,3,OK,,POL,Krzysztof Wolowczyk,3358,high,2012/eyoc2012.htm
 M18,4,OK,,AUT,Matthias Reiner,3373,high,2012/eyoc2012.htm
@@ -237,12 +237,12 @@ M18,7,OK,,FRA,Florentin Body,3426,high,2012/eyoc2012.htm
 M18,8,OK,,FIN,Kristian Kannus,3457,high,2012/eyoc2012.htm
 M18,9,OK,,LAT,Mikus Purins,3465,high,2012/eyoc2012.htm
 M18,10,OK,,ESP,Eduardo Gil Marco,3474,high,2012/eyoc2012.htm
-M18,12,OK,,SWE,Assar Hellström,3495,high,2012/eyoc2012.htm
-M18,13,OK,,CZE,Jonás Hubácek,3517,high,2012/eyoc2012.htm
-M18,14,OK,,EST,Tőnis Laugesaar,3523,high,2012/eyoc2012.htm
+M18,12,OK,,SWE,Assar Hellstrom,3495,high,2012/eyoc2012.htm
+M18,13,OK,,CZE,Jonas Hubacek,3517,high,2012/eyoc2012.htm
+M18,14,OK,,EST,Tonis Laugesaar,3523,high,2012/eyoc2012.htm
 M18,15,OK,,LTU,Algirdas Bartkevicius,3563,high,2012/eyoc2012.htm
 M18,16,OK,,RUS,Dmitry Naumov,3564,high,2012/eyoc2012.htm
-M18,17,OK,,SWE,Ludvig Ĺhlund,3596,high,2012/eyoc2012.htm
+M18,17,OK,,SWE,Ludvig Lhlund,3596,high,2012/eyoc2012.htm
 M18,18,OK,,NOR,Jon Nilsen,3599,high,2012/eyoc2012.htm
 M18,19,OK,,SWE,Ludwig Ljungqvist,3601,high,2012/eyoc2012.htm
 M18,20,OK,,UKR,Vitaliy Gychko,3619,high,2012/eyoc2012.htm
@@ -253,17 +253,17 @@ M18,25,OK,,SWE,Jonatan Aronsson,3698,high,2012/eyoc2012.htm
 M18,26,OK,,BEL,Evert Leeuws,3700,high,2012/eyoc2012.htm
 M18,27,OK,,UKR,Oleksandr Asmolov,3715,high,2012/eyoc2012.htm
 M18,28,OK,,BUL,Apostol Atanasov,3719,high,2012/eyoc2012.htm
-M18,29,OK,,POR,Luís Silva,3720,high,2012/eyoc2012.htm
+M18,29,OK,,POR,Luis Silva,3720,high,2012/eyoc2012.htm
 M18,30,OK,,ESP,Pau Llorens Caellas,3721,high,2012/eyoc2012.htm
 M18,31,OK,,ESP,Luis Sanchez Serrano,3745,high,2012/eyoc2012.htm
 M18,32,OK,,GBR,Christopher Galloway,3773,high,2012/eyoc2012.htm
 M18,33,OK,,LAT,Alvis Reinsons,3785,high,2012/eyoc2012.htm
 M18,34,OK,,LTU,Martynas Tirlikas,3786,high,2012/eyoc2012.htm
-M18,35,OK,,GER,Moritz Döllgast,3805,high,2012/eyoc2012.htm
+M18,35,OK,,GER,Moritz Dollgast,3805,high,2012/eyoc2012.htm
 M18,36,OK,,LTU,Justas Misiunas,3810,high,2012/eyoc2012.htm
 M18,37,OK,,LAT,Daniels Karklins,3843,high,2012/eyoc2012.htm
-M18,39,OK,,FRA,Rémi Villedieu,3851,high,2012/eyoc2012.htm
-M18,40,OK,,FRA,Loďc Marty,3856,high,2012/eyoc2012.htm
+M18,39,OK,,FRA,Remi Villedieu,3851,high,2012/eyoc2012.htm
+M18,40,OK,,FRA,Lodc Marty,3856,high,2012/eyoc2012.htm
 M18,40,OK,,RUS,Konstantin Pozdeev,3856,high,2012/eyoc2012.htm
 M18,42,OK,,NOR,Mathias Drage,3899,high,2012/eyoc2012.htm
 M18,43,OK,,RUS,Dmitry Polyakov,3903,high,2012/eyoc2012.htm
@@ -273,11 +273,11 @@ M18,46,OK,,HUN,Daniel Fehervari,3943,high,2012/eyoc2012.htm
 M18,47,OK,,HUN,Matyas Pentek,3953,high,2012/eyoc2012.htm
 M18,48,OK,,AUT,Adrian Wickert,3977,high,2012/eyoc2012.htm
 M18,49,OK,,GBR,Ciaran Allen,4015,high,2012/eyoc2012.htm
-M18,50,OK,,CZE,Patrik Horák,4025,high,2012/eyoc2012.htm
+M18,50,OK,,CZE,Patrik Horak,4025,high,2012/eyoc2012.htm
 M18,51,OK,,ROU,Prezensky Tamas,4032,high,2012/eyoc2012.htm
 M18,52,OK,,POL,Witold Jasinski,4045,high,2012/eyoc2012.htm
 M18,54,OK,,POL,Wojciech Dudek,4058,high,2012/eyoc2012.htm
-M18,55,OK,,NOR,Sindre Řstgulen Deisz,4084,high,2012/eyoc2012.htm
+M18,55,OK,,NOR,Sindre Rstgulen Deisz,4084,high,2012/eyoc2012.htm
 M18,56,OK,,UKR,Oleksiy Sudarev,4113,high,2012/eyoc2012.htm
 M18,57,OK,,SRB,Filip Stevanovic,4118,high,2012/eyoc2012.htm
 M18,58,OK,,IRL,Jack Millar,4140,high,2012/eyoc2012.htm
@@ -294,7 +294,7 @@ M18,68,OK,,SRB,Sava Lazic,4487,high,2012/eyoc2012.htm
 M18,69,OK,,GER,Jan-Felix Topp,4489,high,2012/eyoc2012.htm
 M18,70,OK,,ROU,Bele Felician,4532,high,2012/eyoc2012.htm
 M18,71,OK,,ISR,Manor Itay,4545,high,2012/eyoc2012.htm
-M18,72,OK,,EST,Oliver Jőgeva,4653,high,2012/eyoc2012.htm
+M18,72,OK,,EST,Oliver Jogeva,4653,high,2012/eyoc2012.htm
 M18,74,OK,,SLO,Jost Lapajne,4738,high,2012/eyoc2012.htm
 M18,75,OK,,SLO,Gregor Hvala,4741,high,2012/eyoc2012.htm
 M18,77,OK,,POR,Miguel Ferreira,4760,high,2012/eyoc2012.htm

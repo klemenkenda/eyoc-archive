@@ -19,7 +19,7 @@ M16,17,OK,189,LAT,Ilgvars Caune,3219,high,2015/results-lf.pdf
 M16,18,OK,134,RUS,Anton Lukashevich,3263,high,2015/results-lf.pdf
 M16,19,OK,121,FRA,Guilhem Haberkorn,3264,high,2015/results-lf.pdf
 M16,20,OK,130,HUN,Ferenc Jonas,3275,high,2015/results-lf.pdf
-M16,21,OK,185,SVK,Jakub Dekrét,3301,high,2015/results-lf.pdf
+M16,21,OK,185,SVK,Jakub Dekret,3301,high,2015/results-lf.pdf
 M16,22,OK,176,HUN,Barnabas Kovacs,3316,high,2015/results-lf.pdf
 M16,23,OK,116,UKR,Nikita Anopko,3333,high,2015/results-lf.pdf
 M16,24,OK,141,EST,Kaarel Vesilind,3341,high,2015/results-lf.pdf
@@ -30,11 +30,11 @@ M16,28,OK,161,LAT,Fricis Spektors,3383,high,2015/results-lf.pdf
 M16,29,OK,168,SUI,Nicola Muller,3385,high,2015/results-lf.pdf
 M16,30,OK,188,GER,Franz Gawlitza,3468,high,2015/results-lf.pdf
 M16,31,OK,159,BUL,Valentin Neykov,3472,high,2015/results-lf.pdf
-M16,32,OK,102,DEN,Malte Kjær Hemmingsen,3499,high,2015/results-lf.pdf
+M16,32,OK,102,DEN,Malte Kjaer Hemmingsen,3499,high,2015/results-lf.pdf
 M16,33,OK,123,ROU,Attila Szocs,3555,high,2015/results-lf.pdf
 M16,34,OK,151,ROU,Peter Knobloch Eszterga,3565,high,2015/results-lf.pdf
 M16,35,OK,158,SVK,Feder Medard,3602,high,2015/results-lf.pdf
-M16,36,OK,133,ESP,Jorge Carança Valente B,3609,high,2015/results-lf.pdf
+M16,36,OK,133,ESP,Jorge Caranca Valente B,3609,high,2015/results-lf.pdf
 M16,37,OK,180,TUR,Samet Kossek,3614,high,2015/results-lf.pdf
 M16,38,OK,113,FRA,Maxime Roche,3616,high,2015/results-lf.pdf
 M16,39,OK,110,LAT,Renars Kokorevics,3661,high,2015/results-lf.pdf
@@ -65,14 +65,14 @@ M16,63,OK,144,DEN,Lasse Falck Weber,4137,high,2015/results-lf.pdf
 M16,64,OK,145,CRO,Andro Vladimir Stambuk,4140,high,2015/results-lf.pdf
 M16,65,OK,150,TUR,Talha Gunday,4199,high,2015/results-lf.pdf
 M16,66,OK,109,GER,Dennis Brauer,4210,high,2015/results-lf.pdf
-M16,67,OK,166,MDA,Ilia Burdeinîi,4224,high,2015/results-lf.pdf
+M16,67,OK,166,MDA,Ilia Burdeinii,4224,high,2015/results-lf.pdf
 M16,68,OK,127,ISR,Eilam Berzak,4240,high,2015/results-lf.pdf
 M16,69,OK,160,ITA,Enrico Mannocci,4258,high,2015/results-lf.pdf
-M16,70,OK,131,IRL,Ruairí Long,4313,high,2015/results-lf.pdf
+M16,70,OK,131,IRL,Ruairi Long,4313,high,2015/results-lf.pdf
 M16,71,OK,112,ESP,Juan Cornejo Garcia,4357,high,2015/results-lf.pdf
 M16,72,OK,153,FIN,Topias Niemi,4372,high,2015/results-lf.pdf
 M16,73,OK,169,BUL,Boyan Ivandjikov,4446,high,2015/results-lf.pdf
-M16,74,OK,163,ESP,Joel Carrión Gandia,4614,high,2015/results-lf.pdf
+M16,74,OK,163,ESP,Joel Carrion Gandia,4614,high,2015/results-lf.pdf
 M16,75,OK,136,ITA,Francesco Magenes,4803,high,2015/results-lf.pdf
 M16,76,OK,165,ISR,Omer Kachal,4889,high,2015/results-lf.pdf
 M16,77,OK,122,TUR,Ismail Kilinc,4928,high,2015/results-lf.pdf
@@ -248,7 +248,7 @@ W16,59,OK,389,HUN,Reka Dalida Pataki,3828,high,2015/results-lf.pdf
 W16,60,OK,358,SVK,Tereza Miklusova,3846,high,2015/results-lf.pdf
 W16,61,OK,380,LAT,Vilma Alberinga,3882,high,2015/results-lf.pdf
 W16,62,OK,363,BEL,Lucie Arno,4064,high,2015/results-lf.pdf
-W16,63,OK,335,ESP,Elena Martí Barclay,4121,high,2015/results-lf.pdf
+W16,63,OK,335,ESP,Elena Marti Barclay,4121,high,2015/results-lf.pdf
 W16,64,OK,411,BEL,Ems Desmul,4171,high,2015/results-lf.pdf
 W16,65,OK,355,ROU,Denisa Tamas,4199,high,2015/results-lf.pdf
 W16,66,OK,327,EST,Kelli Nurm,4301,high,2015/results-lf.pdf

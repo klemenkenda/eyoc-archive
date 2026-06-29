@@ -1,12 +1,12 @@
 class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
-W16,1,OK,CZE,Team CZE 1,4683,Adéla Jakobová,1516,Vera Müllerová,1661,Michaela Chmelarová,1506,high,2006/2006_relay_w16.txt
+W16,1,OK,CZE,Team CZE 1,4683,Adela Jakobova,1516,Vera Mullerova,1661,Michaela Chmelarova,1506,high,2006/2006_relay_w16.txt
 W16,2,OK,RUS,Team RUS 67,4808,Anastasia Trubkina,1722,Natalia Kozlova,1635,Karina Fershalova,1451,high,2006/2006_relay_w16.txt
 W16,3,OK,SUI,Team SUI 79,5126,Ladina Matter,1448,Sarina Jenzer,2136,Isabelle Feer,1542,high,2006/2006_relay_w16.txt
-W16,4,OK,HUN,Team HUN 40,5131,Regina Bertóti,1729,Vanda Zsigmond,1914,Ilona Tibay,1488,high,2006/2006_relay_w16.txt
+W16,4,OK,HUN,Team HUN 40,5131,Regina Bertoti,1729,Vanda Zsigmond,1914,Ilona Tibay,1488,high,2006/2006_relay_w16.txt
 W16,5,OK,GER,Team GER 92,5346,Josephine Greiner,1585,Lucca Blumenstein,1777,Maria Lange,1984,high,2006/2006_relay_w16.txt
 W16,6,OK,POL,Team POL 55,5358,Magdalena Helminiak,1813,Hanna Wisniewska,1868,Monika Gajda,1677,high,2006/2006_relay_w16.txt
-W16,7,OK,FRA,Team FRA 31,5554,Perrine Obstetar,1555,Alizée Gaillard,1972,Magalie Cordeiro-Mendes,2027,high,2006/2006_relay_w16.txt
-W16,8,OK,EST,Team EST 27,5586,Hannula-Katrin Pandis,2169,Triin Aedmäe,1760,Adele Puusalu,1657,high,2006/2006_relay_w16.txt
+W16,7,OK,FRA,Team FRA 31,5554,Perrine Obstetar,1555,Alizee Gaillard,1972,Magalie Cordeiro-Mendes,2027,high,2006/2006_relay_w16.txt
+W16,8,OK,EST,Team EST 27,5586,Hannula-Katrin Pandis,2169,Triin Aedmae,1760,Adele Puusalu,1657,high,2006/2006_relay_w16.txt
 W16,9,OK,AUT,Team AUT 3,5591,Clarissa Kradischnig,1736,Anna Elstner,2280,Ulla Mayrhofer,1575,high,2006/2006_relay_w16.txt
 W16,10,OK,LAT,Team LAT 46,5969,Ieva Brice,2227,Anna Purina,2051,Ilze Cahrausa,1691,high,2006/2006_relay_w16.txt
 W16,11,OK,LTU,Team LTU 95,6020,Ausrine Kutkaite,2482,Egle Dambrauskaite,1996,Tekle Emilija Gvildyte,1542,high,2006/2006_relay_w16.txt
@@ -14,65 +14,68 @@ W16,12,OK,UKR,Team UKR 89,6633,Kateryna Nesterenko,2306,Olga Popko,2173,Maryna P
 W16,13,OK,ITA,Team ITA 44,6786,Carlotta Scalet,3140,Claudia Zanetel,1711,Lucia Curzio,1935,high,2006/2006_relay_w16.txt
 W16,14,OK,BUL,Team BUL 11,7320,Valeriya Staneva,3146,Iva Agova,2401,Katya Stoyanova,1773,high,2006/2006_relay_w16.txt
 W16,15,OK,POR,Team POR 59,7324,Joana Costa,2589,Isabel Sa,2539,Mariana Moreira,2195,high,2006/2006_relay_w16.txt
+W16,16,OK,SRB,Team SCG 71,8504,Lidija Radulovic,2633,Marija Cosic,3423,Maja Karic,2448,high,2006/2006_relay_w16.txt
 W16,17,OK,CRO,Team CRO 91,11254,Marija Stambuk,4842,Ana Muzak,3476,Iva Stambuk,2939,high,2006/2006_relay_w16.txt
 W16,18,OK,SLO,Team SLO 75,11304,Ana Jesenko,3154,Ursa Tomazin,5297,Anja Jenko,2853,high,2006/2006_relay_w16.txt
-W18,1,OK,NOR,Team NOR 52,5715,Inger Liv Bjerkreim Nilsen,2105,Siri Ulvestad,1734,Ida Marie N Bjørgul,1876,high,2006/2006_relay_w18.txt
-W18,2,OK,HUN,Team HUN 41,5987,Dorottya Péley,2112,Diána Koós,2063,Eszter Öry,1812,high,2006/2006_relay_w18.txt
-W18,3,OK,CZE,Team CZE 1,6055,Tereza Petrželová,1906,Vera Mádlová,1809,Michaela Procházková,2340,high,2006/2006_relay_w18.txt
-W18,4,OK,FRA,Team FRA 32,6066,Marine Leloup,1865,Léa Molinier,2326,Léa Vercellotti,1875,high,2006/2006_relay_w18.txt
+W18,1,OK,NOR,Team NOR 52,5715,Inger Liv Bjerkreim Nilsen,2105,Siri Ulvestad,1734,Ida Marie N Bjorgul,1876,high,2006/2006_relay_w18.txt
+W18,2,OK,HUN,Team HUN 41,5987,Dorottya Peley,2112,Diana Koos,2063,Eszter Ory,1812,high,2006/2006_relay_w18.txt
+W18,3,OK,CZE,Team CZE 1,6055,Tereza Petrzelova,1906,Vera Madlova,1809,Michaela Prochazkova,2340,high,2006/2006_relay_w18.txt
+W18,4,OK,FRA,Team FRA 32,6066,Marine Leloup,1865,Lea Molinier,2326,Lea Vercellotti,1875,high,2006/2006_relay_w18.txt
 W18,5,OK,RUS,Team RUS 68,6289,Tatiana Rozova,2363,Nina Oleynichenkova,2158,Tatiana Mendel,1768,high,2006/2006_relay_w18.txt
 W18,6,OK,EST,Team EST 28,6491,Ly Trei,2201,Eleri Hirv,1962,Grete Gutmann,2328,high,2006/2006_relay_w18.txt
 W18,7,OK,ESP,Team ESP 24,6519,Alicia Gil,2162,Anna Serrallonga,2517,Ona Rafols,1840,high,2006/2006_relay_w18.txt
 W18,8,OK,SWE,Team SWE 86,6568,Kristin Boman,2480,Lina Sundkvist,2001,Elsa Jansson,2087,high,2006/2006_relay_w18.txt
-W18,9,OK,LTU,Team LTU 50,6573,Ugne Grigonyte,2188,Gintare Apcelauskaite,2285,Gabija Ražaitytė,2100,high,2006/2006_relay_w18.txt
+W18,9,OK,LTU,Team LTU 50,6573,Ugne Grigonyte,2188,Gintare Apcelauskaite,2285,Gabija Razaityte,2100,high,2006/2006_relay_w18.txt
 W18,10,OK,UKR,Team UKR 90,6716,Irina Dryutova,2280,Olha Hrynko,2120,Oleksandra Parkhomenko,2316,high,2006/2006_relay_w18.txt
-W18,11,OK,SUI,Team SUI 80,6724,Annettina Herren,1853,Laetitia Hächler,2685,Judith Wyder,2186,high,2006/2006_relay_w18.txt
+W18,11,OK,SUI,Team SUI 80,6724,Annettina Herren,1853,Laetitia Hachler,2685,Judith Wyder,2186,high,2006/2006_relay_w18.txt
 W18,12,OK,LAT,Team LAT 47,7032,Madara Stapane,2553,Anna Bralite,2286,Krista Mihailova,2193,high,2006/2006_relay_w18.txt
 W18,13,OK,AUT,Team AUT 4,7208,Ursula Kadan,2463,Carina Kradischnig,2814,Stephanie Killmann,1931,high,2006/2006_relay_w18.txt
 W18,14,OK,POL,Team POL 56,7690,Marlena Wieleba,3054,Magdalena Lesniak,2287,Natalia Najman,2349,high,2006/2006_relay_w18.txt
-W18,15,OK,SVK,Team SVK 96,7830,Jana Kršiaková,2018,Eva Farkašová,3027,Dáša Mihálová,2785,high,2006/2006_relay_w18.txt
+W18,15,OK,SVK,Team SVK 96,7830,Jana Krsiakova,2018,Eva Farkasova,3027,Dasa Mihalova,2785,high,2006/2006_relay_w18.txt
 W18,16,OK,ROU,Team ROM 64,7833,Ioana Zah-Git,2468,Monica Auer,2994,Adina Popescu,2371,high,2006/2006_relay_w18.txt
 W18,17,OK,BUL,Team BUL 12,8385,Sofiya Toteva,2918,Simona Danailova,3023,Greta Borisova,2444,high,2006/2006_relay_w18.txt
 W18,,MP,GBR,Team GBR 34,,Jenni Hoare,2843,Catherine Taylor,,Emily Benham,2141,high,2006/2006_relay_w18.txt
+W18,,MP,SRB,Team SCG 72,,Ana Jankovic,3016,Nada Zdravkovic,2827,Marta Zdravkovic,3313,high,2006/2006_relay_w18.txt
 W18,,MP,POR,Team POR 60,,Catarina Ruivo,3231,Raquel Cardoso,,Andreia Silva,3975,high,2006/2006_relay_w18.txt
 M16,1,OK,SUI,Team SUI 1,5411,Nicolai Stucki,1810,Florian Howald,1883,Matthias Kyburz,1718,high,2006/2006_relay_m16.txt
 M16,2,OK,LAT,Team LAT 94,5798,Valters Strelnieks,2270,Maris Zamovskis,1790,Andris Kivlenieks,1738,high,2006/2006_relay_m16.txt
 M16,3,OK,EST,Team EST 25,5813,Raido Mitt,1871,Kenny Kivikas,2161,Lauri Sild,1781,high,2006/2006_relay_m16.txt
-M16,4,OK,FRA,Team FRA 29,5822,Mathieu Ringot,1873,Théo Fleurent,1973,Lucas Basset,1976,high,2006/2006_relay_m16.txt
+M16,4,OK,FRA,Team FRA 29,5822,Mathieu Ringot,1873,Theo Fleurent,1973,Lucas Basset,1976,high,2006/2006_relay_m16.txt
 M16,5,OK,POL,Team POL 53,5984,Maciej Hewelt,2076,Kuba Dragowski,1947,Bartosz Pawlak,1961,high,2006/2006_relay_m16.txt
 M16,6,OK,GER,Team GER 35,5986,Matthias Kretzschmar,2053,Bjarne Friedrichs,1813,Franz Cruse,2120,high,2006/2006_relay_m16.txt
 M16,7,OK,AUT,Team AUT 2,6115,Simon Arbter,2078,Robert Merl,1996,Helmut Gremmel,2041,high,2006/2006_relay_m16.txt
-M16,8,OK,CZE,Team CZE 17,6139,Miloš Nykodým,1941,Štìpán Zimmermann,2228,Antonín Bednarík,1970,high,2006/2006_relay_m16.txt
-M16,9,OK,HUN,Team HUN 38,6207,Máté Bereczki,1970,Boldizsár Kovács,2073,Ervin Pongrácz,2164,high,2006/2006_relay_m16.txt
+M16,8,OK,CZE,Team CZE 17,6139,Milos Nykodym,1941,Stipan Zimmermann,2228,Antonin Bednarik,1970,high,2006/2006_relay_m16.txt
+M16,9,OK,HUN,Team HUN 38,6207,Mate Bereczki,1970,Boldizsar Kovacs,2073,Ervin Pongracz,2164,high,2006/2006_relay_m16.txt
 M16,10,OK,LTU,Team LTU 48,6253,Tadas Vidzikauskas,1869,Karolis Lazdauskas,1975,Egidijus Dauksys,2409,high,2006/2006_relay_m16.txt
 M16,11,OK,RUS,Team RUS 65,6390,Mikhail Petrov,2277,Igor Zorin,1936,Sergey Vasilyev,2177,high,2006/2006_relay_m16.txt
 M16,12,OK,UKR,Team UKR 87,6762,Oleksandr Bevzyuk,2154,Andriy Plokhenko,2426,Yevgen Fesenko,2182,high,2006/2006_relay_m16.txt
 M16,13,OK,BUL,Team BUL 9,6766,Ilkmen Topchu,1874,Ivan Kutuev,2194,Atanas Boyarov,2697,high,2006/2006_relay_m16.txt
-M16,14,OK,SVK,Team SVK 81,8015,Miroslav Papuga,2251,Tomáš Sokol,2665,Michal Pavlik,3099,high,2006/2006_relay_m16.txt
+M16,14,OK,SVK,Team SVK 81,8015,Miroslav Papuga,2251,Tomas Sokol,2665,Michal Pavlik,3099,high,2006/2006_relay_m16.txt
 M16,15,OK,ROU,Team ROM 61,8454,Cosmin Georgescu,2533,Florin Tuncu,2606,Radu Rosca,3315,high,2006/2006_relay_m16.txt
+M16,16,OK,SRB,Team SCG 69,9012,Marko Stevanovic,3123,Tadija Trifunovic,2562,Bojan Munjas,3326,high,2006/2006_relay_m16.txt
 M16,17,OK,SLO,Team SLO 73,9483,Luka Rupnik,2817,Blaz Grah,2830,Vid Bogovic,3835,high,2006/2006_relay_m16.txt
 M16,18,OK,POR,Team POR 57,10193,Mario Batista,3112,Paulo Pereira,4071,David Sayanda,3010,high,2006/2006_relay_m16.txt
 M16,,MP,ESP,Team ESP 21,,Nabil Abderraman,2130,Antoniio Martinez,2341,Juan Pedro Martinez,,high,2006/2006_relay_m16.txt
 M16,,MP,ITA,Team ITA 43,,Roberto Dalla Valle,1801,Tommaso Scalet,,Christiano de Agnoi,2423,high,2006/2006_relay_m16.txt
 M18,1,OK,RUS,Team RUS 66,7069,Yury Kiryanov,2406,Dmitry Masnyy,2303,Damir Kurmakaev,2360,high,2006/2006_relay_m18.txt
 M18,2,OK,GBR,Team GBR 33,7180,Rhodri Buffett,2360,John Rocke,2364,Hector Haines,2456,high,2006/2006_relay_m18.txt
-M18,3,OK,CZE,Team CZE 1,7195,Tomáš Boril,2384,Matìj Klusácek,2343,Pavel Hradec,2468,high,2006/2006_relay_m18.txt
-M18,4,OK,HUN,Team HUN 39,7263,András Szabó,2597,Máté Kerényi,2463,Zsolt Lenkei,2203,high,2006/2006_relay_m18.txt
-M18,5,OK,NOR,Team NOR 51,7314,Jonas Sommerstad Juveli,2684,Olav Johannes Deelstra,2423,Tore Bjørseth Berdal,2207,high,2006/2006_relay_m18.txt
-M18,6,OK,SUI,Team SUI 78,7336,Kaspar Hägler,2514,Philipp Sauter,2281,Raffael Huber,2541,high,2006/2006_relay_m18.txt
+M18,3,OK,CZE,Team CZE 1,7195,Tomas Boril,2384,Matij Klusacek,2343,Pavel Hradec,2468,high,2006/2006_relay_m18.txt
+M18,4,OK,HUN,Team HUN 39,7263,Andras Szabo,2597,Mate Kerenyi,2463,Zsolt Lenkei,2203,high,2006/2006_relay_m18.txt
+M18,5,OK,NOR,Team NOR 51,7314,Jonas Sommerstad Juveli,2684,Olav Johannes Deelstra,2423,Tore Bjorseth Berdal,2207,high,2006/2006_relay_m18.txt
+M18,6,OK,SUI,Team SUI 78,7336,Kaspar Hagler,2514,Philipp Sauter,2281,Raffael Huber,2541,high,2006/2006_relay_m18.txt
 M18,7,OK,BUL,Team BUL 10,7373,Petar Doganov,2745,Ivan Sirakov,2400,Stanimir Belomazhev,2228,high,2006/2006_relay_m18.txt
-M18,8,OK,POL,Team POL 54,7404,Lukasz Zawodnik,2420,Jacek Morawski,2459,Maciej Jasiñski,2525,high,2006/2006_relay_m18.txt
+M18,8,OK,POL,Team POL 54,7404,Lukasz Zawodnik,2420,Jacek Morawski,2459,Maciej Jasinski,2525,high,2006/2006_relay_m18.txt
 M18,9,OK,LAT,Team LAT 45,7588,Andris Jubelis,2663,Edgars Sparans,2413,Artus Paulins,2512,high,2006/2006_relay_m18.txt
 M18,10,OK,FRA,Team FRA 30,7677,Thibault Poupart,2591,Benjamin Lepoutre,2539,Juste Raimbault,2547,high,2006/2006_relay_m18.txt
-M18,11,OK,LTU,Team LTU 49,7735,Vytautas Pranskaitis,2816,Giedrius Vidzikauskas,2720,Julius Mikšys,2199,high,2006/2006_relay_m18.txt
-M18,12,OK,EST,Team EST 26,7827,Lauri Tammemäe,2660,Jaagup Truusalu,2654,Timo Sild,2513,high,2006/2006_relay_m18.txt
+M18,11,OK,LTU,Team LTU 49,7735,Vytautas Pranskaitis,2816,Giedrius Vidzikauskas,2720,Julius Miksys,2199,high,2006/2006_relay_m18.txt
+M18,12,OK,EST,Team EST 26,7827,Lauri Tammemae,2660,Jaagup Truusalu,2654,Timo Sild,2513,high,2006/2006_relay_m18.txt
 M18,13,OK,ROU,Team ROM 62,8260,Benedec Vaszi,2679,Mircea Dopovecz,2778,Ionut Patras,2803,high,2006/2006_relay_m18.txt
 M18,14,OK,AUT,Team AUT 2,8323,Wolfgang Siegert,2641,Tobias Killmann,2914,Christian Wartbichler,2768,high,2006/2006_relay_m18.txt
 M18,15,OK,ESP,Team ESP 22,8542,Francisco Navarro,2811,Daniel Martin,2857,Daniel Portal,2874,high,2006/2006_relay_m18.txt
 M18,16,OK,UKR,Team UKR 88,8963,Maksym Scherbakov,3300,Oleksiy Asmolov,2964,Denis Scherbakov,2699,high,2006/2006_relay_m18.txt
-M18,17,OK,GER,Team GER 36,8990,Max Röhnert,3306,Philipp Müller,2577,Christoph Mikuschek,3107,high,2006/2006_relay_m18.txt
+M18,17,OK,GER,Team GER 36,8990,Max Rohnert,3306,Philipp Muller,2577,Christoph Mikuschek,3107,high,2006/2006_relay_m18.txt
 M18,18,OK,POR,Team POR 58,9190,Diogo Miguel,2695,Tiago Romao,3130,Jorge Fortunato,3365,high,2006/2006_relay_m18.txt
-M18,19,OK,SVK,Team SVK 82,10348,Miroslav Kollar,3608,Rastislav Oľhava,3022,Richard Chrappa,3718,high,2006/2006_relay_m18.txt
+M18,19,OK,SVK,Team SVK 82,10348,Miroslav Kollar,3608,Rastislav Olhava,3022,Richard Chrappa,3718,high,2006/2006_relay_m18.txt
 M18,20,OK,IRL,Team IRL 93,12341,Ruairi Short,3252,Francis O'Reilly,6118,Colm Hill,2971,high,2006/2006_relay_m18.txt
 M18,,MP,SWE,Team SWE 85,,Petter Eriksson,2157,Erik Liljequist,2523,Johan Aronsson,,high,2006/2006_relay_m18.txt
 M18,,MP,SLO,Team SLO 74,,Primoz Sega,,(Jerica (Ak)) (Bernik),6118,Jure Zmrzlikar,3248,high,2006/2006_relay_m18.txt

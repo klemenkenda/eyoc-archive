@@ -1,13 +1,13 @@
 class,rank,status,bib,country,name,time_seconds,confidence,source_file
 W16,1,OK,,RUS,Tatiana Mendel,2752,high,2004/eyoc2004.htm
-W16,2,OK,,CZE,Simona Karochová,2850,high,2004/eyoc2004.htm
+W16,2,OK,,CZE,Simona Karochova,2850,high,2004/eyoc2004.htm
 W16,3,OK,,RUS,Tatiana Rozova,2939,high,2004/eyoc2004.htm
 W16,4,OK,,RUS,Nina Oleynichenkova,2974,high,2004/eyoc2004.htm
 W16,5,OK,,SUI,Judith Wyder,2975,high,2004/eyoc2004.htm
 W16,6,OK,,LAT,Krista Mihailova,2987,high,2004/eyoc2004.htm
-W16,7,OK,,CZE,Jana Vaculiková,2999,high,2004/eyoc2004.htm
+W16,7,OK,,CZE,Jana Vaculikova,2999,high,2004/eyoc2004.htm
 W16,8,OK,,SUI,Rachel Engeler,3003,high,2004/eyoc2004.htm
-W16,9,OK,,CZE,Lucie Machútová,3094,high,2004/eyoc2004.htm
+W16,9,OK,,CZE,Lucie Machutova,3094,high,2004/eyoc2004.htm
 W16,10,OK,,GER,Esther Doetsch,3106,high,2004/eyoc2004.htm
 W16,11,OK,,FRA,Marine Leloup,3109,high,2004/eyoc2004.htm
 W16,12,OK,,LTU,Ugne Vasyliute,3140,high,2004/eyoc2004.htm
@@ -15,20 +15,20 @@ W16,13,OK,,AUT,Stephanie Killmann,3192,high,2004/eyoc2004.htm
 W16,14,OK,,ITA,Nicole Scalet,3198,high,2004/eyoc2004.htm
 W16,15,OK,,RUS,Ekaterina Popovich,3226,high,2004/eyoc2004.htm
 W16,16,OK,,GER,Sandra Juras,3240,high,2004/eyoc2004.htm
-W16,17,OK,,ESP,Ona Rafols Perramón,3278,high,2004/eyoc2004.htm
-W16,18,OK,,HUN,Dorottya Péley,3306,high,2004/eyoc2004.htm
+W16,17,OK,,ESP,Ona Rafols Perramon,3278,high,2004/eyoc2004.htm
+W16,18,OK,,HUN,Dorottya Peley,3306,high,2004/eyoc2004.htm
 W16,19,OK,,ROU,Monica Auer,3348,high,2004/eyoc2004.htm
 W16,20,OK,,SVK,Maria Krsiakova,3353,high,2004/eyoc2004.htm
-W16,21,OK,,FRA,Cécile Papillon,3370,high,2004/eyoc2004.htm
+W16,21,OK,,FRA,Cecile Papillon,3370,high,2004/eyoc2004.htm
 W16,22,OK,,POL,Natalia Najman,3374,high,2004/eyoc2004.htm
-W16,23,OK,,CZE,Hana Hlavová,3377,high,2004/eyoc2004.htm
+W16,23,OK,,CZE,Hana Hlavova,3377,high,2004/eyoc2004.htm
 W16,24,OK,,SVK,Jana Krsiakova,3391,high,2004/eyoc2004.htm
 W16,25,OK,,SUI,Dorothea Suter,3399,high,2004/eyoc2004.htm
 W16,26,OK,,AUT,Ursula Kadan,3438,high,2004/eyoc2004.htm
 W16,27,OK,,HUN,Dora Szerencsi,3447,high,2004/eyoc2004.htm
 W16,28,OK,,UKR,Oleksandra Parkhomenko,3464,high,2004/eyoc2004.htm
 W16,29,OK,,ESP,Alicia Gil Sanchez,3468,high,2004/eyoc2004.htm
-W16,30,OK,,HUN,Eszter Öry,3492,high,2004/eyoc2004.htm
+W16,30,OK,,HUN,Eszter Ory,3492,high,2004/eyoc2004.htm
 W16,31,OK,,BUL,Zhanet Bochukova,3513,high,2004/eyoc2004.htm
 W16,32,OK,,LTU,Gabija Razaityte,3517,high,2004/eyoc2004.htm
 W16,33,OK,,SVK,Ivana Korimova,3526,high,2004/eyoc2004.htm
@@ -36,7 +36,7 @@ W16,34,OK,,ROU,Adina Popescu,3659,high,2004/eyoc2004.htm
 W16,35,OK,,BLR,Alena Pechur,3688,high,2004/eyoc2004.htm
 W16,36,OK,,GER,Maike Brandt,3700,high,2004/eyoc2004.htm
 W16,37,OK,,EST,Grete Gutmann,3745,high,2004/eyoc2004.htm
-W16,38,OK,,AUT,Anna Zügner,3755,high,2004/eyoc2004.htm
+W16,38,OK,,AUT,Anna Zugner,3755,high,2004/eyoc2004.htm
 W16,39,OK,,GER,Susann Jahn,3767,high,2004/eyoc2004.htm
 W16,40,OK,,LTU,Ausra Miksyte,3779,high,2004/eyoc2004.htm
 W16,41,OK,,POL,Lucyna Drewniowska,3818,high,2004/eyoc2004.htm
@@ -45,7 +45,7 @@ W16,43,OK,,LAT,Rasa Bruna,3942,high,2004/eyoc2004.htm
 W16,44,OK,,UKR,Olha Hrynko,3986,high,2004/eyoc2004.htm
 W16,45,OK,,EST,Ly Trei,4042,high,2004/eyoc2004.htm
 W16,46,OK,,SVK,Dominika Bednarova,4053,high,2004/eyoc2004.htm
-W16,48,OK,,SUI,Ursina Jäggi,4079,high,2004/eyoc2004.htm
+W16,48,OK,,SUI,Ursina Jaggi,4079,high,2004/eyoc2004.htm
 W16,49,OK,,POL,Magdalena Lesniak,4081,high,2004/eyoc2004.htm
 W16,50,OK,,UKR,Nataliya Novikova,4084,high,2004/eyoc2004.htm
 W16,51,OK,,LAT,Anna Bralite,4133,high,2004/eyoc2004.htm
@@ -53,13 +53,13 @@ W16,52,OK,,EST,Eleri Hirv,4175,high,2004/eyoc2004.htm
 W16,53,OK,,ESP,Angela Lopez Juan,4176,high,2004/eyoc2004.htm
 W16,54,OK,,AUT,Elisa Elstner,4214,high,2004/eyoc2004.htm
 W16,55,OK,,ROU,Ioana Zah-Ghit,4229,high,2004/eyoc2004.htm
-W16,56,OK,,HUN,Virág Nagy,4246,high,2004/eyoc2004.htm
+W16,56,OK,,HUN,Virag Nagy,4246,high,2004/eyoc2004.htm
 W16,57,OK,,UKR,Iryna Dryutova,4249,high,2004/eyoc2004.htm
 W16,58,OK,,BUL,Simona Danailova,4272,high,2004/eyoc2004.htm
 W16,59,OK,,LTU,Ugne Grigonyte,4313,high,2004/eyoc2004.htm
 W16,60,OK,,BLR,Katsiaryna Valiuk,4383,high,2004/eyoc2004.htm
 W16,61,OK,,LAT,Laura Vike,4402,high,2004/eyoc2004.htm
-W16,62,OK,,FRA,Gaëlle Barlet,4525,high,2004/eyoc2004.htm
+W16,62,OK,,FRA,Gaelle Barlet,4525,high,2004/eyoc2004.htm
 W16,63,OK,,ITA,Marija Pruss,4581,high,2004/eyoc2004.htm
 W16,64,OK,,SRB,Vedrana Radosavljevic,4769,high,2004/eyoc2004.htm
 W16,65,OK,,BLR,Katsiaryna Prakharenka,4821,high,2004/eyoc2004.htm
@@ -67,20 +67,20 @@ W16,66,OK,,SRB,Nada Zdravkovic,5070,high,2004/eyoc2004.htm
 W16,67,OK,,BUL,Ivanka Lazarova,5401,high,2004/eyoc2004.htm
 W16,68,OK,,BUL,Monika Prodanova,5406,high,2004/eyoc2004.htm
 W16,69,OK,,SRB,Marta Zdravkovic,5494,high,2004/eyoc2004.htm
-W18,1,OK,,SUI,Sara Würmli,3211,high,2004/eyoc2004.htm
-W18,2,OK,,FRA,Anaïs Goffre,3298,high,2004/eyoc2004.htm
+W18,1,OK,,SUI,Sara Wurmli,3211,high,2004/eyoc2004.htm
+W18,2,OK,,FRA,Anais Goffre,3298,high,2004/eyoc2004.htm
 W18,3,OK,,SUI,Lilian Knechtli,3357,high,2004/eyoc2004.htm
-W18,4,OK,,CZE,Iveta Duchová,3408,high,2004/eyoc2004.htm
+W18,4,OK,,CZE,Iveta Duchova,3408,high,2004/eyoc2004.htm
 W18,5,OK,,RUS,Ekaterina Terekhova,3431,high,2004/eyoc2004.htm
-W18,6,OK,,FRA,Mélanie D'Harreville,3495,high,2004/eyoc2004.htm
-W18,7,OK,,CZE,Zuzana Hermanová,3500,high,2004/eyoc2004.htm
+W18,6,OK,,FRA,Melanie D'Harreville,3495,high,2004/eyoc2004.htm
+W18,7,OK,,CZE,Zuzana Hermanova,3500,high,2004/eyoc2004.htm
 W18,8,OK,,BUL,Stanka Lazarova,3559,high,2004/eyoc2004.htm
 W18,9,OK,,POL,Iwona Wicha,3633,high,2004/eyoc2004.htm
 W18,10,OK,,UKR,Olha Sluta,3700,high,2004/eyoc2004.htm
 W18,11,OK,,LTU,Skaiste Sidaraviciute,3756,high,2004/eyoc2004.htm
 W18,12,OK,,FRA,Charlotte Bouchet,3847,high,2004/eyoc2004.htm
 W18,13,OK,,LAT,Inga Priedite,3874,high,2004/eyoc2004.htm
-W18,14,OK,,HUN,Fanni Máthé,3875,high,2004/eyoc2004.htm
+W18,14,OK,,HUN,Fanni Mathe,3875,high,2004/eyoc2004.htm
 W18,15,OK,,EST,Kati Rooni,3898,high,2004/eyoc2004.htm
 W18,16,OK,,ITA,Sara Sambi,3909,high,2004/eyoc2004.htm
 W18,17,OK,,BLR,Hanna Batsian,3925,high,2004/eyoc2004.htm
@@ -88,7 +88,7 @@ W18,18,OK,,EST,Kadri Uiboupin,3929,high,2004/eyoc2004.htm
 W18,19,OK,,LTU,Kristina Rybakovaite,3942,high,2004/eyoc2004.htm
 W18,20,OK,,LAT,Sanita Sokolova,3953,high,2004/eyoc2004.htm
 W18,21,OK,,GER,Jenny Seib,3968,high,2004/eyoc2004.htm
-W18,22,OK,,CZE,Lucie Krafková,3988,high,2004/eyoc2004.htm
+W18,22,OK,,CZE,Lucie Krafkova,3988,high,2004/eyoc2004.htm
 W18,23,OK,,ITA,Sara di Furia,4003,high,2004/eyoc2004.htm
 W18,24,OK,,AUT,Jutta Krischan,4005,high,2004/eyoc2004.htm
 W18,25,OK,,HUN,Dora Prill,4070,high,2004/eyoc2004.htm
@@ -113,13 +113,13 @@ W18,43,OK,,ITA,Federica Maggioni,4670,high,2004/eyoc2004.htm
 W18,44,OK,,RUS,Zlata Borina,4710,high,2004/eyoc2004.htm
 W18,45,OK,,AUT,Agnes Harreither,4712,high,2004/eyoc2004.htm
 W18,46,OK,,LTU,Rasa Ptasekaite,4764,high,2004/eyoc2004.htm
-W18,48,OK,,ESP,Laura Galvañ Tortosa,4820,high,2004/eyoc2004.htm
-W18,49,OK,,ESP,Irene Fancés Rico,4833,high,2004/eyoc2004.htm
+W18,48,OK,,ESP,Laura Galvan Tortosa,4820,high,2004/eyoc2004.htm
+W18,49,OK,,ESP,Irene Fances Rico,4833,high,2004/eyoc2004.htm
 W18,50,OK,,ROU,Iancu Maria N.,4954,high,2004/eyoc2004.htm
 W18,51,OK,,BUL,Evelina Bombalova,5008,high,2004/eyoc2004.htm
 W18,52,OK,,AUT,Barbara Meissl,5032,high,2004/eyoc2004.htm
 W18,53,OK,,LAT,Janeta Turka,5051,high,2004/eyoc2004.htm
-W18,54,OK,,ESP,Natalia Triviño Amigo,5151,high,2004/eyoc2004.htm
+W18,54,OK,,ESP,Natalia Trivino Amigo,5151,high,2004/eyoc2004.htm
 W18,55,OK,,SUI,Rahel Ammann,5503,high,2004/eyoc2004.htm
 W18,56,OK,,LAT,Ieva Purina,5707,high,2004/eyoc2004.htm
 W18,57,OK,,ROU,Ancuta Patras,5726,high,2004/eyoc2004.htm
@@ -130,34 +130,34 @@ W18,61,OK,,SRB,Sonja Simic,6467,high,2004/eyoc2004.htm
 W18,63,OK,,SRB,Ljiljana Sibinoski,6609,high,2004/eyoc2004.htm
 W18,64,OK,,AUT,Melanie Wagner,6988,high,2004/eyoc2004.htm
 W18,65,OK,,SRB,Marta Bojovic,7140,high,2004/eyoc2004.htm
-M16,1,OK,,CZE,Stepán Kodeda,3041,high,2004/eyoc2004.htm
+M16,1,OK,,CZE,Stepan Kodeda,3041,high,2004/eyoc2004.htm
 M16,2,OK,,ITA,Jonas Rass,3082,high,2004/eyoc2004.htm
 M16,3,OK,,SUI,Jonas Meuli,3094,high,2004/eyoc2004.htm
 M16,4,OK,,LTU,Jonas Gvildys,3119,high,2004/eyoc2004.htm
 M16,5,OK,,HUN,Zsolt Lenkei,3155,high,2004/eyoc2004.htm
 M16,6,OK,,EST,Timo Sild,3173,high,2004/eyoc2004.htm
 M16,7,OK,,AUT,Christian Wartbichler,3195,high,2004/eyoc2004.htm
-M16,8,OK,,CZE,Vojta Král,3277,high,2004/eyoc2004.htm
+M16,8,OK,,CZE,Vojta Kral,3277,high,2004/eyoc2004.htm
 M16,9,OK,,RUS,Yury Kiryanov,3294,high,2004/eyoc2004.htm
 M16,10,OK,,AUT,Wolfgang Siegert,3327,high,2004/eyoc2004.htm
 M16,11,OK,,POL,Piotr Kulpa,3380,high,2004/eyoc2004.htm
 M16,12,OK,,BUL,Ivan Sirakov,3387,high,2004/eyoc2004.htm
-M16,13,OK,,HUN,Máté Kerényi,3402,high,2004/eyoc2004.htm
+M16,13,OK,,HUN,Mate Kerenyi,3402,high,2004/eyoc2004.htm
 M16,14,OK,,BUL,Stanimir Belomazhev,3419,high,2004/eyoc2004.htm
 M16,15,OK,,SUI,Andreas Kyburz,3426,high,2004/eyoc2004.htm
-M16,16,OK,,EST,Lauri Tammemäe,3428,high,2004/eyoc2004.htm
+M16,16,OK,,EST,Lauri Tammemae,3428,high,2004/eyoc2004.htm
 M16,17,OK,,LAT,Kalvis Mihailovs,3485,high,2004/eyoc2004.htm
-M16,18,OK,,HUN,András Szabo,3490,high,2004/eyoc2004.htm
+M16,18,OK,,HUN,Andras Szabo,3490,high,2004/eyoc2004.htm
 M16,19,OK,,LAT,Edgars Sparans,3496,high,2004/eyoc2004.htm
 M16,20,OK,,ESP,Daniel Portal Gordillo,3514,high,2004/eyoc2004.htm
-M16,21,OK,,CZE,Adam Chromý,3545,high,2004/eyoc2004.htm
+M16,21,OK,,CZE,Adam Chromy,3545,high,2004/eyoc2004.htm
 M16,22,OK,,POL,Maciej Jasinski,3571,high,2004/eyoc2004.htm
-M16,23,OK,,GER,Philipp Müller,3598,high,2004/eyoc2004.htm
+M16,23,OK,,GER,Philipp Muller,3598,high,2004/eyoc2004.htm
 M16,24,OK,,LAT,Arturs Paulins,3607,high,2004/eyoc2004.htm
 M16,25,OK,,UKR,Roman Dolgikh,3621,high,2004/eyoc2004.htm
 M16,25,OK,,UKR,Oleksiy Asmolov,3621,high,2004/eyoc2004.htm
 M16,27,OK,,ROU,Ionut Patras,3630,high,2004/eyoc2004.htm
-M16,28,OK,,SUI,Kaspar Hägler,3656,high,2004/eyoc2004.htm
+M16,28,OK,,SUI,Kaspar Hagler,3656,high,2004/eyoc2004.htm
 M16,29,OK,,UKR,Sergiy Ruzhevych,3664,high,2004/eyoc2004.htm
 M16,30,OK,,ROU,Simion Suciu,3688,high,2004/eyoc2004.htm
 M16,31,OK,,ESP,Navarro Cutillas Fco. M.,3705,high,2004/eyoc2004.htm
@@ -172,9 +172,9 @@ M16,39,OK,,GER,Christoph Brandt,3799,high,2004/eyoc2004.htm
 M16,40,OK,,ROU,Florin Bunea,3858,high,2004/eyoc2004.htm
 M16,41,OK,,POL,Karol Myszkowski,3899,high,2004/eyoc2004.htm
 M16,41,OK,,ITA,Lorenzo Pittau,3899,high,2004/eyoc2004.htm
-M16,43,OK,,FRA,Clément Valla,3909,high,2004/eyoc2004.htm
-M16,44,OK,,CZE,Tomás Boril,3911,high,2004/eyoc2004.htm
-M16,45,OK,,HUN,Gergely Györgyi-Ambro,3978,high,2004/eyoc2004.htm
+M16,43,OK,,FRA,Clement Valla,3909,high,2004/eyoc2004.htm
+M16,44,OK,,CZE,Tomas Boril,3911,high,2004/eyoc2004.htm
+M16,45,OK,,HUN,Gergely Gyorgyi-Ambro,3978,high,2004/eyoc2004.htm
 M16,46,OK,,AUT,Erik Simkovics,3986,high,2004/eyoc2004.htm
 M16,47,OK,,SVK,Rastislav Olhava,3993,high,2004/eyoc2004.htm
 M16,48,OK,,BLR,Uladzislau Kasenka,4017,high,2004/eyoc2004.htm
@@ -182,7 +182,7 @@ M16,49,OK,,LTU,Julius Miksys,4021,high,2004/eyoc2004.htm
 M16,50,OK,,RUS,Dmitri Letunovskiy,4036,high,2004/eyoc2004.htm
 M16,51,OK,,GER,Florian Bergmann,4042,high,2004/eyoc2004.htm
 M16,52,OK,,FRA,Johann Kervarec,4043,high,2004/eyoc2004.htm
-M16,53,OK,,FRA,Frédéric Tranchand,4057,high,2004/eyoc2004.htm
+M16,53,OK,,FRA,Frederic Tranchand,4057,high,2004/eyoc2004.htm
 M16,54,OK,,ITA,Andrea Seppi,4080,high,2004/eyoc2004.htm
 M16,55,OK,,ROU,Andrei Olteanu,4097,high,2004/eyoc2004.htm
 M16,57,OK,,LAT,Kristaps Ozolins,4128,high,2004/eyoc2004.htm
@@ -192,7 +192,7 @@ M16,60,OK,,BLR,Andrei Dzedavets,4147,high,2004/eyoc2004.htm
 M16,61,OK,,BUL,Veselin Minev,4155,high,2004/eyoc2004.htm
 M16,62,OK,,SVK,Martin Majlath,4170,high,2004/eyoc2004.htm
 M16,63,OK,,EST,Kaspar Kork,4188,high,2004/eyoc2004.htm
-M16,64,OK,,ESP,Daniel Martín de la Rubia,4219,high,2004/eyoc2004.htm
+M16,64,OK,,ESP,Daniel Martin de la Rubia,4219,high,2004/eyoc2004.htm
 M16,65,OK,,SVK,Miroslav Kollar,4278,high,2004/eyoc2004.htm
 M16,66,OK,,LTU,Giedrius Vidzikauskas,4360,high,2004/eyoc2004.htm
 M16,67,OK,,ITA,Aaron Gaio,4505,high,2004/eyoc2004.htm
@@ -203,7 +203,7 @@ M16,71,OK,,SRB,Bosko Bojovic,5988,high,2004/eyoc2004.htm
 M18,1,OK,,SVK,Michal Krajcik,3066,high,2004/eyoc2004.htm
 M18,2,OK,,CZE,Jan Benes,3218,high,2004/eyoc2004.htm
 M18,3,OK,,POL,Filip Mazurek,3282,high,2004/eyoc2004.htm
-M18,4,OK,,HUN,Ádám Kovács,3350,high,2004/eyoc2004.htm
+M18,4,OK,,HUN,Adam Kovacs,3350,high,2004/eyoc2004.htm
 M18,5,OK,,UKR,Ruslan Glibov,3403,high,2004/eyoc2004.htm
 M18,6,OK,,LTU,Romualdas Stupelis,3439,high,2004/eyoc2004.htm
 M18,7,OK,,BUL,Zlatko Kamenarov,3448,high,2004/eyoc2004.htm
@@ -212,16 +212,16 @@ M18,9,OK,,FRA,Charly Boichut,3478,high,2004/eyoc2004.htm
 M18,10,OK,,SUI,Nicolas Preisig,3517,high,2004/eyoc2004.htm
 M18,11,OK,,RUS,Konstantin Aleshin,3525,high,2004/eyoc2004.htm
 M18,12,OK,,ESP,Nestor Rico Mira,3557,high,2004/eyoc2004.htm
-M18,13,OK,,SUI,Jerome Käser,3572,high,2004/eyoc2004.htm
+M18,13,OK,,SUI,Jerome Kaser,3572,high,2004/eyoc2004.htm
 M18,14,OK,,SVK,Rastislav Szabo,3613,high,2004/eyoc2004.htm
 M18,14,OK,,LTU,Tomas Uska,3613,high,2004/eyoc2004.htm
-M18,16,OK,,EST,Mihkel Järveoja,3641,high,2004/eyoc2004.htm
+M18,16,OK,,EST,Mihkel Jarveoja,3641,high,2004/eyoc2004.htm
 M18,17,OK,,RUS,Denis Glazunov,3652,high,2004/eyoc2004.htm
 M18,18,OK,,POL,Kamil Wlodarczyk,3669,high,2004/eyoc2004.htm
 M18,19,OK,,BUL,Ivailo Danailov,3677,high,2004/eyoc2004.htm
 M18,20,OK,,ITA,Luca Dallavalle,3691,high,2004/eyoc2004.htm
-M18,21,OK,,HUN,Andor Zöldesi,3704,high,2004/eyoc2004.htm
-M18,22,OK,,ESP,Biel Rafols Perramón,3715,high,2004/eyoc2004.htm
+M18,21,OK,,HUN,Andor Zoldesi,3704,high,2004/eyoc2004.htm
+M18,22,OK,,ESP,Biel Rafols Perramon,3715,high,2004/eyoc2004.htm
 M18,23,OK,,EST,Lauri Malsroos,3741,high,2004/eyoc2004.htm
 M18,24,OK,,SUI,Christian Mathys,3762,high,2004/eyoc2004.htm
 M18,25,OK,,CZE,Brona Pribyl,3764,high,2004/eyoc2004.htm
@@ -238,14 +238,14 @@ M18,35,OK,,GER,Sebastian Bergmann,3929,high,2004/eyoc2004.htm
 M18,36,OK,,ROU,Iulian Negoita,3966,high,2004/eyoc2004.htm
 M18,37,OK,,LTU,Vilius Aleliunas,4014,high,2004/eyoc2004.htm
 M18,38,OK,,AUT,Manuel Wiesberger,4040,high,2004/eyoc2004.htm
-M18,39,OK,,GER,Sören Lösch,4051,high,2004/eyoc2004.htm
+M18,39,OK,,GER,Soren Losch,4051,high,2004/eyoc2004.htm
 M18,40,OK,,AUT,Philipp Wiesberger,4080,high,2004/eyoc2004.htm
-M18,41,OK,,POL,Grzegorz Wróblewski,4085,high,2004/eyoc2004.htm
+M18,41,OK,,POL,Grzegorz Wroblewski,4085,high,2004/eyoc2004.htm
 M18,42,OK,,BLR,Vitali Chorny,4087,high,2004/eyoc2004.htm
 M18,43,OK,,GER,Joel Schleeh,4120,high,2004/eyoc2004.htm
 M18,44,OK,,ROU,Tamas Bogya,4128,high,2004/eyoc2004.htm
 M18,45,OK,,BLR,Ruslan Vaitsekhovich,4148,high,2004/eyoc2004.htm
-M18,46,OK,,HUN,Robert Kovács,4181,high,2004/eyoc2004.htm
+M18,46,OK,,HUN,Robert Kovacs,4181,high,2004/eyoc2004.htm
 M18,47,OK,,SVK,Ondrej Kvaka,4194,high,2004/eyoc2004.htm
 M18,48,OK,,RUS,Pavel Korchagin,4222,high,2004/eyoc2004.htm
 M18,48,OK,,UKR,Oleksandr Starov,4222,high,2004/eyoc2004.htm
@@ -254,18 +254,18 @@ M18,51,OK,,LAT,Anatolijs Tarasovs,4282,high,2004/eyoc2004.htm
 M18,52,OK,,BLR,Siarhei Ryzhkou,4310,high,2004/eyoc2004.htm
 M18,53,OK,,EST,Martin Simpson,4313,high,2004/eyoc2004.htm
 M18,54,OK,,BLR,Kanstantsin Shakmetau,4352,high,2004/eyoc2004.htm
-M18,55,OK,,EST,Veiko Kütt,4432,high,2004/eyoc2004.htm
+M18,55,OK,,EST,Veiko Kutt,4432,high,2004/eyoc2004.htm
 M18,56,OK,,FRA,Thomas Dalla-Costa,4456,high,2004/eyoc2004.htm
 M18,57,OK,,LTU,Andrejus Gerasimovas,4538,high,2004/eyoc2004.htm
 M18,58,OK,,ROU,Costica Bulgaru,4547,high,2004/eyoc2004.htm
-M18,60,OK,,ESP,Ramón Pardo de Santallana,4661,high,2004/eyoc2004.htm
+M18,60,OK,,ESP,Ramon Pardo de Santallana,4661,high,2004/eyoc2004.htm
 M18,61,OK,,SVK,Martin Mazur,4725,high,2004/eyoc2004.htm
-M18,62,OK,,AUT,Thomas Kröpfl,4841,high,2004/eyoc2004.htm
-M18,63,OK,,HUN,Ádám Toth,4888,high,2004/eyoc2004.htm
+M18,62,OK,,AUT,Thomas Kropfl,4841,high,2004/eyoc2004.htm
+M18,63,OK,,HUN,Adam Toth,4888,high,2004/eyoc2004.htm
 M18,64,OK,,UKR,Denys Zabayev,4939,high,2004/eyoc2004.htm
 M18,65,OK,,LAT,Renars Roze,5076,high,2004/eyoc2004.htm
 M18,66,OK,,FRA,Thibault Mouhat,5103,high,2004/eyoc2004.htm
-M18,67,OK,,ESP,Iglesias Ayllón Juan D.,5125,high,2004/eyoc2004.htm
+M18,67,OK,,ESP,Iglesias Ayllon Juan D.,5125,high,2004/eyoc2004.htm
 M18,70,OK,,SRB,Rener Milan,7272,high,2004/eyoc2004.htm
 M18,71,OK,,SRB,Milos Stankovic,7360,high,2004/eyoc2004.htm
 M18,72,OK,,SRB,Uros Radoman,7561,high,2004/eyoc2004.htm

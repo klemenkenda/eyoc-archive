@@ -1,377 +1,377 @@
 class,rank,status,bib,country,name,time_seconds,confidence,source_file
-M16,1,OK,95,CZE,Daniel Vandas 98,2743,high,2014/results-long.pdf
-M16,2,OK,92,SUI,Andrin Gründler 98,2891,high,2014/results-long.pdf
-M16,3,OK,83,FIN,Tuomas Heikkilä 98,3069,high,2014/results-long.pdf
-M16,4,OK,81,POL,Marcin Biederman 98,3088,high,2014/results-long.pdf
-M16,5,OK,43,SUI,Timo Suter 98,3092,high,2014/results-long.pdf
-M16,6,OK,69,CZE,Vojtěch Sýkora 98,3118,high,2014/results-long.pdf
-M16,7,OK,99,SVK,Dušan Sláma 98,3158,high,2014/results-long.pdf
-M16,8,OK,30,SVK,Jakub Chupek 99,3220,high,2014/results-long.pdf
-M16,9,OK,93,GER,Erik Döhler 98,3266,high,2014/results-long.pdf
-M16,10,OK,82,GBR,Aidan Rigby 98,3283,high,2014/results-long.pdf
-M16,10,OK,71,POL,Fryderyk Pryjma 98,3283,high,2014/results-long.pdf
-M16,12,OK,20,SUI,Nicola Banfi 99,3341,high,2014/results-long.pdf
-M16,13,OK,40,HUN,Patrik Egei 98,3376,high,2014/results-long.pdf
-M16,14,OK,75,LAT,Uldis Upitis 98,3385,high,2014/results-long.pdf
-M16,15,OK,70,POR,Ricardo Esteves 98,3391,high,2014/results-long.pdf
-M16,16,OK,56,SUI,Tino Polsini 99,3403,high,2014/results-long.pdf
-M16,17,OK,78,POR,Joăo Bernandino 98,3462,high,2014/results-long.pdf
-M16,18,OK,55,FRA,Benjamin Leduc 98,3482,high,2014/results-long.pdf
-M16,19,OK,51,HUN,Márton Zacher 98,3496,high,2014/results-long.pdf
-M16,20,OK,10,CZE,Ondřej Vystavěl 98,3513,high,2014/results-long.pdf
-M16,21,OK,100,RUS,Semen Petrov 99,3537,high,2014/results-long.pdf
-M16,22,OK,61,RUS,Kiril Ageev 98,3557,high,2014/results-long.pdf
-M16,23,OK,60,GBR,Alex Carcas 98,3595,high,2014/results-long.pdf
-M16,24,OK,52,DEN,Laurits Bidstrup Moller 98,3607,high,2014/results-long.pdf
-M16,25,OK,68,LAT,Matiss Sliksjanis 98,3627,high,2014/results-long.pdf
-M16,26,OK,17,GER,Tobias Spangenberg 98,3629,high,2014/results-long.pdf
-M16,27,OK,64,LTU,Pranas Germanavicius 99,3638,high,2014/results-long.pdf
-M16,28,OK,36,RUS,Aleksei Iurikov 98,3649,high,2014/results-long.pdf
-M16,29,OK,4,HUN,Mihály Ormay 99,3692,high,2014/results-long.pdf
-M16,30,OK,87,BUL,Tsvetan Ivanov 98,3695,high,2014/results-long.pdf
-M16,31,OK,41,FRA,Pierre Erbland 99,3736,high,2014/results-long.pdf
-M16,32,OK,72,ROU,Peter Divin 98,3741,high,2014/results-long.pdf
-M16,33,OK,14,GBR,Harrison McCartney 98,3744,high,2014/results-long.pdf
-M16,34,OK,84,HUN,Mátyás Szuromi 98,3755,high,2014/results-long.pdf
-M16,35,OK,63,ISR,Stav Barkai 98,3764,high,2014/results-long.pdf
-M16,36,OK,16,LAT,Karlis Kaminskis 98,3782,high,2014/results-long.pdf
-M16,37,OK,37,FIN,Emil Sevelius 98,3818,high,2014/results-long.pdf
-M16,38,OK,50,BUL,Martin Penchev 98,3842,high,2014/results-long.pdf
-M16,39,OK,57,UKR,Kyrylo Barannyk 98,3894,high,2014/results-long.pdf
-M16,40,OK,34,AUT,Clemens Wolfram 99,3932,high,2014/results-long.pdf
-M16,41,OK,85,FRA,Mathieu Perrin 98,3945,high,2014/results-long.pdf
-M16,42,OK,49,LAT,Edgars Ustinovs 98,3956,high,2014/results-long.pdf
-M16,43,OK,13,EST,Tomi-Andre Piirmets 98,3971,high,2014/results-long.pdf
-M16,44,OK,31,LTU,Jonas Kuke 98,3977,high,2014/results-long.pdf
-M16,45,OK,6,RUS,Sergei Mizonov 99,3997,high,2014/results-long.pdf
-M16,46,OK,39,BUL,Ivaylo Petkov 98,4015,high,2014/results-long.pdf
-M16,47,OK,96,BEL,Klaas Mellebeek 98,4041,high,2014/results-long.pdf
-M16,48,OK,88,DEN,Lasse Fugmann Thamdrup 99,4070,high,2014/results-long.pdf
-M16,49,OK,58,BLR,Yauhen Zhakhouski 98,4161,high,2014/results-long.pdf
-M16,50,OK,86,ROU,Malin Tamas 98,4317,high,2014/results-long.pdf
-M16,51,OK,98,UKR,Igor Efimenko 98,4361,high,2014/results-long.pdf
-M16,52,OK,28,ISR,Rotem Lanes 98,4364,high,2014/results-long.pdf
-M16,53,OK,44,DEN,Rune Ostergaard 98,4370,high,2014/results-long.pdf
-M16,53,OK,59,AUT,Jannis Bonek 99,4370,high,2014/results-long.pdf
-M16,55,OK,80,ESP,Ignacio Sanchez Muńoz 98,4427,high,2014/results-long.pdf
-M16,56,OK,9,FRA,Antonie Guenin 98,4453,high,2014/results-long.pdf
-M16,57,OK,77,BLR,Dmitry Zhylinski 98,4512,high,2014/results-long.pdf
-M16,58,OK,74,BEL,Wout Keuppens 98,4591,high,2014/results-long.pdf
-M16,59,OK,76,EST,Oliver Kütt 98,4616,high,2014/results-long.pdf
-M16,60,OK,38,ITA,Cesare Mattiroli 98,4645,high,2014/results-long.pdf
-M16,61,OK,7,BEL,Ruben Jamsin 98,4691,high,2014/results-long.pdf
-M16,62,OK,90,AUT,Dominik Jandl 98,4750,high,2014/results-long.pdf
-M16,63,OK,19,UKR,Taras Rachuk 98,4760,high,2014/results-long.pdf
+M16,1,OK,95,CZE,Daniel Vandas,2743,high,2014/results-long.pdf
+M16,2,OK,92,SUI,Andrin Grundler,2891,high,2014/results-long.pdf
+M16,3,OK,83,FIN,Tuomas Heikkila,3069,high,2014/results-long.pdf
+M16,4,OK,81,POL,Marcin Biederman,3088,high,2014/results-long.pdf
+M16,5,OK,43,SUI,Timo Suter,3092,high,2014/results-long.pdf
+M16,6,OK,69,CZE,Vojtech Sykora,3118,high,2014/results-long.pdf
+M16,7,OK,99,SVK,Dusan Slama,3158,high,2014/results-long.pdf
+M16,8,OK,30,SVK,Jakub Chupek,3220,high,2014/results-long.pdf
+M16,9,OK,93,GER,Erik Dohler,3266,high,2014/results-long.pdf
+M16,10,OK,82,GBR,Aidan Rigby,3283,high,2014/results-long.pdf
+M16,10,OK,71,POL,Fryderyk Pryjma,3283,high,2014/results-long.pdf
+M16,12,OK,20,SUI,Nicola Banfi,3341,high,2014/results-long.pdf
+M16,13,OK,40,HUN,Patrik Egei,3376,high,2014/results-long.pdf
+M16,14,OK,75,LAT,Uldis Upitis,3385,high,2014/results-long.pdf
+M16,15,OK,70,POR,Ricardo Esteves,3391,high,2014/results-long.pdf
+M16,16,OK,56,SUI,Tino Polsini,3403,high,2014/results-long.pdf
+M16,17,OK,78,POR,Joao Bernandino,3462,high,2014/results-long.pdf
+M16,18,OK,55,FRA,Benjamin Leduc,3482,high,2014/results-long.pdf
+M16,19,OK,51,HUN,Marton Zacher,3496,high,2014/results-long.pdf
+M16,20,OK,10,CZE,Ondrej Vystavel,3513,high,2014/results-long.pdf
+M16,21,OK,100,RUS,Semen Petrov,3537,high,2014/results-long.pdf
+M16,22,OK,61,RUS,Kiril Ageev,3557,high,2014/results-long.pdf
+M16,23,OK,60,GBR,Alex Carcas,3595,high,2014/results-long.pdf
+M16,24,OK,52,DEN,Laurits Bidstrup Moller,3607,high,2014/results-long.pdf
+M16,25,OK,68,LAT,Matiss Sliksjanis,3627,high,2014/results-long.pdf
+M16,26,OK,17,GER,Tobias Spangenberg,3629,high,2014/results-long.pdf
+M16,27,OK,64,LTU,Pranas Germanavicius,3638,high,2014/results-long.pdf
+M16,28,OK,36,RUS,Aleksei Iurikov,3649,high,2014/results-long.pdf
+M16,29,OK,4,HUN,Mihaly Ormay,3692,high,2014/results-long.pdf
+M16,30,OK,87,BUL,Tsvetan Ivanov,3695,high,2014/results-long.pdf
+M16,31,OK,41,FRA,Pierre Erbland,3736,high,2014/results-long.pdf
+M16,32,OK,72,ROU,Peter Divin,3741,high,2014/results-long.pdf
+M16,33,OK,14,GBR,Harrison McCartney,3744,high,2014/results-long.pdf
+M16,34,OK,84,HUN,Matyas Szuromi,3755,high,2014/results-long.pdf
+M16,35,OK,63,ISR,Stav Barkai,3764,high,2014/results-long.pdf
+M16,36,OK,16,LAT,Karlis Kaminskis,3782,high,2014/results-long.pdf
+M16,37,OK,37,FIN,Emil Sevelius,3818,high,2014/results-long.pdf
+M16,38,OK,50,BUL,Martin Penchev,3842,high,2014/results-long.pdf
+M16,39,OK,57,UKR,Kyrylo Barannyk,3894,high,2014/results-long.pdf
+M16,40,OK,34,AUT,Clemens Wolfram,3932,high,2014/results-long.pdf
+M16,41,OK,85,FRA,Mathieu Perrin,3945,high,2014/results-long.pdf
+M16,42,OK,49,LAT,Edgars Ustinovs,3956,high,2014/results-long.pdf
+M16,43,OK,13,EST,Tomi-Andre Piirmets,3971,high,2014/results-long.pdf
+M16,44,OK,31,LTU,Jonas Kuke,3977,high,2014/results-long.pdf
+M16,45,OK,6,RUS,Sergei Mizonov,3997,high,2014/results-long.pdf
+M16,46,OK,39,BUL,Ivaylo Petkov,4015,high,2014/results-long.pdf
+M16,47,OK,96,BEL,Klaas Mellebeek,4041,high,2014/results-long.pdf
+M16,48,OK,88,DEN,Lasse Fugmann Thamdrup,4070,high,2014/results-long.pdf
+M16,49,OK,58,BLR,Yauhen Zhakhouski,4161,high,2014/results-long.pdf
+M16,50,OK,86,ROU,Malin Tamas,4317,high,2014/results-long.pdf
+M16,51,OK,98,UKR,Igor Efimenko,4361,high,2014/results-long.pdf
+M16,52,OK,28,ISR,Rotem Lanes,4364,high,2014/results-long.pdf
+M16,53,OK,44,DEN,Rune Ostergaard,4370,high,2014/results-long.pdf
+M16,53,OK,59,AUT,Jannis Bonek,4370,high,2014/results-long.pdf
+M16,55,OK,80,ESP,Ignacio Sanchez Munoz,4427,high,2014/results-long.pdf
+M16,56,OK,9,FRA,Antonie Guenin,4453,high,2014/results-long.pdf
+M16,57,OK,77,BLR,Dmitry Zhylinski,4512,high,2014/results-long.pdf
+M16,58,OK,74,BEL,Wout Keuppens,4591,high,2014/results-long.pdf
+M16,59,OK,76,EST,Oliver Kutt,4616,high,2014/results-long.pdf
+M16,60,OK,38,ITA,Cesare Mattiroli,4645,high,2014/results-long.pdf
+M16,61,OK,7,BEL,Ruben Jamsin,4691,high,2014/results-long.pdf
+M16,62,OK,90,AUT,Dominik Jandl,4750,high,2014/results-long.pdf
+M16,63,OK,19,UKR,Taras Rachuk,4760,high,2014/results-long.pdf
 M16,64,OK,79,TUR,Talha Gunday,4817,high,2014/results-long.pdf
-M16,65,OK,89,SRB,Milos Bilic 98,4854,high,2014/results-long.pdf
-M16,66,OK,65,SVK,Stanislav Franko 98,4881,high,2014/results-long.pdf
-M16,67,OK,62,ESP,Abel Herrero Gómez 98,4914,high,2014/results-long.pdf
-M16,68,OK,32,POR,Joăo Casal 99,4916,high,2014/results-long.pdf
-M16,69,OK,23,BUL,Stefan Jordanov 98,4928,high,2014/results-long.pdf
-M16,70,OK,48,BEL,Miel Deferme 98,4961,high,2014/results-long.pdf
-M16,71,OK,42,GBR,Matthew Fellbaum 98,5052,high,2014/results-long.pdf
-M16,72,OK,67,TUR,Ismail Kilinc 98,5066,high,2014/results-long.pdf
-M16,73,OK,27,ROU,Peter Knobloch-Esztergar 00,5248,high,2014/results-long.pdf
-M16,74,OK,5,IRL,James Millar 98,5303,high,2014/results-long.pdf
-M16,75,OK,15,ISR,Ido Bahat 98,5318,high,2014/results-long.pdf
-M16,76,OK,12,POR,António Ferreira 98,5377,high,2014/results-long.pdf
-M16,77,OK,94,ISR,Nadav Genossar 98,5452,high,2014/results-long.pdf
-M16,78,OK,26,EST,Andres Rőőm 99,5528,high,2014/results-long.pdf
-M16,79,OK,18,LTU,Rokas Lipnickas 98,5532,high,2014/results-long.pdf
-M16,80,OK,24,TUR,Mehmet Emin Avchil 98,5640,high,2014/results-long.pdf
-M16,81,OK,21,ESP,Sergio Morán Callado 98,5667,high,2014/results-long.pdf
-M16,82,OK,45,IRL,Robert Pim 98,5708,high,2014/results-long.pdf
-M16,83,OK,91,LTU,Rokas Vaitkus 98,5820,high,2014/results-long.pdf
-M16,84,OK,29,UKR,Stanislav Polianytsia 98,6082,high,2014/results-long.pdf
-M16,85,OK,1,ROU,George Minou 98,6134,high,2014/results-long.pdf
-M16,86,OK,46,CRO,Andro Vladimir Štambuk 99,6415,high,2014/results-long.pdf
-W16,1,OK,164,HUN,Hanga Szuromi 00,2429,high,2014/results-long.pdf
-W16,2,OK,191,AUT,Jasmina Gassner 99,2458,high,2014/results-long.pdf
-W16,3,OK,141,CZE,Tereza Janošíková 99,2492,high,2014/results-long.pdf
-W16,4,OK,183,GER,Birte Friedrichs 98,2584,high,2014/results-long.pdf
-W16,5,OK,149,SUI,Eliane Deininger 00,2596,high,2014/results-long.pdf
-W16,6,OK,175,FIN,Anni Haanpää 98,2622,high,2014/results-long.pdf
-W16,7,OK,142,RUS,Anna Chestova 98,2625,high,2014/results-long.pdf
-W16,8,OK,114,FIN,Amy Nymalm 98,2626,high,2014/results-long.pdf
-W16,9,OK,115,CZE,Anna Kopecká 99,2630,high,2014/results-long.pdf
-W16,10,OK,189,CZE,Tereza Čechová 98,2634,high,2014/results-long.pdf
-W16,11,OK,148,CZE,Barbora Vyhnálková 98,2718,high,2014/results-long.pdf
-W16,12,OK,174,POL,Kinga Krolik 99,2738,high,2014/results-long.pdf
-W16,13,OK,107,GBR,Fiona Bunn 99,2785,high,2014/results-long.pdf
-W16,14,OK,152,FIN,Veera Klemettinen 98,2788,high,2014/results-long.pdf
-W16,15,OK,125,DEN,Agnes Nřrgĺrd Kracht 99,2799,high,2014/results-long.pdf
-W16,16,OK,182,HUN,Réka Dalida Pataki 99,2807,high,2014/results-long.pdf
-W16,17,OK,177,RUS,Anastasia Tsybulnik 99,2817,high,2014/results-long.pdf
-W16,18,OK,194,BUL,Andreya Dyaksova 00,2821,high,2014/results-long.pdf
-W16,19,OK,158,RUS,Anastasia Godunova 98,2877,high,2014/results-long.pdf
-W16,20,OK,121,SUI,Elena Pezzati 99,2902,high,2014/results-long.pdf
-W16,21,OK,138,FIN,Ida-Marie Cederberg 98,2915,high,2014/results-long.pdf
-W16,22,OK,155,SVK,Tereza Šmelíková 99,2929,high,2014/results-long.pdf
-W16,23,OK,129,SUI,Nora Caprari 99,2945,high,2014/results-long.pdf
-W16,24,OK,190,LTU,Agne Juodagalvyte 98,2972,high,2014/results-long.pdf
-W16,25,OK,162,GER,Ellen Klüser 99,2986,high,2014/results-long.pdf
-W16,26,OK,171,FRA,Marie Vuitton 98,3056,high,2014/results-long.pdf
-W16,27,OK,150,TUR,Elif Gokce Avci 98,3058,high,2014/results-long.pdf
-W16,28,OK,181,SUI,Simona Aebersold 98,3085,high,2014/results-long.pdf
-W16,29,OK,101,FRA,Juliette Basset 98,3135,high,2014/results-long.pdf
-W16,30,OK,136,HUN,Vanda Vékony 99,3155,high,2014/results-long.pdf
-W16,31,OK,146,ESP,Maria Prieto del Campo 98,3175,high,2014/results-long.pdf
-W16,32,OK,130,TUR,Zeynep Ocak 99,3193,high,2014/results-long.pdf
-W16,33,OK,120,RUS,Kseniia Penzina 98,3273,high,2014/results-long.pdf
-W16,34,OK,179,DEN,Lise Termansen 99,3281,high,2014/results-long.pdf
-W16,35,OK,186,SRB,Olga Stanojevic 99,3291,high,2014/results-long.pdf
-W16,36,OK,188,FRA,Florence Hanauer 98,3295,high,2014/results-long.pdf
-W16,37,OK,185,GBR,Pippa Dakin 98,3330,high,2014/results-long.pdf
-W16,38,OK,169,LAT,Vilma Alberinga 99,3339,high,2014/results-long.pdf
-W16,39,OK,122,GER,Paula Mühlstein 98,3342,high,2014/results-long.pdf
-W16,40,OK,134,GBR,Emma Wilson 99,3351,high,2014/results-long.pdf
-W16,41,OK,147,LTU,Deimante Motiejunaite 98,3393,high,2014/results-long.pdf
-W16,42,OK,113,DEN,Camilla Larsen 98,3407,high,2014/results-long.pdf
-W16,43,OK,108,AUT,Rosa Trummer 99,3478,high,2014/results-long.pdf
-W16,44,OK,172,ESP,Maria Soriano Ramal 98,3494,high,2014/results-long.pdf
-W16,45,OK,187,BEL,Hannah Thiels 99,3538,high,2014/results-long.pdf
-W16,46,OK,123,EST,Marie Anna Blehner 99,3558,high,2014/results-long.pdf
-W16,47,OK,163,AUT,Antonia Erhart 98,3585,high,2014/results-long.pdf
-W16,48,OK,106,BUL,Patricia Cenkova 99,3587,high,2014/results-long.pdf
-W16,49,OK,127,ROU,Adela-Maria Galateanu 00,3620,high,2014/results-long.pdf
-W16,50,OK,144,FRA,Chloé Dudoignon 98,3632,high,2014/results-long.pdf
-W16,51,OK,119,HUN,Dorottya Hajnal 00,3647,high,2014/results-long.pdf
-W16,52,OK,111,EST,Kristin Viikmaa 98,3648,high,2014/results-long.pdf
-W16,53,OK,154,SLO,Monika Ravnikar 98,3692,high,2014/results-long.pdf
-W16,54,OK,176,EST,Emily Raudkepp 98,3693,high,2014/results-long.pdf
-W16,55,OK,178,TUR,Humeyra Altinisik 98,3728,high,2014/results-long.pdf
-W16,56,OK,161,BUL,Tsveta Ilieva 98,3768,high,2014/results-long.pdf
-W16,57,OK,132,LTU,Karolina Sakalauskaite 98,3802,high,2014/results-long.pdf
-W16,58,OK,133,AUT,Tina Tiefenböck 99,3815,high,2014/results-long.pdf
-W16,59,OK,104,MKD,Eleonora Krzheska 01,3823,high,2014/results-long.pdf
-W16,60,OK,166,CRO,Pia Ocvirk 99,3849,high,2014/results-long.pdf
-W16,61,OK,156,UKR,Anzhela Tkachenko 98,3871,high,2014/results-long.pdf
-W16,62,OK,165,GBR,Kathryn Barr 99,3913,high,2014/results-long.pdf
-W16,63,OK,159,ROU,Daiana Maria Habina 98,4010,high,2014/results-long.pdf
-W16,64,OK,180,LAT,Sintija Ozola 00,4016,high,2014/results-long.pdf
-W16,65,OK,112,GER,Mareike Seeger 98,4020,high,2014/results-long.pdf
-W16,66,OK,140,ESP,Marina Cornejo García 98,4025,high,2014/results-long.pdf
-W16,67,OK,168,EST,Kristel Kőivo 99,4044,high,2014/results-long.pdf
-W16,68,OK,173,ROU,Ágnes Néda 98,4070,high,2014/results-long.pdf
-W16,69,OK,192,SLO,Lara Gantar 98,4088,high,2014/results-long.pdf
-W16,70,OK,137,BUL,Anastasia Voynischka 99,4106,high,2014/results-long.pdf
-W16,71,OK,139,MKD,Ivana Trajkoska 00,4152,high,2014/results-long.pdf
-W16,72,OK,170,SRB,Tija Radovanovic 98,4301,high,2014/results-long.pdf
-W16,73,OK,102,ISR,Noam Yasur 98,4344,high,2014/results-long.pdf
-W16,74,OK,126,ITA,Alessandra Minati 99,4370,high,2014/results-long.pdf
-W16,75,OK,143,SLO,Brina Foški 98,4390,high,2014/results-long.pdf
-W16,76,OK,160,POR,Beatriz Sanguino 98,4445,high,2014/results-long.pdf
+M16,65,OK,89,SRB,Milos Bilic,4854,high,2014/results-long.pdf
+M16,66,OK,65,SVK,Stanislav Franko,4881,high,2014/results-long.pdf
+M16,67,OK,62,ESP,Abel Herrero Gomez,4914,high,2014/results-long.pdf
+M16,68,OK,32,POR,Joao Casal,4916,high,2014/results-long.pdf
+M16,69,OK,23,BUL,Stefan Jordanov,4928,high,2014/results-long.pdf
+M16,70,OK,48,BEL,Miel Deferme,4961,high,2014/results-long.pdf
+M16,71,OK,42,GBR,Matthew Fellbaum,5052,high,2014/results-long.pdf
+M16,72,OK,67,TUR,Ismail Kilinc,5066,high,2014/results-long.pdf
+M16,73,OK,27,ROU,Peter Knobloch-Esztergar,5248,high,2014/results-long.pdf
+M16,74,OK,5,IRL,James Millar,5303,high,2014/results-long.pdf
+M16,75,OK,15,ISR,Ido Bahat,5318,high,2014/results-long.pdf
+M16,76,OK,12,POR,Antonio Ferreira,5377,high,2014/results-long.pdf
+M16,77,OK,94,ISR,Nadav Genossar,5452,high,2014/results-long.pdf
+M16,78,OK,26,EST,Andres Room,5528,high,2014/results-long.pdf
+M16,79,OK,18,LTU,Rokas Lipnickas,5532,high,2014/results-long.pdf
+M16,80,OK,24,TUR,Mehmet Emin Avchil,5640,high,2014/results-long.pdf
+M16,81,OK,21,ESP,Sergio Moran Callado,5667,high,2014/results-long.pdf
+M16,82,OK,45,IRL,Robert Pim,5708,high,2014/results-long.pdf
+M16,83,OK,91,LTU,Rokas Vaitkus,5820,high,2014/results-long.pdf
+M16,84,OK,29,UKR,Stanislav Polianytsia,6082,high,2014/results-long.pdf
+M16,85,OK,1,ROU,George Minou,6134,high,2014/results-long.pdf
+M16,86,OK,46,CRO,Andro Vladimir Stambuk,6415,high,2014/results-long.pdf
+W16,1,OK,164,HUN,Hanga Szuromi,2429,high,2014/results-long.pdf
+W16,2,OK,191,AUT,Jasmina Gassner,2458,high,2014/results-long.pdf
+W16,3,OK,141,CZE,Tereza Janosikova,2492,high,2014/results-long.pdf
+W16,4,OK,183,GER,Birte Friedrichs,2584,high,2014/results-long.pdf
+W16,5,OK,149,SUI,Eliane Deininger,2596,high,2014/results-long.pdf
+W16,6,OK,175,FIN,Anni Haanpaa,2622,high,2014/results-long.pdf
+W16,7,OK,142,RUS,Anna Chestova,2625,high,2014/results-long.pdf
+W16,8,OK,114,FIN,Amy Nymalm,2626,high,2014/results-long.pdf
+W16,9,OK,115,CZE,Anna Kopecka,2630,high,2014/results-long.pdf
+W16,10,OK,189,CZE,Tereza Cechova,2634,high,2014/results-long.pdf
+W16,11,OK,148,CZE,Barbora Vyhnalkova,2718,high,2014/results-long.pdf
+W16,12,OK,174,POL,Kinga Krolik,2738,high,2014/results-long.pdf
+W16,13,OK,107,GBR,Fiona Bunn,2785,high,2014/results-long.pdf
+W16,14,OK,152,FIN,Veera Klemettinen,2788,high,2014/results-long.pdf
+W16,15,OK,125,DEN,Agnes Nrrglrd Kracht,2799,high,2014/results-long.pdf
+W16,16,OK,182,HUN,Reka Dalida Pataki,2807,high,2014/results-long.pdf
+W16,17,OK,177,RUS,Anastasia Tsybulnik,2817,high,2014/results-long.pdf
+W16,18,OK,194,BUL,Andreya Dyaksova,2821,high,2014/results-long.pdf
+W16,19,OK,158,RUS,Anastasia Godunova,2877,high,2014/results-long.pdf
+W16,20,OK,121,SUI,Elena Pezzati,2902,high,2014/results-long.pdf
+W16,21,OK,138,FIN,Ida-Marie Cederberg,2915,high,2014/results-long.pdf
+W16,22,OK,155,SVK,Tereza Smelikova,2929,high,2014/results-long.pdf
+W16,23,OK,129,SUI,Nora Caprari,2945,high,2014/results-long.pdf
+W16,24,OK,190,LTU,Agne Juodagalvyte,2972,high,2014/results-long.pdf
+W16,25,OK,162,GER,Ellen Kluser,2986,high,2014/results-long.pdf
+W16,26,OK,171,FRA,Marie Vuitton,3056,high,2014/results-long.pdf
+W16,27,OK,150,TUR,Elif Gokce Avci,3058,high,2014/results-long.pdf
+W16,28,OK,181,SUI,Simona Aebersold,3085,high,2014/results-long.pdf
+W16,29,OK,101,FRA,Juliette Basset,3135,high,2014/results-long.pdf
+W16,30,OK,136,HUN,Vanda Vekony,3155,high,2014/results-long.pdf
+W16,31,OK,146,ESP,Maria Prieto del Campo,3175,high,2014/results-long.pdf
+W16,32,OK,130,TUR,Zeynep Ocak,3193,high,2014/results-long.pdf
+W16,33,OK,120,RUS,Kseniia Penzina,3273,high,2014/results-long.pdf
+W16,34,OK,179,DEN,Lise Termansen,3281,high,2014/results-long.pdf
+W16,35,OK,186,SRB,Olga Stanojevic,3291,high,2014/results-long.pdf
+W16,36,OK,188,FRA,Florence Hanauer,3295,high,2014/results-long.pdf
+W16,37,OK,185,GBR,Pippa Dakin,3330,high,2014/results-long.pdf
+W16,38,OK,169,LAT,Vilma Alberinga,3339,high,2014/results-long.pdf
+W16,39,OK,122,GER,Paula Muhlstein,3342,high,2014/results-long.pdf
+W16,40,OK,134,GBR,Emma Wilson,3351,high,2014/results-long.pdf
+W16,41,OK,147,LTU,Deimante Motiejunaite,3393,high,2014/results-long.pdf
+W16,42,OK,113,DEN,Camilla Larsen,3407,high,2014/results-long.pdf
+W16,43,OK,108,AUT,Rosa Trummer,3478,high,2014/results-long.pdf
+W16,44,OK,172,ESP,Maria Soriano Ramal,3494,high,2014/results-long.pdf
+W16,45,OK,187,BEL,Hannah Thiels,3538,high,2014/results-long.pdf
+W16,46,OK,123,EST,Marie Anna Blehner,3558,high,2014/results-long.pdf
+W16,47,OK,163,AUT,Antonia Erhart,3585,high,2014/results-long.pdf
+W16,48,OK,106,BUL,Patricia Cenkova,3587,high,2014/results-long.pdf
+W16,49,OK,127,ROU,Adela-Maria Galateanu,3620,high,2014/results-long.pdf
+W16,50,OK,144,FRA,Chloe Dudoignon,3632,high,2014/results-long.pdf
+W16,51,OK,119,HUN,Dorottya Hajnal,3647,high,2014/results-long.pdf
+W16,52,OK,111,EST,Kristin Viikmaa,3648,high,2014/results-long.pdf
+W16,53,OK,154,SLO,Monika Ravnikar,3692,high,2014/results-long.pdf
+W16,54,OK,176,EST,Emily Raudkepp,3693,high,2014/results-long.pdf
+W16,55,OK,178,TUR,Humeyra Altinisik,3728,high,2014/results-long.pdf
+W16,56,OK,161,BUL,Tsveta Ilieva,3768,high,2014/results-long.pdf
+W16,57,OK,132,LTU,Karolina Sakalauskaite,3802,high,2014/results-long.pdf
+W16,58,OK,133,AUT,Tina Tiefenbock,3815,high,2014/results-long.pdf
+W16,59,OK,104,MKD,Eleonora Krzheska,3823,high,2014/results-long.pdf
+W16,60,OK,166,CRO,Pia Ocvirk,3849,high,2014/results-long.pdf
+W16,61,OK,156,UKR,Anzhela Tkachenko,3871,high,2014/results-long.pdf
+W16,62,OK,165,GBR,Kathryn Barr,3913,high,2014/results-long.pdf
+W16,63,OK,159,ROU,Daiana Maria Habina,4010,high,2014/results-long.pdf
+W16,64,OK,180,LAT,Sintija Ozola,4016,high,2014/results-long.pdf
+W16,65,OK,112,GER,Mareike Seeger,4020,high,2014/results-long.pdf
+W16,66,OK,140,ESP,Marina Cornejo Garcia,4025,high,2014/results-long.pdf
+W16,67,OK,168,EST,Kristel Koivo,4044,high,2014/results-long.pdf
+W16,68,OK,173,ROU,Agnes Neda,4070,high,2014/results-long.pdf
+W16,69,OK,192,SLO,Lara Gantar,4088,high,2014/results-long.pdf
+W16,70,OK,137,BUL,Anastasia Voynischka,4106,high,2014/results-long.pdf
+W16,71,OK,139,MKD,Ivana Trajkoska,4152,high,2014/results-long.pdf
+W16,72,OK,170,SRB,Tija Radovanovic,4301,high,2014/results-long.pdf
+W16,73,OK,102,ISR,Noam Yasur,4344,high,2014/results-long.pdf
+W16,74,OK,126,ITA,Alessandra Minati,4370,high,2014/results-long.pdf
+W16,75,OK,143,SLO,Brina Foski,4390,high,2014/results-long.pdf
+W16,76,OK,160,POR,Beatriz Sanguino,4445,high,2014/results-long.pdf
 W16,77,OK,105,TUR,Betul Esner,4639,high,2014/results-long.pdf
-W16,78,OK,118,ESP,Inmaculada Crespo Gonzale 98,4734,high,2014/results-long.pdf
-W16,79,OK,124,LAT,Zelma Lapina 98,4755,high,2014/results-long.pdf
-W16,80,OK,167,DEN,Ida Obro 99,4796,high,2014/results-long.pdf
-W16,81,OK,109,SLO,Marjeta Lipužic 98,4816,high,2014/results-long.pdf
+W16,78,OK,118,ESP,Inmaculada Crespo Gonzale,4734,high,2014/results-long.pdf
+W16,79,OK,124,LAT,Zelma Lapina,4755,high,2014/results-long.pdf
+W16,80,OK,167,DEN,Ida Obro,4796,high,2014/results-long.pdf
+W16,81,OK,109,SLO,Marjeta Lipuzic,4816,high,2014/results-long.pdf
 W16,82,OK,131,ISR,Dalit Mansoor,4849,high,2014/results-long.pdf
-W16,83,OK,116,UKR,Polina Kotliar 99,4962,high,2014/results-long.pdf
-W16,84,OK,128,SRB,Jovana Grozdanic 00,5004,high,2014/results-long.pdf
-W16,85,OK,184,MKD,Stefanija Krzheska 99,5091,high,2014/results-long.pdf
-W16,86,OK,145,UKR,Mariya Goenko 99,5193,high,2014/results-long.pdf
-W16,87,OK,153,BEL,Magalie Gillet 99,5404,high,2014/results-long.pdf
-W16,88,OK,117,ROU,Vanda Timea Virag 00,5597,high,2014/results-long.pdf
-W16,89,OK,103,LTU,Kaste Rutkauskaite 98,5725,high,2014/results-long.pdf
-W16,90,OK,135,CRO,Mia Lovrec 99,6532,high,2014/results-long.pdf
-W16,91,OK,193,UKR,Tetiana Yakuba 99,7110,high,2014/results-long.pdf
-W16,92,OK,151,ISR,Aya Webman 98,7449,high,2014/results-long.pdf
-M18,1,OK,283,FIN,Olli Ojanaho 97,2792,high,2014/results-long.pdf
-M18,2,OK,248,RUS,Vladislav Malyshev 96,3032,high,2014/results-long.pdf
-M18,3,OK,256,FIN,Topi Raitanen 96,3066,high,2014/results-long.pdf
+W16,83,OK,116,UKR,Polina Kotliar,4962,high,2014/results-long.pdf
+W16,84,OK,128,SRB,Jovana Grozdanic,5004,high,2014/results-long.pdf
+W16,85,OK,184,MKD,Stefanija Krzheska,5091,high,2014/results-long.pdf
+W16,86,OK,145,UKR,Mariya Goenko,5193,high,2014/results-long.pdf
+W16,87,OK,153,BEL,Magalie Gillet,5404,high,2014/results-long.pdf
+W16,88,OK,117,ROU,Vanda Timea Virag,5597,high,2014/results-long.pdf
+W16,89,OK,103,LTU,Kaste Rutkauskaite,5725,high,2014/results-long.pdf
+W16,90,OK,135,CRO,Mia Lovrec,6532,high,2014/results-long.pdf
+W16,91,OK,193,UKR,Tetiana Yakuba,7110,high,2014/results-long.pdf
+W16,92,OK,151,ISR,Aya Webman,7449,high,2014/results-long.pdf
+M18,1,OK,283,FIN,Olli Ojanaho,2792,high,2014/results-long.pdf
+M18,2,OK,248,RUS,Vladislav Malyshev,3032,high,2014/results-long.pdf
+M18,3,OK,256,FIN,Topi Raitanen,3066,high,2014/results-long.pdf
 M18,4,OK,301,NOR,Olai Stensland Lillevold,3095,high,2014/results-long.pdf
-M18,5,OK,279,SVK,Martin Šmelík 96,3185,high,2014/results-long.pdf
-M18,5,OK,288,FRA,Arnaud Perrin 96,3185,high,2014/results-long.pdf
-M18,7,OK,273,ITA,Riccardo Scalet 96,3191,high,2014/results-long.pdf
-M18,8,OK,282,POL,Krzysztof Rzenca 96,3212,high,2014/results-long.pdf
-M18,9,OK,294,RUS,Aleksandr Pavlenko 97,3225,high,2014/results-long.pdf
-M18,10,OK,281,CZE,Matouš Fürst 96,3232,high,2014/results-long.pdf
-M18,11,OK,293,SUI,Riccardo Rancan 96,3270,high,2014/results-long.pdf
-M18,12,OK,202,FRA,Adrien Delenne 96,3304,high,2014/results-long.pdf
-M18,13,OK,263,NOR,Elias Mřlnvik,3320,high,2014/results-long.pdf
-M18,14,OK,231,FIN,Topias Ahola 96,3324,high,2014/results-long.pdf
-M18,15,OK,280,DEN,Emil Obro 96,3330,high,2014/results-long.pdf
-M18,16,OK,208,SWE,Oskar Leinonen 96,3336,high,2014/results-long.pdf
-M18,17,OK,264,HUN,Máté Dalos 97,3344,high,2014/results-long.pdf
-M18,18,OK,251,SUI,Noah Zbinden 96,3398,high,2014/results-long.pdf
-M18,18,OK,226,FRA,Quentin Rauturier 96,3398,high,2014/results-long.pdf
-M18,20,OK,242,GBR,William Rigg 96,3420,high,2014/results-long.pdf
-M18,21,OK,249,CZE,Vojtěch Kettner 96,3445,high,2014/results-long.pdf
-M18,22,OK,220,HUN,Balázs Miavecz 96,3448,high,2014/results-long.pdf
-M18,23,OK,246,SWE,Filip Grahn 96,3470,high,2014/results-long.pdf
-M18,24,OK,197,SUI,Florian Attinger 97,3485,high,2014/results-long.pdf
-M18,25,OK,265,AUT,Rafael Dobnik 97,3488,high,2014/results-long.pdf
-M18,26,OK,270,AUT,Mathias Peter 96,3495,high,2014/results-long.pdf
-M18,27,OK,268,POL,Radoslaw Piotrowski 96,3506,high,2014/results-long.pdf
-M18,28,OK,284,HUN,Mátyás Mészáros 97,3525,high,2014/results-long.pdf
-M18,29,OK,200,FIN,Joonas Ahola 96,3553,high,2014/results-long.pdf
-M18,30,OK,254,SVK,Martin Jonáš 96,3593,high,2014/results-long.pdf
-M18,31,OK,222,NOR,Haakon Raadal Bjřrlo,3607,high,2014/results-long.pdf
-M18,32,OK,296,UKR,Evgen Godlevsky 97,3616,high,2014/results-long.pdf
-M18,33,OK,228,SWE,Ville Johansson 97,3617,high,2014/results-long.pdf
-M18,34,OK,300,GBR,Dane Blomquist 96,3656,high,2014/results-long.pdf
-M18,35,OK,302,SWE,Anton Forsberg 97,3686,high,2014/results-long.pdf
+M18,5,OK,279,SVK,Martin Smelik,3185,high,2014/results-long.pdf
+M18,5,OK,288,FRA,Arnaud Perrin,3185,high,2014/results-long.pdf
+M18,7,OK,273,ITA,Riccardo Scalet,3191,high,2014/results-long.pdf
+M18,8,OK,282,POL,Krzysztof Rzenca,3212,high,2014/results-long.pdf
+M18,9,OK,294,RUS,Aleksandr Pavlenko,3225,high,2014/results-long.pdf
+M18,10,OK,281,CZE,Matous Furst,3232,high,2014/results-long.pdf
+M18,11,OK,293,SUI,Riccardo Rancan,3270,high,2014/results-long.pdf
+M18,12,OK,202,FRA,Adrien Delenne,3304,high,2014/results-long.pdf
+M18,13,OK,263,NOR,Elias Mrlnvik,3320,high,2014/results-long.pdf
+M18,14,OK,231,FIN,Topias Ahola,3324,high,2014/results-long.pdf
+M18,15,OK,280,DEN,Emil Obro,3330,high,2014/results-long.pdf
+M18,16,OK,208,SWE,Oskar Leinonen,3336,high,2014/results-long.pdf
+M18,17,OK,264,HUN,Mate Dalos,3344,high,2014/results-long.pdf
+M18,18,OK,251,SUI,Noah Zbinden,3398,high,2014/results-long.pdf
+M18,18,OK,226,FRA,Quentin Rauturier,3398,high,2014/results-long.pdf
+M18,20,OK,242,GBR,William Rigg,3420,high,2014/results-long.pdf
+M18,21,OK,249,CZE,Vojtech Kettner,3445,high,2014/results-long.pdf
+M18,22,OK,220,HUN,Balazs Miavecz,3448,high,2014/results-long.pdf
+M18,23,OK,246,SWE,Filip Grahn,3470,high,2014/results-long.pdf
+M18,24,OK,197,SUI,Florian Attinger,3485,high,2014/results-long.pdf
+M18,25,OK,265,AUT,Rafael Dobnik,3488,high,2014/results-long.pdf
+M18,26,OK,270,AUT,Mathias Peter,3495,high,2014/results-long.pdf
+M18,27,OK,268,POL,Radoslaw Piotrowski,3506,high,2014/results-long.pdf
+M18,28,OK,284,HUN,Matyas Meszaros,3525,high,2014/results-long.pdf
+M18,29,OK,200,FIN,Joonas Ahola,3553,high,2014/results-long.pdf
+M18,30,OK,254,SVK,Martin Jonas,3593,high,2014/results-long.pdf
+M18,31,OK,222,NOR,Haakon Raadal Bjrrlo,3607,high,2014/results-long.pdf
+M18,32,OK,296,UKR,Evgen Godlevsky,3616,high,2014/results-long.pdf
+M18,33,OK,228,SWE,Ville Johansson,3617,high,2014/results-long.pdf
+M18,34,OK,300,GBR,Dane Blomquist,3656,high,2014/results-long.pdf
+M18,35,OK,302,SWE,Anton Forsberg,3686,high,2014/results-long.pdf
 M18,36,OK,205,NOR,Stian Sundsvik,3691,high,2014/results-long.pdf
-M18,37,OK,260,GER,Korbinian Lehner 96,3696,high,2014/results-long.pdf
-M18,37,OK,290,GER,Mark Otto 96,3696,high,2014/results-long.pdf
-M18,39,OK,195,HUN,Botond Szucs 97,3701,high,2014/results-long.pdf
-M18,40,OK,240,ITA,Mattia Debertolis 96,3712,high,2014/results-long.pdf
-M18,41,OK,224,AUT,Florian Kurz 97,3747,high,2014/results-long.pdf
-M18,42,OK,227,LAT,Atis Heinols 96,3761,high,2014/results-long.pdf
-M18,43,OK,289,BUL,Dimitar Jeliazkov 96,3823,high,2014/results-long.pdf
-M18,43,OK,204,ROU,Gergely Bogya 97,3823,high,2014/results-long.pdf
-M18,45,OK,238,RUS,Nikita Gurevich 97,3838,high,2014/results-long.pdf
-M18,46,OK,217,GBR,Andrew Barr 97,3907,high,2014/results-long.pdf
-M18,47,OK,257,ROU,Andrei Mihai Tintar 97,3925,high,2014/results-long.pdf
-M18,48,OK,277,ITA,Michele Bertelle 97,3973,high,2014/results-long.pdf
-M18,49,OK,253,SLO,Blaž Petrovic 96,3992,high,2014/results-long.pdf
-M18,50,OK,237,CZE,Štepán Mudrák 96,4029,high,2014/results-long.pdf
-M18,51,OK,272,ESP,Elmar Montero Carceles 96,4030,high,2014/results-long.pdf
-M18,52,OK,212,SVK,Martin Klabouch 96,4054,high,2014/results-long.pdf
-M18,53,OK,234,BUL,Valentin Shishkov 97,4083,high,2014/results-long.pdf
-M18,54,OK,295,ESP,Jesus Rodriguez Corrochan 97,4089,high,2014/results-long.pdf
-M18,55,OK,252,LAT,Endijs Titomers 97,4113,high,2014/results-long.pdf
-M18,56,OK,247,FRA,Marian Basset 96,4141,high,2014/results-long.pdf
-M18,57,OK,250,SRB,Stefan Bilic 97,4149,high,2014/results-long.pdf
-M18,58,OK,271,EST,Heino Ollin 96,4162,high,2014/results-long.pdf
-M18,58,OK,255,TUR,Orhan Kuylu 97,4162,high,2014/results-long.pdf
-M18,60,OK,276,LTU,Aurimas Ašmantas 97,4165,high,2014/results-long.pdf
-M18,61,OK,245,LTU,Martynas Germanavicius 96,4169,high,2014/results-long.pdf
-M18,62,OK,239,MDA,Dimitru Donici 97,4177,high,2014/results-long.pdf
-M18,63,OK,207,LAT,Jekabs Knets 96,4178,high,2014/results-long.pdf
-M18,64,OK,291,EST,Janek Piirisild 96,4184,high,2014/results-long.pdf
-M18,65,OK,201,ITA,Samuele Tait 97,4239,high,2014/results-long.pdf
-M18,66,OK,214,SLO,Žan Luka Šumecki 96,4251,high,2014/results-long.pdf
-M18,67,OK,233,ESP,Diego Lazaro de Juan 96,4257,high,2014/results-long.pdf
-M18,68,OK,298,MDA,Vasili Fomiciov 96,4278,high,2014/results-long.pdf
-M18,69,OK,235,ROU,Zoltan Szocs 96,4286,high,2014/results-long.pdf
-M18,70,OK,229,SVK,Teodor Takác 96,4292,high,2014/results-long.pdf
-M18,71,OK,236,UKR,Georgiy Romanov 96,4309,high,2014/results-long.pdf
-M18,72,OK,275,BLR,Anton Navichenka 97,4314,high,2014/results-long.pdf
-M18,73,OK,258,UKR,Zhan Kozytskyi 96,4386,high,2014/results-long.pdf
-M18,74,OK,286,POR,Joăo Novo 97,4434,high,2014/results-long.pdf
-M18,75,OK,297,LAT,Emils Vainovskis 96,4450,high,2014/results-long.pdf
-M18,76,OK,211,ESP,Cosme Sanchez Dorado 96,4455,high,2014/results-long.pdf
-M18,77,OK,243,TUR,Ibrahim Dilek 97,4468,high,2014/results-long.pdf
+M18,37,OK,260,GER,Korbinian Lehner,3696,high,2014/results-long.pdf
+M18,37,OK,290,GER,Mark Otto,3696,high,2014/results-long.pdf
+M18,39,OK,195,HUN,Botond Szucs,3701,high,2014/results-long.pdf
+M18,40,OK,240,ITA,Mattia Debertolis,3712,high,2014/results-long.pdf
+M18,41,OK,224,AUT,Florian Kurz,3747,high,2014/results-long.pdf
+M18,42,OK,227,LAT,Atis Heinols,3761,high,2014/results-long.pdf
+M18,43,OK,289,BUL,Dimitar Jeliazkov,3823,high,2014/results-long.pdf
+M18,43,OK,204,ROU,Gergely Bogya,3823,high,2014/results-long.pdf
+M18,45,OK,238,RUS,Nikita Gurevich,3838,high,2014/results-long.pdf
+M18,46,OK,217,GBR,Andrew Barr,3907,high,2014/results-long.pdf
+M18,47,OK,257,ROU,Andrei Mihai Tintar,3925,high,2014/results-long.pdf
+M18,48,OK,277,ITA,Michele Bertelle,3973,high,2014/results-long.pdf
+M18,49,OK,253,SLO,Blaz Petrovic,3992,high,2014/results-long.pdf
+M18,50,OK,237,CZE,Stepan Mudrak,4029,high,2014/results-long.pdf
+M18,51,OK,272,ESP,Elmar Montero Carceles,4030,high,2014/results-long.pdf
+M18,52,OK,212,SVK,Martin Klabouch,4054,high,2014/results-long.pdf
+M18,53,OK,234,BUL,Valentin Shishkov,4083,high,2014/results-long.pdf
+M18,54,OK,295,ESP,Jesus Rodriguez Corrochan,4089,high,2014/results-long.pdf
+M18,55,OK,252,LAT,Endijs Titomers,4113,high,2014/results-long.pdf
+M18,56,OK,247,FRA,Marian Basset,4141,high,2014/results-long.pdf
+M18,57,OK,250,SRB,Stefan Bilic,4149,high,2014/results-long.pdf
+M18,58,OK,271,EST,Heino Ollin,4162,high,2014/results-long.pdf
+M18,58,OK,255,TUR,Orhan Kuylu,4162,high,2014/results-long.pdf
+M18,60,OK,276,LTU,Aurimas Asmantas,4165,high,2014/results-long.pdf
+M18,61,OK,245,LTU,Martynas Germanavicius,4169,high,2014/results-long.pdf
+M18,62,OK,239,MDA,Dimitru Donici,4177,high,2014/results-long.pdf
+M18,63,OK,207,LAT,Jekabs Knets,4178,high,2014/results-long.pdf
+M18,64,OK,291,EST,Janek Piirisild,4184,high,2014/results-long.pdf
+M18,65,OK,201,ITA,Samuele Tait,4239,high,2014/results-long.pdf
+M18,66,OK,214,SLO,Zan Luka Sumecki,4251,high,2014/results-long.pdf
+M18,67,OK,233,ESP,Diego Lazaro de Juan,4257,high,2014/results-long.pdf
+M18,68,OK,298,MDA,Vasili Fomiciov,4278,high,2014/results-long.pdf
+M18,69,OK,235,ROU,Zoltan Szocs,4286,high,2014/results-long.pdf
+M18,70,OK,229,SVK,Teodor Takac,4292,high,2014/results-long.pdf
+M18,71,OK,236,UKR,Georgiy Romanov,4309,high,2014/results-long.pdf
+M18,72,OK,275,BLR,Anton Navichenka,4314,high,2014/results-long.pdf
+M18,73,OK,258,UKR,Zhan Kozytskyi,4386,high,2014/results-long.pdf
+M18,74,OK,286,POR,Joao Novo,4434,high,2014/results-long.pdf
+M18,75,OK,297,LAT,Emils Vainovskis,4450,high,2014/results-long.pdf
+M18,76,OK,211,ESP,Cosme Sanchez Dorado,4455,high,2014/results-long.pdf
+M18,77,OK,243,TUR,Ibrahim Dilek,4468,high,2014/results-long.pdf
 M18,78,OK,218,TUR,Emirhan Kulahsiz,4485,high,2014/results-long.pdf
-M18,79,OK,230,EST,Veiko Vinkel 96,4560,high,2014/results-long.pdf
-M18,80,OK,259,MDA,Anatoli Fomiciov 97,4608,high,2014/results-long.pdf
-M18,81,OK,206,CZE,Šimon Navrátil 97,4614,high,2014/results-long.pdf
-M18,82,OK,287,BEL,Tom Drygalski 96,4671,high,2014/results-long.pdf
-M18,83,OK,216,IRL,Paul Pruzina 97,4723,high,2014/results-long.pdf
-M18,84,OK,196,POR,Daniel Catarino 96,4726,high,2014/results-long.pdf
-M18,85,OK,203,UKR,Viktor Mogurenko 97,4729,high,2014/results-long.pdf
-M18,86,OK,209,RUS,Kiril Komarov 97,4737,high,2014/results-long.pdf
-M18,87,OK,213,EST,Andreas Aadli 96,4793,high,2014/results-long.pdf
-M18,88,OK,274,GBR,Joe Woodley 96,4871,high,2014/results-long.pdf
-M18,89,OK,292,TUR,Oguzhan Karatepe 97,4872,high,2014/results-long.pdf
-M18,90,OK,285,ROU,Zakarias Erosdi 96,4980,high,2014/results-long.pdf
-M18,91,OK,261,BUL,Stefan Mihailov 96,4990,high,2014/results-long.pdf
-M18,92,OK,278,SRB,Dusan Krnjaic 96,4998,high,2014/results-long.pdf
-M18,93,OK,267,ISR,Carmel Satt 97,5028,high,2014/results-long.pdf
-M18,94,OK,269,IRL,Peter Meehan 97,5045,high,2014/results-long.pdf
-M18,95,OK,210,AUT,Emanuel Braun 97,5082,high,2014/results-long.pdf
-M18,96,OK,199,BUL,Vladimir Serafimov 97,5147,high,2014/results-long.pdf
-M18,97,OK,219,POR,Bernardo Pereira 97,5160,high,2014/results-long.pdf
-M18,98,OK,221,SUI,Joey Hadorn 97,5284,high,2014/results-long.pdf
-M18,99,OK,244,IRL,Frazer Howe 97,5456,high,2014/results-long.pdf
-M18,100,OK,262,POR,André Esteves 96,5550,high,2014/results-long.pdf
-M18,101,OK,299,SLO,Andraž de Luisa 97,5575,high,2014/results-long.pdf
-M18,102,OK,266,MKD,Metodi Belchovski 97,6508,high,2014/results-long.pdf
-M18,103,OK,223,CRO,Luka Ivković 97,7136,high,2014/results-long.pdf
-M18,104,OK,241,LTU,Kostas Grauželis 96,8143,high,2014/results-long.pdf
-W18,1,OK,395,SUI,Hanna Müller 96,3021,high,2014/results-long.pdf
-W18,2,OK,350,FIN,Anna Haataja 96,3058,high,2014/results-long.pdf
-W18,3,OK,361,CZE,Anna Šticková 96,3070,high,2014/results-long.pdf
-W18,4,OK,396,POL,Aleksandra Hornik 96,3145,high,2014/results-long.pdf
-W18,5,OK,399,AUT,Anika Gassner 96,3158,high,2014/results-long.pdf
-W18,6,OK,382,FRA,Solčne Droin 97,3163,high,2014/results-long.pdf
+M18,79,OK,230,EST,Veiko Vinkel,4560,high,2014/results-long.pdf
+M18,80,OK,259,MDA,Anatoli Fomiciov,4608,high,2014/results-long.pdf
+M18,81,OK,206,CZE,Simon Navratil,4614,high,2014/results-long.pdf
+M18,82,OK,287,BEL,Tom Drygalski,4671,high,2014/results-long.pdf
+M18,83,OK,216,IRL,Paul Pruzina,4723,high,2014/results-long.pdf
+M18,84,OK,196,POR,Daniel Catarino,4726,high,2014/results-long.pdf
+M18,85,OK,203,UKR,Viktor Mogurenko,4729,high,2014/results-long.pdf
+M18,86,OK,209,RUS,Kiril Komarov,4737,high,2014/results-long.pdf
+M18,87,OK,213,EST,Andreas Aadli,4793,high,2014/results-long.pdf
+M18,88,OK,274,GBR,Joe Woodley,4871,high,2014/results-long.pdf
+M18,89,OK,292,TUR,Oguzhan Karatepe,4872,high,2014/results-long.pdf
+M18,90,OK,285,ROU,Zakarias Erosdi,4980,high,2014/results-long.pdf
+M18,91,OK,261,BUL,Stefan Mihailov,4990,high,2014/results-long.pdf
+M18,92,OK,278,SRB,Dusan Krnjaic,4998,high,2014/results-long.pdf
+M18,93,OK,267,ISR,Carmel Satt,5028,high,2014/results-long.pdf
+M18,94,OK,269,IRL,Peter Meehan,5045,high,2014/results-long.pdf
+M18,95,OK,210,AUT,Emanuel Braun,5082,high,2014/results-long.pdf
+M18,96,OK,199,BUL,Vladimir Serafimov,5147,high,2014/results-long.pdf
+M18,97,OK,219,POR,Bernardo Pereira,5160,high,2014/results-long.pdf
+M18,98,OK,221,SUI,Joey Hadorn,5284,high,2014/results-long.pdf
+M18,99,OK,244,IRL,Frazer Howe,5456,high,2014/results-long.pdf
+M18,100,OK,262,POR,Andre Esteves,5550,high,2014/results-long.pdf
+M18,101,OK,299,SLO,Andraz de Luisa,5575,high,2014/results-long.pdf
+M18,102,OK,266,MKD,Metodi Belchovski,6508,high,2014/results-long.pdf
+M18,103,OK,223,CRO,Luka Ivkovic,7136,high,2014/results-long.pdf
+M18,104,OK,241,LTU,Kostas Grauzelis,8143,high,2014/results-long.pdf
+W18,1,OK,395,SUI,Hanna Muller,3021,high,2014/results-long.pdf
+W18,2,OK,350,FIN,Anna Haataja,3058,high,2014/results-long.pdf
+W18,3,OK,361,CZE,Anna Stickova,3070,high,2014/results-long.pdf
+W18,4,OK,396,POL,Aleksandra Hornik,3145,high,2014/results-long.pdf
+W18,5,OK,399,AUT,Anika Gassner,3158,high,2014/results-long.pdf
+W18,6,OK,382,FRA,Solcne Droin,3163,high,2014/results-long.pdf
 W18,7,OK,341,SWE,Elin Pettersson,3166,high,2014/results-long.pdf
-W18,8,OK,386,UKR,Olena Postelniak 96,3195,high,2014/results-long.pdf
-W18,9,OK,402,GER,Dorothea Müller 97,3219,high,2014/results-long.pdf
-W18,10,OK,336,SUI,Sofie Bachmann 97,3288,high,2014/results-long.pdf
-W18,11,OK,375,SUI,Joana Wälti 96,3303,high,2014/results-long.pdf
-W18,12,OK,363,HUN,Csenge Viniczai 97,3309,high,2014/results-long.pdf
-W18,13,OK,378,DEN,Caroline Finderup 97,3342,high,2014/results-long.pdf
-W18,14,OK,400,HUN,Luca Szuromi 96,3372,high,2014/results-long.pdf
-W18,15,OK,380,FRA,Chloé Haberkorn 96,3395,high,2014/results-long.pdf
-W18,16,OK,381,CZE,Eliška Kulhavá 96,3398,high,2014/results-long.pdf
+W18,8,OK,386,UKR,Olena Postelniak,3195,high,2014/results-long.pdf
+W18,9,OK,402,GER,Dorothea Muller,3219,high,2014/results-long.pdf
+W18,10,OK,336,SUI,Sofie Bachmann,3288,high,2014/results-long.pdf
+W18,11,OK,375,SUI,Joana Walti,3303,high,2014/results-long.pdf
+W18,12,OK,363,HUN,Csenge Viniczai,3309,high,2014/results-long.pdf
+W18,13,OK,378,DEN,Caroline Finderup,3342,high,2014/results-long.pdf
+W18,14,OK,400,HUN,Luca Szuromi,3372,high,2014/results-long.pdf
+W18,15,OK,380,FRA,Chloe Haberkorn,3395,high,2014/results-long.pdf
+W18,16,OK,381,CZE,Eliska Kulhava,3398,high,2014/results-long.pdf
 W18,17,OK,374,NOR,Marie Olaussen,3421,high,2014/results-long.pdf
-W18,18,OK,357,GER,Leonore Winkler 96,3445,high,2014/results-long.pdf
-W18,19,OK,379,RUS,Natalia Kostina 97,3477,high,2014/results-long.pdf
+W18,18,OK,357,GER,Leonore Winkler,3445,high,2014/results-long.pdf
+W18,19,OK,379,RUS,Natalia Kostina,3477,high,2014/results-long.pdf
 W18,20,OK,392,NOR,Ingrid Lundanes,3488,high,2014/results-long.pdf
-W18,20,OK,398,DEN,Nikoline Tillingsře 97,3488,high,2014/results-long.pdf
-W18,22,OK,338,HUN,Virág Weiler 96,3501,high,2014/results-long.pdf
+W18,20,OK,398,DEN,Nikoline Tillingsre,3488,high,2014/results-long.pdf
+W18,22,OK,338,HUN,Virag Weiler,3501,high,2014/results-long.pdf
 W18,23,OK,346,NOR,Emma Arnesen,3528,high,2014/results-long.pdf
-W18,24,OK,332,GER,Patricia Siegert 97,3537,high,2014/results-long.pdf
-W18,25,OK,383,RUS,Iaroslava Mediantceva 97,3555,high,2014/results-long.pdf
-W18,25,OK,325,CZE,Gabriela Hiršová 96,3555,high,2014/results-long.pdf
-W18,27,OK,391,EST,Marianne Haug 96,3572,high,2014/results-long.pdf
-W18,28,OK,387,ESP,Yara Bores Escudero 96,3605,high,2014/results-long.pdf
-W18,29,OK,390,SWE,Linnea Golsäter 97,3621,high,2014/results-long.pdf
-W18,30,OK,368,POL,Weronika Cych 96,3661,high,2014/results-long.pdf
-W18,31,OK,355,UKR,Daria Moskalenko 96,3680,high,2014/results-long.pdf
-W18,32,OK,360,SLO,Nuša Jeram 96,3684,high,2014/results-long.pdf
-W18,33,OK,403,FIN,Noora Koskinen 97,3701,high,2014/results-long.pdf
-W18,34,OK,344,AUT,Johanna Trummer 97,3788,high,2014/results-long.pdf
+W18,24,OK,332,GER,Patricia Siegert,3537,high,2014/results-long.pdf
+W18,25,OK,383,RUS,Iaroslava Mediantceva,3555,high,2014/results-long.pdf
+W18,25,OK,325,CZE,Gabriela Hirsova,3555,high,2014/results-long.pdf
+W18,27,OK,391,EST,Marianne Haug,3572,high,2014/results-long.pdf
+W18,28,OK,387,ESP,Yara Bores Escudero,3605,high,2014/results-long.pdf
+W18,29,OK,390,SWE,Linnea Golsater,3621,high,2014/results-long.pdf
+W18,30,OK,368,POL,Weronika Cych,3661,high,2014/results-long.pdf
+W18,31,OK,355,UKR,Daria Moskalenko,3680,high,2014/results-long.pdf
+W18,32,OK,360,SLO,Nusa Jeram,3684,high,2014/results-long.pdf
+W18,33,OK,403,FIN,Noora Koskinen,3701,high,2014/results-long.pdf
+W18,34,OK,344,AUT,Johanna Trummer,3788,high,2014/results-long.pdf
 W18,35,OK,309,NOR,Tonje Vassend,3827,high,2014/results-long.pdf
-W18,36,OK,329,UKR,Yiuliya Kobets 96,3840,high,2014/results-long.pdf
-W18,37,OK,345,FIN,Emmi Jokela 96,3841,high,2014/results-long.pdf
-W18,38,OK,359,SVK,Andrea Papugová 97,3886,high,2014/results-long.pdf
-W18,39,OK,307,RUS,Zlata Malysheva 97,3942,high,2014/results-long.pdf
-W18,40,OK,384,LAT,Laura Leiboma 96,3950,high,2014/results-long.pdf
-W18,41,OK,318,FIN,Karoliina Ukskoski 96,3964,high,2014/results-long.pdf
-W18,42,OK,362,TUR,Ayse Bozkurt 97,3989,high,2014/results-long.pdf
-W18,43,OK,352,LAT,Kendija Aparjode 96,3993,high,2014/results-long.pdf
-W18,44,OK,324,POL,Zuzanna Wanczyk 97,4008,high,2014/results-long.pdf
-W18,45,OK,347,FRA,Lucile Girard 96,4055,high,2014/results-long.pdf
-W18,46,OK,388,GBR,Sarah Jones 96,4063,high,2014/results-long.pdf
-W18,47,OK,333,LAT,Annija Anna Zalaiskalna 96,4064,high,2014/results-long.pdf
-W18,48,OK,337,ESP,Elena Botica Artalejo 97,4074,high,2014/results-long.pdf
-W18,49,OK,335,LTU,Jogvile Sušinskaite 96,4085,high,2014/results-long.pdf
-W18,50,OK,371,SWE,Pim Hedberg 96,4145,high,2014/results-long.pdf
-W18,51,OK,322,CZE,Simona Chládková 96,4241,high,2014/results-long.pdf
-W18,52,OK,349,ITA,Francesca Taufer 96,4376,high,2014/results-long.pdf
-W18,53,OK,321,LAT,Madara Brice 96,4377,high,2014/results-long.pdf
-W18,54,OK,306,HUN,Réka Faggyas 96,4386,high,2014/results-long.pdf
-W18,55,OK,348,IRL,Róisín Long 96,4483,high,2014/results-long.pdf
-W18,56,OK,320,SUI,Barbara Köhle 96,4486,high,2014/results-long.pdf
-W18,57,OK,385,BUL,Iveta Zasheva 96,4500,high,2014/results-long.pdf
-W18,58,OK,326,EST,Silvia Luup 96,4510,high,2014/results-long.pdf
-W18,59,OK,369,ITA,Arianna Taufer 96,4515,high,2014/results-long.pdf
-W18,60,OK,373,GBR,Megan Carter-Davies 96,4557,high,2014/results-long.pdf
-W18,61,OK,377,IRL,Caoimhe O’Boyle 97,4558,high,2014/results-long.pdf
-W18,62,OK,314,GBR,Alice Rigby 97,4636,high,2014/results-long.pdf
-W18,63,OK,364,LTU,Vaiva Laurutyte 96,4650,high,2014/results-long.pdf
-W18,64,OK,367,POR,Beatriz Moreira 97,4666,high,2014/results-long.pdf
-W18,65,OK,339,RUS,Alina Nurieva 96,4674,high,2014/results-long.pdf
-W18,66,OK,353,SRB,Milica Milosevic 97,4738,high,2014/results-long.pdf
-W18,67,OK,323,LTU,Koženiauskaite Akvile 96,4782,high,2014/results-long.pdf
-W18,68,OK,354,BLR,Viktoryia Mozhar 96,4792,high,2014/results-long.pdf
-W18,69,OK,310,AUT,Marlene Berger 97,4852,high,2014/results-long.pdf
-W18,70,OK,312,ITA,Anna Giovanelli 97,4873,high,2014/results-long.pdf
-W18,71,OK,351,CRO,Iva Lovrec 97,4976,high,2014/results-long.pdf
-W18,72,OK,317,SWE,Moa Pettersson 96,5052,high,2014/results-long.pdf
-W18,73,OK,372,AUT,Carina Polzer 96,5075,high,2014/results-long.pdf
-W18,74,OK,308,EST,Marie Tammemäe 97,5081,high,2014/results-long.pdf
-W18,75,OK,370,ROU,Katalin Neda 96,5148,high,2014/results-long.pdf
-W18,76,OK,358,ESP,Maria Rodriguez Corrochano 96,5177,high,2014/results-long.pdf
-W18,77,OK,389,LTU,Anele Kerpauskaite 96,5238,high,2014/results-long.pdf
-W18,78,OK,315,BUL,Kristiana Gecova 96,5344,high,2014/results-long.pdf
-W18,79,OK,334,CRO,Roberta Orehoci 96,5367,high,2014/results-long.pdf
-W18,80,OK,311,ESP,Sofia Berenguer Sanchís 97,5467,high,2014/results-long.pdf
-W18,81,OK,313,CRO,Dora Težak 97,5490,high,2014/results-long.pdf
-W18,82,OK,343,TUR,Rahime Sozbir 97,5514,high,2014/results-long.pdf
-W18,83,OK,394,POR,Catarina Reis 96,5567,high,2014/results-long.pdf
-W18,84,OK,376,EST,Doris Kudre 97,5580,high,2014/results-long.pdf
-W18,85,OK,328,BUL,Mikaela Vitanova 96,5793,high,2014/results-long.pdf
-W18,86,OK,304,IRL,Aoife Mc Cavana 96,5833,high,2014/results-long.pdf
-W18,87,OK,327,SVK,Antónia Šofránková 97,5972,high,2014/results-long.pdf
-W18,88,OK,356,ISR,Marina Maerkovitch 96,5978,high,2014/results-long.pdf
-W18,89,OK,330,ISR,Hilla Ayali 96,6144,high,2014/results-long.pdf
-W18,90,OK,340,SLO,Urša Beguš 97,6301,high,2014/results-long.pdf
-W18,91,OK,305,FRA,Maëlle Beauvir 97,6330,high,2014/results-long.pdf
-W18,92,OK,331,GBR,Hannah Cox 97,6709,high,2014/results-long.pdf
-W18,93,OK,319,BLR,Tatyana Latokurskaya 97,6904,high,2014/results-long.pdf
+W18,36,OK,329,UKR,Yiuliya Kobets,3840,high,2014/results-long.pdf
+W18,37,OK,345,FIN,Emmi Jokela,3841,high,2014/results-long.pdf
+W18,38,OK,359,SVK,Andrea Papugova,3886,high,2014/results-long.pdf
+W18,39,OK,307,RUS,Zlata Malysheva,3942,high,2014/results-long.pdf
+W18,40,OK,384,LAT,Laura Leiboma,3950,high,2014/results-long.pdf
+W18,41,OK,318,FIN,Karoliina Ukskoski,3964,high,2014/results-long.pdf
+W18,42,OK,362,TUR,Ayse Bozkurt,3989,high,2014/results-long.pdf
+W18,43,OK,352,LAT,Kendija Aparjode,3993,high,2014/results-long.pdf
+W18,44,OK,324,POL,Zuzanna Wanczyk,4008,high,2014/results-long.pdf
+W18,45,OK,347,FRA,Lucile Girard,4055,high,2014/results-long.pdf
+W18,46,OK,388,GBR,Sarah Jones,4063,high,2014/results-long.pdf
+W18,47,OK,333,LAT,Annija Anna Zalaiskalna,4064,high,2014/results-long.pdf
+W18,48,OK,337,ESP,Elena Botica Artalejo,4074,high,2014/results-long.pdf
+W18,49,OK,335,LTU,Jogvile Susinskaite,4085,high,2014/results-long.pdf
+W18,50,OK,371,SWE,Pim Hedberg,4145,high,2014/results-long.pdf
+W18,51,OK,322,CZE,Simona Chladkova,4241,high,2014/results-long.pdf
+W18,52,OK,349,ITA,Francesca Taufer,4376,high,2014/results-long.pdf
+W18,53,OK,321,LAT,Madara Brice,4377,high,2014/results-long.pdf
+W18,54,OK,306,HUN,Reka Faggyas,4386,high,2014/results-long.pdf
+W18,55,OK,348,IRL,Roisin Long,4483,high,2014/results-long.pdf
+W18,56,OK,320,SUI,Barbara Kohle,4486,high,2014/results-long.pdf
+W18,57,OK,385,BUL,Iveta Zasheva,4500,high,2014/results-long.pdf
+W18,58,OK,326,EST,Silvia Luup,4510,high,2014/results-long.pdf
+W18,59,OK,369,ITA,Arianna Taufer,4515,high,2014/results-long.pdf
+W18,60,OK,373,GBR,Megan Carter-Davies,4557,high,2014/results-long.pdf
+W18,61,OK,377,IRL,Caoimhe O'Boyle,4558,high,2014/results-long.pdf
+W18,62,OK,314,GBR,Alice Rigby,4636,high,2014/results-long.pdf
+W18,63,OK,364,LTU,Vaiva Laurutyte,4650,high,2014/results-long.pdf
+W18,64,OK,367,POR,Beatriz Moreira,4666,high,2014/results-long.pdf
+W18,65,OK,339,RUS,Alina Nurieva,4674,high,2014/results-long.pdf
+W18,66,OK,353,SRB,Milica Milosevic,4738,high,2014/results-long.pdf
+W18,67,OK,323,LTU,Kozeniauskaite Akvile,4782,high,2014/results-long.pdf
+W18,68,OK,354,BLR,Viktoryia Mozhar,4792,high,2014/results-long.pdf
+W18,69,OK,310,AUT,Marlene Berger,4852,high,2014/results-long.pdf
+W18,70,OK,312,ITA,Anna Giovanelli,4873,high,2014/results-long.pdf
+W18,71,OK,351,CRO,Iva Lovrec,4976,high,2014/results-long.pdf
+W18,72,OK,317,SWE,Moa Pettersson,5052,high,2014/results-long.pdf
+W18,73,OK,372,AUT,Carina Polzer,5075,high,2014/results-long.pdf
+W18,74,OK,308,EST,Marie Tammemae,5081,high,2014/results-long.pdf
+W18,75,OK,370,ROU,Katalin Neda,5148,high,2014/results-long.pdf
+W18,76,OK,358,ESP,Maria Rodriguez Corrochano,5177,high,2014/results-long.pdf
+W18,77,OK,389,LTU,Anele Kerpauskaite,5238,high,2014/results-long.pdf
+W18,78,OK,315,BUL,Kristiana Gecova,5344,high,2014/results-long.pdf
+W18,79,OK,334,CRO,Roberta Orehoci,5367,high,2014/results-long.pdf
+W18,80,OK,311,ESP,Sofia Berenguer Sanchis,5467,high,2014/results-long.pdf
+W18,81,OK,313,CRO,Dora Tezak,5490,high,2014/results-long.pdf
+W18,82,OK,343,TUR,Rahime Sozbir,5514,high,2014/results-long.pdf
+W18,83,OK,394,POR,Catarina Reis,5567,high,2014/results-long.pdf
+W18,84,OK,376,EST,Doris Kudre,5580,high,2014/results-long.pdf
+W18,85,OK,328,BUL,Mikaela Vitanova,5793,high,2014/results-long.pdf
+W18,86,OK,304,IRL,Aoife Mc Cavana,5833,high,2014/results-long.pdf
+W18,87,OK,327,SVK,Antonia Sofrankova,5972,high,2014/results-long.pdf
+W18,88,OK,356,ISR,Marina Maerkovitch,5978,high,2014/results-long.pdf
+W18,89,OK,330,ISR,Hilla Ayali,6144,high,2014/results-long.pdf
+W18,90,OK,340,SLO,Ursa Begus,6301,high,2014/results-long.pdf
+W18,91,OK,305,FRA,Maelle Beauvir,6330,high,2014/results-long.pdf
+W18,92,OK,331,GBR,Hannah Cox,6709,high,2014/results-long.pdf
+W18,93,OK,319,BLR,Tatyana Latokurskaya,6904,high,2014/results-long.pdf
 W18,94,OK,303,TUR,Kubra Yoruk,10323,high,2014/results-long.pdf

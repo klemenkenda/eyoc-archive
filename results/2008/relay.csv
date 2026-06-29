@@ -1,9 +1,9 @@
 class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
-W16,1,OK,DEN,Denmark,6900,Stine Bagger Hagner,2136,Astrid Ank Jörgensen,2682,Emma Klingenberg,2082,high,2008/eyoc2008.htm
+W16,1,OK,DEN,Denmark,6900,Stine Bagger Hagner,2136,Astrid Ank Jorgensen,2682,Emma Klingenberg,2082,high,2008/eyoc2008.htm
 W16,2,OK,AUT,Austria,6972,Julia Bauer,2144,Anna Simkovics,2671,Anja Arbter,2157,high,2008/eyoc2008.htm
-W16,3,OK,GER,Germany,6982,Susen Lösch,2243,Anna Biller,2578,Resi Rathmann,2161,high,2008/eyoc2008.htm
+W16,3,OK,GER,Germany,6982,Susen Losch,2243,Anna Biller,2578,Resi Rathmann,2161,high,2008/eyoc2008.htm
 W16,4,OK,LTU,Lithuania,7073,Egle Dambrauskaite,2335,Ona Jaugelaite,2493,Vesta Ambrazaite,2245,high,2008/eyoc2008.htm
-W16,5,OK,CZE,Czech Republic,7102,Tereza Novotna,2283,Petra Pavlovcova,2932,Vendula Horcickova,1887,high,2008/eyoc2008.htm
+W16,5,OK,CZE,Czechia,7102,Tereza Novotna,2283,Petra Pavlovcova,2932,Vendula Horcickova,1887,high,2008/eyoc2008.htm
 W16,6,OK,RUS,Russia,7144,Anna Potapova,2220,Natalia Chepaeva,2564,Alina Sabirova,2360,high,2008/eyoc2008.htm
 W16,7,OK,LAT,Latvia,7197,Sabine Tilta,2312,Ilze Buza,2509,Mara Peilane,2376,high,2008/eyoc2008.htm
 W16,8,OK,BLR,Belarus,7503,Nastassia Dzianisava,2298,Yuliya Tsvirbut,3017,Hanna Rudakouskaya,2188,high,2008/eyoc2008.htm
@@ -17,20 +17,20 @@ W16,15,OK,EST,Estonia,8171,Kerstin Uibouppin,2346,Marili Zimmermann,3169,Kaia Ki
 W16,16,OK,GBR,UK,8641,Abi Longhurst,2886,Kirsty Coombs,3139,Sophie Kirk,2616,high,2008/eyoc2008.htm
 W16,17,OK,BUL,Bulgaria,9041,Yana Nikolova,2650,Nadezhda Stoyanova,3457,Snezhana Yordanova,2934,high,2008/eyoc2008.htm
 W16,18,OK,ITA,Italy,9057,Viola Zagonel,2893,Liliana Papandrea,3212,Valeria Grisoni,2952,high,2008/eyoc2008.htm
-W16,19,OK,ESP,Spain,9866,Violeta Feliciano,2527,Raquél Martin,3697,Marta Padilla,3642,high,2008/eyoc2008.htm
+W16,19,OK,ESP,Spain,9866,Violeta Feliciano,2527,Raquel Martin,3697,Marta Padilla,3642,high,2008/eyoc2008.htm
 W18,1,OK,DEN,Denmark,7348,Marie Hauerslev,2416,Ida Bobach,2795,Signe Klinting,2137,high,2008/eyoc2008.htm
 W18,2,OK,SUI,Switzerland,7453,Bettina Aebi,2388,Sarina Jenzer,2678,Isabelle Feer,2387,high,2008/eyoc2008.htm
-W18,3,OK,CZE,Czech Republic,7513,Denisa Kosova,2404,Adélka Jakobova,2655,Verka Müllerova,2454,high,2008/eyoc2008.htm
+W18,3,OK,CZE,Czechia,7513,Denisa Kosova,2404,Adelka Jakobova,2655,Verka Mullerova,2454,high,2008/eyoc2008.htm
 W18,4,OK,FIN,Finland,7588,Sari Anttonen,2359,Lotta Karhola,2851,Venla Niemi,2378,high,2008/eyoc2008.htm
 W18,5,OK,RUS,Russia,7847,Karina Fershalova,2748,Anastasia Tikhonova,2799,Anastasia Trubkina,2300,high,2008/eyoc2008.htm
-W18,6,OK,FRA,France,8134,Perrine Obstetar,2388,Margaux Vassy,3201,Alizée Gaillard,2545,high,2008/eyoc2008.htm
+W18,6,OK,FRA,France,8134,Perrine Obstetar,2388,Margaux Vassy,3201,Alizee Gaillard,2545,high,2008/eyoc2008.htm
 W18,7,OK,NOR,Norway,8240,Anette Baklid,2923,Linn Hokholt,2879,Mari Jevne Arnesen,2438,high,2008/eyoc2008.htm
 W18,8,OK,POL,Poland,8245,Ewa Gwozdz,2886,Monika Gajda,2997,Hanna Wisniewska,2362,high,2008/eyoc2008.htm
 W18,9,OK,LTU,Lithuania,8252,Tekle Emilija Gvildyte,2737,Joana Cesnaite,3070,Ausrine Kutkaite,2445,high,2008/eyoc2008.htm
 W18,10,OK,GBR,UK,8365,Charlotte Watson,2733,Mairead Rocke,3067,Julia Blomquist,2565,high,2008/eyoc2008.htm
 W18,11,OK,UKR,Ukraine,8410,Maryna Palashevska,2678,Olena Pitirimova,3200,Inna Blagodarna,2532,high,2008/eyoc2008.htm
-W18,12,OK,EST,Estonia,8614,Triin Aedmäe,2724,Sigrid Ruul,3388,Piibe Tammemäe,2502,high,2008/eyoc2008.htm
-W18,13,OK,GER,Germany,8772,Josephine Greiner,2424,Sylva Rossberg,3388,Karoline Röhnert,2960,high,2008/eyoc2008.htm
+W18,12,OK,EST,Estonia,8614,Triin Aedmae,2724,Sigrid Ruul,3388,Piibe Tammemae,2502,high,2008/eyoc2008.htm
+W18,13,OK,GER,Germany,8772,Josephine Greiner,2424,Sylva Rossberg,3388,Karoline Rohnert,2960,high,2008/eyoc2008.htm
 W18,14,OK,LAT,Latvia,8904,Ieva Brice,2825,Laura Nimante,3409,Ilze Cahrausa,2670,high,2008/eyoc2008.htm
 W18,15,OK,HUN,Hungary,9009,Reka Toth,2758,Vanda Zsigmond,3078,Ilona Tibay,3173,high,2008/eyoc2008.htm
 W18,16,OK,AUT,Austria,9447,Marlene Habenicht,2752,Anna Elstner,3675,Ulla Mayrhofer,3020,high,2008/eyoc2008.htm
@@ -40,36 +40,36 @@ W18,19,OK,BEL,Belgium,12162,Elisabeth Henkes,2389,Suzanne Brodel,6055,Margot Van
 W18,,DNF,BUL,Bulgaria,,Katya Stoyanova,2887,Liliana Gotseva,4288,Valeria Staneva,,high,2008/eyoc2008.htm
 M16,1,OK,RUS,Russia,7319,Petr Sukharev,2471,Gleb Tikhonov,2509,Ivan Khokhlovskiy,2339,high,2008/eyoc2008.htm
 M16,2,OK,LAT,Latvia,7461,Mikus Zvirbulis,2503,Karlis Baltacis,2466,Reinis Grende,2492,high,2008/eyoc2008.htm
-M16,3,OK,CZE,Czech Republic,7659,Filip Hadac,2465,Stanislav Mokry,2692,Jan Petrzela,2502,high,2008/eyoc2008.htm
+M16,3,OK,CZE,Czechia,7659,Filip Hadac,2465,Stanislav Mokry,2692,Jan Petrzela,2502,high,2008/eyoc2008.htm
 M16,4,OK,LTU,Lithuania,7675,Viktoras Staisiunas,2567,Linas Usas,2795,Arnas Kavolynas,2313,high,2008/eyoc2008.htm
 M16,5,OK,GBR,UK,7706,Tom Fellbaum,2468,Duncan Birtwistle,3000,Jonathon Crickmore,2238,high,2008/eyoc2008.htm
 M16,6,OK,HUN,Hungary,7774,Marcell Horvath,2601,Akos Tolgyesi,2690,Mate Baumholczer,2483,high,2008/eyoc2008.htm
 M16,7,OK,POL,Poland,7811,Mikolaj Dutkowski,2608,Piotr Parfianowicz,2864,Michal Olejnik,2339,high,2008/eyoc2008.htm
 M16,8,OK,FRA,France,7969,Louis Arnould,2476,Remi Dubois,2860,Vincent Avedikian,2633,high,2008/eyoc2008.htm
 M16,9,OK,GER,Germany,7999,Bojan Blumenstein,2466,Christoph Prunsche,2498,Sebastian Schomburg,3035,high,2008/eyoc2008.htm
-M16,10,OK,EST,Estonia,8055,Aleksander Shved,2892,Rene Post,2802,Sergei Rjaböshkin,2361,high,2008/eyoc2008.htm
+M16,10,OK,EST,Estonia,8055,Aleksander Shved,2892,Rene Post,2802,Sergei Rjaboshkin,2361,high,2008/eyoc2008.htm
 M16,11,OK,SVK,Slovakia,8071,Juraj Sokol,2599,Tomas Musinsky,3100,Robert Barcik,2372,high,2008/eyoc2008.htm
 M16,12,OK,UKR,Ukraine,8292,Anriy Polovinko,2779,Oleksiy Byshevets,3039,Sergiy Kovalov,2474,high,2008/eyoc2008.htm
-M16,13,OK,AUT,Austria,8297,Philipp Schiel,2603,Markus Obermüller,2890,Lukas Scharnagl,2804,high,2008/eyoc2008.htm
+M16,13,OK,AUT,Austria,8297,Philipp Schiel,2603,Markus Obermuller,2890,Lukas Scharnagl,2804,high,2008/eyoc2008.htm
 M16,14,OK,SUI,Switzerland,8310,Sven Aschwanden,3394,Matthias Bryner,2513,Alain Denzler,2403,high,2008/eyoc2008.htm
 M16,15,OK,ESP,Spain,8629,Marc Serrallonga,2501,Oscar Vila,2987,Manuel Jurado,3141,high,2008/eyoc2008.htm
-M16,16,OK,POR,Portugal,8930,Joao Mega Figueiredo,2615,Rafael Miguel,3088,Gonçalo Cruz,3227,high,2008/eyoc2008.htm
+M16,16,OK,POR,Portugal,8930,Joao Mega Figueiredo,2615,Rafael Miguel,3088,Goncalo Cruz,3227,high,2008/eyoc2008.htm
 M16,17,OK,BEL,Belgium,9140,Michael van Baelen,2788,Bruno Parmentier,2741,Toon Melis,3611,high,2008/eyoc2008.htm
 M16,18,OK,ITA,Italy,9243,Emilio Tamarri,2927,Simon Framba,3289,Ivano Bettega,3027,high,2008/eyoc2008.htm
 M16,19,OK,IRL,Ireland,9825,Sean Knight,2821,Conor Short,3382,Colm Moran,3622,high,2008/eyoc2008.htm
 M16,20,OK,SRB,Serbia,9881,Luka Markovic,3065,Marko Stevanovic,3424,Nemanja Gasparovic,3392,high,2008/eyoc2008.htm
-M16,21,OK,DEN,Denmark,9966,Kasper Ankjaer Dinesen,2497,Mikkel Sörensen,5191,Marius Thrane Ödum,2278,high,2008/eyoc2008.htm
+M16,21,OK,DEN,Denmark,9966,Kasper Ankjaer Dinesen,2497,Mikkel Sorensen,5191,Marius Thrane Odum,2278,high,2008/eyoc2008.htm
 M16,22,OK,BUL,Bulgaria,10003,Borislav Dimitrov,2840,Slav Vamporov,3829,Boyko Serdarov,3334,high,2008/eyoc2008.htm
 M16,23,OK,SLO,Slovenia,10004,Tibor Golob Mrak,3114,Jernej Podobnik,3963,Vid Bogovic,2927,high,2008/eyoc2008.htm
 M16,24,OK,ROU,Romania,11795,Ionut Vlad Indrecan,4993,Szabolcz Istvan Gyorgy,3237,Teodor Molnar,3565,high,2008/eyoc2008.htm
 M18,1,OK,EST,Estonia,8117,Raido Mitt,2623,Lauri Sild,2852,Kenny Kivikas,2642,high,2008/eyoc2008.htm
 M18,2,OK,SUI,Switzerland,8205,Nicolai Stucki,2630,Florian Howald,3096,Matthias Kyburz,2479,high,2008/eyoc2008.htm
-M18,3,OK,DEN,Denmark,8215,Andreas Boesen,2702,Sören Schwatz Sörensen,3126,Rasmus Thrane Hansen,2387,high,2008/eyoc2008.htm
-M18,4,OK,FRA,France,8231,Théo Fleurent,2659,Mathieu Ringot,3164,Lucas Basset,2408,high,2008/eyoc2008.htm
-M18,5,OK,FIN,Finland,8254,Topi Penttinen,2709,Severi Kymäläinen,3013,Victor Mansner,2532,high,2008/eyoc2008.htm
+M18,3,OK,DEN,Denmark,8215,Andreas Boesen,2702,Soren Schwatz Sorensen,3126,Rasmus Thrane Hansen,2387,high,2008/eyoc2008.htm
+M18,4,OK,FRA,France,8231,Theo Fleurent,2659,Mathieu Ringot,3164,Lucas Basset,2408,high,2008/eyoc2008.htm
+M18,5,OK,FIN,Finland,8254,Topi Penttinen,2709,Severi Kymalainen,3013,Victor Mansner,2532,high,2008/eyoc2008.htm
 M18,6,OK,GBR,UK,8461,Peter Hodkinson,2660,Matthew Halliday,3069,Ralph Street,2732,high,2008/eyoc2008.htm
 M18,7,OK,AUT,Austria,8493,Simon Arbter,2780,Helmut Gremmel,3116,Robert Merl,2597,high,2008/eyoc2008.htm
-M18,8,OK,CZE,Czech Republic,8505,Pavel Kubat,2690,Milos Nykodym,2963,Radek Nozka,2852,high,2008/eyoc2008.htm
+M18,8,OK,CZE,Czechia,8505,Pavel Kubat,2690,Milos Nykodym,2963,Radek Nozka,2852,high,2008/eyoc2008.htm
 M18,9,OK,POL,Poland,8508,Rafal Podzinski,2693,Slawomir Cygler,3113,Bartosz Pawlak,2702,high,2008/eyoc2008.htm
 M18,10,OK,NOR,Norway,8843,Gaute Hallan Steiwer,3039,Mathias Bjugan,3066,Vegard Danielsen,2738,high,2008/eyoc2008.htm
 M18,11,OK,LTU,Lithuania,8847,Tadas Vidzikauskas,2761,Egidijus Dauksys,3460,Karolis Lazdauskas,2626,high,2008/eyoc2008.htm
@@ -86,6 +86,6 @@ M18,21,OK,BEL,Belgium,10528,Benjamin Hofmans,3474,Wouter Leeuws,3466,Jeremy Gena
 M18,22,OK,LAT,Latvia,10542,Andris Cans,3475,Davis Sars,3691,Janis Tamuzs,3376,high,2008/eyoc2008.htm
 M18,23,OK,IRL,Ireland,11601,Kevin O'Boyle,3459,Alan Lane,4779,Niall Ewen,3363,high,2008/eyoc2008.htm
 M18,24,OK,ROU,Romania,13083,Adrian Cosmin Lazan,4711,Marcelin Vasile Giurgica,4072,Cosmin Valentin Georgesc,4300,high,2008/eyoc2008.htm
-M18,25,OK,POR,Portugal,13345,André Pedralva,5242,Manuel Horta,4349,David Sayanda,3754,high,2008/eyoc2008.htm
+M18,25,OK,POR,Portugal,13345,Andre Pedralva,5242,Manuel Horta,4349,David Sayanda,3754,high,2008/eyoc2008.htm
 M18,26,OK,CRO,Croatia,14886,Nino Stancic Vidrac,6166,Matija Razum,4569,Mario Stambuk,4151,high,2008/eyoc2008.htm
 M18,,MP,HUN,Hungary,,Zsolt Fehervari,3762,Mate Bereczki,,Gabor Vellner,,high,2008/eyoc2008.htm

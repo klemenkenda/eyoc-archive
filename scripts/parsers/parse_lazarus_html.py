@@ -119,6 +119,17 @@ def parse_row(line):
     return rank, name, country_text, time_text
 
 
+def _cp1250_char(b):
+    try:
+        return bytes([b]).decode("cp1250")
+    except UnicodeDecodeError:
+        return None
+
+
+_C1_TO_CP1250 = {chr(b): _cp1250_char(b) for b in range(0x80, 0xA0) if _cp1250_char(b) is not None}
+_C1_RE = re.compile("[" + "".join(_C1_TO_CP1250) + "]")
+
+
 def read_html(path):
     raw = path.read_bytes()
     # some years (2002-2007) are genuinely UTF-8; others (2008-2013) are a single-byte
@@ -126,9 +137,14 @@ def read_html(path):
     # charset> tag isn't reliable (some UTF-8 files mislabel as something else and vice
     # versa), so just try UTF-8 first and fall back.
     try:
-        return raw.decode("utf-8")
+        text = raw.decode("utf-8")
     except UnicodeDecodeError:
         return raw.decode("cp1250")  # Central European codepage - handles Š/Č/Ž etc
+    # 2003's file mixes that same cp1250 encoding for a handful of names but had it
+    # mis-converted to UTF-8 a byte at a time (treating each cp1250 byte as a Latin-1
+    # codepoint), landing as literal C1 control characters U+0080-U+009F, e.g. "Bene\x9a"
+    # for "Beneš" - repair those back to the cp1250 character they actually meant.
+    return _C1_RE.sub(lambda m: _C1_TO_CP1250[m.group()], text)
 
 
 def parse_year(path, year):

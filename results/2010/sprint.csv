@@ -1,5 +1,5 @@
 class,rank,status,bib,country,name,time_seconds,confidence,source_file
-W16,1,OK,,SUI,Sandrine Müller,781,high,2010/eyoc2010.htm
+W16,1,OK,,SUI,Sandrine Muller,781,high,2010/eyoc2010.htm
 W16,2,OK,,UKR,Mariya Polishchuk,805,high,2010/eyoc2010.htm
 W16,3,OK,,SUI,Lisa Holer,814,high,2010/eyoc2010.htm
 W16,3,OK,,ESP,Marina Garcia Castro,814,high,2010/eyoc2010.htm
@@ -8,19 +8,19 @@ W16,6,OK,,DEN,Nicoline Friberg Klysner,846,high,2010/eyoc2010.htm
 W16,7,OK,,DEN,Camilla Bevensee,849,high,2010/eyoc2010.htm
 W16,8,OK,,HUN,Vanda Kinde,861,high,2010/eyoc2010.htm
 W16,9,OK,,FRA,Lauriane Beauvisage,863,high,2010/eyoc2010.htm
-W16,10,OK,,CZE,Katerina Chromá,865,high,2010/eyoc2010.htm
+W16,10,OK,,CZE,Katerina Chroma,865,high,2010/eyoc2010.htm
 W16,11,OK,,POR,Vera Alvarez,884,high,2010/eyoc2010.htm
 W16,12,OK,,GBR,Rona Lindsay,886,high,2010/eyoc2010.htm
 W16,13,OK,,POL,Angelika Haniszewska,892,high,2010/eyoc2010.htm
 W16,14,OK,,SUI,Rahel Bertschi,898,high,2010/eyoc2010.htm
-W16,15,OK,,CZE,Hana Dlouhá,903,high,2010/eyoc2010.htm
+W16,15,OK,,CZE,Hana Dlouha,903,high,2010/eyoc2010.htm
 W16,16,OK,,POL,Edyta Baluta,909,high,2010/eyoc2010.htm
-W16,17,OK,,FRA,Noémie Roulleaux,918,high,2010/eyoc2010.htm
+W16,17,OK,,FRA,Noemie Roulleaux,918,high,2010/eyoc2010.htm
 W16,18,OK,,BUL,Antoaneta Dyaksova,922,high,2010/eyoc2010.htm
 W16,19,OK,,LAT,Liga Valdmane,925,high,2010/eyoc2010.htm
 W16,20,OK,,AUT,Elisa Payer,925,high,2010/eyoc2010.htm
-W16,20,OK,,HUN,Kinga Varsányi,925,high,2010/eyoc2010.htm
-W16,22,OK,,CZE,Lenka Svobodová,932,high,2010/eyoc2010.htm
+W16,20,OK,,HUN,Kinga Varsanyi,925,high,2010/eyoc2010.htm
+W16,22,OK,,CZE,Lenka Svobodova,932,high,2010/eyoc2010.htm
 W16,23,OK,,LAT,Arta Martinsone,933,high,2010/eyoc2010.htm
 W16,24,OK,,POL,Agata Stankiewicz,934,high,2010/eyoc2010.htm
 W16,25,OK,,BLR,Anastasiya Ilkevich,936,high,2010/eyoc2010.htm
@@ -32,12 +32,12 @@ W16,30,OK,,POR,Catarina Dias,956,high,2010/eyoc2010.htm
 W16,31,OK,,ESP,Martin de Los Rios de la,958,high,2010/eyoc2010.htm
 W16,32,OK,,LAT,Madara Sadrina,958,high,2010/eyoc2010.htm
 W16,33,OK,,BUL,Aleksandra Nikolova,958,high,2010/eyoc2010.htm
-W16,34,OK,,CZE,Karolína Boránková,962,high,2010/eyoc2010.htm
+W16,34,OK,,CZE,Karolina Borankova,962,high,2010/eyoc2010.htm
 W16,35,OK,,FRA,Delphine Poirot,962,high,2010/eyoc2010.htm
 W16,36,OK,,BUL,Kristina Gotseva,963,high,2010/eyoc2010.htm
 W16,37,OK,,GBR,Florence Haines,964,high,2010/eyoc2010.htm
 W16,38,OK,,EST,Triinu Rooni,964,high,2010/eyoc2010.htm
-W16,39,OK,,HUN,Virág Weiler,969,high,2010/eyoc2010.htm
+W16,39,OK,,HUN,Virag Weiler,969,high,2010/eyoc2010.htm
 W16,40,OK,,LTU,Akvile Preiksaite,973,high,2010/eyoc2010.htm
 W16,41,OK,,EST,Margret Zimmermann,974,high,2010/eyoc2010.htm
 W16,42,OK,,RUS,Elena Shlykova,976,high,2010/eyoc2010.htm
@@ -56,9 +56,9 @@ W16,54,OK,,POL,Angelika Maciejewska,1012,high,2010/eyoc2010.htm
 W16,55,OK,,POR,Ana Anjos,1026,high,2010/eyoc2010.htm
 W16,56,OK,,RUS,Anna Mikheeva,1032,high,2010/eyoc2010.htm
 W16,57,OK,,GER,Theresa Flechsig,1036,high,2010/eyoc2010.htm
-W16,58,OK,,SVK,Barbora Pijáková,1036,high,2010/eyoc2010.htm
-W16,59,OK,,SVK,Ludmila Sokolová,1039,high,2010/eyoc2010.htm
-W16,60,OK,,HUN,Réka Faggyas,1042,high,2010/eyoc2010.htm
+W16,58,OK,,SVK,Barbora Pijakova,1036,high,2010/eyoc2010.htm
+W16,59,OK,,SVK,Ludmila Sokolova,1039,high,2010/eyoc2010.htm
+W16,60,OK,,HUN,Reka Faggyas,1042,high,2010/eyoc2010.htm
 W16,61,OK,,UKR,Olena Postelniak,1046,high,2010/eyoc2010.htm
 W16,62,OK,,POR,Ines Domingues,1059,high,2010/eyoc2010.htm
 W16,63,OK,,UKR,Mariya Boyko,1062,high,2010/eyoc2010.htm
@@ -78,22 +78,22 @@ W16,76,OK,,SLO,Tajda Fo?ki,1735,high,2010/eyoc2010.htm
 W18,1,OK,,SUI,Marion Aebi,753,high,2010/eyoc2010.htm
 W18,2,OK,,NOR,Silje U Maurset,806,high,2010/eyoc2010.htm
 W18,3,OK,,FIN,Henna-Riikka Haikonen,808,high,2010/eyoc2010.htm
-W18,4,OK,,SUI,Franziska Dörig,810,high,2010/eyoc2010.htm
+W18,4,OK,,SUI,Franziska Dorig,810,high,2010/eyoc2010.htm
 W18,5,OK,,SUI,Eveline Schaerli,816,high,2010/eyoc2010.htm
 W18,6,OK,,RUS,Natalia Chepaeva,828,high,2010/eyoc2010.htm
 W18,7,OK,,ROU,Andra Cecilia Anghel,829,high,2010/eyoc2010.htm
-W18,8,OK,,CZE,Markéta Poloprutská,839,high,2010/eyoc2010.htm
+W18,8,OK,,CZE,Marketa Poloprutska,839,high,2010/eyoc2010.htm
 W18,9,OK,,LAT,Beata Zalaiskalna,840,high,2010/eyoc2010.htm
-W18,10,OK,,SWE,Amilia Björklund,845,high,2010/eyoc2010.htm
+W18,10,OK,,SWE,Amilia Bjorklund,845,high,2010/eyoc2010.htm
 W18,11,OK,,NOR,Kamilla Olausen,851,high,2010/eyoc2010.htm
 W18,12,OK,,AUT,Anja Arbter,852,high,2010/eyoc2010.htm
 W18,13,OK,,POR,Mariana Moreira,852,high,2010/eyoc2010.htm
-W18,14,OK,,CZE,Lenka Knapová,852,high,2010/eyoc2010.htm
-W18,15,OK,,SUI,Mirjam Hellmüller,853,high,2010/eyoc2010.htm
-W18,16,OK,,GER,Susen Lösch,857,high,2010/eyoc2010.htm
+W18,14,OK,,CZE,Lenka Knapova,852,high,2010/eyoc2010.htm
+W18,15,OK,,SUI,Mirjam Hellmuller,853,high,2010/eyoc2010.htm
+W18,16,OK,,GER,Susen Losch,857,high,2010/eyoc2010.htm
 W18,17,OK,,AUT,Julia Bauer,860,high,2010/eyoc2010.htm
-W18,18,OK,,CZE,Petra Pavlovcová,868,high,2010/eyoc2010.htm
-W18,19,OK,,HUN,Filoména Kovács,868,high,2010/eyoc2010.htm
+W18,18,OK,,CZE,Petra Pavlovcova,868,high,2010/eyoc2010.htm
+W18,19,OK,,HUN,Filomena Kovacs,868,high,2010/eyoc2010.htm
 W18,20,OK,,AUT,Laura Ramstein,873,high,2010/eyoc2010.htm
 W18,21,OK,,POL,Hanna Klimkowska,875,high,2010/eyoc2010.htm
 W18,22,OK,,GER,Anna Biller,876,high,2010/eyoc2010.htm
@@ -115,7 +115,7 @@ W18,37,OK,,BUL,Nadezhda Stoyanova,919,high,2010/eyoc2010.htm
 W18,38,OK,,POR,Rita Rodrigues,919,high,2010/eyoc2010.htm
 W18,39,OK,,EST,Kaia Kivikas,919,high,2010/eyoc2010.htm
 W18,40,OK,,SWE,Hanna Axelsson-Meyerson,921,high,2010/eyoc2010.htm
-W18,41,OK,,POR,Isabel Sá,924,high,2010/eyoc2010.htm
+W18,41,OK,,POR,Isabel Sa,924,high,2010/eyoc2010.htm
 W18,42,OK,,SWE,Helena Karlsson,925,high,2010/eyoc2010.htm
 W18,43,OK,,GBR,Kirstin Maxwell,932,high,2010/eyoc2010.htm
 W18,44,OK,,GER,Resi Rathmann,932,high,2010/eyoc2010.htm
@@ -123,18 +123,18 @@ W18,45,OK,,FIN,Marika Suominen,933,high,2010/eyoc2010.htm
 W18,46,OK,,EST,Kaisa Raudkepp,933,high,2010/eyoc2010.htm
 W18,47,OK,,GBR,Sophie Kirk,934,high,2010/eyoc2010.htm
 W18,48,OK,,BEL,Fanny Tilkin,935,high,2010/eyoc2010.htm
-W18,49,OK,,CZE,Tereza Svobodná,935,high,2010/eyoc2010.htm
+W18,49,OK,,CZE,Tereza Svobodna,935,high,2010/eyoc2010.htm
 W18,50,OK,,GBR,Joanna Shepherd,940,high,2010/eyoc2010.htm
-W18,51,OK,,SVK,Katarína Papugová,942,high,2010/eyoc2010.htm
+W18,51,OK,,SVK,Katarina Papugova,942,high,2010/eyoc2010.htm
 W18,52,OK,,LAT,Sabine Tilta,943,high,2010/eyoc2010.htm
 W18,53,OK,,RUS,Ekaterina Kuznetcova,949,high,2010/eyoc2010.htm
 W18,54,OK,,ITA,Viola Zagonel,952,high,2010/eyoc2010.htm
 W18,55,OK,,FRA,Fanny Roche,952,high,2010/eyoc2010.htm
-W18,56,OK,,HUN,Réka Zempléni,956,high,2010/eyoc2010.htm
+W18,56,OK,,HUN,Reka Zempleni,956,high,2010/eyoc2010.htm
 W18,57,OK,,NOR,Synne Baklid,957,high,2010/eyoc2010.htm
 W18,58,OK,,UKR,Olena Fedorova,960,high,2010/eyoc2010.htm
 W18,59,OK,,RUS,Alexandra Klimenko,966,high,2010/eyoc2010.htm
-W18,60,OK,,HUN,Mónika Szokol,967,high,2010/eyoc2010.htm
+W18,60,OK,,HUN,Monika Szokol,967,high,2010/eyoc2010.htm
 W18,61,OK,,BLR,Natallia Shakhmetava,967,high,2010/eyoc2010.htm
 W18,62,OK,,FIN,Essi Hietaoja,975,high,2010/eyoc2010.htm
 W18,63,OK,,AUT,Anna Nilsson-Simkovics,976,high,2010/eyoc2010.htm
@@ -143,7 +143,7 @@ W18,65,OK,,UKR,Yevheniya Serdyuk,984,high,2010/eyoc2010.htm
 W18,66,OK,,UKR,Alona Yatsyna,997,high,2010/eyoc2010.htm
 W18,67,OK,,LAT,Ance Rusova,1005,high,2010/eyoc2010.htm
 W18,68,OK,,POL,Natalia Ewiak,1009,high,2010/eyoc2010.htm
-W18,69,OK,,HUN,Krisztina Tóth,1018,high,2010/eyoc2010.htm
+W18,69,OK,,HUN,Krisztina Toth,1018,high,2010/eyoc2010.htm
 W18,70,OK,,ESP,Raquel Martin Jimenez,1020,high,2010/eyoc2010.htm
 W18,71,OK,,NOR,Anneke H Bjrrgum,1036,high,2010/eyoc2010.htm
 W18,72,OK,,ESP,Gema Arellano del Verbo,1075,high,2010/eyoc2010.htm
@@ -153,20 +153,20 @@ M16,2,OK,,DEN,Thor Nrrskov,785,high,2010/eyoc2010.htm
 M16,3,OK,,SUI,Severin Denzler,802,high,2010/eyoc2010.htm
 M16,4,OK,,LAT,Rudolfs Zernis,804,high,2010/eyoc2010.htm
 M16,5,OK,,LTU,Algirdas Bartkevicius,813,high,2010/eyoc2010.htm
-M16,6,OK,,CZE,Marek Minár,823,high,2010/eyoc2010.htm
+M16,6,OK,,CZE,Marek Minar,823,high,2010/eyoc2010.htm
 M16,7,OK,,RUS,Alexander Makeychik,825,high,2010/eyoc2010.htm
 M16,8,OK,,CZE,Jan Grundmann,829,high,2010/eyoc2010.htm
-M16,9,OK,,SUI,Sven Hellmüller,832,high,2010/eyoc2010.htm
+M16,9,OK,,SUI,Sven Hellmuller,832,high,2010/eyoc2010.htm
 M16,10,OK,,ITA,Samuele Curzio,834,high,2010/eyoc2010.htm
 M16,11,OK,,RUS,Alexandr Likhnevskiy,835,high,2010/eyoc2010.htm
 M16,12,OK,,AUT,Alexander Berger,836,high,2010/eyoc2010.htm
 M16,13,OK,,ESP,Luis Sanchez Serrano,845,high,2010/eyoc2010.htm
 M16,14,OK,,GBR,Aidan Smith,847,high,2010/eyoc2010.htm
-M16,15,OK,,CZE,Patrik Horák,848,high,2010/eyoc2010.htm
+M16,15,OK,,CZE,Patrik Horak,848,high,2010/eyoc2010.htm
 M16,16,OK,,FRA,Maxime Rauturier,849,high,2010/eyoc2010.htm
 M16,17,OK,,DEN,Joakim Sehested Sie,851,high,2010/eyoc2010.htm
 M16,18,OK,,SUI,Simon Wenger,854,high,2010/eyoc2010.htm
-M16,18,OK,,HUN,Márton Kazal,854,high,2010/eyoc2010.htm
+M16,18,OK,,HUN,Marton Kazal,854,high,2010/eyoc2010.htm
 M16,20,OK,,BUL,Apostol Atanasov,857,high,2010/eyoc2010.htm
 M16,21,OK,,POL,Witold Jasinski,858,high,2010/eyoc2010.htm
 M16,22,OK,,ESP,Eduardo Gil Marcos,860,high,2010/eyoc2010.htm
@@ -179,7 +179,7 @@ M16,28,OK,,LAT,Valters Lubinskis,875,high,2010/eyoc2010.htm
 M16,29,OK,,RUS,Ivan Kuchmenko,876,high,2010/eyoc2010.htm
 M16,30,OK,,POL,Krzysztof Wolowczyk,879,high,2010/eyoc2010.htm
 M16,31,OK,,LAT,Gatis Bereznojs,880,high,2010/eyoc2010.htm
-M16,32,OK,,SUI,Yannis Güdel,884,high,2010/eyoc2010.htm
+M16,32,OK,,SUI,Yannis Gudel,884,high,2010/eyoc2010.htm
 M16,33,OK,,ESP,Rafael Sanchez Baillo,886,high,2010/eyoc2010.htm
 M16,34,OK,,ISR,Dvir Schechter,888,high,2010/eyoc2010.htm
 M16,35,OK,,EST,Tonis Laugesaar,889,high,2010/eyoc2010.htm
@@ -188,18 +188,18 @@ M16,37,OK,,POR,Joao Cascalho,899,high,2010/eyoc2010.htm
 M16,38,OK,,LAT,Emils Henrijs Taube,900,high,2010/eyoc2010.htm
 M16,39,OK,,UKR,Andriy Polovinko,902,high,2010/eyoc2010.htm
 M16,40,OK,,GER,Valtteri Kolehmainen,903,high,2010/eyoc2010.htm
-M16,41,OK,,CZE,Joná? Hubácek,906,high,2010/eyoc2010.htm
-M16,42,OK,,HUN,Mátyás Péntek,908,high,2010/eyoc2010.htm
+M16,41,OK,,CZE,Jona? Hubacek,906,high,2010/eyoc2010.htm
+M16,42,OK,,HUN,Matyas Pentek,908,high,2010/eyoc2010.htm
 M16,43,OK,,SRB,Filip Stevanovic,911,high,2010/eyoc2010.htm
 M16,44,OK,,POL,Wojciech Dudek,915,high,2010/eyoc2010.htm
-M16,45,OK,,HUN,Dávid Máté Csöngei,919,high,2010/eyoc2010.htm
-M16,46,OK,,SVK,Simon Mizúr,921,high,2010/eyoc2010.htm
+M16,45,OK,,HUN,David Mate Csongei,919,high,2010/eyoc2010.htm
+M16,46,OK,,SVK,Simon Mizur,921,high,2010/eyoc2010.htm
 M16,46,OK,,ROU,Cristian Ionut Georgescu,921,high,2010/eyoc2010.htm
 M16,48,OK,,DEN,Jonas Falck Weber,923,high,2010/eyoc2010.htm
 M16,49,OK,,ESP,Alvaro Corral Suarez,925,high,2010/eyoc2010.htm
 M16,50,OK,,UKR,Vitaliy Gychko,927,high,2010/eyoc2010.htm
 M16,51,OK,,BEL,Thomas Gillet,928,high,2010/eyoc2010.htm
-M16,52,OK,,HUN,Bertalan Kovács,930,high,2010/eyoc2010.htm
+M16,52,OK,,HUN,Bertalan Kovacs,930,high,2010/eyoc2010.htm
 M16,53,OK,,BEL,Tristan Bloemen,937,high,2010/eyoc2010.htm
 M16,54,OK,,GBR,Chris Young,938,high,2010/eyoc2010.htm
 M16,55,OK,,GBR,Jack Benham,939,high,2010/eyoc2010.htm
@@ -233,14 +233,14 @@ M16,82,OK,,SLO,Nejc Kodric,1189,high,2010/eyoc2010.htm
 M16,83,OK,,BLR,Artsiom Lohinav,1262,high,2010/eyoc2010.htm
 M18,1,OK,,CZE,Marek Schuster,834,high,2010/eyoc2010.htm
 M18,2,OK,,SUI,Florian Schneider,847,high,2010/eyoc2010.htm
-M18,3,OK,,CZE,Michal Hubácek,855,high,2010/eyoc2010.htm
-M18,4,OK,,HUN,Máté Baumholczer,860,high,2010/eyoc2010.htm
+M18,3,OK,,CZE,Michal Hubacek,855,high,2010/eyoc2010.htm
+M18,4,OK,,HUN,Mate Baumholczer,860,high,2010/eyoc2010.htm
 M18,5,OK,,NOR,Jon A Osmoen,861,high,2010/eyoc2010.htm
-M18,6,OK,,SUI,Niklaus Hägler,872,high,2010/eyoc2010.htm
+M18,6,OK,,SUI,Niklaus Hagler,872,high,2010/eyoc2010.htm
 M18,7,OK,,NOR,Hlkon Westerglrd,880,high,2010/eyoc2010.htm
 M18,8,OK,,ITA,Giacomo Zagonel,884,high,2010/eyoc2010.htm
 M18,9,OK,,FIN,Jesse Laukkarinen,888,high,2010/eyoc2010.htm
-M18,10,OK,,SWE,Jens Wängdahl,889,high,2010/eyoc2010.htm
+M18,10,OK,,SWE,Jens Wangdahl,889,high,2010/eyoc2010.htm
 M18,11,OK,,GBR,Jonathan Crickmore,889,high,2010/eyoc2010.htm
 M18,12,OK,,SWE,Love Berzell,891,high,2010/eyoc2010.htm
 M18,13,OK,,NOR,Simen Aamodt,899,high,2010/eyoc2010.htm
@@ -251,22 +251,22 @@ M18,17,OK,,FIN,Mikko Huhtinen,904,high,2010/eyoc2010.htm
 M18,18,OK,,ISR,Eran Segal,904,high,2010/eyoc2010.htm
 M18,19,OK,,SLO,Tibor Mrak,904,high,2010/eyoc2010.htm
 M18,20,OK,,POR,Joao Figueiredo,908,high,2010/eyoc2010.htm
-M18,21,OK,,SVK,Róbert Barcík,917,high,2010/eyoc2010.htm
+M18,21,OK,,SVK,Robert Barcik,917,high,2010/eyoc2010.htm
 M18,22,OK,,RUS,Alexander Dulatov,919,high,2010/eyoc2010.htm
-M18,23,OK,,HUN,Marcell Horváth,921,high,2010/eyoc2010.htm
+M18,23,OK,,HUN,Marcell Horvath,921,high,2010/eyoc2010.htm
 M18,24,OK,,POL,Damian Rychly,922,high,2010/eyoc2010.htm
 M18,25,OK,,POL,Michal Olejnik,924,high,2010/eyoc2010.htm
 M18,26,OK,,POR,Rafael Miguel,925,high,2010/eyoc2010.htm
 M18,27,OK,,SWE,Max Peter Beijmer,925,high,2010/eyoc2010.htm
-M18,28,OK,,HUN,Domokos Péley,925,high,2010/eyoc2010.htm
-M18,29,OK,,FRA,Rémi Dubois,926,high,2010/eyoc2010.htm
+M18,28,OK,,HUN,Domokos Peley,925,high,2010/eyoc2010.htm
+M18,29,OK,,FRA,Remi Dubois,926,high,2010/eyoc2010.htm
 M18,30,OK,,RUS,Andrey Kozyrev,930,high,2010/eyoc2010.htm
-M18,31,OK,,POR,Fábio Silva,931,high,2010/eyoc2010.htm
+M18,31,OK,,POR,Fabio Silva,931,high,2010/eyoc2010.htm
 M18,32,OK,,DEN,Mikkel Srrensen,931,high,2010/eyoc2010.htm
 M18,33,OK,,GBR,Tom Fellbaum,931,high,2010/eyoc2010.htm
-M18,34,OK,,SVK,Dávid Franko,939,high,2010/eyoc2010.htm
-M18,35,OK,,SWE,Fredrik Edén,939,high,2010/eyoc2010.htm
-M18,36,OK,,SUI,Ismael Röthlisberger,942,high,2010/eyoc2010.htm
+M18,34,OK,,SVK,David Franko,939,high,2010/eyoc2010.htm
+M18,35,OK,,SWE,Fredrik Eden,939,high,2010/eyoc2010.htm
+M18,36,OK,,SUI,Ismael Rothlisberger,942,high,2010/eyoc2010.htm
 M18,37,OK,,NOR,Mathias S Lillevold,942,high,2010/eyoc2010.htm
 M18,38,OK,,ROU,Daniel Barkasz,943,high,2010/eyoc2010.htm
 M18,39,OK,,GER,Bojan Blumenstein,947,high,2010/eyoc2010.htm
@@ -280,13 +280,13 @@ M18,46,OK,,LAT,Reinis Grende,954,high,2010/eyoc2010.htm
 M18,47,OK,,ITA,Nicola Manzoni,957,high,2010/eyoc2010.htm
 M18,48,OK,,UKR,Oleksiy Byshevets,959,high,2010/eyoc2010.htm
 M18,49,OK,,UKR,Mykyta Sokolskyy,960,high,2010/eyoc2010.htm
-M18,50,OK,,ESP,Gerard Serrallonga Amigó,961,high,2010/eyoc2010.htm
+M18,50,OK,,ESP,Gerard Serrallonga Amigo,961,high,2010/eyoc2010.htm
 M18,51,OK,,FRA,Lodc Capbern,962,high,2010/eyoc2010.htm
 M18,52,OK,,FIN,Miika Arvola,963,high,2010/eyoc2010.htm
 M18,53,OK,,ESP,Manuel Jurado Alonso,963,high,2010/eyoc2010.htm
 M18,54,OK,,LAT,Davis Dislers,977,high,2010/eyoc2010.htm
-M18,55,OK,,SVK,Tomá? Mu?inský,979,high,2010/eyoc2010.htm
-M18,56,OK,,BEL,Michaël van Baelen,982,high,2010/eyoc2010.htm
+M18,55,OK,,SVK,Toma? Mu?insky,979,high,2010/eyoc2010.htm
+M18,56,OK,,BEL,Michael van Baelen,982,high,2010/eyoc2010.htm
 M18,57,OK,,BUL,Kirilov Paskalev,982,high,2010/eyoc2010.htm
 M18,58,OK,,RUS,Ivan Rodionov,983,high,2010/eyoc2010.htm
 M18,59,OK,,POR,Pedro Silva,983,high,2010/eyoc2010.htm
@@ -317,8 +317,8 @@ M18,83,OK,,HUN,Attila Nagy,1065,high,2010/eyoc2010.htm
 M18,84,OK,,EST,Rene Post,1073,high,2010/eyoc2010.htm
 M18,85,OK,,SRB,Marko Stevanovic,1083,high,2010/eyoc2010.htm
 M18,86,OK,,ISR,Asaf Avner,1094,high,2010/eyoc2010.htm
-M18,87,OK,,CZE,Jirí Valenta,1101,high,2010/eyoc2010.htm
-M18,88,OK,,CZE,Boris Navrátil,1149,high,2010/eyoc2010.htm
+M18,87,OK,,CZE,Jiri Valenta,1101,high,2010/eyoc2010.htm
+M18,88,OK,,CZE,Boris Navratil,1149,high,2010/eyoc2010.htm
 M18,89,OK,,IRL,Josh O'Sullivan-Hourihan,1159,high,2010/eyoc2010.htm
 M18,90,OK,,ISR,Shaked Regev,1176,high,2010/eyoc2010.htm
 M18,91,OK,,SLO,Marko Ore?nik,1201,high,2010/eyoc2010.htm
