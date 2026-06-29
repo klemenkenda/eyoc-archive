@@ -3,7 +3,8 @@ Eyoc.views = Eyoc.views || {};
 
 Eyoc.views.home = function () {
   return {
-    searchQuery: "",
+    query: "",
+    suggestionsOpen: false,
     countryCode: "",
     countryQuery: "",
     countryOpen: false,
@@ -40,6 +41,12 @@ Eyoc.views.home = function () {
       return Eyoc.store.countriesWithResults().length;
     },
 
+    get suggestions() {
+      const q = this.query.trim().toLowerCase();
+      if (!q) return [];
+      return Eyoc.lib.athleteNameSuggestions(q, 8);
+    },
+
     countryName(code) {
       return Eyoc.store.countryName(code);
     },
@@ -48,8 +55,27 @@ Eyoc.views.home = function () {
       return meta && meta.has_logo ? `assets/logos/eyoc-${meta.year}.png` : null;
     },
 
+    yearsLabel(entry) {
+      return Eyoc.lib.athleteYearsLabel(entry);
+    },
+
+    openSuggestions() {
+      this.suggestionsOpen = true;
+    },
+
+    closeSuggestions() {
+      this.suggestionsOpen = false;
+    },
+
+    selectSuggestion(entry) {
+      this.query = entry.name;
+      this.suggestionsOpen = false;
+      location.hash = `#/athlete?q=${encodeURIComponent(entry.name)}`;
+    },
+
     submitSearch() {
-      const q = this.searchQuery.trim();
+      const q = this.query.trim();
+      this.suggestionsOpen = false;
       if (q) location.hash = `#/athlete?q=${encodeURIComponent(q)}`;
     },
 

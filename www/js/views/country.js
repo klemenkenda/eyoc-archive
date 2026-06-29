@@ -109,6 +109,15 @@ Eyoc.views.country = function (code) {
       return `${entry.year}: did not compete`;
     },
 
+    highlightName(row) {
+      if (row.discipline !== "relay") return row.name || "";
+      return [row.leg1_name, row.leg2_name, row.leg3_name].find(Boolean) || "";
+    },
+
+    resultsLink(row) {
+      return `#/year/${row.year}?discipline=${row.discipline}&class=${row.class}&name=${encodeURIComponent(this.highlightName(row))}`;
+    },
+
     get bestChain() {
       return Eyoc.lib.bestPlaceProgression(this.resultsCandidateRows, this.resultsFieldSizes);
     },
