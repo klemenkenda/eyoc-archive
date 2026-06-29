@@ -94,6 +94,13 @@ Eyoc.views.athlete = function (initialQuery) {
         .filter(Boolean);
     },
 
+    // The one leg runner that actually matched the search - feeds the Class link's
+    // "name" query param, so the year page can highlight that specific runner's row.
+    matchedRunnerName(row) {
+      const match = this.legRunners(row).find((r) => r.matched);
+      return match ? match.name : "";
+    },
+
     submitSearch() {
       const q = this.query.trim();
       this.chosenName = q;

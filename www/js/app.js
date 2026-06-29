@@ -18,6 +18,7 @@ Eyoc.parseHash = function (hash) {
   const [name, ...rest] = segments;
   if (name === "year") return { name: "year", params: { ...params, year: rest[0] } };
   if (name === "athlete") return { name: "athlete", params };
+  if (name === "medals") return { name: "medals", params };
   if (name === "country") return { name: "country", params: { ...params, code: rest[0] } };
   if (name === "countries") return { name: "countries", params };
   if (name === "rankings") return { name: "rankings", params };

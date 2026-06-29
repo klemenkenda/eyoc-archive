@@ -15,6 +15,9 @@ Eyoc.views.year = function (yearParam, params = {}) {
     classes,
     ...Eyoc.lib.tableState("rank"),
     classFilter: classes.includes(params.class) ? params.class : "",
+    // Set when arriving via a "Class" link from the athlete search page - highlights
+    // that specific competitor/leg runner's row so it's easy to spot in a long table.
+    highlightName: params.name || "",
 
     init() {
       // The wrapping x-if only swaps this component out when route.name changes, not

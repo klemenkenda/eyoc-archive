@@ -13,6 +13,7 @@
   <a class="brand" href="#/"><img src="assets/logo-new.png" alt="EYOC Archive"></a>
   <nav>
     <a href="#/" :class="{active: route.name === 'home'}">Home</a>
+    <a href="#/medals" :class="{active: route.name === 'medals'}">Medals</a>
     <a href="#/rankings" :class="{active: route.name === 'rankings'}">Rankings</a>
     <a href="#/countries" :class="{active: route.name === 'countries'}">Countries</a>
     <a href="#/athlete" :class="{active: route.name === 'athlete'}">Athletes</a>
@@ -134,8 +135,11 @@
               </thead>
               <tbody>
                 <template x-for="row in rows" :key="row.class + '-' + row.rank + '-' + row.name + '-' + row.source_file">
-                  <tr>
-                    <td class="col-rank" x-text="Eyoc.lib.displayRank(row)"></td>
+                  <tr :class="{ 'row-highlight': highlightName && row.name === highlightName }">
+                    <td class="col-rank">
+                      <span class="rank-icon" :class="Eyoc.lib.rankIconClass(row)"></span>
+                      <span x-text="Eyoc.lib.displayRank(row)"></span>
+                    </td>
                     <td>
                       <span x-text="row.name"></span>
                       <span x-show="row.confidence === 'approx'" class="badge" title="OCR-derived, lower confidence">approx</span>
@@ -165,14 +169,17 @@
               <tbody>
                 <template x-for="row in rows" :key="row.class + '-' + row.rank + '-' + row.team + '-' + row.source_file">
                   <tr>
-                    <td class="col-rank" x-text="Eyoc.lib.displayRank(row)"></td>
+                    <td class="col-rank">
+                      <span class="rank-icon" :class="Eyoc.lib.rankIconClass(row)"></span>
+                      <span x-text="Eyoc.lib.displayRank(row)"></span>
+                    </td>
                     <td>
                       <img class="flag" x-show="Eyoc.lib.flagUrl(row.country)" :src="Eyoc.lib.flagUrl(row.country)" :alt="row.country">
                       <a :href="'#/country/' + row.country" x-text="row.team"></a>
                       <span x-show="row.confidence === 'approx'" class="badge" title="OCR-derived, lower confidence">approx</span>
                     </td>
                     <td>
-                      <div x-text="row.leg1_name"></div>
+                      <div :class="{ 'row-highlight': highlightName && row.leg1_name === highlightName }" x-text="row.leg1_name"></div>
                       <div class="leg-split">
                         <span x-text="Eyoc.lib.formatLegTime(row, 1)"></span>
                         <span x-text="Eyoc.lib.legDiff(row, 1)"></span>
@@ -180,7 +187,7 @@
                       </div>
                     </td>
                     <td>
-                      <div x-text="row.leg2_name"></div>
+                      <div :class="{ 'row-highlight': highlightName && row.leg2_name === highlightName }" x-text="row.leg2_name"></div>
                       <div class="leg-split">
                         <span x-text="Eyoc.lib.formatLegTime(row, 2)"></span>
                         <span x-text="Eyoc.lib.legDiff(row, 2)"></span>
@@ -189,7 +196,7 @@
                       </div>
                     </td>
                     <td>
-                      <div x-text="row.leg3_name"></div>
+                      <div :class="{ 'row-highlight': highlightName && row.leg3_name === highlightName }" x-text="row.leg3_name"></div>
                       <div class="leg-split">
                         <span x-text="Eyoc.lib.formatLegTime(row, 3)"></span>
                         <span x-text="Eyoc.lib.legDiff(row, 3)"></span>
@@ -257,7 +264,7 @@
                 <tr>
                   <td><a :href="'#/year/' + row.year" x-text="row.year"></a></td>
                   <td x-text="row.discipline"></td>
-                  <td><a :href="'#/year/' + row.year + '?discipline=' + row.discipline + '&class=' + row.class" x-text="row.class"></a></td>
+                  <td><a :href="'#/year/' + row.year + '?discipline=' + row.discipline + '&class=' + row.class + '&name=' + encodeURIComponent(row.name)" x-text="row.class"></a></td>
                   <td class="col-rank">
                     <span class="rank-icon" :class="Eyoc.lib.rankIconClass(row)"></span>
                     <span :class="{ 'rank-first-half': Eyoc.lib.isFirstHalf(row, row.field) }" x-text="Eyoc.lib.displayRankWithField(row, row.field)"></span>
@@ -282,7 +289,7 @@
               <template x-for="row in relayMatches" :key="row.year + '-' + row.class + '-' + row.team + '-' + row.source_file">
                 <tr>
                   <td><a :href="'#/year/' + row.year" x-text="row.year"></a></td>
-                  <td><a :href="'#/year/' + row.year + '?discipline=relay&class=' + row.class" x-text="row.class"></a></td>
+                  <td><a :href="'#/year/' + row.year + '?discipline=relay&class=' + row.class + '&name=' + encodeURIComponent(matchedRunnerName(row))" x-text="row.class"></a></td>
                   <td class="col-rank">
                     <span class="rank-icon" :class="Eyoc.lib.rankIconClass(row)"></span>
                     <span :class="{ 'rank-first-half': Eyoc.lib.isFirstHalf(row, row.field) }" x-text="Eyoc.lib.displayRankWithField(row, row.field)"></span>
@@ -429,6 +436,71 @@
     </div>
   </template>
 
+  <!-- MEDALS -->
+  <template x-if="$store.eyoc.loaded && route.name === 'medals'">
+    <div x-data="Eyoc.views.medals()">
+      <h1>Medal table</h1>
+      <p class="hint">Gold/silver/bronze and podium (4th-6th) counts across individual and
+        relay events combined, for the selected year range. Ranked by gold count first,
+        then silver, then bronze, then podium finishes - not by total medals.</p>
+
+      <div class="course-info year-range">
+        <span class="hint">From</span>
+        <div class="country-select year-select" @click.outside="fromOpen = false">
+          <div class="country-select-trigger" @click="fromOpen = !fromOpen">
+            <span x-text="fromYear"></span>
+            <span class="country-select-caret">▾</span>
+          </div>
+          <ul class="country-select-list" x-show="fromOpen" x-transition>
+            <template x-for="y in years" :key="y">
+              <li @click="selectFromYear(y)" :class="{active: y === fromYear}" x-text="y"></li>
+            </template>
+          </ul>
+        </div>
+
+        <span class="hint">To</span>
+        <div class="country-select year-select" @click.outside="toOpen = false">
+          <div class="country-select-trigger" @click="toOpen = !toOpen">
+            <span x-text="toYear"></span>
+            <span class="country-select-caret">▾</span>
+          </div>
+          <ul class="country-select-list" x-show="toOpen" x-transition>
+            <template x-for="y in years" :key="y">
+              <li @click="selectToYear(y)" :class="{active: y === toYear}" x-text="y"></li>
+            </template>
+          </ul>
+        </div>
+      </div>
+
+      <table class="results-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Country</th>
+            <th class="col-rank"><span class="rank-icon rank-icon-gold"></span> Gold</th>
+            <th class="col-rank"><span class="rank-icon rank-icon-silver"></span> Silver</th>
+            <th class="col-rank"><span class="rank-icon rank-icon-bronze"></span> Bronze</th>
+            <th class="col-rank"><span class="rank-icon rank-icon-podium"></span> Podium</th>
+            <th class="col-rank">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <template x-for="(c, i) in countryMedals" :key="c.code">
+            <tr>
+              <td x-text="i + 1"></td>
+              <td><a :href="'#/country/' + c.code"><img class="flag" x-show="Eyoc.lib.flagUrl(c.code)" :src="Eyoc.lib.flagUrl(c.code)" :alt="c.code"> <span x-text="c.name"></span></a></td>
+              <td class="col-rank" x-text="c.gold"></td>
+              <td class="col-rank" x-text="c.silver"></td>
+              <td class="col-rank" x-text="c.bronze"></td>
+              <td class="col-rank" x-text="c.podium"></td>
+              <td class="col-rank" x-text="c.total"></td>
+            </tr>
+          </template>
+        </tbody>
+      </table>
+    </div>
+  </template>
+
   <!-- RANKINGS -->
   <template x-if="$store.eyoc.loaded && route.name === 'rankings'">
     <div x-data="Eyoc.views.rankings()">
@@ -514,6 +586,7 @@
 <script defer src="js/views/country.js"></script>
 <script defer src="js/views/countries.js"></script>
 <script defer src="js/views/rankings.js"></script>
+<script defer src="js/views/medals.js"></script>
 <script defer src="js/app.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>

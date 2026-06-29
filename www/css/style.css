@@ -287,6 +287,15 @@ footer {
   color: white;
 }
 
+/* Year-range pickers (Medals page) - same "Jump to a country" dropdown component as the
+   home page (.country-select etc.), just narrower since a year is 4 digits, not a
+   country name, and with no text-filtering since there are only ~25 options. */
+.year-range { align-items: center; }
+.year-range .hint { margin: 0; }
+.year-select { width: 90px; }
+.year-select .country-select-trigger { cursor: pointer; justify-content: space-between; }
+.country-select-list li.active { background: #eef4fb; color: var(--navy); font-weight: 600; }
+
 .pagination {
   display: flex;
   align-items: center;
@@ -331,6 +340,15 @@ footer {
 
 .rank-first-half { font-weight: 700; }
 .runner-matched { font-weight: 700; }
+
+/* Highlights the specific competitor/leg runner a "Class" link from the athlete search
+   page was clicked for - a tinted full row for the individual table, a tinted chip
+   around just that one name for the relay table (since a relay row has three names and
+   only one of them is the one being pointed at). */
+.row-highlight { background: #fff3cd; }
+.results-table tbody tr.row-highlight,
+.results-table tbody tr.row-highlight:hover { background: #fff3cd; }
+.results-table td > div.row-highlight { display: inline-block; padding: 0 0.3rem; border-radius: 4px; }
 
 /* Small icon in front of a rank: a numbered medal-on-a-ribbon for 1st-3rd, a navy/orange
    podium silhouette for 4th-6th. No icon class is set (rankIconClass returns "") for
