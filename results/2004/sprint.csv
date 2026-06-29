@@ -50,22 +50,22 @@ W16,48,OK,,BUL,Ivanka Lazarova,1033,high,2004/eyoc2004.htm
 W16,49,OK,,ITA,Jutta Torggler,1042,high,2004/eyoc2004.htm
 W16,50,OK,,BLR,Katsiaryna Prakharenka,1042,high,2004/eyoc2004.htm
 W16,51,OK,,ROU,Ioana Zah-Ghit,1045,high,2004/eyoc2004.htm
-W16,53,OK,,SVK,Jana Krsiakova,1058,high,2004/eyoc2004.htm
-W16,54,OK,,FRA,Cecile Papillon,1075,high,2004/eyoc2004.htm
-W16,55,OK,,RUS,Ekaterina Popovich,1080,high,2004/eyoc2004.htm
-W16,56,OK,,ROU,Monica Auer,1091,high,2004/eyoc2004.htm
-W16,57,OK,,ITA,Marija Pruss,1126,high,2004/eyoc2004.htm
-W16,58,OK,,BUL,Zhanet Bochukova,1129,high,2004/eyoc2004.htm
-W16,59,OK,,SRB,Vedrana Radosavljevic,1135,high,2004/eyoc2004.htm
-W16,60,OK,,SRB,Marta Zdravkovic,1151,high,2004/eyoc2004.htm
-W16,61,OK,,UKR,Olha Hrynko,1223,high,2004/eyoc2004.htm
-W16,62,OK,,ESP,Luisa Rico Mira,1236,high,2004/eyoc2004.htm
-W16,63,OK,,EST,Eleri Hirv,1277,high,2004/eyoc2004.htm
-W16,64,OK,,ESP,Angela Lopez Juan,1315,high,2004/eyoc2004.htm
-W16,65,OK,,ESP,Alicia Gil Sanchez,1366,high,2004/eyoc2004.htm
-W16,66,OK,,BUL,Monika Prodanova,1382,high,2004/eyoc2004.htm
-W16,67,OK,,SRB,Nada Zdravkovic,1415,high,2004/eyoc2004.htm
-W16,68,OK,,GER,Sandra Juras,1456,high,2004/eyoc2004.htm
+W16,52,OK,,SVK,Jana Krsiakova,1058,high,2004/eyoc2004.htm
+W16,53,OK,,FRA,Cecile Papillon,1075,high,2004/eyoc2004.htm
+W16,54,OK,,RUS,Ekaterina Popovich,1080,high,2004/eyoc2004.htm
+W16,55,OK,,ROU,Monica Auer,1091,high,2004/eyoc2004.htm
+W16,56,OK,,ITA,Marija Pruss,1126,high,2004/eyoc2004.htm
+W16,57,OK,,BUL,Zhanet Bochukova,1129,high,2004/eyoc2004.htm
+W16,58,OK,,SRB,Vedrana Radosavljevic,1135,high,2004/eyoc2004.htm
+W16,59,OK,,SRB,Marta Zdravkovic,1151,high,2004/eyoc2004.htm
+W16,60,OK,,UKR,Olha Hrynko,1223,high,2004/eyoc2004.htm
+W16,61,OK,,ESP,Luisa Rico Mira,1236,high,2004/eyoc2004.htm
+W16,62,OK,,EST,Eleri Hirv,1277,high,2004/eyoc2004.htm
+W16,63,OK,,ESP,Angela Lopez Juan,1315,high,2004/eyoc2004.htm
+W16,64,OK,,ESP,Alicia Gil Sanchez,1366,high,2004/eyoc2004.htm
+W16,65,OK,,BUL,Monika Prodanova,1382,high,2004/eyoc2004.htm
+W16,66,OK,,SRB,Nada Zdravkovic,1415,high,2004/eyoc2004.htm
+W16,67,OK,,GER,Sandra Juras,1456,high,2004/eyoc2004.htm
 W18,1,OK,,POL,Iwona Wicha,903,high,2004/eyoc2004.htm
 W18,2,OK,,SVK,Jana Macinska,946,high,2004/eyoc2004.htm
 W18,3,OK,,CZE,Lucie Krafkova,952,high,2004/eyoc2004.htm
@@ -125,9 +125,9 @@ W18,56,OK,,EST,Tais Leontenko,1371,high,2004/eyoc2004.htm
 W18,57,OK,,ROU,Iancu Maria N.,1377,high,2004/eyoc2004.htm
 W18,58,OK,,BLR,Ina Tsitova,1384,high,2004/eyoc2004.htm
 W18,59,OK,,UKR,Anastasiya Danilova,1398,high,2004/eyoc2004.htm
-W18,61,OK,,BUL,Mariyana Ivanova,1478,high,2004/eyoc2004.htm
-W18,62,OK,,SRB,Sonja Simic,1534,high,2004/eyoc2004.htm
-W18,63,OK,,SRB,Ljiljana Sibinoski,1772,high,2004/eyoc2004.htm
+W18,60,OK,,BUL,Mariyana Ivanova,1478,high,2004/eyoc2004.htm
+W18,61,OK,,SRB,Sonja Simic,1534,high,2004/eyoc2004.htm
+W18,62,OK,,SRB,Ljiljana Sibinoski,1772,high,2004/eyoc2004.htm
 M16,1,OK,,CZE,Adam Chromy,772,high,2004/eyoc2004.htm
 M16,2,OK,,HUN,Andras Szabo,774,high,2004/eyoc2004.htm
 M16,2,OK,,CZE,Stepan Kodeda,774,high,2004/eyoc2004.htm
@@ -256,4 +256,4 @@ M18,65,OK,,POL,Grzegorz Wroblewski,1292,high,2004/eyoc2004.htm
 M18,66,OK,,SRB,Rener Milan,1304,high,2004/eyoc2004.htm
 M18,67,OK,,LAT,Marcis Matisans,1421,high,2004/eyoc2004.htm
 M18,68,OK,,SRB,Uros Radoman,1448,high,2004/eyoc2004.htm
-M18,72,OK,,SRB,Milos Stankovic,1950,high,2004/eyoc2004.htm
+M18,69,OK,,SRB,Milos Stankovic,1950,high,2004/eyoc2004.htm

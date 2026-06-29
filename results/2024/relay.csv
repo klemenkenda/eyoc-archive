@@ -20,9 +20,9 @@ M16,18,OK,IRL,Ireland Ireland 1,8566,Aidan McKenna,2372,Liam Casey,2980,Liam O D
 M16,19,OK,SVK,Slovakia Slovakia 1,8567,Jan Dokupil,2599,Samuel Michac,3057,Michal Marko,2911,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 M16,20,OK,ESP,Spain Spain 1,8709,Mateo Puertas,3143,Cesc Amat Font,2479,Ekain Fernandez Garcia,3087,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 M16,21,OK,AUT,Austria Austria 1,8919,Lauri Urbanek,2593,Tobias Angermann,3053,Oliver Schnepf,3273,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-M16,23,OK,TUR,Turkiye Turkiye 1,9364,Kuzey Basol,2920,Mustafa Bilge,3642,Poyraz Vural,2802,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-M16,24,OK,BUL,Bulgaria Bulgaria 1,9806,Svetlozar Kolev,2143,Aleks Sarhachev,3066,Victor Ivanov,4597,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-M16,25,OK,SLO,Slovenia Slovenia 1,10627,Ozbej Malus,3305,Anze Kolner,3227,David Sedej,4095,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+M16,22,OK,TUR,Turkiye Turkiye 1,9364,Kuzey Basol,2920,Mustafa Bilge,3642,Poyraz Vural,2802,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+M16,23,OK,BUL,Bulgaria Bulgaria 1,9806,Svetlozar Kolev,2143,Aleks Sarhachev,3066,Victor Ivanov,4597,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+M16,24,OK,SLO,Slovenia Slovenia 1,10627,Ozbej Malus,3305,Anze Kolner,3227,David Sedej,4095,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 W16,1,OK,FIN,Finland Finland 1,6478,Lotta Laakso,2026,Anni Jantunen,2255,Iida Koskinen,2197,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 W16,2,OK,SUI,Switzerland Switzerland 1,6616,Bigna Hotz,2225,Lotta Marit Luethi,2159,Mira Werder,2232,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 W16,3,OK,LTU,Lithuania Lithuania 1,6845,Gabija Stankeviciute,2442,Barbora Balciunaite,2441,Margarita Dienyte,1962,high,2024/RESULTS-RELAY-WITH-MIX.pdf
@@ -39,9 +39,9 @@ W16,13,OK,ITA,Italy Italy 1,9242,Chiara Magenes,2235,Alessia D Incau,3086,Nicole
 W16,14,OK,EST,Estonia Estonia 1,9293,Grete Johanna Korb,2797,Anna Mia Atonen,2827,Helena Hakk,3669,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 W16,15,OK,ESP,Spain Spain 1,9604,Matilde Tribino,3234,Paula Vicedo,3383,Bruna Sanz,2987,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 W16,16,OK,AUT,Austria Austria 1,10869,Mika Asenbauer,3485,Sona Asenbauer,3393,Maria Hauser,3991,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W16,18,OK,IRL,Ireland Ireland 1,10839,Fionnuala Rowe,3486,Niamh Browne,3792,Ellie Simpson,3561,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W16,19,OK,SVK,Slovakia Slovakia 1,11201,Maiia Volkova,2803,Zina Macajova,4525,Ema Jonasova,3873,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W16,20,OK,BUL,Bulgaria Bulgaria 1,12150,Simona Angelova,4158,Lyudmila Dimova,4117,Emanuela Stoyanova,3875,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W16,17,OK,IRL,Ireland Ireland 1,10839,Fionnuala Rowe,3486,Niamh Browne,3792,Ellie Simpson,3561,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W16,18,OK,SVK,Slovakia Slovakia 1,11201,Maiia Volkova,2803,Zina Macajova,4525,Ema Jonasova,3873,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W16,19,OK,BUL,Bulgaria Bulgaria 1,12150,Simona Angelova,4158,Lyudmila Dimova,4117,Emanuela Stoyanova,3875,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 M18,1,OK,CZE,Czechia Czechia 1,6780,Vladimir Srb,2395,Filip Hanus,2191,Ondrej Brosch,2194,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 M18,2,OK,FIN,Finland Finland 1,6920,Florian Fritzen,2365,Joona Hirvilahti,2314,Aapo Virkajarvi,2241,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 M18,3,OK,SUI,Switzerland Switzerland 1,7011,Gratian Boehi,2371,Jonas Vogel,2347,Lukas Gasser,2293,high,2024/RESULTS-RELAY-WITH-MIX.pdf
@@ -59,13 +59,13 @@ M18,14,OK,HUN,Hungary Hungary 1,7770,Gergo Balint,2394,Bence Urge,2403,David Ben
 M18,15,OK,GBR,Great Britain Great Britain 1,8078,Tommy Rollins,2598,Laurence Ward,3206,James Hammond,2274,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 M18,16,OK,UKR,Ukraine Ukraine 1,8153,Vladyslav Tsepurdey,2871,Artem Zhukovskyi,2832,Volodymyr Horashko,2450,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 M18,17,OK,ITA,Italy Italy 1,8328,Samuele Acler,3035,Denis Orsingher,2802,Sebastiano Lambertini,2491,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-M18,19,OK,AUT,Austria Austria 1,8842,Niklas Ochenbauer,2807,Maximilian Rass,2958,Theo Dobler,3077,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-M18,20,OK,SLO,Slovenia Slovenia 1,9437,Luka Seljak,2807,Rok Bogataj,2997,Bozo Bizjak,3633,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-M18,22,OK,BUL,Bulgaria Bulgaria 1,9511,Dani Nikolov,3078,Nikola Karachorov,3366,Marco Pelov,3067,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-M18,23,OK,SRB,Serbia Serbia 1,10047,Janko Zivkov,3059,David Husag,2978,David Petrovic,4010,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-M18,24,OK,ROU,Romania Romania 1,10600,Ervin Vigh,2914,Lucas Tamas,3007,Sara Bojte,4679,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-M18,25,OK,TUR,Turkiye Turkiye 1,12603,Altar Ilgaz Tuzcuogullari,2393,Mirsad Ulas Akbas,6211,Gurhan Horasanli,3999,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-M18,26,OK,POR,Portugal Portugal 1,13259,Lucas Coelho,4190,Pedro Patrocinio,4549,Joao Pedro,4520,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+M18,18,OK,AUT,Austria Austria 1,8842,Niklas Ochenbauer,2807,Maximilian Rass,2958,Theo Dobler,3077,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+M18,19,OK,SLO,Slovenia Slovenia 1,9437,Luka Seljak,2807,Rok Bogataj,2997,Bozo Bizjak,3633,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+M18,20,OK,BUL,Bulgaria Bulgaria 1,9511,Dani Nikolov,3078,Nikola Karachorov,3366,Marco Pelov,3067,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+M18,21,OK,SRB,Serbia Serbia 1,10047,Janko Zivkov,3059,David Husag,2978,David Petrovic,4010,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+M18,22,OK,ROU,Romania Romania 1,10600,Ervin Vigh,2914,Lucas Tamas,3007,Sara Bojte,4679,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+M18,23,OK,TUR,Turkiye Turkiye 1,12603,Altar Ilgaz Tuzcuogullari,2393,Mirsad Ulas Akbas,6211,Gurhan Horasanli,3999,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+M18,24,OK,POR,Portugal Portugal 1,13259,Lucas Coelho,4190,Pedro Patrocinio,4549,Joao Pedro,4520,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 W18,1,OK,SWE,Sweden Sweden 1,7138,Tuva Sirvioe,2381,Tilia Olsson,2287,Freja Hjerne,2470,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 W18,2,OK,CZE,Czechia Czechia 1,7221,Tereza Mestanova,2460,Katerina Koziskova,2469,Katerina Douskova,2292,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 W18,3,OK,FRA,France France 1,7258,Lucie Gaudion,2431,Fanny Delahaye,2503,Yaelle Malard,2324,high,2024/RESULTS-RELAY-WITH-MIX.pdf
@@ -75,16 +75,16 @@ W18,6,OK,HUN,Hungary Hungary 1,7610,Zsuzsa Gonczi,2481,Eszter Balazs,2918,Janka 
 W18,7,OK,UKR,Ukraine Ukraine 1,7633,Iryna Klymeniuk,2471,Alisa Zemliakova,2705,Kateryna Kropyvnytska,2457,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 W18,8,OK,POL,Poland Poland 1,7834,Iga Mikula,2573,Maja Kula,2743,Antonina Slonska,2518,high,2024/RESULTS-RELAY-WITH-MIX.pdf
 W18,9,OK,GER,Germany Germany 1,7854,Annika Stamer,2368,Juliane Burgmair,2892,Stanja Lindig,2594,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,11,OK,AUT,Austria Austria 1,8059,Emily Adenstedt,2479,Camilla Aigmueller,2784,Eva Friedl,2796,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,12,OK,LAT,Latvia Latvia 1,8080,Eliza Odrina,2583,Laura Krumina,3086,Ilze Jumike,2411,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,13,OK,NOR,Norway Norway 1,8259,Minna Sofie Wingstedt,2485,Elise Renard,2810,Sigrid Schmitt Gran,2964,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,14,OK,ESP,Spain Spain 1,8263,Jana Rifa Bernardino,2475,Guinedell Faja Sanjaume,2635,Monica de Miguel Armisen,3153,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,15,OK,EST,Estonia Estonia 1,8688,Mareli Vaher,3276,Liise Lillelaid,3029,Lovise Harriette Koppel,2383,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,16,OK,LTU,Lithuania Lithuania 1,8721,Gabija Rimkute,2709,Erika Matulionyte,3046,Goda Ziaziulyte,2966,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,17,OK,POR,Portugal Portugal 1,8824,Joana Canana,3017,Leonor Ferreira,2788,Alexandra Serra Campos,3019,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,18,OK,GBR,Great Britain Great Britain 1,9301,Ruth Gooch,2717,Heather High,3590,Freya Tryner,2994,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,19,OK,ROU,Romania Romania 1,9635,Diana Maria Pop,2581,Alexia Tudorache,3652,Antonia Man,3402,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,20,OK,ITA,Italy Italy 1,9687,Sofia Cozzi,3436,Lisa Rivetta,2862,Sonia Rampado,3389,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,21,OK,BUL,Bulgaria Bulgaria 1,9990,Yulia Georgieva,3356,Ivana Pedeva,3278,Raya Asenova,3356,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,22,OK,TUR,Turkiye Turkiye 1,11056,Hatice Elif Kurt,2713,Azra Coskun,3367,Aleyna Minden,4976,high,2024/RESULTS-RELAY-WITH-MIX.pdf
-W18,23,OK,SLO,Slovenia Slovenia 1,11162,Neza Obid,4835,Brina Kolner,2726,Nea Erzen,3601,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,10,OK,AUT,Austria Austria 1,8059,Emily Adenstedt,2479,Camilla Aigmueller,2784,Eva Friedl,2796,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,11,OK,LAT,Latvia Latvia 1,8080,Eliza Odrina,2583,Laura Krumina,3086,Ilze Jumike,2411,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,12,OK,NOR,Norway Norway 1,8259,Minna Sofie Wingstedt,2485,Elise Renard,2810,Sigrid Schmitt Gran,2964,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,13,OK,ESP,Spain Spain 1,8263,Jana Rifa Bernardino,2475,Guinedell Faja Sanjaume,2635,Monica de Miguel Armisen,3153,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,14,OK,EST,Estonia Estonia 1,8688,Mareli Vaher,3276,Liise Lillelaid,3029,Lovise Harriette Koppel,2383,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,15,OK,LTU,Lithuania Lithuania 1,8721,Gabija Rimkute,2709,Erika Matulionyte,3046,Goda Ziaziulyte,2966,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,16,OK,POR,Portugal Portugal 1,8824,Joana Canana,3017,Leonor Ferreira,2788,Alexandra Serra Campos,3019,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,17,OK,GBR,Great Britain Great Britain 1,9301,Ruth Gooch,2717,Heather High,3590,Freya Tryner,2994,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,18,OK,ROU,Romania Romania 1,9635,Diana Maria Pop,2581,Alexia Tudorache,3652,Antonia Man,3402,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,19,OK,ITA,Italy Italy 1,9687,Sofia Cozzi,3436,Lisa Rivetta,2862,Sonia Rampado,3389,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,20,OK,BUL,Bulgaria Bulgaria 1,9990,Yulia Georgieva,3356,Ivana Pedeva,3278,Raya Asenova,3356,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,21,OK,TUR,Turkiye Turkiye 1,11056,Hatice Elif Kurt,2713,Azra Coskun,3367,Aleyna Minden,4976,high,2024/RESULTS-RELAY-WITH-MIX.pdf
+W18,22,OK,SLO,Slovenia Slovenia 1,11162,Neza Obid,4835,Brina Kolner,2726,Nea Erzen,3601,high,2024/RESULTS-RELAY-WITH-MIX.pdf

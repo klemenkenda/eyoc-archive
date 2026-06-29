@@ -39,14 +39,14 @@ M18,17,OK,LTU,Lithuania Lithuania,5890,Rokas Barauskas,1746,Darius Mitrikas,2060
 M18,18,OK,BUL,Bulgaria Bulgaria,6079,Valentin Neykov,1640,Petar Borisov,2262,Boyan Ivandzhikov,2176,high,2018/results-relay.pdf
 M18,19,OK,SVK,Slovakia Slovakia,6094,Tobias Goldschmidt,1872,Adam Jonas,2104,Daniel Pompura,2118,high,2018/results-relay.pdf
 M18,20,OK,UKR,Ukraine Ukraine,6231,Mykyta Zviahin,1854,Mykhailo Piddubnyi,2261,Bohdan Griaziev,2115,high,2018/results-relay.pdf
-M18,22,OK,EST,Estonia Estonia,6422,Kustu Kunnapas,2359,Hando Allmann,2187,Kaarel Vesilind,1876,high,2018/results-relay.pdf
-M18,23,OK,ROU,Romania Romania,6548,Lorand Vigh,1952,Csongor Szikszai,2638,Peter Knobloch Esztergar,1958,high,2018/results-relay.pdf
-M18,24,OK,ESP,Spain Spain,6851,Alvaro Casado,2250,Miguel Garrido Corral,2515,Juan Sanz,2086,high,2018/results-relay.pdf
-M18,25,OK,ITA,Italy Italy,7091,Damiano Bettega,1894,Nikolas Loss,2864,Mattia Scopel,2333,high,2018/results-relay.pdf
-M18,26,OK,POR,Portugal Portugal,7261,Tomas Lima,1869,Pedro Moniz,2385,Andre Henriques,3007,high,2018/results-relay.pdf
-M18,27,OK,TUR,Turkey Turkey,7307,Mustafa Ali Turkmenoglu,2521,Ismail Alp Arslan,2489,Hami Emircan Aydin,2297,high,2018/results-relay.pdf
-M18,28,OK,IRL,Ireland Ireland,8468,Aidan McCullough,2463,Cathal Lane,3094,Andrew Elwood,2911,high,2018/results-relay.pdf
-M18,29,OK,SRB,Serbia Serbia,9038,Dusan Markovic,2530,Lenka Ciric,3614,Marko Radovanovic,2894,high,2018/results-relay.pdf
+M18,21,OK,EST,Estonia Estonia,6422,Kustu Kunnapas,2359,Hando Allmann,2187,Kaarel Vesilind,1876,high,2018/results-relay.pdf
+M18,22,OK,ROU,Romania Romania,6548,Lorand Vigh,1952,Csongor Szikszai,2638,Peter Knobloch Esztergar,1958,high,2018/results-relay.pdf
+M18,23,OK,ESP,Spain Spain,6851,Alvaro Casado,2250,Miguel Garrido Corral,2515,Juan Sanz,2086,high,2018/results-relay.pdf
+M18,24,OK,ITA,Italy Italy,7091,Damiano Bettega,1894,Nikolas Loss,2864,Mattia Scopel,2333,high,2018/results-relay.pdf
+M18,25,OK,POR,Portugal Portugal,7261,Tomas Lima,1869,Pedro Moniz,2385,Andre Henriques,3007,high,2018/results-relay.pdf
+M18,26,OK,TUR,Turkey Turkey,7307,Mustafa Ali Turkmenoglu,2521,Ismail Alp Arslan,2489,Hami Emircan Aydin,2297,high,2018/results-relay.pdf
+M18,27,OK,IRL,Ireland Ireland,8468,Aidan McCullough,2463,Cathal Lane,3094,Andrew Elwood,2911,high,2018/results-relay.pdf
+M18,28,OK,SRB,Serbia Serbia,9038,Dusan Markovic,2530,Lenka Ciric,3614,Marko Radovanovic,2894,high,2018/results-relay.pdf
 W16,1,OK,SUI,Switzerland Switzerland,4452,Mirjam Wuersten,1478,Sanna Hotz,1482,Alina Niggli,1492,high,2018/results-relay.pdf
 W16,2,OK,FIN,Finland Finland,4731,Hanne Hilo,1481,Liisa Peltonen,1627,Elisa Mattila,1623,high,2018/results-relay.pdf
 W16,3,OK,CZE,Czech Republic Czech Republic,4732,Michaela Dittrichova,1486,Marketa Mulickova,1378,Anna Karlova,1868,high,2018/results-relay.pdf
@@ -82,11 +82,11 @@ W18,10,OK,UKR,Ukraine Ukraine,5576,Iulia Trokhymchuk,1636,Alina Myroniuk,2005,Po
 W18,11,OK,FRA,France France,5685,Cecile Calandry,1781,Marine Dudoignon,2074,Perrine Toussaint,1830,high,2018/results-relay.pdf
 W18,12,OK,ROU,Romania Romania,5903,Adela Maria Galateanu,1791,Timea Virag,1938,Daria Galateanu,2174,high,2018/results-relay.pdf
 W18,13,OK,GBR,Great Britain Great Britain,5907,Tara Schwarze,2156,Niamh Hunter,1914,Eilidh Campbell,1837,high,2018/results-relay.pdf
-W18,15,OK,BUL,Bulgaria Bulgaria,6139,Mariya Dermendzhieva,2138,Simona Ivanova,2052,Andreya Dyaksova,1949,high,2018/results-relay.pdf
-W18,16,OK,ESP,Spain Spain,6327,Ana Isabel Toledo Navarro,1791,Kika Basaran van Ham,1848,Ines Pozo Prada,2688,high,2018/results-relay.pdf
-W18,17,OK,GER,Germany Germany,6679,Meike Hennseler,1959,Charlotte Leonhardt,2654,Luise Steinert,2066,high,2018/results-relay.pdf
-W18,18,OK,LTU,Lithuania Lithuania,6780,Judita Traubaite,2152,Ugne Liegute,2030,Viktorija Drazdauskaite,2598,high,2018/results-relay.pdf
-W18,19,OK,BEL,Belgium Belgium,7353,Marine Sillien,2241,Laurine Herman,2573,Ems de Smul,2539,high,2018/results-relay.pdf
-W18,20,OK,EST,Estonia Estonia,7463,Teele Telgma,2155,Lorely Korvel,2431,Siiri Talts,2877,high,2018/results-relay.pdf
-W18,21,OK,SLO,Slovenia Slovenia,7644,Zala Zavrl,2330,Nika Poljansek,2763,Ana Pia Pogacar,2551,high,2018/results-relay.pdf
-W18,22,OK,TUR,Turkey Turkey,9620,Emine Icyer,2641,Nur Gulnihal Cakir,3023,Beyza Dilber,3956,high,2018/results-relay.pdf
+W18,14,OK,BUL,Bulgaria Bulgaria,6139,Mariya Dermendzhieva,2138,Simona Ivanova,2052,Andreya Dyaksova,1949,high,2018/results-relay.pdf
+W18,15,OK,ESP,Spain Spain,6327,Ana Isabel Toledo Navarro,1791,Kika Basaran van Ham,1848,Ines Pozo Prada,2688,high,2018/results-relay.pdf
+W18,16,OK,GER,Germany Germany,6679,Meike Hennseler,1959,Charlotte Leonhardt,2654,Luise Steinert,2066,high,2018/results-relay.pdf
+W18,17,OK,LTU,Lithuania Lithuania,6780,Judita Traubaite,2152,Ugne Liegute,2030,Viktorija Drazdauskaite,2598,high,2018/results-relay.pdf
+W18,18,OK,BEL,Belgium Belgium,7353,Marine Sillien,2241,Laurine Herman,2573,Ems de Smul,2539,high,2018/results-relay.pdf
+W18,19,OK,EST,Estonia Estonia,7463,Teele Telgma,2155,Lorely Korvel,2431,Siiri Talts,2877,high,2018/results-relay.pdf
+W18,20,OK,SLO,Slovenia Slovenia,7644,Zala Zavrl,2330,Nika Poljansek,2763,Ana Pia Pogacar,2551,high,2018/results-relay.pdf
+W18,21,OK,TUR,Turkey Turkey,9620,Emine Icyer,2641,Nur Gulnihal Cakir,3023,Beyza Dilber,3956,high,2018/results-relay.pdf

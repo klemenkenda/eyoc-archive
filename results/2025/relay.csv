@@ -20,10 +20,10 @@ M16,18,OK,IRL,IRL,8400,Fionn Buckley,,Eoin Simpson,,James Ewart,,high,2025/Relay
 M16,19,OK,SVK,SVK,8033,Michal Marko,,Daniel Jozef Nemcek,,Boris Kocur,,high,2025/Relay.xml
 M16,20,OK,ESP,ESP,5513,Daniel Sanz,,Carlit Tolkko Valledor,,Ekain Fernandez Garcia,,high,2025/Relay.xml
 M16,21,OK,AUT,AUT,8442,Matthias Schmalhardt,,Jonas Ochenbauer,,Jannik Meizer,,high,2025/Relay.xml
-M16,23,MP,TUR,TUR,,Mustafa Talha Bilge,,Kayra Yetis,,Poyraz Vural,,high,2025/Relay.xml
-M16,24,OK,BUL,BUL,6830,Atanas Raykov,,Aleks Sarhachev,,Hristo Dimov,,high,2025/Relay.xml
-M16,25,MP,SLO,SLO,,Vid Bratusa,,Matija Bratusa,,Ajda Jarc,,high,2025/Relay.xml
-M16,28,MP,POR,POR,,Gabriel Lopes,,Miguel Canana,,Antonio Oliveira,,high,2025/Relay.xml
+M16,22,MP,TUR,TUR,,Mustafa Talha Bilge,,Kayra Yetis,,Poyraz Vural,,high,2025/Relay.xml
+M16,23,OK,BUL,BUL,6830,Atanas Raykov,,Aleks Sarhachev,,Hristo Dimov,,high,2025/Relay.xml
+M16,24,MP,SLO,SLO,,Vid Bratusa,,Matija Bratusa,,Ajda Jarc,,high,2025/Relay.xml
+M16,25,MP,POR,POR,,Gabriel Lopes,,Miguel Canana,,Antonio Oliveira,,high,2025/Relay.xml
 M18,1,OK,CZE,CZE,6534,Martin Bulicka,,Ctibor Podrabsky,,Vladimir Srb,,high,2025/Relay.xml
 M18,2,OK,FIN,FIN,6622,Vilho Hietala,,Aapo Virkajarvi,,Rasmus Toyryla,,high,2025/Relay.xml
 M18,3,OK,SUI,SUI,7791,Lavio Mueller,,Lukas Matthaeus,,Andri Gujan,,high,2025/Relay.xml
@@ -41,18 +41,18 @@ M18,14,OK,HUN,HUN,7166,Marton Hegedus,,Mark Levente Bujdoso,,Mihaly Csoboth,,hig
 M18,15,OK,GBR,GBR,7556,Tommy Rollins,,Finlay McLuckie,,Finn Selmer Duguid,,high,2025/Relay.xml
 M18,16,OK,UKR,UKR,8528,Volodymyr Horashko,,Artem Zhukovskyi,,Oleksandr Badrak,,high,2025/Relay.xml
 M18,17,OK,ITA,ITA,8717,Francesco Scalzotto,,Marco Gianelle,,Niklas Weitlaner,,high,2025/Relay.xml
-M18,19,OK,SLO,SLO,9347,Ozbej Malus,,Anze Kolner,,Bozo Bizjak,,high,2025/Relay.xml
-M18,21,OK,BUL,BUL,8057,Svetlozar Kolev,,Bogdan Evgeniev,,Dani Nikolov,,high,2025/Relay.xml
-M18,22,OK,SRB,SRB,11693,David Husag,,David Petrovic,,Jasna Starovic,,high,2025/Relay.xml
-M18,23,OK,ROU,ROU,11843,Vlad Percec,,Mihai Tiriac,,Danny Viorel Alexandru Fieru,,high,2025/Relay.xml
-M18,24,OK,TUR,TUR,11767,Mirsad Ulas Akbas,,Kayra Mete Sakaoglu,,Mert Yilmaz,,high,2025/Relay.xml
-M18,25,MP,POR,POR,,Tiago Oliveira,,Pedro Patrocinio,,Joao Maia,,high,2025/Relay.xml
-M18,26,DNF,SVK,SVK,,Daniel Smelik,,David Cisar,,Matej Balogh,,high,2025/Relay.xml
-M18,27,OK,IRL,IRL,9165,Aidan McKenna,,Gerry Browne,,Liam Casey,,high,2025/Relay.xml
-M18,28,DSQ,CRO,CRO,,Luka Gojmerac,,Gabrijel Solenicki,,Karlo Lesjak,,high,2025/Relay.xml
-M18,29,OK,ISR,ISR,9375,Yuval Kalkstein,,Ronen Shuv,,Almog Sharon,,high,2025/Relay.xml
-M18,31,DNF,MDA,MDA,,Artiom Babici,,Daniil Iancovschi,,Emilia Grosu,,high,2025/Relay.xml
-M18,32,OK,BEL,BEL,8525,Thomas Jansen,,Pjotr Mertens,,Regis Vanschuytbroeck,,high,2025/Relay.xml
+M18,18,OK,SLO,SLO,9347,Ozbej Malus,,Anze Kolner,,Bozo Bizjak,,high,2025/Relay.xml
+M18,19,OK,BUL,BUL,8057,Svetlozar Kolev,,Bogdan Evgeniev,,Dani Nikolov,,high,2025/Relay.xml
+M18,20,OK,SRB,SRB,11693,David Husag,,David Petrovic,,Jasna Starovic,,high,2025/Relay.xml
+M18,21,OK,ROU,ROU,11843,Vlad Percec,,Mihai Tiriac,,Danny Viorel Alexandru Fieru,,high,2025/Relay.xml
+M18,22,OK,TUR,TUR,11767,Mirsad Ulas Akbas,,Kayra Mete Sakaoglu,,Mert Yilmaz,,high,2025/Relay.xml
+M18,23,MP,POR,POR,,Tiago Oliveira,,Pedro Patrocinio,,Joao Maia,,high,2025/Relay.xml
+M18,24,DNF,SVK,SVK,,Daniel Smelik,,David Cisar,,Matej Balogh,,high,2025/Relay.xml
+M18,25,OK,IRL,IRL,9165,Aidan McKenna,,Gerry Browne,,Liam Casey,,high,2025/Relay.xml
+M18,26,DSQ,CRO,CRO,,Luka Gojmerac,,Gabrijel Solenicki,,Karlo Lesjak,,high,2025/Relay.xml
+M18,27,OK,ISR,ISR,9375,Yuval Kalkstein,,Ronen Shuv,,Almog Sharon,,high,2025/Relay.xml
+M18,28,DNF,MDA,MDA,,Artiom Babici,,Daniil Iancovschi,,Emilia Grosu,,high,2025/Relay.xml
+M18,29,OK,BEL,BEL,8525,Thomas Jansen,,Pjotr Mertens,,Regis Vanschuytbroeck,,high,2025/Relay.xml
 W16,1,OK,FIN,FIN,6873,Aurora Lehtonen,,Alma Peltotalo,,Anni Jantunen,,high,2025/Relay.xml
 W16,2,MP,SUI,SUI,,Bigna Hotz,,Carla Castelli,,Seraina Baer,,high,2025/Relay.xml
 W16,3,OK,LTU,LTU,8184,Eva Sriubaite,,Martyna Jankauskaite,,Gabija Mincinauskyte,,high,2025/Relay.xml
@@ -68,13 +68,13 @@ W16,12,OK,UKR,UKR,6681,Inna Ignatieva,,Karina Fedoryshyn,,Daria Sereda,,high,202
 W16,13,OK,EST,EST,6766,Grete Johanna Korb,,Mia Esta,,Anna Mia Atonen,,high,2025/Relay.xml
 W16,14,OK,ESP,ESP,7994,Candela Arranz Bravo,,Laia Casal Gil,,Bruna Sanz Kowalski,,high,2025/Relay.xml
 W16,15,OK,AUT,AUT,8483,Matilda Buschek,,Hannah Sandrisser,,Angelina Ochenbauer,,high,2025/Relay.xml
-W16,17,MP,IRL,IRL,,Niamh Browne,,Fionnuala Rowe,,Aoife Masterson,,high,2025/Relay.xml
-W16,18,OK,BUL,BUL,8421,Vihra Ruseva,,Bogomila Tuykova,,Lyudmila Dimova,,high,2025/Relay.xml
-W16,19,OK,CRO,CRO,6770,Dora Delic,,Sara Delic,,Ema Jurican,,high,2025/Relay.xml
-W16,20,OK,TUR,TUR,10848,Efsa Sezin Akin,,Sedanur Balikci,,Zeynep Icyer,,high,2025/Relay.xml
-W16,21,MP,SLO,SLO,,Nika Erzen,,Brina Gantar,,Lili Ivana Raj,,high,2025/Relay.xml
-W16,22,OK,ROU,ROU,7759,Sonia Stupu,,Eszter Anna Palfy,,Ana Brandus,,high,2025/Relay.xml
-W16,23,OK,POR,POR,10654,Maria Oliveira,,Juliana Pedro,,Mafalda Goncalves,,high,2025/Relay.xml
+W16,16,MP,IRL,IRL,,Niamh Browne,,Fionnuala Rowe,,Aoife Masterson,,high,2025/Relay.xml
+W16,17,OK,BUL,BUL,8421,Vihra Ruseva,,Bogomila Tuykova,,Lyudmila Dimova,,high,2025/Relay.xml
+W16,18,OK,CRO,CRO,6770,Dora Delic,,Sara Delic,,Ema Jurican,,high,2025/Relay.xml
+W16,19,OK,TUR,TUR,10848,Efsa Sezin Akin,,Sedanur Balikci,,Zeynep Icyer,,high,2025/Relay.xml
+W16,20,MP,SLO,SLO,,Nika Erzen,,Brina Gantar,,Lili Ivana Raj,,high,2025/Relay.xml
+W16,21,OK,ROU,ROU,7759,Sonia Stupu,,Eszter Anna Palfy,,Ana Brandus,,high,2025/Relay.xml
+W16,22,OK,POR,POR,10654,Maria Oliveira,,Juliana Pedro,,Mafalda Goncalves,,high,2025/Relay.xml
 W18,1,OK,SWE,SWE,6230,Elvira Karmstig,,Elsa Ehrenborg,,Izabella Ljungberg,,high,2025/Relay.xml
 W18,2,OK,CZE,CZE,5927,Anna Kynclova,,Kristyna Finstrlova,,Marketa Hanusova,,high,2025/Relay.xml
 W18,3,OK,FRA,FRA,6095,Sonia Jolly Jansson,,Ambre Dufour,,Fanny Delahaye,,high,2025/Relay.xml
@@ -84,19 +84,19 @@ W18,6,OK,HUN,HUN,7373,Boglarka Danko,,Timea Janosi,,Csepke Dora,,high,2025/Relay
 W18,7,OK,UKR,UKR,7365,Iryna Klymeniuk,,Iryna Polubentseva,,Yevheniia Oksiuchenko,,high,2025/Relay.xml
 W18,8,OK,POL,POL,6555,Julia Biskupska,,Iga Mikula,,Maja Kula,,high,2025/Relay.xml
 W18,9,OK,GER,GER,7929,Marika Prolingheuer,,Karla Breckle,,Juliane Burgmair,,high,2025/Relay.xml
-W18,11,OK,AUT,AUT,7687,Mika Asenbauer,,Kiara Sophie Piskorz,,Charlotte Brischnik,,high,2025/Relay.xml
-W18,12,OK,LAT,LAT,6318,Eliza Odrina,,Grieta Grantskalna,,Ilze Jumike,,high,2025/Relay.xml
-W18,13,DSQ,NOR,NOR,,Ronja Gotsch Iversen,,Elise Renard,,Helene Scheele,,high,2025/Relay.xml
-W18,14,OK,ESP,ESP,6410,Joana Monge,,Jana Rifa Bernardino,,Arlet Sales,,high,2025/Relay.xml
-W18,15,OK,EST,EST,7720,Mariann Zernant,,Johanna Oras,,Viola Nikitina,,high,2025/Relay.xml
-W18,16,OK,LTU,LTU,6999,Saule Traubaite,,Gabija Stankeviciute,,Margarita Dienyte,,high,2025/Relay.xml
-W18,17,OK,POR,POR,11683,Mariana Guerreiro,,Alexandra Tadeu,,Leonor Soares,,high,2025/Relay.xml
-W18,18,OK,GBR,GBR,6495,Emily Atkinson,,Ruth Gooch,,Lyra Medlock,,high,2025/Relay.xml
-W18,19,OK,ROU,ROU,9907,Sara Bojte,,Gyongyver Gorog,,Sara Lilla Miklos,,high,2025/Relay.xml
-W18,20,OK,ITA,ITA,7537,Chiara Magenes,,Silvia di Stefano,,Chiara Ognibeni,,high,2025/Relay.xml
-W18,21,OK,BUL,BUL,9079,Plamena Cholakova,,Marta Ruseva,,Emanuela Stoyanova,,high,2025/Relay.xml
-W18,22,OK,TUR,TUR,10802,Basak Yilmaz,,Irem Gul Nazlimoglu,,Tuana Gunvaran,,high,2025/Relay.xml
-W18,23,OK,SLO,SLO,7370,Nea Erzen,,Neza Obid,,Brina Kolner,,high,2025/Relay.xml
-W18,24,OK,SVK,SVK,8204,Maiia Volkova,,Nina Jurcikova,,Ema Jonasova,,high,2025/Relay.xml
-W18,25,OK,MDA,MDA,8384,Victoria Nosenco,,Daria Gutul,,Anna Donici,,high,2025/Relay.xml
-W18,27,MP,IRL,IRL,,Eve Buckley,,Ellie Simpson,,Sadhbh Hassett,,high,2025/Relay.xml
+W18,10,OK,AUT,AUT,7687,Mika Asenbauer,,Kiara Sophie Piskorz,,Charlotte Brischnik,,high,2025/Relay.xml
+W18,11,OK,LAT,LAT,6318,Eliza Odrina,,Grieta Grantskalna,,Ilze Jumike,,high,2025/Relay.xml
+W18,12,DSQ,NOR,NOR,,Ronja Gotsch Iversen,,Elise Renard,,Helene Scheele,,high,2025/Relay.xml
+W18,13,OK,ESP,ESP,6410,Joana Monge,,Jana Rifa Bernardino,,Arlet Sales,,high,2025/Relay.xml
+W18,14,OK,EST,EST,7720,Mariann Zernant,,Johanna Oras,,Viola Nikitina,,high,2025/Relay.xml
+W18,15,OK,LTU,LTU,6999,Saule Traubaite,,Gabija Stankeviciute,,Margarita Dienyte,,high,2025/Relay.xml
+W18,16,OK,POR,POR,11683,Mariana Guerreiro,,Alexandra Tadeu,,Leonor Soares,,high,2025/Relay.xml
+W18,17,OK,GBR,GBR,6495,Emily Atkinson,,Ruth Gooch,,Lyra Medlock,,high,2025/Relay.xml
+W18,18,OK,ROU,ROU,9907,Sara Bojte,,Gyongyver Gorog,,Sara Lilla Miklos,,high,2025/Relay.xml
+W18,19,OK,ITA,ITA,7537,Chiara Magenes,,Silvia di Stefano,,Chiara Ognibeni,,high,2025/Relay.xml
+W18,20,OK,BUL,BUL,9079,Plamena Cholakova,,Marta Ruseva,,Emanuela Stoyanova,,high,2025/Relay.xml
+W18,21,OK,TUR,TUR,10802,Basak Yilmaz,,Irem Gul Nazlimoglu,,Tuana Gunvaran,,high,2025/Relay.xml
+W18,22,OK,SLO,SLO,7370,Nea Erzen,,Neza Obid,,Brina Kolner,,high,2025/Relay.xml
+W18,23,OK,SVK,SVK,8204,Maiia Volkova,,Nina Jurcikova,,Ema Jonasova,,high,2025/Relay.xml
+W18,24,OK,MDA,MDA,8384,Victoria Nosenco,,Daria Gutul,,Anna Donici,,high,2025/Relay.xml
+W18,25,MP,IRL,IRL,,Eve Buckley,,Ellie Simpson,,Sadhbh Hassett,,high,2025/Relay.xml

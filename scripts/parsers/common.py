@@ -422,10 +422,41 @@ def ensure_year_dir(year):
     return d
 
 
+def renumber_ranks(rows):
+    """Re-derive 'rank' within each class so gaps left by entries this pipeline
+    excludes (non-European guests, composite/mixed teams, unresolvable rows) collapse
+    into a consecutive sequence - while preserving genuine tied-rank skips from the
+    source itself (two people tied for 5th means the next rank is 7th, not 6th) and
+    leaving rows that were never ranked to begin with (blank rank, e.g. most DNF/DSQ)
+    untouched. Mutates and returns `rows`; row order is unchanged, only rank values."""
+    by_class = {}
+    for r in rows:
+        if r.get("rank") not in (None, ""):
+            by_class.setdefault(r.get("class"), []).append(r)
+    for class_rows in by_class.values():
+        class_rows.sort(key=lambda r: int(r["rank"]))
+        groups = []  # [(original_rank, [rows_at_that_rank]), ...] in ascending order
+        for r in class_rows:
+            rv = int(r["rank"])
+            if groups and groups[-1][0] == rv:
+                groups[-1][1].append(r)
+            else:
+                groups.append((rv, [r]))
+        prev_rank, prev_count, shift = 0, 1, 0
+        for rv, grp in groups:
+            expected = prev_rank + prev_count if prev_rank else 1
+            shift += rv - expected
+            for r in grp:
+                r["rank"] = rv - shift
+            prev_rank, prev_count = rv, len(grp)
+    return rows
+
+
 def write_csv(year, discipline, rows, columns):
     """discipline in {'sprint','long','relay'}. rows: list of dicts. Skips writing if rows empty."""
     if not rows:
         return None
+    renumber_ranks(rows)
     d = ensure_year_dir(year)
     path = d / f"{discipline}.csv"
     with open(path, "w", newline="", encoding="utf-8") as f:
