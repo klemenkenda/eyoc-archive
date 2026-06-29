@@ -37,6 +37,12 @@ Eyoc.views.athlete = function (initialQuery) {
       return Eyoc.lib.athleteNameSuggestions(q, 8);
     },
 
+    // Bound to both the input's focus and input events (see index.html) - not just
+    // focus. suggestionsOpen gets set false by several things that don't blur the field
+    // (submitSearch, selectSuggestion, Escape), so if it were only reopened on focus, a
+    // user who keeps typing the next search right after one of those - without ever
+    // clicking away and back - would see the dropdown silently stay closed even though
+    // matching suggestions exist.
     openSuggestions() {
       this.suggestionsOpen = true;
     },

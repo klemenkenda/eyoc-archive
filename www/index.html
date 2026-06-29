@@ -229,6 +229,7 @@
               class="country-select-input"
               x-model.debounce.150ms="query"
               @focus="openSuggestions()"
+              @input="openSuggestions()"
               @keydown.escape="closeSuggestions()"
               placeholder="Search athlete name…"
               autocomplete="off"
@@ -570,7 +571,7 @@
       <h1>About</h1>
 
       <p>EYOC Archive collects European Youth Orienteering Championships results
-        (2002–2026: Sprint, Long, Relay) into one searchable, browsable site, instead of
+        (from 2002 onwards: Sprint, Long, Relay) into one searchable, browsable site, instead of
         them being scattered across two decades of organizers' websites in whatever
         format each one happened to publish.</p>
 
