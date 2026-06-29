@@ -1,102 +1,94 @@
 class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
-M16,1,OK,HUN,HUN,7408,Norbert Nagy,,Adam Varsanyi,,Bela Barnabas Sugta,,high,2025/Relay.xml
-M16,2,OK,CZE,CZE,5340,Matej Cecka,,Mateusz Mokrosz,,Matous Dittrich,,high,2025/Relay.xml
-M16,3,OK,POL,POL,6092,Antoni Pachnik,,Witold Lemanczyk,,Szymon Ladomirski,,high,2025/Relay.xml
-M16,4,OK,SUI,SUI,5332,Taavi Caboussat,,Linus Pusterla,,Maxim Bertschi,,high,2025/Relay.xml
-M16,5,OK,DEN,DEN,5615,Emil Fredberg,,Rune Cederberg,,Anton Kupriyanov Hviid,,high,2025/Relay.xml
-M16,6,OK,FIN,FIN,5314,Kasper Ekonoja,,Joakim Savinainen,,Veeti Viippola,,high,2025/Relay.xml
-M16,7,OK,FRA,FRA,5680,Titouan Andrieux,,Noe Chezeau,,Tom Lemercier,,high,2025/Relay.xml
-M16,8,MP,ROU,ROU,,Benjamin Simon,,Vince Samuel Simon,,Radu Ilin,,high,2025/Relay.xml
-M16,9,OK,LAT,LAT,5472,Jekabs Graudums,,Miks Graudums,,Lars Anders Luiks,,high,2025/Relay.xml
-M16,10,OK,GER,GER,5884,Jacob Imbsweiler,,Daniel Schmidt,,Julian Doetsch,,high,2025/Relay.xml
-M16,11,OK,LTU,LTU,5494,Aleksas Murenas,,Troj Gunnarsson,,Tijus Jokubauskis,,high,2025/Relay.xml
-M16,12,OK,EST,EST,6745,Henri Kersna,,Erik Marten Zernant,,Andres Keernik,,high,2025/Relay.xml
-M16,13,OK,GBR,GBR,7062,Oliver Duncan,,Lawrence Hodgson,,Marcus Perry,,high,2025/Relay.xml
-M16,14,OK,UKR,UKR,7233,Vladyslav Zhukovskyi,,Roman Chudinov,,Tymofii Polskyi,,high,2025/Relay.xml
-M16,15,OK,BEL,BEL,6006,Nathan Jansen,,Daan Cools,,Thor Wolles,,high,2025/Relay.xml
-M16,16,OK,ITA,ITA,7377,Tobia Viel,,Alessandro Moser,,Gabriele Giudici,,high,2025/Relay.xml
-M16,17,OK,ISR,ISR,8409,Ariel Dacosta,,Ofek Freund,,Idan Verbin,,high,2025/Relay.xml
-M16,18,OK,IRL,IRL,8400,Fionn Buckley,,Eoin Simpson,,James Ewart,,high,2025/Relay.xml
-M16,19,OK,SVK,SVK,8033,Michal Marko,,Daniel Jozef Nemcek,,Boris Kocur,,high,2025/Relay.xml
-M16,20,OK,ESP,ESP,5513,Daniel Sanz,,Carlit Tolkko Valledor,,Ekain Fernandez Garcia,,high,2025/Relay.xml
-M16,21,OK,AUT,AUT,8442,Matthias Schmalhardt,,Jonas Ochenbauer,,Jannik Meizer,,high,2025/Relay.xml
-M16,22,MP,TUR,TUR,,Mustafa Talha Bilge,,Kayra Yetis,,Poyraz Vural,,high,2025/Relay.xml
-M16,23,OK,BUL,BUL,6830,Atanas Raykov,,Aleks Sarhachev,,Hristo Dimov,,high,2025/Relay.xml
-M16,24,MP,SLO,SLO,,Vid Bratusa,,Matija Bratusa,,Ajda Jarc,,high,2025/Relay.xml
-M16,25,MP,POR,POR,,Gabriel Lopes,,Miguel Canana,,Antonio Oliveira,,high,2025/Relay.xml
-M18,1,OK,CZE,CZE,6534,Martin Bulicka,,Ctibor Podrabsky,,Vladimir Srb,,high,2025/Relay.xml
-M18,2,OK,FIN,FIN,6622,Vilho Hietala,,Aapo Virkajarvi,,Rasmus Toyryla,,high,2025/Relay.xml
-M18,3,OK,SUI,SUI,7791,Lavio Mueller,,Lukas Matthaeus,,Andri Gujan,,high,2025/Relay.xml
-M18,4,OK,NOR,NOR,8211,Mathias Reinertsen Leroyer,,Jacob Finstad Land,,Magnus Sigurdsson,,high,2025/Relay.xml
-M18,5,OK,GER,GER,8519,Jakob Drechsler,,Niklas Wetzel,,Lennart Muehlstaedt,,high,2025/Relay.xml
-M18,6,OK,LAT,LAT,8055,Renars Grasis,,Rudolfs Graudins,,Lukass Silins,,high,2025/Relay.xml
-M18,7,MP,SWE,SWE,,Edvin Atting,,Ted Lagerstrom,,Axel Thybeck,,high,2025/Relay.xml
-M18,8,OK,POL,POL,7652,Stanislaw Drapella,,Antoni Trzeciak,,Tomasz Rzenca,,high,2025/Relay.xml
-M18,9,MP,DEN,DEN,,Carl Oscar Baek Christiansen,,Mattias Rokkjaer,,Axel Oernhagen Joergensen,,high,2025/Relay.xml
-M18,10,OK,ESP,ESP,8040,Jorge Perez Gonzalez,,Pablo Rubio Cribellati,,Aratz Beobide,,high,2025/Relay.xml
-M18,11,OK,EST,EST,8178,Villem Piirimae,,Karel Jung,,Partel Kulvik,,high,2025/Relay.xml
-M18,12,OK,FRA,FRA,7294,Lucas Verjux,,Emmanuel Pradeau,,Simon Calandry,,high,2025/Relay.xml
-M18,13,OK,LTU,LTU,8195,Domas Juknevicius,,Domas Lazauskas,,Aleksandras Uckuronis,,high,2025/Relay.xml
-M18,14,OK,HUN,HUN,7166,Marton Hegedus,,Mark Levente Bujdoso,,Mihaly Csoboth,,high,2025/Relay.xml
-M18,15,OK,GBR,GBR,7556,Tommy Rollins,,Finlay McLuckie,,Finn Selmer Duguid,,high,2025/Relay.xml
-M18,16,OK,UKR,UKR,8528,Volodymyr Horashko,,Artem Zhukovskyi,,Oleksandr Badrak,,high,2025/Relay.xml
-M18,17,OK,ITA,ITA,8717,Francesco Scalzotto,,Marco Gianelle,,Niklas Weitlaner,,high,2025/Relay.xml
-M18,18,OK,SLO,SLO,9347,Ozbej Malus,,Anze Kolner,,Bozo Bizjak,,high,2025/Relay.xml
-M18,19,OK,BUL,BUL,8057,Svetlozar Kolev,,Bogdan Evgeniev,,Dani Nikolov,,high,2025/Relay.xml
-M18,20,OK,SRB,SRB,11693,David Husag,,David Petrovic,,Jasna Starovic,,high,2025/Relay.xml
-M18,21,OK,ROU,ROU,11843,Vlad Percec,,Mihai Tiriac,,Danny Viorel Alexandru Fieru,,high,2025/Relay.xml
-M18,22,OK,TUR,TUR,11767,Mirsad Ulas Akbas,,Kayra Mete Sakaoglu,,Mert Yilmaz,,high,2025/Relay.xml
-M18,23,MP,POR,POR,,Tiago Oliveira,,Pedro Patrocinio,,Joao Maia,,high,2025/Relay.xml
-M18,24,DNF,SVK,SVK,,Daniel Smelik,,David Cisar,,Matej Balogh,,high,2025/Relay.xml
-M18,25,OK,IRL,IRL,9165,Aidan McKenna,,Gerry Browne,,Liam Casey,,high,2025/Relay.xml
-M18,26,DSQ,CRO,CRO,,Luka Gojmerac,,Gabrijel Solenicki,,Karlo Lesjak,,high,2025/Relay.xml
-M18,27,OK,ISR,ISR,9375,Yuval Kalkstein,,Ronen Shuv,,Almog Sharon,,high,2025/Relay.xml
-M18,28,DNF,MDA,MDA,,Artiom Babici,,Daniil Iancovschi,,Emilia Grosu,,high,2025/Relay.xml
-M18,29,OK,BEL,BEL,8525,Thomas Jansen,,Pjotr Mertens,,Regis Vanschuytbroeck,,high,2025/Relay.xml
-W16,1,OK,FIN,FIN,6873,Aurora Lehtonen,,Alma Peltotalo,,Anni Jantunen,,high,2025/Relay.xml
-W16,2,MP,SUI,SUI,,Bigna Hotz,,Carla Castelli,,Seraina Baer,,high,2025/Relay.xml
-W16,3,OK,LTU,LTU,8184,Eva Sriubaite,,Martyna Jankauskaite,,Gabija Mincinauskyte,,high,2025/Relay.xml
-W16,4,OK,HUN,HUN,6032,Boroka Danko,,Aliz Heizer,,Sara Szakal Biro,,high,2025/Relay.xml
-W16,5,OK,CZE,CZE,5204,Ela Lostakova,,Matilda Tomaskova,,Carolina Mullis,,high,2025/Relay.xml
-W16,6,OK,POL,POL,7107,Michalina Wysocka,,Katarzyna Szafarewicz,,Oliwia Hetnar,,high,2025/Relay.xml
-W16,7,OK,FRA,FRA,6157,Louise Cathala,,Caroline Harnist,,Juliette Pellissier,,high,2025/Relay.xml
-W16,8,OK,GBR,GBR,6604,Ella Baxter,,Lucy Ward,,Ellie Todhunter,,high,2025/Relay.xml
-W16,9,OK,LAT,LAT,6875,Eliza Eisaka,,Amanta Mikijanska,,Henriete Priedite,,high,2025/Relay.xml
-W16,10,OK,GER,GER,6590,Katja Horst,,Greta Pompe,,Jannika Wetzlel,,high,2025/Relay.xml
-W16,11,OK,DEN,DEN,6160,Krista Lervad Lundoe,,Astrid Faber Fengergroen,,Hanna Baek Christiansen,,high,2025/Relay.xml
-W16,12,OK,UKR,UKR,6681,Inna Ignatieva,,Karina Fedoryshyn,,Daria Sereda,,high,2025/Relay.xml
-W16,13,OK,EST,EST,6766,Grete Johanna Korb,,Mia Esta,,Anna Mia Atonen,,high,2025/Relay.xml
-W16,14,OK,ESP,ESP,7994,Candela Arranz Bravo,,Laia Casal Gil,,Bruna Sanz Kowalski,,high,2025/Relay.xml
-W16,15,OK,AUT,AUT,8483,Matilda Buschek,,Hannah Sandrisser,,Angelina Ochenbauer,,high,2025/Relay.xml
-W16,16,MP,IRL,IRL,,Niamh Browne,,Fionnuala Rowe,,Aoife Masterson,,high,2025/Relay.xml
-W16,17,OK,BUL,BUL,8421,Vihra Ruseva,,Bogomila Tuykova,,Lyudmila Dimova,,high,2025/Relay.xml
-W16,18,OK,CRO,CRO,6770,Dora Delic,,Sara Delic,,Ema Jurican,,high,2025/Relay.xml
-W16,19,OK,TUR,TUR,10848,Efsa Sezin Akin,,Sedanur Balikci,,Zeynep Icyer,,high,2025/Relay.xml
-W16,20,MP,SLO,SLO,,Nika Erzen,,Brina Gantar,,Lili Ivana Raj,,high,2025/Relay.xml
-W16,21,OK,ROU,ROU,7759,Sonia Stupu,,Eszter Anna Palfy,,Ana Brandus,,high,2025/Relay.xml
-W16,22,OK,POR,POR,10654,Maria Oliveira,,Juliana Pedro,,Mafalda Goncalves,,high,2025/Relay.xml
-W18,1,OK,SWE,SWE,6230,Elvira Karmstig,,Elsa Ehrenborg,,Izabella Ljungberg,,high,2025/Relay.xml
-W18,2,OK,CZE,CZE,5927,Anna Kynclova,,Kristyna Finstrlova,,Marketa Hanusova,,high,2025/Relay.xml
-W18,3,OK,FRA,FRA,6095,Sonia Jolly Jansson,,Ambre Dufour,,Fanny Delahaye,,high,2025/Relay.xml
-W18,4,OK,FIN,FIN,6497,Anni Makihokkonen,,Kiia Kuusikko,,Iida Koskinen,,high,2025/Relay.xml
-W18,5,OK,SUI,SUI,6558,Lotta Marit Luethi,,Lenia Grimm,,Mira Werder,,high,2025/Relay.xml
-W18,6,OK,HUN,HUN,7373,Boglarka Danko,,Timea Janosi,,Csepke Dora,,high,2025/Relay.xml
-W18,7,OK,UKR,UKR,7365,Iryna Klymeniuk,,Iryna Polubentseva,,Yevheniia Oksiuchenko,,high,2025/Relay.xml
-W18,8,OK,POL,POL,6555,Julia Biskupska,,Iga Mikula,,Maja Kula,,high,2025/Relay.xml
-W18,9,OK,GER,GER,7929,Marika Prolingheuer,,Karla Breckle,,Juliane Burgmair,,high,2025/Relay.xml
-W18,10,OK,AUT,AUT,7687,Mika Asenbauer,,Kiara Sophie Piskorz,,Charlotte Brischnik,,high,2025/Relay.xml
-W18,11,OK,LAT,LAT,6318,Eliza Odrina,,Grieta Grantskalna,,Ilze Jumike,,high,2025/Relay.xml
-W18,12,DSQ,NOR,NOR,,Ronja Gotsch Iversen,,Elise Renard,,Helene Scheele,,high,2025/Relay.xml
-W18,13,OK,ESP,ESP,6410,Joana Monge,,Jana Rifa Bernardino,,Arlet Sales,,high,2025/Relay.xml
-W18,14,OK,EST,EST,7720,Mariann Zernant,,Johanna Oras,,Viola Nikitina,,high,2025/Relay.xml
-W18,15,OK,LTU,LTU,6999,Saule Traubaite,,Gabija Stankeviciute,,Margarita Dienyte,,high,2025/Relay.xml
-W18,16,OK,POR,POR,11683,Mariana Guerreiro,,Alexandra Tadeu,,Leonor Soares,,high,2025/Relay.xml
-W18,17,OK,GBR,GBR,6495,Emily Atkinson,,Ruth Gooch,,Lyra Medlock,,high,2025/Relay.xml
-W18,18,OK,ROU,ROU,9907,Sara Bojte,,Gyongyver Gorog,,Sara Lilla Miklos,,high,2025/Relay.xml
-W18,19,OK,ITA,ITA,7537,Chiara Magenes,,Silvia di Stefano,,Chiara Ognibeni,,high,2025/Relay.xml
-W18,20,OK,BUL,BUL,9079,Plamena Cholakova,,Marta Ruseva,,Emanuela Stoyanova,,high,2025/Relay.xml
-W18,21,OK,TUR,TUR,10802,Basak Yilmaz,,Irem Gul Nazlimoglu,,Tuana Gunvaran,,high,2025/Relay.xml
-W18,22,OK,SLO,SLO,7370,Nea Erzen,,Neza Obid,,Brina Kolner,,high,2025/Relay.xml
-W18,23,OK,SVK,SVK,8204,Maiia Volkova,,Nina Jurcikova,,Ema Jonasova,,high,2025/Relay.xml
-W18,24,OK,MDA,MDA,8384,Victoria Nosenco,,Daria Gutul,,Anna Donici,,high,2025/Relay.xml
-W18,25,MP,IRL,IRL,,Eve Buckley,,Ellie Simpson,,Sadhbh Hassett,,high,2025/Relay.xml
+M16,1,OK,FIN,FIN,5314,Kasper Ekonoja,1744,Joakim Savinainen,1744,Veeti Viippola,1826,high,2025/results-relay.pdf
+M16,2,OK,SUI,SUI,5332,Taavi Caboussat,1748,Linus Pusterla,1891,Maxim Bertschi,1693,high,2025/results-relay.pdf
+M16,3,OK,CZE,CZE,5340,Matej Cecka,1789,Mateusz Mokrosz,1817,Matous Dittrich,1734,high,2025/results-relay.pdf
+M16,4,OK,LAT,LAT,5472,Jekabs Graudums,1752,Miks Graudums,1887,Lars Anders Luiks,1833,high,2025/results-relay.pdf
+M16,5,OK,LTU,LTU,5494,Aleksas Murenas,1846,Troj Gunnarsson,1697,Tijus Jokubauskis,1951,high,2025/results-relay.pdf
+M16,6,OK,ESP,ESP,5513,Daniel Sanz,1850,Carlit Tolkko Valledor,1919,Ekain Fernandez Garcia,1744,high,2025/results-relay.pdf
+M16,7,OK,DEN,DEN,5615,Emil Fredberg,1843,Rune Cederberg,1999,Anton Kupriyanov Hviid,1773,high,2025/results-relay.pdf
+M16,8,OK,FRA,FRA,5680,Titouan Andrieux,1752,Noe Chezeau,2074,Tom Lemercier,1854,high,2025/results-relay.pdf
+M16,9,OK,GER,GER,5884,Jacob Imbsweiler,1854,Daniel Schmidt,1752,Julian Doetsch,2278,high,2025/results-relay.pdf
+M16,10,OK,BEL,BEL,6006,Nathan Jansen,1797,Daan Cools,2286,Thor Wolles,1923,high,2025/results-relay.pdf
+M16,11,OK,POL,POL,6092,Antoni Pachnik,1745,Witold Lemanczyk,2342,Szymon Ladomirski,2005,high,2025/results-relay.pdf
+M16,12,OK,EST,EST,6745,Henri Kersna,2571,Erik Marten Zernant,1905,Andres Keernik,2269,high,2025/results-relay.pdf
+M16,13,OK,BUL,BUL,6830,Atanas Raykov,2515,Aleks Sarhachev,2226,Hristo Dimov,2089,high,2025/results-relay.pdf
+M16,14,OK,GBR,GBR,7062,Oliver Duncan,2322,Lawrence Hodgson,2697,Marcus Perry,2043,high,2025/results-relay.pdf
+M16,15,OK,UKR,UKR,7233,Vladyslav Zhukovskyi,2130,Roman Chudinov,2213,Tymofii Polskyi,2890,high,2025/results-relay.pdf
+M16,16,OK,ITA,ITA,7377,Tobia Viel,2304,Alessandro Moser,2524,Gabriele Giudici,2549,high,2025/results-relay.pdf
+M16,17,OK,HUN,HUN,7408,Norbert Nagy,2610,Adam Varsanyi,2959,Bela Barnabas Sugta,1839,high,2025/results-relay.pdf
+M16,18,OK,SVK,SVK,8033,Michal Marko,2708,Daniel Jozef Nemcek,2788,Boris Kocur,2537,high,2025/results-relay.pdf
+M16,19,OK,IRL,IRL,8400,Fionn Buckley,2979,Eoin Simpson,2573,James Ewart,2848,high,2025/results-relay.pdf
+M16,20,OK,ISR,ISR,8409,Ariel Dacosta,2958,Ofek Freund,2610,Idan Verbin,2841,high,2025/results-relay.pdf
+M16,21,OK,AUT,AUT,8442,Matthias Schmalhardt,2317,Jonas Ochenbauer,3199,Jannik Meizer,2926,high,2025/results-relay.pdf
+M16,,MP,POR,POR,,Gabriel Lopes,,Miguel Canana,4287,Antonio Oliveira,3741,high,2025/results-relay.pdf
+M16,,MP,ROU,ROU,,Benjamin Simon,2806,Vince Samuel Simon,2639,Radu Ilin,,high,2025/results-relay.pdf
+M16,,MP,SLO,SLO,,Vid Bratusa,3646,Matija Bratusa,5957,Ajda Jarc,,high,2025/results-relay.pdf
+M16,,MP,TUR,TUR,,Mustafa Talha Bilge,2720,Kayra Yetis,,Poyraz Vural,2376,high,2025/results-relay.pdf
+W16,1,OK,CZE,CZE,5204,Ela Lostakova,1771,Matilda Tomaskova,1725,Carolina Mullis,1708,high,2025/results-relay.pdf
+W16,2,OK,HUN,HUN,6032,Boroka Danko,2033,Aliz Heizer,2316,Sara Szakal Biro,1683,high,2025/results-relay.pdf
+W16,3,OK,FRA,FRA,6157,Louise Cathala,1973,Caroline Harnist,2379,Juliette Pellissier,1805,high,2025/results-relay.pdf
+W16,4,OK,DEN,DEN,6160,Krista Lervad Lundoe,1806,Astrid Faber Fengergroen,1844,Hanna Baek Christiansen,2510,high,2025/results-relay.pdf
+W16,5,OK,GER,GER,6590,Katja Horst,2415,Greta Pompe,2180,Jannika Wetzlel,1995,high,2025/results-relay.pdf
+W16,6,OK,GBR,GBR,6604,Ella Baxter,2075,Lucy Ward,2357,Ellie Todhunter,2172,high,2025/results-relay.pdf
+W16,7,OK,UKR,UKR,6681,Inna Ignatieva,2625,Karina Fedoryshyn,2037,Daria Sereda,2019,high,2025/results-relay.pdf
+W16,8,OK,EST,EST,6766,Grete Johanna Korb,2031,Mia Esta,2491,Anna Mia Atonen,2244,high,2025/results-relay.pdf
+W16,9,OK,CRO,CRO,6770,Dora Delic,2546,Sara Delic,2035,Ema Jurican,2189,high,2025/results-relay.pdf
+W16,10,OK,FIN,FIN,6873,Aurora Lehtonen,2625,Alma Peltotalo,2338,Anni Jantunen,1910,high,2025/results-relay.pdf
+W16,11,OK,LAT,LAT,6875,Eliza Eisaka,2102,Amanta Mikijanska,2421,Henriete Priedite,2352,high,2025/results-relay.pdf
+W16,12,OK,POL,POL,7107,Michalina Wysocka,2742,Katarzyna Szafarewicz,2258,Oliwia Hetnar,2107,high,2025/results-relay.pdf
+W16,13,OK,ROU,ROU,7759,Sonia Stupu,2750,Eszter Anna Palfy,2455,Ana Brandus,2554,high,2025/results-relay.pdf
+W16,14,OK,ESP,ESP,7994,Candela Arranz Bravo,3653,Laia Casal Gil,2092,Bruna Sanz Kowalski,2249,high,2025/results-relay.pdf
+W16,15,OK,LTU,LTU,8184,Eva Sriubaite,2746,Martyna Jankauskaite,3157,Gabija Mincinauskyte,2281,high,2025/results-relay.pdf
+W16,16,OK,BUL,BUL,8421,Vihra Ruseva,2878,Bogomila Tuykova,3090,Lyudmila Dimova,2453,high,2025/results-relay.pdf
+W16,17,OK,AUT,AUT,8483,Matilda Buschek,2757,Hannah Sandrisser,3163,Angelina Ochenbauer,2563,high,2025/results-relay.pdf
+W16,,MP,IRL,IRL,,Niamh Browne,2452,Fionnuala Rowe,2704,Aoife Masterson,,high,2025/results-relay.pdf
+W16,,MP,SLO,SLO,,Nika Erzen,2626,Brina Gantar,,Lili Ivana Raj,3594,high,2025/results-relay.pdf
+W16,,MP,SUI,SUI,,Bigna Hotz,1806,Carla Castelli,1690,Seraina Baer,,high,2025/results-relay.pdf
+M18,,MP,SVK,SVK,,Daniel Smelik,2319,David Cisar,,Matej Balogh,2511,high,2025/results-relay.pdf
+M18,1,OK,CZE,CZE,6534,Martin Bulicka,2345,Ctibor Podrabsky,2146,Vladimir Srb,2043,high,2025/results-relay.pdf
+M18,2,OK,FIN,FIN,6622,Vilho Hietala,2453,Aapo Virkajarvi,1919,Rasmus Toyryla,2250,high,2025/results-relay.pdf
+M18,3,OK,HUN,HUN,7166,Marton Hegedus,2587,Mark Levente Bujdoso,2235,Mihaly Csoboth,2344,high,2025/results-relay.pdf
+M18,4,OK,FRA,FRA,7294,Lucas Verjux,2278,Emmanuel Pradeau,2515,Simon Calandry,2501,high,2025/results-relay.pdf
+M18,5,OK,GBR,GBR,7556,Tommy Rollins,2375,Finlay McLuckie,2706,Finn Selmer Duguid,2475,high,2025/results-relay.pdf
+M18,6,OK,POL,POL,7652,Stanislaw Drapella,2905,Antoni Trzeciak,2645,Tomasz Rzenca,2102,high,2025/results-relay.pdf
+M18,7,OK,SUI,SUI,7791,Lavio Mueller,2476,Lukas Matthaeus,2697,Andri Gujan,2618,high,2025/results-relay.pdf
+M18,8,OK,ESP,ESP,8040,Jorge Perez Gonzalez,2444,Pablo Rubio Cribellati,3039,Aratz Beobide,2557,high,2025/results-relay.pdf
+M18,9,OK,LAT,LAT,8055,Renars Grasis,2900,Rudolfs Graudins,2498,Lukass Silins,2657,high,2025/results-relay.pdf
+M18,10,OK,BUL,BUL,8057,Svetlozar Kolev,2347,Bogdan Evgeniev,2998,Dani Nikolov,2712,high,2025/results-relay.pdf
+M18,11,OK,EST,EST,8178,Villem Piirimae,2968,Karel Jung,2581,Partel Kulvik,2629,high,2025/results-relay.pdf
+M18,12,OK,LTU,LTU,8195,Domas Juknevicius,2541,Domas Lazauskas,2539,Aleksandras Uckuronis,3115,high,2025/results-relay.pdf
+M18,13,OK,NOR,NOR,8211,Mathias Reinertsen Leroyer,2827,Jacob Finstad Land,2698,Magnus Sigurdsson,2686,high,2025/results-relay.pdf
+M18,14,OK,GER,GER,8519,Jakob Drechsler,2892,Niklas Wetzel,2657,Lennart Muehlstaedt,2970,high,2025/results-relay.pdf
+M18,15,OK,BEL,BEL,8525,Thomas Jansen,2342,Pjotr Mertens,2951,Regis Vanschuytbroeck,3232,high,2025/results-relay.pdf
+M18,16,OK,UKR,UKR,8528,Volodymyr Horashko,2450,Artem Zhukovskyi,2627,Oleksandr Badrak,3451,high,2025/results-relay.pdf
+M18,17,OK,ITA,ITA,8717,Francesco Scalzotto,3415,Marco Gianelle,2797,Niklas Weitlaner,2505,high,2025/results-relay.pdf
+M18,18,OK,IRL,IRL,9165,Aidan McKenna,2970,Gerry Browne,2957,Liam Casey,3238,high,2025/results-relay.pdf
+M18,19,OK,SLO,SLO,9347,Ozbej Malus,3416,Anze Kolner,2599,Bozo Bizjak,3332,high,2025/results-relay.pdf
+M18,20,OK,ISR,ISR,9375,Yuval Kalkstein,3015,Ronen Shuv,3086,Almog Sharon,3274,high,2025/results-relay.pdf
+M18,,DSQ,CRO,CRO,,Luka Gojmerac,3210,Gabrijel Solenicki,,Karlo Lesjak,3704,high,2025/results-relay.pdf
+M18,,MP,DEN,DEN,,Carl Oscar Baek Christiansen,2902,Mattias Rokkjaer,2499,Axel Oernhagen Joergensen,,high,2025/results-relay.pdf
+M18,,MP,MDA,MDA,,Artiom Babici,2902,Daniil Iancovschi,,Emilia Grosu,,high,2025/results-relay.pdf
+M18,,MP,POR,POR,,Tiago Oliveira,3971,Pedro Patrocinio,3383,Joao Maia,,high,2025/results-relay.pdf
+M18,,MP,SWE,SWE,,Edvin Atting,2451,Ted Lagerstrom,2404,Axel Thybeck,,high,2025/results-relay.pdf
+W18,1,OK,CZE,CZE,5927,Anna Kynclova,1972,Kristyna Finstrlova,1939,Marketa Hanusova,2016,high,2025/results-relay.pdf
+W18,2,OK,FRA,FRA,6095,Sonia Jolly Jansson,2085,Ambre Dufour,2123,Fanny Delahaye,1887,high,2025/results-relay.pdf
+W18,3,OK,SWE,SWE,6230,Elvira Karmstig,2262,Elsa Ehrenborg,1946,Izabella Ljungberg,2022,high,2025/results-relay.pdf
+W18,4,OK,LAT,LAT,6318,Eliza Odrina,2168,Grieta Grantskalna,2300,Ilze Jumike,1850,high,2025/results-relay.pdf
+W18,5,OK,ESP,ESP,6410,Joana Monge,2273,Jana Rifa Bernardino,1997,Arlet Sales,2140,high,2025/results-relay.pdf
+W18,6,OK,GBR,GBR,6495,Emily Atkinson,2129,Ruth Gooch,2081,Lyra Medlock,2285,high,2025/results-relay.pdf
+W18,7,OK,FIN,FIN,6497,Anni Makihokkonen,2086,Kiia Kuusikko,2379,Iida Koskinen,2032,high,2025/results-relay.pdf
+W18,8,OK,POL,POL,6555,Julia Biskupska,2274,Iga Mikula,2114,Maja Kula,2167,high,2025/results-relay.pdf
+W18,9,OK,SUI,SUI,6558,Lotta Marit Luethi,1939,Lenia Grimm,2273,Mira Werder,2346,high,2025/results-relay.pdf
+W18,10,OK,LTU,LTU,6999,Saule Traubaite,2373,Gabija Stankeviciute,2626,Margarita Dienyte,2000,high,2025/results-relay.pdf
+W18,11,OK,UKR,UKR,7365,Iryna Klymeniuk,2333,Iryna Polubentseva,2586,Yevheniia Oksiuchenko,2446,high,2025/results-relay.pdf
+W18,12,OK,SLO,SLO,7370,Nea Erzen,2261,Neza Obid,2859,Brina Kolner,2250,high,2025/results-relay.pdf
+W18,13,OK,HUN,HUN,7373,Boglarka Danko,2298,Timea Janosi,2501,Csepke Dora,2574,high,2025/results-relay.pdf
+W18,14,OK,ITA,ITA,7537,Chiara Magenes,2415,Silvia di Stefano,2366,Chiara Ognibeni,2756,high,2025/results-relay.pdf
+W18,15,OK,AUT,AUT,7687,Mika Asenbauer,2295,Kiara Sophie Piskorz,2730,Charlotte Brischnik,2662,high,2025/results-relay.pdf
+W18,16,OK,EST,EST,7720,Mariann Zernant,2276,Johanna Oras,2859,Viola Nikitina,2585,high,2025/results-relay.pdf
+W18,17,OK,GER,GER,7929,Marika Prolingheuer,2278,Karla Breckle,2847,Juliane Burgmair,2804,high,2025/results-relay.pdf
+W18,18,OK,SVK,SVK,8204,Maiia Volkova,2063,Nina Jurcikova,2784,Ema Jonasova,3357,high,2025/results-relay.pdf
+W18,19,OK,MDA,MDA,8384,Victoria Nosenco,2156,Daria Gutul,3128,Anna Donici,3100,high,2025/results-relay.pdf
+W18,20,OK,BUL,BUL,9079,Plamena Cholakova,3363,Marta Ruseva,3199,Emanuela Stoyanova,2517,high,2025/results-relay.pdf
+W18,,DSQ,NOR,NOR,,Ronja Gotsch Iversen,2084,Elise Renard,2219,Helene Scheele,,high,2025/results-relay.pdf
+W18,,MP,IRL,IRL,,Eve Buckley,,Ellie Simpson,4010,Sadhbh Hassett,3527,high,2025/results-relay.pdf
