@@ -61,12 +61,12 @@ W16,60,OK,,BLR,Katsiaryna Valiuk,4383,high,2004/eyoc2004.htm
 W16,61,OK,,LAT,Laura Vike,4402,high,2004/eyoc2004.htm
 W16,62,OK,,FRA,Gaëlle Barlet,4525,high,2004/eyoc2004.htm
 W16,63,OK,,ITA,Marija Pruss,4581,high,2004/eyoc2004.htm
-W16,64,OK,,MNE,And Radosavljevic Vedrana 88 Serbia,4769,high,2004/eyoc2004.htm
+W16,64,OK,,SRB,Vedrana Radosavljevic,4769,high,2004/eyoc2004.htm
 W16,65,OK,,BLR,Katsiaryna Prakharenka,4821,high,2004/eyoc2004.htm
-W16,66,OK,,MNE,And Zdravkovic Nada 88 Serbia,5070,high,2004/eyoc2004.htm
+W16,66,OK,,SRB,Nada Zdravkovic,5070,high,2004/eyoc2004.htm
 W16,67,OK,,BUL,Ivanka Lazarova,5401,high,2004/eyoc2004.htm
 W16,68,OK,,BUL,Monika Prodanova,5406,high,2004/eyoc2004.htm
-W16,69,OK,,MNE,And Zdravkovic Marta 88 Serbia,5494,high,2004/eyoc2004.htm
+W16,69,OK,,SRB,Marta Zdravkovic,5494,high,2004/eyoc2004.htm
 W18,1,OK,,SUI,Sara Würmli,3211,high,2004/eyoc2004.htm
 W18,2,OK,,FRA,Anaïs Goffre,3298,high,2004/eyoc2004.htm
 W18,3,OK,,SUI,Lilian Knechtli,3357,high,2004/eyoc2004.htm
@@ -126,10 +126,10 @@ W18,57,OK,,ROU,Ancuta Patras,5726,high,2004/eyoc2004.htm
 W18,58,OK,,BLR,Nastsia Klapouskaya,6010,high,2004/eyoc2004.htm
 W18,59,OK,,BLR,Ina Tsitova,6110,high,2004/eyoc2004.htm
 W18,60,OK,,BUL,Mariyana Ivanova,6119,high,2004/eyoc2004.htm
-W18,61,OK,,MNE,And Simic Sonja 86 Serbia,6467,high,2004/eyoc2004.htm
-W18,63,OK,,MNE,And Sibinoski Ljiljana 86 Serbia,6609,high,2004/eyoc2004.htm
+W18,61,OK,,SRB,Sonja Simic,6467,high,2004/eyoc2004.htm
+W18,63,OK,,SRB,Ljiljana Sibinoski,6609,high,2004/eyoc2004.htm
 W18,64,OK,,AUT,Melanie Wagner,6988,high,2004/eyoc2004.htm
-W18,65,OK,,MNE,And Bojovic Marta 86 Serbia,7140,high,2004/eyoc2004.htm
+W18,65,OK,,SRB,Marta Bojovic,7140,high,2004/eyoc2004.htm
 M16,1,OK,,CZE,Stepán Kodeda,3041,high,2004/eyoc2004.htm
 M16,2,OK,,ITA,Jonas Rass,3082,high,2004/eyoc2004.htm
 M16,3,OK,,SUI,Jonas Meuli,3094,high,2004/eyoc2004.htm
@@ -197,9 +197,9 @@ M16,65,OK,,SVK,Miroslav Kollar,4278,high,2004/eyoc2004.htm
 M16,66,OK,,LTU,Giedrius Vidzikauskas,4360,high,2004/eyoc2004.htm
 M16,67,OK,,ITA,Aaron Gaio,4505,high,2004/eyoc2004.htm
 M16,68,OK,,LTU,Vytautas Pranckaitis,4676,high,2004/eyoc2004.htm
-M16,69,OK,,MNE,And Mojsilovic Nenad 88 Serbia,4971,high,2004/eyoc2004.htm
+M16,69,OK,,SRB,Nenad Mojsilovic,4971,high,2004/eyoc2004.htm
 M16,70,OK,,ESP,Laguna Esteban Juan A.,5202,high,2004/eyoc2004.htm
-M16,71,OK,,MNE,And Bojovic Bosko 88 Serbia,5988,high,2004/eyoc2004.htm
+M16,71,OK,,SRB,Bosko Bojovic,5988,high,2004/eyoc2004.htm
 M18,1,OK,,SVK,Michal Krajcik,3066,high,2004/eyoc2004.htm
 M18,2,OK,,CZE,Jan Benes,3218,high,2004/eyoc2004.htm
 M18,3,OK,,POL,Filip Mazurek,3282,high,2004/eyoc2004.htm
@@ -266,6 +266,6 @@ M18,64,OK,,UKR,Denys Zabayev,4939,high,2004/eyoc2004.htm
 M18,65,OK,,LAT,Renars Roze,5076,high,2004/eyoc2004.htm
 M18,66,OK,,FRA,Thibault Mouhat,5103,high,2004/eyoc2004.htm
 M18,67,OK,,ESP,Iglesias Ayllón Juan D.,5125,high,2004/eyoc2004.htm
-M18,70,OK,,MNE,And Milan Rener 86 Serbia,7272,high,2004/eyoc2004.htm
-M18,71,OK,,MNE,And Stankovic Milos 86 Serbia,7360,high,2004/eyoc2004.htm
-M18,72,OK,,MNE,And Radoman Uros 87 Serbia,7561,high,2004/eyoc2004.htm
+M18,70,OK,,SRB,Rener Milan,7272,high,2004/eyoc2004.htm
+M18,71,OK,,SRB,Milos Stankovic,7360,high,2004/eyoc2004.htm
+M18,72,OK,,SRB,Uros Radoman,7561,high,2004/eyoc2004.htm
