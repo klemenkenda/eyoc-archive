@@ -78,7 +78,8 @@ def parse_rank(text: str) -> int | None:
 
 
 def parse_bib(text: str) -> str:
-    match = re.search(r"\d{2,4}", text)
+    # single-digit bibs (1-9) are real too, e.g. rank 1's "[9]" - don't require >=2 digits
+    match = re.search(r"\d{1,4}", text)
     return match.group() if match else ""
 
 
@@ -169,17 +170,6 @@ def parse_rows(words: list[common.OcrWord]) -> list[dict[str, object]]:
     return rows
 
 
-def write_csv(rows: list[dict[str, object]]) -> Path:
-    out_dir = common.ensure_year_dir(YEAR)
-    out = out_dir / f"{DISCIPLINE}.csv"
-    import csv
-    with out.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=common.SPRINT_COLUMNS)
-        writer.writeheader()
-        for row in rows:
-            writer.writerow({column: row.get(column, "") for column in common.SPRINT_COLUMNS})
-    return out
-
 
 def main() -> None:
     if not PDF.exists():
@@ -189,7 +179,7 @@ def main() -> None:
         image_paths = common.render_pdf_pages(PDF, Path(tmp), zoom=ZOOM)
         words = common.tesseract_ocr(image_paths, zoom=ZOOM)
     rows = parse_rows(words)
-    out = write_csv(rows)
+    out = common.write_csv(YEAR, DISCIPLINE, rows, common.SPRINT_COLUMNS)
     counts: dict[str, int] = {}
     for row in rows:
         counts[str(row["class"])] = counts.get(str(row["class"]), 0) + 1

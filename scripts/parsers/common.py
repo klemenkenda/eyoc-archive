@@ -78,7 +78,7 @@ ALIASES = {
     "finland": "FIN",
     "france": "FRA",
     "germany": "GER",
-    "hungary": "HUN",
+    "hungary": "HUN", "hunegarv": "HUN",
     "liechtenstein": "LIE",
 }
 # also accept the codes themselves (case-insensitive) and canonical names
@@ -655,6 +655,11 @@ NAME_FIXES = {
     "Morten �Rnhagen Jorgensen": "Morten Ornhagen Jorgensen",
     "Szuromi �Ron": "Szuromi Ron",
     "�Ubka Weissova": "Lubka Weissova",
+    # Unrelated to the "�" corruption above, but same fix mechanism: the 2016 sprint
+    # scan is OCR'd (see parse_2016_sprint_ocr.py), and Tesseract misread this competitor
+    # tied for 8th in W16 as "HAINAI" - the real name, confirmed by other EYOC sources
+    # for this athlete, is "Hajnal".
+    "Dorottya Hainai": "Dorottya Hajnal",
 }
 
 
