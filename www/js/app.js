@@ -27,8 +27,21 @@ Eyoc.parseHash = function (hash) {
 };
 
 // Fire-and-forget visit log; never blocks navigation or surfaces errors to the user.
+Eyoc.lastLoggedPageview = null;
 Eyoc.logPageview = function () {
-  const payload = JSON.stringify({ path: location.hash || "#/", referrer: document.referrer });
+  const path = location.hash || "#/";
+  const now = Date.now();
+  const dedupeWindowMs = 1500;
+  if (
+    Eyoc.lastLoggedPageview &&
+    Eyoc.lastLoggedPageview.path === path &&
+    now - Eyoc.lastLoggedPageview.at < dedupeWindowMs
+  ) {
+    return;
+  }
+
+  Eyoc.lastLoggedPageview = { path, at: now };
+  const payload = JSON.stringify({ path: path, referrer: document.referrer });
   try {
     if (navigator.sendBeacon) {
       navigator.sendBeacon("api/statistics.php", new Blob([payload], { type: "application/json" }));

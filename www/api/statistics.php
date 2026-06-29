@@ -131,17 +131,51 @@ function eyoc_resolve_writable_log_file()
     return isset($candidates[0]) ? $candidates[0] : '';
 }
 
+function eyoc_json_response($code, $text, $data)
+{
+    eyoc_status($code, $text);
+    header('Content-Type: application/json; charset=utf-8');
+    echo json_encode($data);
+    exit;
+}
+
 $requestMethod = isset($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : '';
 eyoc_disable_cache();
+if ($requestMethod === 'OPTIONS') {
+    header('Allow: GET, POST, OPTIONS');
+    eyoc_status(204, 'No Content');
+    exit;
+}
+
+if ($requestMethod === 'GET') {
+    header('Allow: GET, POST, OPTIONS');
+    eyoc_json_response(200, 'OK', array(
+        'name' => 'EYOC visitor statistics endpoint',
+        'method' => 'POST',
+        'content_type' => 'application/json',
+        'fields' => array('path', 'referrer'),
+        'country_detection' => 'server-side best effort',
+        'log_file' => basename(eyoc_resolve_writable_log_file()),
+        'status' => 'ready',
+    ));
+}
+
 if ($requestMethod !== 'POST') {
-    eyoc_status(405, 'Method Not Allowed');
-    header('Content-Type: application/json');
-    echo json_encode(array('error' => 'POST only'));
+    header('Allow: GET, POST, OPTIONS');
+    eyoc_json_response(405, 'Method Not Allowed', array('error' => 'Use GET for endpoint info or POST to log a pageview.'));
+}
+
+$contentType = isset($_SERVER['CONTENT_TYPE']) ? (string) $_SERVER['CONTENT_TYPE'] : '';
+if ($contentType !== '' && stripos($contentType, 'application/json') === false) {
+    eyoc_json_response(415, 'Unsupported Media Type', array('error' => 'Expected application/json request body.'));
     exit;
 }
 
 $rawBody = file_get_contents('php://input');
 $body = json_decode($rawBody !== false ? $rawBody : '', true);
+if ($rawBody === false || !is_array($body)) {
+    eyoc_json_response(400, 'Bad Request', array('error' => 'Request body must be valid JSON.'));
+}
 
 $path = is_array($body) && isset($body['path']) ? (string) $body['path'] : '';
 $referrer = is_array($body) && isset($body['referrer']) ? (string) $body['referrer'] : '';
@@ -166,6 +200,18 @@ if ($fh !== false) {
     fclose($fh);
 } else {
     error_log('EYOC stats: unable to open log file for writing: ' . $logFile);
+    eyoc_json_response(500, 'Internal Server Error', array('error' => 'Unable to open log file.'));
 }
 
-eyoc_status(204, 'No Content');
+$preferMinimal = isset($_SERVER['HTTP_ACCEPT']) && strpos($_SERVER['HTTP_ACCEPT'], 'application/json') === false;
+if ($preferMinimal) {
+    eyoc_status(204, 'No Content');
+    exit;
+}
+
+eyoc_json_response(200, 'OK', array(
+    'ok' => true,
+    'logged' => true,
+    'path' => $path,
+    'country' => $entry['country'],
+));
