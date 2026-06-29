@@ -36,8 +36,22 @@ a:hover { text-decoration: underline; }
   background: white;
   border-bottom: 1px solid var(--border);
 }
+.site-header-bar { display: flex; align-items: center; gap: 0.75rem; }
 .site-header .brand img { height: 36px; display: block; }
-.site-header nav { display: flex; gap: 1.25rem; }
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.menu-toggle span { display: block; width: 100%; height: 2px; background: var(--navy); border-radius: 1px; }
+.site-header nav { display: flex; flex-wrap: wrap; gap: 1.25rem; }
 .site-header nav a { font-weight: 600; color: var(--text); border-bottom: 2px solid transparent; }
 .site-header nav a:hover { text-decoration: none; border-bottom-color: var(--navy); }
 .site-header nav a.active { color: var(--navy); border-bottom-color: var(--orange); }
@@ -276,7 +290,7 @@ footer {
 }
 .view-tabs button.active { background: var(--orange); color: white; }
 
-.tabs { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+.tabs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
 .tabs button, .sex-filter button {
   background: white; color: var(--navy);
 }
@@ -335,6 +349,10 @@ footer {
 
 .sex-filter { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
 
+/* Every results table is wrapped in this - on a phone-width viewport the table scrolls
+   horizontally inside its own box instead of squeezing every column down to illegible
+   widths or blowing out the page's horizontal scroll. */
+.table-scroll { overflow-x: auto; }
 .results-table {
   width: 100%;
   border-collapse: collapse;
@@ -420,6 +438,49 @@ footer {
 canvas { background: white; border: 1px solid var(--border); border-radius: 8px; padding: 0.5rem; margin-bottom: 1.5rem; max-height: 320px; }
 
 @media (max-width: 640px) {
-  .site-header { flex-direction: column; align-items: flex-start; }
+  .site-header { flex-direction: column; align-items: stretch; }
+  .site-header-bar { justify-content: space-between; }
   .event-header { flex-direction: column; align-items: flex-start; }
+
+  /* Hamburger toggle replaces the always-visible link row from the desktop/tablet
+     layout - nav becomes a collapsible full-width dropdown under the brand bar,
+     opened/closed via mobileMenuOpen (Eyoc.appRoot, the body's x-data). */
+  .menu-toggle { display: flex; }
+  .site-header nav {
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 0;
+    width: 100%;
+  }
+  .site-header nav.open {
+    display: flex;
+    margin-top: 0.5rem;
+    border-top: 1px solid var(--border);
+  }
+  .site-header nav a {
+    padding: 0.65rem 0.25rem 0.65rem 0.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .site-header nav a.active {
+    border-bottom: 1px solid var(--border);
+    border-left: 3px solid var(--orange);
+    padding-left: calc(0.75rem - 3px);
+  }
+
+  main { padding: 1rem 0.75rem 2rem; }
+
+  /* Force cells to their natural width instead of cramming/wrapping text into a
+     squeezed column - .table-scroll (always present, see above) then scrolls
+     horizontally instead of the page itself overflowing. */
+  .results-table td { white-space: nowrap; }
+
+  .search-box { flex-wrap: wrap; justify-content: stretch; }
+  .search-box input,
+  .search-box button,
+  .country-select:not(.year-select) { width: 100%; }
+
+  /* The home page's two stacked pickers (search box, country select) read as one
+     control on a phone-width column rather than two separately-centered ~360px boxes. */
+  .hero .search-box { margin-bottom: 0.5rem; }
 }

@@ -43,11 +43,13 @@ Eyoc.logPageview = function () {
 Eyoc.appRoot = function () {
   return {
     route: Eyoc.parseHash(location.hash),
+    mobileMenuOpen: false,
 
     init() {
       Eyoc.store.init();
       window.addEventListener("hashchange", () => {
         this.route = Eyoc.parseHash(location.hash);
+        this.mobileMenuOpen = false;
         window.scrollTo(0, 0);
         Eyoc.logPageview();
       });

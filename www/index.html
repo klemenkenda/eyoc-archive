@@ -9,9 +9,21 @@
 </head>
 <body x-data="appRoot()" x-init="init()">
 
-<header class="site-header">
-  <a class="brand" href="#/"><img src="assets/logo-new.png" alt="EYOC Archive"></a>
-  <nav>
+<header class="site-header" @click.outside="mobileMenuOpen = false">
+  <div class="site-header-bar">
+    <a class="brand" href="#/"><img src="assets/logo-new.png" alt="EYOC Archive"></a>
+    <button
+      type="button"
+      class="menu-toggle"
+      @click="mobileMenuOpen = !mobileMenuOpen"
+      :aria-expanded="mobileMenuOpen"
+      aria-label="Toggle menu"
+      aria-controls="site-nav"
+    >
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav id="site-nav" :class="{ open: mobileMenuOpen }">
     <a href="#/" :class="{active: route.name === 'home'}">Home</a>
     <a href="#/medals" :class="{active: route.name === 'medals'}">Medals</a>
     <a href="#/rankings" :class="{active: route.name === 'rankings'}">Rankings</a>
@@ -124,7 +136,8 @@
           </template>
 
           <template x-if="classFilter && discipline !== 'relay'">
-            <table class="results-table">
+            <div class="table-scroll">
+              <table class="results-table">
               <thead>
                 <tr>
                   <th class="col-rank" @click="sortBy('rank')">Rank <span x-text="sortIndicator('rank')"></span></th>
@@ -152,10 +165,12 @@
                 </template>
               </tbody>
             </table>
+            </div>
           </template>
 
           <template x-if="classFilter && discipline === 'relay'">
-            <table class="results-table">
+            <div class="table-scroll">
+              <table class="results-table">
               <thead>
                 <tr>
                   <th class="col-rank" @click="sortBy('rank')">Rank <span x-text="sortIndicator('rank')"></span></th>
@@ -211,6 +226,7 @@
                 </template>
               </tbody>
             </table>
+            </div>
           </template>
         </div>
       </template>
@@ -259,7 +275,8 @@
       <template x-if="individualMatches.length">
         <div>
           <h2>Individual results (<span x-text="individualMatches.length"></span>)</h2>
-          <table class="results-table">
+          <div class="table-scroll">
+            <table class="results-table">
             <thead><tr><th>Year</th><th>Discipline</th><th>Class</th><th class="col-rank">Rank</th><th>Name</th><th>Country</th><th class="col-time">Time</th><th class="col-diff">Diff</th></tr></thead>
             <tbody>
               <template x-for="row in individualMatches" :key="row.year + '-' + row.discipline + '-' + row.class + '-' + row.name + '-' + row.source_file">
@@ -279,13 +296,15 @@
               </template>
             </tbody>
           </table>
+          </div>
         </div>
       </template>
 
       <template x-if="relayMatches.length">
         <div>
           <h2>Relay results (<span x-text="relayMatches.length"></span>)</h2>
-          <table class="results-table">
+          <div class="table-scroll">
+            <table class="results-table">
             <thead><tr><th>Year</th><th>Class</th><th class="col-rank">Rank</th><th>Team</th><th>Runners</th><th class="col-time">Time</th><th class="col-diff">Diff</th></tr></thead>
             <tbody>
               <template x-for="row in relayMatches" :key="row.year + '-' + row.class + '-' + row.team + '-' + row.source_file">
@@ -310,6 +329,7 @@
               </template>
             </tbody>
           </table>
+          </div>
         </div>
       </template>
     </div>
@@ -366,7 +386,8 @@
           <template x-if="percentileChain.length === 0">
             <p class="status">No ranked results for this filter.</p>
           </template>
-          <table class="results-table" x-show="percentileChain.length">
+          <div class="table-scroll">
+            <table class="results-table" x-show="percentileChain.length">
             <thead><tr><th>Year</th><th>Discipline</th><th>Class</th><th>Name</th><th class="col-rank">Rank / Field</th><th>Percentile</th><th class="col-time">Time</th><th class="col-diff">Diff</th></tr></thead>
             <tbody>
               <template x-for="step in percentileChain" :key="'pct-' + step.row.year + '-' + step.row.discipline + '-' + step.row.class + '-' + (step.row.name || step.row.team)">
@@ -383,10 +404,12 @@
               </template>
             </tbody>
           </table>
+          </div>
 
           <h2>Best-place progression</h2>
           <p class="hint">Best-ever result so far by absolute rank (field size only breaks ties).</p>
-          <table class="results-table" x-show="bestChain.length">
+          <div class="table-scroll">
+            <table class="results-table" x-show="bestChain.length">
             <thead><tr><th>Year</th><th>Discipline</th><th>Class</th><th>Name</th><th class="col-rank">Rank / Field</th><th class="col-time">Time</th><th class="col-diff">Diff</th></tr></thead>
             <tbody>
               <template x-for="step in bestChain" :key="'best-' + step.row.year + '-' + step.row.discipline + '-' + step.row.class + '-' + (step.row.name || step.row.team)">
@@ -402,6 +425,7 @@
               </template>
             </tbody>
           </table>
+          </div>
         </div>
       </template>
 
@@ -410,7 +434,8 @@
           <template x-if="resultsAllRows.length === 0">
             <p class="status">No results for this filter.</p>
           </template>
-          <table class="results-table" x-show="resultsAllRows.length">
+          <div class="table-scroll">
+            <table class="results-table" x-show="resultsAllRows.length">
             <thead><tr><th>#</th><th>Category</th><th>Discipline</th><th>Year</th><th>Name</th><th class="col-rank">Rank / Field</th><th class="col-time">Time</th><th class="col-diff">Diff</th></tr></thead>
             <tbody>
               <template x-for="(row, i) in resultsRows" :key="'res-' + row.year + '-' + row.discipline + '-' + row.class + '-' + row.displayName + '-' + row.rank + '-' + row.source_file">
@@ -427,6 +452,7 @@
               </template>
             </tbody>
           </table>
+          </div>
 
           <nav class="pagination" x-show="resultsTotalPages > 1">
             <button type="button" @click="goToResultsPage(resultsPage - 1)" :disabled="resultsPage === 1">‹ Prev</button>
@@ -474,7 +500,8 @@
         </div>
       </div>
 
-      <table class="results-table">
+      <div class="table-scroll">
+        <table class="results-table">
         <thead>
           <tr>
             <th>#</th>
@@ -500,6 +527,7 @@
           </template>
         </tbody>
       </table>
+      </div>
     </div>
   </template>
 
@@ -523,7 +551,8 @@
         </template>
       </div>
 
-      <table class="results-table">
+      <div class="table-scroll">
+        <table class="results-table">
         <thead><tr><th>#</th><th>Category</th><th>Discipline</th><th>Year</th><th>Name</th><th>Country</th><th class="col-rank">Rank / Field</th><th class="col-time">Time</th><th class="col-diff">Diff</th></tr></thead>
         <tbody>
           <template x-for="(row, i) in rows" :key="row.year + '-' + row.discipline + '-' + row.class + '-' + row.country + '-' + row.displayName + '-' + row.rank + '-' + row.source_file">
@@ -541,6 +570,7 @@
           </template>
         </tbody>
       </table>
+      </div>
 
       <nav class="pagination" x-show="totalPages > 1">
         <button type="button" @click="goToPage(page - 1)" :disabled="page === 1">‹ Prev</button>
@@ -638,7 +668,7 @@
         correct.</p>
 
       <h2>Author &amp; source</h2>
-      <p>Made by Klemen Kenda, Slovenia.<br>
+      <p>Made by Klemen Kenda, Slovenian orienteering Federation (IT team for EYOC 2006 &amp; 2026).<br>
         Source code, raw results, and full data-quality documentation:
         <a href="https://github.com/klemenkenda/eyoc-archive" target="_blank" rel="noopener">github.com/klemenkenda/eyoc-archive</a>.</p>
     </div>
