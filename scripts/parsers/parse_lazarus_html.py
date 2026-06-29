@@ -78,29 +78,39 @@ def parse_row(line):
     # drop a leading bib number / birth year, e.g. "717 Müller, Sandrine ... Switzerland"
     before = LEADING_NUM_RE.sub("", before)
     words = before.split()
-    # Country is the longest trailing run of 1-3 words that resolves to a known country.
-    # Try matching as-is first (some years print just a bare code, e.g. "CZE", with no
-    # full name - that single token IS the country, don't go stripping it away). Only if
-    # nothing matches do we strip one trailing junk token - heat letter (D), code+bib
-    # glued (SUI13), bare bib (1) - and retry, since other years print redundant junk
-    # *after* the real country name, e.g. "Switzerland SUI13 D" or "Romania ROM 1 D".
+    # a 2006 row glues the bare country code directly onto the end of the name with no
+    # space at all and no other mention of the country anywhere in the row, e.g.
+    # "BjerkreimNOR" - split it off up front (the candidate-matching loop below works on
+    # whole words, so a glued suffix on the final word would otherwise never be seen).
     country_text = None
     name_words = words
-    attempt = words
-    for _ in range(4):
-        if not attempt:
-            break
-        for n in (3, 2, 1):
-            if len(attempt) <= n:
-                continue
-            candidate = " ".join(attempt[-n:])
-            if common.normalize_country(candidate) is not None:
-                country_text = candidate
-                name_words = attempt[:-n]
+    glued = common.glued_country_code_suffix(words[-1]) if words else None
+    if glued:
+        name_part, country_text = glued
+        name_words = words[:-1] + [name_part]
+    else:
+        # Country is the longest trailing run of 1-3 words that resolves to a known
+        # country. Try matching as-is first (some years print just a bare code, e.g.
+        # "CZE", with no full name - that single token IS the country, don't go
+        # stripping it away). Only if nothing matches do we strip one trailing junk
+        # token - heat letter (D), code+bib glued (SUI13), bare bib (1) - and retry,
+        # since other years print redundant junk *after* the real country name, e.g.
+        # "Switzerland SUI13 D" or "Romania ROM 1 D".
+        attempt = words
+        for _ in range(4):
+            if not attempt:
                 break
-        if country_text or not TRAILING_JUNK_RE.match(attempt[-1]):
-            break
-        attempt = attempt[:-1]
+            for n in (3, 2, 1):
+                if len(attempt) <= n:
+                    continue
+                candidate = " ".join(attempt[-n:])
+                if common.normalize_country(candidate) is not None:
+                    country_text = candidate
+                    name_words = attempt[:-n]
+                    break
+            if country_text or not TRAILING_JUNK_RE.match(attempt[-1]):
+                break
+            attempt = attempt[:-1]
     if country_text is None:
         return None
     # some rows redundantly print the country name AND its code, e.g. "Czech republic
@@ -114,6 +124,25 @@ def parse_row(line):
         if common.normalize_country(candidate2) is not None:
             name_words = name_words[:-n2]
             break
+    # a few 2003 rows glue the country name straight onto the given name with no space
+    # at all, e.g. "GrzegorzPoland" - split off a known country-name alias if it forms
+    # the tail of the last word (min length 5 to avoid matching bare 3-letter codes).
+    if name_words:
+        last = name_words[-1]
+        lower = last.lower()
+        for alias_key in sorted(common.ALIASES, key=len, reverse=True):
+            if len(alias_key) >= 5 and lower.endswith(alias_key) and len(lower) > len(alias_key):
+                name_words[-1] = last[: len(last) - len(alias_key)]
+                break
+        else:
+            # redundant glued bare-code suffix left over from a row that also printed
+            # the country separately, e.g. "CARCELESESP" in a row that ALSO has "Spain"
+            # right after it - only strip if it's the SAME code already resolved above
+            # (an all-caps surname coincidentally ending in some unrelated code, e.g.
+            # "...DEN", should be left alone).
+            resolved = common.normalize_country(country_text)
+            if resolved and name_words[-1].upper().endswith(resolved[0]) and len(name_words[-1]) > 3:
+                name_words[-1] = name_words[-1][: -len(resolved[0])]
     name = re.sub(r"\s+", " ", " ".join(name_words)).strip().rstrip(",")
     name = re.sub(r"\s+\d{2}$", "", name)  # trailing 2-digit birth year, e.g. "Sandrine 95"
     return rank, name, country_text, time_text

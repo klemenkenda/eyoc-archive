@@ -46,7 +46,7 @@ ALIASES = {
     "russia": "RUS", "russian federation": "RUS",
     "belorussia": "BLR", "belarus": "BLR", "belarusia": "BLR",
     "latvija": "LAT", "latvia": "LAT",
-    "macedonia": "MKD", "north macedonia": "MKD", "fyr macedonia": "MKD",
+    "macedonia": "MKD", "north macedonia": "MKD", "fyr macedonia": "MKD", "mecedonia": "MKD",
     "moldova": "MDA", "moldavia": "MDA", "moldova, republic of": "MDA", "republic of moldova": "MDA",
     "slovak republic": "SVK", "slovakia": "SVK",
     "switzerland": "SUI",
@@ -62,7 +62,7 @@ ALIASES = {
     "norway": "NOR",
     "poland": "POL",
     "portugal": "POR",
-    "romania": "ROU",
+    "romania": "ROU", "romenia": "ROU",
     "slovenia": "SLO", "slovenija": "SLO",
     "serbia": "SRB", "scg": "SRB", "serbia and montenegro": "SRB",
     "sweden": "SWE",
@@ -106,6 +106,11 @@ def normalize_country(raw_text, source_file=""):
     lead = text.split(" ", 1)[0]
     if lead.upper() in CODES and lead.isupper() and len(lead) == 3:
         return lead.upper(), CODES[lead.upper()]
+    # some 2003 rows glue the bib number straight onto the code with no space at all,
+    # e.g. "POL14" - a bare 3-letter code prefix followed only by digits is unambiguous
+    glued = re.match(r"^([A-Z]{3})\d+$", lead)
+    if glued and glued.group(1) in CODES:
+        return glued.group(1), CODES[glued.group(1)]
     # strip a trailing team-number suffix like "Czech Republic 1" -> "Czech Republic"
     text_no_num = re.sub(r"\s+\d+$", "", text)
     # some PDF templates print the country name twice (sometimes the 2nd copy is
@@ -128,6 +133,14 @@ def normalize_country(raw_text, source_file=""):
         for alias_key, code in ALIASES.items():
             if len(alias_key) >= 6 and alias_key.startswith(key):
                 return code, CODES[code]
+    # the opposite truncation: some rows print a verbose/annotated country name that's
+    # itself cut off mid-parenthetical by column width, e.g. "Switzerland (Confederation
+    # o" - here the real country name is a clean PREFIX of the text, with truncated
+    # junk trailing after it (require a word boundary so "Polandxyz" can't match "poland")
+    if len(key) >= 5:
+        for alias_key, code in ALIASES.items():
+            if len(alias_key) >= 4 and key.startswith(alias_key + " "):
+                return code, CODES[code]
     # some narrow-column 2014 PDFs truncate the country *code* to 2 letters, e.g.
     # "GB" for GBR, "NO" for NOR - only resolve if exactly one EYOC code matches the
     # prefix (e.g. "PO" -> POL/POR is genuinely ambiguous and stays dropped)
@@ -136,6 +149,21 @@ def normalize_country(raw_text, source_file=""):
         if len(matches) == 1:
             return matches[0], CODES[matches[0]]
     _dropped_counter[raw_text] = _dropped_counter.get(raw_text, 0) + 1
+    return None
+
+
+_GLUED_CODE_SUFFIX_RE = re.compile(r"^(.*[a-z])([A-Z]{3})$")
+
+
+def glued_country_code_suffix(word):
+    """If `word` is a name fragment with a bare country code glued directly onto its
+    end with no space - e.g. "BjerkreimNOR" - return (name_part, code). The lowercase
+    letter required right before the code is what tells this apart from an ordinary
+    ALL-CAPS surname that happens to end in 3 letters matching a code (e.g. "BACHMANN"
+    isn't lowercase-then-uppercase, so it's correctly left alone); otherwise None."""
+    m = _GLUED_CODE_SUFFIX_RE.match(word)
+    if m and m.group(2) in CODES:
+        return m.group(1), m.group(2)
     return None
 
 

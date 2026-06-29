@@ -44,7 +44,7 @@ W16,42,OK,,SVK,Maria Krsiakova,3342,high,2003/eyoc2003.htm
 W16,43,OK,,POL,Malgorzata Maciejczyk,3343,high,2003/eyoc2003.htm
 W16,44,OK,,GER,Susann Jahn,3370,high,2003/eyoc2003.htm
 W16,45,OK,,BUL,Evelina Bombalova,3386,high,2003/eyoc2003.htm
-W16,46,OK,,BLR,Katsiarynabelarusia Prakharenka,3389,high,2003/eyoc2003.htm
+W16,46,OK,,BLR,Katsiaryna Prakharenka,3389,high,2003/eyoc2003.htm
 W16,47,OK,,POL,Iwona Wicha,3395,high,2003/eyoc2003.htm
 W16,48,OK,,HUN,Diana Koos,3428,high,2003/eyoc2003.htm
 W16,49,OK,,SUI,Sabine Hauswirth,3516,high,2003/eyoc2003.htm
@@ -138,6 +138,7 @@ M16,16,OK,,SVK,Martin Mazur,2764,high,2003/eyoc2003.htm
 M16,17,OK,,EST,Timo Sild,2768,high,2003/eyoc2003.htm
 M16,18,OK,,HUN,Mate Kerenyi,2773,high,2003/eyoc2003.htm
 M16,19,OK,,SUI,Simon Sauter,2808,high,2003/eyoc2003.htm
+M16,20,OK,,LTU,Gedimina Gvildys Jonas,2858,high,2003/eyoc2003.htm
 M16,21,OK,,UKR,Oleksandr Choban,2866,high,2003/eyoc2003.htm
 M16,22,OK,,GER,Soeren Loesch,2871,high,2003/eyoc2003.htm
 M16,23,OK,,LAT,Kalvis Mihailovs,2879,high,2003/eyoc2003.htm
@@ -168,7 +169,7 @@ M16,47,OK,,GER,Martin Riebisch,3322,high,2003/eyoc2003.htm
 M16,48,OK,,BLR,Pavel Vaskovitch,3370,high,2003/eyoc2003.htm
 M16,49,OK,,HUN,Andras Szabo,3379,high,2003/eyoc2003.htm
 M16,50,OK,,ROU,Ionut Patras,3388,high,2003/eyoc2003.htm
-M16,51,OK,,ESP,Renzullspain Marfil Alfredo,3413,high,2003/eyoc2003.htm
+M16,51,OK,,ESP,Renzull Marfil Alfredo,3413,high,2003/eyoc2003.htm
 M16,52,OK,,ROU,Zoltan Szep,3433,high,2003/eyoc2003.htm
 M16,53,OK,,POL,Jan Szatkowski,3438,high,2003/eyoc2003.htm
 M16,54,OK,,ESP,Navarro Cutillas Fco.,3527,high,2003/eyoc2003.htm
@@ -207,6 +208,7 @@ M18,24,OK,,LAT,Eriks Lebedoks,3376,high,2003/eyoc2003.htm
 M18,25,OK,,SUI,Christian Renevey,3406,high,2003/eyoc2003.htm
 M18,26,OK,,LTU,Romualdas Stupelis,3409,high,2003/eyoc2003.htm
 M18,27,OK,,RUS,Aleksandre Lyssenkov,3420,high,2003/eyoc2003.htm
+M18,28,OK,,POL,Grzegorz Marcinkiewicz,3426,high,2003/eyoc2003.htm
 M18,29,OK,,BUL,Zlatko Kamenarov,3446,high,2003/eyoc2003.htm
 M18,30,OK,,GER,Wieland Kundisch,3453,high,2003/eyoc2003.htm
 M18,31,OK,,ROU,Ciprian Marian,3475,high,2003/eyoc2003.htm
@@ -233,7 +235,7 @@ M18,51,OK,,BUL,Zdravko Taralov,3822,high,2003/eyoc2003.htm
 M18,52,OK,,LAT,Edgars Bertuks,3831,high,2003/eyoc2003.htm
 M18,53,OK,,UKR,Dmytro Terpay,3933,high,2003/eyoc2003.htm
 M18,54,OK,,LTU,Robertas Gerber,3938,high,2003/eyoc2003.htm
-M18,55,OK,,ESP,Rospain de Santallana Ramon,3995,high,2003/eyoc2003.htm
+M18,55,OK,,ESP,Ro de Santallana Ramon,3995,high,2003/eyoc2003.htm
 M18,56,OK,,BLR,Ruslan Voitsekhovich,4089,high,2003/eyoc2003.htm
 M18,57,OK,,ROU,Radu Urdea,4137,high,2003/eyoc2003.htm
 M18,58,OK,,SVK,Juraj Priesol,4138,high,2003/eyoc2003.htm
@@ -243,5 +245,6 @@ M18,61,OK,,SRB,Stevan Roksandic,4388,high,2003/eyoc2003.htm
 M18,62,OK,,EST,Lauri Malsroob,4389,high,2003/eyoc2003.htm
 M18,63,OK,,SVK,Vladimir Novotny,4424,high,2003/eyoc2003.htm
 M18,64,OK,,SRB,Nebojsa Stanojevic,4622,high,2003/eyoc2003.htm
-M18,65,OK,,ESP,Garciaspain Saavedra Alvaro,4790,high,2003/eyoc2003.htm
+M18,65,OK,,ESP,Garcia Saavedra Alvaro,4790,high,2003/eyoc2003.htm
 M18,66,OK,,LTU,Vytautas Beliunas,5623,high,2003/eyoc2003.htm
+M18,67,OK,,ESP,Rodriguez Santos Dario,6139,high,2003/eyoc2003.htm
