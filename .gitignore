@@ -1,5 +1,6 @@
 __pycache__/
 *.py[cod]
 .env
+scripts/independent_data_audit/cache/
 www/data/stats.log
 www/CLAUDE.md

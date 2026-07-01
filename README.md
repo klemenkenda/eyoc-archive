@@ -44,8 +44,9 @@ scripts/
     parse_*.py            one parser per raw source *format* (not per year)
     run_all.py            regenerates every results/<year>/*.csv
     PARSERS.md            parser-by-parser documentation, with run examples
-codex/
-  consistency_check.py    independent clean-vs-raw audit, doesn't import scripts/parsers
+  independent_data_audit/
+    consistency_check.py  independent clean-vs-raw audit, doesn't import scripts/parsers
+    openrouter_data_audit.py  LLM audit over raw-source text plus extracted CSV rows
 ```
 
 ## The CSV format
@@ -70,10 +71,15 @@ discipline, the field-size counts and any known gaps or caveats (abbreviated sou
 missing files, OCR-derived confidence, unresolved name-order ambiguities). Read this
 before trusting an unusual-looking number.
 
-[`codex/consistency_check.py`](codex/consistency_check.py) is an independent audit: it
+[`scripts/independent_data_audit/consistency_check.py`](scripts/independent_data_audit/consistency_check.py) is an independent audit: it
 re-derives facts straight from the raw files (without importing the parser code) and
 cross-checks them against the clean CSVs, to catch parser bugs the parsers' own author
 wouldn't think to check for.
+
+[`scripts/independent_data_audit/openrouter_data_audit.py`](scripts/independent_data_audit/openrouter_data_audit.py)
+runs a separate LLM-based review through OpenRouter. It sends one raw source file plus
+the matching normalized CSV rows to a model, asks for a structured evaluation, and
+writes a combined Markdown report to `results/raw/OPENROUTER-DATA-AUDIT.md`.
 
 ## Adding or fixing a parser
 
