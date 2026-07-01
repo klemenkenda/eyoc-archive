@@ -1,13 +1,13 @@
 class,rank,status,bib,country,name,time_seconds,confidence,source_file
 W16,1,OK,,DEN,Josefine Lind,2123,high,2013/eyoc2013.htm
-W16,2,OK,,GER,Dorothea Muller,2173,high,2013/eyoc2013.htm
+W16,2,OK,,GER,Dorothea Mueller,2173,high,2013/eyoc2013.htm
 W16,3,OK,,CZE,Barbora Vyhnalkova,2318,high,2013/eyoc2013.htm
 W16,4,OK,,FRA,Florence Hanauer,2321,high,2013/eyoc2013.htm
 W16,5,OK,,FIN,Noora Koskinen,2336,high,2013/eyoc2013.htm
 W16,6,OK,,CZE,Tereza Cechova,2363,high,2013/eyoc2013.htm
-W16,7,OK,,GER,Ellen Kluser,2385,high,2013/eyoc2013.htm
+W16,7,OK,,GER,Ellen Klueser,2385,high,2013/eyoc2013.htm
 W16,8,OK,,POL,Zuzanna Wanczyk,2403,high,2013/eyoc2013.htm
-W16,9,OK,,LAT,Diana Marta Ruka,2415,high,2013/eyoc2013.htm
+W16,9,OK,,LAT,Diana-Marta Ruka,2415,high,2013/eyoc2013.htm
 W16,10,OK,,SUI,Simona Aebersold,2444,high,2013/eyoc2013.htm
 W16,11,OK,,RUS,Zlata Malysheva,2454,high,2013/eyoc2013.htm
 W16,12,OK,,RUS,Anastasia Godunova,2480,high,2013/eyoc2013.htm
@@ -20,20 +20,20 @@ W16,18,OK,,FRA,Oceane Guillemet,2551,high,2013/eyoc2013.htm
 W16,19,OK,,FIN,Alexandra Enlund,2563,high,2013/eyoc2013.htm
 W16,20,OK,,UKR,Lesya Polishchuk,2590,high,2013/eyoc2013.htm
 W16,21,OK,,DEN,Astrid Maag,2599,high,2013/eyoc2013.htm
-W16,22,OK,,HUN,Reka Dalia Pataki,2623,high,2013/eyoc2013.htm
+W16,22,OK,,HUN,Reka Dalida Pataki,2623,high,2013/eyoc2013.htm
 W16,23,OK,,GER,Patricia Siegert,2630,high,2013/eyoc2013.htm
 W16,24,OK,,CZE,Barbara Vavrysova,2651,high,2013/eyoc2013.htm
 W16,25,OK,,LTU,Kaste Rutkauskaite,2700,high,2013/eyoc2013.htm
 W16,26,OK,,FRA,Maelle Beauvir,2702,high,2013/eyoc2013.htm
 W16,27,OK,,ESP,Maria Prieto del Campo,2711,high,2013/eyoc2013.htm
-W16,28,OK,,DEN,Nikoline Tillingsoe,2720,high,2013/eyoc2013.htm
+W16,28,OK,,DEN,Nikoline Tillingsre,2720,high,2013/eyoc2013.htm
 W16,29,OK,,LAT,Elizabete Blumentale,2724,high,2013/eyoc2013.htm
 W16,30,OK,,RUS,Anna Chestova,2725,high,2013/eyoc2013.htm
 W16,31,OK,,DEN,Camilla Larsen,2751,high,2013/eyoc2013.htm
 W16,32,OK,,HUN,Krisztina Gera,2765,high,2013/eyoc2013.htm
 W16,33,OK,,EST,Doris Kudre,2786,high,2013/eyoc2013.htm
 W16,34,OK,,SVK,Tereza Smelikova,2795,high,2013/eyoc2013.htm
-W16,35,OK,,FIN,Ella-Noora Rahkola,2810,high,2013/eyoc2013.htm
+W16,35,OK,,FIN,Ella Noora Rahkola,2810,high,2013/eyoc2013.htm
 W16,36,OK,,RUS,Anna Dvorianskaia,2875,high,2013/eyoc2013.htm
 W16,37,OK,,SUI,Valerie Aebischer,2908,high,2013/eyoc2013.htm
 W16,38,OK,,EST,Liina Vesilind,2930,high,2013/eyoc2013.htm
@@ -41,7 +41,7 @@ W16,39,OK,,POR,Beatriz Sanguino,2960,high,2013/eyoc2013.htm
 W16,40,OK,,ROU,Agnes Neda,2989,high,2013/eyoc2013.htm
 W16,41,OK,,ESP,Sofia Berenguer Sanchis,3023,high,2013/eyoc2013.htm
 W16,42,OK,,SRB,Tija Radovanovic,3032,high,2013/eyoc2013.htm
-W16,43,OK,,UKR,Mariya Tymoshchuk,3044,high,2013/eyoc2013.htm
+W16,43,OK,,UKR,Mariia Tymoshchuk,3044,high,2013/eyoc2013.htm
 W16,44,OK,,LTU,Agne Juodagalvyte,3052,high,2013/eyoc2013.htm
 W16,45,OK,,LAT,Anete Cama,3056,high,2013/eyoc2013.htm
 W16,46,OK,,GER,Birte Friedrichs,3068,high,2013/eyoc2013.htm
@@ -73,7 +73,7 @@ W16,71,OK,,ESP,Maria Soriano Ramal,3905,high,2013/eyoc2013.htm
 W16,72,OK,,SVK,Andrea Papugova,3987,high,2013/eyoc2013.htm
 W16,73,OK,,SLO,Katjusa Poljansek,3992,high,2013/eyoc2013.htm
 W16,74,OK,,IRL,Caoimhe O'Boyle,4032,high,2013/eyoc2013.htm
-W16,75,OK,,ITA,Anna Giovanneli,4540,high,2013/eyoc2013.htm
+W16,75,OK,,ITA,Anna Giovanelli,4540,high,2013/eyoc2013.htm
 W18,1,OK,,SWE,Sara Hagstrom,2598,high,2013/eyoc2013.htm
 W18,2,OK,,SWE,Johanna Oberg,2600,high,2013/eyoc2013.htm
 W18,3,OK,,FIN,Anna Haataja,2634,high,2013/eyoc2013.htm
@@ -88,7 +88,7 @@ W18,11,OK,,SUI,Sandrine Muller,2814,high,2013/eyoc2013.htm
 W18,12,OK,,UKR,Daria Moskalenko,2883,high,2013/eyoc2013.htm
 W18,13,OK,,LAT,Sandra Grosberga,2898,high,2013/eyoc2013.htm
 W18,14,OK,,RUS,Marina Trubkina,2905,high,2013/eyoc2013.htm
-W18,15,OK,,GER,Hanna Muller,2930,high,2013/eyoc2013.htm
+W18,15,OK,,GER,Hanna Mueller,2930,high,2013/eyoc2013.htm
 W18,16,OK,,SUI,Paula Gross,2948,high,2013/eyoc2013.htm
 W18,17,OK,,ITA,Lia Patscheider,2961,high,2013/eyoc2013.htm
 W18,18,OK,,CZE,Karolina Borankova,2973,high,2013/eyoc2013.htm
@@ -106,7 +106,7 @@ W18,29,OK,,ITA,Arianna Taufer,3059,high,2013/eyoc2013.htm
 W18,29,OK,,EST,Margret Zimmermann,3059,high,2013/eyoc2013.htm
 W18,31,OK,,FIN,Niina Hulkkonen,3074,high,2013/eyoc2013.htm
 W18,32,OK,,GER,Paula Starke,3085,high,2013/eyoc2013.htm
-W18,33,OK,,GBR,Jones Sarah,3093,high,2013/eyoc2013.htm
+W18,33,OK,,GBR,Sarah Jones,3093,high,2013/eyoc2013.htm
 W18,34,OK,,FRA,Chloe Haberkorn,3111,high,2013/eyoc2013.htm
 W18,35,OK,,ESP,Marta Guijo Alonso,3117,high,2013/eyoc2013.htm
 W18,36,OK,,FIN,Emmi Jokela,3125,high,2013/eyoc2013.htm
@@ -117,28 +117,28 @@ W18,40,OK,,GBR,McMillan Rhona,3167,high,2013/eyoc2013.htm
 W18,41,OK,,FRA,Margaux Hummel-Azais,3169,high,2013/eyoc2013.htm
 W18,42,OK,,NOR,Karen Oline Kolstad,3173,high,2013/eyoc2013.htm
 W18,43,OK,,RUS,Mariia Petrushko,3174,high,2013/eyoc2013.htm
-W18,44,OK,,FRA,Lucille Girard,3223,high,2013/eyoc2013.htm
+W18,44,OK,,FRA,Lucile Girard,3223,high,2013/eyoc2013.htm
 W18,45,OK,,LAT,Annija Zalaiskalna,3238,high,2013/eyoc2013.htm
 W18,46,OK,,POL,Angelika Maciejewska,3269,high,2013/eyoc2013.htm
 W18,47,OK,,NOR,Anine Ahlsand,3279,high,2013/eyoc2013.htm
 W18,48,OK,,LTU,Dovile Makselyte,3299,high,2013/eyoc2013.htm
 W18,49,OK,,FIN,Pihla Otsamo,3326,high,2013/eyoc2013.htm
-W18,50,OK,,GBR,Carter-Davies Megan,3337,high,2013/eyoc2013.htm
+W18,50,OK,,GBR,Megan Carter-Davies,3337,high,2013/eyoc2013.htm
 W18,51,OK,,ESP,Yara Bores Escudero,3378,high,2013/eyoc2013.htm
-W18,52,OK,,BLR,Mozhar Viktoryia,3387,high,2013/eyoc2013.htm
-W18,53,OK,,BLR,Ilkevich Anastasiya,3391,high,2013/eyoc2013.htm
+W18,52,OK,,BLR,Viktoryia Mozhar,3387,high,2013/eyoc2013.htm
+W18,53,OK,,BLR,Anastasiya Ilkevich,3391,high,2013/eyoc2013.htm
 W18,54,OK,,ROU,Diana Iuliana Bonto,3398,high,2013/eyoc2013.htm
 W18,55,OK,,EST,Marianne Haug,3416,high,2013/eyoc2013.htm
 W18,56,OK,,GER,Patricia Nieke,3421,high,2013/eyoc2013.htm
 W18,57,OK,,POR,Joana Fernandes,3425,high,2013/eyoc2013.htm
-W18,58,OK,,UKR,Yiulya Kobets,3445,high,2013/eyoc2013.htm
+W18,58,OK,,UKR,Yiuliya Kobets,3445,high,2013/eyoc2013.htm
 W18,59,OK,,SVK,Martina Papugova,3446,high,2013/eyoc2013.htm
 W18,60,OK,,BLR,Chernik Hlafira,3482,high,2013/eyoc2013.htm
 W18,61,OK,,POR,Carolina Delgado,3512,high,2013/eyoc2013.htm
 W18,62,OK,,AUT,Anika Gassner,3526,high,2013/eyoc2013.htm
 W18,63,OK,,BUL,Martina Dzhulieva,3562,high,2013/eyoc2013.htm
-W18,64,OK,,IRL,Aoife Mc Cavana,3567,high,2013/eyoc2013.htm
-W18,65,OK,,ITA,Eleonora Donandini,3569,high,2013/eyoc2013.htm
+W18,64,OK,,IRL,Aoife McCavana,3567,high,2013/eyoc2013.htm
+W18,65,OK,,ITA,Eleonora Donadini,3569,high,2013/eyoc2013.htm
 W18,66,OK,,AUT,Martina Walch,3575,high,2013/eyoc2013.htm
 W18,67,OK,,SLO,Nusa Jeram,3581,high,2013/eyoc2013.htm
 W18,68,OK,,ESP,Maria Illa Cams,3587,high,2013/eyoc2013.htm
@@ -179,7 +179,7 @@ M16,4,OK,,RUS,Vladislav Kiselev,2489,high,2013/eyoc2013.htm
 M16,5,OK,,CZE,Daniel Vandas,2496,high,2013/eyoc2013.htm
 M16,6,OK,,HUN,Mate Dalos,2501,high,2013/eyoc2013.htm
 M16,7,OK,,FIN,Ollipekka Heikkila,2504,high,2013/eyoc2013.htm
-M16,8,OK,,GER,Erik Dohler,2507,high,2013/eyoc2013.htm
+M16,8,OK,,GER,Erik Doehler,2507,high,2013/eyoc2013.htm
 M16,9,OK,,AUT,Rafael Dobnik,2529,high,2013/eyoc2013.htm
 M16,10,OK,,RUS,Anton Kazenkin,2532,high,2013/eyoc2013.htm
 M16,11,OK,,GBR,Alexander Chepelin,2535,high,2013/eyoc2013.htm
@@ -273,10 +273,10 @@ M18,15,OK,,RUS,Sergey Dobrynin,3020,high,2013/eyoc2013.htm
 M18,16,OK,,BEL,Evert Leeuws,3023,high,2013/eyoc2013.htm
 M18,17,OK,,SVK,Martin Smelik,3042,high,2013/eyoc2013.htm
 M18,18,OK,,POL,Krzysztof Rzenca,3048,high,2013/eyoc2013.htm
-M18,19,OK,,NOR,Andreas Solberg,3054,high,2013/eyoc2013.htm
+M18,19,OK,,NOR,Andreas Soelberg,3054,high,2013/eyoc2013.htm
 M18,20,OK,,SWE,William Eriksson,3066,high,2013/eyoc2013.htm
 M18,21,OK,,FIN,Arto Talvinen,3074,high,2013/eyoc2013.htm
-M18,22,OK,,SUI,Sven Hellmuller,3076,high,2013/eyoc2013.htm
+M18,22,OK,,SUI,Sven Hellmueller,3076,high,2013/eyoc2013.htm
 M18,22,OK,,LTU,Paulius Vidziunas,3076,high,2013/eyoc2013.htm
 M18,24,OK,,BUL,Apostol Atanasov,3086,high,2013/eyoc2013.htm
 M18,25,OK,,LAT,Alvis Reinsons,3093,high,2013/eyoc2013.htm
@@ -292,7 +292,7 @@ M18,34,OK,,FIN,Aleksi Niemi,3185,high,2013/eyoc2013.htm
 M18,35,OK,,ITA,Riccardo Scalet,3201,high,2013/eyoc2013.htm
 M18,36,OK,,SUI,Noah Zbinden,3218,high,2013/eyoc2013.htm
 M18,37,OK,,GER,Sebastian Fleib,3228,high,2013/eyoc2013.htm
-M18,38,OK,,BUL,Dimitar Zhelyazkov,3229,high,2013/eyoc2013.htm
+M18,38,OK,,BUL,Dimitar Zheliazkov,3229,high,2013/eyoc2013.htm
 M18,39,OK,,ESP,Elmar Montero Carceles,3253,high,2013/eyoc2013.htm
 M18,40,OK,,POR,Daniel Catarino,3264,high,2013/eyoc2013.htm
 M18,41,OK,,UKR,Oleksandr Asmolov,3265,high,2013/eyoc2013.htm
@@ -328,12 +328,12 @@ M18,70,OK,,SRB,Nikola Bilic,3589,high,2013/eyoc2013.htm
 M18,71,OK,,ISR,Yuval Rafaeli,3622,high,2013/eyoc2013.htm
 M18,72,OK,,ITA,Mattia Debertolis,3626,high,2013/eyoc2013.htm
 M18,73,OK,,SRB,Dusan Krnjaic,3686,high,2013/eyoc2013.htm
-M18,74,OK,,ROU,Gabor Prezensky,3706,high,2013/eyoc2013.htm
+M18,74,OK,,ROU,Prezensky Gabor,3706,high,2013/eyoc2013.htm
 M18,75,OK,,EST,Tanel Papp,3712,high,2013/eyoc2013.htm
 M18,76,OK,,ESP,Alvaro Prieto del Campo,3725,high,2013/eyoc2013.htm
 M18,77,OK,,EST,Andres Saal,3768,high,2013/eyoc2013.htm
 M18,78,OK,,SVK,Martin Jonas,3775,high,2013/eyoc2013.htm
-M18,79,OK,,IRL,Niall Mc Carthy,3781,high,2013/eyoc2013.htm
+M18,79,OK,,IRL,Niall McCarthy,3781,high,2013/eyoc2013.htm
 M18,80,OK,,POR,Andre Esteves,3788,high,2013/eyoc2013.htm
 M18,81,OK,,IRL,Jonathan Quinn,3794,high,2013/eyoc2013.htm
 M18,82,OK,,ROU,Zakarias Erosdi,3802,high,2013/eyoc2013.htm

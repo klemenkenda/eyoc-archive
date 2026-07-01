@@ -12,11 +12,11 @@ M16,10,OK,,FIN,Mikko Eerola,3240,high,2016/results-long.pdf
 M16,11,OK,,GBR,Alastair Thomas,3276,high,2016/results-long.pdf
 M16,12,OK,,CZE,Michal Boranek,3308,high,2016/results-long.pdf
 M16,13,OK,,HUN,Marcell Szabo,3341,high,2016/results-long.pdf
-M16,14,OK,,SUI,Mattia Grundler,3367,high,2016/results-long.pdf
+M16,14,OK,,SUI,Mattia Gruendler,3367,high,2016/results-long.pdf
 M16,15,OK,,SLO,Matic Blaz,3428,high,2016/results-long.pdf
 M16,16,OK,,FRA,Guilhem Haberkorn,3439,high,2016/results-long.pdf
 M16,17,OK,,LAT,Rihards Gailis,3461,high,2016/results-long.pdf
-M16,18,OK,,ESP,Pedro Estangegaard Perez,3465,high,2016/results-long.pdf
+M16,18,OK,,ESP,Pedro Stangegaard Perez,3465,high,2016/results-long.pdf
 M16,19,OK,,SUI,Jonas Soldini,3563,high,2016/results-long.pdf
 M16,20,OK,,ROU,Peter Knobloch-Esztergar,3570,high,2016/results-long.pdf
 M16,21,OK,,FIN,Miika Tala,3600,high,2016/results-long.pdf
@@ -50,9 +50,9 @@ M16,48,OK,,LAT,Edijs Dzalbs,4282,high,2016/results-long.pdf
 M16,49,OK,,BUL,Toma Kotkov,4313,high,2016/results-long.pdf
 M16,50,OK,,POL,Mikolaj Krawczynski,4322,high,2016/results-long.pdf
 M16,51,OK,,BEL,Guillaume Eyen,4331,high,2016/results-long.pdf
-M16,51,OK,,BUL,Valentin Neikov,4331,high,2016/results-long.pdf
+M16,51,OK,,BUL,Valentin Neykov,4331,high,2016/results-long.pdf
 M16,53,OK,,EST,Sander Pritsik,4341,high,2016/results-long.pdf
-M16,54,OK,,ESP,Raul Sanjun Juan,4351,high,2016/results-long.pdf
+M16,54,OK,,ESP,Raul Sanjuan Juan,4351,high,2016/results-long.pdf
 M16,55,OK,,POR,Tomas Lima,4388,high,2016/results-long.pdf
 M16,56,OK,,GER,Hendrik Holzhauer,4445,high,2016/results-long.pdf
 M16,57,OK,,RUS,Egor Semenov,4472,high,2016/results-long.pdf
@@ -81,13 +81,13 @@ M16,79,OK,,BLR,Kiryl Makaranka,5980,high,2016/results-long.pdf
 M16,80,OK,,ISR,Rotem Yasur,5993,high,2016/results-long.pdf
 M16,81,DNF,,ESP,Miguel Garrido Corral,,high,2016/results-long.pdf
 M16,82,DNF,,EST,Hando Allmann,,high,2016/results-long.pdf
-M16,83,DNF,,SVK,Tobias Goldsmidt,,high,2016/results-long.pdf
+M16,83,DNF,,SVK,Tobias Goldschmidt,,high,2016/results-long.pdf
 M16,84,DNF,,TUR,Yildizhan Karayel,,high,2016/results-long.pdf
-M16,85,DNF,,MDA,Mirza Lucian,,high,2016/results-long.pdf
+M16,85,DNF,,MDA,Lucian Mirza,,high,2016/results-long.pdf
 M18,1,OK,,CZE,Daniel Vandas,3132,high,2016/results-long.pdf
 M18,2,OK,,CZE,Otakar Hirs,3559,high,2016/results-long.pdf
 M18,3,OK,,SUI,Andrin Grundler,3581,high,2016/results-long.pdf
-M18,4,OK,,NOR,Vegard Guldbransen,3589,high,2016/results-long.pdf
+M18,4,OK,,NOR,Vegard Gulbrandsen,3589,high,2016/results-long.pdf
 M18,5,OK,,SUI,Chamuel Zbinden,3630,high,2016/results-long.pdf
 M18,6,OK,,FRA,Pierre Erbland,3673,high,2016/results-long.pdf
 M18,7,OK,,FRA,Raphael Masliah,3686,high,2016/results-long.pdf
@@ -112,7 +112,7 @@ M18,25,OK,,RUS,Semen Petrov,4114,high,2016/results-long.pdf
 M18,26,OK,,SVK,Jakub Chupek,4128,high,2016/results-long.pdf
 M18,27,OK,,HUN,Erik Kalman,4156,high,2016/results-long.pdf
 M18,28,OK,,LAT,Edgars Ustinovs,4170,high,2016/results-long.pdf
-M18,29,OK,,AUT,Georg Groll,4190,high,2016/results-long.pdf
+M18,29,OK,,AUT,Georg Groell,4190,high,2016/results-long.pdf
 M18,30,OK,,BUL,Stefan Yordanov,4192,high,2016/results-long.pdf
 M18,31,OK,,POR,Joao Bernardino,4206,high,2016/results-long.pdf
 M18,32,OK,,BUL,Martin Penchev,4238,high,2016/results-long.pdf
@@ -132,7 +132,7 @@ M18,45,OK,,GER,Quirin Lehner,4544,high,2016/results-long.pdf
 M18,46,OK,,BLR,Timofei Alekseyonok,4549,high,2016/results-long.pdf
 M18,47,OK,,UKR,Taras Rachuk,4553,high,2016/results-long.pdf
 M18,48,OK,,TUR,Samet Kossek,4566,high,2016/results-long.pdf
-M18,49,OK,,SUI,Nicola Muller,4580,high,2016/results-long.pdf
+M18,49,OK,,SUI,Nicola Mueller,4580,high,2016/results-long.pdf
 M18,50,OK,,RUS,Igor Linkevich,4589,high,2016/results-long.pdf
 M18,51,OK,,SLO,Mark Bogataj,4623,high,2016/results-long.pdf
 M18,52,OK,,FIN,Alvar Palmen,4676,high,2016/results-long.pdf
@@ -151,11 +151,11 @@ M18,64,OK,,ROU,Peter Divin,4909,high,2016/results-long.pdf
 M18,65,OK,,SVK,Dusan Slama,5038,high,2016/results-long.pdf
 M18,66,OK,,FRA,Alexandre Vergnaud,5049,high,2016/results-long.pdf
 M18,67,OK,,ROU,Alexandru Biro,5077,high,2016/results-long.pdf
-M18,68,OK,,GER,Emil Friedlander,5095,high,2016/results-long.pdf
+M18,68,OK,,GER,Emil Friedlaender,5095,high,2016/results-long.pdf
 M18,69,OK,,EST,Oliver Kutt,5124,high,2016/results-long.pdf
 M18,70,OK,,POR,Joao Magalhaes,5164,high,2016/results-long.pdf
 M18,71,OK,,GBR,Alex Carcas,5293,high,2016/results-long.pdf
-M18,72,OK,,ITA,Magenes Francesco,5294,high,2016/results-long.pdf
+M18,72,OK,,ITA,Francesco Magenes,5294,high,2016/results-long.pdf
 M18,73,OK,,POR,Ricardo Tenreiro,5393,high,2016/results-long.pdf
 M18,74,OK,,CRO,Dominik Kirin,5400,high,2016/results-long.pdf
 M18,75,OK,,EST,Tomi-Andre Piirmets,5429,high,2016/results-long.pdf
@@ -169,7 +169,7 @@ M18,82,OK,,ISR,Rotem Lanes,5717,high,2016/results-long.pdf
 M18,83,OK,,LTU,Rokas Vaitkus,5837,high,2016/results-long.pdf
 M18,84,OK,,BEL,Klaas Mellebeek,5863,high,2016/results-long.pdf
 M18,85,OK,,BEL,Wout Keuppens,5972,high,2016/results-long.pdf
-M18,86,DNF,,ITA,Mannocci Enrico,,high,2016/results-long.pdf
+M18,86,DNF,,ITA,Enrico Mannocci,,high,2016/results-long.pdf
 M18,87,DNF,,ISR,Omer Kachal,,high,2016/results-long.pdf
 M18,88,DNF,,ITA,Patscheider Lukas,,high,2016/results-long.pdf
 M18,89,DNF,,TUR,Muhammed Vehbi Karatasli,,high,2016/results-long.pdf
@@ -199,7 +199,7 @@ W16,19,OK,,LAT,Laura Eliza Lapina,3520,high,2016/results-long.pdf
 W16,20,OK,,LTU,Judita Traubaite,3525,high,2016/results-long.pdf
 W16,21,OK,,SVK,Luboslava Weissova,3606,high,2016/results-long.pdf
 W16,22,OK,,CZE,Anna Kochova,3646,high,2016/results-long.pdf
-W16,23,OK,,ROU,Adela-Maria Galateanu,3670,high,2016/results-long.pdf
+W16,23,OK,,ROU,Adela Maria Galateanu,3670,high,2016/results-long.pdf
 W16,24,OK,,UKR,Feia Tsyvilska,3688,high,2016/results-long.pdf
 W16,25,OK,,POL,Maja Garbacik,3711,high,2016/results-long.pdf
 W16,26,OK,,RUS,Elizaveta Rastegaeva,3874,high,2016/results-long.pdf
@@ -212,7 +212,7 @@ W16,32,OK,,RUS,Anna Safronova,4048,high,2016/results-long.pdf
 W16,33,OK,,EST,Kelli Nurm,4147,high,2016/results-long.pdf
 W16,34,OK,,AUT,Elena Zeiner,4159,high,2016/results-long.pdf
 W16,35,OK,,LAT,Agnija Caune,4186,high,2016/results-long.pdf
-W16,36,OK,,DEN,Alberte Kaae-Nielsen,4218,high,2016/results-long.pdf
+W16,36,OK,,DEN,Alberte Kaae Nielsen,4218,high,2016/results-long.pdf
 W16,37,OK,,RUS,Kristina Smirnova,4240,high,2016/results-long.pdf
 W16,38,OK,,ROU,Daria-Ioana Galateanu,4275,high,2016/results-long.pdf
 W16,39,OK,,FRA,Alina Palcau,4283,high,2016/results-long.pdf
@@ -221,7 +221,7 @@ W16,41,OK,,TUR,Ozge Bozca,4321,high,2016/results-long.pdf
 W16,42,OK,,BUL,Yasna Petrova,4404,high,2016/results-long.pdf
 W16,43,OK,,SUI,Elisa Bertozzi,4415,high,2016/results-long.pdf
 W16,44,OK,,UKR,Iuliia Trokhymchuk,4435,high,2016/results-long.pdf
-W16,45,OK,,BEL,Ems de Smul,4449,high,2016/results-long.pdf
+W16,45,OK,,BEL,Ems De Smul,4449,high,2016/results-long.pdf
 W16,46,OK,,ROU,Dorottya-Bernadette Bartha,4465,high,2016/results-long.pdf
 W16,47,OK,,UKR,Alina Myroniuk,4511,high,2016/results-long.pdf
 W16,48,OK,,EST,Laura-Liis Kutt,4556,high,2016/results-long.pdf
@@ -230,7 +230,7 @@ W16,50,OK,,GER,Charlotte Leonhardt,4592,high,2016/results-long.pdf
 W16,51,OK,,FIN,Elisa Mattila,4628,high,2016/results-long.pdf
 W16,52,OK,,ITA,Chiusole Vera,4629,high,2016/results-long.pdf
 W16,53,OK,,TUR,Sumeyra Gokcul,4687,high,2016/results-long.pdf
-W16,54,OK,,BLR,Karyna Karauchanka,4712,high,2016/results-long.pdf
+W16,54,OK,,BLR,Karyna Krauchanka,4712,high,2016/results-long.pdf
 W16,55,OK,,LTU,Ugne Liegute,4748,high,2016/results-long.pdf
 W16,56,OK,,LTU,Juste Skaisgiryte,4779,high,2016/results-long.pdf
 W16,57,OK,,DEN,Birka Ohlenschlager Nielsen,4871,high,2016/results-long.pdf
@@ -240,7 +240,7 @@ W16,60,OK,,SVK,Lucia Ondovcikova,5106,high,2016/results-long.pdf
 W16,61,OK,,BEL,Marine Sillien,5179,high,2016/results-long.pdf
 W16,62,OK,,FRA,Eloise Chatelain,5240,high,2016/results-long.pdf
 W16,63,OK,,ESP,Laura Andres Arnaiz,5271,high,2016/results-long.pdf
-W16,64,OK,,ITA,Selem Alice,5315,high,2016/results-long.pdf
+W16,64,OK,,ITA,Alice Selem,5315,high,2016/results-long.pdf
 W16,65,OK,,BLR,Karyna Shpakouskaya,5366,high,2016/results-long.pdf
 W16,66,OK,,POL,Julia Glowacz,5384,high,2016/results-long.pdf
 W16,67,OK,,POL,Karolina Rosochacka,5462,high,2016/results-long.pdf
@@ -289,7 +289,7 @@ W18,29,OK,,SUI,Sofia Besomi,3877,high,2016/results-long.pdf
 W18,30,OK,,SWE,Myrra Carlsson,3878,high,2016/results-long.pdf
 W18,31,OK,,POL,Julia Seidel,3880,high,2016/results-long.pdf
 W18,32,OK,,BUL,Borislava Mitkova,3883,high,2016/results-long.pdf
-W18,33,OK,,AUT,Tina Tiefenbock,3941,high,2016/results-long.pdf
+W18,33,OK,,AUT,Tina Tiefenboeck,3941,high,2016/results-long.pdf
 W18,34,OK,,GBR,Pippa Dakin,3947,high,2016/results-long.pdf
 W18,35,OK,,SWE,Vilma von Krusenstierna,3981,high,2016/results-long.pdf
 W18,36,OK,,CZE,Eliska Sieglova,3993,high,2016/results-long.pdf
@@ -325,8 +325,8 @@ W18,65,OK,,RUS,Anastasiya Grigoreva,4810,high,2016/results-long.pdf
 W18,66,OK,,BLR,Valeryia Haurylava,4888,high,2016/results-long.pdf
 W18,67,OK,,AUT,Rosa Trummer,4906,high,2016/results-long.pdf
 W18,68,OK,,EST,Kristel Koivo,4972,high,2016/results-long.pdf
-W18,69,OK,,SLO,Polona Jazersek,4994,high,2016/results-long.pdf
-W18,70,OK,,ITA,Minati Alessandra,5091,high,2016/results-long.pdf
+W18,69,OK,,SLO,Polona Jezersek,4994,high,2016/results-long.pdf
+W18,70,OK,,ITA,Alessandra Minati,5091,high,2016/results-long.pdf
 W18,71,OK,,EST,Kaisa Rooba,5137,high,2016/results-long.pdf
 W18,72,OK,,AUT,Viktoria Knauder,5350,high,2016/results-long.pdf
 W18,73,OK,,ROU,Daiana Maria Habina,5358,high,2016/results-long.pdf
@@ -335,11 +335,11 @@ W18,75,OK,,TUR,Serdem Merve Ates,5368,high,2016/results-long.pdf
 W18,76,OK,,CRO,Pia Ocvirk,5393,high,2016/results-long.pdf
 W18,77,OK,,POL,Kinga Krolik,5445,high,2016/results-long.pdf
 W18,78,OK,,GER,Linda Indola,5485,high,2016/results-long.pdf
-W18,79,OK,,UKR,Mariya Tymoshchuk,5498,high,2016/results-long.pdf
+W18,79,OK,,UKR,Mariia Tymoshchuk,5498,high,2016/results-long.pdf
 W18,80,OK,,ESP,Maria Soriano Ramal,5538,high,2016/results-long.pdf
 W18,81,OK,,TUR,Zeynep Ocak,5558,high,2016/results-long.pdf
 W18,82,OK,,LAT,Arta Renate Rulle,5726,high,2016/results-long.pdf
-W18,83,OK,,ESP,Inmaculada Crespo Gonzalez,5994,high,2016/results-long.pdf
+W18,83,OK,,ESP,Inmaculada Crespo,5994,high,2016/results-long.pdf
 W18,84,DNF,,RUS,Daria Panchenko,,high,2016/results-long.pdf
 W18,85,DNF,,IRL,Emer Perkins,,high,2016/results-long.pdf
 W18,86,DNF,,BEL,Sandrine Defraigne,,high,2016/results-long.pdf

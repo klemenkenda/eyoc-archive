@@ -5,7 +5,7 @@ W16,3,OK,,SUI,Lisa Holer,587,high,2009/eyoc2009.htm
 W16,4,OK,,CZE,Vendula Horcickova,593,high,2009/eyoc2009.htm
 W16,5,OK,,CZE,Marketa Novotna,600,high,2009/eyoc2009.htm
 W16,6,OK,,SUI,Lilly Gross,604,high,2009/eyoc2009.htm
-W16,7,OK,,GER,Susen Losch,606,high,2009/eyoc2009.htm
+W16,7,OK,,GER,Susen Loesch,606,high,2009/eyoc2009.htm
 W16,8,OK,,GBR,Charlotte Watson,612,high,2009/eyoc2009.htm
 W16,9,OK,,CZE,Petra Pavlovcova,621,high,2009/eyoc2009.htm
 W16,10,OK,,RUS,Sofya Kondratova,625,high,2009/eyoc2009.htm
@@ -169,7 +169,7 @@ M16,18,OK,,ESP,Fernando Ayelo Sanchez,653,high,2009/eyoc2009.htm
 M16,19,OK,,DEN,Jakob Edsen,655,high,2009/eyoc2009.htm
 M16,20,OK,,LAT,Ivars Klavins,661,high,2009/eyoc2009.htm
 M16,21,OK,,SVK,David Franko,662,high,2009/eyoc2009.htm
-M16,22,OK,,UKR,Oleksiy Byshevets`,664,high,2009/eyoc2009.htm
+M16,22,OK,,UKR,Oleksiy Byshevets,664,high,2009/eyoc2009.htm
 M16,23,OK,,GER,Bojan Blumenstein,669,high,2009/eyoc2009.htm
 M16,24,OK,,CZE,Michal Hubacek,670,high,2009/eyoc2009.htm
 M16,25,OK,,LTU,Gediminas Morenas,675,high,2009/eyoc2009.htm
@@ -200,13 +200,13 @@ M16,49,OK,,GBR,Peter Bray,740,high,2009/eyoc2009.htm
 M16,50,OK,,HUN,Abel Sulyok,749,high,2009/eyoc2009.htm
 M16,51,OK,,ITA,Emilio Tamarri,753,high,2009/eyoc2009.htm
 M16,52,OK,,AUT,Laurenz Elstner,756,high,2009/eyoc2009.htm
-M16,52,OK,,UKR,Volodymyr Selezn`ov,756,high,2009/eyoc2009.htm
+M16,52,OK,,UKR,Volodymyr Seleznov,756,high,2009/eyoc2009.htm
 M16,54,OK,,POR,Luis Silva,764,high,2009/eyoc2009.htm
 M16,55,OK,,ROU,Alex Dorin Mercar,776,high,2009/eyoc2009.htm
-M16,56,OK,,IRL,Eoin Mc Cullough,780,high,2009/eyoc2009.htm
-M16,57,OK,,EST,Kristjan-Martin Kirjanen,787,high,2009/eyoc2009.htm
+M16,56,OK,,IRL,Eoin McCullough,780,high,2009/eyoc2009.htm
+M16,57,OK,,EST,Kristjan Martin Kirjanen,787,high,2009/eyoc2009.htm
 M16,58,OK,,IRL,Jack Millar,791,high,2009/eyoc2009.htm
-M16,59,OK,,FRA,Vincent Avendikian,794,high,2009/eyoc2009.htm
+M16,59,OK,,FRA,Vincent Avedikian,794,high,2009/eyoc2009.htm
 M16,60,OK,,GBR,Jack Benham,824,high,2009/eyoc2009.htm
 M16,61,OK,,IRL,Laurence Quinn,831,high,2009/eyoc2009.htm
 M16,62,OK,,EST,Tonis Laugesaar,837,high,2009/eyoc2009.htm
@@ -238,10 +238,10 @@ M18,11,OK,,AUT,Simon Arbter,707,high,2009/eyoc2009.htm
 M18,12,OK,,CZE,Daniel Wolf,713,high,2009/eyoc2009.htm
 M18,13,OK,,FIN,Einari Heinaro,722,high,2009/eyoc2009.htm
 M18,14,OK,,EST,Raido Mitt,724,high,2009/eyoc2009.htm
-M18,15,OK,,NOR,Eskild Kinneberg,728,high,2009/eyoc2009.htm
+M18,15,OK,,NOR,Eskil Kinneberg,728,high,2009/eyoc2009.htm
 M18,16,OK,,RUS,Aurel Pleshkan,736,high,2009/eyoc2009.htm
 M18,17,OK,,ESP,Andreu Blanes Reig,737,high,2009/eyoc2009.htm
-M18,18,OK,,GER,Felix Spath,750,high,2009/eyoc2009.htm
+M18,18,OK,,GER,Felix Spaeth,750,high,2009/eyoc2009.htm
 M18,19,OK,,ESP,Marc Serrallonga Arques,754,high,2009/eyoc2009.htm
 M18,20,OK,,CZE,Premek Hnilica,756,high,2009/eyoc2009.htm
 M18,21,OK,,NOR,Martin Vister,762,high,2009/eyoc2009.htm

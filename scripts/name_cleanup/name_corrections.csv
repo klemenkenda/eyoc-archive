@@ -1,0 +1,2 @@
+status,country,from_name,to_name,reason,score,occurrences,sample_files
+,POR,Tiago Pires,Tiago Aires,iof-fuzzy,dist=1 ratio=0.91,3,"2005/long.csv, 2005/relay.csv, 2005/sprint.csv"

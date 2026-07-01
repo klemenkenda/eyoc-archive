@@ -1,11 +1,11 @@
 class,rank,status,bib,country,name,time_seconds,confidence,source_file
 W16,1,OK,,RUS,Karina Fershalova,2061,high,2006/eyoc2006.htm
 W16,2,OK,,HUN,Ilona Tibay,2265,high,2006/eyoc2006.htm
-W16,3,OK,,CZE,Adela Jakobova,2266,high,2006/eyoc2006.htm
+W16,3,OK,,CZE,Adelka Jakobova,2266,high,2006/eyoc2006.htm
 W16,4,OK,,RUS,Anastasia Trubkina,2268,high,2006/eyoc2006.htm
 W16,5,OK,,LTU,Tekle Emilija Gvildyte,2306,high,2006/eyoc2006.htm
 W16,6,OK,,RUS,Natalia Kozlova,2339,high,2006/eyoc2006.htm
-W16,7,OK,,EST,Hannula-Katrin Pandis,2387,high,2006/eyoc2006.htm
+W16,7,OK,,EST,Hannula Katrin Pandis,2387,high,2006/eyoc2006.htm
 W16,8,OK,,CZE,Vera Mullerova,2435,high,2006/eyoc2006.htm
 W16,9,OK,,CZE,Michaela Chmelarova,2445,high,2006/eyoc2006.htm
 W16,10,OK,,AUT,Anna Elstner,2463,high,2006/eyoc2006.htm
@@ -62,7 +62,7 @@ W16,60,OK,,POR,Isabel Sa,4642,high,2006/eyoc2006.htm
 W16,61,OK,,SLO,Ursa Tomazin,4962,high,2006/eyoc2006.htm
 W16,62,OK,,SRB,Marija Cosic,5448,high,2006/eyoc2006.htm
 W16,63,OK,,CRO,Marija Stambuk,5549,high,2006/eyoc2006.htm
-W16,64,OK,,CRO,Marija Cajko,5817,high,2006/eyoc2006.htm
+W16,64,OK,,CRO,Marija Eajko,5817,high,2006/eyoc2006.htm
 W16,65,OK,,POR,Joana Costa,6091,high,2006/eyoc2006.htm
 W18,1,OK,,CZE,Vera Madlova,3151,high,2006/eyoc2006.htm
 W18,2,OK,,RUS,Nina Oleynichenkova,3357,high,2006/eyoc2006.htm
@@ -128,7 +128,7 @@ W18,61,OK,,BUL,Simona Danailova,5276,high,2006/eyoc2006.htm
 W18,62,OK,,ROU,Ioana Zah-Git,5382,high,2006/eyoc2006.htm
 W18,63,OK,,AUT,Elisa Elstner,5441,high,2006/eyoc2006.htm
 W18,64,OK,,LAT,Madara Stapane,5510,high,2006/eyoc2006.htm
-W18,65,OK,,UKR,Irina Dryutova,5821,high,2006/eyoc2006.htm
+W18,65,OK,,UKR,Iryna Dryutova,5821,high,2006/eyoc2006.htm
 W18,66,OK,,SLO,Jerica Bernik,5878,high,2006/eyoc2006.htm
 W18,67,OK,,ESP,Luisa Rico,6109,high,2006/eyoc2006.htm
 W18,68,OK,,SRB,Marta Zdravkovic,6290,high,2006/eyoc2006.htm
@@ -165,7 +165,7 @@ M16,26,OK,,RUS,Sergey Vasilyev,3902,high,2006/eyoc2006.htm
 M16,27,OK,,LTU,Tadas Vidzikauskas,3920,high,2006/eyoc2006.htm
 M16,28,OK,,SUI,Niklaus Rey,3966,high,2006/eyoc2006.htm
 M16,29,OK,,UKR,Oleksandr Bevzyuk,3990,high,2006/eyoc2006.htm
-M16,30,OK,,ITA,Roberto Dalla Valle,4037,high,2006/eyoc2006.htm
+M16,30,OK,,ITA,Roberto Dallavalle,4037,high,2006/eyoc2006.htm
 M16,31,OK,,RUS,Igor Zorin,4048,high,2006/eyoc2006.htm
 M16,32,OK,,ROU,Florin Tuncu,4054,high,2006/eyoc2006.htm
 M16,33,OK,,CZE,Jan Kolarik,4067,high,2006/eyoc2006.htm
@@ -187,7 +187,7 @@ M16,48,OK,,LAT,Valters Strelnieks,4765,high,2006/eyoc2006.htm
 M16,49,OK,,SVK,Miroslav Papuga,4839,high,2006/eyoc2006.htm
 M16,50,OK,,UKR,Yevgen Fesenko,4850,high,2006/eyoc2006.htm
 M16,51,OK,,UKR,Vitaliy Moroz,4889,high,2006/eyoc2006.htm
-M16,52,OK,,ROU,Cosmin Georgescu,5020,high,2006/eyoc2006.htm
+M16,52,OK,,ROU,Georgescu Cosmin,5020,high,2006/eyoc2006.htm
 M16,53,OK,,SVK,Michal Pavlik,5100,high,2006/eyoc2006.htm
 M16,54,OK,,HUN,Gabor Vellner,5114,high,2006/eyoc2006.htm
 M16,55,OK,,SVK,Tomas Sokol,5311,high,2006/eyoc2006.htm
@@ -229,22 +229,22 @@ M18,16,OK,,ESP,Francisco Navarro,3686,high,2006/eyoc2006.htm
 M18,17,OK,,ROU,Ionut Patras,3723,high,2006/eyoc2006.htm
 M18,18,OK,,ESP,Daniel Portal,3750,high,2006/eyoc2006.htm
 M18,19,OK,,LTU,Julius Miksys,3755,high,2006/eyoc2006.htm
-M18,20,OK,,GER,Philipp Muller,3758,high,2006/eyoc2006.htm
+M18,20,OK,,GER,Philipp Mueller,3758,high,2006/eyoc2006.htm
 M18,21,OK,,FRA,Juste Raimbault,3770,high,2006/eyoc2006.htm
 M18,22,OK,,EST,Jaagup Truusalu,3790,high,2006/eyoc2006.htm
 M18,23,OK,,LAT,Andris Jubelis,3833,high,2006/eyoc2006.htm
 M18,24,OK,,HUN,Zsolt Lenkei,3855,high,2006/eyoc2006.htm
-M18,25,OK,,LAT,Artus Paulins,3865,high,2006/eyoc2006.htm
+M18,25,OK,,LAT,Arturs Paulins,3865,high,2006/eyoc2006.htm
 M18,26,OK,,CZE,Pavel Hradec,3913,high,2006/eyoc2006.htm
 M18,27,OK,,UKR,Maksym Scherbakov,3916,high,2006/eyoc2006.htm
 M18,28,OK,,POL,Maciej Jasinski,3917,high,2006/eyoc2006.htm
 M18,29,OK,,AUT,Wolfgang Siegert,3919,high,2006/eyoc2006.htm
 M18,30,OK,,NOR,Jonas Sommerstad Juveli,3976,high,2006/eyoc2006.htm
-M18,31,OK,,FRA,Thibault Poupart,3981,high,2006/eyoc2006.htm
+M18,31,OK,,FRA,Thibault Poupard,3981,high,2006/eyoc2006.htm
 M18,32,OK,,EST,Kristo Heinmann,3982,high,2006/eyoc2006.htm
 M18,33,OK,,ROU,Mircea Dopovecz,4008,high,2006/eyoc2006.htm
 M18,34,OK,,BUL,Petar Doganov,4012,high,2006/eyoc2006.htm
-M18,35,OK,,SWE,Petter Eriksson,4036,high,2006/eyoc2006.htm
+M18,35,OK,,SWE,Peter Eriksson,4036,high,2006/eyoc2006.htm
 M18,36,OK,,HUN,Andras Szabo,4040,high,2006/eyoc2006.htm
 M18,37,OK,,CZE,Marek Cahel,4041,high,2006/eyoc2006.htm
 M18,38,OK,,LAT,Edgars Sparans,4048,high,2006/eyoc2006.htm
@@ -257,7 +257,7 @@ M18,44,OK,,POL,Jacek Morawski,4156,high,2006/eyoc2006.htm
 M18,45,OK,,LTU,Giedrius Vidzikauskas,4161,high,2006/eyoc2006.htm
 M18,46,OK,,SUI,Raffael Huber,4207,high,2006/eyoc2006.htm
 M18,47,OK,,FRA,Benjamin Lepoutre,4220,high,2006/eyoc2006.htm
-M18,48,OK,,LTU,Vytautas Pranskaitis,4246,high,2006/eyoc2006.htm
+M18,48,OK,,LTU,Vytautas Pranckaitis,4246,high,2006/eyoc2006.htm
 M18,49,OK,,GBR,Hector Haines,4249,high,2006/eyoc2006.htm
 M18,50,OK,,GBR,John Rocke,4327,high,2006/eyoc2006.htm
 M18,51,OK,,SWE,Jesper Lysell,4353,high,2006/eyoc2006.htm

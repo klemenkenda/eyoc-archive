@@ -82,6 +82,7 @@ ALIASES = {
     "liechtenstein": "LIE",
 }
 # also accept the codes themselves (case-insensitive) and canonical names
+BARE_CODE_ALIASES = {_code.lower() for _code in CODES}
 for _code in CODES:
     ALIASES[_code.lower()] = _code
 ALIASES["rom"] = "ROU"  # old IOC-style code for Romania, still used by some older software
@@ -93,11 +94,17 @@ for _name, _code in NAMES_BY_LOWER.items():
 _dropped_counter = {}
 
 
-def normalize_country(raw_text, source_file=""):
+def normalize_country(raw_text, source_file="", allow_bare_code_alias=True):
     """Return (code, name) if raw_text maps to an EYOC-eligible European country, else None.
 
     Non-European / composite / unrecognised entries (e.g. "Europa", guest teams) are
     counted in _dropped_counter for later reporting and otherwise silently excluded.
+
+    `allow_bare_code_alias=False` disables the case-insensitive bare-3-letter-code match
+    (e.g. "ita" -> ITA, "pol" -> POL) while still allowing real country names/aliases.
+    Use this when matching against text that could plausibly be a person's name instead
+    of a country mention - e.g. the given names "Ita" (Klingenberg, DEN) and "Pol"
+    (Rafols, ESP) are indistinguishable from the bare codes for Italy/Poland otherwise.
     """
     if not raw_text:
         return None
@@ -123,7 +130,7 @@ def normalize_country(raw_text, source_file=""):
             text_no_num = first_half
     for candidate in (text, text_no_num):
         key = candidate.lower()
-        if key in ALIASES:
+        if key in ALIASES and (allow_bare_code_alias or key not in BARE_CODE_ALIASES):
             code = ALIASES[key]
             return code, CODES[code]
     # last resort: narrow PDF columns sometimes truncate the name, e.g. "Russian Federati"

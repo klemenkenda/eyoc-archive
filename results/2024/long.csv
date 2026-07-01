@@ -57,7 +57,7 @@ M16,55,OK,1004,GER,Karl Jobke,3846,high,2024/Long-eventor.xml
 M16,56,OK,1050,DEN,Mattias Rokkjaer,3886,high,2024/Long-eventor.xml
 M16,57,OK,1088,ESP,Cesc Amat Font,3950,high,2024/Long-eventor.xml
 M16,58,OK,1015,ITA,Niklas Weitlaner,4035,high,2024/Long-eventor.xml
-M16,59,OK,1040,ROU,Simon Benjamin,4037,high,2024/Long-eventor.xml
+M16,59,OK,1040,ROU,Benjamin Simon,4037,high,2024/Long-eventor.xml
 M16,60,OK,1036,AUT,Oliver Schnepf,4089,high,2024/Long-eventor.xml
 M16,61,OK,1068,BEL,Thomas Jansen,4103,high,2024/Long-eventor.xml
 M16,62,OK,1045,BEL,Pjotr Mertens,4126,high,2024/Long-eventor.xml
@@ -285,7 +285,7 @@ M18,101,OK,3007,IRL,Eoin O Donnell,6324,high,2024/Long-eventor.xml
 M18,102,OK,3049,TUR,Bayram Furkan Hizli,7337,high,2024/Long-eventor.xml
 M18,,MP,3050,SWE,Max Oesterberg,3628,high,2024/Long-eventor.xml
 M18,,MP,3032,DEN,Johannes Marager,4736,high,2024/Long-eventor.xml
-M18,,MP,3034,MDA,Cristian Betivu,5867,high,2024/Long-eventor.xml
+M18,,MP,3034,MDA,Betivu Cristian,5867,high,2024/Long-eventor.xml
 W18,1,OK,4095,SWE,Freja Hjerne,3230,high,2024/Long-eventor.xml
 W18,2,OK,4073,HUN,Janka Mikes,3277,high,2024/Long-eventor.xml
 W18,3,OK,4061,CZE,Katerina Douskova,3481,high,2024/Long-eventor.xml
@@ -307,7 +307,7 @@ W18,18,OK,4084,FRA,Yaelle Malard,4065,high,2024/Long-eventor.xml
 W18,19,OK,4080,POL,Antonina Slonska,4098,high,2024/Long-eventor.xml
 W18,20,OK,4010,CZE,Katerina Koziskova,4117,high,2024/Long-eventor.xml
 W18,21,OK,4057,EST,Lovise Harriette Koppel,4123,high,2024/Long-eventor.xml
-W18,22,OK,4077,FIN,Anni Makihokkonen,4196,high,2024/Long-eventor.xml
+W18,22,OK,4077,FIN,Anni MakiHokkonen,4196,high,2024/Long-eventor.xml
 W18,23,OK,4028,FRA,Fanny Delahaye,4211,high,2024/Long-eventor.xml
 W18,24,OK,4043,FIN,Elli Kylakoski,4226,high,2024/Long-eventor.xml
 W18,25,OK,4086,EST,Liise Lillelaid,4229,high,2024/Long-eventor.xml

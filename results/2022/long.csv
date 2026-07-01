@@ -18,10 +18,10 @@ W16,16,OK,752,HUN,Zsuzsa Gonczi,3956,high,2022/Long-eventor.xml
 W16,17,OK,770,SVK,Tereza Kendrova,4002,high,2022/Long-eventor.xml
 W16,18,OK,721,CZE,Barbora Holasova,4008,high,2022/Long-eventor.xml
 W16,19,OK,732,UKR,Kateryna Kropyvnytska,4029,high,2022/Long-eventor.xml
-W16,20,OK,780,ITA,Silvia di Stefano,4035,high,2022/Long-eventor.xml
+W16,20,OK,780,ITA,Silvia Di Stefano,4035,high,2022/Long-eventor.xml
 W16,21,OK,772,SUI,Minna Senn,4054,high,2022/Long-eventor.xml
 W16,22,OK,750,LTU,Margarita Dienyte,4055,high,2022/Long-eventor.xml
-W16,23,OK,778,DEN,Frida Kaerner Grooss,4084,high,2022/Long-eventor.xml
+W16,23,OK,778,DEN,Frida Karner Grooss,4084,high,2022/Long-eventor.xml
 W16,24,OK,769,ROU,Diana Maria Pop,4099,high,2022/Long-eventor.xml
 W16,25,OK,729,LAT,Eliza Odrina,4140,high,2022/Long-eventor.xml
 W16,26,OK,781,EST,Harriet Koppel,4170,high,2022/Long-eventor.xml
@@ -107,7 +107,7 @@ W18,13,OK,377,NOR,Elisa Gotsch Iversen,3947,high,2022/Long-eventor.xml
 W18,14,OK,393,LTU,Ugne Skucaite,3949,high,2022/Long-eventor.xml
 W18,15,OK,322,NOR,Anna Taksdal,3987,high,2022/Long-eventor.xml
 W18,16,OK,319,GBR,Isobel Howard,4024,high,2022/Long-eventor.xml
-W18,17,OK,379,BEL,Tille de Smul,4028,high,2022/Long-eventor.xml
+W18,17,OK,379,BEL,Tille De Smul,4028,high,2022/Long-eventor.xml
 W18,17,OK,369,FRA,Alice Merat,4028,high,2022/Long-eventor.xml
 W18,19,OK,357,SUI,Rosa Bieri,4035,high,2022/Long-eventor.xml
 W18,20,OK,343,SUI,Leonie Benz,4076,high,2022/Long-eventor.xml
@@ -225,8 +225,8 @@ M16,41,OK,582,LAT,Edvards Zvirgzdins,4114,high,2022/Long-eventor.xml
 M16,42,OK,528,FIN,Florian Fritzen,4162,high,2022/Long-eventor.xml
 M16,43,OK,565,DEN,Erik Groenborg Nielsen,4180,high,2022/Long-eventor.xml
 M16,44,OK,524,ESP,Joan Montes,4188,high,2022/Long-eventor.xml
-M16,45,OK,504,DEN,Asbjolrn Faber Fenger Groen,4192,high,2022/Long-eventor.xml
-M16,46,OK,501,ITA,Lambertini Sebastiano,4195,high,2022/Long-eventor.xml
+M16,45,OK,504,DEN,Asbjoern Faber Fenger Groen,4192,high,2022/Long-eventor.xml
+M16,46,OK,501,ITA,Sebastiano Lambertini,4195,high,2022/Long-eventor.xml
 M16,47,OK,571,EST,Bert Joosep Panker,4201,high,2022/Long-eventor.xml
 M16,48,OK,537,LTU,Tadas Mackevicius,4230,high,2022/Long-eventor.xml
 M16,49,OK,586,SLO,Luka Seljak,4245,high,2022/Long-eventor.xml
@@ -241,7 +241,7 @@ M16,57,OK,595,GER,Lennart Muehlstaedt,4518,high,2022/Long-eventor.xml
 M16,58,OK,531,EST,Markus Juhkam,4537,high,2022/Long-eventor.xml
 M16,59,OK,521,SVK,Michal Dolny,4548,high,2022/Long-eventor.xml
 M16,60,OK,548,SLO,Bozo Bizjak,4608,high,2022/Long-eventor.xml
-M16,61,OK,597,BEL,Mats de Smul,4643,high,2022/Long-eventor.xml
+M16,61,OK,597,BEL,Mats De Smul,4643,high,2022/Long-eventor.xml
 M16,62,OK,585,ITA,Denis Orsingher,4661,high,2022/Long-eventor.xml
 M16,63,OK,577,DEN,Axel Oernhagen Joergensen,4733,high,2022/Long-eventor.xml
 M16,64,OK,562,AUT,Maximilian Rass,4736,high,2022/Long-eventor.xml
@@ -291,11 +291,11 @@ M18,10,OK,167,ESP,Gonzalo Zorrilla Olias,3840,high,2022/Long-eventor.xml
 M18,11,OK,160,NOR,Alfred Bjoerneroed,3859,high,2022/Long-eventor.xml
 M18,12,OK,179,SUI,Simon Wolfensberger,3899,high,2022/Long-eventor.xml
 M18,13,OK,200,SWE,Edvin Forsberg,3929,high,2022/Long-eventor.xml
-M18,14,OK,188,BEL,Rune de Clercq,3938,high,2022/Long-eventor.xml
+M18,14,OK,188,BEL,Rune De Clercq,3938,high,2022/Long-eventor.xml
 M18,15,OK,135,FIN,Rauli Aho,3941,high,2022/Long-eventor.xml
 M18,16,OK,205,ESP,Gonzalo Ferrando,3942,high,2022/Long-eventor.xml
 M18,17,OK,125,SUI,Elias Schafer,4015,high,2022/Long-eventor.xml
-M18,18,OK,178,ITA,Marco Anselmo di Stefano,4028,high,2022/Long-eventor.xml
+M18,18,OK,178,ITA,Marco Anselmo Di Stefano,4028,high,2022/Long-eventor.xml
 M18,19,OK,112,ESP,Alejandro Garrido Diaz,4045,high,2022/Long-eventor.xml
 M18,20,OK,134,CZE,Jakub Peterka,4055,high,2022/Long-eventor.xml
 M18,21,OK,165,LTU,Tautvydas Rimkus,4057,high,2022/Long-eventor.xml

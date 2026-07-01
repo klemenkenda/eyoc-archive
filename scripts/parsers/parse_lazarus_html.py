@@ -116,12 +116,19 @@ def parse_row(line):
     # some rows redundantly print the country name AND its code, e.g. "Czech republic
     # CZE 1 A" - the loop above can match just the trailing "CZE 1 A" (via the bare-code
     # shortcut in normalize_country) and leave "Czech republic" stranded in the name.
-    # Strip a trailing 1-3 word country-name match from what's left, too.
+    # Strip a trailing 1-3 word country-*name* match from what's left, too. Bare 3-letter
+    # codes are excluded here (allow_bare_code_alias=False) even though
+    # common.normalize_country() normally accepts them case-insensitively: a given name
+    # that happens to equal a country code - "Ita" (Klingenberg, DEN) or "Pol" (Rafols,
+    # ESP) - would otherwise be misread as a stray redundant country mention and silently
+    # dropped from the name. Genuine bare-code leftovers are already handled by the
+    # trailing-candidate loop above; this second pass only needs to catch spelled-out
+    # names (which are never exactly 3 letters, so excluding bare codes costs nothing).
     for n2 in (3, 2, 1):
         if len(name_words) <= n2:
             continue
         candidate2 = " ".join(name_words[-n2:])
-        if common.normalize_country(candidate2) is not None:
+        if common.normalize_country(candidate2, allow_bare_code_alias=False) is not None:
             name_words = name_words[:-n2]
             break
     # a few 2003 rows glue the country name straight onto the given name with no space

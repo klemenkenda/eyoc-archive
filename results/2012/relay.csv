@@ -1,10 +1,10 @@
 class,rank,status,country,team,total_time_seconds,leg1_name,leg1_time_seconds,leg2_name,leg2_time_seconds,leg3_name,leg3_time_seconds,confidence,source_file
 W16,1,OK,CZE,Czechia,5548,Petra Hancova,1831,Zuzana Kozinova,1973,Anna Stickova,1744,high,2012/eyoc2012.htm
 W16,2,OK,SUI,Switzerland,5584,Barbara Kohle,1845,Sonja Borner,1948,Paula Gross,1791,high,2012/eyoc2012.htm
-W16,3,OK,FRA,France,5686,Solcne Droin,1848,Chloe Haberkorn,1885,Mathlide Body,1953,high,2012/eyoc2012.htm
+W16,3,OK,FRA,France,5686,Solene Droin,1848,Chloe Haberkorn,1885,Mathlide Body,1953,high,2012/eyoc2012.htm
 W16,4,OK,RUS,Russia,5780,Anna Yakimenko,1925,Anna Dvorianskaia,2031,Marina Trubkina,1824,high,2012/eyoc2012.htm
-W16,5,OK,HUN,Hungary,5995,Virag Weiler,1855,Luca Szuromi,2136,Csenge Viniczzai,2004,high,2012/eyoc2012.htm
-W16,6,OK,GER,Germany,6134,Leonore Winkler,2010,Dorothea Muller,2257,Hanna Muller,1867,high,2012/eyoc2012.htm
+W16,5,OK,HUN,Hungary,5995,Virag Weiler,1855,Luca Szuromi,2136,Csenge Viniczai,2004,high,2012/eyoc2012.htm
+W16,6,OK,GER,Germany,6134,Leonore Winkler,2010,Dorothea Mueller,2257,Hanna Mueller,1867,high,2012/eyoc2012.htm
 W16,7,OK,UKR,Ukraine,6318,Lesya Polishchuk,2377,Daria Moskalenko,1990,Olena Postelniak,1951,high,2012/eyoc2012.htm
 W16,8,OK,DEN,Denmark,6319,Nikoline Tillingsre,1838,Astrid Maag,2556,Amanda Falck Weber,1925,high,2012/eyoc2012.htm
 W16,9,OK,POL,Poland,6448,Angelika MacIejewska,2427,Weronika Cych,1944,Zuzanna Wanczyk,2077,high,2012/eyoc2012.htm
@@ -15,23 +15,23 @@ W16,13,OK,AUT,Austria,7449,Anika Gassner,2375,Isabel Schaffer,2359,Carina Polzer
 W16,14,OK,ITA,Italy,7724,Arianna Bortolotti,2587,Francesca Taufer,2657,Gaia Sebastiani,2480,high,2012/eyoc2012.htm
 W16,15,OK,BLR,Belarus,7826,Anastasiya Ilkevich,2593,Yuliya Tarasava,2932,Viktoryia Mozhar,2301,high,2012/eyoc2012.htm
 W16,16,OK,ESP,Spain,8755,Elena Botica Artalejo,3298,Andrea Guillen Escriba,2946,Maria Illa Cams,2511,high,2012/eyoc2012.htm
-W16,17,OK,ROU,Romania,8987,Georgescu Alice,2523,Bonto Diana,2870,Culcean Roxana,3594,high,2012/eyoc2012.htm
-W16,18,OK,ISR,Israel,9072,Michal Shaked,2702,Hila Ayali,3119,Marina Maerkowich,3251,high,2012/eyoc2012.htm
-W16,19,OK,SLO,Slovenia,9411,Manca Cvek,2573,Lara Jerman,2840,Katjsa Poljansek,3998,high,2012/eyoc2012.htm
+W16,17,OK,ROU,Romania,8987,Alice Georgescu,2523,Bonto Diana,2870,Culcean Roxana,3594,high,2012/eyoc2012.htm
+W16,18,OK,ISR,Israel,9072,Michal Shaked,2702,Hilla Ayali,3119,Marina Maerkowich,3251,high,2012/eyoc2012.htm
+W16,19,OK,SLO,Slovenia,9411,Manca Cvek,2573,Lara Jerman,2840,Katjusa Poljansek,3998,high,2012/eyoc2012.htm
 W16,20,OK,TUR,Turkiye,10773,Kubra Yoruk,3598,Tugce Kaya,3629,Ayse Bozkurt,3546,high,2012/eyoc2012.htm
 W18,1,OK,RUS,Russia,6581,Ekaterina Savkina,2258,Daria Korobeynik,2158,Daria Krasilnikova,2165,high,2012/eyoc2012.htm
-W18,2,OK,NOR,Norway,6587,Andrine Benjaminsen,2284,Kaja Winsnes Nordhagen,2229,Gunvor Hov Hrydal,2074,high,2012/eyoc2012.htm
-W18,3,OK,SWE,Sweden,6604,Tove Lagerberg,2247,Josefine Klintberg,2149,Moa Leijon-Lind,2208,high,2012/eyoc2012.htm
+W18,2,OK,NOR,Norway,6587,Andrine Benjaminsen,2284,Kaja Winsnes Nordhagen,2229,Gunvor Hov Hoydal,2074,high,2012/eyoc2012.htm
+W18,3,OK,SWE,Sweden,6604,Tove Lagerberg,2247,Josefine Klintberg,2149,Moa Leijon Lind,2208,high,2012/eyoc2012.htm
 W18,4,OK,CZE,Czechia,6908,Lenka Svobodova,2237,Karolina Borankova,2293,Katerina Chroma,2378,high,2012/eyoc2012.htm
 W18,5,OK,FRA,France,7271,Margaux Hummel-Azais,2252,Delphine Poirot,2481,Lucile Clouard,2538,high,2012/eyoc2012.htm
 W18,6,OK,FIN,Finland,7333,Henna Skog,2573,Sara Karvonen,2521,Jannina Gustafsson,2239,high,2012/eyoc2012.htm
 W18,7,OK,SUI,Switzerland,7352,Ellen Reinhard,2221,Rahela Brunner,2331,Lisa Schubnell,2800,high,2012/eyoc2012.htm
 W18,8,OK,POL,Poland,7449,Edyta Baluta,2546,Maria Dragowska,2686,Angelika Haniszewska,2217,high,2012/eyoc2012.htm
-W18,9,OK,EST,Estonia,7471,Laura Joonas,2668,Triinu Rooni,2458,Madli-Johanna Maidla,2345,high,2012/eyoc2012.htm
-W18,10,OK,UKR,Ukraine,7668,Mariya Polishchuk,2562,Nina Kuznetcova,2531,Viktoriia Sukharevska,2575,high,2012/eyoc2012.htm
+W18,9,OK,EST,Estonia,7471,Laura Joonas,2668,Triinu Rooni,2458,Madli Johanna Maidla,2345,high,2012/eyoc2012.htm
+W18,10,OK,UKR,Ukraine,7668,Mariya Polishchuk,2562,Nina Kuznetsova,2531,Viktoriia Sukharevska,2575,high,2012/eyoc2012.htm
 W18,11,OK,LAT,Latvia,8016,Madara Sadrina,2600,Liga Valdmane,2646,Sandra Grosberga,2770,high,2012/eyoc2012.htm
-W18,12,OK,BUL,Bulgaria,8651,Martina Dzhulieva,2873,Yveta Zasheva,3087,Antoaneta Dyaksova,2691,high,2012/eyoc2012.htm
-W18,13,OK,ESP,Spain,8822,Marina Gracia Castro,2597,Silvia Martin de Los Ri,3519,Carmen Patino Deniz,2706,high,2012/eyoc2012.htm
+W18,12,OK,BUL,Bulgaria,8651,Martina Dzhulieva,2873,Iveta Zasheva,3087,Antoaneta Dyaksova,2691,high,2012/eyoc2012.htm
+W18,13,OK,ESP,Spain,8822,Marina Garcia Castro,2597,Silvia Martin de los Rios,3519,Carmen Patino Deniz,2706,high,2012/eyoc2012.htm
 W18,14,OK,SVK,Slovakia,8981,Martina Papugova,3058,Barbora Pijakova,3610,Ludmila Sokolova,2313,high,2012/eyoc2012.htm
 W18,15,OK,AUT,Austria,9097,Martina Walch,2975,Lisa Pacher,3022,Nora Ramstein,3100,high,2012/eyoc2012.htm
 W18,16,OK,ITA,Italy,9442,Lia Patscheider,3374,Anna Caglio,2620,Eleonora Donadini,3448,high,2012/eyoc2012.htm
@@ -56,17 +56,17 @@ M16,11,OK,SVK,Slovakia,8156,Martin Jonas,3203,Martin Smelik,2379,Martin Klabouch
 M16,12,OK,EST,Estonia,8635,Veiko Vinkel,3235,Janek Piirisild,2533,Rimmo Room,2867,high,2012/eyoc2012.htm
 M16,13,OK,LAT,Latvia,8643,Uldis Upitis,2617,Girts Leontjevs,2628,Atis Heinols,3398,high,2012/eyoc2012.htm
 M16,14,OK,UKR,Ukraine,8666,Oleksandr Tkachuk,2341,Oleksandr Kochin,2984,Oleksiy Bryukhovich,3341,high,2012/eyoc2012.htm
-M16,15,OK,ESP,Spain,8808,Albert Acedo Casellas,2334,Jesuis Rodriguez Corroc,3098,Elmar Montero Carceles,3376,high,2012/eyoc2012.htm
+M16,15,OK,ESP,Spain,8808,Albert Acedo Casellas,2334,Jesus Rodriguez Corrochano,3098,Elmar Montero Carceles,3376,high,2012/eyoc2012.htm
 M16,16,OK,LTU,Lithuania,8843,Aidas Zigilejus,3200,Martynas Germanavicius,2381,Deividas Segzda,3262,high,2012/eyoc2012.htm
 M16,17,OK,POR,Portugal,10247,Daniel Catarino,2500,Antonio Ferreira,4168,Diogo Barradas,3579,high,2012/eyoc2012.htm
-M16,18,OK,ROU,Romania,10366,Gergely Bogya,3592,Erosdi Zakarias,3886,Prezensky Gabor,2888,high,2012/eyoc2012.htm
+M16,18,OK,ROU,Romania,10366,Gergely Bogya,3592,Zakarias Erosdi,3886,Prezensky Gabor,2888,high,2012/eyoc2012.htm
 M16,19,OK,TUR,Turkiye,11948,Safak Karaman,4485,Musa Gokce,3583,Tahsin Elmas,3880,high,2012/eyoc2012.htm
-M16,20,OK,SRB,Serbia,12219,Dusan Krnjajic,2954,Stefan Bilic,4033,Kristina Radicevic,5232,high,2012/eyoc2012.htm
+M16,20,OK,SRB,Serbia,12219,Dusan Krnjaic,2954,Stefan Bilic,4033,Kristina Radicevic,5232,high,2012/eyoc2012.htm
 M16,,MP,SLO,Slovenia,,Peter Tusar,,Blaz Petrovic,,Patrik Celik,3693,high,2012/eyoc2012.htm
-M18,1,OK,SWE,Sweden,6569,Assar Hellstrom,2278,Ludvig Lhlund,2130,Ludwig Ljungqvist,2161,high,2012/eyoc2012.htm
+M18,1,OK,SWE,Sweden,6569,Assar Hellstrom,2278,Ludvig Ahlund,2130,Ludwig Ljungqvist,2161,high,2012/eyoc2012.htm
 M18,2,OK,FIN,Finland,6776,Kristian Kannus,2346,Eeli Viholainen,2343,Topi Raitanen,2087,high,2012/eyoc2012.htm
 M18,3,OK,CZE,Czechia,6782,Jonas Hubacek,2304,Jan Grundmann,2146,Marek Minar,2332,high,2012/eyoc2012.htm
-M18,4,OK,SUI,Switzerland,6787,Jonas Egger,2344,Simon Wenger,2346,Sven Hellmuller,2097,high,2012/eyoc2012.htm
+M18,4,OK,SUI,Switzerland,6787,Jonas Egger,2344,Simon Wenger,2346,Sven Hellmueller,2097,high,2012/eyoc2012.htm
 M18,5,OK,LTU,Lithuania,7245,Martynas Tirlikas,2521,Justas Misiunas,2472,Algirdas Bartkevicius,2252,high,2012/eyoc2012.htm
 M18,6,OK,HUN,Hungary,7405,Daniel Fehervari,2293,Bertalan Kovacs,2398,Levente Tugyi,2714,high,2012/eyoc2012.htm
 M18,7,OK,BEL,Belgium,7449,Tristan Bloemen,2346,Thomas Gillet,2436,Evert Leeuws,2667,high,2012/eyoc2012.htm
@@ -75,10 +75,10 @@ M18,9,OK,RUS,Russia,7565,Konstantin Pozdeev,2824,Dmitry Naumov,2526,Dmitry Polya
 M18,10,OK,BUL,Bulgaria,7681,Martin Ponev,2477,Dimitar Zheliazkov,3092,Apostol Atanasov,2112,high,2012/eyoc2012.htm
 M18,11,OK,LAT,Latvia,7706,Daniels Karklins,2504,Alvis Reinsons,2555,Mikus Purins,2647,high,2012/eyoc2012.htm
 M18,12,OK,EST,Estonia,7710,Oliver Jogeva,2613,Tonis Laugesaar,2440,Kevin Koskinen,2657,high,2012/eyoc2012.htm
-M18,13,OK,ROU,Romania,7755,Bele Felician,2837,Copetchi Stefan,2509,Prezensky Tamas,2409,high,2012/eyoc2012.htm
-M18,14,OK,ESP,Spain,7858,Luis Sanchez Serrano,2517,Pau Llorens Caellas,3085,Eduardo Gil Marco,2256,high,2012/eyoc2012.htm
+M18,13,OK,ROU,Romania,7755,Felician Bele,2837,Stefan Copetchi,2509,Prezensky Tamas,2409,high,2012/eyoc2012.htm
+M18,14,OK,ESP,Spain,7858,Luis Sanchez Serrano,2517,Pau Llorens Caellas,3085,Eduardo Gil Marcos,2256,high,2012/eyoc2012.htm
 M18,15,OK,ITA,Italy,8519,Andrea Melioli,3203,Walter Bettega,2738,Samuele Canella,2578,high,2012/eyoc2012.htm
-M18,16,OK,ISR,Israel,8628,Nitsan Yasur,2556,Manor Itay,2869,Yuval Rafaeli,3203,high,2012/eyoc2012.htm
+M18,16,OK,ISR,Israel,8628,Nitsan Yasur,2556,Itay Manor,2869,Yuval Rafaeli,3203,high,2012/eyoc2012.htm
 M18,17,OK,BLR,Belarus,9225,Andrei Kryvasheyeu,2529,Pavel Khadzko,3737,Aliaksandr Razhkou,2959,high,2012/eyoc2012.htm
 M18,18,OK,SVK,Slovakia,9684,Samuel Kebis,2609,Simon Mizur,2969,Andrea Papugova,4106,high,2012/eyoc2012.htm
 M18,19,OK,SLO,Slovenia,10921,Jost Lapajne,3845,Gregor Hvala,3319,Aljaz Borstnik,3757,high,2012/eyoc2012.htm
@@ -86,7 +86,7 @@ M18,,MP,AUT,Austria,,Matthias Reiner,2271,Matthias Groell,,Xander Berger,2133,hi
 M18,,MP,NOR,Norway,,Mathias Drage,2360,Jon Nilsen,,Magne Haga,2092,high,2012/eyoc2012.htm
 M18,,MP,POL,Poland,,Wojciech Dudek,2591,Witold Jasinski,2390,Krzysztof Wolowczyk,,high,2012/eyoc2012.htm
 M18,,MP,POR,Portugal,,Luis Silva,,Filipe Augusto,2746,Miguel Ferreira,3078,high,2012/eyoc2012.htm
-M18,,MP,FRA,France,,Remi Villedieu,2879,Florentin Body,,Lodc Marty,,high,2012/eyoc2012.htm
+M18,,MP,FRA,France,,Remi Villedieu,2879,Florentin Body,,Loic Marty,,high,2012/eyoc2012.htm
 M18,,MP,TUR,Turkiye,,Musa Yeli,2915,Semih Ozbir,,Cansel Sarac,4063,high,2012/eyoc2012.htm
 M18,,MP,UKR,Ukraine,,Oleksandr Asmolov,2505,Vitaliy Gychko,2289,Oleksiy Sudarev,,high,2012/eyoc2012.htm
 M18,,MP,SRB,Serbia,,Filip Stevanovic,2530,Sava Lazic,2552,Strahinja Strelic,,high,2012/eyoc2012.htm
