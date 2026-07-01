@@ -12,6 +12,7 @@ import html
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from collections import Counter, defaultdict
@@ -33,6 +34,7 @@ DEFAULT_REPORT = RAW / "OPENROUTER-DATA-AUDIT.md"
 DEFAULT_SUMMARY_REPORT = RAW / "OPENROUTER-DATA-AUDIT-SUMMARY.md"
 CACHE_DIR = SCRIPT_DIR / "cache"
 ENV_FILE = ROOT / ".env"
+CACHE_VERSION = "2"
 
 INDIVIDUAL_COLUMNS = [
     "class",
@@ -92,6 +94,10 @@ def load_dotenv(path: Path) -> None:
         os.environ.setdefault(key, value)
 
 
+def debug_pdf_enabled() -> bool:
+    return os.environ.get("OPENROUTER_AUDIT_DEBUG_PDF", "").strip().lower() in {"1", "true", "yes", "on"}
+
+
 def plain_text(path: Path) -> str:
     suffix = path.suffix.lower()
     if suffix in {".htm", ".html"}:
@@ -105,16 +111,75 @@ def plain_text(path: Path) -> str:
     if suffix in {".xml", ".csv", ".txt", ".md"}:
         return path.read_text(encoding="utf-8", errors="replace")
     if suffix == ".pdf":
-        try:
-            import fitz
-        except ImportError:
-            return ""
-        parts: list[str] = []
-        with fitz.open(str(path)) as document:
-            for page in document:
-                parts.append(page.get_text())
-        return "\n".join(parts)
+        return pdf_text(path)
     return path.read_text(encoding="utf-8", errors="replace")
+
+
+def _pdf_text_pymupdf(path: Path) -> str:
+    import fitz
+
+    parts: list[str] = []
+    with fitz.open(str(path)) as document:
+        for page in document:
+            parts.append(page.get_text())
+    return "\n".join(parts)
+
+
+def _pdf_text_pdftotext(path: Path) -> str:
+    result = subprocess.run(
+        ["pdftotext", "-layout", str(path), "-"],
+        capture_output=True,
+        timeout=60,
+        check=False,
+    )
+    return result.stdout.decode("utf-8", errors="replace")
+
+
+def _pdf_text_pypdf(path: Path) -> str:
+    try:
+        from pypdf import PdfReader
+    except ImportError:
+        from PyPDF2 import PdfReader
+
+    reader = PdfReader(str(path))
+    return "\n".join((page.extract_text() or "") for page in reader.pages)
+
+
+def _pdf_text_pdfplumber(path: Path) -> str:
+    import pdfplumber
+
+    parts: list[str] = []
+    with pdfplumber.open(str(path)) as document:
+        for page in document.pages:
+            parts.append(page.extract_text() or "")
+    return "\n".join(parts)
+
+
+def pdf_text(path: Path) -> str:
+    debug_pdf = debug_pdf_enabled()
+    extractors = (
+        ("pymupdf", _pdf_text_pymupdf),
+        ("pdftotext", _pdf_text_pdftotext),
+        ("pypdf", _pdf_text_pypdf),
+        ("pdfplumber", _pdf_text_pdfplumber),
+    )
+    for name, extractor in extractors:
+        try:
+            text = extractor(path)
+        except Exception as exc:
+            if debug_pdf:
+                print(f"[pdf-debug] {path.name}: {name} failed: {exc}")
+            continue
+        stripped_len = len(text.strip())
+        if debug_pdf:
+            print(f"[pdf-debug] {path.name}: {name} returned {stripped_len} chars")
+        if stripped_len >= 20:
+            if debug_pdf:
+                print(f"[pdf-debug] {path.name}: using {name}")
+            return text
+    if debug_pdf:
+        print(f"[pdf-debug] {path.name}: all PDF extractors failed or returned too little text")
+    return ""
 
 
 def normalize_class(text: str | None) -> str | None:
@@ -272,6 +337,8 @@ def build_user_payload(task: AuditTask) -> str:
 
 def cache_key(model: str, prompt_text: str, user_payload: str) -> str:
     digest = hashlib.sha256()
+    digest.update(CACHE_VERSION.encode("utf-8"))
+    digest.update(b"\0")
     digest.update(model.encode("utf-8"))
     digest.update(b"\0")
     digest.update(prompt_text.encode("utf-8"))
@@ -486,6 +553,103 @@ def shorten_summary(text: str, limit: int = 180) -> str:
     return cut + "..."
 
 
+def discipline_from_csv_name(rel_csv: str) -> str:
+    name = Path(rel_csv).stem.lower()
+    return name if name in {"sprint", "long", "relay"} else "other"
+
+
+def year_from_task(task: AuditTask) -> str:
+    return task.source_rel.split("/", 1)[0]
+
+
+def issue_icon(verdict: str, severities: set[str], has_failure: bool) -> str:
+    if has_failure:
+        return "⛔"
+    if verdict == "fail" or "high" in severities:
+        return "❌"
+    if verdict == "review" or severities:
+        return "⚠️"
+    return "✅"
+
+
+def build_year_discipline_table(
+    evaluations: list[tuple[AuditTask, dict[str, Any]]],
+    failures: list[str],
+) -> list[str]:
+    failures_by_year_discipline: dict[tuple[str, str], int] = Counter()
+    for failure in failures:
+        label = failure.split(": ", 1)[0]
+        year = label.split("/", 1)[0]
+        lower_label = label.lower()
+        disciplines: set[str] = set()
+        for name in ("sprint", "long", "relay"):
+            if name in lower_label:
+                disciplines.add(name)
+        if not disciplines:
+            disciplines.add("other")
+        for discipline in disciplines:
+            failures_by_year_discipline[(year, discipline)] += 1
+
+    aggregates: dict[tuple[str, str], dict[str, Any]] = defaultdict(
+        lambda: {
+            "verdicts": Counter(),
+            "severities": set(),
+            "categories": Counter(),
+            "failures": 0,
+        }
+    )
+
+    for task, result in evaluations:
+        year = year_from_task(task)
+        disciplines = {discipline_from_csv_name(rel_csv) for rel_csv in task.csv_rows}
+        verdict = str(result.get("verdict", "review"))
+        issues = [normalize_issue(issue) for issue in result.get("issues", []) if isinstance(issue, dict)]
+        severities = {issue["severity"] for issue in issues}
+        categories = [issue["category"] for issue in issues]
+        for discipline in disciplines:
+            bucket = aggregates[(year, discipline)]
+            bucket["verdicts"][verdict] += 1
+            bucket["severities"].update(severities)
+            bucket["categories"].update(categories)
+
+    for key, count in failures_by_year_discipline.items():
+        aggregates[key]["failures"] += count
+
+    years = sorted({year for year, _ in aggregates}, key=lambda value: (len(value), value))
+    disciplines = ("sprint", "long", "relay")
+
+    lines = [
+        "## Year/Discipline Matrix",
+        "",
+        "Legend: `✅` clean, `⚠️` review/low-medium issues, `❌` high-severity issue, `⛔` request failure",
+        "",
+        "| Year | Sprint | Long | Relay |",
+        "|---|---|---|---|",
+    ]
+
+    for year in years:
+        row_cells = [year]
+        for discipline in disciplines:
+            bucket = aggregates.get((year, discipline))
+            if bucket is None:
+                row_cells.append("—")
+                continue
+            verdict = bucket["verdicts"].most_common(1)[0][0] if bucket["verdicts"] else "review"
+            icon = issue_icon(verdict, bucket["severities"], bucket["failures"] > 0)
+            top_categories = [name for name, _count in bucket["categories"].most_common(2)]
+            category_text = ", ".join(top_categories)
+            extras: list[str] = []
+            if bucket["failures"]:
+                extras.append(f"{bucket['failures']} fail")
+            if category_text:
+                extras.append(category_text)
+            cell = icon if not extras else f"{icon} {'; '.join(extras)}"
+            row_cells.append(cell)
+        lines.append("| " + " | ".join(row_cells) + " |")
+
+    return lines
+
+
 def render_summary_markdown(
     model: str,
     prompt_file: Path,
@@ -515,6 +679,8 @@ def render_summary_markdown(
         f"- Medium-severity issues: {severity_counts.get('medium', 0)}",
         f"- Low-severity issues: {severity_counts.get('low', 0)}",
     ]
+
+    lines.extend(["", *build_year_discipline_table(evaluations, failures)])
 
     if failures:
         lines.extend(

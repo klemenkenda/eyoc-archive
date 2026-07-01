@@ -619,7 +619,7 @@ NAME_FIXES = {
     "Lauri Tammem�e": "Lauri Tammemae",
     "Vojt�ch Kr�l": "Vojtech Kral",
     "Primo� �Ega": "Primoz Sega",
-    "G�bor Turcsan": "Gabor Turcsan",
+    "G�bor Turcsán": "Gabor Turcsan",
     "M�rton Mets": "Marton Mets",
     "Ad�la Jakobov�": "Adela Jakobova",
     "Vera M�llerov�": "Vera Mullerova",
@@ -696,10 +696,29 @@ def format_name(name):
     return to_latin(" ".join(out))
 
 
+def dedupe_repeated_name(text):
+    """Several source PDFs/exports print the country name twice before the team-number
+    suffix, e.g. "Norway Norway 1" or "Czech Republic Czech Republic" - collapse the
+    duplicated run for display, preserving a trailing team-number suffix if present."""
+    if not text:
+        return text
+    text = re.sub(r"\s+", " ", text).strip()
+    m = re.search(r"^(.*?)(\s+\d+)$", text)
+    core, suffix = (m.group(1), m.group(2)) if m else (text, "")
+    words = core.split(" ")
+    n = len(words)
+    if n >= 2 and n % 2 == 0:
+        half = n // 2
+        first_half, second_half = " ".join(words[:half]), " ".join(words[half:])
+        if first_half == second_half:
+            core = first_half
+    return core + suffix
+
+
 def relay_row(klass, rank, status, code, name_country, team_label, total_time, legs, confidence, source_file):
     row = {
         "class": klass, "rank": rank if rank is not None else "",
-        "status": status, "country": code, "team": to_latin(team_label),
+        "status": status, "country": code, "team": to_latin(dedupe_repeated_name(team_label)),
         "total_time_seconds": total_time if total_time is not None else "",
         "confidence": confidence, "source_file": source_file,
     }

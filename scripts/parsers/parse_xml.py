@@ -216,8 +216,6 @@ def parse_relay_file(path, source_rel):
                         total_time = parse_time(text_of(overall, "Time"))
                         rtxt = text_of(overall, "Position")
                         rank = int(rtxt) if rtxt and rtxt.isdigit() else None
-            if rank is None:
-                rank = rank_idx
 
             status_el = tr.find("TeamStatus")
             status_text = status_el.get("value") if status_el is not None else text_of(tr, "Status")
@@ -230,6 +228,17 @@ def parse_relay_file(path, source_rel):
             # fine doesn't mean the team completed the relay). Don't let that read as OK.
             if status == "OK" and len(members) < 3:
                 status = "DNF"
+            if status == "OK":
+                if rank is None:
+                    rank = rank_idx
+            else:
+                # A non-finishing team's `rank` above (if any) is just the standing
+                # from its last-completed leg's OverallResult/Position - a mid-race
+                # position, not a real classification - so it must not be treated as
+                # a rank. Leave it unranked; write_csv's renumber_ranks only closes
+                # gaps for rows with a real rank, so this keeps finishers' ranks
+                # contiguous instead of the DNF's stray Position value skewing them.
+                rank = None
             rows.append(common.relay_row(klass, rank, status, code, code, team_label or code, total_time, legs, "high", source_rel))
     return rows, total_seen
 

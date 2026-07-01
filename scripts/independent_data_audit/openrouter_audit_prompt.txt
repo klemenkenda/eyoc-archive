@@ -5,11 +5,14 @@ Your job is to compare:
 2. the normalized CSV rows extracted from that same source file
 
 You are auditing the extracted data, not reformatting it. Be skeptical, precise, and conservative.
+Your task is only to check whether the CSV matches the raw source after the documented normalization steps. Do not enforce external competition-policy logic, roster-eligibility logic, or assumptions about who "should" be allowed to appear in a class if the raw source itself shows that entry.
 
 Repository context:
 - `results/raw/<year>/...` is the source-of-truth archive.
 - `results/<year>/{sprint,long,relay}.csv` are normalized outputs derived from raw files.
 - Each CSV row includes `source_file`, which points back to the raw file it came from.
+- Allowed competition countries/federations are defined in `results/EYOC-COUNTRIES.md`. Treat that file as the allowlist for valid normalized `country` values in the clean CSVs.
+- Non-allowlisted guest nations are intentionally removed from the clean CSVs. This includes examples like `NZL`, `USA`, and `AUS`, as well as other non-EYOC-allowlisted nations that may appear in the raw files.
 
 Normalized schemas:
 - Individual (`sprint.csv`, `long.csv`) columns:
@@ -20,14 +23,21 @@ Normalized schemas:
 Normalization rules already applied in the extracted CSVs:
 - Allowed individual classes: `M16`, `M18`, `W16`, `W18`
 - Allowed relay classes: `M16`, `M18`, `W16`, `W18`, `Mixed`
+- Class-label normalization is expected. For example:
+  `Men 16`, `M16E`, `M 16`, `Men16` -> `M16`
+  `Men 18`, `M18E`, `M 18`, `Men18` -> `M18`
+  `Women 16`, `Woman 16`, `W16E`, `W 16`, `Women16` -> `W16`
+  `Women 18`, `Woman 18`, `W18E`, `W 18`, `Women18` -> `W18`
 - Allowed statuses: `OK`, `DNF`, `DSQ`, `DNS`, `MP`
 - `time_seconds` and relay leg/total time columns are converted to integer seconds.
 - Old lazarus-style times like `12.01` mean `12 minutes 01 seconds`, not decimal minutes.
 - `confidence` is `high` or `approx`.
 - Names are normalized to `Given Surname` order and title case as a best-effort cleanup.
-- Country values are normalized to EYOC European federations only; non-European guests and composite teams are intentionally excluded from the clean CSVs.
+- Country values are normalized to the allowed EYOC federations listed in `results/EYOC-COUNTRIES.md`; non-allowlisted guests, composite teams, and unrecognized countries are intentionally excluded from the clean CSVs.
+- If the raw source contains guest nations such as `NZL`, `USA`, `AUS`, or other non-allowlisted countries, their absence from the normalized CSV is expected and correct.
 
 Country normalization details:
+- The canonical valid set of competition countries is the allowlist in `results/EYOC-COUNTRIES.md`.
 - Common aliases are normalized, for example:
   `Czech Republic`, `Czech Rep`, `Czechia` -> `CZE`
   `Great Britain`, `United Kingdom`, `UK` -> `GBR`
@@ -50,6 +60,7 @@ Known source-format caveats you must account for before calling something a prob
 - OCR-derived years exist and use `confidence=approx`; blank or imperfect values can be legitimate if the source scan is poor.
 - Some raw files contain source-level corruption such as replacement characters or already-broken accents.
 - Relay sources may print country/team lines separately from leg lines, and the clean CSV may use normalized `team` and leg names.
+- It is valid for female athletes to appear in male relay teams/classes in the raw results when teams are incomplete. If the raw source shows that composition, the CSV should preserve it. Do not flag this as a logic or eligibility error.
 - If the raw text clearly contains the same athlete/team in a different order, accenting, casing, transliteration, or HTML-entity form, treat that as a match, not a defect.
 
 What counts as a real issue:
@@ -61,6 +72,11 @@ What counts as a real issue:
 - A row looks duplicated, dropped, or fabricated relative to the raw source.
 
 What usually does NOT count as a real issue by itself:
+- Class label normalization such as `Men 16` -> `M16` or `Women 18` -> `W18`
+- Intentional exclusion of countries/federations not present in `results/EYOC-COUNTRIES.md`
+- Intentional exclusion of guest nations such as `NZL`, `USA`, `AUS`, and other non-allowlisted countries from the clean CSVs
+- Female athletes appearing in male relay teams/classes when the raw source shows that composition
+- Questions about whether a relay composition is logically or competitively "allowed" beyond matching the source
 - Name order flips (`Surname Given` vs `Given Surname`)
 - Accent removal or transliteration
 - Title-casing differences

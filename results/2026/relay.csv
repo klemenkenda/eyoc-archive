@@ -25,7 +25,7 @@ M18,23,OK,AUT,Austria 1,8291,Lauri Urbanek,2503,Tobias Angermann,2886,Axel Renne
 M18,24,OK,SVK,Slovakia 1,8839,Jan Dokupil,2627,Daniel Jozef Nemcek,3418,Michal Marko,2794,high,2026/03-relay-results-eventor.xml
 M18,25,OK,SLO,Slovenia 1,9951,Ozbej Malus,2876,Vid Bratusa,3538,David Sedej,3537,high,2026/03-relay-results-eventor.xml
 M18,26,OK,POR,Portugal 1,12170,Joao Maia,2602,Miguel Ferreira,4155,Miguel Canana,5413,high,2026/03-relay-results-eventor.xml
-M18,27,MP,ESP,Spain 1,6802,Pablo Rubio Cribellati,2182,Cesc Amat Font,2067,Ekain Fernandez Garcia,2553,high,2026/03-relay-results-eventor.xml
+M18,,MP,ESP,Spain 1,6802,Pablo Rubio Cribellati,2182,Cesc Amat Font,2067,Ekain Fernandez Garcia,2553,high,2026/03-relay-results-eventor.xml
 W18,1,OK,CZE,Czechia 1,6458,Karolina Novotna,2198,Matilda Tomaskova,2171,Tereza Ester Kamenicka,2089,high,2026/03-relay-results-eventor.xml
 W18,2,OK,SWE,Sweden 1,6487,Maja Maxen,2184,Elsa Ehrenborg,2066,Elvira Lindsten,2237,high,2026/03-relay-results-eventor.xml
 W18,3,OK,HUN,Hungary 1,6768,Zsofia Gabor,2226,Aliz Heizer,2223,Sara Szakal Biro,2319,high,2026/03-relay-results-eventor.xml
@@ -46,15 +46,15 @@ W18,17,OK,BEL,Belgium 1,9066,Anais Mazy,2435,Janne Hillen,3493,Chloe van Vyve Co
 W18,18,OK,ITA,Italy 1,9141,Chiara Magenes,2547,Alessia D Incau,3177,Nicole Pagliari,3417,high,2026/03-relay-results-eventor.xml
 W18,19,OK,SLO,Slovenia 1,9150,Brina Kolner,2211,Ajda Jarc,2960,Misa Andrejc,3979,high,2026/03-relay-results-eventor.xml
 W18,20,OK,EST,Estonia 1,9415,Anna Mia Atonen,2520,Grete Johanna Korb,3052,Maarja Oras,3843,high,2026/03-relay-results-eventor.xml
-W18,22,OK,IRL,Ireland 1,10064,Niamh Browne,2951,Fionnuala Rowe,3625,Sadhbh Hassett,3488,high,2026/03-relay-results-eventor.xml
-W18,24,OK,POR,Portugal 1,10682,Alexandra Tadeu,2986,Dina Marques,3104,Mariana Guerreiro,4592,high,2026/03-relay-results-eventor.xml
-W18,25,OK,MDA,"Moldova, Republic of 1",10943,Anna Donici,2977,Daria Gutul,3140,Anna Crotova,4826,high,2026/03-relay-results-eventor.xml
-W18,26,OK,ROU,Romania 1,11452,Hanna Dorottya Tonk,3960,Maria Alexa Pop,3763,Maria Tudorascu,3729,high,2026/03-relay-results-eventor.xml
-W18,27,OK,TUR,Turkiye 1,13678,Efsa Sezin Akin,2968,Melek Tekin,6114,Beste Adiguzel,4596,high,2026/03-relay-results-eventor.xml
-W18,20,DNF,BUL,Bulgaria 1,5942,Plamena Cholakova,2758,Vihra Ruseva,3184,,,high,2026/03-relay-results-eventor.xml
-W18,22,DNF,CRO,Croatia 1,2859,Ema Jurican,2859,,,,,high,2026/03-relay-results-eventor.xml
-W18,28,MP,ISR,Israel 1,6796,Ofer Svorai,3988,Ofri Yacobi,2808,Yael Kaspi,0,high,2026/03-relay-results-eventor.xml
-W18,29,DNS,SRB,Serbia 1,7555,Dunja Cancarevic,3694,Jasna Starovic,3861,Emilija Veljovic,0,high,2026/03-relay-results-eventor.xml
+W18,21,OK,IRL,Ireland 1,10064,Niamh Browne,2951,Fionnuala Rowe,3625,Sadhbh Hassett,3488,high,2026/03-relay-results-eventor.xml
+W18,22,OK,POR,Portugal 1,10682,Alexandra Tadeu,2986,Dina Marques,3104,Mariana Guerreiro,4592,high,2026/03-relay-results-eventor.xml
+W18,23,OK,MDA,"Moldova, Republic of 1",10943,Anna Donici,2977,Daria Gutul,3140,Anna Crotova,4826,high,2026/03-relay-results-eventor.xml
+W18,24,OK,ROU,Romania 1,11452,Hanna Dorottya Tonk,3960,Maria Alexa Pop,3763,Maria Tudorascu,3729,high,2026/03-relay-results-eventor.xml
+W18,25,OK,TUR,Turkiye 1,13678,Efsa Sezin Akin,2968,Melek Tekin,6114,Beste Adiguzel,4596,high,2026/03-relay-results-eventor.xml
+W18,,DNF,BUL,Bulgaria 1,5942,Plamena Cholakova,2758,Vihra Ruseva,3184,,,high,2026/03-relay-results-eventor.xml
+W18,,DNF,CRO,Croatia 1,2859,Ema Jurican,2859,,,,,high,2026/03-relay-results-eventor.xml
+W18,,MP,ISR,Israel 1,6796,Ofer Svorai,3988,Ofri Yacobi,2808,Yael Kaspi,0,high,2026/03-relay-results-eventor.xml
+W18,,DNS,SRB,Serbia 1,7555,Dunja Cancarevic,3694,Jasna Starovic,3861,Emilija Veljovic,0,high,2026/03-relay-results-eventor.xml
 M16,1,OK,CZE,Czechia 1,4925,Frantisek Minarik,1653,Jakub Ritter,1709,Matous Dittrich,1563,high,2026/03-relay-results-eventor.xml
 M16,2,OK,FIN,Finland 1,4935,Hermanni Latonummi,1675,Daniel Stenholm,1609,Aapo Talka,1651,high,2026/03-relay-results-eventor.xml
 M16,3,OK,ESP,Spain 1,5238,Bruno Fuente Feijoo,1841,Carlit Tolkko Valledor,1738,Daniel Sanz,1659,high,2026/03-relay-results-eventor.xml
@@ -78,8 +78,8 @@ M16,20,OK,EST,Estonia 1,8088,Thomas Kruusmaa,2433,Atso Keskula,2948,Joosep Esta,
 M16,21,OK,AUT,Austria 1,8308,Norbert Riesz,2028,Max Jonas Obczovsky,2306,Valetin Angermann,3974,high,2026/03-relay-results-eventor.xml
 M16,22,OK,ISR,Israel 1,8515,Idan Verbin,2258,Carmel Eshed,2602,Amit Sagi,3655,high,2026/03-relay-results-eventor.xml
 M16,23,OK,POR,Portugal 1,9911,Dinis Martins,2119,Joao Fernandes,3917,Pedro Ferro,3875,high,2026/03-relay-results-eventor.xml
-M16,25,DNF,CRO,Croatia 1,3152,Karlo Trinajstic,3152,,,,,high,2026/03-relay-results-eventor.xml
-M16,24,DNF,TUR,Turkiye 1,8777,Onur Kizilkula,2796,Eymen Vatansever,2585,Ruzgar Efe Ates,3396,high,2026/03-relay-results-eventor.xml
+M16,,DNF,CRO,Croatia 1,3152,Karlo Trinajstic,3152,,,,,high,2026/03-relay-results-eventor.xml
+M16,,DNF,TUR,Turkiye 1,8777,Onur Kizilkula,2796,Eymen Vatansever,2585,Ruzgar Efe Ates,3396,high,2026/03-relay-results-eventor.xml
 W16,1,OK,CRO,Croatia 1,5488,Helena Posedi,1923,Sara Delic,1760,Dora Delic,1805,high,2026/03-relay-results-eventor.xml
 W16,2,OK,CZE,Czechia 1,5969,Hana Fenclova,1971,Adela Dobyasova,2059,Monika Munzarova,1939,high,2026/03-relay-results-eventor.xml
 W16,3,OK,LAT,Latvia 1,6202,Madlena Freimane,1931,Amanta Mikijanska,2174,Melanija Rozukalne,2097,high,2026/03-relay-results-eventor.xml
@@ -98,10 +98,10 @@ W16,15,OK,SUI,Switzerland 1,7208,Anja Niggli,2899,Celine Aeschlimann,1811,Svenja
 W16,16,OK,AUT,Austria 1,7680,Hannah Dormann,2478,Hannah Sandrisser,2547,Matilda Buschek,2655,high,2026/03-relay-results-eventor.xml
 W16,17,OK,EST,Estonia 1,7713,Miriam Paesuld,2025,Raheli Vahkal,2684,Susanna Oras,3004,high,2026/03-relay-results-eventor.xml
 W16,18,OK,LTU,Lithuania 1,8021,Eva Sriubaite,2668,Martyna Jankauskaite,2438,Gabriele Skirmantaite,2915,high,2026/03-relay-results-eventor.xml
-W16,20,OK,TUR,Turkiye 1,8480,Zeynep Icyer,2236,Ece Yakut,2633,Ceren Ceylan,3611,high,2026/03-relay-results-eventor.xml
-W16,21,OK,POR,Portugal 1,8803,Juliana Pedro,2538,Maria Oliveira,2824,Matilde Nazario,3441,high,2026/03-relay-results-eventor.xml
-W16,22,OK,ISR,Israel 1,9694,Ayala Offer,2473,Ella Hatzav,3289,Amalia Niv,3932,high,2026/03-relay-results-eventor.xml
-W16,18,DNF,BEL,Belgium 1,2339,Anna Pasquasy,2339,,,,,high,2026/03-relay-results-eventor.xml
-W16,23,MP,HUN,Hungary 1,6449,Kata Farkas,1920,Katalin Braun,2162,Anna Kesseru Lukacs,2367,high,2026/03-relay-results-eventor.xml
-W16,24,MP,IRL,Ireland 1,12462,Deirbhile Hassett,4475,Eimear Casey,3710,Beth Joyce,4277,high,2026/03-relay-results-eventor.xml
-W16,25,DNS,DEN,Denmark 1,4435,Astrid Lykke Nielsen,2238,Kille Beuchert,2197,Marie Fjordside Pagh,0,high,2026/03-relay-results-eventor.xml
+W16,19,OK,TUR,Turkiye 1,8480,Zeynep Icyer,2236,Ece Yakut,2633,Ceren Ceylan,3611,high,2026/03-relay-results-eventor.xml
+W16,20,OK,POR,Portugal 1,8803,Juliana Pedro,2538,Maria Oliveira,2824,Matilde Nazario,3441,high,2026/03-relay-results-eventor.xml
+W16,21,OK,ISR,Israel 1,9694,Ayala Offer,2473,Ella Hatzav,3289,Amalia Niv,3932,high,2026/03-relay-results-eventor.xml
+W16,,DNF,BEL,Belgium 1,2339,Anna Pasquasy,2339,,,,,high,2026/03-relay-results-eventor.xml
+W16,,MP,HUN,Hungary 1,6449,Kata Farkas,1920,Katalin Braun,2162,Anna Kesseru Lukacs,2367,high,2026/03-relay-results-eventor.xml
+W16,,MP,IRL,Ireland 1,12462,Deirbhile Hassett,4475,Eimear Casey,3710,Beth Joyce,4277,high,2026/03-relay-results-eventor.xml
+W16,,DNS,DEN,Denmark 1,4435,Astrid Lykke Nielsen,2238,Kille Beuchert,2197,Marie Fjordside Pagh,0,high,2026/03-relay-results-eventor.xml
