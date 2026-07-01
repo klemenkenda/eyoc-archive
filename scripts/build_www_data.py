@@ -10,7 +10,10 @@ scripts/parsers/run_all.py) and logos/png/eyoc-<year>.png, and writes:
   www/assets/logos/*.png    copy of logos/png/*.png
 
 Safe to re-run any time - it's a pure function of results/ and logos/png/, nothing
-downstream is hand-edited. Run after scripts/parsers/run_all.py whenever results/ changes.
+downstream is hand-edited. Run after scripts/parsers/run_all.py whenever results/ changes,
+and after scripts/name_cleanup/find_name_corrections.py apply if there are pending
+competitor-name corrections (see scripts/name_cleanup/README.md) - this reads results/
+directly, so running it first would ship uncorrected names.
 """
 import csv
 import hashlib

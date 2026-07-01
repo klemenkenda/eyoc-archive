@@ -1,8 +1,25 @@
+<p align="center"><img src="https://eyoc.spletne-resitve.eu/assets/logo-new.png" alt="EYOC Archive" width="420"></p>
+
+<p align="center"><a href="https://eyoc.spletne-resitve.eu">eyoc.spletne-resitve.eu</a></p>
+
 # EYOC Results Archive
 
 An archive of results from the European Youth Orienteering Championships (EYOC),
-2002–2026: Sprint, Long (Middle), and Relay, for classes M16/M18/W16/W18 (plus the odd
-bonus Mixed Sprint Relay where a year ran one).
+2002–2026: Sprint, Long (Middle), and Relay, for classes M16/M18/W16/W18.
+
+The data in this repository powers [eyoc.spletne-resitve.eu](https://eyoc.spletne-resitve.eu), a
+static browsing/analysis site (the `www/` app, built from `results/` — see the pipeline
+below) offering:
+
+- **Year pages** — full per-discipline, per-class results tables for a single EYOC edition.
+- **Athlete search** — look up a competitor by name across all years, individual and relay.
+- **Country pages** — a country's results timeline plus two analysis views: percentile
+  progression and best-place progression over time.
+- **Medal table** — gold/silver/bronze/podium (4th–6th) counts across individual and relay
+  events, for a selectable year range.
+- **Rankings** — each country's single best-ever result, by percentile (rank ÷ field size)
+  so editions of different field sizes are comparable, filterable by discipline and class.
+- **Countries** — a directory of all participating federations.
 
 The repository has two layers:
 
@@ -26,6 +43,19 @@ it's a pure function of the raw files and the parser code, nothing is hand-edite
 downstream. See [`scripts/parsers/PARSERS.md`](scripts/parsers/PARSERS.md) for what each
 parser covers, its dependencies, and how to run pieces of the pipeline individually.
 
+## Full pipeline (raw sources → www app)
+
+```sh
+python scripts/parsers/run_all.py                              # 1. raw -> results/<year>/*.csv
+python scripts/name_cleanup/find_name_corrections.py detect     # 2. find/apply competitor-name fixes
+python scripts/build_www_data.py                                # 3. results/ -> www/data/*.json
+```
+
+Step 2 (see [`scripts/name_cleanup/README.md`](scripts/name_cleanup/README.md)) is a
+review-then-apply postprocessing step on `results/`, and **must run before step 3** —
+`build_www_data.py` builds directly from `results/`, so running it first would ship
+uncorrected names.
+
 ## Layout
 
 ```
@@ -47,6 +77,11 @@ scripts/
   independent_data_audit/
     consistency_check.py  independent clean-vs-raw audit, doesn't import scripts/parsers
     openrouter_data_audit.py  LLM audit over raw-source text plus extracted CSV rows
+  name_cleanup/
+    find_name_corrections.py  detect/apply competitor-name misspelling fixes on results/
+    name_corrections.csv      current review batch (overwritten each `detect` run)
+    name_corrections.<timestamp>.csv  archived, already-applied review batches
+  build_www_data.py      results/ + logos/png/ -> www/data/*.json (run after name_cleanup)
 ```
 
 ## The CSV format

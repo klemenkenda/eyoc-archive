@@ -4,6 +4,20 @@
 the normalized results CSVs (`results/<year>/{long,sprint,relay}.csv`) and
 produces a translation file for you to review before anything is changed.
 
+## Pipeline position
+
+This is a postprocessing step on top of the parser output, run in this order:
+
+```sh
+python scripts/parsers/run_all.py                              # 1. regenerate results/ from raw sources
+python scripts/name_cleanup/find_name_corrections.py detect     # 2. --- this tool, see Usage below ---
+python scripts/build_www_data.py                                # 3. build the www/ dataset
+```
+
+Name corrections must be applied **before** `build_www_data.py` runs, since the
+www dataset is built directly from `results/`; running the build first would ship
+the misspellings and require a rebuild once corrections land.
+
 It compares names in two ways, both scoped by country (the same name can be
 common in one country and a typo in another, so country avoids false matches):
 
@@ -73,6 +87,21 @@ each other.
    safe to re-run - unrelated rows are left untouched. Since the results
    CSVs are git-tracked, `git diff` afterwards to confirm the changes, and
    `git checkout -- results/` to undo if something looks wrong.
+
+4. Archive the reviewed batch under a timestamped name instead of leaving it as
+   the plain `name_corrections.csv` (which the next `detect` run overwrites):
+
+   ```sh
+   mv scripts/name_cleanup/name_corrections.csv \
+      scripts/name_cleanup/name_corrections.<YYYYMMDD-HHMM>.csv
+   ```
+
+   using the date/time you did the review, e.g.
+   `name_corrections.20260701-1630.csv` for the first reviewed/applied batch.
+   This keeps a permanent, auditable record of exactly which corrections were
+   approved and when - `git blame`/`git log` on the live `name_corrections.csv`
+   alone can't tell you that once it's been regenerated and overwritten by a
+   later round. Re-run `detect` afterwards to generate the next round's file.
 
 ## Notes
 
