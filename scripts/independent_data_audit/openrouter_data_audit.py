@@ -30,6 +30,7 @@ RAW = RESULTS / "raw"
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROMPT_FILE = SCRIPT_DIR / "openrouter_audit_prompt.txt"
 DEFAULT_REPORT = RAW / "OPENROUTER-DATA-AUDIT.md"
+DEFAULT_SUMMARY_REPORT = RAW / "OPENROUTER-DATA-AUDIT-SUMMARY.md"
 CACHE_DIR = SCRIPT_DIR / "cache"
 ENV_FILE = ROOT / ".env"
 
@@ -475,10 +476,100 @@ def render_markdown(
     return "\n".join(lines)
 
 
+def shorten_summary(text: str, limit: int = 180) -> str:
+    cleaned = re.sub(r"\s+", " ", text).strip()
+    if len(cleaned) <= limit:
+        return cleaned
+    cut = cleaned[:limit].rstrip()
+    if " " in cut:
+        cut = cut.rsplit(" ", 1)[0]
+    return cut + "..."
+
+
+def render_summary_markdown(
+    model: str,
+    prompt_file: Path,
+    evaluations: list[tuple[AuditTask, dict[str, Any]]],
+    failures: list[str],
+) -> str:
+    verdict_counts = Counter(str(result.get("verdict", "review")) for _, result in evaluations)
+    severity_counts = Counter()
+    for _, result in evaluations:
+        for issue in result.get("issues", []):
+            severity_counts[issue.get("severity", "low")] += 1
+
+    lines = [
+        "# OpenRouter Independent Data Audit Summary",
+        "",
+        f"Generated: {datetime.now(timezone.utc).isoformat()}",
+        f"Model: `{model}`",
+        f"Prompt: `{display_path(prompt_file)}`",
+        "",
+        "## Summary",
+        "",
+        f"- Raw sources audited: {len(evaluations)}",
+        f"- `pass` verdicts: {verdict_counts.get('pass', 0)}",
+        f"- `review` verdicts: {verdict_counts.get('review', 0)}",
+        f"- `fail` verdicts: {verdict_counts.get('fail', 0)}",
+        f"- High-severity issues: {severity_counts.get('high', 0)}",
+        f"- Medium-severity issues: {severity_counts.get('medium', 0)}",
+        f"- Low-severity issues: {severity_counts.get('low', 0)}",
+    ]
+
+    if failures:
+        lines.extend(
+            [
+                "",
+                "## Request Failures",
+                "",
+                *[f"- {item}" for item in failures],
+            ]
+        )
+
+    for task, result in evaluations:
+        verdict = str(result.get("verdict", "review"))
+        confidence = str(result.get("confidence", "medium"))
+        summary = shorten_summary(str(result.get("summary", "")).strip())
+        issues = [normalize_issue(issue) for issue in result.get("issues", []) if isinstance(issue, dict)]
+        related_csv = ", ".join(f"`{name}`" for name in task.csv_rows)
+        classes = ", ".join(f"`{name}`" for name in task.class_names) if task.class_names else "`(all)`"
+
+        lines.extend(
+            [
+                "",
+                f"## {task.label} | verdict=`{verdict}` | confidence=`{confidence}` | csv={related_csv} | classes={classes}",
+                "",
+            ]
+        )
+        if summary:
+            lines.append(f"- Summary: {summary}")
+        else:
+            lines.append("- Summary: No summary provided.")
+
+        lines.extend(["", "### Issues", ""])
+        if not issues:
+            lines.append("- None reported.")
+        else:
+            for issue in issues:
+                lines.append(f"- [{issue['severity']}] `{issue['category']}` {issue['title']}")
+                if issue["evidence_csv"]:
+                    lines.append(f"  CSV: {issue['evidence_csv']}")
+                if issue["evidence_raw"]:
+                    lines.append(f"  Raw: {issue['evidence_raw']}")
+                if issue["reason"]:
+                    lines.append(f"  Why: {issue['reason']}")
+                if issue["recommended_action"]:
+                    lines.append(f"  Next: {issue['recommended_action']}")
+
+    lines.append("")
+    return "\n".join(lines)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run an OpenRouter-backed independent data audit.")
     parser.add_argument("--model", help="OpenRouter model ID. Falls back to OPENROUTER_MODEL.")
     parser.add_argument("--output", type=Path, default=DEFAULT_REPORT, help="Markdown report path.")
+    parser.add_argument("--summary-output", type=Path, default=DEFAULT_SUMMARY_REPORT, help="Concise summary report path.")
     parser.add_argument("--prompt-file", type=Path, default=PROMPT_FILE, help="System prompt text file.")
     parser.add_argument("--source-filter", help="Only audit raw source paths containing this substring.")
     parser.add_argument("--max-sources", type=int, help="Only audit the first N matching raw sources.")
@@ -547,9 +638,13 @@ def main() -> int:
         time.sleep(0.25)
 
     report = render_markdown(model, args.prompt_file, evaluations, failures)
+    summary_report = render_summary_markdown(model, args.prompt_file, evaluations, failures)
     args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.summary_output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(report, encoding="utf-8")
+    args.summary_output.write_text(summary_report, encoding="utf-8")
     print(f"Wrote {display_path(args.output)}")
+    print(f"Wrote {display_path(args.summary_output)}")
     return 0 if evaluations else 1
 
 

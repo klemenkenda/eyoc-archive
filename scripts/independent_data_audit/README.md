@@ -25,7 +25,8 @@ Environment:
 - You can also set `OPENROUTER_MODEL=...` instead of passing `--model`
 
 Outputs:
-- Markdown report: `results/raw/OPENROUTER-DATA-AUDIT.md`
+- Full Markdown report: `results/raw/OPENROUTER-DATA-AUDIT.md`
+- Concise issues-first report: `results/raw/OPENROUTER-DATA-AUDIT-SUMMARY.md`
 - Cached per-source JSON responses: `scripts/independent_data_audit/cache/`
 
 Notes:
@@ -33,3 +34,4 @@ Notes:
 - For HTML/XML/text files, the raw file is sent as text.
 - Large XML sources are automatically split into smaller per-class audit tasks to avoid model context-limit failures.
 - For PDFs, the script sends extracted text when available. If PyMuPDF (`fitz`) is unavailable, PDF raw text may be blank and the report will note reduced confidence.
+- The concise report keeps the global summary, then shows one compact heading per audit task with verdict, confidence, related CSVs, classes, a brief task summary, and only the issues section.
