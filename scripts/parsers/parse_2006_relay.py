@@ -35,6 +35,10 @@ SOURCE_FILES = ["2006_relay_w16.txt", "2006_relay_w18.txt", "2006_relay_m16.txt"
 
 CLASS_RE = re.compile(r"^(mix\s+)?([MW])\s*(?:(\d{2})-(\d{2})|(\d{2}))\s*$", re.IGNORECASE)
 SI_SUFFIX_RE = re.compile(r"\s*\(\d+\)\s*$")
+# Entries with SI card 0 get stored as "(Surname), (Firstname (Club)) (0)".
+# After SI_SUFFIX_RE strips the trailing "(0)" this pattern unwraps the outer parens
+# and discards the inline club abbreviation so reorder_name gets "Surname, Firstname".
+_PAREN_NAME_RE = re.compile(r"^\(([^()]+)\),\s*\(([^()]+?)(?:\s+\([^()]*\))?\)$")
 
 
 def detect_class(line):
@@ -113,6 +117,9 @@ def parse_file(path, source_rel):
         if leg_idx is None or leg_idx + 2 >= len(cells):
             continue
         name = SI_SUFFIX_RE.sub("", cells[leg_idx + 2].strip())
+        m = _PAREN_NAME_RE.match(name)
+        if m:
+            name = f"{m.group(1)}, {m.group(2)}"
         leg_time = common.time_to_seconds(cells[leg_idx + 3].strip()) if leg_idx + 3 < len(cells) else None
         if name:
             pending["legs"].append((name, leg_time))

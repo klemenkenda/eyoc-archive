@@ -1,4 +1,4 @@
-"""Shared helpers for all EYOC result parsers.
+﻿"""Shared helpers for all EYOC result parsers.
 
 Every parser script is responsible for one raw source *format* (not one year) and writes
 into results/<year>/{sprint,long,relay}.csv per results/FORMAT-RESULTS.md.
@@ -409,15 +409,20 @@ def ocr_line_text(words):
 
 
 def pdf_to_text(pdf_path):
-    """Run pdftotext -layout and return stdout text, or None if extraction yields nothing useful."""
+    """Extract text from a PDF, preferring pdftotext -layout and falling back to PyMuPDF."""
     try:
         out = subprocess.run(
             ["pdftotext", "-layout", str(pdf_path), "-"],
             capture_output=True, timeout=60,
         )
+        text = out.stdout.decode("utf-8", errors="replace")
+        if len(text.strip()) >= 20:
+            return text
     except FileNotFoundError:
-        raise RuntimeError("pdftotext not found on PATH (poppler/xpdf utils required)")
-    text = out.stdout.decode("utf-8", errors="replace")
+        pass
+    import fitz
+    doc = fitz.open(str(pdf_path))
+    text = "\n".join(page.get_text("text") for page in doc)
     if len(text.strip()) < 20:
         return None
     return text
@@ -456,6 +461,27 @@ def renumber_ranks(rows):
             for r in grp:
                 r["rank"] = rv - shift
             prev_rank, prev_count = rv, len(grp)
+    # Second pass: detect ties by identical finishing time among OK runners and
+    # re-assign ranks using standard competition numbering (1,1,3,4,4,6,...).
+    # This catches cases where the source assigned sequential ranks to same-time
+    # runners, which the gap-closing pass above can't see as ties.
+    for class_rows in by_class.values():
+        if not class_rows:
+            continue
+        time_col = "total_time_seconds" if "total_time_seconds" in class_rows[0] else "time_seconds"
+        class_rows.sort(key=lambda r: int(r["rank"]))
+        for i in range(1, len(class_rows)):
+            r_prev, r_curr = class_rows[i - 1], class_rows[i]
+            t_prev, t_curr = r_prev.get(time_col), r_curr.get(time_col)
+            if (t_prev and t_curr and t_prev == t_curr
+                    and r_prev.get("status") == "OK" and r_curr.get("status") == "OK"):
+                r_curr["rank"] = r_prev["rank"]
+        equalized = [int(r["rank"]) for r in class_rows]
+        position = 1
+        for i, r in enumerate(class_rows):
+            if i == 0 or equalized[i] != equalized[i - 1]:
+                position = i + 1
+            r["rank"] = position
     return rows
 
 
@@ -667,6 +693,26 @@ NAME_FIXES = {
     # tied for 8th in W16 as "HAINAI" - the real name, confirmed by other EYOC sources
     # for this athlete, is "Hajnal".
     "Dorottya Hainai": "Dorottya Hajnal",
+    # 2016 sprint OCR - Tesseract failed to insert a space between surname and given name
+    # for these competitors, producing a single merged word. clean_name()'s reorder logic
+    # only fires when len(words) >= 2, so merged names fall through as-is. Correct names
+    # cross-checked against 2016/results-long.pdf (real text layer) and adjacent years.
+    "Spektorsfricis": "Fricis Spektors",      # LAT M16 bib 280
+    "Repsysadomas": "Adomas Repsys",          # LTU M16 bib 281
+    "Dzalbsedijs": "Edijs Dzalbs",            # LAT M16 bib 260
+    "Lorenztimon": "Timon Lorenz",            # GER M16 bib 278
+    "Ruoholaakseli": "Akseli Ruohola",        # FIN M18 bib 386
+    "Upitisuldis": "Uldis Upitis",            # LAT M18 bib 391
+    "Hirsotakar": "Otakar Hirs",              # CZE M18 bib 340
+    "Iinkfvichigor": "Igor Linkevich",        # RUS M18 bib 348 (OCR'd as 3481)
+    "Kucakacper": "Kacper Kuca",              # POL M18 bib 394
+    "Wolzaymeric": "Aymeric Wolz",            # FRA M18 bib 323
+    "Eerolalotta": "Lotta Eerola",            # FIN W16 bib 64
+    "Smulems de": "Ems De Smul",             # BEL W16 bib 36 (reorder put 'de' last)
+    "Korvellorely": "Lorely Korvel",          # EST W16 bib 1
+    "Georgievaniya": "Niya Georgieva",        # BUL W16 bib 11
+    "Gokculsumeyra": "Sumeyra Gokcul",        # TUR W16 bib 35
+    "Indolalinda": "Linda Indola",            # GER W18 bib 132
 }
 
 

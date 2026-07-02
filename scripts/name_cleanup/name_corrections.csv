@@ -1,1 +1,11 @@
 status,country,from_name,to_name,reason,score,occurrences,sample_files
+approve,NOR,Hakon Raadal Bjorlo,Haakon Raadal Bjoerlo,iof-exact,exact,3,"2007/relay.csv, 2014/long.csv, 2014/sprint.csv"
+approve,ESP,Silvia Martin de Los Ri,Silvia Martin de los Rios,internal,majority-vote,3,"2012/long.csv, 2012/relay.csv, 2012/sprint.csv"
+approve,ESP,Francisc Navarro Cutillas,Francisco Navarro Cutillas,internal,majority-vote,2,"2005/long.csv, 2005/sprint.csv"
+approve,ESP,Silvia Martin de Los Rios,Silvia Martin de los Rios,internal,majority-vote,2,"2010/long.csv, 2010/relay.csv"
+approve,ESP,Inmaculada Crespo G,Inmaculada Crespo,internal,majority-vote,1,2017/relay.csv
+approve,HUN,Di�na Koos,Diana Koos,internal,majority-vote,2,"2006/long.csv, 2006/sprint.csv"
+approve,HUN,Andr�s Szabo,Andras Szabo,internal,majority-vote,1,2006/sprint.csv
+approve,ISR,Ayali Hilla,Hilla Ayali,internal,majority-vote,3,"2011/long.csv, 2011/relay.csv, 2011/sprint.csv"
+approve,ROU,Ioana Zah-Ghit,Ioana Zah-Git,internal,majority-vote,3,"2004/long.csv, 2004/relay.csv, 2004/sprint.csv"
+approve,SVK,Aubka Weissova,Lubka Weissova,internal,majority-vote,1,2017/long.csv

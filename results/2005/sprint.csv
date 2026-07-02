@@ -28,9 +28,9 @@ W16,26,OK,,ROU,Adina Popescu,876,high,2005/eyoc2005.htm
 W16,27,OK,,EST,Nele Taba,885,high,2005/eyoc2005.htm
 W16,28,OK,,LTU,Eidvile Bagdonaite,888,high,2005/eyoc2005.htm
 W16,29,OK,,ITA,Jutta Torggler,889,high,2005/eyoc2005.htm
-W16,30,OK,,UKR,Oleksandra Parkhomenko,889,high,2005/eyoc2005.htm
+W16,29,OK,,UKR,Oleksandra Parkhomenko,889,high,2005/eyoc2005.htm
 W16,31,OK,,BLR,Natasha Pilipenka,895,high,2005/eyoc2005.htm
-W16,32,OK,,UKR,Viktoriya Benyk,895,high,2005/eyoc2005.htm
+W16,31,OK,,UKR,Viktoriya Benyk,895,high,2005/eyoc2005.htm
 W16,33,OK,,LAT,Laura Vike,899,high,2005/eyoc2005.htm
 W16,34,OK,,AUT,Heike Spiegel,901,high,2005/eyoc2005.htm
 W16,35,OK,,GER,Anne Fritsche,903,high,2005/eyoc2005.htm
@@ -83,7 +83,7 @@ W18,13,OK,,POL,Alicja Ewiak,838,high,2005/eyoc2005.htm
 W18,14,OK,,AUT,Ursula Kadan,839,high,2005/eyoc2005.htm
 W18,15,OK,,SUI,Judith Wyder,855,high,2005/eyoc2005.htm
 W18,16,OK,,UKR,Olena Struhalova,857,high,2005/eyoc2005.htm
-W18,17,OK,,UKR,Anastasiya Danilova,857,high,2005/eyoc2005.htm
+W18,16,OK,,UKR,Anastasiya Danilova,857,high,2005/eyoc2005.htm
 W18,18,OK,,SVK,Renata Barcikova,858,high,2005/eyoc2005.htm
 W18,19,OK,,AUT,Stephanie Killmann,859,high,2005/eyoc2005.htm
 W18,20,OK,,GER,Jitka Kraemer,860,high,2005/eyoc2005.htm
@@ -91,14 +91,14 @@ W18,21,OK,,SVK,Erika Hlavacikova,861,high,2005/eyoc2005.htm
 W18,22,OK,,HUN,Fanni Mathe,862,high,2005/eyoc2005.htm
 W18,23,OK,,LTU,Ugne Grigonyte,865,high,2005/eyoc2005.htm
 W18,24,OK,,SUI,Stefanie Steinemann,867,high,2005/eyoc2005.htm
-W18,25,OK,,GER,Susann Jahn,867,high,2005/eyoc2005.htm
+W18,24,OK,,GER,Susann Jahn,867,high,2005/eyoc2005.htm
 W18,26,OK,,UKR,Tetiana Zhytsova,872,high,2005/eyoc2005.htm
 W18,27,OK,,LAT,Anete Skraustina,879,high,2005/eyoc2005.htm
 W18,28,OK,,EST,Grete Gutmann,881,high,2005/eyoc2005.htm
 W18,29,OK,,HUN,Ivett Hrenko,889,high,2005/eyoc2005.htm
-W18,30,OK,,ESP,Carla Guillen Escriba,889,high,2005/eyoc2005.htm
+W18,29,OK,,ESP,Carla Guillen Escriba,889,high,2005/eyoc2005.htm
 W18,31,OK,,GER,Esther Doetsch,890,high,2005/eyoc2005.htm
-W18,32,OK,,EST,Ly Trei,890,high,2005/eyoc2005.htm
+W18,31,OK,,EST,Ly Trei,890,high,2005/eyoc2005.htm
 W18,33,OK,,EST,Eleri Hirv,893,high,2005/eyoc2005.htm
 W18,34,OK,,FRA,Lea Molinier,900,high,2005/eyoc2005.htm
 W18,35,OK,,LAT,Krista Mihailova,901,high,2005/eyoc2005.htm
@@ -107,7 +107,7 @@ W18,37,OK,,ROU,Melinda Nagy,910,high,2005/eyoc2005.htm
 W18,38,OK,,LTU,Gytaute Akstinaite,915,high,2005/eyoc2005.htm
 W18,39,OK,,LAT,Janeta Turka,919,high,2005/eyoc2005.htm
 W18,40,OK,,POR,Catarina Ruivo,924,high,2005/eyoc2005.htm
-W18,41,OK,,RUS,Tatiana Mendel,924,high,2005/eyoc2005.htm
+W18,40,OK,,RUS,Tatiana Mendel,924,high,2005/eyoc2005.htm
 W18,42,OK,,BLR,Lina Koledzo,926,high,2005/eyoc2005.htm
 W18,43,OK,,ITA,Federica Maggioni,927,high,2005/eyoc2005.htm
 W18,44,OK,,FRA,Gaelle Barlet,928,high,2005/eyoc2005.htm
@@ -117,8 +117,8 @@ W18,47,OK,,GBR,Stefanie Blomquist,950,high,2005/eyoc2005.htm
 W18,48,OK,,LTU,Viktorija Zacharenko,952,high,2005/eyoc2005.htm
 W18,49,OK,,FRA,Cecile Papillon,957,high,2005/eyoc2005.htm
 W18,50,OK,,ESP,Ona Rafols Perramon,967,high,2005/eyoc2005.htm
-W18,51,OK,,BUL,Iva Agova,967,high,2005/eyoc2005.htm
-W18,52,OK,,BLR,Alena Pechur,967,high,2005/eyoc2005.htm
+W18,50,OK,,BUL,Iva Agova,967,high,2005/eyoc2005.htm
+W18,50,OK,,BLR,Alena Pechur,967,high,2005/eyoc2005.htm
 W18,53,OK,,ROU,Ioana Zah-Git,970,high,2005/eyoc2005.htm
 W18,54,OK,,ITA,Federica Memo,976,high,2005/eyoc2005.htm
 W18,55,OK,,POR,Patricia Casalinho,994,high,2005/eyoc2005.htm
@@ -169,11 +169,11 @@ M16,26,OK,,POR,Tiago Pires,809,high,2005/eyoc2005.htm
 M16,27,OK,,FRA,Juste Raimbault,813,high,2005/eyoc2005.htm
 M16,28,OK,,POL,Dawid Stefanski,815,high,2005/eyoc2005.htm
 M16,29,OK,,HUN,Marton Mets,816,high,2005/eyoc2005.htm
-M16,30,OK,,EST,Kaspar Kork,816,high,2005/eyoc2005.htm
+M16,29,OK,,EST,Kaspar Kork,816,high,2005/eyoc2005.htm
 M16,31,OK,,RUS,Sergey Ivanov,819,high,2005/eyoc2005.htm
 M16,32,OK,,LAT,Ivars Ziemelis,821,high,2005/eyoc2005.htm
 M16,33,OK,,POR,Diogo Miguel,824,high,2005/eyoc2005.htm
-M16,34,OK,,HUN,Gergely Gyorgyi-Ambro,824,high,2005/eyoc2005.htm
+M16,33,OK,,HUN,Gergely Gyorgyi-Ambro,824,high,2005/eyoc2005.htm
 M16,35,OK,,FRA,Theo Fleurent,828,high,2005/eyoc2005.htm
 M16,36,OK,,AUT,Tobias Guggenberger,829,high,2005/eyoc2005.htm
 M16,37,OK,,GER,Bjarne Friedrichs,832,high,2005/eyoc2005.htm
@@ -186,7 +186,7 @@ M16,43,OK,,EST,Kristo Heinmann,848,high,2005/eyoc2005.htm
 M16,44,OK,,UKR,Sergiy Ruzhevych,849,high,2005/eyoc2005.htm
 M16,45,OK,,LAT,Karlis Dislers,850,high,2005/eyoc2005.htm
 M16,46,OK,,POL,Maciej Hewelt,851,high,2005/eyoc2005.htm
-M16,47,OK,,UKR,Oleksiy Asmolov,851,high,2005/eyoc2005.htm
+M16,46,OK,,UKR,Oleksiy Asmolov,851,high,2005/eyoc2005.htm
 M16,48,OK,,SUI,Christian Hohl,852,high,2005/eyoc2005.htm
 M16,49,OK,,BUL,Ognyan Grozdanov,854,high,2005/eyoc2005.htm
 M16,50,OK,,EST,Lauri Sild,879,high,2005/eyoc2005.htm
@@ -195,7 +195,7 @@ M16,52,OK,,ITA,Luca Bignami,895,high,2005/eyoc2005.htm
 M16,53,OK,,BUL,Viktor Merdjanov,905,high,2005/eyoc2005.htm
 M16,54,OK,,POR,Jorge Fortunato,911,high,2005/eyoc2005.htm
 M16,55,OK,,ROU,Cristian Cristea,912,high,2005/eyoc2005.htm
-M16,56,OK,,IRL,Nick Simonin,912,high,2005/eyoc2005.htm
+M16,55,OK,,IRL,Nick Simonin,912,high,2005/eyoc2005.htm
 M16,57,OK,,ITA,Roberto Dallavalle,915,high,2005/eyoc2005.htm
 M16,58,OK,,LTU,Aivaras Mockus,931,high,2005/eyoc2005.htm
 M16,59,OK,,SVK,Miroslav Papuga,932,high,2005/eyoc2005.htm
@@ -220,13 +220,13 @@ M18,1,OK,,CZE,Stepan Kodeda,708,high,2005/eyoc2005.htm
 M18,2,OK,,LTU,Jonas Gvildys,719,high,2005/eyoc2005.htm
 M18,3,OK,,ITA,Andrea Seppi,722,high,2005/eyoc2005.htm
 M18,4,OK,,CZE,Vojtech Kral,727,high,2005/eyoc2005.htm
-M18,5,OK,,UKR,Ruslan Glibov,727,high,2005/eyoc2005.htm
+M18,4,OK,,UKR,Ruslan Glibov,727,high,2005/eyoc2005.htm
 M18,6,OK,,SUI,Christoph Rathgeb,740,high,2005/eyoc2005.htm
 M18,7,OK,,SVK,Michal Krajcik,748,high,2005/eyoc2005.htm
 M18,8,OK,,HUN,Andras Szabo,749,high,2005/eyoc2005.htm
 M18,9,OK,,CZE,Stepan Holas,755,high,2005/eyoc2005.htm
 M18,10,OK,,LAT,Kalvis Mihailovs,766,high,2005/eyoc2005.htm
-M18,11,OK,,LTU,Tomas Vilkauskas,766,high,2005/eyoc2005.htm
+M18,10,OK,,LTU,Tomas Vilkauskas,766,high,2005/eyoc2005.htm
 M18,12,OK,,CZE,Ales Maly,768,high,2005/eyoc2005.htm
 M18,13,OK,,POL,Kamil Wlodarczyk,770,high,2005/eyoc2005.htm
 M18,14,OK,,AUT,Wolfgang Siegert,775,high,2005/eyoc2005.htm
@@ -236,43 +236,43 @@ M18,17,OK,,UKR,Sergiy Nadtochyy,780,high,2005/eyoc2005.htm
 M18,18,OK,,SUI,Raffael Huber,784,high,2005/eyoc2005.htm
 M18,19,OK,,UKR,Oleksandr Choban,794,high,2005/eyoc2005.htm
 M18,20,OK,,ROU,Simion Suciu,800,high,2005/eyoc2005.htm
-M18,21,OK,,SUI,Jerome Kaeser,800,high,2005/eyoc2005.htm
+M18,20,OK,,SUI,Jerome Kaeser,800,high,2005/eyoc2005.htm
 M18,22,OK,,UKR,Oleksandr Starov,801,high,2005/eyoc2005.htm
 M18,23,OK,,BUL,Ivan Sirakov,803,high,2005/eyoc2005.htm
-M18,24,OK,,ESP,Francisco Navarro Cutillas,803,high,2005/eyoc2005.htm
-M18,25,OK,,ESP,Alfredo Renzullo Marfil,803,high,2005/eyoc2005.htm
-M18,25,OK,,POL,Karol Myszkowski,803,high,2005/eyoc2005.htm
+M18,23,OK,,ESP,Francisco Navarro Cutillas,803,high,2005/eyoc2005.htm
+M18,23,OK,,ESP,Alfredo Renzullo Marfil,803,high,2005/eyoc2005.htm
+M18,23,OK,,POL,Karol Myszkowski,803,high,2005/eyoc2005.htm
 M18,27,OK,,BUL,Petar Doganov,805,high,2005/eyoc2005.htm
-M18,28,OK,,LAT,Anatolijs Tarasovs,805,high,2005/eyoc2005.htm
+M18,27,OK,,LAT,Anatolijs Tarasovs,805,high,2005/eyoc2005.htm
 M18,29,OK,,SVK,Rastislav Szabo,807,high,2005/eyoc2005.htm
 M18,30,OK,,RUS,Vladimir Alekhin,809,high,2005/eyoc2005.htm
-M18,31,OK,,SVK,Ondrej Kvaka,809,high,2005/eyoc2005.htm
+M18,30,OK,,SVK,Ondrej Kvaka,809,high,2005/eyoc2005.htm
 M18,32,OK,,EST,Lauri Tammemae,810,high,2005/eyoc2005.htm
 M18,33,OK,,LAT,Margers Kietis,811,high,2005/eyoc2005.htm
 M18,34,OK,,EST,Martin Simpson,813,high,2005/eyoc2005.htm
-M18,35,OK,,GBR,Douglas Tullie,813,high,2005/eyoc2005.htm
+M18,34,OK,,GBR,Douglas Tullie,813,high,2005/eyoc2005.htm
 M18,36,OK,,ROU,Florin Bunea,815,high,2005/eyoc2005.htm
-M18,37,OK,,ITA,Luca Dallavalle,815,high,2005/eyoc2005.htm
+M18,36,OK,,ITA,Luca Dallavalle,815,high,2005/eyoc2005.htm
 M18,38,OK,,LTU,Andrejus Gerasimovas,816,high,2005/eyoc2005.htm
 M18,39,OK,,POL,Michal Nowak,818,high,2005/eyoc2005.htm
 M18,40,OK,,RUS,Anton Ivanov,831,high,2005/eyoc2005.htm
 M18,41,OK,,AUT,Raphael Mallweger,835,high,2005/eyoc2005.htm
 M18,42,OK,,EST,Timo Sild,836,high,2005/eyoc2005.htm
-M18,43,OK,,LAT,Edgars Sparans,836,high,2005/eyoc2005.htm
+M18,42,OK,,LAT,Edgars Sparans,836,high,2005/eyoc2005.htm
 M18,44,OK,,LTU,Giedrius Vidzikauskas,837,high,2005/eyoc2005.htm
 M18,45,OK,,BLR,Vitali Chorny,841,high,2005/eyoc2005.htm
 M18,46,OK,,ESP,Anton Laguna Esteban Juan,856,high,2005/eyoc2005.htm
 M18,47,OK,,BUL,Stanimir Belomazhev,862,high,2005/eyoc2005.htm
 M18,48,OK,,ROU,Zoltan Szep,864,high,2005/eyoc2005.htm
-M18,49,OK,,GER,Soren Losch,864,high,2005/eyoc2005.htm
+M18,48,OK,,GER,Soren Losch,864,high,2005/eyoc2005.htm
 M18,50,OK,,RUS,Oleg Grishchukov,868,high,2005/eyoc2005.htm
-M18,51,OK,,POL,Mateusz Wenslaw,868,high,2005/eyoc2005.htm
+M18,50,OK,,POL,Mateusz Wenslaw,868,high,2005/eyoc2005.htm
 M18,52,OK,,HUN,Peter Viczian,870,high,2005/eyoc2005.htm
 M18,53,OK,,POR,Nelson Graca,871,high,2005/eyoc2005.htm
 M18,54,OK,,GBR,David Schorah,876,high,2005/eyoc2005.htm
 M18,55,OK,,SVK,Martin Mazur,885,high,2005/eyoc2005.htm
 M18,56,OK,,POR,Miguel Silva,894,high,2005/eyoc2005.htm
-M18,57,OK,,GBR,Kyle Heron,894,high,2005/eyoc2005.htm
+M18,56,OK,,GBR,Kyle Heron,894,high,2005/eyoc2005.htm
 M18,58,OK,,EST,Kaarel Kure,895,high,2005/eyoc2005.htm
 M18,59,OK,,GER,Philipp Mueller,896,high,2005/eyoc2005.htm
 M18,60,OK,,SUI,Simon Hodler,898,high,2005/eyoc2005.htm
@@ -286,7 +286,7 @@ M18,67,OK,,FRA,Emilien Schiavo,933,high,2005/eyoc2005.htm
 M18,68,OK,,ESP,Daniel Portal Gordillo,952,high,2005/eyoc2005.htm
 M18,69,OK,,AUT,Christian Wartbichler,953,high,2005/eyoc2005.htm
 M18,70,OK,,BLR,Pavel Vaskovich,958,high,2005/eyoc2005.htm
-M18,71,OK,,FRA,Kevin Virefleau,958,high,2005/eyoc2005.htm
+M18,70,OK,,FRA,Kevin Virefleau,958,high,2005/eyoc2005.htm
 M18,72,OK,,IRL,Colm Hill,965,high,2005/eyoc2005.htm
 M18,73,OK,,GBR,John Rocke,973,high,2005/eyoc2005.htm
 M18,74,OK,,SRB,Nenad Mojsilovic,1061,high,2005/eyoc2005.htm

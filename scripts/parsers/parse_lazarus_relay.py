@@ -50,6 +50,8 @@ RELAY_HEADER_RE = re.compile(
 STATUS_RE = re.compile(r"\b(mp|dns|dsq|disq|dnf|abandona|bandona|no\s+sale|n\s*tarj\.?)\b", re.IGNORECASE)
 TIME_COLON_RE = re.compile(r"\d{1,2}:\d{2}:\d{2}|\d{1,3}:\d{2}")
 TIME_DOT_RE = re.compile(r"\d{1,3}\.\d{2}")
+# Some 2012 leg rows embed the country code in the name: "Theresa (GER) FLECHSIG 94 37:41"
+_INLINE_COUNTRY_CODE_RE = re.compile(r"\s*\([A-Z]{2,3}\)\s*")
 
 # "<rank> [<bib>] <rest>" - both numbers are plain digits, with rest (country + time/
 # status) starting wherever the digits stop. An optional leading "nc " (not classified)
@@ -226,11 +228,14 @@ def make_colon_year_parser(strip_year_suffix, force_swap=False):
                 name, status, seconds = extract_leading(line, TIME_COLON_RE)
                 if strip_year_suffix:
                     name = strip_byear(name)
+                name = _INLINE_COUNTRY_CODE_RE.sub(" ", name).strip()
+                if re.fullmatch(r"nn\s+nn", name, re.IGNORECASE):
+                    name = ""
                 if name and force_swap:
                     words = name.split(" ")
                     if len(words) >= 2:
                         name = " ".join([words[-1]] + words[:-1])
-                if name:
+                if name and "/" not in name:
                     pending["legs"].append((name, seconds))
             flush()
         return rows, total_seen
