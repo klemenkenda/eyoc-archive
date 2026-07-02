@@ -18,6 +18,9 @@ Eyoc.views.year = function (yearParam, params = {}) {
     // Set when arriving via a "Class" link from the athlete search page - highlights
     // that specific competitor/leg runner's row so it's easy to spot in a long table.
     highlightName: params.name || "",
+    // Relay deep-links from the country page highlight the whole team row rather than
+    // just one runner name inside it.
+    highlightTeam: params.team || "",
 
     init() {
       // The wrapping x-if only swaps this component out when route.name changes, not

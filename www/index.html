@@ -207,7 +207,7 @@
               </thead>
               <tbody>
                 <template x-for="row in rows" :key="row.class + '-' + row.rank + '-' + row.team + '-' + row.source_file">
-                  <tr>
+                  <tr :class="{ 'row-highlight': highlightTeam && row.team === highlightTeam }">
                     <td class="col-rank">
                       <span class="rank-icon" :class="Eyoc.lib.rankIconClass(row)"></span>
                       <span x-text="Eyoc.lib.displayRank(row)"></span>
