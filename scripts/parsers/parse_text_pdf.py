@@ -74,7 +74,7 @@ def parse_2017(text, source_rel):
             continue
         if not current_class:
             continue
-        m = ROW_2017_RE.match(line)
+        m = ROW_2017_RE.match(line.lstrip())
         if not m:
             continue
         total_seen += 1
