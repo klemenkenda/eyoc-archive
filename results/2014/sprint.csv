@@ -88,6 +88,13 @@ M16,86,OK,10,ROU,Peter Knobloch-Esztergar,1456,high,2014/results-sprint.pdf
 M16,87,OK,62,MKD,Mario Koteski,1463,high,2014/results-sprint.pdf
 M16,88,OK,38,MKD,Jovan Todorovski,1516,high,2014/results-sprint.pdf
 M16,89,OK,1,MKD,Kristijan Mirceski,1978,high,2014/results-sprint.pdf
+M16,,MP,19,FRA,Benjamin Leduc,,high,2014/results-sprint.pdf
+M16,,MP,45,ESP,Ignacio Sanchez Munoz,,high,2014/results-sprint.pdf
+M16,,MP,5,LAT,Karlis Kaminskis,,high,2014/results-sprint.pdf
+M16,,MP,15,LTU,Rokas Lipnickas,,high,2014/results-sprint.pdf
+M16,,MP,52,ITA,Cesare Mattiroli,,high,2014/results-sprint.pdf
+M16,,MP,30,TUR,Muhammet Omer Yilmaz,,high,2014/results-sprint.pdf
+M16,,MP,84,ROU,Tamas Dezsi,,high,2014/results-sprint.pdf
 W16,1,OK,121,SUI,Simona Aebersold,711,high,2014/results-sprint.pdf
 W16,2,OK,111,CZE,Tereza Janosikova,727,high,2014/results-sprint.pdf
 W16,3,OK,173,CZE,Tereza Cechova,741,high,2014/results-sprint.pdf
@@ -141,7 +148,7 @@ W16,50,OK,112,GBR,Emma Wilson,931,high,2014/results-sprint.pdf
 W16,51,OK,168,EST,Kristel Koivo,937,high,2014/results-sprint.pdf
 W16,52,OK,115,EST,Marie Anna Blehner,944,high,2014/results-sprint.pdf
 W16,53,OK,134,EST,Kristin Viikmaa,945,high,2014/results-sprint.pdf
-W16,54,OK,142,ESP,Inmaculada Crespo,950,high,2014/results-sprint.pdf
+W16,54,OK,142,ESP,Inmaculada Crespo Gonzale,950,high,2014/results-sprint.pdf
 W16,55,OK,165,SUI,Nora Caprari,955,high,2014/results-sprint.pdf
 W16,56,OK,181,ESP,Marina Cornejo Garcia,956,high,2014/results-sprint.pdf
 W16,57,OK,161,SLO,Brina Foski,958,high,2014/results-sprint.pdf
@@ -178,6 +185,9 @@ W16,87,OK,174,TUR,Elif Gokce Avci,1229,high,2014/results-sprint.pdf
 W16,88,OK,122,SLO,Lara Gantar,1252,high,2014/results-sprint.pdf
 W16,89,OK,151,ROU,Daiana Maria Habina,1524,high,2014/results-sprint.pdf
 W16,90,OK,127,MKD,Stefanija Krzheska,2085,high,2014/results-sprint.pdf
+W16,,MP,101,ROU,Vanda Timea Virag,,high,2014/results-sprint.pdf
+W16,,MP,162,BEL,Magalie Gillet,,high,2014/results-sprint.pdf
+W16,,MP,148,MKD,Aleksandra Risteska,,high,2014/results-sprint.pdf
 M18,1,OK,218,FIN,Olli Ojanaho,735,high,2014/results-sprint.pdf
 M18,2,OK,251,SUI,Florian Attinger,756,high,2014/results-sprint.pdf
 M18,3,OK,292,POL,Krzysztof Rzenca,759,high,2014/results-sprint.pdf
@@ -199,7 +209,7 @@ M18,18,OK,273,FRA,Quentin Rauturier,797,high,2014/results-sprint.pdf
 M18,18,OK,243,DEN,Emil Oebro,797,high,2014/results-sprint.pdf
 M18,18,OK,236,NOR,Stian Sundsvik,797,high,2014/results-sprint.pdf
 M18,21,OK,271,AUT,Mathias Peter,799,high,2014/results-sprint.pdf
-M18,22,OK,214,NOR,Haakon Raadal Bjoerlo,801,high,2014/results-sprint.pdf
+M18,22,OK,214,NOR,Haakon Raadal Bjrrlo,801,high,2014/results-sprint.pdf
 M18,23,OK,246,CZE,Vojtech Kettner,802,high,2014/results-sprint.pdf
 M18,24,OK,259,POL,Radoslaw Piotrowski,804,high,2014/results-sprint.pdf
 M18,25,OK,223,SWE,Filip Grahn,809,high,2014/results-sprint.pdf
@@ -279,6 +289,10 @@ M18,98,OK,245,CRO,Luka Ivkovic,1158,high,2014/results-sprint.pdf
 M18,99,OK,233,MKD,Milivoj Velinovich,1179,high,2014/results-sprint.pdf
 M18,100,OK,222,ROU,Gergely Bogya,1210,high,2014/results-sprint.pdf
 M18,101,OK,279,MKD,Vase Iliev,1272,high,2014/results-sprint.pdf
+M18,,MP,303,EST,Heino Ollin,,high,2014/results-sprint.pdf
+M18,,MP,209,CZE,Matous Furst,,high,2014/results-sprint.pdf
+M18,,DNF,202,LTU,Kevinas Olisauskis,,high,2014/results-sprint.pdf
+M18,,DNS,207,MKD,Vasko Vasilev,,high,2014/results-sprint.pdf
 W18,1,OK,384,POL,Weronika Cych,809,high,2014/results-sprint.pdf
 W18,2,OK,355,UKR,Olena Postelniak,817,high,2014/results-sprint.pdf
 W18,3,OK,391,NOR,Ingrid Lundanes,822,high,2014/results-sprint.pdf
@@ -298,10 +312,10 @@ W18,16,OK,372,FIN,Noora Koskinen,881,high,2014/results-sprint.pdf
 W18,16,OK,330,SUI,Hanna Muller,881,high,2014/results-sprint.pdf
 W18,18,OK,338,SWE,Pim Hedberg,884,high,2014/results-sprint.pdf
 W18,18,OK,312,RUS,Zlata Malysheva,884,high,2014/results-sprint.pdf
-W18,20,OK,362,FRA,Solene Droin,887,high,2014/results-sprint.pdf
+W18,20,OK,362,FRA,Solcne Droin,887,high,2014/results-sprint.pdf
 W18,21,OK,318,SWE,Linnea Golsater,893,high,2014/results-sprint.pdf
 W18,22,OK,385,HUN,Csenge Viniczai,894,high,2014/results-sprint.pdf
-W18,23,OK,343,UKR,Yiuliya Kobets,898,high,2014/results-sprint.pdf
+W18,23,OK,343,UKR,Yiulya Kobets,898,high,2014/results-sprint.pdf
 W18,23,OK,306,GBR,Hannah Cox,898,high,2014/results-sprint.pdf
 W18,25,OK,363,SUI,Barbara Kohle,908,high,2014/results-sprint.pdf
 W18,25,OK,307,SUI,Joana Walti,908,high,2014/results-sprint.pdf
@@ -374,3 +388,8 @@ W18,92,OK,367,SLO,Nusa Jeram,1363,high,2014/results-sprint.pdf
 W18,93,OK,389,BUL,Mikaela Vitanova,1434,high,2014/results-sprint.pdf
 W18,94,OK,333,TUR,Kubra Yoruk,1549,high,2014/results-sprint.pdf
 W18,95,OK,358,MKD,Liljana Georgieva,1714,high,2014/results-sprint.pdf
+W18,,MP,371,ESP,Sofia Berenguer Sanchis,,high,2014/results-sprint.pdf
+W18,,MP,353,IRL,Aoife McCavana,,high,2014/results-sprint.pdf
+W18,,MP,317,MKD,Marija Shopova,,high,2014/results-sprint.pdf
+W18,,DNF,331,MKD,Ivana Trencheva,,high,2014/results-sprint.pdf
+W18,,DNS,354,BEL,Elke Verdeyen,,high,2014/results-sprint.pdf

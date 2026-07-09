@@ -28,13 +28,25 @@ LOGOS_SRC = ROOT / "logos" / "png"
 WWW_DATA = ROOT / "www" / "data"
 WWW_LOGOS = ROOT / "www" / "assets" / "logos"
 
-INDIVIDUAL_INT_FIELDS = ("rank", "time_seconds")
-RELAY_INT_FIELDS = ("rank", "total_time_seconds", "leg1_time_seconds", "leg2_time_seconds", "leg3_time_seconds")
+INDIVIDUAL_INT_FIELDS = ("rank",)
+INDIVIDUAL_NUMBER_FIELDS = ("time_seconds",)
+RELAY_INT_FIELDS = ("rank",)
+RELAY_NUMBER_FIELDS = ("total_time_seconds", "leg1_time_seconds", "leg2_time_seconds", "leg3_time_seconds")
 
 
 def _to_int(value):
     value = (value or "").strip()
     return int(value) if value else None
+
+
+def _to_number(value):
+    """Like _to_int, but tolerates a decimal point - some rows carry tenths of a
+    second (see results/FORMAT-RESULTS.md), which int() would reject outright."""
+    value = (value or "").strip()
+    if not value:
+        return None
+    f = float(value)
+    return int(f) if f.is_integer() else f
 
 
 def _years():
@@ -59,6 +71,8 @@ def build_individual_and_relay():
                 row["discipline"] = discipline
                 for field in INDIVIDUAL_INT_FIELDS:
                     row[field] = _to_int(row.get(field))
+                for field in INDIVIDUAL_NUMBER_FIELDS:
+                    row[field] = _to_number(row.get(field))
                 individual.append(row)
         relay_path = year_dir / "relay.csv"
         if relay_path.exists():
@@ -67,6 +81,8 @@ def build_individual_and_relay():
                 row["discipline"] = "relay"
                 for field in RELAY_INT_FIELDS:
                     row[field] = _to_int(row.get(field))
+                for field in RELAY_NUMBER_FIELDS:
+                    row[field] = _to_number(row.get(field))
                 relay.append(row)
     return individual, relay
 

@@ -22,7 +22,11 @@ FILES = {
 
 CLASS_2016_RE = re.compile(r"Final class results:\s*([MW]\d{2})", re.IGNORECASE)
 CLASS_2017_RE = re.compile(r"^Class\s+([MW]\d{2})\s*$", re.IGNORECASE)
-ROW_2017_RE = re.compile(r"^(\d+)\.\s+(\S.*?)\s+([A-Z]{3})(\d{3,5})\s+[A-Z]\s+(\S.*?)(?:\s+(\d+\.\d{2})(?:\s*\+\s*(\d+\.\d{2}))?)?\s*$")
+# Non-finishers get no leading "N. " rank at all in this PDF - the row is just indented
+# straight to the name column - so the rank group is optional here (unlike 2016, this
+# source's blank-rank rows still carry a full bib/country, just no rank digit).
+ROW_2017_RE = re.compile(r"^(?:(\d+)\.\s+)?(\S.*?)\s+([A-Z]{3})(\d{3,5})\s+[A-Z]\s+(\S.*?)(?:\s+(\d+\.\d{2})(?:\s*\+\s*(\d+\.\d{2}))?)?\s*$")
+STATUS_TAIL_RE = re.compile(r"\b(DSQ|DISQ|DNS|DNF|MP|OT)\s*$", re.IGNORECASE)
 
 
 RANK_NAME_RE = re.compile(r"^(\d+)\.(.*)$")
@@ -46,19 +50,30 @@ def parse_2016_long(path, source_rel):
             continue
         cells = common.bucket_row(pdf_row, COLUMNS_2016, slack=0.0)
         rn_m = RANK_NAME_RE.match(cells.get("rank_name", ""))
-        if not rn_m:
+        # Non-finishers (DISQ/DNF/...) get no "N." rank at all - the row just starts
+        # straight at the name, so a failed rank match still means "unranked row", not
+        # "not a row" - but keep requiring *some* name text either way.
+        if rn_m:
+            rank = int(rn_m.group(1))
+            name = re.sub(r"\s+", " ", rn_m.group(2)).strip()
+        else:
+            rank = None
+            name = re.sub(r"\s+", " ", cells.get("rank_name", "")).strip()
+        if not name:
             continue
         total_seen += 1
-        rank = int(rn_m.group(1))
-        name = re.sub(r"\s+", " ", rn_m.group(2)).strip()
         country_text = cells.get("country", "").strip()
         time_text = cells.get("time", "").strip()
+        # the status word (DISQ/DNF/...) lands in the "code" column, trailing the
+        # 2-letter alpha code this source uses there, e.g. "LT DISQ" / "SE DNF".
+        status_hint_m = STATUS_TAIL_RE.search(cells.get("code", ""))
+        status_hint = status_hint_m.group(1) if status_hint_m else None
         country = common.normalize_country(country_text) if country_text else None
         if not country:
             continue
         code, _name = country
         time_s = common.time_to_seconds(time_text) if time_text else None
-        status = common.normalize_status(None, time_s is not None)
+        status = common.normalize_status(status_hint, time_s is not None)
         rows.append(common.individual_row(current_class, rank, status, None, code, name, time_s, "high", source_rel))
     return rows, total_seen
 
@@ -78,17 +93,23 @@ def parse_2017(text, source_rel):
         if not m:
             continue
         total_seen += 1
-        rank = int(m.group(1))
+        rank = int(m.group(1)) if m.group(1) else None
         name = re.sub(r"\s+", " ", m.group(2)).strip()
         bib_code = m.group(3)
         bib = m.group(4)
         time_text = m.group(6)
+        # the status word (DISQ/DNF/...) lands at the tail of the country-name capture
+        # when there's no time, e.g. "Portugal       MP" - group(5) isn't otherwise used
+        # (country is resolved from the bib's 3-letter prefix instead, which is reliable
+        # even when this group is truncated/misaligned by pdftotext's layout mode).
+        status_hint_m = STATUS_TAIL_RE.search(m.group(5) or "")
+        status_hint = status_hint_m.group(1) if status_hint_m else None
         country = common.normalize_country(bib_code)
         if not country:
             continue
         code, _name = country
         time_s = common.time_to_seconds(time_text) if time_text else None
-        status = common.normalize_status(None, time_s is not None)
+        status = common.normalize_status(status_hint, time_s is not None)
         rows.append(common.individual_row(current_class, rank, status, bib, code, name, time_s, "high", source_rel))
     return rows, total_seen
 

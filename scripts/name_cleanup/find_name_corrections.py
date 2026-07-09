@@ -31,6 +31,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import sys
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from difflib import SequenceMatcher
@@ -40,6 +41,9 @@ ROOT = Path(__file__).resolve().parents[2]
 RESULTS = ROOT / "results"
 IOF_DIR = RESULTS / "iof"
 DEFAULT_CORRECTIONS = Path(__file__).resolve().parent / "name_corrections.csv"
+
+sys.path.insert(0, str(ROOT / "scripts"))
+import locks  # noqa: E402
 
 INDIVIDUAL_NAME_COLUMNS = ["name"]
 RELAY_NAME_COLUMNS = ["leg1_name", "leg2_name", "leg3_name"]
@@ -416,6 +420,10 @@ def apply_corrections(corrections_path: Path, dry_run: bool) -> None:
 
     total_changes = 0
     for path in iter_result_files():
+        year, discipline = path.parent.name, path.stem
+        if locks.is_locked(year, discipline):
+            print(f"  {year}/{discipline}.csv: locked, skipped")
+            continue
         with path.open(encoding="utf-8", newline="") as handle:
             reader = csv.reader(handle)
             rows_in = list(reader)

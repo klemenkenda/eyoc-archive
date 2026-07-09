@@ -17,6 +17,9 @@ RAW = ROOT / "results" / "raw"
 CLEAN_ROOT = ROOT / "results"
 COUNTRIES_MD = ROOT / "results" / "EYOC-COUNTRIES.md"
 
+sys.path.insert(0, str(ROOT / "scripts"))
+import locks  # noqa: E402
+
 SPRINT_COLUMNS = ["class", "rank", "status", "bib", "country", "name", "time_seconds", "confidence", "source_file"]
 RELAY_COLUMNS = [
     "class", "rank", "status", "country", "team", "total_time_seconds",
@@ -114,9 +117,13 @@ def normalize_country(raw_text, source_file="", allow_bare_code_alias=True):
     if lead.upper() in CODES and lead.isupper() and len(lead) == 3:
         return lead.upper(), CODES[lead.upper()]
     # some 2003 rows glue the bib number straight onto the code with no space at all,
-    # e.g. "POL14" - a bare 3-letter code prefix followed only by digits is unambiguous
+    # e.g. "POL14" - a bare 3-letter code prefix followed only by digits is unambiguous.
+    # Restricted to the whole candidate being just that one token (`text == lead`): unlike
+    # the leading-code check above, this pattern doesn't tolerate *any* trailing content
+    # (it's specifically "no space at all"), so e.g. "GER10 C DISQ" must not match here -
+    # only the country-matching loop correctly landing on the bare "GER10" token should.
     glued = re.match(r"^([A-Z]{3})\d+$", lead)
-    if glued and glued.group(1) in CODES:
+    if glued and glued.group(1) in CODES and text == lead:
         return glued.group(1), CODES[glued.group(1)]
     # strip a trailing team-number suffix like "Czech Republic 1" -> "Czech Republic"
     text_no_num = re.sub(r"\s+\d+$", "", text)
@@ -183,7 +190,13 @@ def reset_dropped_report():
 
 
 def time_to_seconds(text):
-    """Convert mm:ss, h:mm:ss, or 'mm.ss,d' (European decimal-comma) to integer seconds."""
+    """Convert mm:ss, h:mm:ss, or 'mm.ss,d' (European decimal-comma) to seconds.
+
+    Returns a plain int, except for 'mm.ss,d'-style source text that records a genuine
+    non-zero tenths digit (e.g. "12.01,4" => 12 min 01.4 sec, some lazarus.elte.hu years
+    - see QUALITY-CHECK.md) - those return a float rounded to 1 decimal place so that
+    precision isn't silently discarded.
+    """
     if not text:
         return None
     text = text.strip()
@@ -193,7 +206,9 @@ def time_to_seconds(text):
     m = re.match(r"^(\d+)\.(\d{2}),(\d+)$", text)
     if m:
         minutes, secs, frac = m.groups()
-        return int(minutes) * 60 + int(secs) + (1 if int(frac) >= 5 else 0)
+        base = int(minutes) * 60 + int(secs)
+        frac_val = int(frac) / (10 ** len(frac))
+        return round(base + frac_val, 1) if frac_val else base
     m = re.match(r"^(\d+)\.(\d{2})$", text)
     if m:
         minutes, secs = m.groups()
@@ -243,11 +258,13 @@ def normalize_status(text, has_time):
     compact = re.sub(r"[^a-z]", "", t)
     if compact in _IOF_STATUS_MAP:
         return _IOF_STATUS_MAP[compact]
-    if "dsq" in t or "disq" in t:
+    if "dsq" in t or "disq" in t or "disk" in t:  # "disk" is 2005's own spelling of DSQ
         return "DSQ"
     if "dns" in t:
         return "DNS"
     if t in ("mp", "mispunch") or "mp" == t:
+        return "MP"
+    if "fehlst" in t or "tarj" in t:  # German "Fehlstempelung" / Spanish "sin tarjeta" - mispunch
         return "MP"
     if "dnf" in t or "no sale" in t or "abandon" in t or "bandona" in t:
         return "DNF"
@@ -486,8 +503,13 @@ def renumber_ranks(rows):
 
 
 def write_csv(year, discipline, rows, columns):
-    """discipline in {'sprint','long','relay'}. rows: list of dicts. Skips writing if rows empty."""
+    """discipline in {'sprint','long','relay'}. rows: list of dicts. Skips writing if rows
+    empty, or if results/locks.json marks this <year>/<discipline>.csv as hand-curated
+    (see scripts/locks.py) - a curator's fixes must survive `run_all.py` re-runs."""
     if not rows:
+        return None
+    if locks.is_locked(year, discipline):
+        print(f"  {year} {discipline}: locked, skipped (unlock in the curation GUI to let the parser overwrite it again)")
         return None
     renumber_ranks(rows)
     d = ensure_year_dir(year)

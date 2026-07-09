@@ -81,6 +81,10 @@ W16,79,OK,,CRO,Marija Stambuk,1264,high,2007/eyoc2007.htm
 W16,80,OK,,UKR,Dar'ya Karpenko,1368,high,2007/eyoc2007.htm
 W16,81,OK,,LAT,Laura Nimante,1389,high,2007/eyoc2007.htm
 W16,82,OK,,CRO,Marija Eajko,1507,high,2007/eyoc2007.htm
+W16,,MP,,FRA,Magalie Cordeiro-Mendes,,high,2007/eyoc2007.htm
+W16,,MP,,POR,Joana Costa,,high,2007/eyoc2007.htm
+W16,,MP,,ESP,Raquel Martin Jimenez,,high,2007/eyoc2007.htm
+W16,,DSQ,,ROU,Patricia Roxana Carausan,,high,2007/eyoc2007.htm
 W18,1,OK,,POL,Monika Gajda,803,high,2007/eyoc2007.htm
 W18,2,OK,,POL,Hanna Wisniewska,825,high,2007/eyoc2007.htm
 W18,3,OK,,HUN,Dorottya Peley,832,high,2007/eyoc2007.htm
@@ -158,6 +162,10 @@ W18,74,OK,,SRB,Ana Matkovia,1183,high,2007/eyoc2007.htm
 W18,75,OK,,POL,Daria Lajn,1203,high,2007/eyoc2007.htm
 W18,76,OK,,CRO,Anamaria Tusia,1282,high,2007/eyoc2007.htm
 W18,77,OK,,SRB,Ana Jankovic,1299,high,2007/eyoc2007.htm
+W18,,MP,,ITA,Nicole Scalet,,high,2007/eyoc2007.htm
+W18,,MP,,LAT,Vieda Lusa,,high,2007/eyoc2007.htm
+W18,,MP,,SVK,Dasa Mihalova,,high,2007/eyoc2007.htm
+W18,,MP,,NOR,Agni Fjogstad Nielsen,,high,2007/eyoc2007.htm
 M16,1,OK,,CZE,Stepan Zimmermann,724,high,2007/eyoc2007.htm
 M16,2,OK,,AUT,Robert Merl,757,high,2007/eyoc2007.htm
 M16,3,OK,,FRA,Lucas Basset,764,high,2007/eyoc2007.htm
@@ -241,8 +249,13 @@ M16,80,OK,,UKR,Sergiy Kovalov,1146,high,2007/eyoc2007.htm
 M16,81,OK,,ROU,Eduard Ghiuzan,1152,high,2007/eyoc2007.htm
 M16,82,OK,,BLR,Maksim Chorny,1262,high,2007/eyoc2007.htm
 M16,83,OK,,ROU,Teodor Molnar,1266,high,2007/eyoc2007.htm
-M16,84,OK,,ROU,Marcelin Vasile Giurgica,1267,high,2007/eyoc2007.htm
+M16,84,OK,,ROU,Marcelin Giurgica,1267,high,2007/eyoc2007.htm
 M16,85,OK,,CRO,Vjeran Horvat,1435,high,2007/eyoc2007.htm
+M16,,MP,,ISR,Lior Itzhak,,high,2007/eyoc2007.htm
+M16,,MP,,SVK,Tomas Sokol,,high,2007/eyoc2007.htm
+M16,,DSQ,,CRO,Lobel Horvat,,high,2007/eyoc2007.htm
+M16,,DSQ,,LTU,Dovydas Mickus,,high,2007/eyoc2007.htm
+M16,,DSQ,,SRB,Tadija Trifunovic,,high,2007/eyoc2007.htm
 M18,1,OK,,POR,Diogo Miguel,821,high,2007/eyoc2007.htm
 M18,2,OK,,FIN,Leo Laakkonen,827,high,2007/eyoc2007.htm
 M18,3,OK,,LAT,Arturs Paulins,843,high,2007/eyoc2007.htm
@@ -275,7 +288,7 @@ M18,29,OK,,FRA,Benjamin Lepoutre,909,high,2007/eyoc2007.htm
 M18,30,OK,,NOR,Morten Urdal Bakke,910,high,2007/eyoc2007.htm
 M18,31,OK,,ESP,Nabil Abderraman Elena,916,high,2007/eyoc2007.htm
 M18,32,OK,,AUT,Helmut Gremmel,919,high,2007/eyoc2007.htm
-M18,33,OK,,FRA,Thibault Poupard,920,high,2007/eyoc2007.htm
+M18,33,OK,,FRA,Thibault Poupart,920,high,2007/eyoc2007.htm
 M18,33,OK,,UKR,Oleksiy Asmolov,920,high,2007/eyoc2007.htm
 M18,35,OK,,LAT,Karlis Dislers,922,high,2007/eyoc2007.htm
 M18,36,OK,,GER,Max Rohnert,925,high,2007/eyoc2007.htm
@@ -312,7 +325,7 @@ M18,66,OK,,ROU,Razvan Lupa,1038,high,2007/eyoc2007.htm
 M18,67,OK,,ISR,Omer Powitzer,1048,high,2007/eyoc2007.htm
 M18,67,OK,,ESP,Marcal Serralonga Amigo,1048,high,2007/eyoc2007.htm
 M18,69,OK,,POR,Fabio Pereira,1052,high,2007/eyoc2007.htm
-M18,70,OK,,ISR,Aram Yaacobi,1061,high,2007/eyoc2007.htm
+M18,70,OK,,ISR,Aram Yaakobi,1061,high,2007/eyoc2007.htm
 M18,71,OK,,RUS,Sergey Vasilyev,1062,high,2007/eyoc2007.htm
 M18,72,OK,,LTU,Vytautas Pranckaitis,1082,high,2007/eyoc2007.htm
 M18,73,OK,,BUL,Dimitar Turmanov,1096,high,2007/eyoc2007.htm
@@ -325,6 +338,14 @@ M18,79,OK,,GBR,Mikey Hopkins,1152,high,2007/eyoc2007.htm
 M18,80,OK,,UKR,Mykola Fodchuk,1168,high,2007/eyoc2007.htm
 M18,81,OK,,IRL,Alan Lane,1196,high,2007/eyoc2007.htm
 M18,82,OK,,SRB,Bojan Munjas,1227,high,2007/eyoc2007.htm
-M18,83,OK,,SRB,Djordje Arizanovic,1261,high,2007/eyoc2007.htm
+M18,83,OK,,SRB,Djordje Arizanovia,1261,high,2007/eyoc2007.htm
 M18,84,OK,,SRB,Stefan Gasparovia,1421,high,2007/eyoc2007.htm
 M18,85,OK,,IRL,Niall Ewen,1548,high,2007/eyoc2007.htm
+M18,,MP,,BLR,Siarhei Fedatsenka,,high,2007/eyoc2007.htm
+M18,,MP,,EST,Henrik Berg,,high,2007/eyoc2007.htm
+M18,,MP,,FRA,Mathieu Ringot,,high,2007/eyoc2007.htm
+M18,,MP,,FIN,Antti Vainio,,high,2007/eyoc2007.htm
+M18,,MP,,RUS,Mikhail Petrov,,high,2007/eyoc2007.htm
+M18,,MP,,NOR,Morten Westergard,,high,2007/eyoc2007.htm
+M18,,MP,,BUL,Pavel Georgiev,,high,2007/eyoc2007.htm
+M18,,MP,,SUI,Christian Hohl,,high,2007/eyoc2007.htm

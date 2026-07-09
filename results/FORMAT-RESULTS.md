@@ -22,7 +22,7 @@ One row per competitor.
 | `bib` | text, optional | start/bib number if the source has one |
 | `country` | text | country/federation name or IOF 3-letter code, whichever the source gives |
 | `name` | text | competitor's full name |
-| `time_seconds` | int, blank if no time | total elapsed time, converted to seconds so every year is comparable regardless of source format (`mm:ss`, `h:mm:ss`, ...) |
+| `time_seconds` | number, blank if no time | total elapsed time, converted to seconds so every year is comparable regardless of source format (`mm:ss`, `h:mm:ss`, ...). Usually an int; one decimal place when the source itself recorded tenths of a second (some lazarus.elte.hu years, e.g. 2003/2011, print `mm.ss,d`) |
 | `confidence` | text | `high` / `approx` — carries forward the flags from `QUALITY-CHECK.md`; omit or default `high` |
 | `source_file` | text | path relative to `results/raw/<year>/`, e.g. `results-sprint.pdf` |
 
@@ -37,13 +37,13 @@ One row per team, three runners wide.
 | `status` | text | `OK`, `DNF`, `DSQ`, `DNS`, `MP` |
 | `country` | text | federation name/code, without any team-number suffix |
 | `team` | text | team label exactly as the source prints it, e.g. `Czech Republic 1` (countries sometimes field more than one team) |
-| `total_time_seconds` | int | team's overall finish time |
+| `total_time_seconds` | number | team's overall finish time (one decimal place if the source recorded tenths, see `sprint.csv`/`long.csv` above) |
 | `leg1_name` | text | runner 1 |
-| `leg1_time_seconds` | int, optional | leg 1 split |
+| `leg1_time_seconds` | number, optional | leg 1 split |
 | `leg2_name` | text | runner 2 |
-| `leg2_time_seconds` | int, optional | leg 2 split |
+| `leg2_time_seconds` | number, optional | leg 2 split |
 | `leg3_name` | text | runner 3 |
-| `leg3_time_seconds` | int, optional | leg 3 split |
+| `leg3_time_seconds` | number, optional | leg 3 split |
 | `confidence` | text | `high` / `approx` |
 | `source_file` | text | path relative to `results/raw/<year>/` |
 

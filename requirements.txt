@@ -4,3 +4,4 @@ PyMuPDF
 pytesseract
 pypdf
 pdfplumber
+Flask

@@ -157,14 +157,23 @@ Eyoc.lib.percentileProgression = function (rows, fieldSizes) {
 // 0 is never a real orienteering time - some sources use it as a sentinel for "this
 // runner didn't actually complete this leg/course" (e.g. a relay leg nobody ran because
 // the team didn't start), so it's treated the same as missing/null everywhere here.
+//
+// A few lazarus.elte.hu-sourced sprint years (2003, 2005, 2011 - see
+// results/FORMAT-RESULTS.md) recorded times to a tenth of a second; everything else is
+// whole seconds. Rounding to the nearest tenth (rather than truncating) and only
+// appending ".d" when that tenth is non-zero means whole-second times print exactly as
+// before ("12:01") and only the genuinely sub-second-precise ones gain a suffix
+// ("12:01.4").
 Eyoc.lib.formatTime = function (seconds) {
   if (!seconds) return "—";
-  seconds = Math.round(seconds);
-  const h = Math.floor(seconds / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  const s = seconds % 60;
+  const totalTenths = Math.round(seconds * 10);
+  const whole = Math.floor(totalTenths / 10);
+  const tenth = totalTenths % 10;
+  const h = Math.floor(whole / 3600);
+  const m = Math.floor((whole % 3600) / 60);
+  const s = whole % 60;
   const mmss = `${String(m).padStart(h ? 2 : 1, "0")}:${String(s).padStart(2, "0")}`;
-  return h ? `${h}:${mmss}` : mmss;
+  return (h ? `${h}:${mmss}` : mmss) + (tenth ? `.${tenth}` : "");
 };
 
 // A non-OK runner/team's recorded time (if any - e.g. a mispunch can still have a
@@ -174,15 +183,20 @@ Eyoc.lib.formatResultTime = function (row, timeField) {
   return Eyoc.lib.formatTime(row[timeField]);
 };
 
-// Gap to the race leader, as "+MM:SS" - "—" for the leader themselves or where either
-// time is missing (DNF/DNS/no time recorded).
+// Gap to the race leader, as "+MM:SS[.d]" - "—" for the leader themselves or where
+// either time is missing (DNF/DNS/no time recorded). Tenths-precision mirrors
+// formatTime above: working in tenths throughout (not rounding to whole seconds first)
+// matters here specifically, since two tenths-precision times less than a second apart
+// would otherwise round down to a 0 diff and wrongly disappear as "—".
 Eyoc.lib.formatDiff = function (rowSeconds, leaderSeconds) {
   if (!rowSeconds || !leaderSeconds) return "—"; // 0 is a sentinel for "no time", not a real time
-  const diff = Math.round(rowSeconds - leaderSeconds);
-  if (diff <= 0) return "—";
-  const m = Math.floor(diff / 60);
-  const s = diff % 60;
-  return `+${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+  const diffTenths = Math.round((rowSeconds - leaderSeconds) * 10);
+  if (diffTenths <= 0) return "—";
+  const whole = Math.floor(diffTenths / 10);
+  const tenth = diffTenths % 10;
+  const m = Math.floor(whole / 60);
+  const s = whole % 60;
+  return `+${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}` + (tenth ? `.${tenth}` : "");
 };
 
 // One-time index of each race's rank-1 row (year|class|discipline, "relay" standing in

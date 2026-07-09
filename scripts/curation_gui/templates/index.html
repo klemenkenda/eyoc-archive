@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EYOC Data Curation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header id="topbar">
+    <h1>EYOC Data Curation</h1>
+
+    <label>Year
+      <select id="yearSelect"></select>
+    </label>
+
+    <nav id="disciplineTabs">
+      <button data-discipline="sprint" class="tab active">Sprint</button>
+      <button data-discipline="long" class="tab">Long</button>
+      <button data-discipline="relay" class="tab">Relay</button>
+    </nav>
+
+    <div id="lockControl">
+      <button id="lockToggle" class="btn">Lock</button>
+      <span id="lockStatus"></span>
+    </div>
+
+    <button id="rebuildBtn" class="btn btn-secondary">Rebuild from raw</button>
+  </header>
+
+  <div id="rebuildLog" class="hidden"></div>
+
+  <main id="panes">
+    <section id="rawPane">
+      <div class="pane-header">
+        <span>Original source</span>
+        <select id="rawFileSelect"></select>
+      </div>
+      <iframe id="rawFrame" sandbox="allow-same-origin"></iframe>
+    </section>
+
+    <section id="csvPane">
+      <div class="pane-header">
+        <span>CSV (<span id="rowCount">0</span> rows)</span>
+        <div>
+          <button id="addRowBtn" class="btn btn-small">+ Row</button>
+          <button id="saveCsvBtn" class="btn btn-small btn-primary">Save CSV</button>
+        </div>
+      </div>
+      <div id="unlockedWarning" class="warning hidden">
+        Not locked - "Rebuild from raw" will overwrite this file. Lock it once you're happy.
+      </div>
+      <div id="csvTableWrap">
+        <table id="csvTable">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <section id="metadataSection">
+    <div class="pane-header">
+      <span>Event metadata</span>
+      <button id="saveMetadataBtn" class="btn btn-small btn-primary">Save metadata</button>
+    </div>
+    <div id="metadataForm"></div>
+  </section>
+
+  <datalist id="countryCodes"></datalist>
+
+  <div id="toast" class="hidden"></div>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

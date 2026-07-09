@@ -20,6 +20,7 @@ import common  # noqa: E402
 
 TIME_RE = re.compile(r"^\d{1,2}:\d{2}(:\d{2})?$")
 TIME_RE_ANYWHERE = re.compile(r"\b\d{1,2}:\d{2}(:\d{2})?\b")
+STATUS_TAIL_RE = re.compile(r"\b(DSQ|DNS|DNF|MP|OT)\s*$", re.IGNORECASE)
 CLASS_HEADER_RE = re.compile(
     r"\b(MEN|WOMEN|M|W|MIXT|MIXED|MIX)\s*0*(\d{2})?\b.*?\((\d+)\)", re.IGNORECASE
 )
@@ -87,26 +88,37 @@ def parse_individual_oe_pdf(path, source_rel):
             continue
         cells = common.bucket_row(row, columns)
         rank_text = cells.get("rank", "").strip()
-        if not rank_text.isdigit():
+        # A non-finisher (DSQ/DNS/MP/DNF/OT) gets no "Pl" value at all in these PDFs -
+        # the row just starts one column over, at bib/name. Blank is a legitimate
+        # unranked row; anything else non-numeric (stray footer/legend text) isn't.
+        if rank_text and not rank_text.isdigit():
             continue
         total_seen += 1
-        rank = int(rank_text)
+        rank = int(rank_text) if rank_text else None
         bib = cells.get("bib", "").strip() or None
         name = re.sub(r"\s+", " ", cells.get("name", "")).strip()
+        if not name:
+            continue
         tail = re.sub(r"\s+", " ", cells.get("country", "")).strip()
         time_m = TIME_RE_ANYWHERE.search(tail)
+        status_hint = None
         if time_m:
             country_text = tail[: time_m.start()].strip()
             time_text = time_m.group()
         else:
-            country_text = tail
+            sm = STATUS_TAIL_RE.search(tail)
+            if sm:
+                country_text = tail[: sm.start()].strip()
+                status_hint = sm.group(1)
+            else:
+                country_text = tail
             time_text = ""
         country = common.normalize_country(country_text)
         if not country:
             continue
         code, _name = country
         time_s = common.time_to_seconds(time_text) if TIME_RE.match(time_text) else None
-        status = common.normalize_status(time_text if time_s is None else None, time_s is not None)
+        status = common.normalize_status(status_hint, time_s is not None)
         out_rows.append(common.individual_row(current_class, rank, status, bib, code, name, time_s, "high", source_rel))
     return out_rows, total_seen
 

@@ -60,7 +60,7 @@ M16,58,OK,207,ROU,Marton Kentelki,736,approx,2016/results-sprint.pdf
 M16,59,OK,239,DEN,Elias Hinge Krogsgaard,737,approx,2016/results-sprint.pdf
 M16,60,OK,201,HUN,Marcell Szabo,741,approx,2016/results-sprint.pdf
 M16,61,OK,247,BUL,Toma Kotkov,742,approx,2016/results-sprint.pdf
-M16,62,OK,214,TUR,Sinan Ozturk Muhammed,747,approx,2016/results-sprint.pdf
+M16,62,OK,214,TUR,Muhammed Sinan Ozturk,747,approx,2016/results-sprint.pdf
 M16,63,OK,283,AUT,Leo Holper,750,approx,2016/results-sprint.pdf
 M16,64,OK,246,TUR,Kadir Can Cakan,756,approx,2016/results-sprint.pdf
 M16,65,OK,250,BEL,Guillaume Eyen,757,approx,2016/results-sprint.pdf
@@ -88,7 +88,7 @@ M16,86,OK,269,BEL,Simon Arno,956,approx,2016/results-sprint.pdf
 M16,87,OK,238,IRL,Eoin Riordan,957,approx,2016/results-sprint.pdf
 M16,88,OK,264,MDA,Lucian Mirza,1038,approx,2016/results-sprint.pdf
 M16,,DSQ,231,SLO,Matic Blaz,,approx,2016/results-sprint.pdf
-M16,,DSQ,286,ESP,Pedro Stangegaard Perez,,approx,2016/results-sprint.pdf
+M16,,DSQ,286,ESP,Pedro Estangegaard Perez,,approx,2016/results-sprint.pdf
 M16,,DSQ,203,LAT,Rihards Krumins,,approx,2016/results-sprint.pdf
 M16,,DSQ,297,EST,Kaarel Vesilind,,approx,2016/results-sprint.pdf
 M16,,DSQ,204,BLR,Hleb Seuruk,,approx,2016/results-sprint.pdf
@@ -154,7 +154,7 @@ M18,57,OK,323,FRA,Aymeric Wolz,840,approx,2016/results-sprint.pdf
 M18,58,OK,335,AUT,Nicolas Kastner,841,approx,2016/results-sprint.pdf
 M18,58,OK,327,RUS,Semen Petrov,841,approx,2016/results-sprint.pdf
 M18,60,OK,366,TUR,Mucahit Ozkaya,843,approx,2016/results-sprint.pdf
-M18,60,OK,336,HUN,Erik Kalman,843,approx,2016/results-sprint.pdf
+M18,60,OK,336,HUN,Kalman Erik,843,approx,2016/results-sprint.pdf
 M18,62,OK,337,ROU,Peter Divin,845,approx,2016/results-sprint.pdf
 M18,63,OK,378,ROU,Attila Szocs,848,approx,2016/results-sprint.pdf
 M18,64,OK,350,BLR,Timofei Alekseyonok,854,approx,2016/results-sprint.pdf
@@ -191,7 +191,7 @@ M18,94,OK,402,SVK,Andrej Dubovsky,939,approx,2016/results-sprint.pdf
 M18,95,OK,371,ESP,Pablo Fernandez Cascales,941,approx,2016/results-sprint.pdf
 M18,96,OK,352,BEL,Wout Keuppens,949,approx,2016/results-sprint.pdf
 M18,97,OK,351,ISR,Rotem Lanes,950,approx,2016/results-sprint.pdf
-M18,98,OK,359,IRL,Zac O'Sullivan-Hourihan,952,approx,2016/results-sprint.pdf
+M18,98,OK,359,IRL,Zac O\'SULLIVAN-HOURIHAN,952,approx,2016/results-sprint.pdf
 M18,99,OK,395,ROU,Barna Balint,955,approx,2016/results-sprint.pdf
 M18,100,OK,334,IRL,Ruairi Long,956,approx,2016/results-sprint.pdf
 M18,100,OK,316,BUL,Tsewtan Ivanov,956,approx,2016/results-sprint.pdf
@@ -237,7 +237,7 @@ W16,35,OK,20,FRA,Perrine Toussaint,786,approx,2016/results-sprint.pdf
 W16,36,OK,62,SUI,Siana Senn,792,approx,2016/results-sprint.pdf
 W16,37,OK,15,AUT,Ylvi Kastner,793,approx,2016/results-sprint.pdf
 W16,38,OK,59,LTU,Ugne Liegute,795,approx,2016/results-sprint.pdf
-W16,38,OK,71,FRA,Eloise Chatelain,795,approx,2016/results-sprint.pdf
+W16,38,OK,71,FRA,Chatelain Eloise,795,approx,2016/results-sprint.pdf
 W16,40,OK,86,AUT,Rita Tiefenbock,797,approx,2016/results-sprint.pdf
 W16,41,OK,68,ISR,Roni Zahut,799,approx,2016/results-sprint.pdf
 W16,42,OK,72,DEN,Alberte Kaae Nielsen,800,approx,2016/results-sprint.pdf
@@ -347,7 +347,7 @@ W18,59,OK,186,LTU,Migle Susinskaite,993,approx,2016/results-sprint.pdf
 W18,60,OK,113,AUT,Rosa Trummer,996,approx,2016/results-sprint.pdf
 W18,61,OK,104,UKR,Mariia Hoienko,1002,approx,2016/results-sprint.pdf
 W18,62,OK,163,AUT,Tina Tiefenboeck,1004,approx,2016/results-sprint.pdf
-W18,62,OK,156,ESP,Inmaculada Crespo,1004,approx,2016/results-sprint.pdf
+W18,62,OK,156,ESP,Inmaculada Crespo Gonzale,1004,approx,2016/results-sprint.pdf
 W18,64,OK,183,GER,Marei Lehner,1007,approx,2016/results-sprint.pdf
 W18,65,OK,191,POR,Beatriz Sanguino,1012,approx,2016/results-sprint.pdf
 W18,66,OK,119,CZE,Eliska Sieglova,1014,approx,2016/results-sprint.pdf

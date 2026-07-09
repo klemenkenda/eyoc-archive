@@ -41,6 +41,23 @@ RANK_RE = re.compile(r"^\s*(\d+)[.\s]\s*")
 LEADING_NUM_RE = re.compile(r"^\s*\d{1,4}\s+")
 TRAILING_JUNK_RE = re.compile(r"^[A-Z]{1,3}\d{0,2}$|^\d{1,3}$")
 TIME_RE = re.compile(r"(\d{1,3}:\d{2}(?::\d{2})?|\d{1,3}\.\d{2}(?:,\d)?)")
+# Non-finishers (DSQ/DNS/MP/DNF/OT) are printed by every lazarus year as an unranked
+# trailing line after the ranked field, with a status phrase standing in for the time -
+# e.g. "Mihailova Krista Latvija LAT 3 C DISQ", "Rafols, Ona ESP MisPunch",
+# "Majchrzak, Marta POL Fehlst." (German "Fehlstempelung" = mispunch), or "30 Tali, Uku
+# Laur 94 ESTONIA n tarj." (Spanish "sin tarjeta" = mispunch, column-truncated to "n
+# tarj." in one PDF-derived year). "DISK" (2005) and "Po.f." (2008) are this archive's
+# own spellings, confirmed against results/raw/<year>/eyoc<year>.htm by hand - not typos.
+# Matched by explicit vocabulary (not a generic "any trailing word" rule) because
+# common.normalize_country()'s truncated-text fallbacks are permissive enough that a
+# generic rule risks swallowing real trailing name/country text as a fake status.
+STATUS_RE = re.compile(
+    r"^(.*?)\b("
+    r"DISQUALIFIED|DISQ|DISK|DSQ|DNS|DNF|MP|OT|MISPUNCH|NOTCOMPETING|"
+    r"FEHLST\.?|VERLETZT|PO\.?\s*F\.?|NO\s+SALE|(?:EN|N|SIN)\s+TARJ\.?"
+    r")\s*$",
+    re.IGNORECASE,
+)
 
 
 def discipline_for_section(section_text):
@@ -60,31 +77,19 @@ def strip_tags_and_unescape(s):
     return html.unescape(s)
 
 
-def parse_row(line):
-    """Returns (rank, name, country_text, time_text) or None."""
-    line = line.strip()
-    if not line:
+def resolve_name_and_country(words):
+    """Given the whitespace-split tokens of a row with the rank/time/status already
+    stripped off, return (name_words, country_text) or None if no country can be
+    resolved. Shared by the ranked/timed and unranked/status parse_row() paths below."""
+    if not words:
         return None
-    rm = RANK_RE.match(line)
-    if not rm:
-        return None
-    rank = int(rm.group(1))
-    rest = line[rm.end():]
-    tm = TIME_RE.search(rest)
-    if not tm:
-        return None
-    before = rest[: tm.start()].strip()
-    time_text = tm.group(1)
-    # drop a leading bib number / birth year, e.g. "717 Müller, Sandrine ... Switzerland"
-    before = LEADING_NUM_RE.sub("", before)
-    words = before.split()
     # a 2006 row glues the bare country code directly onto the end of the name with no
     # space at all and no other mention of the country anywhere in the row, e.g.
     # "BjerkreimNOR" - split it off up front (the candidate-matching loop below works on
     # whole words, so a glued suffix on the final word would otherwise never be seen).
     country_text = None
     name_words = words
-    glued = common.glued_country_code_suffix(words[-1]) if words else None
+    glued = common.glued_country_code_suffix(words[-1])
     if glued:
         name_part, country_text = glued
         name_words = words[:-1] + [name_part]
@@ -150,9 +155,46 @@ def parse_row(line):
             resolved = common.normalize_country(country_text)
             if resolved and name_words[-1].upper().endswith(resolved[0]) and len(name_words[-1]) > 3:
                 name_words[-1] = name_words[-1][: -len(resolved[0])]
+    return name_words, country_text
+
+
+def parse_row(line):
+    """Returns (rank_or_None, name, country_text, time_text_or_None, status_word_or_None)
+    or None.
+
+    `rank` is None and `time_text` is None for the unranked DSQ/DNS/MP/DNF/OT lines
+    described by STATUS_RE - those competitors still need a row (with a blank rank and
+    no time), just not a ranked/timed one."""
+    line = line.strip()
+    if not line:
+        return None
+    rm = RANK_RE.match(line)
+    rank = int(rm.group(1)) if rm else None
+    rest = line[rm.end():] if rm else line
+    tm = TIME_RE.search(rest)
+    status_word = None
+    if tm:
+        before = rest[: tm.start()].strip()
+        time_text = tm.group(1)
+    else:
+        sm = STATUS_RE.match(rest)
+        if not sm:
+            return None
+        before = sm.group(1).strip()
+        time_text = None
+        status_word = sm.group(2).upper()
+    if not before:
+        return None
+    before = LEADING_NUM_RE.sub("", before)  # leading bib/birth year, e.g. "717 Müller, Sandrine"
+    resolved = resolve_name_and_country(before.split())
+    if resolved is None:
+        return None
+    name_words, country_text = resolved
     name = re.sub(r"\s+", " ", " ".join(name_words)).strip().rstrip(",")
     name = re.sub(r"\s+\d{2}$", "", name)  # trailing 2-digit birth year, e.g. "Sandrine 95"
-    return rank, name, country_text, time_text
+    if not name:
+        return None
+    return rank, name, country_text, time_text, status_word
 
 
 def _cp1250_char(b):
@@ -209,7 +251,7 @@ def parse_year(path, year):
             if not parsed:
                 continue
             total_seen_by_discipline[discipline] += 1
-            rank, name, country_text, time_text = parsed
+            rank, name, country_text, time_text, status_word = parsed
             if year in FORCE_SURNAME_FIRST_YEARS:
                 words = name.split(" ")
                 if len(words) >= 2:
@@ -219,7 +261,7 @@ def parse_year(path, year):
                 continue
             code, _name = country
             time_s = common.time_to_seconds(time_text)
-            status = common.normalize_status(None, time_s is not None)
+            status = common.normalize_status(status_word, time_s is not None)
             by_discipline[discipline].append(
                 common.individual_row(klass, rank, status, None, code, name, time_s, "high", f"{year}/{path.name}")
             )

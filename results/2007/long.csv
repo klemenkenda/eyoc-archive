@@ -83,6 +83,8 @@ W16,81,OK,,SVK,Barbora Frankova,4692,high,2007/eyoc2007.htm
 W16,82,OK,,SLO,Barbara Pogacar,4777,high,2007/eyoc2007.htm
 W16,83,OK,,CRO,Marija Stambuk,5677,high,2007/eyoc2007.htm
 W16,84,OK,,CRO,Marija Eajko,5805,high,2007/eyoc2007.htm
+W16,,MP,,HUN,Filomena Kovacs,,high,2007/eyoc2007.htm
+W16,,MP,,LAT,Laura Nimante,,high,2007/eyoc2007.htm
 W18,1,OK,,FIN,Marika Teini,3106,high,2007/eyoc2007.htm
 W18,2,OK,,CZE,Tereza Petrzelova,3136,high,2007/eyoc2007.htm
 W18,3,OK,,SUI,Bettina Aebi,3224,high,2007/eyoc2007.htm
@@ -159,6 +161,10 @@ W18,73,OK,,SLO,Tanja Pretnar,6064,high,2007/eyoc2007.htm
 W18,74,OK,,SRB,Ana Matkovia,6405,high,2007/eyoc2007.htm
 W18,75,OK,,BLR,Alena Shkutava,6653,high,2007/eyoc2007.htm
 W18,76,OK,,SRB,Ana Jankovic,8528,high,2007/eyoc2007.htm
+W18,,MP,,CRO,Anamaria Tusia,,high,2007/eyoc2007.htm
+W18,,MP,,HUN,Vanda Zsigmond,,high,2007/eyoc2007.htm
+W18,,MP,,ESP,Luisa Rico Mira,,high,2007/eyoc2007.htm
+W18,,MP,,SVK,Dasa Mihalova,,high,2007/eyoc2007.htm
 M16,1,OK,,FRA,Lucas Basset,2451,high,2007/eyoc2007.htm
 M16,2,OK,,RUS,Dmitriy Nakonechnyy,2496,high,2007/eyoc2007.htm
 M16,3,OK,,CZE,Jan Petrzela,2531,high,2007/eyoc2007.htm
@@ -227,7 +233,7 @@ M16,65,OK,,ROU,Georgescu Cosmin,3858,high,2007/eyoc2007.htm
 M16,66,OK,,SVK,Peter Mizur,3859,high,2007/eyoc2007.htm
 M16,67,OK,,BLR,Mikhail Kazhadub,3889,high,2007/eyoc2007.htm
 M16,68,OK,,GER,Felix Spaeth,3955,high,2007/eyoc2007.htm
-M16,69,OK,,ROU,Marcelin Vasile Giurgica,3959,high,2007/eyoc2007.htm
+M16,69,OK,,ROU,Marcelin Giurgica,3959,high,2007/eyoc2007.htm
 M16,70,OK,,ITA,Marco Guizzardi,3977,high,2007/eyoc2007.htm
 M16,71,OK,,SLO,Blaz Grah,4004,high,2007/eyoc2007.htm
 M16,72,OK,,UKR,Kostiantyn Schukyn,4072,high,2007/eyoc2007.htm
@@ -246,6 +252,9 @@ M16,84,OK,,CRO,Vjeran Horvat,4976,high,2007/eyoc2007.htm
 M16,85,OK,,UKR,Anton Varenyk,5179,high,2007/eyoc2007.htm
 M16,86,OK,,CRO,Lobel Horvat,5870,high,2007/eyoc2007.htm
 M16,87,OK,,SLO,Matjaz Pahor,5978,high,2007/eyoc2007.htm
+M16,,MP,,EST,Jonatan Karjus,,high,2007/eyoc2007.htm
+M16,,MP,,ESP,Marc Serrallonga Arques,,high,2007/eyoc2007.htm
+M16,,MP,,SUI,Patrik Wageli,,high,2007/eyoc2007.htm
 M18,1,OK,,CZE,Jakub Zimmermann,3182,high,2007/eyoc2007.htm
 M18,2,OK,,BLR,Yury Tambasau,3217,high,2007/eyoc2007.htm
 M18,3,OK,,FRA,Theo Fleurent,3336,high,2007/eyoc2007.htm
@@ -261,7 +270,7 @@ M18,12,OK,,LAT,Andris Jubelis,3486,high,2007/eyoc2007.htm
 M18,13,OK,,BLR,Siarhei Fedatsenka,3531,high,2007/eyoc2007.htm
 M18,14,OK,,FIN,Vili Niemi,3540,high,2007/eyoc2007.htm
 M18,15,OK,,RUS,Sergey Vasilyev,3554,high,2007/eyoc2007.htm
-M18,16,OK,,FRA,Thibault Poupard,3566,high,2007/eyoc2007.htm
+M18,16,OK,,FRA,Thibault Poupart,3566,high,2007/eyoc2007.htm
 M18,17,OK,,CZE,Milos Nykodym,3581,high,2007/eyoc2007.htm
 M18,18,OK,,NOR,Morten Westergard,3599,high,2007/eyoc2007.htm
 M18,19,OK,,LTU,Tadas Vidzikauskas,3602,high,2007/eyoc2007.htm
@@ -330,7 +339,7 @@ M18,81,OK,,ROU,Florin Tuncu,5129,high,2007/eyoc2007.htm
 M18,82,OK,,ESP,Marcal Serralonga Amigo,5186,high,2007/eyoc2007.htm
 M18,83,OK,,ISR,Omer Powitzer,5227,high,2007/eyoc2007.htm
 M18,84,OK,,AUT,Joachim Bosina,5300,high,2007/eyoc2007.htm
-M18,85,OK,,ISR,Aram Yaacobi,5451,high,2007/eyoc2007.htm
+M18,85,OK,,ISR,Aram Yaakobi,5451,high,2007/eyoc2007.htm
 M18,86,OK,,BUL,Vasil Mihaylov,5605,high,2007/eyoc2007.htm
 M18,87,OK,,IRL,Niall Ewen,5646,high,2007/eyoc2007.htm
 M18,88,OK,,IRL,Cian O'Boyle,5657,high,2007/eyoc2007.htm
@@ -338,4 +347,5 @@ M18,89,OK,,IRL,Alan Lane,5975,high,2007/eyoc2007.htm
 M18,90,OK,,SRB,Stefan Gasparovia,6111,high,2007/eyoc2007.htm
 M18,91,OK,,ESP,Juan Manuel Merida Sanchis,6183,high,2007/eyoc2007.htm
 M18,92,OK,,UKR,Mykola Fodchuk,6607,high,2007/eyoc2007.htm
-M18,93,OK,,SRB,Djordje Arizanovic,7125,high,2007/eyoc2007.htm
+M18,93,OK,,SRB,Djordje Arizanovia,7125,high,2007/eyoc2007.htm
+M18,,MP,,GER,Matthias Kretzschmar,,high,2007/eyoc2007.htm
