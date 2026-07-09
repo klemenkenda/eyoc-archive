@@ -114,10 +114,29 @@ def extract_course(course_el):
             data[key] = val
     return data
 
+def normalize_metadata_shape(meta):
+    changed = False
+    for disc in ['long','sprint','relay']:
+        d = meta.get(disc, {})
+        categories = d.get('categories') or {}
+        if not isinstance(categories, dict):
+            continue
+        for cat in categories.values():
+            if not isinstance(cat, dict):
+                continue
+            if 'place' in cat:
+                del cat['place']
+                changed = True
+            if 'map_name' in cat:
+                del cat['map_name']
+                changed = True
+    return changed
+
+
 def update_one(meta_path: Path, repo: Path):
     meta = json.loads(meta_path.read_text(encoding='utf-8'))
     year = str(meta.get('year') or meta_path.parent.name)
-    changed = False
+    changed = normalize_metadata_shape(meta)
     for disc in ['long','sprint','relay']:
         d = meta.get(disc, {})
         srcs = (d.get('source') or {}).get('raw_source_files') or []

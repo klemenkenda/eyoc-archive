@@ -36,18 +36,32 @@
         <select id="rawFileSelect"></select>
       </div>
       <iframe id="rawFrame" sandbox="allow-same-origin"></iframe>
+      <div id="rawXmlWrap" class="hidden">
+        <table id="rawXmlTable">
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
     </section>
 
     <section id="csvPane">
       <div class="pane-header">
         <span>CSV (<span id="rowCount">0</span> rows)</span>
         <div>
+          <button id="xmlCheckBtn" class="btn btn-small" title="Select a raw source file (XML or lazarus HTML) to check the CSV against it">⚠ 0</button>
           <button id="addRowBtn" class="btn btn-small">+ Row</button>
           <button id="saveCsvBtn" class="btn btn-small btn-primary">Save CSV</button>
         </div>
       </div>
       <div id="unlockedWarning" class="warning hidden">
         Not locked - "Rebuild from raw" will overwrite this file. Lock it once you're happy.
+      </div>
+      <div id="xmlCheckPanel" class="hidden">
+        <div class="xml-check-header">
+          <span id="xmlCheckSummary"></span>
+          <button id="xmlCheckCloseBtn" class="btn btn-small">✕</button>
+        </div>
+        <div id="xmlCheckList"></div>
       </div>
       <div id="csvTableWrap">
         <table id="csvTable">
