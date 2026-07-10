@@ -13,9 +13,9 @@ W16,11,OK,HUN,Hungary,7649,Virag Weiler,2100,Reka Faggyas,3208,Luca Szuromi,2341
 W16,12,OK,GBR,UK,7663,Katherine Hall,2230,Megan Carter-Davies,2877,Natalie Beadle,2556,high,2011/eyoc2011.htm
 W16,13,OK,EST,Estonia,8089,Margret Zimmermann,2583,Marianne Haug,3135,Triinu Rooni,2371,high,2011/eyoc2011.htm
 W16,14,OK,ITA,Italy,9142,Lia Patscheider,2473,Gaia Sebastiani,3650,Elisa Lucian,3019,high,2011/eyoc2011.htm
-W16,15,OK,ISR,Israel,9175,Ayali Hilla,2910,Adi Gutman,3279,Marina Maerkovitch,2986,high,2011/eyoc2011.htm
+W16,15,OK,ISR,Israel,9175,Hilla Ayali,2910,Adi Gutman,3279,Marina Maerkovitch,2986,high,2011/eyoc2011.htm
 W16,16,OK,SVK,Slovakia,9898,Andrea Papugova,4302,Vanda Hosekova,3156,Martina Papugova,2440,high,2011/eyoc2011.htm
-W16,17,OK,ESP,Spain,9924,Martin de Los Rios Silvia,2472,Marta Guijo Alonso,4187,Illa Camps Maria,3265,high,2011/eyoc2011.htm
+W16,17,OK,ESP,Spain,9924,Silvia Martin de los Rios,2472,Marta Guijo Alonso,4187,Illa Camps Maria,3265,high,2011/eyoc2011.htm
 W16,18,OK,SLO,Slovenia,11296,Tajda Foski,2618,Nusa Jeram,5048,Ana Cufer,3630,high,2011/eyoc2011.htm
 W18,1,OK,CZE,Czechia,7388,Johanka Simkova,2366,Nikola Kochova,2841,Vendula Horcickova,2181,high,2011/eyoc2011.htm
 W18,2,OK,NOR,Norway,7505,Marie Nordbye Nybo,2474,Anna Ulvensoen,2727,Runa Fremstad,2304,high,2011/eyoc2011.htm
@@ -53,7 +53,7 @@ M16,14,OK,ESP,Spain,10085,Saez Alvarez Jose Maria,2744,Elmar Montero Carceles,42
 M16,15,OK,POR,Portugal,10809,Tiago Baltazar,2898,Joao Cascalho,4368,Miguel Ferreira,3543,high,2011/eyoc2011.htm
 M16,16,OK,EST,Estonia,10907,Janek Piirisild,3167,Anti Soukand,4082,Rimmo Room,3658,high,2011/eyoc2011.htm
 M16,17,OK,SLO,Slovenia,11403,Gregor Hvala,3170,Blaz Petrovic,4659,Peter Tusar,3574,high,2011/eyoc2011.htm
-M16,18,OK,ROU,Romania,13483,Gergely Bogya,3166,Dan Cazian Bogdan,5355,Felician Bele,4962,high,2011/eyoc2011.htm
+M16,18,OK,ROU,Romania,13483,Gergely Bogya,3166,Bogdan Dan Cazian,5355,Felician Bele,4962,high,2011/eyoc2011.htm
 M18,1,OK,CZE,Czechia,7698,Tomas Kubelka,2607,Marek Minar,2678,Adam Chloupek,2413,high,2011/eyoc2011.htm
 M18,2,OK,SWE,Sweden,7704,Niklas Alden,2637,Anton Johansson,2563,Erik Malmberg,2504,high,2011/eyoc2011.htm
 M18,3,OK,RUS,Russia,7766,Aleksandr Makeichik,2723,Andrey Kozyrev,2699,Ivan Kuchmenko,2344,high,2011/eyoc2011.htm
@@ -74,7 +74,7 @@ M18,17,OK,GER,Germany,9991,Susen Loesch,2988,Felix Topp Jan,3228,Theresa Flechsi
 M18,18,OK,BUL,Bulgaria,10013,Martin Ponev,3120,Valentin Kirilov,3503,Apostol Atanasov,3390,high,2011/eyoc2011.htm
 M18,19,OK,ESP,Spain,10132,Morales Ruiz Pedro,3232,Luis Sanchez Serrano,3395,Eduardo Gil Marcos,3505,high,2011/eyoc2011.htm
 M18,20,OK,EST,Estonia,10426,Tonis Laugesaar,3016,Kristjan Linnus,3315,Reigo Teervalt,4095,high,2011/eyoc2011.htm
-M18,21,OK,IRL,Ireland,11252,Eoin Mc Cullough,3198,Laurence Quinn,3727,Mark Stephens,4327,high,2011/eyoc2011.htm
+M18,21,OK,IRL,Ireland,11252,Eoin McCullough,3198,Laurence Quinn,3727,Mark Stephens,4327,high,2011/eyoc2011.htm
 M18,22,OK,ROU,Romania,12077,Tamas Prezenszki,4202,Paul Pricop Constantin,3864,Alex Mercar Dorin,4011,high,2011/eyoc2011.htm
 M18,23,OK,SRB,Serbia,12721,Filip Stevanovic,3240,Sava Lazic,4326,Nikola Bilic,5155,high,2011/eyoc2011.htm
 M18,24,OK,ISR,Israel,12929,Nitsan Yasur,4091,Yuval Rafaeli,4369,Itay Manor,4469,high,2011/eyoc2011.htm

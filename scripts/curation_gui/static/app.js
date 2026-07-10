@@ -65,11 +65,28 @@ function secondsToHms(val) {
   return `${sign}${hPart}${pad(m)}:${pad(s)}${tPart}`;
 }
 
-// "(H:)MM:SS(.T)" (also tolerates plain "SS") -> seconds, for editing round-trip
+// "(H:)MM:SS(.T)" (also tolerates plain "SS") -> seconds, for editing round-trip.
+// Also parses the raw lazarus.elte.hu (2002-2013) "MM.SS,d" / "MM.SS" convention -
+// the dot there separates minutes/seconds, not tenths - mirrors
+// common.time_to_seconds() so raw-source times from that era compare correctly
+// instead of every row misreading as a tenths-of-a-second value. Unambiguous vs. our
+// own "(H:)MM:SS(.T)" display format because that one always has a colon; this one
+// never does.
 function hmsToSeconds(text) {
   if (text === null || text === undefined) return "";
   const t = text.toString().trim();
   if (t === "") return "";
+  if (!t.includes(":")) {
+    let m = t.match(/^(\d+)\.(\d{2}),(\d+)$/);
+    if (m) {
+      const [, mins, secs, frac] = m;
+      const base = Number(mins) * 60 + Number(secs);
+      const fracVal = Number(frac) / 10 ** frac.length;
+      return fracVal ? Math.round((base + fracVal) * 10) / 10 : base;
+    }
+    m = t.match(/^(\d+)\.(\d{2})$/);
+    if (m) return Number(m[1]) * 60 + Number(m[2]);
+  }
   const dotIdx = t.lastIndexOf(".");
   let mainPart = t;
   let tenths = 0;
@@ -96,13 +113,35 @@ function escapeHtml(s) {
 }
 
 // Same resolution common.normalize_country uses (bare code, or a known alias/name),
-// minus its PDF-OCR-specific truncation heuristics - good enough to flag for review.
+// plus its two "leading mention, junk trails after" shortcuts - lazarus-era HTML
+// (2002-2013) glues a redundant bib/heat/seed-group suffix onto the country, e.g.
+// "POL 1 D" or "Switzerland SUI13 D" (see resolve_name_and_country in
+// parse_lazarus_html.py) - without these, every row in years that do this fails to
+// resolve as EYOC-eligible and the CSV-vs-source check misfires on the entire file.
+// Still missing common.normalize_country()'s PDF-OCR truncation heuristics - good
+// enough to flag for review, not a byte-for-byte port.
 function resolveEyocCode(text) {
   if (!text) return null;
   const t = text.toString().trim();
   if (!t) return null;
   if (state.countryCodes.has(t.toUpperCase())) return t.toUpperCase();
-  return state.countryAliases[t.toLowerCase()] || null;
+  const alias = state.countryAliases[t.toLowerCase()];
+  if (alias) return alias;
+
+  // "POL 1 D" - a bare 3-letter code (written upper-case, same as the source) as the
+  // first word, with anything trailing after it.
+  const lead = t.split(/\s+/)[0];
+  if (lead.length === 3 && lead === lead.toUpperCase() && state.countryCodes.has(lead)) {
+    return lead;
+  }
+  // "Switzerland SUI13 D" - a known country name as a leading prefix, then junk.
+  const lower = t.toLowerCase();
+  for (const aliasKey of state.countryAliasKeysByLengthDesc) {
+    if (aliasKey.length >= 4 && lower.startsWith(aliasKey + " ")) {
+      return state.countryAliases[aliasKey];
+    }
+  }
+  return null;
 }
 
 function isEyocCountry(text) {
@@ -116,8 +155,10 @@ const state = {
   rows: [],         // working copy of rows for the active discipline
   countryCodes: new Set(),   // EYOC-eligible 3-letter codes
   countryAliases: {},        // lowercase name/code -> canonical EYOC code
+  countryAliasKeysByLengthDesc: [],  // Object.keys(countryAliases), longest first
   timeColMode: {},           // time column key -> "hms" (default) | "seconds"
   rawSourceData: null,       // last successfully parsed /api/raw-xml or /api/raw-lazarus response, or null
+  rawViewMode: "table",      // "table" (parsed) | "original" (iframe) - only relevant when rawSourceData is set
   xmlCheckIssues: [],        // last checkCsvAgainstSource() result
 };
 
@@ -148,6 +189,7 @@ async function init() {
   ]);
   state.countryCodes = new Set(codes.map(([code]) => code));
   state.countryAliases = aliases;
+  state.countryAliasKeysByLengthDesc = Object.keys(aliases).sort((a, b) => b.length - a.length);
 
   const codeList = $("#countryCodes");
   codeList.innerHTML = codes.map(([code, name]) => `<option value="${code}">${name}</option>`).join("");
@@ -163,6 +205,9 @@ async function init() {
 
   $("#lockToggle").addEventListener("click", toggleLock);
   $("#rawFileSelect").addEventListener("change", updateRawFrame);
+  $("#rawViewToggle").addEventListener("click", () => {
+    setRawViewMode(state.rawViewMode === "table" ? "original" : "table");
+  });
   $("#addRowBtn").addEventListener("click", addRow);
   $("#saveCsvBtn").addEventListener("click", saveCsv);
   $("#saveMetadataBtn").addEventListener("click", saveMetadata);
@@ -223,22 +268,44 @@ function rawTableEndpoint(file) {
   return null;
 }
 
-async function updateRawFrame() {
-  const sel = $("#rawFileSelect");
+// Shows either the parsed table or the original raw file in an iframe, without
+// re-fetching - the table's already-rendered HTML (including check highlighting)
+// just gets hidden/shown, so toggling back and forth is instant.
+function setRawViewMode(mode) {
+  state.rawViewMode = mode;
   const frame = $("#rawFrame");
   const wrap = $("#rawXmlWrap");
+  const toggle = $("#rawViewToggle");
+  const file = $("#rawFileSelect").value;
+  if (mode === "original") {
+    wrap.classList.add("hidden");
+    frame.classList.remove("hidden");
+    frame.src = file ? `/api/raw/${file}` : "about:blank";
+    toggle.textContent = "Show table";
+  } else {
+    frame.classList.add("hidden");
+    wrap.classList.remove("hidden");
+    toggle.textContent = "Show original";
+  }
+}
+
+async function updateRawFrame() {
+  const sel = $("#rawFileSelect");
+  const wrap = $("#rawXmlWrap");
+  const toggle = $("#rawViewToggle");
   const file = sel.value;
   state.rawSourceData = null;
+  toggle.classList.add("hidden");
 
   const endpoint = file ? rawTableEndpoint(file) : null;
   if (endpoint) {
-    frame.classList.add("hidden");
-    wrap.classList.remove("hidden");
     wrap.innerHTML = `<p class="raw-loading">Parsing...</p>`;
+    setRawViewMode("table");
     try {
       const data = await api(`/api/${endpoint}/${file}`);
       renderRawSourceTable(data, file);
       state.rawSourceData = data;
+      toggle.classList.remove("hidden");
     } catch (e) {
       wrap.innerHTML = `<p class="raw-loading">Could not render as a table (${e.message}). ` +
         `<a href="/api/raw/${file}" target="_blank">Open raw file instead</a>.</p>`;
@@ -247,9 +314,7 @@ async function updateRawFrame() {
     return;
   }
 
-  wrap.classList.add("hidden");
-  frame.classList.remove("hidden");
-  frame.src = file ? `/api/raw/${file}` : "about:blank";
+  setRawViewMode("original");
   updateXmlCheckBadge();
 }
 
@@ -503,7 +568,7 @@ function checkCsvAgainstSource(discipline, csvRows, sourceData) {
     if (!csvByKey.has(key)) {
       const row = rows[0];
       issues.push({
-        severity: "error", class: normalizeClassForCompare(row.class), subject: subjectFor(row),
+        severity: "error", class: normalizeClassForCompare(row.class), subject: subjectFor(row), sourceRow: row,
         message: "In the raw source (EYOC-eligible) but missing from the CSV.",
       });
     }
@@ -514,7 +579,8 @@ function checkCsvAgainstSource(discipline, csvRows, sourceData) {
     if (!csvRows2) return;
     if (xmlRows.length > 1 || csvRows2.length > 1) {
       issues.push({
-        severity: "warning", class: normalizeClassForCompare(xmlRows[0].class), subject: key, rows: csvRows2,
+        severity: "warning", class: normalizeClassForCompare(xmlRows[0].class), subject: key,
+        rows: csvRows2, sourceRows: xmlRows,
         message: "Multiple rows share the same match key (class + bib/team) - comparison skipped for these.",
       });
       return;
@@ -532,13 +598,13 @@ function checkCsvAgainstSource(discipline, csvRows, sourceData) {
     if (csvSeconds !== null && xmlSeconds !== null) {
       if (Math.abs(csvSeconds - xmlSeconds) > 0.05) {
         issues.push({
-          severity: "error", class: cls, subject, row: csvRow,
+          severity: "error", class: cls, subject, row: csvRow, sourceRow: xmlRow,
           message: `Time mismatch: CSV ${secondsToHms(csvSeconds)} vs source ${secondsToHms(xmlSeconds)}.`,
         });
       }
     } else if ((csvSeconds !== null) !== (xmlSeconds !== null)) {
       issues.push({
-        severity: "warning", class: cls, subject, row: csvRow,
+        severity: "warning", class: cls, subject, row: csvRow, sourceRow: xmlRow,
         message: `Time present in only one source (CSV: ${csvSeconds !== null ? secondsToHms(csvSeconds) : "-"}, ` +
           `XML: ${xmlSeconds !== null ? secondsToHms(xmlSeconds) : "-"}).`,
       });
@@ -548,7 +614,7 @@ function checkCsvAgainstSource(discipline, csvRows, sourceData) {
     const xmlStatus = statusBucket(xmlRow.status);
     if (csvStatus && xmlStatus && csvStatus !== xmlStatus) {
       issues.push({
-        severity: "warning", class: cls, subject, row: csvRow,
+        severity: "warning", class: cls, subject, row: csvRow, sourceRow: xmlRow,
         message: `Status mismatch: CSV "${csvStatus}" vs source "${xmlRow.status}" (~${xmlStatus}).`,
       });
     }
@@ -558,7 +624,7 @@ function checkCsvAgainstSource(discipline, csvRows, sourceData) {
       const xmlCountry = resolveEyocCode(xmlRow.country);
       if (csvCountry && xmlCountry && csvCountry !== xmlCountry) {
         issues.push({
-          severity: "warning", class: cls, subject, row: csvRow,
+          severity: "warning", class: cls, subject, row: csvRow, sourceRow: xmlRow,
           message: `Country mismatch: CSV "${csvCountry}" vs source "${xmlRow.country}" (resolves to ${xmlCountry}).`,
         });
       }
@@ -573,8 +639,26 @@ function issueRows(issue) {
   return issue.rows || (issue.row ? [issue.row] : []);
 }
 
-// Recomputes state.xmlCheckIssues plus a row -> "error"|"warning" severity map (the
-// worst severity of any issue touching that row), used to highlight the CSV table.
+// Same, but for the raw-source-side row(s) an issue points at (`sourceRow`/`sourceRows`).
+function issueSourceRows(issue) {
+  return issue.sourceRows || (issue.sourceRow ? [issue.sourceRow] : []);
+}
+
+function buildSeverityMap(issues, getRows) {
+  const map = new Map();
+  issues.forEach((issue) => {
+    getRows(issue).forEach((row) => {
+      if (map.get(row) === "error") return;
+      if (issue.severity === "error") map.set(row, "error");
+      else if (!map.has(row)) map.set(row, "warning");
+    });
+  });
+  return map;
+}
+
+// Recomputes state.xmlCheckIssues plus row -> "error"|"warning" severity maps (the
+// worst severity of any issue touching that row) for both the CSV and raw-source
+// tables, so both can be highlighted.
 function computeXmlCheck() {
   let sourceData = state.rawSourceData;
   if (sourceData && sourceData.rows.some((r) => r.discipline)) {
@@ -583,33 +667,33 @@ function computeXmlCheck() {
     sourceData = { ...sourceData, rows: sourceData.rows.filter((r) => r.discipline === state.discipline) };
   }
   state.xmlCheckIssues = checkCsvAgainstSource(state.discipline, state.rows, sourceData);
-  const severityByRow = new Map();
-  state.xmlCheckIssues.forEach((issue) => {
-    issueRows(issue).forEach((row) => {
-      if (severityByRow.get(row) === "error") return;
-      if (issue.severity === "error") severityByRow.set(row, "error");
-      else if (!severityByRow.has(row)) severityByRow.set(row, "warning");
-    });
-  });
-  state.xmlCheckRowSeverity = severityByRow;
+  state.xmlCheckRowSeverity = buildSeverityMap(state.xmlCheckIssues, issueRows);
+  state.xmlCheckSourceRowSeverity = buildSeverityMap(state.xmlCheckIssues, issueSourceRows);
 }
 
-// Applies row-check-error/warning classes + a tooltip to the *existing* csvTable
-// <tr> elements (matched to state.rows by position) - no table rebuild needed, so
-// this is cheap enough to call after every edit without disturbing input focus.
-function applyXmlCheckRowHighlighting() {
-  const tbody = $("#csvTable tbody");
+// Applies row-check-error/warning classes + a tooltip to the *existing* table <tr>
+// elements (matched to `rows` by position) - no table rebuild needed, so this is
+// cheap enough to call after every edit without disturbing input focus.
+function applyRowHighlighting(tableSelector, rows, severityMap, getIssueRows) {
+  const tbody = $(`${tableSelector} tbody`);
   if (!tbody) return;
   Array.from(tbody.children).forEach((tr, i) => {
-    const row = state.rows[i];
+    const row = rows[i];
     if (!row) return;
-    const sev = state.xmlCheckRowSeverity.get(row);
+    const sev = severityMap.get(row);
     tr.classList.toggle("row-check-error", sev === "error");
     tr.classList.toggle("row-check-warning", sev === "warning");
-    const messages = state.xmlCheckIssues.filter((iss) => issueRows(iss).includes(row)).map((iss) => iss.message);
+    const messages = state.xmlCheckIssues.filter((iss) => getIssueRows(iss).includes(row)).map((iss) => iss.message);
     if (messages.length) tr.title = messages.join("\n");
     else tr.removeAttribute("title");
   });
+}
+
+function applyXmlCheckRowHighlighting() {
+  applyRowHighlighting("#csvTable", state.rows, state.xmlCheckRowSeverity, issueRows);
+  if (state.rawSourceData) {
+    applyRowHighlighting("#rawXmlTable", state.rawSourceData.rows, state.xmlCheckSourceRowSeverity, issueSourceRows);
+  }
 }
 
 function updateXmlCheckBadge() {

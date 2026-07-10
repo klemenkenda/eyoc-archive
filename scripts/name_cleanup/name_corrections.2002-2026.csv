@@ -600,3 +600,5 @@ approve,HUN,Andr�s Szabo,Andras Szabo,internal,majority-vote,1,2006/sprint.csv
 approve,ISR,Ayali Hilla,Hilla Ayali,internal,majority-vote,3,"2011/long.csv, 2011/relay.csv, 2011/sprint.csv"
 approve,ROU,Ioana Zah-Ghit,Ioana Zah-Git,internal,majority-vote,3,"2004/long.csv, 2004/relay.csv, 2004/sprint.csv"
 approve,SVK,Aubka Weissova,Lubka Weissova,internal,majority-vote,1,2017/long.csv
+approve,LTU,Gedimina Gvildys Jonas,Jonas Gvildys,internal,manual,1,"2003/sprint.csv, 2003/long.csv"
+approve,LTU,Jonas Gediminas Gvildys,Jonas Gvildys,internal,manual,1,"2003/sprint.csv, 2003/long.csv"

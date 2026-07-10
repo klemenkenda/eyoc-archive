@@ -52,7 +52,7 @@ M16,49,OK,0236,GER,Martin Scheuermann,919,high,2017/result-sprint.pdf
 M16,51,OK,0135,ISR,Sela Zamir,924,high,2017/result-sprint.pdf
 M16,52,OK,0211,SUI,Janis Hutzli,935,high,2017/result-sprint.pdf
 M16,52,OK,0207,LAT,Ralfs Janis Eizvertins,935,high,2017/result-sprint.pdf
-M16,54,OK,0244,RUS,Sorokin Daniil,938,high,2017/result-sprint.pdf
+M16,54,OK,0244,RUS,Daniil Sorokin,938,high,2017/result-sprint.pdf
 M16,55,OK,0104,POL,Krystian Petersburski,941,high,2017/result-sprint.pdf
 M16,56,OK,0206,LAT,Maris Heinols,945,high,2017/result-sprint.pdf
 M16,56,OK,0105,LAT,Davis Solmanis,945,high,2017/result-sprint.pdf
@@ -117,7 +117,7 @@ M18,16,OK,9913,FIN,Aaro Aho,851,high,2017/result-sprint.pdf
 M18,17,OK,9920,SUI,Reto Egger,854,high,2017/result-sprint.pdf
 M18,18,OK,9945,NOR,Oskar Spets Storhov,856,high,2017/result-sprint.pdf
 M18,19,OK,0004,RUS,Nikolai Kudriavtcev,857,high,2017/result-sprint.pdf
-M18,20,OK,9917,HUN,Kalman Erik,869,high,2017/result-sprint.pdf
+M18,20,OK,9917,HUN,Erik Kalman,869,high,2017/result-sprint.pdf
 M18,21,OK,0019,HUN,Csongor Horvath,872,high,2017/result-sprint.pdf
 M18,22,OK,9904,GBR,Finlay Todd,875,high,2017/result-sprint.pdf
 M18,23,OK,0003,GBR,Alastair Thomas,876,high,2017/result-sprint.pdf
@@ -138,13 +138,13 @@ M18,35,OK,0049,BUL,Boyan Ivandzhikov,918,high,2017/result-sprint.pdf
 M18,35,OK,9934,BEL,Crefcoeur Lievin,918,high,2017/result-sprint.pdf
 M18,39,OK,0011,POL,Konrad Plociennik,920,high,2017/result-sprint.pdf
 M18,40,OK,0024,POR,Andre da Silva Nunes Henr,924,high,2017/result-sprint.pdf
-M18,40,OK,0046,ESP,Pedro Estangegaard Perez,924,high,2017/result-sprint.pdf
+M18,40,OK,0046,ESP,Pedro Stangegaard Perez,924,high,2017/result-sprint.pdf
 M18,42,OK,9935,TUR,Samet Kossek,927,high,2017/result-sprint.pdf
 M18,42,OK,0013,AUT,Leo Holper,927,high,2017/result-sprint.pdf
 M18,44,OK,0014,FIN,Niklas Heikkila,935,high,2017/result-sprint.pdf
 M18,45,OK,0003,SWE,Gustav Runefors,936,high,2017/result-sprint.pdf
 M18,46,OK,9921,SUI,Nils Eyer,938,high,2017/result-sprint.pdf
-M18,47,OK,0002,UKR,Samoilenko Kostiantyn,939,high,2017/result-sprint.pdf
+M18,47,OK,0002,UKR,Konstiantyn Samoilenko,939,high,2017/result-sprint.pdf
 M18,48,OK,9906,SWE,Oscar Johansson,941,high,2017/result-sprint.pdf
 M18,49,OK,0002,ITA,Enrico Mannocci,942,high,2017/result-sprint.pdf
 M18,49,OK,0035,BEL,Guillaume Eyen,942,high,2017/result-sprint.pdf
@@ -258,7 +258,7 @@ W16,51,OK,0283,BEL,Kato Keuppens,926,high,2017/result-sprint.pdf
 W16,52,OK,0165,HUN,Dominika Mero,927,high,2017/result-sprint.pdf
 W16,53,OK,0299,RUS,Sopova Nina,932,high,2017/result-sprint.pdf
 W16,54,OK,0260,LAT,Anna Emilija Suta,934,high,2017/result-sprint.pdf
-W16,55,OK,0158,AUT,Maier Marie,941,high,2017/result-sprint.pdf
+W16,55,OK,0158,AUT,Marie Maier,941,high,2017/result-sprint.pdf
 W16,56,OK,0176,LTU,Juste Skaisgiryte,948,high,2017/result-sprint.pdf
 W16,57,OK,0197,UKR,Alina Myroniuk,963,high,2017/result-sprint.pdf
 W16,57,OK,0355,POL,Julia Krempinska,963,high,2017/result-sprint.pdf
@@ -354,7 +354,7 @@ W18,56,OK,9969,LAT,Vilma Alberinga,934,high,2017/result-sprint.pdf
 W18,57,OK,0068,LAT,Eliza Ozola,935,high,2017/result-sprint.pdf
 W18,57,OK,9973,CZE,Jana Semradova,935,high,2017/result-sprint.pdf
 W18,59,OK,0067,LAT,Magda Cigle,944,high,2017/result-sprint.pdf
-W18,60,OK,9998,ESP,Inmaculada Crespo Gonzale,946,high,2017/result-sprint.pdf
+W18,60,OK,9998,ESP,Inmaculada Crespo,946,high,2017/result-sprint.pdf
 W18,61,OK,9981,IRL,Emer Perkins,948,high,2017/result-sprint.pdf
 W18,62,OK,0084,SLO,Nika Poljansek,951,high,2017/result-sprint.pdf
 W18,63,OK,9990,BEL,Hannah Thiels,959,high,2017/result-sprint.pdf
@@ -384,7 +384,7 @@ W18,86,OK,9980,IRL,Eadaoin McCavana,1216,high,2017/result-sprint.pdf
 W18,87,OK,9985,SLO,Polona Jezersek,1263,high,2017/result-sprint.pdf
 W18,88,OK,9957,UKR,Polina Kotliar,1312,high,2017/result-sprint.pdf
 W18,89,OK,9992,ROU,Denisa Tamas,1359,high,2017/result-sprint.pdf
-W18,90,OK,0084,FRA,Chatelain Eloise,1398,high,2017/result-sprint.pdf
+W18,90,OK,0084,FRA,Eloise Chatelain,1398,high,2017/result-sprint.pdf
 W18,91,OK,0078,BLR,Karyna Shpakouskaya,1415,high,2017/result-sprint.pdf
 W18,,MP,0059,RUS,Hilal Arslan,,high,2017/result-sprint.pdf
 W18,,MP,0072,CZE,Romanova Anastasia,,high,2017/result-sprint.pdf

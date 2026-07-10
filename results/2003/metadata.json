@@ -1,124 +1,100 @@
 {
-  "schema_version": "2.0-simple",
-  "year": 2003,
-  "title": "European Youth Orienteering Championships 2003",
   "city": "Pezinok",
   "country": "Slovakia",
   "date": "June 19-22",
-  "start_date": "2003-06-19",
   "end_date": "2003-06-22",
   "long": {
-    "place": null,
-    "map_name": null,
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
+        "control_points": 16,
         "distance_km": 6.6,
         "elevation_m": 265,
-        "control_points": 16,
         "field_size": 61
       },
       "M18": {
-        "place": null,
-        "map_name": null,
+        "control_points": 18,
         "distance_km": 7.9,
         "elevation_m": 360,
-        "control_points": 18,
         "field_size": 63
       },
       "W16": {
-        "place": null,
-        "map_name": null,
+        "control_points": 13,
         "distance_km": 5.5,
         "elevation_m": 215,
-        "control_points": 13,
         "field_size": 60
       },
       "W18": {
-        "place": null,
-        "map_name": null,
+        "control_points": 16,
         "distance_km": 6.3,
         "elevation_m": 220,
-        "control_points": 16,
         "field_size": 60
       }
-    }
-  },
-  "sprint": {
-    "place": null,
-    "map_name": null,
-    "categories": {
-      "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": 2.2,
-        "elevation_m": 0,
-        "control_points": 13,
-        "field_size": 57
-      },
-      "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": 2.3,
-        "elevation_m": 0,
-        "control_points": 17,
-        "field_size": 59
-      },
-      "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": 2.0,
-        "elevation_m": 0,
-        "control_points": 13,
-        "field_size": 58
-      },
-      "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": 2.0,
-        "elevation_m": 0,
-        "control_points": 15,
-        "field_size": 60
-      }
-    }
+    },
+    "map_name": "",
+    "place": ""
   },
   "relay": {
-    "place": null,
-    "map_name": null,
     "categories": {
       "M16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": "4.5-4.8",
-        "elevation_m": "120-145",
-        "control_points": "15-15",
+        "control_points": 15,
+        "distance_km": 4.7,
+        "elevation_m": 135,
         "field_size": 15
       },
       "M18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": "5.1-5.4",
-        "elevation_m": "190-220",
-        "control_points": "17-17",
+        "control_points": 17,
+        "distance_km": 5.3,
+        "elevation_m": 205,
         "field_size": 16
       },
       "W16": {
-        "place": null,
-        "map_name": null,
-        "distance_km": "3.6-3.8",
-        "elevation_m": "60-100",
-        "control_points": "13-13",
+        "control_points": 13,
+        "distance_km": 3.7,
+        "elevation_m": 100,
         "field_size": 16
       },
       "W18": {
-        "place": null,
-        "map_name": null,
-        "distance_km": "4.0-4.2",
-        "elevation_m": "130-145",
-        "control_points": "15-15",
+        "control_points": 15,
+        "distance_km": 4.1,
+        "elevation_m": 140,
         "field_size": 16
       }
-    }
-  }
+    },
+    "map_name": "",
+    "place": ""
+  },
+  "schema_version": "2.0-simple",
+  "sprint": {
+    "categories": {
+      "M16": {
+        "control_points": 13,
+        "distance_km": 2.2,
+        "elevation_m": 0,
+        "field_size": 57
+      },
+      "M18": {
+        "control_points": 17,
+        "distance_km": 2.3,
+        "elevation_m": 0,
+        "field_size": 59
+      },
+      "W16": {
+        "control_points": 13,
+        "distance_km": 2,
+        "elevation_m": 0,
+        "field_size": 58
+      },
+      "W18": {
+        "control_points": 15,
+        "distance_km": 2,
+        "elevation_m": 0,
+        "field_size": 60
+      }
+    },
+    "map_name": "",
+    "place": ""
+  },
+  "start_date": "2003-06-19",
+  "title": "European Youth Orienteering Championships 2003",
+  "year": 2003
 }

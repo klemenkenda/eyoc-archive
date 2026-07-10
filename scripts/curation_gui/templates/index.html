@@ -33,7 +33,10 @@
     <section id="rawPane">
       <div class="pane-header">
         <span>Original source</span>
-        <select id="rawFileSelect"></select>
+        <div>
+          <button id="rawViewToggle" class="btn btn-small hidden">Show original</button>
+          <select id="rawFileSelect"></select>
+        </div>
       </div>
       <iframe id="rawFrame" sandbox="allow-same-origin"></iframe>
       <div id="rawXmlWrap" class="hidden">

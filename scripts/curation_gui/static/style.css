@@ -126,8 +126,10 @@ select, input, textarea {
 #rawXmlTable th, #rawXmlTable td { border: 1px solid var(--border); padding: 3px 5px; }
 #rawXmlTable th { background: var(--panel); position: sticky; top: 0; text-align: left; white-space: nowrap; }
 #rawXmlTable tr:hover { background: #202330; }
-#rawXmlTable tr.row-non-eyoc { background: rgba(224, 86, 60, 0.2); }
-#rawXmlTable tr.row-non-eyoc:hover { background: rgba(224, 86, 60, 0.3); }
+#rawXmlTable tr.row-non-eyoc, #rawXmlTable tr.row-check-error { background: rgba(224, 86, 60, 0.2); }
+#rawXmlTable tr.row-non-eyoc:hover, #rawXmlTable tr.row-check-error:hover { background: rgba(224, 86, 60, 0.3); }
+#rawXmlTable tr.row-check-warning { background: rgba(224, 168, 60, 0.18); }
+#rawXmlTable tr.row-check-warning:hover { background: rgba(224, 168, 60, 0.28); }
 .raw-xml-meta-flag { color: var(--danger); }
 
 .warning {
